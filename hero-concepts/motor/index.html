@@ -1,0 +1,361 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual Learning — The motor, taken apart</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../shared.css">
+<style>
+:root{--accent:#ffb46b}
+.pin{height:720vh}
+.cue.scrolling{opacity:0}
+html.autoscroll .cue span::after{content:" · or just watch"}
+</style>
+</head>
+<body data-concept="2">
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../logo.png" alt="" width="30"> Visual Learning</a>
+    <div class="pill">
+      <a href="../" data-c="0">All four</a>
+      <a href="../cell/" data-c="1"><small>01</small>The cell</a>
+      <a href="../motor/" data-c="2"><small>02</small>The motor</a>
+      <a href="../scale/" data-c="3"><small>03</small>Leaf to atom</a>
+      <a href="../signal/" data-c="4"><small>04</small>The signal</a>
+    </div>
+    <div class="nav-r">
+      <a class="login" href="https://www.visuallearning.in/" target="_blank" rel="noopener">Log in</a>
+      <a class="btn btn-primary btn-sm" href="https://www.visuallearning.in/auth/signup" target="_blank" rel="noopener">Start free</a>
+    </div>
+  </div>
+</nav>
+
+<div class="pin" id="pin">
+<section class="hero" id="top">
+  <canvas class="gl" id="gl" aria-label="An electric motor that comes apart as you scroll"></canvas>
+  <div class="vignette"></div>
+  <div class="grain"></div>
+  <div class="labels" id="labels"><svg id="leaders"></svg></div>
+  <div class="ui">
+    <div class="wrap ui-top">
+      <p class="eyebrow"><b>Concept 02</b> · The motor, taken apart · scroll-driven</p>
+      <div class="tag"><i></i> Live render · not a video</div>
+    </div>
+    <div class="wrap ui-mid"><h1 class="hero-h1 display" id="h1">Take it apart.<br><span class="thin">Then watch it run.</span></h1></div>
+    <div class="wrap ui-bottom">
+      <div class="beats" id="beats"></div>
+      <div class="dots" id="dots"></div>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://www.visuallearning.in/auth/signup" target="_blank" rel="noopener">Start with your class</a>
+        <a class="btn btn-ghost" href="#more">How the site works</a>
+      </div>
+    </div>
+  </div>
+  <div class="cue show" id="cue"><span>Scroll to take it apart</span><i></i></div>
+  <div class="nogl" id="nogl"><p>This page draws an electric motor in 3D in your browser. Your browser has turned off WebGL, so the still version is on the main site.</p></div>
+</section>
+</div>
+
+<div class="after" id="more">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="n">3,29,000</div><div class="l">YouTube subscribers</div></div>
+      <div class="stat"><div class="n">500+</div><div class="l">3D animated videos</div></div>
+      <div class="stat"><div class="n">104</div><div class="l">Chapter guides on the site</div></div>
+      <div class="stat"><div class="n">1,000+</div><div class="l">Practice questions</div></div>
+    </div>
+  </div>
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">What the home page is saying</p>
+        <h2 class="display">You just took a motor apart with your thumb. That is the whole idea.</h2>
+        <p class="lede">A textbook shows the motor as one diagram. The channel's videos take the same machine apart, part by part, and then run it, and the site puts that video next to the notes, the NCERT solutions, the past board questions and a quiz for the chapter.</p>
+      </div>
+      <div class="cards">
+        <div class="card"><div class="num">01</div><h3>Watch</h3><p>The chapter as a 3D video, ten minutes to an hour, in Hindi.</p></div>
+        <div class="card"><div class="num">02</div><h3>Read and solve</h3><p>Visual notes, every NCERT question answered, and the board questions from past years with marking.</p></div>
+        <div class="card"><div class="num">03</div><h3>Test yourself</h3><p>Chapter quizzes with the reasoning shown for every answer, right or wrong.</p></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrap foot"><span>Visual Learning AI Pvt. Ltd.</span><span>Concept 02 of 04 · the current site is unchanged</span></div>
+</div>
+
+<script src="../lib/three.min.js"></script>
+<script src="../lib/CopyShader.js"></script>
+<script src="../lib/LuminosityHighPassShader.js"></script>
+<script src="../lib/FXAAShader.js"></script>
+<script src="../lib/GammaCorrectionShader.js"></script>
+<script src="../lib/EffectComposer.js"></script>
+<script src="../lib/RenderPass.js"></script>
+<script src="../lib/ShaderPass.js"></script>
+<script src="../lib/MaskPass.js"></script>
+<script src="../lib/UnrealBloomPass.js"></script>
+<script src="../shared.js"></script>
+<script>
+(() => {
+  VL.nav();
+  const canvas = document.getElementById('gl');
+  const api = VL.setup(canvas, { bg: 0x0a0c12, bloom: { strength: 0.35, radius: 0.4, threshold: 0.85 }, near: 0.05, far: 200, exposure: 0.82, dpr: 1.5 });
+  if (!api) { document.getElementById('nogl').classList.add('show'); return; }
+  const { scene, camera, renderer } = api;
+  const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+  const rnd = VL.rng(5);
+  renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
+
+  /* ---- studio environment for the metals ---- */
+  {
+    const pm = new THREE.PMREMGenerator(renderer);
+    const env = new THREE.Scene(); env.background = new THREE.Color(0x14171f);
+    const soft = (w, h, pos, col, k) => { const m = new THREE.Mesh(new THREE.PlaneGeometry(w, h), new THREE.MeshBasicMaterial({ color: new THREE.Color(col).multiplyScalar(k), side: THREE.DoubleSide })); m.position.copy(pos); m.lookAt(0, 0, 0); env.add(m); };
+    soft(10, 5, V3(0, 9, 3), 0xfff1de, 1.3); soft(4, 8, V3(-10, 3, 4), 0xbfe3ff, 0.8); soft(4, 8, V3(10, 1, -5), 0xffc9a3, 0.7); soft(14, 3, V3(0, -6, 6), 0x8fa0c0, 0.2);
+    scene.environment = pm.fromScene(env, 0.05).texture; pm.dispose();
+  }
+  scene.add(new THREE.HemisphereLight(0xdfe6f5, 0x2a1a10, 0.14));
+  const keyL = new THREE.DirectionalLight(0xfff1dc, 1.0); keyL.position.set(5, 10, 6); keyL.castShadow = true;
+  keyL.shadow.mapSize.set(1024, 1024); keyL.shadow.camera.left = -8; keyL.shadow.camera.right = 8; keyL.shadow.camera.top = 8; keyL.shadow.camera.bottom = -8; keyL.shadow.camera.near = 2; keyL.shadow.camera.far = 30; keyL.shadow.bias = -0.0008; keyL.shadow.radius = 4;
+  scene.add(keyL);
+  const rim = new THREE.PointLight(0x7fd8ff, 0.45, 40); rim.position.set(-6, 3, -8); scene.add(rim);
+  const warm = new THREE.PointLight(0xffb46b, 0.25, 40); warm.position.set(6, -2, 6); scene.add(warm);
+
+  /* ---- materials ---- */
+  const copper = new THREE.MeshStandardMaterial({ color: 0xa8521c, metalness: 0.9, roughness: 0.34, envMapIntensity: 0.8 });
+  const steel = new THREE.MeshStandardMaterial({ color: 0xb4b9c2, metalness: 1.0, roughness: 0.34, envMapIntensity: 0.8 });
+  const graphite = new THREE.MeshStandardMaterial({ color: 0x1e2126, metalness: 0.25, roughness: 0.72 });
+  const magN = new THREE.MeshStandardMaterial({ color: 0xb81f1f, metalness: 0.05, roughness: 0.55, envMapIntensity: 0.35 });
+  const magS = new THREE.MeshStandardMaterial({ color: 0x1f3fc4, metalness: 0.05, roughness: 0.55, envMapIntensity: 0.35 });
+  const insul = new THREE.MeshStandardMaterial({ color: 0x1c1f27, metalness: 0.2, roughness: 0.65 });
+  const wireR = new THREE.MeshStandardMaterial({ color: 0xb32222, roughness: 0.5 });
+  const wireK = new THREE.MeshStandardMaterial({ color: 0x141414, roughness: 0.55 });
+
+  /* ---- plinth ---- */
+  {
+    const c = document.createElement('canvas'); c.width = c.height = 512; const g = c.getContext('2d');
+    const grd = g.createRadialGradient(256, 256, 20, 256, 256, 256); grd.addColorStop(0, '#1a1e28'); grd.addColorStop(0.55, '#0b0d13'); grd.addColorStop(1, '#07080c');
+    g.fillStyle = grd; g.fillRect(0, 0, 512, 512);
+    const tex = new THREE.CanvasTexture(c); tex.encoding = THREE.sRGBEncoding;
+    const floor = new THREE.Mesh(new THREE.CircleGeometry(16, 64), new THREE.MeshStandardMaterial({ map: tex, roughness: 0.92, metalness: 0 }));
+    floor.rotation.x = -Math.PI / 2; floor.position.y = -2.6; floor.receiveShadow = true; scene.add(floor);
+    const back = new THREE.Mesh(new THREE.SphereGeometry(70, 32, 16), new THREE.ShaderMaterial({ side: THREE.BackSide, depthWrite: false, uniforms: {}, vertexShader: 'varying vec3 vP; void main(){ vP=position; gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0); }', fragmentShader: 'varying vec3 vP; void main(){ float h=normalize(vP).y; vec3 top=vec3(0.03,0.035,0.06); vec3 hor=vec3(0.13,0.13,0.17); vec3 bot=vec3(0.02,0.02,0.03); vec3 c=h>0.0?mix(hor,top,smoothstep(0.0,0.6,h)):mix(hor,bot,smoothstep(0.0,0.35,-h)); gl_FragColor=vec4(c,1.0); }' }));
+    scene.add(back);
+  }
+
+  /* ---- the motor ---- */
+  const W = 1.6, L = 2.0, ZC = L + 0.75;      // half-width, half-length, commutator z
+  const motor = new THREE.Group(); scene.add(motor);
+  const parts = {};
+  const shadowed = m => { m.castShadow = true; return m; };
+
+  // coil (5 turns) rotates about Z
+  const rotor = new THREE.Group(); motor.add(rotor); parts.rotor = rotor;
+  // build the rounded rectangle explicitly (counter-clockwise seen from +Y): start at (-W, 0, -L+r)
+  const rr = (() => {
+    const pts = [], r = 0.3, n = 8;
+    const arc = (cx, cz, a0, a1) => { for (let i = 1; i <= n; i++) { const a = a0 + (a1 - a0) * i / n; pts.push(V3(cx + r * Math.cos(a), 0, cz + r * Math.sin(a))); } };
+    pts.push(V3(-W, 0, -L + r));
+    pts.push(V3(-W, 0, L - r)); arc(-W + r, L - r, Math.PI, Math.PI / 2);
+    pts.push(V3(W - r, 0, L)); arc(W - r, L - r, Math.PI / 2, 0);
+    pts.push(V3(W, 0, -L + r)); arc(W - r, -L + r, 0, -Math.PI / 2);
+    pts.push(V3(-W + r, 0, -L)); arc(-W + r, -L + r, -Math.PI / 2, -Math.PI);
+    return pts;
+  })();
+  const coilCurve = new THREE.CatmullRomCurve3(rr, true, 'centripetal');
+  const coilGeo = new THREE.TubeGeometry(coilCurve, 260, 0.055, 10, true);
+  const coilGroup = new THREE.Group(); rotor.add(coilGroup); parts.coil = coilGroup;
+  for (let i = 0; i < 5; i++) { const m = shadowed(new THREE.Mesh(coilGeo, copper)); m.position.y = (i - 2) * 0.125; coilGroup.add(m); }
+  // frame the coil is wound on (thin insulating frame)
+  { const f = new THREE.Mesh(new THREE.BoxGeometry(W * 2 - 0.7, 0.66, 0.1), insul); coilGroup.add(f); const f2 = new THREE.Mesh(new THREE.BoxGeometry(0.1, 0.66, L * 2 - 0.7), insul); coilGroup.add(f2); }
+  // axle
+  const axle = shadowed(new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.07, 7.0, 20), steel)); axle.rotation.x = Math.PI / 2; axle.position.z = 0.4; rotor.add(axle); parts.axle = axle;
+  // commutator: two copper halves on an insulating core
+  const comm = new THREE.Group(); comm.position.z = ZC; rotor.add(comm); parts.comm = comm;
+  { const core = new THREE.Mesh(new THREE.CylinderGeometry(0.36, 0.36, 0.62, 24), insul); core.rotation.x = Math.PI / 2; comm.add(core);
+    const gap = 0.16;
+    for (let h = 0; h < 2; h++) { const g = new THREE.CylinderGeometry(0.44, 0.44, 0.56, 28, 1, false, gap / 2 + h * Math.PI, Math.PI - gap); const m = shadowed(new THREE.Mesh(g, copper)); m.rotation.x = Math.PI / 2; comm.add(m); }
+    // leads from the coil to the two halves
+    const leadA = new THREE.Mesh(VL.tube([V3(-W + 0.35, -0.25, L - 0.1), V3(-0.6, -0.2, L + 0.35), V3(-0.25, 0.32, ZC - 0.25)], 0.032, 40, 6), copper); rotor.add(leadA);
+    const leadB = new THREE.Mesh(VL.tube([V3(W - 0.35, 0.25, L - 0.1), V3(0.6, 0.2, L + 0.35), V3(0.25, -0.32, ZC - 0.25)], 0.032, 40, 6), copper); rotor.add(leadB);
+  }
+  // brushes (fixed)
+  const brushes = new THREE.Group(); motor.add(brushes); parts.brushes = brushes;
+  for (const s of [-1, 1]) { const b = shadowed(new THREE.Mesh(new THREE.BoxGeometry(0.24, 0.42, 0.34), graphite)); b.position.set(s * 0.58, 0, ZC); brushes.add(b); const holder = new THREE.Mesh(new THREE.BoxGeometry(0.12, 0.14, 0.2), steel); holder.position.set(s * 0.78, 0, ZC); brushes.add(holder); }
+  // magnets (curved pole pieces)
+  function magnet(mat, flip) {
+    const Ri = 2.55, Ro = 3.25, a = Math.PI / 4;
+    const sh = new THREE.Shape();
+    sh.moveTo(Ri * Math.cos(-a), Ri * Math.sin(-a));
+    sh.absarc(0, 0, Ri, -a, a, false);
+    sh.lineTo(Ro * Math.cos(a), Ro * Math.sin(a));
+    sh.absarc(0, 0, Ro, a, -a, true);
+    sh.closePath();
+    const geo = new THREE.ExtrudeGeometry(sh, { depth: 3.4, bevelEnabled: true, bevelThickness: 0.06, bevelSize: 0.06, bevelSegments: 3, curveSegments: 24 });
+    geo.translate(0, 0, -1.7);
+    const m = shadowed(new THREE.Mesh(geo, mat)); m.rotation.z = flip ? Math.PI : 0;
+    const g = new THREE.Group(); g.add(m); g.position.z = 0.2; motor.add(g);
+    // pole letter
+    const c = document.createElement('canvas'); c.width = c.height = 256; const gg = c.getContext('2d'); gg.fillStyle = 'rgba(255,255,255,0)'; gg.fillRect(0, 0, 256, 256);
+    gg.fillStyle = '#fff'; gg.font = '700 190px Instrument Sans, Arial'; gg.textAlign = 'center'; gg.textBaseline = 'middle'; gg.fillText(flip ? 'N' : 'S', 128, 140);
+    const tex = new THREE.CanvasTexture(c); tex.encoding = THREE.sRGBEncoding;
+    const p = new THREE.Mesh(new THREE.PlaneGeometry(1.3, 1.3), new THREE.MeshBasicMaterial({ map: tex, transparent: true, opacity: 0.9 }));
+    p.position.set((flip ? -1 : 1) * (Ro + 0.02), 0, 0); p.rotation.y = flip ? -Math.PI / 2 : Math.PI / 2; g.add(p);
+    return g;
+  }
+  parts.magN = magnet(magN, true); parts.magS = magnet(magS, false);
+  // battery + wires
+  const batt = new THREE.Group(); batt.position.set(0, -1.9, 4.9); motor.add(batt); parts.batt = batt;
+  { const body = shadowed(new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.42, 1.7, 32), new THREE.MeshStandardMaterial({ color: 0x22262e, metalness: 0.35, roughness: 0.5 }))); body.rotation.z = Math.PI / 2; batt.add(body);
+    const band = new THREE.Mesh(new THREE.CylinderGeometry(0.425, 0.425, 0.9, 32), new THREE.MeshStandardMaterial({ color: 0xd9d2c2, roughness: 0.6 })); band.rotation.z = Math.PI / 2; band.position.x = 0.1; batt.add(band);
+    const cap = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.16, 0.14, 24), copper); cap.rotation.z = Math.PI / 2; cap.position.x = 0.92; batt.add(cap);
+    const capK = new THREE.Mesh(new THREE.CylinderGeometry(0.3, 0.3, 0.06, 24), steel); capK.rotation.z = Math.PI / 2; capK.position.x = -0.87; batt.add(capK);
+  }
+  const wires = new THREE.Group(); motor.add(wires); parts.wires = wires;
+  const wireGeoR = VL.tube([V3(0.9, 0, ZC + 0.25), V3(1.5, -0.6, ZC + 0.9), V3(1.35, -1.9, 4.7), V3(1.0, -1.9, 4.9)], 0.035, 60, 8);
+  const wireGeoK = VL.tube([V3(-0.9, 0, ZC + 0.25), V3(-1.5, -0.6, ZC + 0.9), V3(-1.35, -1.9, 4.7), V3(-0.9, -1.9, 4.9)], 0.035, 60, 8);
+  wires.add(new THREE.Mesh(wireGeoR, wireR), new THREE.Mesh(wireGeoK, wireK));
+  // bearings / stands
+  for (const z of [-2.7, 3.55]) { const ring = new THREE.Mesh(new THREE.TorusGeometry(0.16, 0.06, 10, 24), steel); ring.position.set(0, 0, z + 0.4); motor.add(ring); const post = new THREE.Mesh(new THREE.BoxGeometry(0.14, 2.5, 0.14), insul); post.position.set(0, -1.35, z + 0.4); motor.add(post); }
+
+  /* ---- field lines (flowing dashes), current particles, force arrows ---- */
+  const flowMat = new THREE.ShaderMaterial({
+    uniforms: { uTime: { value: 0 }, uOn: { value: 0 }, uColor: { value: new THREE.Color(0x8fe4ff) } },
+    vertexShader: `varying vec2 vUv; void main(){ vUv=uv; gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.0); }`,
+    fragmentShader: `uniform float uTime,uOn; uniform vec3 uColor; varying vec2 vUv;
+      void main(){ float d=fract(vUv.x*9.0-uTime*0.7); float dash=smoothstep(0.0,0.12,d)*(1.0-smoothstep(0.42,0.55,d)); float a=(0.22+0.78*dash)*uOn; gl_FragColor=vec4(uColor*(0.5+1.3*dash),a); }`,
+    transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+  });
+  const field = new THREE.Group(); motor.add(field);
+  for (const y of [-1.3, -0.65, 0, 0.65, 1.3]) for (const z of [-1.1, 0, 1.1]) {
+    const bow = 0.22 * y;
+    const pts = [V3(-2.5, y, z), V3(-1.2, y + bow, z), V3(0, y + bow * 1.2, z), V3(1.2, y + bow, z), V3(2.5, y, z)];
+    field.add(new THREE.Mesh(VL.tube(pts, 0.014, 40, 5), flowMat));
+  }
+  // current particles along the middle turn
+  const NP = 160;
+  const cur = VL.points(NP, (i, c) => { c.set(0xffd166); return [0, 0, 0, 1]; }, { size: 0.26, opacity: 0.0, scale: 220, maxSize: 30, nearFade: 0.2 });
+  rotor.add(cur);
+  const curPos = cur.geometry.attributes.position;
+  // force arrows
+  function arrow(color) {
+    const g = new THREE.Group();
+    const mat = new THREE.MeshStandardMaterial({ color, emissive: color, emissiveIntensity: 0.55, roughness: 0.4 });
+    const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.045, 0.045, 0.8, 12), mat); shaft.position.y = 0.4; g.add(shaft);
+    const head = new THREE.Mesh(new THREE.ConeGeometry(0.14, 0.32, 16), mat); head.position.y = 0.96; g.add(head);
+    g.visible = false; return g;
+  }
+  const fA = arrow(0x6dff9a), fB = arrow(0x6dff9a); scene.add(fA, fB);
+
+  /* ---- labels for the exploded view ---- */
+  const labelDefs = [
+    { text: 'Magnet · north pole', sub: 'sets up the field', part: 'magN', off: [-3.4, 1.0, 0], dx: -120, dy: -70 },
+    { text: 'Magnet · south pole', sub: 'field runs N to S', part: 'magS', off: [3.4, 1.0, 0], dx: 120, dy: -70 },
+    { text: 'Coil ABCD', sub: 'the armature, five turns', part: 'coil', off: [0, 0.4, -1.2], dx: 0, dy: -90 },
+    { text: 'Split ring', sub: 'the commutator', part: 'comm', off: [0, 0.5, 0], dx: 130, dy: 40 },
+    { text: 'Brushes', sub: 'carbon, they press on the ring', part: 'brushes', off: [-0.7, -0.2, ZC], dx: -130, dy: 60 },
+    { text: 'Battery', sub: 'the source of current', part: 'batt', off: [0, -0.5, 0], dx: 0, dy: 80 },
+    { text: 'Axle', sub: 'the coil turns on it', part: 'axle', off: [0, 0, -3.0], dx: -90, dy: 50 },
+  ];
+  const labelsEl = document.getElementById('labels'); const svg = document.getElementById('leaders');
+  labelDefs.forEach(d => { const el = document.createElement('div'); el.className = 'lbl'; el.innerHTML = `${d.text}<small>${d.sub}</small>`; labelsEl.appendChild(el); d.el = el; const ln = document.createElementNS('http://www.w3.org/2000/svg', 'line'); svg.appendChild(ln); d.ln = ln; const dot = document.createElementNS('http://www.w3.org/2000/svg', 'circle'); dot.setAttribute('r', '3'); svg.appendChild(dot); d.dot = dot; });
+  const tmpV = new THREE.Vector3();
+  const sizeV = new THREE.Vector2();
+  function updateLabels(show) {
+    api.renderer.getSize(sizeV); const w = sizeV.x, h = sizeV.y;
+    labelDefs.forEach(d => {
+      const obj = parts[d.part]; tmpV.set(d.off[0], d.off[1], d.off[2]); if (d.part === 'axle') tmpV.set(d.off[0], d.off[2], d.off[1]); obj.localToWorld(tmpV);
+      tmpV.project(camera);
+      const vis = show && tmpV.z < 1;
+      d.el.classList.toggle('show', vis); d.ln.style.opacity = vis ? 1 : 0; d.dot.style.opacity = vis ? 1 : 0;
+      if (!vis) return;
+      const ax = (tmpV.x * 0.5 + 0.5) * w, ay = (-tmpV.y * 0.5 + 0.5) * h;
+      const lx = ax + d.dx, ly = ay + d.dy;
+      d.el.style.left = lx + 'px'; d.el.style.top = ly + 'px';
+      d.ln.setAttribute('x1', ax); d.ln.setAttribute('y1', ay); d.ln.setAttribute('x2', lx); d.ln.setAttribute('y2', ly + (d.dy > 0 ? -16 : 16));
+      d.dot.setAttribute('cx', ax); d.dot.setAttribute('cy', ay);
+    });
+  }
+
+  /* ---- camera script over scroll progress p ---- */
+  const keys = [
+    { t: 0.00, orbit: { c: [0, 0, 0.6], r: 9.6, a: -0.55, y: 2.6 }, fov: 42 },
+    { t: 0.12, orbit: { c: [0, 0, 0.6], r: 9.0, a: -0.1, y: 2.2 }, fov: 42 },
+    { t: 0.30, orbit: { c: [0, 0.4, 0.6], r: 14.5, a: 0.35, y: 4.4 }, fov: 42 },
+    { t: 0.45, orbit: { c: [0, 0.4, 0.6], r: 14.5, a: -0.5, y: 2.8 }, fov: 42 },
+    { t: 0.60, orbit: { c: [0, 0, 0.6], r: 8.8, a: -0.15, y: 1.5 }, fov: 44 },
+    { t: 0.75, orbit: { c: [0, 0, 0.6], r: 7.8, a: 0.6, y: 2.8 }, fov: 44 },
+    { t: 0.88, pos: [1.7, 1.1, 5.6], look: [0, 0, ZC], fov: 36 },
+    { t: 1.00, orbit: { c: [0, 0, 0.6], r: 10.5, a: -0.75, y: 3.2 }, fov: 42 },
+  ];
+  const director = new VL.Director(keys);
+  const beats = [
+    { t: 0.00, kicker: 'Class 10 · Physics · Magnetic effects of electric current', title: 'An electric motor.', body: 'A coil, two magnets, a battery and a split ring. Scroll, and it comes apart.' },
+    { t: 0.12, kicker: 'Exploded view', title: 'Taken apart.', body: 'Every part, in the order it matters. The magnets set up the field, the coil carries the current, and the split ring keeps it turning.' },
+    { t: 0.45, kicker: 'The magnetic field', title: 'Between the poles, a magnetic field.', body: 'From north to south, straight across the coil. The lines are drawn, the field is real.' },
+    { t: 0.60, kicker: 'Force on a current', title: 'Current in a field feels a force.', body: 'The two arms carry current in opposite directions, so the forces on them point opposite ways. The coil turns.' },
+    { t: 0.75, kicker: 'The commutator', title: 'Half a turn later, the ring swaps the current.', body: 'Without the split ring the coil would rock back and forth. With it, the forces keep pushing the same way round.' },
+    { t: 0.90, kicker: 'Visual Learning', title: 'That is the whole motor.', body: 'The chapter goes on to the generator, which is the same machine run backwards. That is on the site, in 3D and in Hindi.' },
+  ];
+  const caps = VL.captions(document.getElementById('beats'), beats);
+  const pin = document.getElementById('pin');
+  const maxScroll = () => pin.offsetHeight - innerHeight;
+  const dotsUI = VL.dots(document.getElementById('dots'), beats, 1, v => { auto.stop(); scrollTo({ top: v * maxScroll(), behavior: 'smooth' }); });
+  const h1 = document.getElementById('h1'); const cue = document.getElementById('cue');
+  const auto = VL.autoScroll({ speed: () => maxScroll() / 46, max: maxScroll, delay: 1800 });
+
+  const cam = { pos: new THREE.Vector3(), look: new THREE.Vector3(), fov: 50 };
+  let theta = 0, pForced = null;
+  const tmp = new THREE.Vector3(), tmp2 = new THREE.Vector3();
+
+  const ticker = VL.loop((dt, now) => {
+    const p = pForced ?? VL.clamp(scrollY / Math.max(1, maxScroll()), 0, 1);
+    director.at(p, cam);
+    // idle drift + parallax
+    camera.position.copy(cam.pos); camera.lookAt(cam.look); camera.fov = cam.fov; camera.updateProjectionMatrix();
+    VL.mouseStep(dt); const amp = 0.025 * cam.pos.distanceTo(cam.look);
+    camera.translateX(VL.mouse.x * amp + Math.sin(now * 0.25) * amp * 0.25); camera.translateY(VL.mouse.y * amp * 0.6 + Math.cos(now * 0.2) * amp * 0.15);
+    camera.updateMatrixWorld(true); camera.matrixWorldInverse.copy(camera.matrixWorld).invert();
+
+    // explode amount and rotation
+    const ex = VL.smooth(0.12, 0.30, p) * (1 - VL.smooth(0.45, 0.60, p));
+    parts.magN.position.x = -2.9 * ex; parts.magS.position.x = 2.9 * ex;
+    parts.coil.position.y = 2.3 * ex; parts.comm.position.z = ZC + 1.6 * ex; parts.brushes.position.z = 1.6 * ex; parts.brushes.scale.x = 1 + 1.1 * ex;
+    parts.batt.position.set(0, -1.9 - 0.7 * ex, 4.9 + 1.5 * ex); parts.wires.visible = ex < 0.05;
+    let omega = 0;
+    if (p < 0.12) omega = 1.1 * (1 - VL.smooth(0.06, 0.12, p));
+    else if (p < 0.60) omega = 0;
+    else if (p < 0.75) omega = 0.9 * VL.smooth(0.62, 0.68, p);
+    else if (p < 0.90) omega = 0.75;
+    else omega = 0.75 + 2.6 * VL.smooth(0.90, 0.97, p);
+    if (omega > 0) theta -= omega * dt;
+    else { const target = Math.round(theta / Math.PI) * Math.PI; theta += (target - theta) * Math.min(1, dt * 3); }
+    rotor.rotation.z = theta;
+    // field, current, forces
+    const fieldOn = VL.smooth(0.45, 0.52, p) * (1 - VL.smooth(0.96, 1.0, p));
+    flowMat.uniforms.uOn.value = fieldOn; flowMat.uniforms.uTime.value = now;
+    const dir = Math.cos(theta) >= 0 ? 1 : -1;
+    const curOn = VL.smooth(0.60, 0.65, p);
+    cur.u.uOpacity.value = 0.9 * curOn; cur.u.uTime.value = now;
+    if (curOn > 0) { for (let i = 0; i < NP; i++) { const u = ((i / NP) + dir * now * 0.12) % 1; const uu = (u + 1) % 1; coilCurve.getPointAt(uu, tmp); curPos.setXYZ(i, tmp.x, tmp.y, tmp.z); } curPos.needsUpdate = true; }
+    const fOn = curOn > 0.5 && p < 0.96;
+    fA.visible = fB.visible = fOn;
+    if (fOn) {
+      tmp.set(-W, 0, 0).applyAxisAngle(V3(0, 0, 1), theta); tmp2.set(W, 0, 0).applyAxisAngle(V3(0, 0, 1), theta);
+      fA.position.copy(tmp); fB.position.copy(tmp2); fA.rotation.z = dir > 0 ? 0 : Math.PI; fB.rotation.z = dir > 0 ? Math.PI : 0;
+      fA.position.y += dir > 0 ? 0.1 : -0.1; fB.position.y += dir > 0 ? -0.1 : 0.1;
+    }
+    updateLabels(ex > 0.6);
+    caps.update(p); dotsUI.update(p);
+    h1.classList.toggle('show', p < 0.08 || p > 0.93);
+    cue.classList.toggle('scrolling', p > 0.02);
+    api.render();
+  }, api);
+
+  window.__vl = { seek: v => { pForced = v; ticker.tick(0); }, free: () => { pForced = null; }, tick: dt => ticker.tick(dt), api, get p() { return pForced ?? scrollY / maxScroll(); } };
+})();
+</script>
+</body>
+</html>

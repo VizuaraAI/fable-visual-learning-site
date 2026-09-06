@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual Learning — Leaf to atom</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="../shared.css">
+<style>
+:root{--accent:#b6ff8a}
+.pin{height:920vh}
+.cue.scrolling{opacity:0}
+html.autoscroll .cue span::after{content:" · or just watch"}
+.rail{position:absolute;right:38px;top:50%;transform:translateY(-50%);width:2px;height:40vh;background:rgba(255,255,255,.12);border-radius:2px;pointer-events:none}
+.rail i{position:absolute;left:-3px;width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 12px var(--accent);top:0;transform:translateY(-50%)}
+.rail b{position:absolute;right:16px;font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--dim);white-space:nowrap;transform:translateY(-50%)}
+.rail b.on{color:var(--paper)}
+@media(max-width:900px){.rail{display:none}}
+</style>
+</head>
+<body data-concept="3">
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="../"><img src="../logo.png" alt="" width="30"> Visual Learning</a>
+    <div class="pill">
+      <a href="../" data-c="0">All four</a>
+      <a href="../cell/" data-c="1"><small>01</small>The cell</a>
+      <a href="../motor/" data-c="2"><small>02</small>The motor</a>
+      <a href="../scale/" data-c="3"><small>03</small>Leaf to atom</a>
+      <a href="../signal/" data-c="4"><small>04</small>The signal</a>
+    </div>
+    <div class="nav-r">
+      <a class="login" href="https://www.visuallearning.in/" target="_blank" rel="noopener">Log in</a>
+      <a class="btn btn-primary btn-sm" href="https://www.visuallearning.in/auth/signup" target="_blank" rel="noopener">Start free</a>
+    </div>
+  </div>
+</nav>
+
+<div class="pin" id="pin">
+<section class="hero" id="top">
+  <canvas class="gl" id="gl" aria-label="One continuous zoom from a leaf down to a magnesium atom"></canvas>
+  <div class="vignette"></div>
+  <div class="grain"></div>
+  <div class="rail" id="rail"><i id="railDot"></i></div>
+  <div class="ui">
+    <div class="wrap ui-top">
+      <p class="eyebrow"><b>Concept 03</b> · Leaf to atom · one continuous zoom, scroll-driven</p>
+      <div class="readout" id="readout"><small>Across the screen</small><b>8.0 cm</b><span id="mag">×1</span></div>
+    </div>
+    <div class="wrap ui-mid"><h1 class="hero-h1 display" id="h1">Keep going in.</h1></div>
+    <div class="wrap ui-bottom">
+      <div class="beats" id="beats"></div>
+      <div class="dots" id="dots"></div>
+      <div class="ctas">
+        <a class="btn btn-primary" href="https://www.visuallearning.in/auth/signup" target="_blank" rel="noopener">Start with your class</a>
+        <a class="btn btn-ghost" href="#more">How the site works</a>
+      </div>
+    </div>
+  </div>
+  <div class="cue show" id="cue"><span>Scroll to zoom in</span><i></i></div>
+  <div class="nogl" id="nogl"><p>This page draws a leaf, its cells and one of its atoms in 3D in your browser. Your browser has turned off WebGL, so the still version is on the main site.</p></div>
+</section>
+</div>
+
+<div class="after" id="more">
+  <div class="wrap">
+    <div class="stats">
+      <div class="stat"><div class="n">3,29,000</div><div class="l">YouTube subscribers</div></div>
+      <div class="stat"><div class="n">500+</div><div class="l">3D animated videos</div></div>
+      <div class="stat"><div class="n">104</div><div class="l">Chapter guides on the site</div></div>
+      <div class="stat"><div class="n">1,000+</div><div class="l">Practice questions</div></div>
+    </div>
+  </div>
+  <section class="sec">
+    <div class="wrap">
+      <div class="sec-head">
+        <p class="eyebrow">What the home page is saying</p>
+        <h2 class="display">Eight orders of magnitude, and two chapters, in one scroll.</h2>
+        <p class="lede">Photosynthesis is in the Class 10 biology syllabus and the structure of the atom is in Class 9 chemistry. They are the same leaf. The channel's videos move between scales like this, and the site puts each chapter's video next to its notes, NCERT solutions, past board questions and a quiz.</p>
+      </div>
+      <div class="cards">
+        <div class="card"><div class="num">01</div><h3>Watch</h3><p>The chapter as a 3D video, ten minutes to an hour, in Hindi.</p></div>
+        <div class="card"><div class="num">02</div><h3>Read and solve</h3><p>Visual notes, every NCERT question answered, and the board questions from past years with marking.</p></div>
+        <div class="card"><div class="num">03</div><h3>Test yourself</h3><p>Chapter quizzes with the reasoning shown for every answer, right or wrong.</p></div>
+      </div>
+    </div>
+  </section>
+  <div class="wrap foot"><span>Visual Learning AI Pvt. Ltd.</span><span>Concept 03 of 04 · the current site is unchanged</span></div>
+</div>
+
+<script src="../lib/three.min.js"></script>
+<script src="../lib/CopyShader.js"></script>
+<script src="../lib/LuminosityHighPassShader.js"></script>
+<script src="../lib/FXAAShader.js"></script>
+<script src="../lib/GammaCorrectionShader.js"></script>
+<script src="../lib/EffectComposer.js"></script>
+<script src="../lib/RenderPass.js"></script>
+<script src="../lib/ShaderPass.js"></script>
+<script src="../lib/MaskPass.js"></script>
+<script src="../lib/UnrealBloomPass.js"></script>
+<script src="../shared.js"></script>
+<script>
+(() => {
+  VL.nav();
+  const canvas = document.getElementById('gl');
+  const api = VL.setup(canvas, { bg: 0x061a0c, bloom: { strength: 0.5, radius: 0.5, threshold: 0.8 }, near: 0.05, far: 120, exposure: 1.0, dpr: 1.5, fov: 45 });
+  if (!api) { document.getElementById('nogl').classList.add('show'); return; }
+  const { scene, camera } = api;
+  const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+  const rnd = VL.rng(21);
+  camera.position.set(0, 0, 9); camera.lookAt(0, 0, 0);
+  scene.add(new THREE.HemisphereLight(0xe8ffd0, 0x0a2a10, 0.6));
+  const sun = new THREE.DirectionalLight(0xfff4d6, 1.1); sun.position.set(4, 7, 8); scene.add(sun);
+  const fillL = new THREE.PointLight(0x9ad8ff, 0.5, 60); fillL.position.set(-6, -3, 6); scene.add(fillL);
+
+  const root = new THREE.Group(); scene.add(root);
+  const KMAX = 8.5;
+  const layers = [];
+  const timeMats = [];
+  function layer(k, name, build) {
+    const g = new THREE.Group(); root.add(g);
+    const L = { k, name, g, mats: [], shell: [], shellWin: [0.12, 0.45], fadeIn: [0.015, 0.09], update: null, bg: null };
+    L.reg = (mat, base) => { L.mats.push({ mat, base: base ?? (mat.u ? 1 : (mat.uniforms && mat.uniforms.uOpacity ? mat.uniforms.uOpacity.value : mat.opacity)) }); if (mat.u) timeMats.push(mat); return mat; };
+    L.setOpacity = o => { for (const { mat, base } of L.mats) { if (mat.u) mat.u.uFade.value = o; else if (mat.uniforms && mat.uniforms.uOpacity) mat.uniforms.uOpacity.value = base * o; else { mat.opacity = base * o; mat.transparent = true; } } };
+    build(L); layers.push(L); return L;
+  }
+  const glass = (L, o) => L.reg(VL.glassMat(o));
+  const std = (L, o) => L.reg(new THREE.MeshStandardMaterial(o));
+  const ell = new THREE.SphereGeometry(1, 32, 20);
+  const ellLo = new THREE.SphereGeometry(1, 14, 10);
+  const spriteTex = VL.spriteTex(64, 0.2);
+  function ballCloud(L, n, radius, color, size, opacity, scale = 260) {
+    const p = VL.points(n, (i, c) => { const r = Math.cbrt(rnd()) * radius, th = rnd() * Math.PI * 2, ph = Math.acos(rnd() * 2 - 1); c.set(color); return [r * Math.sin(ph) * Math.cos(th), r * Math.sin(ph) * Math.sin(th), r * Math.cos(ph) * 0.5, 0.4 + rnd() * 1.2]; }, { size, opacity, drift: 0.05, scale, maxSize: 26, tex: spriteTex });
+    L.reg(p.material); L.g.add(p); return p;
+  }
+
+  /* ================= L0 · the leaf (k = 0) ================= */
+  layer(0, 'A leaf', L => {
+    // texture: green blade, faint cells, veins
+    const S = 2048; const c = document.createElement('canvas'); c.width = c.height = S; const g = c.getContext('2d');
+    const grd = g.createLinearGradient(0, 0, S, S); grd.addColorStop(0, '#5aa437'); grd.addColorStop(0.5, '#3f8f2a'); grd.addColorStop(1, '#2c6d1e'); g.fillStyle = grd; g.fillRect(0, 0, S, S);
+    g.strokeStyle = 'rgba(15,55,12,0.2)'; g.lineWidth = 0.8; const cs = 7;
+    for (let y = 0; y < S + cs; y += cs * 0.87) { const row = Math.round(y / (cs * 0.87)); for (let x = 0; x < S + cs; x += cs) { const cx = x + (row % 2 ? cs / 2 : 0) + (rnd() - 0.5) * 3, cy = y + (rnd() - 0.5) * 3; g.beginPath(); for (let i = 0; i < 6; i++) { const a = i * Math.PI / 3 + 0.3; const r = cs * 0.52 * (0.85 + rnd() * 0.25); g.lineTo(cx + r * Math.cos(a), cy + r * Math.sin(a)); } g.closePath(); g.stroke(); } }
+    // veins
+    g.lineCap = 'round';
+    const vein = (x0, y0, x1, y1, w, col) => { g.strokeStyle = col; g.lineWidth = w; g.beginPath(); g.moveTo(x0, y0); g.quadraticCurveTo((x0 + x1) / 2 + (y1 - y0) * 0.12, (y0 + y1) / 2, x1, y1); g.stroke(); };
+    for (let i = 0; i < 17; i++) { const t = i / 16; const y = S * (0.08 + 0.86 * t); const w = 9 - 6 * Math.abs(t - 0.45); for (const s of [-1, 1]) { vein(S / 2, y, S / 2 + s * S * (0.36 - 0.18 * Math.abs(t - 0.4)), y - S * 0.16, w, 'rgba(200,232,140,0.85)'); for (let j = 1; j < 5; j++) { const u = j / 5; const bx = S / 2 + s * S * (0.36 - 0.18 * Math.abs(t - 0.4)) * u, by = y - S * 0.16 * u; vein(bx, by, bx + s * 40, by - 55, 2.2, 'rgba(190,225,130,0.55)'); } } }
+    g.strokeStyle = 'rgba(215,240,150,0.95)'; g.lineWidth = 22; g.beginPath(); g.moveTo(S / 2, S * 0.02); g.lineTo(S / 2, S * 0.98); g.stroke();
+    const tex = new THREE.CanvasTexture(c); tex.encoding = THREE.sRGBEncoding; tex.anisotropy = 4;
+    const sh = new THREE.Shape(); sh.moveTo(0, 3.1); sh.bezierCurveTo(2.1, 2.5, 2.5, -0.5, 0.25, -3.0); sh.lineTo(0, -3.25); sh.lineTo(-0.25, -3.0); sh.bezierCurveTo(-2.5, -0.5, -2.1, 2.5, 0, 3.1);
+    const geo = new THREE.ShapeGeometry(sh, 48);
+    const pos = geo.attributes.position; const uv = geo.attributes.uv;
+    for (let i = 0; i < pos.count; i++) { const x = pos.getX(i), y = pos.getY(i); uv.setXY(i, (x + 2.6) / 5.2, (y + 3.3) / 6.6); pos.setZ(i, -0.10 * x * x + 0.06 * Math.sin(y * 1.3)); }
+    geo.computeVertexNormals();
+    const blade = new THREE.Mesh(geo, std(L, { map: tex, roughness: 0.55, metalness: 0, side: THREE.DoubleSide }));
+    const leaf = new THREE.Group(); leaf.add(blade);
+    const stem = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.08, 1.4, 10), std(L, { color: 0x6b8f3a, roughness: 0.7 })); stem.position.y = -3.7; leaf.add(stem);
+    leaf.position.set(1.05, 0.45, 0); leaf.rotation.set(-0.22, 0.12, 0.08);
+    L.g.add(leaf); L.leaf = leaf;
+    // sunlit garden behind, bokeh and dust
+    const bc = document.createElement('canvas'); bc.width = bc.height = 512; const bg = bc.getContext('2d');
+    const bgrd = bg.createRadialGradient(330, 160, 20, 256, 256, 420); bgrd.addColorStop(0, '#d8f08a'); bgrd.addColorStop(0.35, '#6fae3c'); bgrd.addColorStop(0.75, '#1f4f1a'); bgrd.addColorStop(1, '#08200b'); bg.fillStyle = bgrd; bg.fillRect(0, 0, 512, 512);
+    const btex = new THREE.CanvasTexture(bc); btex.encoding = THREE.sRGBEncoding;
+    const back = new THREE.Mesh(new THREE.PlaneGeometry(60, 40), L.reg(new THREE.MeshBasicMaterial({ map: btex, depthWrite: false }), 1)); back.position.z = -12; L.g.add(back);
+    const bokeh = VL.points(70, (i, c) => { c.setHSL(0.2 + rnd() * 0.08, 0.8, 0.6 + rnd() * 0.3); return [(rnd() - 0.5) * 30, (rnd() - 0.5) * 20, -6 - rnd() * 5, 6 + rnd() * 10]; }, { size: 1.6, opacity: 0.16, drift: 0.4, scale: 200, maxSize: 160, tex: VL.spriteTex(64, 0.75) });
+    L.reg(bokeh.material); L.g.add(bokeh);
+    const dust = VL.points(500, (i, c) => { c.set(0xfff6c8); return [(rnd() - 0.5) * 14, (rnd() - 0.5) * 9, (rnd() - 0.5) * 6 + 1, 0.3 + rnd()]; }, { size: 0.5, opacity: 0.5, drift: 0.3, scale: 240, maxSize: 14, tex: spriteTex });
+    L.reg(dust.material); L.g.add(dust);
+    L.update = (now) => { leaf.rotation.z = 0.08 + Math.sin(now * 0.5) * 0.02; leaf.rotation.x = -0.22 + Math.sin(now * 0.37) * 0.03; bokeh.u.uTime.value = now; dust.u.uTime.value = now; };
+  });
+
+  /* ================= L1 · the leaf surface, cells (k = 2) ================= */
+  layer(2, 'Its cells', L => {
+    const R = 0.155, step = R * 2.3;
+    L.fadeIn = [0.5, 1.0];
+    const cellMat = glass(L, { color: 0x5cbf5c, rim: 0xd2ffa8, alpha: 0.85, rimPow: 2.6, shade: 0.9, spec: 0.5, lightB: 0xcfff9a, back: 0.6 });
+    const wallMat = std(L, { color: 0x0c2c12, roughness: 0.85 });
+    const nucMat = std(L, { color: 0x4f7a4a, roughness: 1 });
+    const hex = new THREE.CylinderGeometry(R - 0.012, R - 0.012, 0.1, 6); hex.rotateX(Math.PI / 2);
+    const hexW = new THREE.CylinderGeometry(R + 0.05, R + 0.05, 0.14, 6); hexW.rotateX(Math.PI / 2);
+    const cells = [], guardSpots = [];
+    for (let iy = -26; iy <= 26; iy++) for (let ix = -26; ix <= 26; ix++) { const x = ix * step + (iy % 2 ? step / 2 : 0), y = iy * step * 0.87; if (Math.hypot(x, y) > 8.2) continue; cells.push([x, y]); }
+    const inst = new THREE.InstancedMesh(hex, cellMat, cells.length), instW = new THREE.InstancedMesh(hexW, wallMat, cells.length), instN = new THREE.InstancedMesh(new THREE.SphereGeometry(0.026, 8, 6), nucMat, cells.length);
+    const M = new THREE.Matrix4(), q = new THREE.Quaternion(), sc = new THREE.Vector3(), p = new THREE.Vector3();
+    cells.forEach(([x, y], i) => {
+      const s = 0.9 + rnd() * 0.18; const rz = (rnd() - 0.5) * 0.25; q.setFromAxisAngle(V3(0, 0, 1), rz);
+      M.compose(p.set(x, y, 0), q, sc.set(s, s, 1)); inst.setMatrixAt(i, M);
+      M.compose(p.set(x, y, -0.02), q, sc.set(s, s, 1)); instW.setMatrixAt(i, M);
+      const ns = Math.hypot(x, y) < 0.5 ? 0.0001 : 1;
+      M.compose(p.set(x + (rnd() - 0.5) * 0.12, y + (rnd() - 0.5) * 0.12, 0.02), q, sc.set(ns, ns, ns)); instN.setMatrixAt(i, M);
+      if (rnd() < 0.06 && Math.hypot(x, y) > 0.9) guardSpots.push([x, y]);
+    });
+    L.g.add(instW, inst, instN);
+    // stomata: pairs of guard cells with a pore
+    const guardMat = glass(L, { color: 0x2f9f45, rim: 0xd6ffa8, alpha: 0.6, rimPow: 2.0, shade: 1.0 });
+    const poreMat = std(L, { color: 0x06200a, roughness: 1 });
+    const guards = [];
+    guardSpots.slice(0, 8).forEach(([x, y]) => {
+      const g = new THREE.Group(); g.position.set(x, y, 0.08); g.rotation.z = rnd() * Math.PI;
+      for (const s of [-1, 1]) { const m = new THREE.Mesh(ell, guardMat); m.scale.set(0.07, 0.19, 0.06); m.position.x = s * 0.07; g.add(m); }
+      const pore = new THREE.Mesh(new THREE.PlaneGeometry(0.05, 0.22), poreMat); pore.position.z = -0.01; g.add(pore);
+      L.g.add(g); guards.push({ g, ph: rnd() * 6 });
+    });
+    L.update = now => { guards.forEach(({ g, ph }) => { const o = 1 + 0.12 * Math.sin(now * 0.8 + ph); g.children[0].position.x = -0.07 * o; g.children[1].position.x = 0.07 * o; }); };
+  });
+
+  /* ================= L2 · one cell (k = 3.3) ================= */
+  layer(3.3, 'Inside one cell', L => {
+    const rhex = (R, r) => { const s = new THREE.Shape(); const n = 6; for (let i = 0; i < n; i++) { const a0 = i * Math.PI / 3 + 0.26, a1 = a0 + Math.PI / 3; const p0 = [R * Math.cos(a0), R * Math.sin(a0)], p1 = [R * Math.cos(a1), R * Math.sin(a1)]; const q0 = [p0[0] + (p1[0] - p0[0]) * r, p0[1] + (p1[1] - p0[1]) * r], q1 = [p0[0] + (p1[0] - p0[0]) * (1 - r), p0[1] + (p1[1] - p0[1]) * (1 - r)]; if (i === 0) s.moveTo(q0[0], q0[1]); else s.quadraticCurveTo(p0[0], p0[1], q0[0], q0[1]); s.lineTo(q1[0], q1[1]); } s.closePath(); return s; };
+    const bodyGeo = new THREE.ExtrudeGeometry(rhex(3.05, 0.22), { depth: 1.0, bevelEnabled: true, bevelThickness: 0.35, bevelSize: 0.3, bevelSegments: 6, curveSegments: 12 }); bodyGeo.translate(0, 0, -0.85);
+    const bodyMat = glass(L, { color: 0x2a8a36, rim: 0xb9ff9a, alpha: 0.2, rimPow: 2.6, wobble: 0.03, wobbleFreq: 1.5 });
+    const body = new THREE.Mesh(bodyGeo, bodyMat); body.renderOrder = 3; L.g.add(body);
+    const wallMat = glass(L, { color: 0x0e3a16, rim: 0x5fbf62, alpha: 0.55, rimPow: 3.0, side: THREE.BackSide });
+    const wall = new THREE.Mesh(new THREE.ExtrudeGeometry(rhex(3.3, 0.22), { depth: 1.1, bevelEnabled: true, bevelThickness: 0.3, bevelSize: 0.25, bevelSegments: 4, curveSegments: 12 }), wallMat); wall.geometry.translate(0, 0, -0.95); wall.renderOrder = 1; L.g.add(wall);
+    const vacMat = glass(L, { color: 0x1e4f7a, rim: 0x9ad8ff, alpha: 0.10, rimPow: 2.6, wobble: 0.04, wobbleFreq: 1.0 });
+    const vac = new THREE.Mesh(ell, vacMat); vac.scale.set(1.9, 1.3, 0.55); vac.position.set(-0.7, 0.15, 0); vac.renderOrder = 2; L.g.add(vac);
+    L.shell.push(bodyMat, wallMat, vacMat);
+    const nuc = new THREE.Mesh(ell, glass(L, { color: 0x3a1f7a, rim: 0xc9a3ff, alpha: 0.4, rimPow: 2.2, wobble: 0.05, wobbleFreq: 2.5 })); nuc.scale.setScalar(0.5); nuc.position.set(1.85, -1.0, 0.25); L.g.add(nuc);
+    const nucl = new THREE.Mesh(ell, std(L, { color: 0x8c5cff, emissive: 0x5a2fd0, emissiveIntensity: 0.4, roughness: 0.5 })); nucl.scale.setScalar(0.16); nucl.position.set(1.95, -0.95, 0.35); L.g.add(nucl);
+    const chlMat = glass(L, { color: 0x1f8a2e, rim: 0xc4ff8a, alpha: 0.78, rimPow: 2.0, shade: 1.0, spec: 0.6, emissive: 0x041a05, lightB: 0xd0ff9a, back: 0.6 });
+    const grMat = std(L, { color: 0x1d7a2a, emissive: 0x0c3a10, emissiveIntensity: 0.4, roughness: 0.6 });
+    function chloro() { const g = new THREE.Group(); const m = new THREE.Mesh(ell, chlMat); m.scale.set(0.375, 0.21, 0.175); g.add(m); for (let i = 0; i < 4; i++) { const d = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 0.06, 10), grMat); d.rotation.x = Math.PI / 2; d.position.set(-0.2 + i * 0.13, (rnd() - 0.5) * 0.12, 0.03); g.add(d); } return g; }
+    const target = chloro(); target.position.set(0, 0, 0.42); L.g.add(target);
+    const path = new THREE.CatmullRomCurve3([V3(1.6, 1.55, 0.35), V3(-0.7, 1.9, 0.2), V3(-2.7, 1.2, 0.3), V3(-3.0, -0.6, 0.25), V3(-1.4, -1.65, 0.35), V3(1.0, -1.7, 0.2), V3(2.4, -0.3, 0.35), V3(2.3, 1.0, 0.3)], true, 'catmullrom', 0.6);
+    const stream = []; for (let i = 0; i < 30; i++) { const c = chloro(); L.g.add(c); stream.push({ c, u: i / 30, sp: 0.018 + rnd() * 0.012, ph: rnd() * 6 }); }
+    const cyto = ballCloud(L, 500, 2.6, 0xd8ffb0, 0.32, 0.45);
+    const tmp = new THREE.Vector3();
+    L.update = (now, dt) => { stream.forEach(s => { s.u = (s.u + s.sp * dt) % 1; path.getPointAt(s.u, tmp); s.c.position.copy(tmp); s.c.rotation.set(Math.sin(now * 0.7 + s.ph) * 0.4, now * 0.3 + s.ph, Math.cos(now * 0.5 + s.ph) * 0.3); }); target.rotation.z = Math.sin(now * 0.4) * 0.08; cyto.u.uTime.value = now; };
+  });
+
+  /* ================= L3 · a chloroplast (k = 4.2) ================= */
+  layer(4.2, 'Inside a chloroplast', L => {
+    const outerMat = glass(L, { color: 0x1f7a2a, rim: 0xa9ff90, alpha: 0.08, rimPow: 3.4, wobble: 0.03, wobbleFreq: 1.2 });
+    const outer = new THREE.Mesh(ell, outerMat); outer.scale.set(3.1, 1.75, 1.35); outer.position.set(-0.2, 0.1, -0.2); outer.renderOrder = 4; L.g.add(outer);
+    const innerMat = glass(L, { color: 0x1f7a2a, rim: 0x8fe08a, alpha: 0.05, rimPow: 3.4 });
+    const inner = new THREE.Mesh(ell, innerMat); inner.scale.set(2.95, 1.62, 1.22); inner.position.copy(outer.position); inner.renderOrder = 3; L.g.add(inner);
+    L.shell.push(outerMat, innerMat);
+    const discMat = glass(L, { color: 0x36b048, rim: 0xe6ffb0, alpha: 0.9, rimPow: 1.8, shade: 1.0, spec: 0.6, emissive: 0x0f4a14, lightB: 0xd0ff9a, back: 0.6 });
+    const disc = new THREE.CylinderGeometry(0.42, 0.42, 0.065, 28); disc.rotateX(Math.PI / 2);
+    const stacks = [{ p: V3(0, 0, 0), n: 9, tilt: [0.32, -0.22], target: true }];
+    for (let i = 0; i < 12; i++) { let p; do { p = V3((rnd() - 0.5) * 5.2, (rnd() - 0.5) * 2.8, (rnd() - 0.5) * 1.6 - 0.3); } while (p.length() < 1.1 || stacks.some(s => s.p.distanceTo(p) < 1.05) || (p.x / 3.0) ** 2 + (p.y / 1.7) ** 2 + (p.z / 1.3) ** 2 > 0.8); stacks.push({ p, n: 5 + Math.floor(rnd() * 7), tilt: [(rnd() - 0.5) * 0.9, (rnd() - 0.5) * 0.9] }); }
+    const total = stacks.reduce((a, s) => a + s.n, 0);
+    const inst = new THREE.InstancedMesh(disc, discMat, total); const M = new THREE.Matrix4(), q = new THREE.Quaternion(), e = new THREE.Euler(), one = V3(1, 1, 1), p = new THREE.Vector3(), nrm = new THREE.Vector3();
+    let k = 0;
+    stacks.forEach(s => { e.set(s.tilt[0], s.tilt[1], 0); q.setFromEuler(e); nrm.set(0, 0, 1).applyQuaternion(q); for (let i = 0; i < s.n; i++) { const z = s.target ? -0.035 - i * 0.078 : (i - (s.n - 1) / 2) * 0.078; p.copy(s.p).addScaledVector(nrm, z); M.compose(p, q, one); inst.setMatrixAt(k++, M); } });
+    inst.renderOrder = 2; L.g.add(inst);
+    { const tn = V3(0, 0, 1).applyEuler(new THREE.Euler(stacks[0].tilt[0], stacks[0].tilt[1], 0)); const tx = V3(1, 0, 0).applyEuler(new THREE.Euler(stacks[0].tilt[0], stacks[0].tilt[1], 0)), ty = V3().crossVectors(tn, tx);
+      const face = VL.points(320, (i, c) => { const a = rnd() * Math.PI * 2, r = Math.sqrt(rnd()) * 0.4; c.set(0x1c5a28); const v = tx.clone().multiplyScalar(Math.cos(a) * r).addScaledVector(ty, Math.sin(a) * r).addScaledVector(tn, 0.004); return [v.x, v.y, v.z, 0.5 + rnd()]; }, { size: 0.06, opacity: 0.7, scale: 260, maxSize: 22, blending: THREE.NormalBlending, tex: spriteTex });
+      face.renderOrder = 3; L.g.add(face); L.face = face; face.u.uFadeMul = 1; L.mats.push({ mat: { get u() { return null; }, set opacity(v) { face.u.uFadeMul = v; }, get opacity() { return face.u.uFadeMul; }, set transparent(v) {} }, base: 1 }); }
+    const lamMat = glass(L, { color: 0x3f9f2a, rim: 0xd6ff8a, alpha: 0.5, rimPow: 2.0 });
+    for (let i = 0; i < stacks.length - 1; i++) { const a = stacks[i].p, b = stacks[i + 1 + Math.floor(rnd() * Math.max(1, stacks.length - i - 1)) % stacks.length].p; if (a === b) continue; const mid = a.clone().add(b).multiplyScalar(0.5).add(V3((rnd() - 0.5) * 0.6, (rnd() - 0.5) * 0.6, (rnd() - 0.5) * 0.4)); L.g.add(new THREE.Mesh(VL.tube([a, mid, b], 0.028, 40, 6), lamMat)); }
+    const stroma = ballCloud(L, 700, 2.8, 0xd0ffb0, 0.28, 0.4);
+    L.update = now => { stroma.u.uTime.value = now; discMat.u.uGlow.value = 0.04 + 0.03 * Math.sin(now * 1.1); L.face.u.uSize.value = 0.05 * L.g.scale.x; L.face.material.uniforms.uOpacity.value = 0.7 * VL.smooth(2, 8, L.g.scale.x) * L.face.u.uFadeMul; };
+  });
+
+  /* ================= L4 · the thylakoid membrane (k = 6.0) ================= */
+  layer(5.6, 'The membrane of one disc', L => {
+    L.fadeIn = [0.45, 1.1];
+    const headMat = std(L, { color: 0x9fc46a, roughness: 0.7, metalness: 0.02 });
+    const tailMat = std(L, { color: 0x5f7a45, roughness: 0.8 });
+    const NX = 112, NY = 72, sx = 13.2 / NX, sy = 8.6 / NY;
+    const head = new THREE.SphereGeometry(0.058, 10, 8), tail = new THREE.CylinderGeometry(0.014, 0.014, 0.19, 5);
+    const n = NX * NY * 2;
+    const iH = new THREE.InstancedMesh(head, headMat, n), iT = new THREE.InstancedMesh(tail, tailMat, n);
+    const M = new THREE.Matrix4(), q = new THREE.Quaternion(), one = V3(1, 1, 1), p = new THREE.Vector3(), e = new THREE.Euler();
+    let k = 0;
+    const proteins = [{ p: V3(0, 0, 0), r: 0.95 }];
+    for (let i = 0; i < 15; i++) { let pp; do { pp = V3((rnd() - 0.5) * 12.4, (rnd() - 0.5) * 8.0, 0); } while (proteins.some(o => o.p.distanceTo(pp) < o.r + 0.9)); proteins.push({ p: pp, r: 0.55 + rnd() * 0.35 }); }
+    for (let iy = 0; iy < NY; iy++) for (let ix = 0; ix < NX; ix++) {
+      const x = (ix - NX / 2 + 0.5) * sx + (rnd() - 0.5) * 0.03, y = (iy - NY / 2 + 0.5) * sy + (rnd() - 0.5) * 0.03;
+      const inP = proteins.some(o => Math.hypot(x - o.p.x, y - o.p.y) < o.r * 0.85);
+      for (const side of [1, -1]) {
+        const z = side > 0 ? -0.058 : -0.46; const s = inP ? 0.0001 : 1;
+        M.compose(p.set(x, y, z), q.identity(), one.set(s, s, s)); iH.setMatrixAt(k, M);
+        e.set(Math.PI / 2 + (rnd() - 0.5) * 0.4, 0, (rnd() - 0.5) * 0.4); q.setFromEuler(e);
+        M.compose(p.set(x, y, z - side * 0.13), q, one.set(s, s, s)); iT.setMatrixAt(k, M); k++;
+      }
+    }
+    one.set(1, 1, 1); L.g.add(iH, iT);
+    // protein complexes (photosystems)
+    const protMat = glass(L, { color: 0x3b4fb8, rim: 0x9fb8ff, alpha: 0.75, rimPow: 2.0, shade: 1.0, spec: 0.5, back: 0.5 });
+    const protMat2 = glass(L, { color: 0x1f8a8a, rim: 0x9affee, alpha: 0.75, rimPow: 2.0, shade: 1.0, spec: 0.5, back: 0.5 });
+    L.shell.push(protMat, protMat2); L.shellWin = [0.08, 0.35];
+    const chlSmallMat = std(L, { color: 0x49d95a, emissive: 0x1c8a2a, emissiveIntensity: 0.5, roughness: 0.4 });
+    const ring = new THREE.TorusGeometry(0.19, 0.035, 8, 20);
+    const chls = [];
+    proteins.forEach((o, idx) => {
+      const g = new THREE.Group(); g.position.copy(o.p); const mat = idx % 2 ? protMat2 : protMat;
+      const nb = 7 + Math.floor(rnd() * 6);
+      for (let i = 0; i < nb; i++) { const m = new THREE.Mesh(ellLo, mat); const a = rnd() * Math.PI * 2, rr = rnd() * o.r * 0.7; m.position.set(Math.cos(a) * rr, Math.sin(a) * rr, -0.15 + rnd() * 0.35); const s = o.r * (0.32 + rnd() * 0.3); m.scale.set(s, s, s * 0.8); g.add(m); }
+      const core = new THREE.Mesh(ellLo, mat); core.scale.set(o.r * 0.7, o.r * 0.7, 0.42); core.position.z = 0.02; g.add(core);
+      const nc = idx === 0 ? 7 : 3 + Math.floor(rnd() * 3);
+      for (let i = 0; i < nc; i++) { const r = new THREE.Mesh(ring, chlSmallMat); if (idx === 0 && i === 0) r.position.set(0, 0, 0.44); else { const a = rnd() * Math.PI * 2, rr = 0.25 + rnd() * o.r * 0.55; r.position.set(Math.cos(a) * rr, Math.sin(a) * rr, 0.3 + rnd() * 0.15); } r.rotation.set((rnd() - 0.5) * 0.6, (rnd() - 0.5) * 0.6, 0); r.scale.setScalar(idx === 0 && i === 0 ? 1.55 : 0.8 + rnd() * 0.4); g.add(r); chls.push(r); }
+      L.g.add(g);
+    });
+    // photons arriving, flashing on the chlorophyll
+    const phMat = L.reg(new THREE.SpriteMaterial({ map: VL.spriteTex(64, 0.15), color: 0xfff1a0, transparent: true, opacity: 0.95, blending: THREE.AdditiveBlending, depthWrite: false }), 0.95);
+    const streakMat = L.reg(new THREE.MeshBasicMaterial({ color: 0xfff1a0, transparent: true, opacity: 0.85, blending: THREE.AdditiveBlending, depthWrite: false }), 0.85);
+    const photons = [];
+    for (let i = 0; i < 10; i++) { const g = new THREE.Group(); const sp = new THREE.Sprite(phMat); sp.scale.setScalar(0.32); g.add(sp); const st = new THREE.Mesh(new THREE.CylinderGeometry(0.012, 0.012, 1.1, 5), streakMat); st.position.y = 0.55; g.add(st); L.g.add(g); photons.push({ g, t: rnd() * 2.2, life: 1.6 + rnd() * 0.8, from: V3(), to: V3() }); }
+    const dir = V3(-0.55, -0.75, -0.5).normalize();
+    const reset = ph => { const target = chls[Math.floor(rnd() * chls.length)]; target.getWorldPosition(ph.to); L.g.worldToLocal(ph.to); ph.from.copy(ph.to).addScaledVector(dir, -5.5); ph.t = 0; ph.target = target; };
+    photons.forEach(reset);
+    const fluid = ballCloud(L, 500, 4.0, 0xc8ffd6, 0.22, 0.35);
+    const tmp = new THREE.Vector3();
+    L.update = (now, dt) => {
+      photons.forEach(ph => { ph.t += dt; const u = ph.t / ph.life; if (u >= 1.25) { reset(ph); return; } const uu = Math.min(1, u); ph.g.position.lerpVectors(ph.from, ph.to, uu); ph.g.quaternion.setFromUnitVectors(V3(0, 1, 0), dir.clone().negate()); const flash = u > 1 ? (1.25 - u) * 4 : 0; ph.g.children[0].scale.setScalar(0.3 + flash * 0.9); ph.g.children[1].visible = u < 1; if (ph.target) ph.target.material.emissiveIntensity = 0.5 + (u > 1 ? flash * 2.5 : 0); });
+      fluid.u.uTime.value = now;
+    };
+  });
+
+  /* ================= L5 · one chlorophyll molecule (k = 7.0) ================= */
+  layer(7.0, 'One chlorophyll molecule', L => {
+    const atoms = [], bonds = [];
+    const add = (x, y, z, kind) => { atoms.push({ p: V3(x, y, z), kind }); return atoms.length - 1; };
+    const mg = add(0, 0, 0, 'Mg');
+    const Rn = 1.05, Rc1 = 1.75, Rc2 = 2.35, Rm = 2.05;
+    const ringIdx = [];
+    for (let i = 0; i < 4; i++) {
+      const a = Math.PI / 4 + i * Math.PI / 2;
+      const nI = add(Rn * Math.cos(a), Rn * Math.sin(a), 0, 'N'); bonds.push([mg, nI]);
+      const c1 = add(Rc1 * Math.cos(a - 0.32), Rc1 * Math.sin(a - 0.32), 0.02, 'C'), c2 = add(Rc1 * Math.cos(a + 0.32), Rc1 * Math.sin(a + 0.32), -0.02, 'C');
+      const c3 = add(Rc2 * Math.cos(a - 0.2), Rc2 * Math.sin(a - 0.2), 0.05, 'C'), c4 = add(Rc2 * Math.cos(a + 0.2), Rc2 * Math.sin(a + 0.2), -0.05, 'C');
+      bonds.push([nI, c1], [nI, c2], [c1, c3], [c2, c4], [c3, c4]);
+      ringIdx.push({ c1, c2 });
+      const s1 = add(Rc2 * 1.28 * Math.cos(a - 0.28), Rc2 * 1.28 * Math.sin(a - 0.28), 0.1, 'C'), s2 = add(Rc2 * 1.28 * Math.cos(a + 0.28), Rc2 * 1.28 * Math.sin(a + 0.28), -0.1, 'C');
+      bonds.push([c3, s1], [c4, s2]);
+    }
+    for (let i = 0; i < 4; i++) { const a = i * Math.PI / 2; const m = add(Rm * Math.cos(a), Rm * Math.sin(a), 0, 'C'); const A = ringIdx[(i + 3) % 4], B = ringIdx[i]; bonds.push([A.c2, m], [m, B.c1]); }
+    // phytol tail off the lower-right ring, zigzag out of frame
+    let prev = ringIdx[3].c2; let px = Rc2 * Math.cos(-Math.PI / 4) + 0.3, py = Rc2 * Math.sin(-Math.PI / 4) - 0.3;
+    const o1 = add(px, py, 0.1, 'O'); bonds.push([prev, o1]); prev = o1;
+    for (let i = 0; i < 16; i++) { px += 0.42; py -= 0.30 * (i % 2 ? 1 : -1) - 0.16; const c = add(px, py, 0.1 + 0.08 * Math.sin(i), i === 3 ? 'O' : 'C'); bonds.push([prev, c]); prev = c; }
+    const mats = { Mg: std(L, { color: 0x9dff7a, emissive: 0x4fd04a, emissiveIntensity: 0.5, roughness: 0.3 }), N: std(L, { color: 0x4a6cff, emissive: 0x2233aa, emissiveIntensity: 0.25, roughness: 0.35 }), C: std(L, { color: 0x2a2e38, roughness: 0.45, metalness: 0.1 }), O: std(L, { color: 0xff5a5a, emissive: 0x7a1a1a, emissiveIntensity: 0.3, roughness: 0.4 }) };
+    L.shellWin = [0.22, 0.6];
+    const rad = { Mg: 0.19, N: 0.15, C: 0.14, O: 0.15 };
+    const mol = new THREE.Group(); L.g.add(mol);
+    atoms.forEach(a => { const m = new THREE.Mesh(ell, mats[a.kind]); m.scale.setScalar(rad[a.kind]); m.position.copy(a.p); mol.add(m); a.mesh = m; });
+    const bondMat = std(L, { color: 0xc9cdd8, roughness: 0.45, metalness: 0.2 });
+    L.shell.push(mats.Mg, bondMat);
+    const bg = new THREE.CylinderGeometry(0.042, 0.042, 1, 8); bg.translate(0, 0.5, 0);
+    const bi = new THREE.InstancedMesh(bg, bondMat, bonds.length); const M = new THREE.Matrix4(), q = new THREE.Quaternion(), sc = new THREE.Vector3(), d = new THREE.Vector3();
+    bonds.forEach(([a, b], i) => { d.subVectors(atoms[b].p, atoms[a].p); const len = d.length(); q.setFromUnitVectors(V3(0, 1, 0), d.clone().normalize()); M.compose(atoms[a].p, q, sc.set(1, len, 1)); bi.setMatrixAt(i, M); });
+    mol.add(bi);
+    mol.rotation.set(0.35, -0.2, 0.1);
+    // an electron knocked loose every few seconds
+    const eMat = L.reg(new THREE.SpriteMaterial({ map: VL.spriteTex(64, 0.2), color: 0xa0f0ff, transparent: true, opacity: 1, blending: THREE.AdditiveBlending, depthWrite: false }), 1);
+    const el = new THREE.Sprite(eMat); el.scale.setScalar(0.35); mol.add(el);
+    const haze = ballCloud(L, 400, 6, 0x9ad8a0, 0.9, 0.12, 200);
+    let et = 0;
+    L.update = (now, dt) => { mol.rotation.z += dt * 0.12; mol.rotation.x = 0.35 + Math.sin(now * 0.3) * 0.15; et = (et + dt) % 4; const u = et / 4; const r = 0.1 + u * 4.5; el.position.set(Math.cos(u * 6) * r, Math.sin(u * 6) * r, 0.3 + u); el.scale.setScalar(0.35 * (1 - u * 0.6)); mats.Mg.emissiveIntensity = 0.5 + (u < 0.1 ? (0.1 - u) * 12 : 0); haze.u.uTime.value = now; };
+  });
+
+  /* ================= L6 · the magnesium atom (k = 8.2) ================= */
+  layer(8.2, 'A magnesium atom', L => {
+    const pMat = std(L, { color: 0xff6b6b, emissive: 0xc02020, emissiveIntensity: 0.5, roughness: 0.35 });
+    const nMat = std(L, { color: 0x8fa0c8, emissive: 0x2a3560, emissiveIntensity: 0.4, roughness: 0.35 });
+    const nuc = new THREE.Group(); L.g.add(nuc);
+    const pts = VL.fib(24, 0.36); pts.forEach((p, i) => { const m = new THREE.Mesh(ell, i % 2 ? pMat : nMat); m.scale.setScalar(0.2); m.position.copy(p).multiplyScalar(0.6 + 0.4 * (i % 3) / 2); nuc.add(m); });
+    const shellMat = L.reg(new THREE.MeshBasicMaterial({ color: 0xbfe8ff, transparent: true, opacity: 0.22, blending: THREE.AdditiveBlending, depthWrite: false }), 0.22);
+    const eMat = L.reg(new THREE.SpriteMaterial({ map: VL.spriteTex(64, 0.2), color: 0x9ff3ff, transparent: true, opacity: 1, blending: THREE.AdditiveBlending, depthWrite: false }), 1);
+    const shells = [{ r: 1.1, n: 2, sp: 1.6, tilt: [0.5, 0.2] }, { r: 2.0, n: 8, sp: 1.0, tilt: [-0.4, 0.6] }, { r: 2.9, n: 2, sp: 0.6, tilt: [0.9, -0.3] }];
+    const electrons = [];
+    shells.forEach(s => { const g = new THREE.Group(); g.rotation.set(s.tilt[0], s.tilt[1], 0); L.g.add(g); g.add(new THREE.Mesh(new THREE.TorusGeometry(s.r, 0.008, 6, 96), shellMat)); for (let i = 0; i < s.n; i++) { const e = new THREE.Sprite(eMat); e.scale.setScalar(0.26); g.add(e); electrons.push({ e, r: s.r, ph: i / s.n * Math.PI * 2, sp: s.sp }); } });
+    const cloud = VL.points(1600, (i, c) => { const s = shells[i % 3]; const a = rnd() * Math.PI * 2; const r = s.r + (rnd() - 0.5) * 0.35; c.set(0x7fd8ff); const v = V3(Math.cos(a) * r, Math.sin(a) * r, (rnd() - 0.5) * 0.25).applyEuler(new THREE.Euler(s.tilt[0], s.tilt[1], 0)); return [v.x, v.y, v.z, 0.3 + rnd() * 0.5]; }, { size: 0.5, opacity: 0.25, drift: 0.04, scale: 240, maxSize: 12, tex: spriteTex });
+    L.reg(cloud.material); L.g.add(cloud);
+    const dark = ballCloud(L, 300, 7, 0x6a8fd0, 1.2, 0.08, 200);
+    L.update = (now, dt) => { nuc.rotation.y += dt * 0.3; nuc.rotation.x += dt * 0.11; electrons.forEach(o => { const a = o.ph + now * o.sp; o.e.position.set(Math.cos(a) * o.r, Math.sin(a) * o.r, 0); }); cloud.u.uTime.value = now; dark.u.uTime.value = now; };
+  });
+
+  /* ================= zoom driver ================= */
+  const beats = [
+    { t: 0.00, kicker: 'Class 10 · Biology · Life processes', title: 'A leaf.', body: 'Eight centimetres of it. Scroll down, and keep going.' },
+    { t: 0.17, kicker: 'The leaf surface', title: 'Its surface, up close.', body: 'Cells packed edge to edge, and pairs of guard cells around each pore that lets air in.' },
+    { t: 0.33, kicker: 'One leaf cell', title: 'Inside one cell.', body: 'The green discs are chloroplasts, and they really do move like this, carried round by the cytoplasm.' },
+    { t: 0.45, kicker: 'A chloroplast', title: 'Inside a chloroplast.', body: 'Stacks of flattened discs. This is where the light is caught.' },
+    { t: 0.60, kicker: 'The thylakoid membrane', title: 'The membrane of one disc.', body: 'Proteins sit in it, and each one holds hundreds of chlorophyll molecules. The light arrives here.' },
+    { t: 0.77, kicker: 'Chlorophyll', title: 'One chlorophyll molecule.', body: 'A ring of carbon and nitrogen around a single magnesium atom. Light lands here, and an electron is knocked loose.' },
+    { t: 0.91, kicker: 'Class 9 · Chemistry · Structure of the atom', title: 'And at its centre, magnesium.', body: 'Twelve protons, twelve neutrons, and twelve electrons in three shells. This is where the chapter on photosynthesis meets the chapter on atoms.' },
+  ];
+  const caps = VL.captions(document.getElementById('beats'), beats);
+  const pin = document.getElementById('pin');
+  const maxScroll = () => pin.offsetHeight - innerHeight;
+  const dotsUI = VL.dots(document.getElementById('dots'), beats, 1, v => { auto.stop(); scrollTo({ top: v * maxScroll(), behavior: 'smooth' }); });
+  const auto = VL.autoScroll({ speed: () => maxScroll() / 58, max: maxScroll, delay: 1800 });
+  const h1 = document.getElementById('h1'), cue = document.getElementById('cue'), readout = document.querySelector('#readout b'), magEl = document.getElementById('mag'), railDot = document.getElementById('railDot'), rail = document.getElementById('rail');
+  layers.forEach(L => { const b = document.createElement('b'); b.textContent = L.name; b.style.top = (L.k / KMAX * 100) + '%'; rail.appendChild(b); L.tag = b; });
+  let z = 0, zForced = null;
+  const bgA = new THREE.Color(), bgB = new THREE.Color();
+
+  const ticker = VL.loop((dt, now) => {
+    const target = zForced ?? VL.clamp(scrollY / Math.max(1, maxScroll()), 0, 1);
+    z += (target - z) * (zForced !== null ? 1 : Math.min(1, dt * 5));
+    const logM = z * KMAX;
+    let nearest = null;
+    const scs = layers.map(L => Math.pow(10, logM - L.k));
+    layers.forEach((L, i) => {
+      const sc = scs[i], scn = i < layers.length - 1 ? scs[i + 1] : 0;
+      const o = VL.smooth(L.fadeIn[0], L.fadeIn[1], sc) * (i < layers.length - 1 ? 1 - VL.smooth(0.25, 0.9, scn) : 1);
+      const vis = sc > 0.012 && o > 0.002;
+      L.g.visible = vis; if (!vis) return;
+      L.g.scale.setScalar(sc);
+      L.setOpacity(o);
+      const sf = 1 - VL.smooth(L.shellWin[0], L.shellWin[1], scn);
+      L.shell.forEach(m => { if (m.u) m.u.uFade.value = o * sf; else m.opacity = (L.mats.find(x => x.mat === m) || { base: 1 }).base * o * sf; });
+      if (L.update) L.update(now, dt);
+      if (!nearest || Math.abs(Math.log10(sc)) < Math.abs(Math.log10(nearest.sc))) nearest = { L, sc };
+    });
+    const stops = [[0, 0x0a2a0c], [0.2, 0x08240f], [0.45, 0x061a0c], [0.7, 0x03110a], [0.85, 0x050a14], [1, 0x040612]];
+    for (let i = 0; i < stops.length - 1; i++) if (z >= stops[i][0] && z <= stops[i + 1][0]) { bgA.setHex(stops[i][1]); bgB.setHex(stops[i + 1][1]); scene.background.copy(bgA).lerp(bgB, (z - stops[i][0]) / (stops[i + 1][0] - stops[i][0])); break; }
+    layers.forEach(L => L.tag.classList.toggle('on', nearest && nearest.L === L));
+    root.rotation.z = z * 0.7; root.rotation.x = Math.sin(z * 4) * 0.08;
+    VL.mouseStep(dt); camera.position.set(VL.mouse.x * 0.35, VL.mouse.y * 0.25, 9); camera.lookAt(VL.mouse.x * 0.05, VL.mouse.y * 0.04, 0);
+    camera.fov = 45 + Math.sin(now * 0.3) * 0.8; camera.updateProjectionMatrix();
+    timeMats.forEach(m => m.u.uTime.value = now);
+    const M = Math.pow(10, logM);
+    readout.textContent = VL.fmtLength(0.08 / M); magEl.textContent = '×' + Math.round(M).toLocaleString('en-US');
+    railDot.style.top = (z * 100) + '%';
+    caps.update(z); dotsUI.update(z);
+    h1.classList.toggle('show', z < 0.05);
+    cue.classList.toggle('scrolling', z > 0.02);
+    api.render();
+  }, api);
+
+  window.__vl = { seek: v => { zForced = v; ticker.tick(0); }, free: () => { zForced = null; }, tick: dt => ticker.tick(dt), api, get z() { return z; } };
+})();
+</script>
+</body>
+</html>

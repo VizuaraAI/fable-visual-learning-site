@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Visual Learning — Four home page concepts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,400;1,500&family=Instrument+Sans:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="shared.css">
+<style>
+.top{padding:150px 0 40px}
+.top h1{font-size:clamp(44px,7vw,96px);max-width:14ch}
+.top .lede{margin-top:26px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:22px;margin:56px 0 0}
+.concept{display:block;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--ink2);transition:transform .35s cubic-bezier(.2,.7,.2,1),border-color .35s,box-shadow .35s}
+.concept:hover{transform:translateY(-4px);border-color:rgba(255,255,255,.28);box-shadow:0 30px 60px -30px rgba(0,0,0,.9)}
+.concept .thumb{position:relative;aspect-ratio:16/9;background:#0b1220 center/cover no-repeat}
+.concept .thumb::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(7,9,15,.85),transparent 55%)}
+.concept .thumb .n{position:absolute;left:18px;top:16px;font-family:var(--mono);font-size:12px;letter-spacing:.14em;color:#fff;background:rgba(7,9,15,.55);border:1px solid var(--line2);padding:6px 10px;border-radius:999px;backdrop-filter:blur(8px)}
+.concept .thumb .mode{position:absolute;right:18px;top:16px;font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--mute);background:rgba(7,9,15,.55);border:1px solid var(--line);padding:6px 10px;border-radius:999px;backdrop-filter:blur(8px)}
+.concept .thumb h2{position:absolute;left:22px;bottom:18px;right:22px;font-family:var(--serif);font-style:italic;font-size:clamp(28px,3vw,40px);line-height:1.05;color:#fff;text-shadow:0 2px 24px rgba(0,0,0,.7)}
+.concept .body{padding:22px 24px 26px}
+.concept .body p{margin:0;color:var(--mute);font-size:15.5px;line-height:1.6}
+.concept .moves{margin:16px 0 0;display:flex;flex-wrap:wrap;gap:6px}
+.concept .moves span{font-family:var(--mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--paper);border:1px solid var(--line2);border-radius:999px;padding:5px 9px}
+.concept .open{margin-top:20px;display:inline-flex;align-items:center;gap:8px;font-weight:500;color:var(--paper)}
+.concept .open i{width:26px;height:26px;border-radius:50%;border:1px solid var(--line2);display:inline-grid;place-items:center;font-style:normal;transition:background .25s}
+.concept:hover .open i{background:var(--violet)}
+.note{margin:64px 0 0;border-top:1px solid var(--line);padding-top:28px;color:var(--mute);font-size:15px;max-width:70ch;line-height:1.65}
+@media(max-width:900px){.grid{grid-template-columns:1fr}.top{padding-top:120px}}
+</style>
+</head>
+<body data-concept="0">
+
+<nav class="nav" id="nav">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="logo.png" alt="" width="30"> Visual Learning</a>
+    <div class="pill">
+      <a href="./" data-c="0">All four</a>
+      <a href="cell/" data-c="1"><small>01</small>The cell</a>
+      <a href="motor/" data-c="2"><small>02</small>The motor</a>
+      <a href="scale/" data-c="3"><small>03</small>Leaf to atom</a>
+      <a href="signal/" data-c="4"><small>04</small>The signal</a>
+    </div>
+    <div class="nav-r">
+      <a class="login" href="https://visuallearning-concept.vercel.app/" target="_blank" rel="noopener">Current site</a>
+      <a class="btn btn-primary btn-sm" href="cell/">Start with 01</a>
+    </div>
+  </div>
+</nav>
+
+<div class="wrap top">
+  <p class="eyebrow"><b>Home page concepts</b> · 5 September 2026</p>
+  <h1 class="display" style="margin-top:18px">Four ways to open the site.</h1>
+  <p class="lede">The current home page opens on a particle field and a motor lesson read out by the browser's own voice. These four are alternatives. Each one is a complete home page: the first screen is a live 3D scene, drawn in the browser as you watch, and the rest of the page follows below it. Nothing on the current site has changed.</p>
+</div>
+
+<div class="wrap">
+  <div class="grid">
+    <a class="concept" href="cell/">
+      <div class="thumb" style="background-image:url(thumbs/cell.jpg)"><span class="n">01</span><span class="mode">Autoplay · 44 s</span><h2>Inside the cell</h2></div>
+      <div class="body">
+        <p>The camera pushes in on a cell floating among others, the membrane opens, and it flies past the mitochondria, round the nucleus, in through a pore and down to the DNA. Then it pulls all the way back out and starts again.</p>
+        <div class="moves"><span>push in</span><span>peel</span><span>pass through</span><span>orbit</span><span>dive</span><span>pull out</span></div>
+        <span class="open">Open concept 01 <i>→</i></span>
+      </div>
+    </a>
+    <a class="concept" href="motor/">
+      <div class="thumb" style="background-image:url(thumbs/motor.jpg)"><span class="n">02</span><span class="mode">Scroll-driven</span><h2>The motor, taken apart</h2></div>
+      <div class="body">
+        <p>An electric motor spins in a studio. Scrolling explodes it into labelled parts, puts it back together, switches on the field and the current, and closes in on the split ring as it swaps the current every half turn. It plays by itself if you don't scroll.</p>
+        <div class="moves"><span>orbit</span><span>explode</span><span>pan</span><span>reassemble</span><span>close-up</span></div>
+        <span class="open">Open concept 02 <i>→</i></span>
+      </div>
+    </a>
+    <a class="concept" href="scale/">
+      <div class="thumb" style="background-image:url(thumbs/scale.jpg)"><span class="n">03</span><span class="mode">Scroll-driven · one zoom</span><h2>Leaf to atom</h2></div>
+      <div class="body">
+        <p>One continuous zoom, eight orders of magnitude. A leaf, its surface cells, one cell with its chloroplasts moving, the inside of a chloroplast, the membrane of one disc, a chlorophyll molecule, and the magnesium atom at its centre. The scale readout stays live the whole way.</p>
+        <div class="moves"><span>zoom</span><span>six match cuts</span><span>roll</span><span>scale readout</span></div>
+        <span class="open">Open concept 03 <i>→</i></span>
+      </div>
+    </a>
+    <a class="concept" href="signal/">
+      <div class="thumb" style="background-image:url(thumbs/signal.jpg)"><span class="n">04</span><span class="mode">Autoplay · 36 s</span><h2>The signal</h2></div>
+      <div class="body">
+        <p>A network of neurons in the dark. One of them fires, the camera chases the impulse down the axon as it jumps from gap to gap, slows right down at the synapse while the chemical crosses, and pulls back as the next neuron fires.</p>
+        <div class="moves"><span>cut in</span><span>chase</span><span>slow motion</span><span>pull back</span></div>
+        <span class="open">Open concept 04 <i>→</i></span>
+      </div>
+    </a>
+  </div>
+  <p class="note">All four use the nav, type and colours of the current site, and each one carries on into the same sections below the fold. There is no voiceover anywhere: the captions carry the explanation, and the 3D does the rest. On a laptop each scene runs at the screen's refresh rate; on a weak machine the pages drop their resolution rather than their frame rate.</p>
+  <div class="foot" style="margin-top:60px"><span>Visual Learning AI Pvt. Ltd.</span><span>Concepts, not the live site</span></div>
+</div>
+
+<script src="shared.js"></script>
+<script>VL.nav();</script>
+</body>
+</html>

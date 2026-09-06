@@ -1,0 +1,986 @@
+{
+  "class": 11,
+  "subject": "Physics",
+  "chapter_no": 7,
+  "slug": "gravitation",
+  "title": "Gravitation",
+  "summary": "This chapter builds the law of gravitation from Kepler's observations of planetary motion, then uses it to explain g and its variation, gravitational potential energy, escape speed, and the motion of satellites including geostationary orbits and weightlessness.",
+  "exam_profile": {
+    "weightage": "Class 11 has no board exam, but this chapter is tested fully in the school final/annual exam, and it is one of the most frequently used chapters for numericals in JEE Main, JEE Advanced and NEET — expect 1-3 questions from here in every competitive test.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Variation of g with height/depth, escape speed, orbital speed/period ratios, weightlessness reasoning."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "g at centre of Earth, geostationary satellite conditions, shell theorem, energy of a satellite."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "State Kepler's law, define escape speed, why g decreases both above and below the surface."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Derive relation between g and G, or between escape speed and orbital speed, small numericals."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full derivation: variation of g with height/depth, or energy of an orbiting satellite, or escape velocity derivation with a numerical."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A satellite or planetary-motion scenario with sub-parts testing Kepler's laws, orbital speed and energy together."
+      }
+    ],
+    "hot_topics": [
+      "Universal law of gravitation and vector form",
+      "Variation of g with height and depth",
+      "Kepler's three laws, especially the law of periods (T² ∝ r³)",
+      "Gravitational potential energy and escape speed derivation",
+      "Orbital velocity, time period and energy of a satellite",
+      "Geostationary and polar satellites",
+      "Weightlessness in a satellite",
+      "Numericals combining g, G, M, R of Earth and planets"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "7.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>Gravitation is the force of mutual attraction between any two objects with mass. It is the weakest of the four fundamental forces of nature, but because it always attracts (never repels) and its range is infinite, it dominates on the scale of planets, stars and galaxies. This chapter starts historically: Kepler found the pattern in planetary motion from data, and Newton then found the single force law explaining that pattern — the same force that makes an apple fall and keeps the Moon in orbit.</p><p>Keep the big picture in mind: one inverse-square law (F ∝ 1/r²) explains free fall near Earth's surface, the variation of g with height and depth, planetary orbits, escape speed and satellites. Almost every numerical here applies F = GMm/r² or energy conservation using gravitational potential energy.</p>",
+      "formulas": [],
+      "tip": "Write the assumptions of the shell theorem (mass distributed spherically symmetric) whenever you use 'Earth behaves as a point mass at its centre' — examiners award a mark for stating it."
+    },
+    {
+      "heading": "7.2 Kepler's Laws",
+      "pyq_years": [],
+      "body": "<p>Johannes Kepler analysed Tycho Brahe's naked-eye observations of planetary positions and found three empirical laws, all with the Sun at one focus, not the centre.</p><p><b>Law of orbits:</b> every planet moves in an elliptical orbit with the Sun at one of the two foci.</p><p><b>Law of areas:</b> the line joining a planet to the Sun sweeps out equal areas in equal intervals of time — dA/dt = constant. This follows from angular momentum conservation, because the gravitational force on the planet is always directed along the line to the Sun (a central force) and so exerts no torque about it. Since L = mvr sinθ is constant and dA = ½r(v dt) sinθ, the areal velocity dA/dt = L/2m is constant, so a planet moves faster near the Sun (perihelion) and slower far from it (aphelion).</p><p><b>Law of periods:</b> T² ∝ a³, where a is the semi-major axis of the orbit; for near-circular orbits this becomes T² ∝ r³. This law is what let Newton deduce that the force must vary as 1/r², shown next.</p>",
+      "formulas": [
+        {
+          "expr": "dA/dt = L/2m = constant",
+          "where": [
+            [
+              "dA/dt",
+              "areal velocity"
+            ],
+            [
+              "L",
+              "angular momentum of the planet about the Sun"
+            ],
+            [
+              "m",
+              "mass of the planet"
+            ]
+          ]
+        },
+        {
+          "expr": "T² ∝ a³",
+          "where": [
+            [
+              "T",
+              "orbital period"
+            ],
+            [
+              "a",
+              "semi-major axis of the elliptical orbit"
+            ]
+          ]
+        }
+      ],
+      "tip": "The law of areas is really conservation of angular momentum in disguise — if asked to 'prove' it, start from torque = dL/dt = 0 because F is central."
+    },
+    {
+      "heading": "7.3 Universal Law of Gravitation",
+      "pyq_years": [],
+      "body": "<p>Newton combined Kepler's law of periods with the idea of centripetal force to propose that every particle in the universe attracts every other particle with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between them, directed along the line joining them.</p><p><b>Derivation sketch (F ∝ 1/r² from T² ∝ r³):</b> for a planet of mass m in a circular orbit of radius r, gravity supplies the centripetal force: F = mv²/r = m(2πr/T)²/r = 4π²mr/T². Using T² = kr³, F = 4π²mr/(kr³) = (4π²/k)(m/r²), i.e. F ∝ 1/r². By Newton's third law the force must also be proportional to the Sun's mass M, giving the complete law.</p><p>In vector form, for point masses m₁ and m₂ separated by r₁₂ (pointing from 1 to 2), the force on mass 1 is F₁₂ = −G m₁m₂ r̂₁₂/r² — the minus sign shows it is attractive. The law obeys superposition: the net force on any mass due to several others is the vector sum of the pairwise forces.</p>",
+      "formulas": [
+        {
+          "expr": "F = G m<sub>1</sub>m<sub>2</sub>/r<sup>2</sup>",
+          "where": [
+            [
+              "F",
+              "magnitude of mutual gravitational force (N)"
+            ],
+            [
+              "G",
+              "universal gravitational constant, 6.674 × 10<sup>−11</sup> N m<sup>2</sup> kg<sup>−2</sup>"
+            ],
+            [
+              "m<sub>1</sub>, m<sub>2</sub>",
+              "the two masses (kg)"
+            ],
+            [
+              "r",
+              "distance between their centres (m)"
+            ]
+          ]
+        }
+      ],
+      "tip": "This law applies exactly to point masses, and to spherically symmetric bodies it applies with r measured from their centres — this is the shell theorem, and NCERT expects you to know it without proof."
+    },
+    {
+      "heading": "7.4 The Gravitational Constant",
+      "pyq_years": [],
+      "body": "<p>G is a universal constant — the same everywhere in the universe, unlike g which changes from place to place. Its value, 6.674 × 10⁻¹¹ N m² kg⁻², was first measured by Henry Cavendish using a torsion balance. Two small spheres are attached to the ends of a light rod suspended by a fine fibre; two large spheres brought close to them make the tiny gravitational attraction twist the fibre through a measurable angle. Knowing the fibre's torsional constant, the restoring torque and hence G can be calculated.</p><p>G is extremely small, which is why gravitational attraction between everyday objects is undetectably tiny; only when at least one mass is planet-sized does gravity become the dominant force we feel.</p>",
+      "formulas": [],
+      "tip": "You will not be asked to derive the Cavendish experiment in detail, but naming it and describing the torsion balance in one line is a common 2-mark question."
+    },
+    {
+      "heading": "7.5 Acceleration Due to Gravity of the Earth",
+      "pyq_years": [],
+      "body": "<p>Treating the Earth as a uniform sphere of mass M<sub>E</sub> and radius R<sub>E</sub>, the force it exerts on a small mass m on its surface is F = GM<sub>E</sub>m/R<sub>E</sub>². By Newton's second law this gives acceleration g = F/m = GM<sub>E</sub>/R<sub>E</sub>², the acceleration due to gravity. It is independent of the falling body's mass m — all bodies fall with the same g near Earth's surface (ignoring air resistance), which is why a feather and a coin fall together in vacuum.</p><p>Substituting values gives g ≈ 9.8 m s⁻². Since Earth is an oblate spheroid (flattened at the poles), R<sub>E</sub> is slightly smaller at the poles, so g is slightly larger there (≈9.83 m s⁻²) than at the equator (≈9.78 m s⁻²).</p>",
+      "formulas": [
+        {
+          "expr": "g = GM<sub>E</sub>/R<sub>E</sub><sup>2</sup>",
+          "where": [
+            [
+              "g",
+              "acceleration due to gravity at Earth's surface, ≈ 9.8 m s<sup>−2</sup>"
+            ],
+            [
+              "M<sub>E</sub>",
+              "mass of the Earth, ≈ 5.98 × 10<sup>24</sup> kg"
+            ],
+            [
+              "R<sub>E</sub>",
+              "radius of the Earth, ≈ 6.37 × 10<sup>6</sup> m"
+            ]
+          ]
+        }
+      ],
+      "tip": "g is independent of the falling body's own mass — a very common assertion-reason and MCQ trap tests exactly this."
+    },
+    {
+      "heading": "7.6 Acceleration Due to Gravity Below and Above the Surface of the Earth",
+      "pyq_years": [],
+      "body": "<p><b>Above the surface (height h):</b> at height h, distance from Earth's centre becomes (R<sub>E</sub> + h), so g<sub>h</sub> = GM<sub>E</sub>/(R<sub>E</sub>+h)² = g(1 + h/R<sub>E</sub>)⁻². For h ≪ R<sub>E</sub>, the binomial approximation gives g<sub>h</sub> ≈ g(1 − 2h/R<sub>E</sub>) — g decreases with height.</p><p><b>Below the surface (depth d):</b> only the mass within radius (R<sub>E</sub> − d) contributes at depth d, since the shell outside that radius exerts zero net force inside it (shell theorem). For uniform density ρ, enclosed mass M' = (4/3)πρ(R<sub>E</sub>−d)³, and g<sub>d</sub> = GM'/(R<sub>E</sub>−d)² works out to g<sub>d</sub> = g(1 − d/R<sub>E</sub>) — g falls linearly with depth, reaching zero at the centre (d = R<sub>E</sub>).</p><p>So g peaks at the surface and falls on either side of it — this is one of the most frequently derived results in the chapter; be ready to derive both cases in full for 5 marks.</p>",
+      "formulas": [
+        {
+          "expr": "g<sub>h</sub> ≈ g(1 − 2h/R<sub>E</sub>)   (h ≪ R<sub>E</sub>)",
+          "where": [
+            [
+              "g<sub>h</sub>",
+              "acceleration due to gravity at height h"
+            ],
+            [
+              "h",
+              "height above Earth's surface"
+            ]
+          ]
+        },
+        {
+          "expr": "g<sub>d</sub> = g(1 − d/R<sub>E</sub>)",
+          "where": [
+            [
+              "g<sub>d</sub>",
+              "acceleration due to gravity at depth d"
+            ],
+            [
+              "d",
+              "depth below Earth's surface"
+            ]
+          ]
+        }
+      ],
+      "tip": "g decreases twice as fast per unit distance going up as going down near the surface — an easy MCQ distractor checks whether you remember the factor of 2 in the height formula and its absence in the depth formula."
+    },
+    {
+      "heading": "7.7 Gravitational Potential Energy",
+      "pyq_years": [],
+      "body": "<p>Gravitational potential energy is the work done in bringing a mass from infinity to a point in a gravitational field, without change in kinetic energy. With zero potential energy taken at infinity, the potential energy of a mass m at distance r from a mass M is U(r) = −GMm/r — negative because gravity does positive work as the mass is brought in from infinity, so the system's energy is lower than at infinite separation.</p><p><b>Derivation:</b> the external force needed to move mass m quasi-statically against gravity at distance x is F<sub>ext</sub> = GMm/x² (outward). Work done moving it from r to infinity is W = ∫<sub>r</sub><sup>∞</sup> GMm/x² dx = GMm[−1/x]<sub>r</sub><sup>∞</sup> = GMm/r. Since U(∞) = 0 and W = U(∞) − U(r), we get U(r) = −GMm/r.</p><p>Near Earth's surface, for small h this reduces to the familiar U = mgh (surface as reference), verified by expanding U(R+h) − U(R) with the binomial approximation.</p>",
+      "formulas": [
+        {
+          "expr": "U(r) = −GMm/r",
+          "where": [
+            [
+              "U(r)",
+              "gravitational potential energy at separation r"
+            ],
+            [
+              "M, m",
+              "the two masses"
+            ]
+          ]
+        }
+      ],
+      "tip": "Do not confuse gravitational potential V = −GM/r (energy per unit mass) with gravitational potential energy U = −GMm/r (an easy mark lost in VSA questions)."
+    },
+    {
+      "heading": "7.8 Escape Speed",
+      "pyq_years": [],
+      "body": "<p>Escape speed is the minimum speed with which a body must be projected from a planet's surface so it just escapes the planet's gravitational pull, reaching infinity with zero kinetic energy left over.</p><p><b>Derivation:</b> total energy at the surface = ½mv<sub>e</sub>² − GMm/R. For the body to just escape, total energy at infinity = 0. So ½mv<sub>e</sub>² − GMm/R = 0, giving v<sub>e</sub> = √(2GM/R) = √(2gR). For Earth, v<sub>e</sub> ≈ 11.2 km s⁻¹, independent of the mass and direction of projection of the escaping body.</p><p>Escape speed explains why light gas molecules (hydrogen, helium) escape a planet's atmosphere more easily than heavier ones, and why the Moon, with much smaller v<sub>e</sub>, has essentially no atmosphere.</p>",
+      "formulas": [
+        {
+          "expr": "v<sub>e</sub> = √(2GM/R) = √(2gR)",
+          "where": [
+            [
+              "v<sub>e</sub>",
+              "escape speed"
+            ],
+            [
+              "M, R",
+              "mass and radius of the planet"
+            ]
+          ]
+        }
+      ],
+      "tip": "Escape speed is independent of the mass of the escaping body and its direction of projection — both are common assertion-reason statements."
+    },
+    {
+      "heading": "7.9 Earth Satellites",
+      "pyq_years": [],
+      "body": "<p>A satellite is a body revolving in a stable orbit around a planet under the planet's gravity, which supplies the centripetal force. For mass m in a circular orbit of radius r (= R<sub>E</sub> + h), GM<sub>E</sub>m/r² = mv<sub>o</sub>²/r, giving orbital speed v<sub>o</sub> = √(GM<sub>E</sub>/r). Close to the surface (r ≈ R<sub>E</sub>), v<sub>o</sub> = √(gR<sub>E</sub>) ≈ 7.9 km s⁻¹ — the minimum speed a projectile needs to become a satellite.</p><p>Time period T = 2πr/v<sub>o</sub> = 2π√(r³/GM<sub>E</sub>) — exactly Kepler's third law for a circular orbit, confirming Newton's law is consistent with Kepler's laws. Note v<sub>o</sub> = v<sub>e</sub>/√2 at any given radius.</p>",
+      "formulas": [
+        {
+          "expr": "v<sub>o</sub> = √(GM<sub>E</sub>/r)",
+          "where": [
+            [
+              "v<sub>o</sub>",
+              "orbital speed of the satellite"
+            ],
+            [
+              "r",
+              "orbital radius = R<sub>E</sub> + h"
+            ]
+          ]
+        },
+        {
+          "expr": "T = 2π√(r<sup>3</sup>/GM<sub>E</sub>)",
+          "where": [
+            [
+              "T",
+              "orbital period of the satellite"
+            ]
+          ]
+        }
+      ],
+      "tip": "Remember v<sub>e</sub> = √2 · v<sub>o</sub> at the same radius — this ratio is a favourite one-line MCQ."
+    },
+    {
+      "heading": "7.10 Energy of an Orbiting Satellite",
+      "pyq_years": [],
+      "body": "<p>A satellite in circular orbit has kinetic energy K = ½mv<sub>o</sub>² = GM<sub>E</sub>m/2r and potential energy U = −GM<sub>E</sub>m/r. Total mechanical energy E = K + U = GM<sub>E</sub>m/2r − GM<sub>E</sub>m/r = −GM<sub>E</sub>m/2r.</p><p>The total energy is negative — the signature of a bound system: the satellite cannot escape to infinity on its own. Note E = −K and U = 2E = −2K, worth memorising for quick numericals. Moving to a higher orbit needs energy input to raise r (E becomes less negative), even though orbital speed and K actually decrease there.</p>",
+      "formulas": [
+        {
+          "expr": "E = −GM<sub>E</sub>m/2r",
+          "where": [
+            [
+              "E",
+              "total mechanical energy of the orbiting satellite (always negative for a bound orbit)"
+            ]
+          ]
+        }
+      ],
+      "tip": "A frequent SA question: 'show that the total energy of an orbiting satellite is negative' — quote K, U and add them explicitly, don't just state the result."
+    },
+    {
+      "heading": "7.11 Geostationary and Polar Satellites",
+      "pyq_years": [],
+      "body": "<p>A geostationary satellite orbits the Earth in the equatorial plane, west to east, with period exactly equal to Earth's rotation period (23 h 56 min, taken as 24 h), so it appears fixed relative to a point on the surface. Using T = 2π√(r³/GM<sub>E</sub>) with T = 24 h gives orbital radius r ≈ 4.2 × 10⁴ km, i.e. height ≈ 3.6 × 10⁴ km. Used for communication and TV broadcast, since a fixed ground antenna stays pointed at them. Three such satellites, 120° apart, cover almost the whole globe except the poles.</p><p>A polar satellite is a low-altitude satellite (around 500-800 km) passing over the poles in a near north-south orbit while the Earth rotates beneath it, scanning the entire surface over successive orbits (period ≈100 minutes). Used for remote sensing, weather monitoring and surveillance.</p>",
+      "formulas": [
+        {
+          "expr": "r<sub>geo</sub> ≈ 4.2 × 10<sup>4</sup> km  (h ≈ 3.6 × 10<sup>4</sup> km)",
+          "where": [
+            [
+              "r<sub>geo</sub>",
+              "orbital radius of a geostationary satellite, measured from Earth's centre"
+            ]
+          ]
+        }
+      ],
+      "tip": "Geostationary satellites must be equatorial, west-to-east, and have T = 24 h — all three conditions together; missing any one is a common wrong-option in MCQs."
+    },
+    {
+      "heading": "7.12 Weightlessness",
+      "pyq_years": [],
+      "body": "<p>Weight is the normal reaction force the ground (or a scale) exerts on a body — what a scale actually measures, not the gravitational force itself. A body in free fall, or in an orbiting satellite, accelerates under gravity alone with no other contact force, so the normal reaction on it (and hence its apparent weight) is zero, even though the gravitational force on it is not. This state is weightlessness.</p><p>Inside an orbiting satellite, both the satellite and everything inside it (including an astronaut) fall towards Earth with the same acceleration, which supplies exactly the centripetal acceleration for the orbit. Since astronaut and satellite fall together, there is no relative acceleration and hence no contact force between them — the astronaut floats. Earth's gravity there is still nearly as strong as at the surface; it is continuous free fall, not an absence of gravity.</p>",
+      "formulas": [],
+      "tip": "Correct the common misconception explicitly if asked: astronauts are weightless because they are in continuous free fall (no normal force), not because gravity has vanished at that height."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Gravitation",
+      "definition": "The force of mutual attraction between any two bodies having mass; the weakest of the four fundamental forces but dominant on astronomical scales."
+    },
+    {
+      "term": "Kepler's law of areas",
+      "definition": "The line joining a planet to the Sun sweeps equal areas in equal times, a consequence of conservation of angular momentum since gravity is a central force."
+    },
+    {
+      "term": "Kepler's law of periods",
+      "definition": "T² ∝ a³ for planetary orbits, where T is the orbital period and a is the semi-major axis of the ellipse."
+    },
+    {
+      "term": "Universal gravitational constant (G)",
+      "definition": "The constant 6.674 × 10⁻¹¹ N m² kg⁻² in Newton's law of gravitation; same everywhere in the universe, first measured by Cavendish."
+    },
+    {
+      "term": "Acceleration due to gravity (g)",
+      "definition": "The acceleration of a freely falling body due to Earth's pull; g = GM<sub>E</sub>/R<sub>E</sub>², about 9.8 m s⁻² at the surface, independent of the falling body's mass."
+    },
+    {
+      "term": "Shell theorem",
+      "definition": "A uniform spherical shell attracts an external point mass as if its whole mass were at its centre, and exerts zero net force on any point mass inside it."
+    },
+    {
+      "term": "Gravitational potential energy",
+      "definition": "The energy U(r) = −GMm/r of a two-mass system, taken as zero at infinite separation; negative because gravity does positive work in bringing masses together."
+    },
+    {
+      "term": "Escape speed",
+      "definition": "The minimum speed v<sub>e</sub> = √(2GM/R) needed to project a body from a planet's surface so it just escapes the planet's gravitational field, reaching infinity with zero kinetic energy."
+    },
+    {
+      "term": "Orbital speed",
+      "definition": "The speed v<sub>o</sub> = √(GM/r) a satellite needs to maintain a stable circular orbit of radius r, where gravity supplies exactly the required centripetal force."
+    },
+    {
+      "term": "Geostationary satellite",
+      "definition": "A satellite in an equatorial circular orbit with period equal to Earth's rotation period (24 h), so it appears fixed above one point on the equator; orbital radius about 4.2 × 10⁴ km."
+    },
+    {
+      "term": "Polar satellite",
+      "definition": "A low-altitude satellite in a near north-south orbit passing over both poles, used for remote sensing and weather monitoring as the Earth rotates beneath its orbital plane."
+    },
+    {
+      "term": "Weightlessness",
+      "definition": "The state in which the apparent weight (normal reaction) of a body is zero because it is in free fall, as happens continuously to a satellite and everything inside it."
+    },
+    {
+      "term": "Binding energy of a satellite",
+      "definition": "The energy, equal to +GM<sub>E</sub>m/2r, that must be supplied to a satellite in orbit to free it completely from Earth's gravitational field (the negative of its total energy)."
+    },
+    {
+      "term": "Ellipse and semi-major axis",
+      "definition": "The shape of a planetary orbit under gravity, with the Sun at one focus; the semi-major axis a is the average of the closest (perihelion) and farthest (aphelion) distances from the Sun."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Newton's law of gravitation",
+      "expr": "F = Gm<sub>1</sub>m<sub>2</sub>/r<sup>2</sup>",
+      "note": "attractive force between two point masses; G = 6.674 × 10<sup>−11</sup> N m<sup>2</sup> kg<sup>−2</sup>"
+    },
+    {
+      "name": "g in terms of G",
+      "expr": "g = GM<sub>E</sub>/R<sub>E</sub><sup>2</sup>",
+      "note": "≈ 9.8 m s<sup>−2</sup> at Earth's surface"
+    },
+    {
+      "name": "g at height h",
+      "expr": "g<sub>h</sub> = g(1 + h/R<sub>E</sub>)<sup>−2</sup> ≈ g(1 − 2h/R<sub>E</sub>)",
+      "note": "approximation valid for h ≪ R<sub>E</sub>"
+    },
+    {
+      "name": "g at depth d",
+      "expr": "g<sub>d</sub> = g(1 − d/R<sub>E</sub>)",
+      "note": "linear decrease; zero at Earth's centre"
+    },
+    {
+      "name": "Gravitational potential energy",
+      "expr": "U(r) = −GMm/r",
+      "note": "reference U = 0 at r → ∞; reduces to mgh near the surface"
+    },
+    {
+      "name": "Escape speed",
+      "expr": "v<sub>e</sub> = √(2GM/R) = √(2gR)",
+      "note": "≈ 11.2 km s<sup>−1</sup> for Earth; independent of the escaping body's mass"
+    },
+    {
+      "name": "Orbital speed",
+      "expr": "v<sub>o</sub> = √(GM/r)",
+      "note": "for a circular orbit of radius r; v<sub>o</sub> ≈ 7.9 km s<sup>−1</sup> just above Earth's surface"
+    },
+    {
+      "name": "Time period of a satellite",
+      "expr": "T = 2π√(r<sup>3</sup>/GM)",
+      "note": "Kepler's third law applied to a circular orbit"
+    },
+    {
+      "name": "Total energy of an orbiting satellite",
+      "expr": "E = −GMm/2r",
+      "note": "negative — the signature of a bound orbit; E = −K = U/2"
+    },
+    {
+      "name": "Kepler's third law",
+      "expr": "T<sup>2</sup> ∝ a<sup>3</sup>",
+      "note": "a = semi-major axis; reduces to T² ∝ r³ for near-circular orbits"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Elliptical orbit showing Kepler's law of areas",
+      "how_to_draw": "Draw an ellipse with the Sun at one focus S (not the centre). Mark two positions of the planet near perihelion and two near aphelion, each pair separated by the same small time interval. Shade the two swept-area regions as equal, with the near-Sun arc visibly longer than the far-Sun arc, showing the planet moves faster when closer to the Sun."
+    },
+    {
+      "title": "Variation of g with height and depth from Earth's centre",
+      "how_to_draw": "Plot distance from Earth's centre on the x-axis and g on the y-axis. Mark R<sub>E</sub> where g is maximum (≈9.8). Inside Earth (r < R<sub>E</sub>), draw a straight line through the origin up to that maximum. Outside (r > R<sub>E</sub>), draw a curve falling as 1/r², approaching zero as r → ∞. Label both axes and the peak at R<sub>E</sub>."
+    },
+    {
+      "title": "Force on a satellite in circular orbit",
+      "how_to_draw": "Draw Earth as a circle with centre O, and a satellite S on a circular orbit of radius r. Draw an arrow from S towards O labelled F = GM<sub>E</sub>m/r² (centripetal force), and a tangential arrow at S labelled v<sub>o</sub> (orbital velocity), perpendicular to the radius. Note that F provides exactly mv<sub>o</sub>²/r."
+    },
+    {
+      "title": "Cavendish torsion balance (schematic)",
+      "how_to_draw": "Draw a light horizontal rod suspended at its centre by a thin vertical fibre. At each end, draw a small sphere (mass m); place two larger fixed spheres (mass M) near them, positioned to twist the rod. Mark the twist angle θ and label the fibre as the torsion element whose known restoring torque allows G to be calculated."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "8.1",
+      "q": "Answer the following: (a) You can shield a charge from electrical forces by putting it inside a hollow conductor. Can you shield a body from the gravitational influence of nearby matter by putting it inside a hollow sphere or by some other means? (b) An astronaut inside a small spaceship orbiting around the Earth cannot detect gravity. If the space station orbiting around the Earth has a large size, can he hope to detect gravity?",
+      "a": "<p>(a) No. Gravitational force cannot be shielded, unlike electrostatic force, because there is no negative mass to create a cancelling field; gravity acts on all matter alike, and there is no known gravitational insulator.</p><p>(b) Yes. In a very large space station, different parts sit at slightly different distances and directions from Earth's centre, so the field is not perfectly uniform. The astronaut could detect small tidal effects revealing gravity, even though local free fall still makes things appear weightless.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.5",
+      "q": "Choose the correct alternative: Acceleration due to gravity increases/decreases with increasing altitude. Acceleration due to gravity increases/decreases with increasing depth (assume the earth to be a sphere of uniform density). Acceleration due to gravity is independent of the mass of the earth/mass of the body. The formula −GM(1/r₂ − 1/r₁) is more/less accurate than the formula mg(r₂ − r₁) for the difference in potential energy between two points r₂ and r₁ distance away from the centre of the earth.",
+      "a": "<p>Decreases with altitude. Decreases with depth. Independent of the mass of the body (depends on Earth's mass). −GM(1/r₂ − 1/r₁) is more accurate, since mg(r₂−r₁) assumes g constant between r₁ and r₂, true only when the separation is small compared to Earth's radius.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "8.7",
+      "q": "Does the escape speed of a body from the earth depend on (a) the mass of the body, (b) the location from where it is projected, (c) the direction of projection, (d) the height of the location from where the body is launched?",
+      "a": "<p>(a) No — v<sub>e</sub> = √(2GM/R) has no dependence on the projected body's mass. (b) Yes, slightly, since Earth's oblate shape means different points are at slightly different distances from the centre. (c) No, escape speed does not depend on direction (ignoring atmosphere and rotation). (d) Yes — v<sub>e</sub> depends on R, so it decreases when launched from greater height.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "8.10",
+      "q": "Six point masses of mass m each are at the vertices of a regular hexagon of side l. Calculate the force of attraction on any mass at the centre of the hexagon.",
+      "a": "<p>By symmetry, each mass at a vertex is at the same distance l from the centre (since in a regular hexagon of side l, the distance from centre to a vertex equals l). Each vertex mass attracts the central mass with equal force F = Gm²/l², but for every mass there is another mass diametrically opposite it pulling with an equal and opposite force. All six forces cancel out in pairs, so the net gravitational force on the mass at the centre is <b>zero</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.12",
+      "q": "A rocket is fired vertically with a speed of 5 km s⁻¹ from the earth's surface. How far from the earth does the rocket go before returning to the earth? Mass of the earth = 6.0 × 10²⁴ kg; mean radius of the earth = 6.4 × 10⁶ m; G = 6.67 × 10⁻¹¹ N m² kg⁻².",
+      "a": "<p>Energy conservation between the surface and the highest point (v = 0 there): ½v² = GM<sub>E</sub>(1/R − 1/r), so 1/r = 1/R − v²/(2GM<sub>E</sub>).</p><p>v² = 2.5×10⁷ m²s⁻²; GM<sub>E</sub> = 4.0×10¹⁴ m³s⁻²; 1/R = 1.5625×10⁻⁷ m⁻¹; v²/(2GM<sub>E</sub>) = 3.125×10⁻⁸ m⁻¹.</p><p>1/r = 1.25×10⁻⁷ m⁻¹ ⇒ r = 8.0×10⁶ m. Height above surface = r − R = <b>1.6 × 10⁶ m (1600 km)</b>.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.13",
+      "q": "How will you 'weigh the sun', that is, estimate its mass? The mean orbital radius of the earth around the sun is 1.5 × 10⁸ km.",
+      "a": "<p>Kepler's third law for Earth's near-circular orbit: gravity supplies the centripetal force, GM<sub>s</sub>M<sub>E</sub>/r² = M<sub>E</sub>(4π²r/T²), so M<sub>s</sub> = 4π²r³/(GT²).</p><p>r = 1.5×10¹¹ m, T = 3.156×10⁷ s ⇒ r³ = 3.375×10³³ m³, T² = 9.96×10¹⁴ s².</p><p>M<sub>s</sub> = (4π² × 3.375×10³³)/(6.67×10⁻¹¹ × 9.96×10¹⁴) ≈ <b>2.0 × 10³⁰ kg</b>.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.16",
+      "q": "Assuming the earth to be a sphere of uniform mass density, how much would a body weigh half way down to the centre of the earth if it weighed 250 N on the surface?",
+      "a": "<p>At depth d = R/2, g<sub>d</sub> = g(1 − d/R) = g(1 − ½) = g/2.</p><p>Weight at that depth = mg<sub>d</sub> = mg/2 = 250/2 = <b>125 N</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.17",
+      "q": "A rocket is fired 'vertically' from the surface of mars with a speed of 2 km s⁻¹. If 20% of its initial energy is lost due to martian atmospheric resistance, how far will the rocket go from the surface of mars before returning to it? Mass of mars = 6.4 × 10²³ kg; radius of mars = 3395 km; G = 6.67 × 10⁻¹¹ N m² kg⁻².",
+      "a": "<p>Usable energy after 20% loss: 0.8 × ½mv² = 0.4mv². Energy conservation to the highest point: 0.4v² = GM<sub>m</sub>(1/R − 1/r).</p><p>GM<sub>m</sub> = 4.27×10¹³ m³s⁻²; R = 3.395×10⁶ m; 0.4v² = 1.6×10⁶ m²s⁻².</p><p>1/R = 2.946×10⁻⁷ m⁻¹; 1.6×10⁶/GM<sub>m</sub> = 3.747×10⁻⁸ m⁻¹; 1/r = 2.571×10⁻⁷ m⁻¹ ⇒ r ≈ 3.89×10⁶ m.</p><p>Height above surface = r − R ≈ <b>4.95 × 10⁵ m (about 495 km)</b>.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exemplar",
+      "number": "8.5 (MCQ)",
+      "q": "The gravitational force between a hollow spherical shell (of radius R) and a point mass placed at distance r from the centre of the shell (r < R) is (a) proportional to r (b) proportional to 1/r² (c) zero (d) proportional to r²",
+      "a": "<p><b>(c) zero.</b> By the shell theorem, a uniform spherical shell exerts no net gravitational force on any point mass located strictly inside it (r < R), because the pulls from all parts of the shell cancel exactly.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exemplar",
+      "number": "8.13",
+      "q": "Show the nature of the following graph for a satellite orbiting the earth: (a) KE vs orbital radius r, (b) PE vs orbital radius r, (c) TE vs orbital radius r.",
+      "a": "<p>(a) KE = GM<sub>E</sub>m/2r — a positive quantity that decreases as r increases, following a 1/r curve, approaching zero as r → ∞.</p><p>(b) PE = −GM<sub>E</sub>m/r — a negative quantity that increases (becomes less negative) as r increases, approaching zero from below as r → ∞.</p><p>(c) TE = −GM<sub>E</sub>m/2r — always negative, exactly half the magnitude of PE and equal in magnitude but opposite in sign to KE at every r; it also rises towards zero (from below) as r increases.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exemplar",
+      "number": "8.15",
+      "q": "A star can become a black hole if its escape velocity exceeds the speed of light c. Given the mass of the star is M and its Schwarzschild radius is R, derive the expression for R.",
+      "a": "<p>For light to just fail to escape, set escape speed equal to c: c = √(2GM/R). Squaring, c² = 2GM/R, so <b>R = 2GM/c²</b>. This is the Schwarzschild radius — any mass compressed within this radius becomes a black hole, since even light cannot escape from its surface.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The value of acceleration due to gravity at the centre of the Earth is:",
+      "options": [
+        "9.8 m s⁻²",
+        "zero",
+        "half the value at the surface",
+        "infinite"
+      ],
+      "answer": "b",
+      "solution": "g decreases linearly with depth, g<sub>d</sub> = g(1 − d/R), becoming zero when d = R, i.e. at the centre."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "If the radius of the Earth were to shrink by 1% while its mass remained unchanged, the acceleration due to gravity on its surface would:",
+      "options": [
+        "decrease by about 1%",
+        "increase by about 2%",
+        "increase by about 1%",
+        "remain unchanged"
+      ],
+      "answer": "b",
+      "solution": "g ∝ 1/R²; a 1% decrease in R gives an approximate 2% increase in g, using Δg/g ≈ −2ΔR/R."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A satellite of mass m is revolving very close to the Earth's surface. Its total energy is:",
+      "options": [
+        "¼ mgR<sub>E</sub>",
+        "−½ mgR<sub>E</sub>",
+        "mgR<sub>E</sub>",
+        "2mgR<sub>E</sub>"
+      ],
+      "answer": "b",
+      "solution": "Close to the surface, r ≈ R<sub>E</sub>, so E = −GM<sub>E</sub>m/2R<sub>E</sub> = −½mgR<sub>E</sub> (since g = GM<sub>E</sub>/R<sub>E</sub>²)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The ratio of escape speed to orbital speed (in a low orbit close to the surface) for a satellite is:",
+      "options": [
+        "1",
+        "√2",
+        "2",
+        "1/√2"
+      ],
+      "answer": "b",
+      "solution": "v<sub>e</sub> = √(2GM/R) and v<sub>o</sub> = √(GM/R) at the same radius, so v<sub>e</sub>/v<sub>o</sub> = √2."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A geostationary satellite orbits the Earth in a plane:",
+      "options": [
+        "passing through the poles",
+        "coinciding with the equatorial plane",
+        "at 45° to the equatorial plane",
+        "perpendicular to the equatorial plane"
+      ],
+      "answer": "b",
+      "solution": "A geostationary satellite must lie in the equatorial plane, moving west to east with the same period as Earth's rotation, so it stays over a fixed point."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Kepler's second law (law of areas) is a consequence of the conservation of:",
+      "options": [
+        "linear momentum",
+        "angular momentum",
+        "kinetic energy",
+        "mass"
+      ],
+      "answer": "b",
+      "solution": "Since gravity is a central force on the planet (always along the line to the Sun), it exerts zero torque about the Sun, so angular momentum is conserved, giving constant areal velocity."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "If the mass of a planet is 8 times and its radius is 2 times that of Earth, the acceleration due to gravity on its surface compared to Earth's is:",
+      "options": [
+        "same",
+        "twice",
+        "four times",
+        "half"
+      ],
+      "answer": "b",
+      "solution": "g<sub>p</sub>/g<sub>E</sub> = (M<sub>p</sub>/M<sub>E</sub>)(R<sub>E</sub>/R<sub>p</sub>)² = 8 × (1/2)² = 8/4 = 2, so g<sub>p</sub> is twice g<sub>E</sub>."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): An astronaut inside an orbiting satellite feels weightless. Reason (R): There is no gravitational force acting on the astronaut in orbit.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true, R is false — gravity still acts (it supplies the centripetal force); weightlessness comes from free fall (zero normal reaction), not absence of gravity."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The value of g is the same at all points on the Earth's surface. Reason (R): The Earth is a perfect sphere.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is false but R is true",
+        "Both A and R are false"
+      ],
+      "answer": "d",
+      "solution": "Both false — g varies with latitude (higher at poles) because Earth is an oblate spheroid, not a perfect sphere, and rotation also reduces effective g at the equator."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Gravitational potential energy of a two-mass system is always negative (taking the reference at infinity). Reason (R): Gravitational force between two masses is always attractive.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both true, R explains A — attraction means gravity does positive work bringing masses together from infinity, so the system's energy is lower than at infinite separation, i.e. negative."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A polar satellite can survey the entire surface of the Earth over time. Reason (R): A polar satellite orbits the Earth in a plane containing the north and south poles while the Earth rotates below it.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both true, R explains A — as Earth rotates beneath the fixed polar orbital plane, successive orbits pass over different longitudes, eventually scanning the whole surface."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State Kepler's law of periods. What does it establish about the relationship between the force of gravitation and the distance?",
+      "answer": "<p>Kepler's law of periods: T² ∝ a³, the square of the orbital period is proportional to the cube of the semi-major axis.</p><p>Combined with the centripetal force condition F = 4π²mr/T², substituting T² ∝ r³ gives F ∝ m/r² — the gravitational force must vary as the inverse square of distance, which is how Newton deduced the 1/r² law.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define escape speed. Write the formula for escape speed of a body from the surface of a planet of mass M and radius R.",
+      "answer": "<p>Escape speed is the minimum speed needed to project a body from a planet's surface so it just overcomes the planet's gravity and reaches infinity with zero kinetic energy left.</p><p>v<sub>e</sub> = √(2GM/R) ≈ 11.2 km s⁻¹ for Earth.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why does g decrease both as we go above the Earth's surface and as we go below it?",
+      "answer": "<p>Above the surface, distance from Earth's centre increases, and g ∝ 1/r², so g falls.</p><p>Below the surface, only the mass within radius (R − d) attracts a body at depth d (shell theorem), so the effective attracting mass itself decreases as d increases — this dominates, giving g<sub>d</sub> = g(1 − d/R).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Two satellites of a planet have periods 32 days and 256 days. If the radius of the orbit of the first satellite is R, find the radius of the orbit of the second satellite.",
+      "answer": "<p>By Kepler's third law, T² ∝ r³, so (T<sub>2</sub>/T<sub>1</sub>)² = (r<sub>2</sub>/r<sub>1</sub>)³.</p><p>(256/32)² = (r<sub>2</sub>/R)³ ⇒ 8² = (r<sub>2</sub>/R)³ ⇒ 64 = (r<sub>2</sub>/R)³ ⇒ r<sub>2</sub>/R = 4</p><p><b>r<sub>2</sub> = 4R.</b></p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Derive an expression for the total energy of a satellite of mass m revolving in a circular orbit of radius r around the Earth of mass M<sub>E</sub>. What does the negative sign of this energy indicate?",
+      "answer": "<p>Gravity supplies the centripetal force: GM<sub>E</sub>m/r² = mv<sub>o</sub>²/r ⇒ v<sub>o</sub>² = GM<sub>E</sub>/r.</p><p>K = ½mv<sub>o</sub>² = GM<sub>E</sub>m/2r; U = −GM<sub>E</sub>m/r.</p><p>E = K + U = GM<sub>E</sub>m/2r − GM<sub>E</sub>m/r = <b>−GM<sub>E</sub>m/2r</b>.</p><p>The negative sign shows the satellite is bound — it lacks enough energy to escape to infinity; +GM<sub>E</sub>m/2r must be supplied to free it.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A body weighs 63 N on the surface of the Earth. What is the gravitational force on it due to the Earth at a height equal to half the radius of the Earth?",
+      "answer": "<p>At height h = R/2, distance from centre = R + R/2 = 3R/2.</p><p>Weight ∝ 1/r², so W<sub>h</sub>/W<sub>surface</sub> = (R/(3R/2))² = (2/3)² = 4/9.</p><p>W<sub>h</sub> = 63 × 4/9 = <b>28 N.</b></p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State Kepler's law of areas and prove it using the concept of angular momentum conservation.",
+      "answer": "<p><b>Statement:</b> the line joining a planet to the Sun sweeps out equal areas in equal intervals of time.</p><p><b>Proof:</b> gravity on the planet is always directed towards the Sun (central force), so it exerts zero torque about the Sun: τ = dL/dt = 0, so L = mvr sinθ is constant.</p><p>In time dt the planet sweeps dA ≈ ½r(v dt sinθ), so dA/dt = ½rv sinθ = L/2m = constant. Equal areas are therefore swept in equal times.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A planet has twice the mass of Earth and the same density as Earth. Find the ratio of the escape speed of a body from the surface of this planet to that from Earth's surface.",
+      "answer": "<p>Since density ρ is same, M = (4/3)πR³ρ, so M ∝ R³, i.e. R ∝ M^(1/3).</p><p>M<sub>p</sub> = 2M<sub>E</sub> ⇒ R<sub>p</sub> = R<sub>E</sub>(2)^(1/3)</p><p>v<sub>e</sub> = √(2GM/R), so v<sub>e,p</sub>/v<sub>e,E</sub> = √[(M<sub>p</sub>/M<sub>E</sub>)(R<sub>E</sub>/R<sub>p</sub>)] = √[2 × 2^(−1/3)] = √(2^(2/3)) = 2^(1/3) ≈ <b>1.26</b>.</p><p>So the escape speed from the planet is about 1.26 times that from Earth.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive an expression for the variation of acceleration due to gravity (a) with height above the Earth's surface and (b) with depth below the Earth's surface. Hence show that g decreases in both cases.",
+      "answer": "<p><b>(a) With height h:</b> distance from centre = R<sub>E</sub> + h, so g<sub>h</sub> = GM<sub>E</sub>/(R<sub>E</sub>+h)² = g(1 + h/R<sub>E</sub>)⁻². For h ≪ R<sub>E</sub>, binomial expansion (1+x)⁻ⁿ ≈ 1 − nx gives g<sub>h</sub> ≈ g(1 − 2h/R<sub>E</sub>). Since h/R<sub>E</sub> > 0, g<sub>h</sub> < g — g decreases with height.</p><p><b>(b) With depth d:</b> only mass enclosed within radius (R<sub>E</sub> − d) attracts a body at depth d, the outer shell contributing zero net force (shell theorem). For uniform density ρ = M<sub>E</sub>/[(4/3)πR<sub>E</sub>³], enclosed mass M' = M<sub>E</sub>[(R<sub>E</sub>−d)/R<sub>E</sub>]³.</p><p>g<sub>d</sub> = GM'/(R<sub>E</sub>−d)² = [GM<sub>E</sub>/R<sub>E</sub>³](R<sub>E</sub>−d) = g(1 − d/R<sub>E</sub>)</p><p>Since d/R<sub>E</sub> > 0, g<sub>d</sub> < g too, reaching zero at the centre (d = R<sub>E</sub>). Both results confirm g peaks at the surface and falls off on either side.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive an expression for the escape speed of a body from the surface of the Earth. A body is projected with a speed equal to twice the escape speed. Find its speed when it is far away from the Earth (ignore the effect of other bodies).",
+      "answer": "<p><b>Derivation:</b> for a body of mass m projected with speed v<sub>e</sub> from the Earth's surface (radius R, mass M<sub>E</sub>) to just escape (reaching infinity with zero speed), by conservation of energy:</p><p>½mv<sub>e</sub>² + (−GM<sub>E</sub>m/R) = 0 + 0 (at infinity, K = 0, U = 0)</p><p>⇒ v<sub>e</sub> = √(2GM<sub>E</sub>/R) = √(2gR). For Earth this gives v<sub>e</sub> ≈ 11.2 km s⁻¹.</p><p><b>Numerical:</b> body projected with u = 2v<sub>e</sub>. By energy conservation to a point far away where speed is v<sub>f</sub>: ½mu² − GM<sub>E</sub>m/R = ½mv<sub>f</sub>². Dividing by m and using GM<sub>E</sub>/R = ½v<sub>e</sub>²: 2v<sub>e</sub>² − ½v<sub>e</sub>² = ½v<sub>f</sub>² ⇒ v<sub>f</sub>² = 3v<sub>e</sub>² ⇒ v<sub>f</sub> = √3 v<sub>e</sub> ≈ <b>19.4 km s⁻¹.</b></p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "What is a geostationary satellite? Derive an expression for the height of a geostationary satellite above the Earth's surface in terms of Earth's mass M<sub>E</sub>, radius R<sub>E</sub> and the time period of the satellite T. State two uses of geostationary satellites.",
+      "answer": "<p>A geostationary satellite orbits the Earth in the equatorial plane, west to east, with time period equal to Earth's rotation period (about 24 h), so it always appears stationary above the same point on the equator.</p><p><b>Derivation:</b> for a circular orbit of radius r, GM<sub>E</sub>m/r² = mv<sub>o</sub>²/r with v<sub>o</sub> = 2πr/T, giving GM<sub>E</sub>/r² = 4π²r/T², so r³ = GM<sub>E</sub>T²/4π² ⇒ r = [GM<sub>E</sub>T²/4π²]^(1/3). Height above surface h = r − R<sub>E</sub>.</p><p>Substituting G = 6.67×10⁻¹¹, M<sub>E</sub> = 5.98×10²⁴ kg, T = 86400 s gives r ≈ 4.22×10⁷ m, so h ≈ 3.6×10⁴ km.</p><p><b>Uses:</b> television/radio broadcast relay; long-distance communication links, since a fixed ground antenna can track them continuously.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A student is studying the motion of a satellite of mass 500 kg revolving around the Earth in a circular orbit of radius 8000 km. Take M<sub>E</sub> = 6 × 10²⁴ kg, G = 6.67 × 10⁻¹¹ N m² kg⁻². (i) Calculate the orbital speed of the satellite. (ii) Calculate the time period of revolution. (iii) Calculate the total energy of the satellite. (iv) If the satellite's orbital radius were doubled, would its total energy increase or decrease in magnitude? Explain.",
+      "answer": "<p>(i) v<sub>o</sub> = √(GM<sub>E</sub>/r) = √[(4.0×10¹⁴)/(8×10⁶)] ≈ <b>7071 m s⁻¹ ≈ 7.07 km s⁻¹.</b></p><p>(ii) T = 2πr/v<sub>o</sub> ≈ (5.027×10⁷)/7071 ≈ <b>7110 s ≈ 118.5 minutes.</b></p><p>(iii) E = −GM<sub>E</sub>m/2r = −(2.0×10¹⁷)/(1.6×10⁷) ≈ <b>−1.25 × 10¹⁰ J.</b></p><p>(iv) If r doubles, |E| = GM<sub>E</sub>m/2r halves (E ∝ 1/r), so total energy becomes less negative — the satellite becomes less tightly bound, consistent with needing energy input to raise its orbit.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the following and answer the questions. Kepler studied the motion of planets and gave three laws purely from observation, before Newton explained them using the law of gravitation. Consider a planet moving in an elliptical orbit around the Sun, with the Sun at one focus. (i) State Kepler's law of areas and identify the physical quantity that is conserved to give rise to it. (ii) At which point in its orbit does the planet move fastest — perihelion (closest to Sun) or aphelion (farthest)? Justify briefly. (iii) If a planet's orbital radius is increased to 4 times its original value (assume circular orbit), by what factor does its time period change? (iv) Why does Newton's law of gravitation, and not Kepler's laws alone, allow us to calculate the mass of the Sun?",
+      "answer": "<p>(i) The line joining the planet to the Sun sweeps equal areas in equal times; it follows from conservation of angular momentum, since gravity is a central force and exerts no torque about the Sun.</p><p>(ii) Fastest at perihelion. Since dA/dt = ½rv sinθ is constant, a smaller r needs a larger v.</p><p>(iii) T ∝ r^(3/2) (Kepler's third law). r → 4r gives T → 4^(3/2) = <b>8 times.</b></p><p>(iv) Kepler's laws describe orbit geometry and timing, with no reference to force or mass. F = GMm/r² combined with the centripetal condition gives M = 4π²r³/GT², using measurable r and T — Kepler's laws alone give only ratios and shapes, not absolute mass.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The value of G was first experimentally determined by:",
+      "options": [
+        "Newton",
+        "Kepler",
+        "Cavendish",
+        "Galileo"
+      ],
+      "answer_index": 2,
+      "explanation": "Henry Cavendish measured G using a torsion balance experiment."
+    },
+    {
+      "q": "Which of the following is the correct unit of G?",
+      "options": [
+        "N m kg⁻¹",
+        "N m² kg⁻²",
+        "N m⁻² kg²",
+        "N kg⁻² m⁻²"
+      ],
+      "answer_index": 1,
+      "explanation": "From F = Gm₁m₂/r², G has units N m² kg⁻²."
+    },
+    {
+      "q": "The gravitational force between two point masses is F. If the distance between them is doubled, the new force is:",
+      "options": [
+        "F/2",
+        "F/4",
+        "2F",
+        "4F"
+      ],
+      "answer_index": 1,
+      "explanation": "F ∝ 1/r²; doubling r reduces F to F/4."
+    },
+    {
+      "q": "A body is taken from the equator to the pole. Its weight will:",
+      "options": [
+        "decrease",
+        "increase slightly",
+        "remain unchanged",
+        "become zero"
+      ],
+      "answer_index": 1,
+      "explanation": "g is larger at the poles than at the equator (Earth's oblateness and rotation effects), so weight increases slightly."
+    },
+    {
+      "q": "Two identical satellites A and B orbit the Earth at radii r and 2r. The ratio of their orbital speeds v<sub>A</sub>/v<sub>B</sub> is:",
+      "options": [
+        "1/√2",
+        "√2",
+        "2",
+        "1/2"
+      ],
+      "answer_index": 1,
+      "explanation": "v<sub>o</sub> ∝ 1/√r, so v<sub>A</sub>/v<sub>B</sub> = √(2r/r) = √2."
+    },
+    {
+      "q": "The escape speed from a planet does not depend on:",
+      "options": [
+        "mass of the planet",
+        "radius of the planet",
+        "mass of the escaping body",
+        "value of G"
+      ],
+      "answer_index": 2,
+      "explanation": "v<sub>e</sub> = √(2GM/R) has no term for the mass of the escaping body."
+    },
+    {
+      "q": "If the Earth's mass were to suddenly double while its radius stayed the same, the escape speed would become:",
+      "options": [
+        "same",
+        "√2 times",
+        "2 times",
+        "4 times"
+      ],
+      "answer_index": 1,
+      "explanation": "v<sub>e</sub> ∝ √M, so doubling M multiplies v<sub>e</sub> by √2."
+    },
+    {
+      "q": "A satellite revolving close to the Earth's surface will not fall to the ground because:",
+      "options": [
+        "it has no weight in orbit",
+        "the gravitational force on it is balanced by an equal upward force",
+        "gravity provides exactly the centripetal force needed for its circular motion",
+        "there is no gravity at that altitude"
+      ],
+      "answer_index": 2,
+      "explanation": "The satellite is in free fall — gravity continually curves its path into a circle, which is exactly the centripetal force condition, so it does not need any 'balancing' upward force."
+    },
+    {
+      "q": "The time period of a geostationary satellite is about:",
+      "options": [
+        "90 minutes",
+        "12 hours",
+        "24 hours",
+        "1 month"
+      ],
+      "answer_index": 2,
+      "explanation": "A geostationary satellite must match Earth's rotation period, about 24 hours."
+    },
+    {
+      "q": "The total mechanical energy of a satellite in a stable circular orbit is:",
+      "options": [
+        "always positive",
+        "always zero",
+        "always negative",
+        "equal to its kinetic energy"
+      ],
+      "answer_index": 2,
+      "explanation": "E = −GMm/2r is always negative for a bound circular orbit."
+    },
+    {
+      "q": "If a body is thrown up with exactly the escape speed, its total mechanical energy at the surface (taking U = 0 at infinity) is:",
+      "options": [
+        "negative",
+        "zero",
+        "positive",
+        "cannot be determined"
+      ],
+      "answer_index": 1,
+      "explanation": "At escape speed the body just reaches infinity with zero KE, so total energy K + U = 0."
+    },
+    {
+      "q": "Which of these graphs correctly shows the variation of g inside the Earth (assuming uniform density) as distance from the centre increases from 0 to R<sub>E</sub>?",
+      "options": [
+        "a horizontal line",
+        "a straight line increasing from 0 to a maximum at R<sub>E</sub>",
+        "a curve decreasing from a maximum",
+        "a straight line decreasing from a maximum"
+      ],
+      "answer_index": 1,
+      "explanation": "Inside a uniform Earth, g<sub>d</sub> = g(1 − d/R) means g rises linearly from zero at the centre to a maximum at the surface — as distance from centre increases, g increases linearly."
+    },
+    {
+      "q": "Two planets have the same mass but planet A has twice the radius of planet B. The ratio of g on A to g on B is:",
+      "options": [
+        "4:1",
+        "1:4",
+        "2:1",
+        "1:2"
+      ],
+      "answer_index": 1,
+      "explanation": "g ∝ 1/R² for the same mass, so g<sub>A</sub>/g<sub>B</sub> = (R<sub>B</sub>/R<sub>A</sub>)² = (1/2)² = 1/4."
+    },
+    {
+      "q": "A polar satellite is mainly used for:",
+      "options": [
+        "television broadcast",
+        "remote sensing and weather forecasting",
+        "GPS only",
+        "communication with a fixed ground antenna"
+      ],
+      "answer_index": 1,
+      "explanation": "Polar satellites pass over every part of the Earth as it rotates beneath them, making them ideal for remote sensing and weather monitoring."
+    },
+    {
+      "q": "The ratio of the orbital speed of a satellite to the escape speed calculated at the same orbital radius is:",
+      "options": [
+        "1",
+        "√2",
+        "1/√2",
+        "2"
+      ],
+      "answer_index": 2,
+      "explanation": "v<sub>o</sub>/v<sub>e</sub> = √(GM/r) / √(2GM/r) = 1/√2."
+    },
+    {
+      "q": "According to Kepler's law of areas, a planet moves slowest in its orbit when it is:",
+      "options": [
+        "closest to the Sun (perihelion)",
+        "farthest from the Sun (aphelion)",
+        "at the semi-minor axis point",
+        "its speed is constant throughout"
+      ],
+      "answer_index": 1,
+      "explanation": "Since areal velocity is constant, a larger distance r at aphelion must be compensated by a smaller speed v to sweep the same area."
+    }
+  ],
+  "common_mistakes": [
+    "Writing g as a universal constant like G — g depends on the planet/location (mass and radius), while G is truly universal and unchanging.",
+    "Forgetting the negative sign in gravitational potential energy U = −GMm/r, which leads to sign errors in every energy-conservation numerical in this chapter.",
+    "Confusing gravitational potential (V = −GM/r, energy per unit mass) with gravitational potential energy (U = −GMm/r, for a specific mass m) — they carry different units and different marks are lost for mixing them up.",
+    "Believing escape speed depends on the mass of the escaping body or the angle of projection — it does not; only M and R of the planet matter (in the idealised case).",
+    "Saying astronauts are weightless because 'there is no gravity in space' — gravity is still nearly full strength in low Earth orbit; weightlessness is due to continuous free fall (zero normal reaction), not zero gravitational force.",
+    "Using g<sub>h</sub> ≈ g(1 − 2h/R<sub>E</sub>) even when h is comparable to or larger than R<sub>E</sub> — this is only a valid approximation for h ≪ R<sub>E</sub>; for large h, use the exact formula g<sub>h</sub> = GM<sub>E</sub>/(R<sub>E</sub>+h)².",
+    "Forgetting that the shell theorem requires uniform (or spherically symmetric) density — many students misapply g<sub>d</sub> = g(1 − d/R) to a non-uniform Earth without noting the assumption.",
+    "Mixing up the conditions for a geostationary satellite — students often forget it must be in the equatorial plane and moving west to east, not just having T = 24 h."
+  ],
+  "strategy": "<p>This chapter rewards a small set of well-drilled derivations more than memorisation. Master four cold, because between them they cover almost every 3- and 5-mark question: variation of g with height and depth, U = −GMm/r from the work-energy integral, escape speed from energy conservation, and the orbital speed/period/energy of a satellite. Practise writing each from a blank page, not just reading it — the marking scheme rewards every intermediate step.</p><p>Memorise the constants (G, M<sub>E</sub>, R<sub>E</sub>, standard g, v<sub>e</sub> ≈ 11.2 km s⁻¹, v<sub>o</sub> ≈ 7.9 km s<sup>−1</sup>) and the three key ratios: v<sub>e</sub> = √2 v<sub>o</sub>, E = −K = U/2 for an orbiting satellite, and T² ∝ r³ for any circular orbit.</p><p>For numericals, start by writing the energy or force equation symbolically before substituting numbers — partial credit rewards the correct setup even if arithmetic slips. Be ready to explain concepts in your own words too: why g is zero at the centre, why astronauts float, why geostationary satellites must be equatorial — these are where marks are lost through vague reasoning, not missing formulas.</p>",
+  "revision_checklist": [
+    "State all three of Kepler's laws in your own words, with the areas law linked to angular momentum conservation.",
+    "Write Newton's law of gravitation in both scalar and vector form, and state the value of G with units.",
+    "Derive g = GM<sub>E</sub>/R<sub>E</sub>² and explain why g is independent of the falling body's mass.",
+    "Derive the variation of g with height (both exact and the h ≪ R<sub>E</sub> approximation) from a blank page.",
+    "Derive the variation of g with depth and explain why g becomes zero at the Earth's centre.",
+    "Derive U(r) = −GMm/r from the definition of work done against gravity, and know when it reduces to mgh.",
+    "Derive escape speed v<sub>e</sub> = √(2GM/R) using energy conservation, and state its value for Earth.",
+    "Derive the orbital speed v<sub>o</sub> = √(GM/r) and time period T = 2π√(r³/GM) for a satellite in circular orbit.",
+    "Derive that the total energy of an orbiting satellite is E = −GM<sub>E</sub>m/2r and explain the meaning of the negative sign.",
+    "State the three conditions for a satellite to be geostationary, and know its approximate orbital radius and height.",
+    "Explain the difference between a geostationary and a polar satellite, with one use of each.",
+    "Explain weightlessness correctly: zero normal reaction due to free fall, not the absence of gravity.",
+    "Know the key ratios by heart: v<sub>e</sub> = √2 v<sub>o</sub>; E = −K; U = 2E.",
+    "Be able to apply Kepler's third law (T² ∝ r³) to compare two orbits without knowing G, M or absolute r."
+  ],
+  "videos": [
+    {
+      "id": "jW2_H6-_72A",
+      "title": "Gravitation · full chapter"
+    }
+  ]
+}

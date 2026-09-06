@@ -1,0 +1,1165 @@
+{
+  "class": 11,
+  "subject": "Physics",
+  "chapter_no": 6,
+  "slug": "system-of-particles-and-rotational-motion",
+  "title": "System of Particles and Rotational Motion",
+  "summary": "This chapter extends mechanics from a single point mass to an extended rigid body — the centre of mass, torque, moment of inertia and angular momentum — and shows that rotational motion has the same structure as linear motion, with mass replaced by moment of inertia and force replaced by torque.",
+  "exam_profile": {
+    "weightage": "This chapter is not part of the Class 11 board (there is no Class 11 CBSE board exam), but it carries significant weight in the school final/annual exam and is one of the most heavily tested mechanics chapters in JEE and NEET. Expect one long-answer derivation and 2–3 numericals in the school final.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Moment of inertia of standard bodies, vector product properties, rolling condition v = Rω, conservation of angular momentum."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Centre of mass vs centre of gravity, torque and angular momentum direction, radius of gyration."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define torque/angular momentum, state theorems of perpendicular and parallel axes, why COM of a bangle isn't inside the material."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Numericals on moment of inertia using the two theorems, torque-angular acceleration problems, equilibrium of a rigid body."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Derive velocity/acceleration of a body rolling down an incline, or derive expression for kinetic energy of rolling motion, or COM of a system of particles."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A situation (flywheel, rolling ball, seesaw) with sub-questions moving from concept to calculation."
+      }
+    ],
+    "hot_topics": [
+      "Centre of mass of a two-particle and continuous system",
+      "Torque and angular momentum, τ = dL/dt",
+      "Theorems of perpendicular and parallel axes",
+      "Moment of inertia of ring, disc, rod and sphere",
+      "Rolling motion — kinetic energy and acceleration down an incline",
+      "Conservation of angular momentum",
+      "Equilibrium of a rigid body (couple, torque balance)",
+      "Radius of gyration"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "6.1–6.2 Rigid Body and Centre of Mass",
+      "pyq_years": [],
+      "body": "<p>A rigid body is an idealised body whose shape and size do not change under an applied force — the distance between any two particles stays fixed. Real bodies deform slightly, but for mechanics we treat solids as rigid.</p><p>The <b>centre of mass (COM)</b> of a system of particles is the point at which the entire mass can be imagined concentrated for describing overall translational motion. For two particles on the x-axis at x<sub>1</sub>, x<sub>2</sub>: X = (m<sub>1</sub>x<sub>1</sub> + m<sub>2</sub>x<sub>2</sub>)/(m<sub>1</sub> + m<sub>2</sub>). Equal masses give a midpoint COM; a heavier mass pulls the COM towards itself.</p><p>For n particles in 3-D: X = (Σm<sub>i</sub>x<sub>i</sub>)/M, and similarly for Y, Z, where M = Σm<sub>i</sub>. In vector form, R = (Σm<sub>i</sub>r<sub>i</sub>)/M; for a continuous body, R = (1/M)∫r dm.</p><p>By symmetry, the COM of a uniform ring, disc, sphere or cube lies at its geometric centre — for a ring, this is the empty space at the centre, not on the ring material itself.</p>",
+      "formulas": [
+        {
+          "expr": "X = (m<sub>1</sub>x<sub>1</sub> + m<sub>2</sub>x<sub>2</sub>)/(m<sub>1</sub> + m<sub>2</sub>)",
+          "where": [
+            [
+              "X",
+              "x-coordinate of centre of mass"
+            ],
+            [
+              "m<sub>1</sub>, m<sub>2</sub>",
+              "masses of the two particles"
+            ]
+          ]
+        },
+        {
+          "expr": "R = (Σm<sub>i</sub>r<sub>i</sub>)/M",
+          "where": [
+            [
+              "R",
+              "position vector of COM"
+            ],
+            [
+              "M",
+              "total mass Σm<sub>i</sub>"
+            ]
+          ]
+        }
+      ],
+      "tip": "If asked for COM of an irregular lamina with a piece removed, treat the removed piece as negative mass at its own COM and use the same formula — this is the standard board trick."
+    },
+    {
+      "heading": "6.3 Motion of Centre of Mass",
+      "pyq_years": [],
+      "body": "<p>Differentiating R = (Σm<sub>i</sub>r<sub>i</sub>)/M with respect to time gives the velocity of the COM: MV = Σm<sub>i</sub>v<sub>i</sub> = total linear momentum p of the system. So the total momentum of a system of particles equals the total mass times the velocity of its COM — exactly as if all the mass were concentrated at the COM and moving with velocity V.</p><p>Differentiating again, MA = Σm<sub>i</sub>a<sub>i</sub> = F<sub>ext</sub>, the vector sum of all external forces (internal forces between particles cancel in pairs by Newton's third law and do not affect COM motion). This is the key result: <b>the centre of mass of a system moves as if the entire mass of the system were concentrated there and all the external forces acted directly at that point.</b></p><p>This is why a projectile that explodes in mid-air under purely internal forces (the explosion) has its COM continuing along the same parabolic path as before the explosion — the fragments fly off in different directions, but their combined COM does not change its trajectory because no new external force has appeared.</p>",
+      "formulas": [
+        {
+          "expr": "M V = Σm<sub>i</sub>v<sub>i</sub> = p (total momentum)",
+          "where": [
+            [
+              "V",
+              "velocity of centre of mass"
+            ],
+            [
+              "p",
+              "total linear momentum of the system"
+            ]
+          ]
+        },
+        {
+          "expr": "M A = F<sub>ext</sub>",
+          "where": [
+            [
+              "A",
+              "acceleration of centre of mass"
+            ],
+            [
+              "F<sub>ext</sub>",
+              "vector sum of external forces"
+            ]
+          ]
+        }
+      ],
+      "tip": "A very common conceptual MCQ: internal forces (explosion, muscular effort) can never change the motion of the COM; only an external force can."
+    },
+    {
+      "heading": "6.4 Linear Momentum of a System of Particles",
+      "pyq_years": [],
+      "body": "<p>Combining the results above, dp/dt = MA = F<sub>ext</sub>. This is Newton's second law extended to a system of particles: the rate of change of total linear momentum of a system equals the total external force on it.</p><p>If F<sub>ext</sub> = 0, then p = MV is constant — this is the <b>law of conservation of linear momentum</b> for a system, and it also means the velocity of the COM stays constant when no external force acts, even if the particles that make up the system keep colliding, exploding or rearranging among themselves.</p><p>This principle underlies recoil of a gun, motion of a rocket, and collision problems: as long as no external force acts along a direction, momentum along that direction is conserved for the system as a whole, whatever happens internally.</p>",
+      "formulas": [
+        {
+          "expr": "dp/dt = F<sub>ext</sub>",
+          "where": [
+            [
+              "p",
+              "total linear momentum, Σm<sub>i</sub>v<sub>i</sub>"
+            ],
+            [
+              "F<sub>ext</sub>",
+              "net external force"
+            ]
+          ]
+        }
+      ],
+      "tip": ""
+    },
+    {
+      "heading": "6.5 Vector Product of Two Vectors",
+      "pyq_years": [],
+      "body": "<p>Torque and angular momentum are both defined using the <b>vector (cross) product</b>. For two vectors a and b, a × b = ab sinθ n̂, where θ is the angle between them and n̂ is a unit vector perpendicular to the plane of a and b, given by the right-hand rule: curl the fingers from a to b, and the thumb points along n̂.</p><p>Key properties: (i) a × b = −(b × a) — not commutative; reversing the order reverses the direction. (ii) a × a = 0, since sinθ = 0, so parallel or antiparallel vectors give a × b = 0. (iii) |a × b| equals the area of the parallelogram formed by a and b. (iv) In components, a × b = (a<sub>y</sub>b<sub>z</sub> − a<sub>z</sub>b<sub>y</sub>)î + (a<sub>z</sub>b<sub>x</sub> − a<sub>x</sub>b<sub>z</sub>)ĵ + (a<sub>x</sub>b<sub>y</sub> − a<sub>y</sub>b<sub>x</sub>)k̂.</p><p>For unit vectors: î × ĵ = k̂, ĵ × k̂ = î, k̂ × î = ĵ, and î × î = ĵ × ĵ = k̂ × k̂ = 0.</p>",
+      "formulas": [
+        {
+          "expr": "a × b = ab sinθ n̂",
+          "where": [
+            [
+              "θ",
+              "angle between a and b"
+            ],
+            [
+              "n̂",
+              "unit vector ⊥ to the plane of a, b (right-hand rule)"
+            ]
+          ]
+        },
+        {
+          "expr": "a × b = −(b × a)",
+          "where": [
+            [
+              "",
+              "vector product is anti-commutative"
+            ]
+          ]
+        }
+      ],
+      "tip": "A favourite one-mark question: state two properties that distinguish vector product from scalar (dot) product. Answer with non-commutativity and the sinθ dependence (vs cosθ for dot product)."
+    },
+    {
+      "heading": "6.6 Angular Velocity and Its Relation with Linear Velocity",
+      "pyq_years": [],
+      "body": "<p>For a rigid body rotating about a fixed axis, every particle moves in a circle centred on the axis, and all particles sweep the same angle in the same time — so a single <b>angular velocity ω</b> describes the whole body, even though different particles have different linear speeds depending on their distance from the axis.</p><p>Angular velocity is a vector directed along the axis of rotation (right-hand rule: curl fingers in the sense of rotation, thumb gives the direction of ω). For a particle at position vector r from a point on the axis, moving with linear velocity v, the relation is v = ω × r. Taking magnitudes, v = ωr sinθ; if r is measured perpendicular to the axis (θ = 90°), this reduces to the familiar v = ωr.</p><p>Angular acceleration α = dω/dt is likewise a vector along the axis (or opposite to ω if the rotation is slowing down).</p>",
+      "formulas": [
+        {
+          "expr": "v = ω × r",
+          "where": [
+            [
+              "v",
+              "linear velocity of a particle of the rigid body"
+            ],
+            [
+              "ω",
+              "angular velocity vector"
+            ],
+            [
+              "r",
+              "position vector from a point on the axis"
+            ]
+          ]
+        },
+        {
+          "expr": "v = ωr (r measured ⊥ to the axis)",
+          "where": [
+            [
+              "ω",
+              "rad s<sup>−1</sup>"
+            ]
+          ]
+        }
+      ],
+      "tip": "All particles of a rotating rigid body share the same ω, not the same v — a common trap in MCQs."
+    },
+    {
+      "heading": "6.7 Torque and Angular Momentum",
+      "pyq_years": [],
+      "body": "<p><b>Torque</b> (moment of force) measures the turning effect of a force about a point: τ = r × F, where r is the position vector from the point to where the force acts. Its magnitude is τ = rF sinθ = F × moment arm (the perpendicular distance from the point to the line of action of F). Torque is maximum when F ⊥ r and zero when F acts along r.</p><p><b>Angular momentum</b> of a particle about a point is l = r × p, with magnitude l = rp sinθ = mvr sinθ — the rotational counterpart of linear momentum.</p><p>Differentiating l = r × p: dl/dt = (v × mv) + (r × F). The first term vanishes (v is parallel to itself), leaving <b>dl/dt = τ</b> — the rotational analogue of Newton's second law. For a system, dL/dt = τ<sub>ext</sub> (internal torques cancel in pairs). If τ<sub>ext</sub> = 0, L stays constant — the <b>law of conservation of angular momentum</b>, seen in a spinning skater pulling in her arms, or a planet speeding up near the Sun.</p>",
+      "formulas": [
+        {
+          "expr": "τ = r × F",
+          "where": [
+            [
+              "τ",
+              "torque about the chosen point"
+            ],
+            [
+              "F",
+              "applied force"
+            ]
+          ]
+        },
+        {
+          "expr": "l = r × p",
+          "where": [
+            [
+              "l",
+              "angular momentum of a particle"
+            ]
+          ]
+        },
+        {
+          "expr": "dL/dt = τ<sub>ext</sub>",
+          "where": [
+            [
+              "L",
+              "total angular momentum of the system"
+            ]
+          ]
+        }
+      ],
+      "tip": "Derivation of dl/dt = τ is asked directly as a 3-mark question — write both terms of the product rule and show the first vanishes."
+    },
+    {
+      "heading": "6.8 Equilibrium of a Rigid Body",
+      "pyq_years": [],
+      "body": "<p>A rigid body is in <b>mechanical equilibrium</b> when both its linear momentum and angular momentum stay constant — in practice, when it has neither linear acceleration nor angular acceleration. This needs two independent conditions: (i) <b>translational equilibrium</b>: the vector sum of all external forces is zero, ΣF = 0; (ii) <b>rotational equilibrium</b>: the vector sum of all external torques about any point is zero, Στ = 0.</p><p>A body can satisfy one condition without the other. Two equal and opposite forces acting along different lines (not through the same point) give ΣF = 0 but a net torque — this pair is called a <b>couple</b>, and it produces pure rotation with no translation (e.g., turning a steering wheel or tap). Conversely, a body can have zero net torque about its COM but still accelerate translationally if ΣF ≠ 0.</p><p>For a rigid body resting under gravity, the <b>centre of gravity</b> is the point where the total weight can be assumed to act; it coincides with the centre of mass when the gravitational field is uniform over the body, which is an excellent approximation for all bodies of ordinary size.</p>",
+      "formulas": [
+        {
+          "expr": "ΣF = 0 and Στ = 0",
+          "where": [
+            [
+              "ΣF",
+              "vector sum of external forces"
+            ],
+            [
+              "Στ",
+              "vector sum of external torques about any point"
+            ]
+          ]
+        }
+      ],
+      "tip": "For a metre-stick / see-saw balance problem, take torques about the pivot (or the point where the unknown force acts) to eliminate an unknown reaction force from the equation."
+    },
+    {
+      "heading": "6.9 Moment of Inertia",
+      "pyq_years": [],
+      "body": "<p><b>Moment of inertia (I)</b> about a given axis is the rotational analogue of mass — the body's resistance to a change in its rotational motion about that axis. For discrete particles, I = Σm<sub>i</sub>r<sub>i</sub>², with r<sub>i</sub> the perpendicular distance from the axis; for a continuous body, I = ∫r² dm.</p><p>Unlike mass, I is not a fixed body property — it depends on the axis and on how mass is distributed relative to it (r² dependence means distant mass counts far more). A ring and disc of equal mass and radius differ: the ring has all its mass at the rim (I = MR²), the disc has mass spread inward (I = ½MR²), so the ring is harder to spin up or slow down.</p><p>The <b>radius of gyration k</b> is defined by I = Mk², i.e., k = √(I/M) — the distance at which the whole mass, if concentrated, would give the same I.</p>",
+      "formulas": [
+        {
+          "expr": "I = Σm<sub>i</sub>r<sub>i</sub>² = ∫r² dm",
+          "where": [
+            [
+              "I",
+              "moment of inertia about the given axis"
+            ],
+            [
+              "r<sub>i</sub>",
+              "perpendicular distance of the i-th particle from the axis"
+            ]
+          ]
+        },
+        {
+          "expr": "I = Mk²",
+          "where": [
+            [
+              "k",
+              "radius of gyration"
+            ]
+          ]
+        }
+      ],
+      "tip": "State clearly: moment of inertia depends on mass, its distribution, and the axis of rotation — a favourite two-mark 'what does I depend on' question."
+    },
+    {
+      "heading": "6.10 Theorems of Perpendicular and Parallel Axes",
+      "pyq_years": [],
+      "body": "<p><b>Perpendicular axis theorem</b> (plane lamina only): I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>, where x, y are two mutually perpendicular in-plane axes and z is perpendicular to the plane, all meeting at one point. Proof: a particle m<sub>i</sub> at (x<sub>i</sub>, y<sub>i</sub>) is at distance r<sub>i</sub>² = x<sub>i</sub>² + y<sub>i</sub>² from the z-axis, so I<sub>z</sub> = Σm<sub>i</sub>r<sub>i</sub>² = Σm<sub>i</sub>x<sub>i</sub>² + Σm<sub>i</sub>y<sub>i</sub>² = I<sub>y</sub> + I<sub>x</sub>.</p><p><b>Parallel axis theorem</b> (any rigid body): I = I<sub>cm</sub> + Ma², where a is the perpendicular distance between the given axis and a parallel axis through the COM.</p><p>Together, these let you build the moment of inertia of a body about any axis once you know it about one convenient axis — used constantly in numericals, such as the MI of a disc about a tangent.</p>",
+      "formulas": [
+        {
+          "expr": "I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>",
+          "where": [
+            [
+              "",
+              "perpendicular axis theorem, plane lamina only"
+            ]
+          ]
+        },
+        {
+          "expr": "I = I<sub>cm</sub> + Ma²",
+          "where": [
+            [
+              "a",
+              "distance between the given axis and the parallel axis through the COM"
+            ]
+          ]
+        }
+      ],
+      "tip": "The perpendicular axis theorem works ONLY for flat (2-D) laminas — never apply it to a solid sphere or a cylinder. This distinction is examined almost every year."
+    },
+    {
+      "heading": "6.11 Kinematics of Rotational Motion About a Fixed Axis",
+      "pyq_years": [],
+      "body": "<p>Rotational kinematics runs exactly parallel to linear kinematics, with θ replacing displacement, ω replacing velocity, and α replacing acceleration. For constant angular acceleration α: ω = ω<sub>0</sub> + αt; θ = ω<sub>0</sub>t + ½αt²; ω² = ω<sub>0</sub>² + 2αθ. These are derived exactly as the v = u + at family is derived, by integrating dω/dt = α (constant) and dθ/dt = ω.</p><p>These equations apply directly to a flywheel, a rotating fan slowing to a stop under a constant retarding torque, or a wheel accelerating uniformly from rest — the same three-equation toolkit used throughout Class 11 mechanics, just relabelled.</p>",
+      "formulas": [
+        {
+          "expr": "ω = ω<sub>0</sub> + αt",
+          "where": [
+            [
+              "ω<sub>0</sub>",
+              "initial angular velocity"
+            ],
+            [
+              "α",
+              "constant angular acceleration"
+            ]
+          ]
+        },
+        {
+          "expr": "θ = ω<sub>0</sub>t + ½αt²",
+          "where": [
+            [
+              "θ",
+              "angular displacement"
+            ]
+          ]
+        },
+        {
+          "expr": "ω² = ω<sub>0</sub>² + 2αθ",
+          "where": [
+            [
+              "",
+              ""
+            ]
+          ]
+        }
+      ],
+      "tip": "Convert rpm to rad s⁻¹ using ω = 2πN/60 before substituting into these equations — a very common numerical slip."
+    },
+    {
+      "heading": "6.12 Dynamics of Rotational Motion About a Fixed Axis",
+      "pyq_years": [],
+      "body": "<p>For a rigid body rotating about a fixed axis under external torque τ, Newton's second law takes the rotational form <b>τ = Iα</b> — the central working equation of the chapter, and the direct analogue of F = ma.</p><p><b>Work and power</b>: a torque τ rotating a body through dθ does work dW = τ dθ, so W = τθ for constant torque, and P = τω. <b>Rotational KE</b> of a body spinning at ω is KE<sub>rot</sub> = ½Iω², found by summing ½m<sub>i</sub>v<sub>i</sub>² = ½m<sub>i</sub>ω²r<sub>i</sub>² over all particles. The work-energy theorem then reads: work done by the net external torque equals the change in rotational KE.</p>",
+      "formulas": [
+        {
+          "expr": "τ = Iα",
+          "where": [
+            [
+              "τ",
+              "net external torque about the fixed axis"
+            ],
+            [
+              "I",
+              "moment of inertia about that axis"
+            ]
+          ]
+        },
+        {
+          "expr": "W = τθ, P = τω",
+          "where": [
+            [
+              "W",
+              "work done by a constant torque through angle θ"
+            ]
+          ]
+        },
+        {
+          "expr": "KE<sub>rot</sub> = ½Iω²",
+          "where": [
+            [
+              "",
+              "rotational kinetic energy"
+            ]
+          ]
+        }
+      ],
+      "tip": "Derive KE<sub>rot</sub> = ½Iω² by summing ½m<sub>i</sub>v<sub>i</sub>² with v<sub>i</sub> = ωr<sub>i</sub> — this exact derivation is asked as a 2–3 mark question."
+    },
+    {
+      "heading": "6.13 Angular Momentum in Case of Rotation About a Fixed Axis",
+      "pyq_years": [],
+      "body": "<p>For a rigid body rotating about a fixed axis, the total angular momentum about that axis is L = Iω — the rotational analogue of p = mv. Combined with dL/dt = τ<sub>ext</sub> from section 6.7, and I being constant for a rigid body, this gives I(dω/dt) = τ, i.e., τ = Iα, consistent with section 6.12.</p><p>If no external torque acts on a rotating rigid body, L = Iω stays constant, but I and ω can individually change as the body's mass distribution changes (a spinning skater pulling arms in decreases I, so ω increases to keep Iω constant — angular speed increases even though no torque is applied).</p>",
+      "formulas": [
+        {
+          "expr": "L = Iω",
+          "where": [
+            [
+              "L",
+              "angular momentum about the fixed axis"
+            ]
+          ]
+        },
+        {
+          "expr": "I<sub>1</sub>ω<sub>1</sub> = I<sub>2</sub>ω<sub>2</sub> (τ<sub>ext</sub> = 0)",
+          "where": [
+            [
+              "",
+              "conservation of angular momentum when I changes"
+            ]
+          ]
+        }
+      ],
+      "tip": "Ice-skater / diver pulling in limbs is the standard example of L conserved while I decreases and ω increases — always quote Iω = constant."
+    },
+    {
+      "heading": "6.14 Rolling Motion",
+      "pyq_years": [],
+      "body": "<p><b>Rolling without slipping</b> combines translation of the COM with rotation about an axis through the COM. The contact point with the ground is instantaneously at rest, giving the rolling condition v<sub>cm</sub> = Rω.</p><p><b>Kinetic energy of rolling</b>: total KE = ½Mv<sub>cm</sub>² + ½I<sub>cm</sub>ω². Writing I<sub>cm</sub> = Mk² and ω = v<sub>cm</sub>/R: KE = ½Mv<sub>cm</sub>²(1 + k²/R²).</p><p><b>Rolling down an incline</b> of height h (friction here does no work and causes no slipping, so energy is conserved): Mgh = ½Mv²(1 + k²/R²) ⟹ v = √[2gh/(1 + k²/R²)], and a = g sinθ/(1 + k²/R²). Since k²/R² is ½ for a disc, ⅖ for a solid sphere and 1 for a ring, the solid sphere reaches the bottom fastest, then the disc, then the ring — independent of mass or radius, since M and R cancel out.</p>",
+      "formulas": [
+        {
+          "expr": "v<sub>cm</sub> = Rω",
+          "where": [
+            [
+              "",
+              "condition for rolling without slipping"
+            ]
+          ]
+        },
+        {
+          "expr": "KE = ½Mv<sub>cm</sub>²(1 + k²/R²)",
+          "where": [
+            [
+              "k",
+              "radius of gyration about the axis through the COM"
+            ]
+          ]
+        },
+        {
+          "expr": "a = g sinθ/(1 + k²/R²)",
+          "where": [
+            [
+              "θ",
+              "angle of incline"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'which reaches the bottom first' questions, compare k²/R² values only — smaller k²/R² means larger acceleration and less energy diverted into spin, so it wins the race."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Centre of mass",
+      "definition": "The point of a system at which the whole mass may be imagined concentrated for describing translational motion; R = (Σm<sub>i</sub>r<sub>i</sub>)/M."
+    },
+    {
+      "term": "Rigid body",
+      "definition": "An idealised body in which the distance between any two particles remains unchanged however large the force applied."
+    },
+    {
+      "term": "Torque (moment of force)",
+      "definition": "The turning effect of a force about a point, τ = r × F, with magnitude rF sinθ."
+    },
+    {
+      "term": "Angular momentum",
+      "definition": "The rotational analogue of linear momentum, l = r × p for a particle, or L = Iω for a rigid body about a fixed axis."
+    },
+    {
+      "term": "Couple",
+      "definition": "A pair of equal, opposite, parallel forces whose lines of action do not coincide; produces a net torque but zero net force, causing pure rotation."
+    },
+    {
+      "term": "Moment of inertia",
+      "definition": "The rotational analogue of mass; a body's resistance to angular acceleration about a given axis, I = Σm<sub>i</sub>r<sub>i</sub>²."
+    },
+    {
+      "term": "Radius of gyration",
+      "definition": "The distance k from the axis at which the whole mass, if concentrated, gives the same moment of inertia: I = Mk²."
+    },
+    {
+      "term": "Perpendicular axis theorem",
+      "definition": "For a plane lamina, I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>, where x, y are in the plane and z is perpendicular to it, all meeting at one point."
+    },
+    {
+      "term": "Parallel axis theorem",
+      "definition": "For any rigid body, I = I<sub>cm</sub> + Ma², relating the MI about any axis to the MI about a parallel axis through the COM."
+    },
+    {
+      "term": "Angular velocity",
+      "definition": "The rate of change of angular displacement, a vector along the axis of rotation, related to linear velocity by v = ω × r."
+    },
+    {
+      "term": "Rolling without slipping",
+      "definition": "Combined translation and rotation in which the contact point of the rolling body is instantaneously at rest; v<sub>cm</sub> = Rω."
+    },
+    {
+      "term": "Vector (cross) product",
+      "definition": "a × b = ab sinθ n̂, a vector perpendicular to both a and b, direction given by the right-hand rule; anti-commutative."
+    },
+    {
+      "term": "Equilibrium of a rigid body",
+      "definition": "A state with both zero net external force (translational equilibrium) and zero net external torque (rotational equilibrium)."
+    },
+    {
+      "term": "Centre of gravity",
+      "definition": "The point where the resultant of gravitational forces on all particles of a body may be taken to act; coincides with the COM in a uniform gravitational field."
+    },
+    {
+      "term": "Conservation of angular momentum",
+      "definition": "When net external torque on a system is zero, its total angular momentum L = Iω stays constant, even if I and ω individually change."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Centre of mass (discrete)",
+      "expr": "R = (Σm<sub>i</sub>r<sub>i</sub>)/M",
+      "note": "M = Σm<sub>i</sub>, total mass"
+    },
+    {
+      "name": "Velocity/acceleration of COM",
+      "expr": "MV = Σm<sub>i</sub>v<sub>i</sub>; MA = F<sub>ext</sub>",
+      "note": "COM moves as if all mass and all external force acted there"
+    },
+    {
+      "name": "Vector product",
+      "expr": "a × b = ab sinθ n̂",
+      "note": "n̂ by right-hand rule; a × b = −b × a"
+    },
+    {
+      "name": "Linear–angular velocity relation",
+      "expr": "v = ω × r",
+      "note": "reduces to v = ωr for r ⊥ axis"
+    },
+    {
+      "name": "Torque",
+      "expr": "τ = r × F, |τ| = rF sinθ",
+      "note": "SI unit N m; maximum when F ⊥ r"
+    },
+    {
+      "name": "Angular momentum (particle)",
+      "expr": "l = r × p, dl/dt = τ",
+      "note": "SI unit kg m<sup>2</sup> s<sup>−1</sup>"
+    },
+    {
+      "name": "Rigid body equilibrium",
+      "expr": "ΣF = 0 and Στ = 0",
+      "note": "both must hold simultaneously"
+    },
+    {
+      "name": "Moment of inertia",
+      "expr": "I = Σm<sub>i</sub>r<sub>i</sub>² = Mk²",
+      "note": "depends on axis and mass distribution"
+    },
+    {
+      "name": "Perpendicular axis theorem",
+      "expr": "I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>",
+      "note": "plane lamina only"
+    },
+    {
+      "name": "Parallel axis theorem",
+      "expr": "I = I<sub>cm</sub> + Ma²",
+      "note": "any rigid body"
+    },
+    {
+      "name": "Rotational kinematics",
+      "expr": "ω = ω<sub>0</sub>+αt; θ = ω<sub>0</sub>t+½αt²; ω² = ω<sub>0</sub>²+2αθ",
+      "note": "constant α only"
+    },
+    {
+      "name": "Rotational dynamics",
+      "expr": "τ = Iα",
+      "note": "analogue of F = ma"
+    },
+    {
+      "name": "Rotational work, power, KE",
+      "expr": "W = τθ; P = τω; KE = ½Iω²",
+      "note": ""
+    },
+    {
+      "name": "Angular momentum (fixed axis)",
+      "expr": "L = Iω",
+      "note": "conserved when τ<sub>ext</sub> = 0"
+    },
+    {
+      "name": "Rolling condition",
+      "expr": "v<sub>cm</sub> = Rω",
+      "note": "no slipping"
+    },
+    {
+      "name": "KE of rolling body",
+      "expr": "KE = ½Mv<sub>cm</sub>²(1 + k²/R²)",
+      "note": "translational + rotational"
+    },
+    {
+      "name": "Acceleration down incline (rolling)",
+      "expr": "a = g sinθ/(1 + k²/R²)",
+      "note": "M, R cancel; only k²/R² matters"
+    },
+    {
+      "name": "Standard moments of inertia",
+      "expr": "Ring MR²; Disc ½MR²; Solid sphere (2/5)MR²; Hollow sphere (2/3)MR²; Rod (centre) (1/12)ML²; Rod (end) (1/3)ML²; Solid cylinder ½MR²",
+      "note": "about the axis stated; memorise these"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Centre of mass of a two-particle system",
+      "how_to_draw": "Draw two point masses m<sub>1</sub> and m<sub>2</sub> on the x-axis at x<sub>1</sub> and x<sub>2</sub>. Mark the COM point X between them, closer to the larger mass, and label the distances X − x<sub>1</sub> and x<sub>2</sub> − X. Show that m<sub>1</sub>(X − x<sub>1</sub>) = m<sub>2</sub>(x<sub>2</sub> − X)."
+    },
+    {
+      "title": "Right-hand rule for vector product and torque",
+      "how_to_draw": "Draw vectors a and b from a common origin with angle θ between them. Curl the right-hand fingers from a to b; show the thumb pointing along n̂ (= direction of a × b), perpendicular to the plane of a and b. Repeat with r and F to show the direction of torque τ = r × F."
+    },
+    {
+      "title": "Torque of a force about a point",
+      "how_to_draw": "Draw a rigid body pivoted at point O. Draw the position vector r from O to the point of application of force F, at angle θ to F. Drop a perpendicular from O to the line of action of F and label it d = r sinθ, the moment arm; mark τ = Fd, direction out of the page by the right-hand rule."
+    },
+    {
+      "title": "Perpendicular and parallel axis theorems",
+      "how_to_draw": "For the perpendicular axis theorem: draw a flat lamina in the xy-plane with the z-axis through a point O perpendicular to it, and the x- and y-axes in the plane; mark I<sub>x</sub>, I<sub>y</sub>, I<sub>z</sub>. For the parallel axis theorem: draw a body with an axis through its COM (I<sub>cm</sub>) and a second axis parallel to it at perpendicular distance a (I); label I = I<sub>cm</sub> + Ma²."
+    },
+    {
+      "title": "Rolling motion of a disc/wheel",
+      "how_to_draw": "Draw a circular wheel of radius R on a horizontal surface. Mark the centre with velocity v<sub>cm</sub> (translation) and curved arrows showing angular velocity ω about the centre. Mark the contact point P with zero net velocity (label v<sub>cm</sub> − Rω = 0), and the topmost point with velocity 2v<sub>cm</sub>, to show rolling as pure rotation about the instantaneous contact point."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "6.1",
+      "q": "Give the location of the centre of mass of (a) a sphere, (b) a cylinder, (c) a ring, and (d) a cube, each of uniform mass density. Does the centre of mass of a body necessarily lie inside the body?",
+      "a": "<p>For each of these uniform, symmetric bodies, the COM lies at the geometric centre: (a) sphere — at its centre; (b) cylinder — at the mid-point of its axis; (c) ring — at the centre of the ring (which is empty space, not on the ring material); (d) cube — at the point where its diagonals intersect (the geometric centre).</p><p>No, the centre of mass need not lie inside the body — for a ring, a horseshoe, or a boomerang, the COM lies outside the actual material of the body.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "6.2",
+      "q": "In the HCl molecule, the separation between the nuclei of the two atoms is about 1.27 Å (1 Å = 10<sup>−10</sup> m). Find the approximate location of the centre of mass of the molecule, given that a chlorine atom is about 35.5 times as massive as a hydrogen atom, and nearly all the mass of an atom is concentrated in its nucleus.",
+      "a": "<p>Take H at x = 0, Cl at x = 1.27 Å; mass of Cl = 35.5 × mass of H = 35.5m. X = 35.5m(1.27)/(36.5m) ≈ 1.235 Å from the H atom — very close to the much heavier Cl nucleus.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6.3",
+      "q": "Show that the moment of a couple does not depend on the point about which you take the moments.",
+      "a": "<p>Let forces F and −F act at points A, B with position vectors r<sub>A</sub>, r<sub>B</sub> from origin O. Total torque about O: τ = r<sub>A</sub>×F + r<sub>B</sub>×(−F) = (r<sub>A</sub>−r<sub>B</sub>)×F. Since r<sub>A</sub>−r<sub>B</sub> (the vector from B to A) does not depend on where O is chosen, τ is the same about every point — the moment of a couple is independent of the reference point.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6.4",
+      "q": "A non-uniform bar of weight W is suspended at rest by two strings of negligible weight, as shown, making angles 36.9° and 53.1° with the vertical. The bar is 2 m long. Calculate the distance d of the centre of gravity of the bar from its left end.",
+      "a": "<p>With sin36.9°≈0.6, cos36.9°≈0.8, sin53.1°≈0.8, cos53.1°≈0.6: horizontal equilibrium gives 0.6T<sub>1</sub> = 0.8T<sub>2</sub> ⟹ T<sub>1</sub> = (4/3)T<sub>2</sub>. Vertical equilibrium: 0.8T<sub>1</sub> + 0.6T<sub>2</sub> = W, which solves to T<sub>2</sub> ≈ 0.6W, T<sub>1</sub> ≈ 0.8W.</p><p>Taking torques about the left end (2 m long): T<sub>2</sub>cos53.1° × 2 = Wd ⟹ 0.6 × 0.6W × 2 = Wd ⟹ d = 0.72 m from the left end.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "6.5",
+      "q": "A car weighs 1800 kg. The distance between its front and back axles is 1.8 m. Its centre of gravity is 1.05 m behind the front axle. Determine the force exerted by the level ground on each front wheel and each back wheel.",
+      "a": "<p>Total weight W = 1800 × 9.8 = 17640 N. Let R<sub>f</sub>, R<sub>b</sub> be total front/back reactions: R<sub>f</sub> + R<sub>b</sub> = 17640 N. Torques about the front axle: R<sub>b</sub> × 1.8 = W × 1.05 ⟹ R<sub>b</sub> = 10290 N, so R<sub>f</sub> = 7350 N.</p><p>Each front wheel: R<sub>f</sub>/2 = 3675 N; each back wheel: R<sub>b</sub>/2 = 5145 N.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "6.6",
+      "q": "Find the moment of inertia of a sphere about a tangent to the sphere, given the moment of inertia of the sphere about any of its diameters to be (2/5) MR², where M is the mass of the sphere and R is the radius of the sphere.",
+      "a": "<p>By the parallel axis theorem, I<sub>tangent</sub> = I<sub>diameter</sub> + MR² (since a tangent is parallel to a diameter, at distance R from it).</p><p>I<sub>tangent</sub> = (2/5)MR² + MR² = (2/5 + 1)MR² = (7/5)MR².</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "6.7",
+      "q": "A rope of negligible mass is wound round a hollow cylinder of mass 3 kg and radius 40 cm. What is the angular acceleration of the cylinder if the rope is pulled with a force of 30 N? What is the linear acceleration of the rope? Assume that there is no slipping.",
+      "a": "<p>For a hollow cylinder, I = MR² = 3 × (0.4)² = 0.48 kg m². Torque at the rim: τ = FR = 30 × 0.4 = 12 N m. α = τ/I = 12/0.48 = 25 rad s<sup>−2</sup>. Linear acceleration of the rope: a = Rα = 0.4 × 25 = 10 m s<sup>−2</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6.8",
+      "q": "A solid cylinder rolls up an inclined plane of angle of inclination 30°. At the bottom of the inclined plane, the centre of mass of the cylinder has a speed of 5 m/s. (a) How far will the cylinder go up the plane? (b) How long will it take to return to the bottom?",
+      "a": "<p>For a solid cylinder, k²/R² = ½. Energy conservation (no slipping ⟹ no loss): ½Mv²(1+½) = Mgh ⟹ h = 1.5v²/(2g) = 1.5×25/19.6 ≈ 1.91 m. Distance along the incline: s = h/sin30° ≈ 3.83 m.</p><p>Deceleration: a = g sinθ/(1+k²/R²) = 9.8×0.5/1.5 ≈ 3.27 m s<sup>−2</sup>. Time up: t = v/a = 5/3.27 ≈ 1.53 s; by symmetry the return time is the same, so total time ≈ 3.06 s.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "6.9",
+      "q": "A hoop of radius 2 m weighs 100 kg. It rolls along a horizontal floor so that its centre of mass has a speed of 20 cm/s. How much work has to be done to stop it?",
+      "a": "<p>For a hoop, k²/R² = 1, so total KE = ½Mv²(1+1) = Mv² = 100 × (0.2)² = 4 J.</p><p>By the work-energy theorem, 4 J of work must be done against the hoop's motion to bring it to rest.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6.10",
+      "q": "A solid sphere rolls down two different inclined planes of the same height but different angles of inclination. Will it reach the bottom with the same speed in each case? Will it take longer to roll down one plane than the other? Explain.",
+      "a": "<p>v = √[2gh/(1 + k²/R²)] depends only on h and k²/R² (= 2/5 for a solid sphere), not on θ. Since h is the same, the sphere reaches the bottom with the <b>same speed</b> both times.</p><p>Time, however, depends on a = g sinθ/(1 + k²/R²), which is larger on the steeper incline. So the sphere takes <b>less time</b> on the steeper slope, even though the final speed is identical.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "6.11",
+      "q": "Two discs of the same moment of inertia rotating about their regular axis normal to the disc and passing through the centre, are brought into contact face to face with their axes of rotation coincident. Describe what will happen next.",
+      "a": "<p>No external torque acts during contact (the torques the discs exert on each other are internal, action-reaction pairs), so the total angular momentum of the two-disc system is conserved. Friction between the faces brings them to a common ω: Iω<sub>1</sub> + Iω<sub>2</sub> = 2Iω ⟹ ω = (ω<sub>1</sub> + ω<sub>2</sub>)/2. Kinetic energy is not conserved — some is lost as heat while the faces rub against each other.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "6.12",
+      "q": "A meter stick is balanced on a knife edge at its centre. When two coins, each of mass 5 g, are put one on top of the other at the 12.0 cm mark, the stick is found to be balanced at 45.0 cm. What is the mass of the metre stick?",
+      "a": "<p>The stick's own weight Mg acts at its own COM, the 50 cm mark (metre stick is uniform). The coins (mass 2 × 5 g = 10 g) act at 12 cm. The system balances at 45 cm, so take torques about the 45 cm mark.</p><p>Torque of coins (anticlockwise, since 12 cm is left of 45 cm): 10 g × (45 − 12) = 10 × 33 = 330 g·cm.</p><p>Torque of stick's weight (clockwise, since 50 cm is right of 45 cm): M × (50 − 45) = 5M g·cm.</p><p>Equating: 5M = 330 ⟹ M = 66 g.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The centre of mass of a system of particles does not depend on:",
+      "options": [
+        "masses of the particles",
+        "internal forces between the particles",
+        "position of the particles",
+        "relative distances between the particles"
+      ],
+      "answer": "b",
+      "solution": "Internal forces move particles relative to each other but never shift the COM of the system, since the COM depends only on the mass distribution."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A couple produces:",
+      "options": [
+        "purely linear motion",
+        "purely rotational motion",
+        "both linear and rotational motion",
+        "no motion at all"
+      ],
+      "answer": "b",
+      "solution": "A couple has ΣF = 0 (no net force, so no linear acceleration) but a non-zero net torque, so it produces pure rotation."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The moment of inertia of a ring of mass M and radius R about an axis through its centre and perpendicular to its plane is:",
+      "options": [
+        "½MR²",
+        "MR²",
+        "(2/5)MR²",
+        "(1/12)MR²"
+      ],
+      "answer": "b",
+      "solution": "All the mass of a ring lies at distance R from the central axis, so I = MR²."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "For rolling without slipping, the velocity of the point of contact of the rolling body with the surface is:",
+      "options": [
+        "equal to v<sub>cm</sub>",
+        "equal to 2v<sub>cm</sub>",
+        "zero",
+        "equal to Rω only, never zero"
+      ],
+      "answer": "c",
+      "solution": "The rolling condition v<sub>cm</sub> = Rω makes the velocity at the contact point v<sub>cm</sub> − Rω = 0; it is the instantaneous point of zero velocity."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following has the largest moment of inertia about its central axis, for the same mass M and radius R?",
+      "options": [
+        "solid sphere",
+        "solid cylinder",
+        "circular ring",
+        "hollow sphere"
+      ],
+      "answer": "c",
+      "solution": "A ring has I = MR², larger than a disc/cylinder (½MR²), solid sphere ((2/5)MR²) or hollow sphere ((2/3)MR²), because all its mass lies at the maximum distance R from the axis."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The direction of angular momentum vector l = r × p is:",
+      "options": [
+        "along r",
+        "along p",
+        "perpendicular to both r and p",
+        "always vertical"
+      ],
+      "answer": "c",
+      "solution": "A vector (cross) product is always perpendicular to both vectors being multiplied, by the right-hand rule."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "If no external torque acts on a rotating body and its moment of inertia is halved, its angular velocity becomes:",
+      "options": [
+        "half",
+        "double",
+        "unchanged",
+        "four times"
+      ],
+      "answer": "b",
+      "solution": "Angular momentum L = Iω is conserved, so if I is halved, ω must double to keep Iω constant."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The perpendicular axis theorem can be applied to a solid sphere. Reason (R): The perpendicular axis theorem applies only to planar (2-D) bodies.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is false but R is true",
+        "Both A and R are false"
+      ],
+      "answer": "c",
+      "solution": "A solid sphere is a 3-D body, so the perpendicular axis theorem does not apply to it; the reason correctly states the theorem is restricted to plane laminas, which makes A false."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The centre of mass of a body must lie within the material of the body. Reason (R): The centre of mass is defined as the mass-weighted average position of all particles of the system.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is false but R is true",
+        "A is true but R is false"
+      ],
+      "answer": "c",
+      "solution": "The COM of a ring or a horseshoe lies outside the material, so A is false; R correctly defines the COM, which is why A can still be false — a mass-weighted average location can fall in empty space."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A solid sphere and a solid cylinder of the same mass and radius, released from rest at the top of the same incline, do not reach the bottom together. Reason (R): Their radius of gyration to radius ratios (k²/R²) are different, giving different accelerations down the incline.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "a = g sinθ/(1 + k²/R²); sphere has k²/R² = 2/5, cylinder has k²/R² = 1/2, so the sphere accelerates faster and arrives first — R correctly explains A."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define torque and angular momentum. Write the relation between them.",
+      "answer": "<p>Torque is the turning effect of a force about a point, τ = r × F. Angular momentum of a particle is l = r × p. Differentiating l with respect to time and using the product rule shows dl/dt = τ — the rate of change of angular momentum equals the applied torque.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State the theorem of parallel axes for moment of inertia.",
+      "answer": "<p>The moment of inertia of a rigid body about any axis equals its moment of inertia about a parallel axis through the centre of mass, plus the product of the mass and the square of the perpendicular distance between the two axes: I = I<sub>cm</sub> + Ma², where a is the distance between the two parallel axes. This theorem holds for a body of any shape.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is it easier to balance a bicycle in motion than at rest?",
+      "answer": "<p>When the wheels spin, they have angular momentum L = Iω directed along the axle. By the law of conservation of angular momentum, this L resists any external torque that would change its direction, giving the wheel gyroscopic stability that helps keep the bicycle upright. At rest, the wheels have no angular momentum, so there is nothing resisting a toppling torque, and the bicycle is much easier to tip over.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A ballet dancer spins with her arms outstretched. What happens to her angular speed when she pulls her arms in, and why?",
+      "answer": "<p>Her angular speed increases. With no external torque acting (friction with the floor is negligible about the vertical axis), her angular momentum L = Iω is conserved. Pulling her arms in brings mass closer to the axis of rotation, decreasing her moment of inertia I; since Iω must stay constant, ω must increase.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Derive the expression for the kinetic energy of a body rolling without slipping, in terms of its centre-of-mass velocity and radius of gyration.",
+      "answer": "<p>A rolling body has both translational motion of its COM and rotational motion about the COM. Total KE = KE<sub>translation</sub> + KE<sub>rotation</sub> = ½Mv<sub>cm</sub>² + ½I<sub>cm</sub>ω².</p><p>Writing I<sub>cm</sub> = Mk² (k = radius of gyration) and using the rolling condition ω = v<sub>cm</sub>/R: KE = ½Mv<sub>cm</sub>² + ½Mk²(v<sub>cm</sub>/R)² = ½Mv<sub>cm</sub>²[1 + k²/R²].</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State and prove the theorem of perpendicular axes for a plane lamina.",
+      "answer": "<p><b>Statement</b>: For a plane lamina, the MI about an axis perpendicular to its plane (I<sub>z</sub>) equals the sum of its MI about two mutually perpendicular axes in the plane, all meeting at one point: I<sub>z</sub> = I<sub>x</sub> + I<sub>y</sub>.</p><p><b>Proof</b>: A particle m<sub>i</sub> at (x<sub>i</sub>, y<sub>i</sub>) has distance r<sub>i</sub>² = x<sub>i</sub>² + y<sub>i</sub>² from the z-axis. So I<sub>z</sub> = Σm<sub>i</sub>r<sub>i</sub>² = Σm<sub>i</sub>x<sub>i</sub>² + Σm<sub>i</sub>y<sub>i</sub>² = I<sub>y</sub> + I<sub>x</sub>, since Σm<sub>i</sub>x<sub>i</sub>² is the MI about the y-axis and Σm<sub>i</sub>y<sub>i</sub>² is the MI about the x-axis.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A flywheel of moment of inertia 0.32 kg m² is rotated at a steady speed of 2 rev/s by a 50 W electric motor. Find the torque the motor must exert on the flywheel, and use it to check whether the given power is consistent.",
+      "answer": "<p>ω = 2π × 2 = 4π ≈ 12.57 rad s<sup>−1</sup>. At steady speed, α = 0, so the driving torque exactly balances the frictional/load torque — we cannot find torque from I and α alone here.</p><p>Instead use P = τω: τ = P/ω = 50/12.57 ≈ 3.98 N m ≈ 4 N m. This is the torque the motor must supply to maintain the flywheel at this steady angular speed against the resisting torque (which equals this value at steady state), consistent with the given power rating.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Two point masses, each of mass m, are fixed at the two ends of a light rod of length l. Find the moment of inertia of the system about an axis perpendicular to the rod, passing through (a) its centre, (b) one end. Verify (b) using the parallel axis theorem.",
+      "answer": "<p>(a) Each mass is at distance l/2 from the centre: I<sub>centre</sub> = m(l/2)² + m(l/2)² = ml²/2.</p><p>(b) About one end, the masses are at distances 0 and l: I<sub>end</sub> = m(0)² + m(l)² = ml².</p><p><b>Check by parallel axis theorem</b>: I<sub>end</sub> = I<sub>centre</sub> + (2m)(l/2)² = ml²/2 + 2m(l²/4) = ml²/2 + ml²/2 = ml², which matches.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive an expression for the acceleration of a body of mass M, radius R and radius of gyration k, rolling down an inclined plane of inclination θ, without slipping. Hence show that a solid sphere reaches the bottom of the incline before a disc and a ring of the same mass and radius, released from the same height.",
+      "answer": "<p>Let the body start from rest at height h (incline length s = h/sinθ). Since rolling without slipping loses no energy: Mgh = ½Mv²(1 + k²/R²) ⟹ v² = 2gh/(1 + k²/R²).</p><p>Using v² = 2as with s = h/sinθ: a = v²sinθ/(2h) = g sinθ/(1 + k²/R²) — independent of M and R.</p><p>k²/R² = 2/5 (sphere) < ½ (disc) < 1 (ring), so a<sub>sphere</sub> > a<sub>disc</sub> > a<sub>ring</sub>: the sphere reaches the bottom first, then the disc, then the ring, regardless of mass or radius.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the relation τ = Iα for a rigid body rotating about a fixed axis, starting from the definition of torque on a single particle of the body. Also derive the expression for the kinetic energy of such a rotating body.",
+      "answer": "<p><b>τ = Iα</b>: Treat the rigid body as particles of mass m<sub>1</sub>, m<sub>2</sub>, … at distances r<sub>1</sub>, r<sub>2</sub>, … from the axis, all sharing the same α. Tangential force on the i-th particle: F<sub>i</sub> = m<sub>i</sub>r<sub>i</sub>α, giving torque τ<sub>i</sub> = F<sub>i</sub>r<sub>i</sub> = m<sub>i</sub>r<sub>i</sub>²α. Summing: τ = (Σm<sub>i</sub>r<sub>i</sub>²)α = Iα.</p><p><b>Rotational KE</b>: Each particle has v<sub>i</sub> = ωr<sub>i</sub>, so KE<sub>i</sub> = ½m<sub>i</sub>ω²r<sub>i</sub>². Total KE = ½ω²Σm<sub>i</sub>r<sub>i</sub>² = ½Iω².</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "State the two conditions for the mechanical equilibrium of a rigid body. A uniform metre rule of mass 100 g is balanced on a knife edge at the 40 cm mark by suspending an unknown mass m at the 10 cm mark. Find the value of m. (Take the rule's weight to act at the 50 cm mark.)",
+      "answer": "<p><b>Conditions</b>: (i) Translational — ΣF = 0. (ii) Rotational — Στ = 0 about any point. Both must hold together.</p><p><b>Numerical</b>: Taking torques about the 40 cm pivot: clockwise torque from the rule's weight = 100 × (50−40) = 1000 g·cm; anticlockwise torque from m at 10 cm = m × (40−10) = 30m g·cm. Equating: 30m = 1000 ⟹ m = 33.3 g.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A solid cylinder of mass 2 kg and radius 0.1 m starts from rest and rolls without slipping down an incline of angle 30°, height 1.25 m.<br>(i) Write the formula for the acceleration of the cylinder down the incline and state its value of k²/R².<br>(ii) Calculate the acceleration of the cylinder down the incline.<br>(iii) Calculate the speed of the cylinder's centre of mass when it reaches the bottom.<br>(iv) What fraction of the total kinetic energy at the bottom is rotational?",
+      "answer": "<p>(i) a = g sinθ/(1 + k²/R²); k²/R² = ½ for a solid cylinder.</p><p>(ii) a = 9.8 × 0.5/1.5 ≈ 3.27 m s<sup>−2</sup>.</p><p>(iii) v² = 2gh/(1+k²/R²) = 2×9.8×1.25/1.5 ≈ 16.33; v ≈ 4.04 m s<sup>−1</sup>.</p><p>(iv) Rotational fraction = (k²/R²)/(1+k²/R²) = 0.5/1.5 = 1/3 ≈ 33.3%; the rest (66.7%) is translational.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A student sits on a rotating stool with her arms outstretched, holding a 2 kg dumbbell in each hand, spinning at 1 rev/s. Her moment of inertia with arms outstretched is 5 kg m² and with arms pulled in is 2 kg m² (about the vertical axis through her body).<br>(i) Which physical quantity is conserved as she pulls her arms in, and why?<br>(ii) Find her new angular speed after pulling her arms in.<br>(iii) Is her rotational kinetic energy conserved? Explain briefly.<br>(iv) Name one other real-life situation based on the same principle.",
+      "answer": "<p>(i) Her angular momentum L = Iω is conserved, since no external torque acts about the vertical axis.</p><p>(ii) I<sub>1</sub>ω<sub>1</sub> = I<sub>2</sub>ω<sub>2</sub> ⟹ 5×1 = 2×ω<sub>2</sub> ⟹ ω<sub>2</sub> = 2.5 rev/s.</p><p>(iii) No — KE = ½Iω² is larger after she pulls in her arms; the extra energy comes from her own muscular work against the outward pull.</p><p>(iv) A diver tucking mid-air to spin faster during a somersault.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The SI unit of torque is:",
+      "options": [
+        "joule",
+        "newton",
+        "newton-metre",
+        "watt"
+      ],
+      "answer_index": 2,
+      "explanation": "Torque = force × perpendicular distance, so its unit is N m (numerically same as joule but a different physical quantity — it is not energy)."
+    },
+    {
+      "q": "For a rigid body, all particles have the same:",
+      "options": [
+        "linear velocity",
+        "linear acceleration",
+        "angular velocity",
+        "kinetic energy"
+      ],
+      "answer_index": 2,
+      "explanation": "Every particle of a rigid body rotating about a fixed axis sweeps the same angle in the same time, so ω is common to all, while v = ωr differs with r."
+    },
+    {
+      "q": "Moment of inertia of a solid sphere about its diameter is:",
+      "options": [
+        "MR²",
+        "½MR²",
+        "(2/5)MR²",
+        "(2/3)MR²"
+      ],
+      "answer_index": 2,
+      "explanation": "The standard result for a solid sphere about a diameter is (2/5)MR²; (2/3)MR² is for a hollow (thin) sphere."
+    },
+    {
+      "q": "Two particles of masses 1 kg and 3 kg are 4 m apart. The distance of their centre of mass from the 1 kg mass is:",
+      "options": [
+        "1 m",
+        "2 m",
+        "3 m",
+        "4 m"
+      ],
+      "answer_index": 2,
+      "explanation": "COM distance from 1 kg = (m<sub>2</sub>/(m<sub>1</sub>+m<sub>2</sub>)) × d = (3/4) × 4 = 3 m — the COM lies closer to the heavier mass."
+    },
+    {
+      "q": "A force of 10 N acts at a perpendicular distance of 0.5 m from a pivot. The torque produced is:",
+      "options": [
+        "2 N m",
+        "5 N m",
+        "10 N m",
+        "20 N m"
+      ],
+      "answer_index": 1,
+      "explanation": "τ = F × d = 10 × 0.5 = 5 N m."
+    },
+    {
+      "q": "If the angular momentum of a system is conserved, which quantity must be zero?",
+      "options": [
+        "net external force",
+        "net internal torque",
+        "net external torque",
+        "moment of inertia"
+      ],
+      "answer_index": 2,
+      "explanation": "L is conserved when the net external torque on the system is zero (τ<sub>ext</sub> = dL/dt = 0)."
+    },
+    {
+      "q": "A ring and a disc of the same mass and radius roll down the same incline from the same height. Which reaches the bottom with greater speed?",
+      "options": [
+        "the ring",
+        "the disc",
+        "both reach with the same speed",
+        "cannot be determined"
+      ],
+      "answer_index": 1,
+      "explanation": "v = √[2gh/(1+k²/R²)]; the disc has smaller k²/R² (½ vs 1 for the ring), so it converts more PE into translational KE and arrives faster."
+    },
+    {
+      "q": "The vector product a × b is zero when:",
+      "options": [
+        "a and b are perpendicular",
+        "a and b are parallel",
+        "a and b have equal magnitude",
+        "a and b are unit vectors"
+      ],
+      "answer_index": 1,
+      "explanation": "a × b = ab sinθ n̂; sinθ = 0 when a and b are parallel or antiparallel (θ = 0° or 180°)."
+    },
+    {
+      "q": "A wheel starts from rest and attains an angular velocity of 20 rad/s in 4 s under constant angular acceleration. The angular acceleration is:",
+      "options": [
+        "2 rad s<sup>−2</sup>",
+        "5 rad s<sup>−2</sup>",
+        "8 rad s<sup>−2</sup>",
+        "20 rad s<sup>−2</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "α = (ω − ω<sub>0</sub>)/t = (20 − 0)/4 = 5 rad s<sup>−2</sup>."
+    },
+    {
+      "q": "The centre of mass of a uniform rod of length L lies at:",
+      "options": [
+        "one end of the rod",
+        "L/4 from one end",
+        "L/2 from either end",
+        "2L/3 from one end"
+      ],
+      "answer_index": 2,
+      "explanation": "By symmetry, a uniform rod's COM lies exactly at its geometric centre, L/2 from either end."
+    },
+    {
+      "q": "A body of moment of inertia 4 kg m² rotating at 3 rad/s has rotational kinetic energy:",
+      "options": [
+        "6 J",
+        "12 J",
+        "18 J",
+        "36 J"
+      ],
+      "answer_index": 2,
+      "explanation": "KE = ½Iω² = ½ × 4 × 3² = ½ × 4 × 9 = 18 J."
+    },
+    {
+      "q": "For rolling without slipping, the kinetic energy of a ring is shared between translation and rotation in the ratio:",
+      "options": [
+        "1:1",
+        "2:1",
+        "5:2",
+        "1:2"
+      ],
+      "answer_index": 0,
+      "explanation": "For a ring, k²/R² = 1, so translational KE : rotational KE = 1 : (k²/R²) = 1:1."
+    },
+    {
+      "q": "The radius of gyration of a body depends on:",
+      "options": [
+        "only its mass",
+        "only its shape",
+        "the distribution of mass about the axis and the choice of axis",
+        "only the material of the body"
+      ],
+      "answer_index": 2,
+      "explanation": "k = √(I/M), and I itself depends on how mass is distributed relative to the chosen axis, so k depends on both the mass distribution and the axis."
+    },
+    {
+      "q": "A flywheel of moment of inertia 10 kg m² is acted on by a torque of 50 N m. Its angular acceleration is:",
+      "options": [
+        "0.2 rad s<sup>−2</sup>",
+        "2 rad s<sup>−2</sup>",
+        "5 rad s<sup>−2</sup>",
+        "500 rad s<sup>−2</sup>"
+      ],
+      "answer_index": 2,
+      "explanation": "α = τ/I = 50/10 = 5 rad s<sup>−2</sup>."
+    },
+    {
+      "q": "Which of these is NOT a condition needed for a rigid body to be in complete mechanical equilibrium?",
+      "options": [
+        "ΣF = 0",
+        "Στ = 0 about every point",
+        "the body must be at rest permanently",
+        "both force and torque conditions hold simultaneously"
+      ],
+      "answer_index": 2,
+      "explanation": "Equilibrium means zero linear and angular acceleration, not that the body must be permanently at rest — a body can be in equilibrium while moving with constant velocity or constant ω."
+    }
+  ],
+  "common_mistakes": [
+    "Applying the perpendicular axis theorem to a 3-D body (sphere, cylinder, cube) — it works only for a flat (2-D) lamina.",
+    "Forgetting to convert rpm to rad s<sup>−1</sup> (ω = 2πN/60) before using the rotational kinematics equations.",
+    "Confusing the axis in I = I<sub>cm</sub> + Ma² — 'a' must be the distance to a parallel axis through the COM, not to any arbitrary point.",
+    "Treating the vector product as commutative — writing a × b = b × a, when in fact a × b = −(b × a).",
+    "Using v = ωr for every particle of a rotating body without noting r is the distance from the axis, not from an arbitrary point.",
+    "Ignoring rotational KE in energy-conservation problems for a rolling body, and using only ½mv² as if it were pure translation.",
+    "Assuming heavier or larger objects always roll down faster — mass and radius cancel out; only the shape (via k²/R²) decides the race.",
+    "Mixing up torque (N m) and work/energy (J) — they have the same dimensions but are different physical quantities; never add them together."
+  ],
+  "strategy": "<p>This chapter rewards a system, not memorisation. First get comfortable with the vector (cross) product and the right-hand rule — torque and angular momentum both depend on it, and one MCQ almost always tests its properties directly. Then learn the two axis theorems as a pair, with the one condition (lamina only) that distinguishes them — this single fact is tested almost every year.</p><p>Memorise the standard moments of inertia table (ring, disc, sphere types, rod, cylinder) cold; nearly every numerical in this chapter needs one of these values. Practise the rolling-motion derivation (KE, and acceleration down an incline) until you can write it without hesitation — it is the most frequently asked 5-mark derivation from this chapter.</p><p>For the equilibrium and torque-balance numericals (metre-stick, car-wheel type questions), always choose the pivot at the point where an unknown force acts — this removes that unknown from the torque equation and shortens the algebra. Keep the two conservation laws (linear momentum of the COM, angular momentum about a fixed axis) as your two go-to tools whenever a problem says 'no external force' or 'no external torque'.</p>",
+  "revision_checklist": [
+    "Can state the formula for the COM of a discrete system and a continuous body.",
+    "Know that internal forces never move the COM; only external force does.",
+    "Can state the right-hand rule for vector product, torque and angular velocity direction.",
+    "Can derive dl/dt = τ for a particle.",
+    "Know both conditions for rigid-body equilibrium (ΣF = 0 and Στ = 0) and what a couple is.",
+    "Know I = Σm<sub>i</sub>r<sub>i</sub>² and that I depends on the axis chosen, not just the body.",
+    "Can state and prove the perpendicular axis theorem (lamina only) and apply the parallel axis theorem to any body.",
+    "Have memorised the standard MI list: ring, disc, solid/hollow sphere, rod (centre and end), solid cylinder.",
+    "Can write and use the three rotational kinematics equations with correctly converted ω.",
+    "Can derive τ = Iα and KE<sub>rot</sub> = ½Iω² from first principles.",
+    "Know the rolling condition v<sub>cm</sub> = Rω and can derive KE = ½Mv²(1 + k²/R²).",
+    "Can derive a = g sinθ/(1 + k²/R²) for a body rolling down an incline, and rank shapes by k²/R².",
+    "Can state and apply conservation of angular momentum (Iω = constant when τ<sub>ext</sub> = 0), with the skater/diver example ready."
+  ],
+  "videos": []
+}

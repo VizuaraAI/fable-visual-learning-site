@@ -1,0 +1,978 @@
+{
+  "class": 11,
+  "subject": "Biology",
+  "chapter_no": 16,
+  "slug": "excretory-products-and-their-elimination",
+  "title": "Excretory Products and their Elimination",
+  "summary": "The chapter explains how animals get rid of the nitrogenous wastes produced by metabolism: the three modes of excretion (ammonotelism, ureotelism, uricotelism), the excretory structures of different animal groups, and then the human system in detail, from the gross anatomy of the kidney and the nephron, through the three steps of urine formation, the job of each tubule segment, the counter-current mechanism that concentrates urine, the hormonal regulation by ADH, the renin-angiotensin pathway and ANF, micturition, the excretory role of lungs, liver and skin, and finally uremia, haemodialysis, kidney transplant, renal calculi and glomerulonephritis. It is a compact chapter whose numbers, names and diagrams are asked almost line by line in the school final and in NEET, and Class 12 human physiology assumes you know it.",
+  "exam_profile": {
+    "weightage": "Class 11 Biology is a 70-mark theory paper set by the school on the CBSE pattern. Excretory Products and their Elimination belongs to Unit V, Human Physiology, the largest unit, which carries about 18 marks shared among Breathing and Exchange of Gases, Body Fluids and Circulation, Excretory Products and their Elimination, Locomotion and Movement, Neural Control and Coordination and Chemical Coordination. In a typical school final this chapter alone contributes 4 to 7 marks: one or two 1-mark items (an MCQ on GFR, urine pH, the daily urea output, which limb of Henle's loop is impermeable to water, which animal is uricotelic, or an Assertion-Reason on ADH or the counter-current), a 2-mark or 3-mark question on the modes of excretion, the functions of a tubule segment, the renin-angiotensin mechanism or haemodialysis, and, in most years, a 5-mark question that pairs a labelled diagram of the nephron or the L.S. of the kidney with the steps of urine formation or the counter-current mechanism. NEET reliably draws one or two questions from it, nearly always from NCERT numbers, figures and the animal-to-excretory-organ matches.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "GFR (125 mL/min, 180 L/day); daily urine (1 to 1.5 L) and urea (25 to 30 g); urine pH (6.0); osmolarity of cortex and inner medulla (300 and 1200 mOsmolL<sup>−1</sup>); which limb of Henle's loop is permeable or impermeable to water; site of ultrafiltration; podocytes and filtration slits; columns of Bertini; vasa recta; which animal excretes what (bony fish ammonia, birds and reptiles uric acid, mammals urea; tadpole vs frog); excretory organ of cockroach, prawn, earthworm, planaria, Amphioxus; the hormone that prevents diuresis; the enzyme released by JG cells; the hormone released by atria; anticoagulant used in haemodialysis; glycosuria and ketonuria indicate diabetes mellitus."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Uric acid is excreted with minimum water loss because it is the least toxic and least soluble; the ascending limb dilutes the filtrate because it is impermeable to water but pumps out electrolytes; ADH prevents diuresis because it increases water reabsorption in the later tubule; ANF checks the renin-angiotensin mechanism because it causes vasodilation; glomerular filtrate is protein-free because proteins cannot cross the filtration membrane; cortical nephrons cannot concentrate urine strongly because their loops barely enter the medulla."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define GFR, osmoregulation, micturition or uremia; name the three layers of the filtration membrane; differentiate cortical and juxtamedullary nephrons; state two functions of PCT or DCT; name two substances that create the medullary gradient; name the excretory structures of any two animals; give the significance of JGA; write the role of ANF; name two metabolic disorders diagnosed by urine analysis."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Compare ammonotelism, ureotelism and uricotelism with examples; explain the three steps of urine formation; describe the functions of PCT, Henle's loop, DCT and collecting duct; explain the renin-angiotensin mechanism or the ADH feedback; explain the role of liver, lungs and skin in excretion; explain haemodialysis; explain why terrestrial animals are not ammonotelic; explain micturition as a reflex."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Draw and label a nephron with vasa recta and describe the process of urine formation; draw the L.S. of the kidney and describe the human excretory system; explain the counter-current mechanism with the osmolarity diagram; describe the regulation of kidney function (ADH, RAAS, ANF) with a flow chart; describe the disorders of the excretory system with the working of a dialysis unit."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on a patient with uremia and the working of haemodialysis; a table or figure of osmolarity down the medulla with sub-questions on the counter-current; a passage on a dehydrated person (ADH release, concentrated urine); a data item giving GFR and urine output with a calculation of the percentage reabsorbed; a passage on a urine report showing glucose and ketone bodies; a figure of the nephron with parts to identify and functions to state."
+      }
+    ],
+    "hot_topics": [
+      "Urine formation: glomerular filtration (three layers, podocytes, GFR 125 mL/min), reabsorption of 99 per cent, tubular secretion",
+      "Counter-current mechanism: Henle's loop and vasa recta, 300 to 1200 mOsmolL<sup>−1</sup> gradient built by NaCl and urea, urine four times as concentrated as filtrate",
+      "Functions of each tubule segment: PCT, descending and ascending limbs, DCT, collecting duct",
+      "Regulation of kidney function: osmoreceptors and ADH, JGA and the renin-angiotensin-aldosterone mechanism, ANF as the check",
+      "Modes of excretion with examples: ammonotelic, ureotelic, uricotelic; toxicity versus water needed",
+      "Excretory structures of animals: flame cells, nephridia, Malpighian tubules, antennal glands, kidneys",
+      "Labelled diagrams: nephron with vasa recta, L.S. of kidney, human urinary system",
+      "Disorders: uremia, haemodialysis (heparin, cellophane, dialysing fluid, anti-heparin), transplant, renal calculi, glomerulonephritis; urine characteristics and micturition"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Introduction: nitrogenous wastes and the three modes of excretion",
+      "pyq_years": [],
+      "body": "<p>Metabolism leaves behind substances the body cannot use and must remove: <b>ammonia, urea, uric acid, carbon dioxide, water</b> and ions such as Na<sup>+</sup>, K<sup>+</sup>, Cl<sup>−</sup> and phosphate. The chapter is mainly about the three <b>nitrogenous wastes</b>, which come from the breakdown of amino acids and nucleic acids. The examiner expects you to know their order of toxicity and the amount of water each needs for its removal, because every other fact in this section follows from that.</p><p><b>Ammonia</b> is the most toxic and needs a large volume of water to be flushed out safely. <b>Urea</b> is less toxic and needs less water. <b>Uric acid</b> is the least toxic and is almost insoluble, so it can be passed out as a pellet or paste with a minimum loss of water. Write the sequence 'ammonia > urea > uric acid' for toxicity and the reverse for water conservation.</p><p>Animals are named by the main waste they excrete. <b>Ammonotelic</b> animals excrete ammonia: many bony fishes, aquatic amphibians and aquatic insects. Because ammonia is readily soluble, it is removed by diffusion across the body surface or across the gill surfaces in fishes, as ammonium ions; the kidneys play no significant role in its removal. <b>Ureotelic</b> animals excrete urea: mammals, many terrestrial amphibians and marine fishes. In them the ammonia produced by metabolism is converted into urea in the <b>liver</b>, released into the blood, and then filtered and excreted by the kidneys. Some urea may be retained in the kidney matrix of some of these animals to maintain a desired osmolarity. <b>Uricotelic</b> animals excrete uric acid: reptiles, birds, land snails and insects.</p><p>Two comparisons are asked again and again. First, why are terrestrial animals ureotelic or uricotelic and not ammonotelic? Because ammonia would need far more water than a land animal can afford to lose, so it is converted into the less toxic, water-sparing urea or uric acid. Second, why is the tadpole ammonotelic while the adult frog is ureotelic? The tadpole lives in water where ammonia diffuses away freely; the adult spends much of its life on land and must conserve water, so it switches to urea. Both answers are the same idea: the mode of excretion is set by the availability of water.</p>",
+      "formulas": [],
+      "tip": "When you write the examples, use NCERT's wording exactly: 'many bony fishes' for ammonotelic, 'marine fishes' under ureotelic, and 'land snails' under uricotelic. Students often write 'all fishes are ammonotelic' and lose the mark."
+    },
+    {
+      "heading": "Excretory structures in different animals",
+      "pyq_years": [],
+      "body": "<p>Before reaching the human kidney, NCERT gives a short survey of the structures other animals use. It is a match-the-following favourite and a source of one 1-mark question in almost every school paper, so learn the pairs as a list.</p><ul><li><b>Protonephridia or flame cells</b>: Platyhelminthes (for example planaria), rotifers, some annelids and the cephalochordate <i>Amphioxus</i>. They are primarily concerned with ionic and fluid volume regulation, that is, <b>osmoregulation</b>, rather than with nitrogenous waste as such.</li><li><b>Nephridia</b>: earthworm and other annelids. They remove nitrogenous wastes and maintain fluid and ionic balance.</li><li><b>Malpighian tubules</b>: most insects, including cockroaches. They remove nitrogenous wastes and carry out osmoregulation.</li><li><b>Antennal glands or green glands</b>: crustaceans such as prawns.</li><li><b>Kidneys</b>: vertebrates, which form the complex tubular organs of the rest of the chapter.</li></ul><p>Two traps sit in this list. <i>Amphioxus</i> is a chordate, yet it uses flame cells, and NCERT asks you to name 'a chordate animal having flame cells' in the exercise; the answer is <i>Amphioxus</i>, not any fish. And 'nephridia' belongs to the earthworm while 'Malpighian tubules' belongs to the cockroach; the two are swapped in the exam by tired students more often than you would believe.</p><p>Keep in mind also that osmoregulation, the regulation of the volume and ionic concentration of body fluids, is a job shared by all of these organs, not only excretion of nitrogen. The NCERT exercise asks you to define it, and the definition is simply: the process by which an organism regulates the water and solute (ionic) content of its body fluids to keep them at a constant level.</p>",
+      "formulas": [],
+      "tip": "For a 'prepare matching pairs' question, write the animal on the left and the organ on the right in full words: 'Cockroach: Malpighian tubules; Prawn: antennal (green) glands; Earthworm: nephridia; Planaria: flame cells'."
+    },
+    {
+      "heading": "16.1 Human Excretory System: the kidney",
+      "pyq_years": [],
+      "body": "<p>The human excretory system has a <b>pair of kidneys</b>, one pair of <b>ureters</b>, a <b>urinary bladder</b> and a <b>urethra</b>. The kidneys are reddish brown, bean-shaped organs that lie between the levels of the <b>last thoracic and third lumbar vertebra</b>, close to the dorsal inner wall of the abdominal cavity. Each kidney is about <b>10 to 12 cm</b> long, <b>5 to 7 cm</b> wide and <b>2 to 3 cm</b> thick, and weighs on average <b>120 to 170 g</b>. These numbers are asked as 1-mark items.</p><p>Towards the centre of the inner concave surface of the kidney is a notch called the <b>hilum</b>, through which the ureter, blood vessels and nerves enter. Inner to the hilum is a broad funnel-shaped space, the <b>renal pelvis</b>, with projections called <b>calyces</b>. The outer layer of the kidney is a tough capsule. Inside it are two zones: an outer <b>cortex</b> and an inner <b>medulla</b>. The medulla is divided into a few conical masses, the <b>medullary pyramids</b>, which project into the calyces. The cortex extends in between the medullary pyramids as renal columns called the <b>columns of Bertini</b>. The NCERT exercise asks you to name 'cortical portions projecting between the medullary pyramids', and the answer is exactly this phrase.</p><p>Each kidney has nearly <b>one million</b> complex tubular structures called <b>nephrons</b>, the functional units of the kidney. Urine formed in the nephrons flows through collecting ducts into the calyces, then into the renal pelvis, down the ureter to the bladder, and out through the urethra. When you draw the longitudinal section of the kidney, this path from pyramid to calyx to pelvis to ureter is what the examiner traces with a finger, so the labels must sit in that order.</p><p>A point students miss: the cortex is not only the outer shell. It also dips inward between the pyramids as the columns of Bertini, and the renal corpuscles and convoluted tubules of all nephrons sit in cortical tissue while the loops of Henle and collecting ducts run down into the medulla. Holding that picture makes the nephron section much easier.</p>",
+      "formulas": [],
+      "tip": "Do not confuse the hilum (the notch on the surface) with the renal pelvis (the funnel-shaped space inside). A 1-mark question on 'the notch through which the ureter enters' wants 'hilum'."
+    },
+    {
+      "heading": "16.1 The nephron and its blood supply",
+      "pyq_years": [],
+      "body": "<p>Each nephron has two parts: the <b>glomerulus</b> and the <b>renal tubule</b>. The glomerulus is a tuft of capillaries formed by the <b>afferent arteriole</b>, a fine branch of the renal artery; blood is carried away from the glomerulus by the <b>efferent arteriole</b>. Note the unusual arrangement: an arteriole leaves a capillary bed, not a venule. This is what keeps the glomerular blood pressure high enough for filtration.</p><p>The renal tubule begins with a double-walled cup-like structure, the <b>Bowman's capsule</b>, which encloses the glomerulus. Glomerulus plus Bowman's capsule together form the <b>Malpighian body</b> or <b>renal corpuscle</b>. The tubule continues as the highly coiled <b>proximal convoluted tubule (PCT)</b>, then as a hairpin-shaped <b>Henle's loop</b> with a <b>descending limb</b> and an <b>ascending limb</b>, and the ascending limb continues as another coiled region, the <b>distal convoluted tubule (DCT)</b>. The DCTs of many nephrons open into a straight tube, the <b>collecting duct</b>. Many collecting ducts converge and open into the renal pelvis through the medullary pyramids in the calyces.</p><p>Where does each part lie? The Malpighian corpuscle, PCT and DCT are in the <b>cortex</b>, while the loop of Henle dips into the <b>medulla</b>. This lets NCERT define two kinds of nephron. In the majority of nephrons the loop of Henle is too short and extends only very little into the medulla; these are <b>cortical nephrons</b>. In some nephrons the loop is very long and runs deep into the medulla; these are <b>juxtamedullary nephrons</b>. The juxtamedullary nephrons are the ones that can build a strong medullary gradient and concentrate urine.</p><p>Now the blood supply. The efferent arteriole leaving the glomerulus forms a fine capillary network around the renal tubule called the <b>peritubular capillaries</b>. A minute vessel of this network runs parallel to the Henle's loop forming a U-shaped <b>vasa recta</b>. The vasa recta is absent or highly reduced in cortical nephrons. The exercise question 'a loop of capillary running parallel to the Henle's loop' wants 'vasa recta'.</p><p>The nephron diagram (glomerulus, afferent and efferent arterioles, Bowman's capsule, PCT, descending and ascending limbs, DCT, collecting duct, peritubular capillaries, vasa recta) is the single most-drawn figure of this chapter. Practise it until you can draw it in three minutes.</p>",
+      "formulas": [],
+      "tip": "Two nephron types is a 2-mark differentiation: write both the length of the loop (short vs long, barely in medulla vs deep in medulla) and the vasa recta (reduced or absent vs well developed)."
+    },
+    {
+      "heading": "16.2 Urine Formation: glomerular filtration",
+      "pyq_years": [],
+      "body": "<p>Urine formation involves three main processes: <b>glomerular filtration</b>, <b>reabsorption</b> and <b>secretion</b>, which take place in different parts of the nephron. The first step happens in the renal corpuscle.</p><p>Blood is filtered by the glomerular capillaries. The <b>glomerular capillary blood pressure</b> pushes plasma through three layers: (1) the <b>endothelium</b> of the glomerular blood vessels, (2) the <b>epithelium of Bowman's capsule</b>, and (3) the <b>basement membrane</b> between these two layers. The epithelial cells of Bowman's capsule are called <b>podocytes</b>. They are arranged in an intricate manner so as to leave minute spaces called <b>filtration slits</b> or <b>slit pores</b>. Blood is filtered so finely through these membranes that almost all the constituents of the plasma except the proteins pass into the lumen of Bowman's capsule. This is why the process is called <b>ultrafiltration</b>, and why the exercise statement 'protein-free fluid is filtered from blood plasma into the Bowman's capsule' is true.</p><p>The amount of filtrate formed by the kidneys per minute is called the <b>glomerular filtration rate (GFR)</b>. In a healthy person it is approximately <b>125 mL per minute</b>, that is, <b>180 litres per day</b>. Check the arithmetic once so you can reproduce it: 125 mL × 60 min × 24 h = 180,000 mL = 180 L.</p><p>The kidneys have built-in mechanisms for the regulation of GFR. One efficient mechanism is carried out by the <b>juxta glomerular apparatus (JGA)</b>, a special sensitive region formed by cellular modifications in the distal convoluted tubule and the afferent arteriole at the location of their contact. A fall in GFR activates the JG cells to release <b>renin</b>, which can stimulate the glomerular blood flow and bring the GFR back to normal. This is the 'autoregulatory mechanism of GFR' in exercise question 2; the fuller renin-angiotensin story comes in section 16.5.</p>",
+      "formulas": [],
+      "tip": "Three layers, in order, with the basement membrane in the middle. Students write 'podocytes' as a layer; podocytes are the cells of the second layer, the capsular epithelium, and the slits between them are the filtration slits."
+    },
+    {
+      "heading": "16.2 Tubular reabsorption and tubular secretion",
+      "pyq_years": [],
+      "body": "<p>Compare the volume of filtrate formed per day, 180 L, with the volume of urine released, about 1.5 L. The difference tells you that nearly <b>99 per cent</b> of the filtrate has to be reabsorbed by the renal tubules. This is <b>tubular reabsorption</b>, and the comparison itself is a 2-mark question: 'GFR is 180 L per day but urine is only 1.5 L per day; give a reason'. The reason is that the tubules reabsorb water, glucose, amino acids, Na<sup>+</sup> and other useful substances back into the blood of the peritubular capillaries, so only about 1 per cent of the filtrate leaves as urine.</p><p>The tubular epithelial cells in different segments of the nephron reabsorb by either <b>active</b> or <b>passive</b> mechanisms. Substances like <b>glucose, amino acids and Na<sup>+</sup></b> are reabsorbed <b>actively</b>, against their gradient, using ATP. <b>Nitrogenous wastes</b> are absorbed by <b>passive</b> transport. Reabsorption of <b>water</b> occurs passively in the initial segments of the nephron, following the solutes. The exercise statement 'glucose is actively reabsorbed in the proximal convoluted tubule' is therefore true.</p><p>The third process runs in the opposite direction. During urine formation the tubular cells <b>secrete</b> substances like <b>H<sup>+</sup>, K<sup>+</sup> and ammonia</b> from the peritubular blood into the filtrate. This <b>tubular secretion</b> is an important step because it helps in the maintenance of the <b>ionic and acid-base balance</b> of body fluids. When a question asks 'what is the significance of tubular secretion', that phrase, ionic and acid-base balance, is the marking point.</p><p>Put the three steps in one line for a 3-mark answer: filtration takes plasma minus proteins into the capsule (180 L/day); reabsorption returns 99 per cent of it, actively for nutrients and Na<sup>+</sup>, passively for water and wastes; secretion adds H<sup>+</sup>, K<sup>+</sup> and NH<sub>3</sub> to the filtrate to keep the blood's pH and ions in balance. Then say that the fluid that remains, now called urine, passes to the collecting duct.</p>",
+      "formulas": [],
+      "tip": "A numerical trap: 'what percentage of the filtrate is reabsorbed?' Compute (180 − 1.5)/180 × 100 = 99.2 per cent, and write 'nearly 99 per cent', which is NCERT's phrase."
+    },
+    {
+      "heading": "16.3 Function of the Tubules",
+      "pyq_years": [],
+      "body": "<p>This section is the segment-by-segment account of reabsorption and secretion and is asked as a 3-mark or 5-mark question with the NCERT diagram of the nephron showing what moves in and out where. Learn the four segments as four short paragraphs.</p><p><b>Proximal convoluted tubule (PCT).</b> It is lined by <b>simple cuboidal brush border epithelium</b>, which increases the surface area for reabsorption. Nearly all the <b>essential nutrients</b>, and <b>70 to 80 per cent</b> of the electrolytes and water, are reabsorbed here. The PCT also maintains the pH and ionic balance of body fluids by <b>selective secretion of H<sup>+</sup>, ammonia and K<sup>+</sup></b> into the filtrate and by <b>absorption of HCO<sub>3</sub><sup>−</sup></b> from it.</p><p><b>Henle's loop.</b> Reabsorption is minimum in its ascending limb, but the loop plays a significant role in maintaining the <b>high osmolarity of the medullary interstitial fluid</b>. The <b>descending limb</b> is <b>permeable to water</b> but almost impermeable to electrolytes, so the filtrate becomes more concentrated as it moves down. The <b>ascending limb</b> is <b>impermeable to water</b> but allows transport of electrolytes actively or passively, so as the concentrated filtrate passes upward it gets <b>diluted</b> because electrolytes leave it for the medullary fluid. This is exercise question 12(a): the ascending limb is impermeable to water whereas the descending limb is permeable to it.</p><p><b>Distal convoluted tubule (DCT).</b> <b>Conditional reabsorption</b> of Na<sup>+</sup> and water takes place here, 'conditional' because it depends on hormones (aldosterone and ADH). The DCT is also capable of reabsorbing HCO<sub>3</sub><sup>−</sup> and selectively secreting H<sup>+</sup>, K<sup>+</sup> and NH<sub>3</sub> to maintain the pH and the sodium-potassium balance in blood.</p><p><b>Collecting duct.</b> This long duct extends from the cortex to the inner parts of the medulla. Large amounts of water can be reabsorbed from it to produce a <b>concentrated urine</b>. It also allows the passage of small amounts of <b>urea</b> into the medullary interstitium to keep up the osmolarity there, and it helps maintain pH and ionic balance by selective secretion of H<sup>+</sup> and K<sup>+</sup>.</p><p>Notice the pattern the examiner rewards: PCT does bulk reabsorption; Henle's loop builds the gradient; DCT does hormone-controlled fine tuning; the collecting duct does final water recovery and urea recycling. If you write only 'reabsorption occurs' for each, you get half marks at best.</p>",
+      "formulas": [],
+      "tip": "Water: descending limb yes, ascending limb no. Electrolytes: descending limb no, ascending limb yes. Draw a tiny two-column table in the margin of your answer; it earns the mark faster than a paragraph."
+    },
+    {
+      "heading": "16.4 Mechanism of Concentration of the Filtrate",
+      "pyq_years": [],
+      "body": "<p>Mammals have the ability to produce a <b>concentrated urine</b>, and the <b>Henle's loop</b> and the <b>vasa recta</b> play a significant role in this. The starting observation is about direction. The filtrate flows in the two limbs of Henle's loop in opposite directions, down the descending limb and up the ascending limb; this forms a <b>counter current</b>. The blood in the two limbs of the vasa recta also flows in a counter-current pattern. The proximity between the Henle's loop and the vasa recta, together with the counter-current flow, helps in maintaining an <b>increasing osmolarity towards the inner medullary interstitium</b>: from about <b>300 mOsmolL<sup>−1</sup></b> in the cortex to about <b>1200 mOsmolL<sup>−1</sup></b> in the inner medulla.</p><p>What creates the gradient? Mainly <b>NaCl and urea</b>. NaCl is transported out by the ascending limb of Henle's loop and is exchanged with the descending limb of the vasa recta. NaCl is returned to the interstitium by the ascending portion of the vasa recta. Similarly, small amounts of urea enter the thin segment of the ascending limb of Henle's loop, and this urea is transported back to the interstitium by the collecting tubule. So salt and urea are kept circulating within the medulla instead of being washed away by the blood, and the medulla stays salty. This special arrangement of the Henle's loop and the vasa recta that keeps the gradient is the <b>counter current mechanism</b>.</p><p>Why does the gradient matter? Because the collecting duct passes down through this increasingly salty medulla. As the filtrate moves down the duct, water leaves it by osmosis into the concentrated interstitium (provided ADH has made the duct permeable), and the urine becomes concentrated. Human kidneys can produce urine nearly <b>four times</b> as concentrated as the initial filtrate: 1200 divided by 300 gives that factor of four.</p><p>For a 5-mark answer draw the NCERT diagram: a long-looped nephron and a parallel vasa recta with the osmolarity numbers 300, 600, 900, 1200 written down the medulla, arrows showing NaCl leaving the ascending limb and entering the descending vasa recta, urea leaving the collecting duct and entering the thin ascending limb, and water leaving the descending limb and the collecting duct. Then write the four points: counter-current flow, gradient of 300 to 1200, gradient built by NaCl and urea, and water reabsorption from the collecting duct giving urine four times as concentrated. That is the marking scheme almost exactly.</p>",
+      "formulas": [],
+      "tip": "The vasa recta does not create the gradient; the loop of Henle does. The vasa recta preserves it by exchanging solutes between its two limbs so that blood leaving the medulla carries little extra salt away. Say 'maintains' for the vasa recta and 'establishes' for the loop."
+    },
+    {
+      "heading": "16.5 Regulation of Kidney Function",
+      "pyq_years": [],
+      "body": "<p>The functioning of the kidneys is efficiently monitored and regulated by hormonal feedback mechanisms involving the <b>hypothalamus</b>, the <b>JGA</b> and, to a certain extent, the <b>heart</b>. The old two-mark question 'do you agree that the heart regulates the kidney?' comes from this sentence, and the answer is yes, through ANF.</p><p><b>ADH and the osmoreceptors.</b> Osmoreceptors in the body are activated by changes in blood volume, body fluid volume and ionic concentration. An excessive loss of fluid from the body activates these osmoreceptors, which stimulate the hypothalamus to release <b>antidiuretic hormone (ADH)</b> or <b>vasopressin</b> from the <b>neurohypophysis</b> (posterior pituitary). ADH facilitates water reabsorption from the latter parts of the tubule (DCT and collecting duct) and so <b>prevents diuresis</b>, the loss of water in urine. An increase in body fluid volume can switch off the osmoreceptors and suppress ADH release, completing the <b>negative feedback</b>. ADH can also affect kidney function by its constrictory effect on blood vessels, which raises blood pressure, increases glomerular blood flow and thereby GFR. Exercise statement 3(b), 'ADH helps in water elimination, making the urine hypotonic', is false for exactly this reason: ADH conserves water and makes the urine hypertonic.</p><p><b>The JGA and the renin-angiotensin mechanism.</b> A fall in glomerular blood flow, glomerular blood pressure or GFR activates the JG cells to release <b>renin</b>. Renin converts <b>angiotensinogen</b> in the blood to <b>angiotensin I</b> and further to <b>angiotensin II</b>. Angiotensin II, a powerful <b>vasoconstrictor</b>, increases the glomerular blood pressure and thereby the GFR. Angiotensin II also activates the <b>adrenal cortex</b> to release <b>aldosterone</b>. Aldosterone causes reabsorption of Na<sup>+</sup> and water from the distal parts of the tubule, which also increases blood pressure and GFR. This complete pathway is the <b>renin-angiotensin mechanism</b>, and the flow chart (fall in GFR → JG cells → renin → angiotensinogen → angiotensin I → angiotensin II → vasoconstriction and aldosterone → Na<sup>+</sup> and water reabsorption → BP and GFR restored) is asked as 'complete the flow chart' for 2 or 3 marks.</p><p><b>ANF from the heart.</b> An increase in blood flow to the atria of the heart causes the release of <b>atrial natriuretic factor (ANF)</b>. ANF causes <b>vasodilation</b> and thereby decreases the blood pressure. The ANF mechanism thus acts as a <b>check</b> on the renin-angiotensin mechanism. Note the opposition: renin-angiotensin raises BP when it is low; ANF lowers it when the atria are over-filled.</p><p>Significance of the JGA, the exercise question 10, is answered in one sentence: it regulates GFR through renin release and the renin-angiotensin mechanism, keeping glomerular blood pressure and hence filtration steady, and it triggers aldosterone-driven Na<sup>+</sup> reabsorption.</p>",
+      "formulas": [],
+      "tip": "Renin is an enzyme from the kidney; rennin is a milk-curdling enzyme of the infant stomach. Aldosterone comes from the adrenal cortex, not the adrenal medulla. Both slips are penalised."
+    },
+    {
+      "heading": "16.6 Micturition",
+      "pyq_years": [],
+      "body": "<p>The urine formed by the nephrons is carried to the urinary bladder, where it is stored until a <b>voluntary signal</b> from the central nervous system (CNS) allows its release. The signal is initiated by the <b>stretching of the urinary bladder</b> as it fills with urine. In response, <b>stretch receptors</b> on the walls of the bladder send signals to the CNS. The CNS passes on motor messages that cause the <b>contraction of the smooth muscles of the bladder</b> and the <b>simultaneous relaxation of the urethral sphincter</b>, and urine is released. This process of release of urine is called <b>micturition</b>, and the neural mechanism causing it is the <b>micturition reflex</b>. Exercise statement 3(a), 'micturition is carried out by a reflex', is true; the reflex is under voluntary control in adults, which is why we can hold on.</p><p>Now the numbers and characteristics of urine, all 1-mark facts. An adult human excretes on average <b>1 to 1.5 litres of urine per day</b>. Urine is a <b>light yellow</b> coloured watery fluid, <b>slightly acidic (pH 6.0)</b>, with a <b>characteristic odour</b>. On average, <b>25 to 30 g of urea</b> is excreted per day; this is exercise question 12(d).</p><p>Various conditions affect the characteristics of urine, so <b>urine analysis</b> helps in the clinical diagnosis of many metabolic disorders as well as of malfunctioning of the kidney. The presence of glucose in urine is <b>glycosuria</b> and the presence of ketone bodies is <b>ketonuria</b>; together they are indicative of <b>diabetes mellitus</b>. The one-word questions on these two terms, followed by 'which disorder shows both', appear in nearly every set of school papers.</p><p>A short comparison the examiner likes: what part is reflex and what part is voluntary? The stretch-receptor signal and the motor response of bladder muscle and sphincter form the reflex arc through the spinal cord; the brain decides when to let the reflex proceed. Write both halves.</p>",
+      "formulas": [],
+      "tip": "Write pH 6.0, not 'acidic' alone; and 'slightly acidic'. Exemplar MCQs give 6, 6.5, 7 and 7.5 as options and expect 6."
+    },
+    {
+      "heading": "16.7 Role of other Organs in Excretion",
+      "pyq_years": [],
+      "body": "<p>The kidneys are not the only excretory organs. NCERT lists four other routes, and exercise question 5 asks for the role of liver, lungs and skin. Give each organ with its named products.</p><p><b>Lungs.</b> They remove large amounts of <b>CO<sub>2</sub></b>, approximately <b>200 mL per minute</b>, and also significant quantities of <b>water</b> every day, as water vapour in expired air.</p><p><b>Liver.</b> The largest gland of the body secretes <b>bile</b>, which contains substances like <b>bilirubin, biliverdin, cholesterol, degraded steroid hormones, vitamins and drugs</b>. Most of these substances ultimately pass out along with the digestive wastes in faeces. Remember too that the liver is where ammonia is converted into urea in ureotelic animals, so it is central to nitrogen excretion even though the kidney does the final removal.</p><p><b>Skin.</b> Sweat and sebaceous glands in the skin eliminate certain substances through their secretions. <b>Sweat</b> is a watery fluid containing <b>NaCl, small amounts of urea, lactic acid</b> and other substances. Its primary function is to cool the body surface by evaporation, but it also helps remove some wastes. <b>Sebaceous glands</b> eliminate substances like <b>sterols, hydrocarbons and waxes</b> through <b>sebum</b>, a secretion that provides a protective oily covering for the skin.</p><p><b>Saliva.</b> Small amounts of nitrogenous wastes can be eliminated through saliva as well.</p><p>A 3-mark answer to 'role of liver, lungs and skin in excretion' should have three labelled points with the products named. Writing 'lungs remove CO<sub>2</sub>' without the water, or 'skin removes sweat' without the NaCl, urea and lactic acid, costs marks. The 200 mL per minute figure for CO<sub>2</sub> is a common 1-mark item.</p>",
+      "formulas": [],
+      "tip": "Bilirubin and biliverdin are bile pigments formed from the breakdown of haemoglobin, and they are the liver's excretory products; bile salts help digestion. Do not call bile pigments digestive enzymes."
+    },
+    {
+      "heading": "16.8 Disorders of the Excretory System",
+      "pyq_years": [],
+      "body": "<p>Malfunctioning of the kidneys leads to the accumulation of urea in the blood, a condition called <b>uremia</b>, which is highly harmful and may lead to kidney failure. In such patients urea can be removed by a process called <b>haemodialysis</b>, and the working of the dialysis unit is a 3-mark question you should be able to write from memory.</p><p><b>Haemodialysis.</b> Blood drained from a convenient artery is pumped into a <b>dialysing unit</b> after adding an <b>anticoagulant like heparin</b>. The unit contains a coiled <b>cellophane tube</b> surrounded by a fluid, the <b>dialysing fluid</b>, which has the same composition as plasma except for the <b>nitrogenous wastes</b>. The porous cellophane membrane allows the passage of molecules on the basis of concentration gradient. As nitrogenous wastes are absent in the dialysing fluid, these substances move freely out of the blood, thereby clearing it. The cleared blood is pumped back into the body through a <b>vein</b> after adding <b>anti-heparin</b> to it. Exercise question 12(c), 'dialysis fluid contains all the constituents as in plasma except ...', is answered by 'nitrogenous wastes'.</p><p><b>Kidney transplantation</b> is the ultimate method in the correction of acute renal failures. A functioning kidney is used in transplantation from a donor, preferably a <b>close relative</b>, to minimise the chances of <b>rejection</b> by the immune system of the host. Modern clinical procedures have increased the success rate of such a complicated technique.</p><p><b>Renal calculi</b> are stones or insoluble masses of crystallised salts, such as <b>oxalates</b>, formed within the kidney. <b>Glomerulonephritis</b> is the inflammation of the glomeruli of the kidney.</p><p>School papers like the 'find the term' format for this section: accumulation of urea in blood (uremia); insoluble mass of crystallised salts in the kidney (renal calculi); surgical correction of renal failure (kidney transplantation); inflammation of glomeruli (glomerulonephritis). Have those four ready as single words.</p>",
+      "formulas": [],
+      "tip": "In the dialysis answer, write the four named items in order: heparin in, cellophane tube, dialysing fluid without nitrogenous wastes, anti-heparin out. Each is usually a separate marking point."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Ammonotelism",
+      "definition": "The process of excreting ammonia as the main nitrogenous waste; seen in many bony fishes, aquatic amphibians and aquatic insects, where ammonia diffuses out across the body or gill surface as ammonium ions."
+    },
+    {
+      "term": "Ureotelism",
+      "definition": "Excretion of urea as the chief nitrogenous waste; in mammals, many terrestrial amphibians and marine fishes, ammonia is converted to urea in the liver and removed by the kidneys."
+    },
+    {
+      "term": "Uricotelism",
+      "definition": "Excretion of uric acid, the least toxic and least soluble nitrogenous waste, as a pellet or paste with minimum water loss; reptiles, birds, land snails and insects."
+    },
+    {
+      "term": "Osmoregulation",
+      "definition": "The regulation of the water content and ionic (solute) concentration of body fluids so that they stay within a constant range."
+    },
+    {
+      "term": "Protonephridia (flame cells)",
+      "definition": "Excretory and osmoregulatory structures of Platyhelminthes, rotifers, some annelids and the cephalochordate Amphioxus, primarily concerned with ionic and fluid volume regulation."
+    },
+    {
+      "term": "Malpighian tubules",
+      "definition": "Excretory structures of most insects, including cockroaches, that remove nitrogenous wastes and carry out osmoregulation."
+    },
+    {
+      "term": "Nephron",
+      "definition": "The structural and functional unit of the kidney, about one million per kidney, made of a glomerulus and a renal tubule (Bowman's capsule, PCT, Henle's loop, DCT) opening into a collecting duct."
+    },
+    {
+      "term": "Malpighian body (renal corpuscle)",
+      "definition": "The glomerulus together with the double-walled Bowman's capsule that encloses it; the site of ultrafiltration."
+    },
+    {
+      "term": "Podocytes",
+      "definition": "The epithelial cells of Bowman's capsule, arranged in an intricate manner so as to leave minute filtration slits or slit pores through which the filtrate passes."
+    },
+    {
+      "term": "Glomerular filtration rate (GFR)",
+      "definition": "The amount of filtrate formed by the kidneys per minute; about 125 mL per minute, that is, 180 litres per day, in a healthy person."
+    },
+    {
+      "term": "Juxta glomerular apparatus (JGA)",
+      "definition": "A special sensitive region formed by cellular modifications in the DCT and the afferent arteriole at their point of contact; its JG cells release renin when GFR falls."
+    },
+    {
+      "term": "Columns of Bertini",
+      "definition": "The renal columns: portions of the cortex that extend in between the medullary pyramids."
+    },
+    {
+      "term": "Vasa recta",
+      "definition": "A U-shaped minute blood vessel of the peritubular capillary network that runs parallel to Henle's loop; absent or highly reduced in cortical nephrons."
+    },
+    {
+      "term": "Counter current mechanism",
+      "definition": "The arrangement of Henle's loop and vasa recta, with fluid flowing in opposite directions in their two limbs, that maintains an osmolarity gradient of 300 to 1200 mOsmolL<sup>−1</sup> from cortex to inner medulla, built mainly by NaCl and urea."
+    },
+    {
+      "term": "Antidiuretic hormone (ADH, vasopressin)",
+      "definition": "Hormone released from the neurohypophysis on stimulation of the hypothalamus by osmoreceptors; it increases water reabsorption from the latter parts of the tubule and so prevents diuresis."
+    },
+    {
+      "term": "Renin-angiotensin mechanism",
+      "definition": "Fall in GFR causes JG cells to release renin, which converts angiotensinogen to angiotensin I and then angiotensin II; angiotensin II constricts vessels and stimulates aldosterone release, raising blood pressure and GFR."
+    },
+    {
+      "term": "Atrial natriuretic factor (ANF)",
+      "definition": "A hormone released from the atria when blood flow to them increases; it causes vasodilation, lowers blood pressure and acts as a check on the renin-angiotensin mechanism."
+    },
+    {
+      "term": "Micturition",
+      "definition": "The process of release of urine from the bladder; the neural mechanism, involving stretch receptors, contraction of bladder smooth muscle and relaxation of the urethral sphincter, is the micturition reflex."
+    },
+    {
+      "term": "Uremia",
+      "definition": "Accumulation of urea in the blood due to malfunctioning of the kidneys; highly harmful and may lead to kidney failure."
+    },
+    {
+      "term": "Haemodialysis",
+      "definition": "Removal of nitrogenous wastes from the blood by passing heparinised blood through a coiled cellophane tube bathed in dialysing fluid that lacks nitrogenous wastes, then returning it with anti-heparin."
+    },
+    {
+      "term": "Renal calculi",
+      "definition": "Stones or insoluble masses of crystallised salts (such as oxalates) formed within the kidney."
+    },
+    {
+      "term": "Glomerulonephritis",
+      "definition": "Inflammation of the glomeruli of the kidney."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Three nitrogenous wastes",
+      "expr": "Toxicity: ammonia > urea > uric acid. Water needed for removal: ammonia (most) > urea > uric acid (least; pellet or paste)",
+      "note": "Ammonia removed by diffusion across body or gill surface as ammonium ions; urea made in the liver; uric acid almost insoluble."
+    },
+    {
+      "name": "Modes of excretion with NCERT examples",
+      "expr": "Ammonotelic: many bony fishes, aquatic amphibians, aquatic insects. Ureotelic: mammals, many terrestrial amphibians, marine fishes. Uricotelic: reptiles, birds, land snails, insects",
+      "note": "Tadpole ammonotelic, adult frog ureotelic. Terrestrial animals never ammonotelic because of water."
+    },
+    {
+      "name": "Excretory structures of animals",
+      "expr": "Flame cells (protonephridia): Platyhelminthes, rotifers, some annelids, Amphioxus. Nephridia: earthworm, other annelids. Malpighian tubules: insects incl. cockroach. Antennal (green) glands: crustaceans such as prawn. Kidneys: vertebrates",
+      "note": "Match-the-following favourite; Amphioxus is the chordate with flame cells."
+    },
+    {
+      "name": "Kidney dimensions and position",
+      "expr": "10 to 12 cm long, 5 to 7 cm wide, 2 to 3 cm thick, 120 to 170 g; between last thoracic and third lumbar vertebra; nearly one million nephrons per kidney",
+      "note": "Hilum = notch for ureter, vessels, nerves; renal pelvis = funnel with calyces; cortex, medulla, medullary pyramids, columns of Bertini."
+    },
+    {
+      "name": "Parts of the nephron in order",
+      "expr": "Afferent arteriole → glomerulus → efferent arteriole; Bowman's capsule → PCT → descending limb → ascending limb of Henle's loop → DCT → collecting duct → renal pelvis via pyramids",
+      "note": "Corpuscle, PCT, DCT in cortex; Henle's loop in medulla. Cortical nephrons: short loop, vasa recta reduced or absent. Juxtamedullary: long loop, deep in medulla."
+    },
+    {
+      "name": "Filtration membrane",
+      "expr": "Endothelium of glomerular capillary + basement membrane + epithelium of Bowman's capsule (podocytes with filtration slits)",
+      "note": "Ultrafiltration: everything in plasma except proteins passes."
+    },
+    {
+      "name": "GFR and the reabsorption arithmetic",
+      "expr": "GFR ≈ 125 mL min<sup>−1</sup> = 125 × 60 × 24 = 180,000 mL = 180 L day<sup>−1</sup>; urine ≈ 1.5 L day<sup>−1</sup>; reabsorbed ≈ (180 − 1.5)/180 × 100 ≈ 99 per cent",
+      "note": "Fall in GFR → JG cells release renin (autoregulation)."
+    },
+    {
+      "name": "Active versus passive reabsorption",
+      "expr": "Active: glucose, amino acids, Na<sup>+</sup>. Passive: nitrogenous wastes; water in the initial segments. Secreted into filtrate: H<sup>+</sup>, K<sup>+</sup>, NH<sub>3</sub>",
+      "note": "Secretion maintains ionic and acid-base balance."
+    },
+    {
+      "name": "Tubule segments and their jobs",
+      "expr": "PCT: brush-border cuboidal epithelium; nearly all nutrients, 70 to 80 per cent electrolytes and water; secretes H<sup>+</sup>, NH<sub>3</sub>, K<sup>+</sup>, absorbs HCO<sub>3</sub><sup>−</sup>. Descending limb: water permeable, electrolyte impermeable. Ascending limb: water impermeable, electrolytes leave. DCT: conditional Na<sup>+</sup> and water reabsorption. Collecting duct: water reabsorption, urea passage into medulla, H<sup>+</sup> and K<sup>+</sup> secretion",
+      "note": "Descending concentrates the filtrate, ascending dilutes it."
+    },
+    {
+      "name": "Counter-current gradient",
+      "expr": "Osmolarity 300 mOsmolL<sup>−1</sup> (cortex) → about 1200 mOsmolL<sup>−1</sup> (inner medulla); gradient by NaCl (ascending limb of loop, vasa recta) and urea (collecting duct → thin ascending limb); urine up to 4 times as concentrated as filtrate",
+      "note": "Loop establishes, vasa recta maintains; water leaves collecting duct by osmosis under ADH."
+    },
+    {
+      "name": "Regulation of kidney function",
+      "expr": "Fluid loss → osmoreceptors → hypothalamus → ADH from neurohypophysis → water reabsorption in DCT and collecting duct → no diuresis (negative feedback). Fall in GFR → JG cells → renin → angiotensinogen → angiotensin I → angiotensin II (vasoconstrictor) → adrenal cortex → aldosterone → Na<sup>+</sup> and water reabsorption → BP and GFR up. Atrial stretch → ANF → vasodilation → BP down (check on renin-angiotensin)",
+      "note": "Renin is an enzyme from the kidney; aldosterone from adrenal cortex; ANF from heart atria."
+    },
+    {
+      "name": "Urine facts",
+      "expr": "1 to 1.5 L per day; light yellow; slightly acidic, pH 6.0; characteristic odour; 25 to 30 g urea per day",
+      "note": "Glycosuria (glucose) and ketonuria (ketone bodies) indicate diabetes mellitus."
+    },
+    {
+      "name": "Other excretory organs",
+      "expr": "Lungs: CO<sub>2</sub> about 200 mL min<sup>−1</sup> plus water. Liver: bile with bilirubin, biliverdin, cholesterol, degraded steroid hormones, vitamins, drugs. Skin: sweat (NaCl, urea, lactic acid), sebum (sterols, hydrocarbons, waxes). Saliva: small amounts of nitrogenous wastes",
+      "note": "Name the products; the organ name alone does not score."
+    },
+    {
+      "name": "Haemodialysis sequence",
+      "expr": "Artery → blood + heparin → coiled cellophane tube in dialysing fluid (plasma composition minus nitrogenous wastes) → wastes diffuse out down the gradient → blood + anti-heparin → vein",
+      "note": "Disorders: uremia, renal calculi (oxalate stones), glomerulonephritis; transplant from a close relative to reduce rejection."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Human urinary system (NCERT Fig. 16.1)",
+      "how_to_draw": "Draw two bean-shaped kidneys side by side with the concave hilum facing the midline, the right kidney slightly lower. From the midline show the dorsal aorta giving a renal artery to each hilum and the inferior vena cava receiving a renal vein from each. From each hilum draw a ureter running down to the sides of a pear-shaped urinary bladder at the bottom, and the urethra leaving the bladder as a single tube. Show the adrenal gland as a small cap on top of each kidney. Labels the marking scheme looks for: kidney, adrenal gland, renal artery, renal vein, dorsal aorta, inferior vena cava, ureter, urinary bladder, urethra."
+    },
+    {
+      "title": "Longitudinal section of the kidney (NCERT Fig. 16.2)",
+      "how_to_draw": "Draw the bean outline with the hilum on the inner side. Inside, shade an outer band as the cortex and draw six to eight triangular medullary pyramids pointing inward with their apices (renal papillae) in cup-like minor calyces. Show the cortex dipping between pyramids as the columns of Bertini. Join the calyces into a funnel-shaped renal pelvis that narrows at the hilum into the ureter. Draw the renal artery and vein entering and leaving the hilum and a thin outer line as the capsule. Label: capsule, cortex, medulla, medullary pyramid, renal papilla, columns of Bertini, calyx, renal pelvis, hilum, renal artery, renal vein, ureter."
+    },
+    {
+      "title": "A nephron with its blood supply and vasa recta (NCERT Fig. 16.3)",
+      "how_to_draw": "Start at the top left with the afferent arteriole entering a ball of capillaries (the glomerulus) held in a double-walled cup (Bowman's capsule) and leaving as the efferent arteriole. From the capsule draw the highly coiled PCT, then a long hairpin dropping downward as the descending limb and rising as the ascending limb (Henle's loop), then the coiled DCT that touches the afferent arteriole (mark the JGA there) and opens into a straight collecting duct on the right. Draw the efferent arteriole breaking into peritubular capillaries around the coiled tubules and one U-shaped vessel running parallel to the loop as the vasa recta. Draw a dotted line across to separate cortex (above) from medulla (below). Label: afferent arteriole, efferent arteriole, glomerulus, Bowman's capsule, PCT, descending limb, ascending limb, loop of Henle, DCT, collecting duct, peritubular capillaries, vasa recta, cortex, medulla, JGA."
+    },
+    {
+      "title": "Renal corpuscle and the filtration membrane",
+      "how_to_draw": "Draw the glomerulus as a loop of capillaries inside the cup of Bowman's capsule with the afferent arteriole entering and the narrower efferent arteriole leaving at the same pole, and the PCT starting at the opposite pole. In an inset, draw a magnified capillary wall as three layers: the capillary endothelium (with pores), the basement membrane, and the podocytes of the capsular epithelium with foot processes leaving filtration slits. Arrows show water and small solutes passing all three layers into the capsular space while a large circle marked 'protein' stays in the blood. Label: afferent arteriole, efferent arteriole, glomerular capillary, endothelium, basement membrane, podocyte, filtration slit (slit pore), Bowman's space, PCT."
+    },
+    {
+      "title": "Reabsorption and secretion along the nephron (NCERT Fig. 16.4)",
+      "how_to_draw": "Draw a simplified nephron (capsule, PCT, loop, DCT, collecting duct) as a single tube. Along the PCT draw arrows out of the tube labelled glucose, amino acids, Na<sup>+</sup>, HCO<sub>3</sub><sup>−</sup>, water (70 to 80 per cent) and arrows into it labelled H<sup>+</sup>, K<sup>+</sup>, NH<sub>3</sub>. Along the descending limb draw an outward arrow for water only; along the ascending limb draw outward arrows for Na<sup>+</sup> and Cl<sup>−</sup> and write 'impermeable to water'. Along the DCT show Na<sup>+</sup> and water out (write 'under aldosterone and ADH') and H<sup>+</sup>, K<sup>+</sup>, NH<sub>3</sub> in. Along the collecting duct show water out and urea out into the medulla. Label each segment and each arrow; the arrows are the marks."
+    },
+    {
+      "title": "Counter-current mechanism with the osmolarity gradient (NCERT Fig. 16.5)",
+      "how_to_draw": "Draw a long-looped (juxtamedullary) nephron with its Henle's loop and collecting duct running down, and a U-shaped vasa recta beside it, all crossing a dotted cortex-medulla line. Down the interstitium write 300, 600, 900, 1200 mOsmolL<sup>−1</sup> from cortex to inner medulla. Draw arrows for NaCl leaving the ascending limb into the interstitium and entering the descending limb of the vasa recta, and NaCl leaving the ascending vasa recta back to the interstitium. Draw water arrows leaving the descending limb and the collecting duct, and urea arrows from the collecting duct into the interstitium and into the thin ascending limb. Mark the directions of flow in the two limbs with opposite arrows. Label: descending limb, ascending limb, collecting duct, vasa recta, cortex, medulla, the osmolarity values, NaCl, urea, H<sub>2</sub>O."
+    },
+    {
+      "title": "Flow chart of the regulation of kidney function",
+      "how_to_draw": "Make three columns. Left: 'loss of body fluid → osmoreceptors → hypothalamus → ADH from neurohypophysis → water reabsorption in DCT and collecting duct → diuresis prevented', with a feedback arrow back from 'fluid volume restored' to 'osmoreceptors switched off'. Middle: 'fall in GFR or glomerular BP → JG cells → renin → angiotensinogen → angiotensin I → angiotensin II', then two branches: 'vasoconstriction → glomerular BP up → GFR up' and 'adrenal cortex → aldosterone → Na<sup>+</sup> and water reabsorption in distal tubule → BP and GFR up'. Right: 'increased blood flow to atria → ANF → vasodilation → BP down', with a blunt arrow labelled 'checks' pointing at the renin-angiotensin column. Box the hormones and enzymes."
+    },
+    {
+      "title": "Haemodialysis unit",
+      "how_to_draw": "Draw the patient's arm on the left with a tube leaving an artery, a small box labelled 'heparin added', a pump, then a large tank labelled 'dialysing fluid' containing a coiled cellophane tube through which the blood passes. Show dialysing fluid entering the tank fresh at one side and leaving at the other, and small arrows from the cellophane tube into the fluid labelled 'urea and other nitrogenous wastes'. From the tank draw the return tube through a box labelled 'anti-heparin added' back to a vein in the arm. Label: artery, heparin, pump, coiled cellophane tube, dialysing fluid (same composition as plasma except nitrogenous wastes), used dialysing fluid, anti-heparin, vein."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "16.1",
+      "q": "Define glomerular filtration rate (GFR).",
+      "a": "<p>Glomerular filtration rate is the amount of filtrate formed by the kidneys per minute. In a healthy person it is approximately 125 mL per minute, that is, about 180 litres per day. It measures the rate at which plasma is ultrafiltered from the glomerular capillaries into the lumen of Bowman's capsule.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "16.2",
+      "q": "Explain the autoregulatory mechanism of GFR.",
+      "a": "<p>The kidneys have a built-in mechanism for regulating GFR carried out by the juxta glomerular apparatus (JGA). The JGA is a special sensitive region formed by cellular modifications in the distal convoluted tubule and the afferent arteriole at the point where they come into contact.</p><p>When the GFR falls, the JG cells are activated to release the enzyme renin. Renin converts angiotensinogen in the blood into angiotensin I, which is further converted into angiotensin II. Angiotensin II is a powerful vasoconstrictor; it raises the glomerular blood pressure and therefore the glomerular blood flow, bringing the GFR back to normal. Angiotensin II also stimulates the adrenal cortex to release aldosterone, which increases reabsorption of Na<sup>+</sup> and water from the distal parts of the tubule, further raising blood pressure and GFR. Because a fall in GFR triggers a response that restores it, the mechanism is self-regulating.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "16.3",
+      "q": "Indicate whether the following statements are true or false: (a) Micturition is carried out by a reflex. (b) ADH helps in water elimination, making the urine hypotonic. (c) Protein-free fluid is filtered from blood plasma into the Bowman's capsule. (d) Henle's loop plays an important role in concentrating the urine. (e) Glucose is actively reabsorbed in the proximal convoluted tubule.",
+      "a": "<p>(a) True. Stretch receptors in the bladder wall signal the CNS, which sends motor impulses contracting the bladder muscle and relaxing the urethral sphincter; this neural mechanism is the micturition reflex.</p><p>(b) False. ADH increases water reabsorption from the DCT and collecting duct, so it prevents diuresis and makes the urine concentrated (hypertonic), not hypotonic.</p><p>(c) True. The filtration membrane lets almost all plasma constituents except proteins pass into Bowman's capsule, so the filtrate is protein-free (ultrafiltration).</p><p>(d) True. Henle's loop, with the vasa recta, establishes the osmolarity gradient of the medulla (300 to 1200 mOsmolL<sup>−1</sup>) through the counter-current mechanism, which allows water to be drawn out of the collecting duct and the urine to be concentrated.</p><p>(e) True. Glucose, along with amino acids and Na<sup>+</sup>, is reabsorbed by active transport, and nearly all of it is reabsorbed in the PCT.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "16.4",
+      "q": "Give a brief account of the counter current mechanism.",
+      "a": "<p>The filtrate flows in opposite directions in the two limbs of Henle's loop, down the descending limb and up the ascending limb, and blood flows in opposite directions in the two limbs of the vasa recta; each forms a counter current. The proximity of Henle's loop and the vasa recta and the counter-current flow maintain an increasing osmolarity towards the inner medulla, from 300 mOsmolL<sup>−1</sup> in the cortex to about 1200 mOsmolL<sup>−1</sup> in the inner medulla.</p><p>The gradient is created mainly by NaCl and urea. NaCl is transported out by the ascending limb of Henle's loop and is exchanged with the descending limb of the vasa recta; it is returned to the interstitium by the ascending portion of the vasa recta. Small amounts of urea enter the thin segment of the ascending limb of Henle's loop and are transported back to the interstitium by the collecting tubule. This special arrangement of Henle's loop and vasa recta is the counter current mechanism; it keeps the medullary interstitium concentrated.</p><p>The gradient allows easy passage of water by osmosis out of the collecting tubule as it passes through the medulla, so the filtrate (urine) is concentrated. Human kidneys can produce urine nearly four times as concentrated as the initial filtrate.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "16.5",
+      "q": "Describe the role of liver, lungs and skin in excretion.",
+      "a": "<p><b>Liver:</b> the largest gland, it secretes bile containing substances such as bilirubin, biliverdin, cholesterol, degraded steroid hormones, vitamins and drugs; most of these pass out of the body with the digestive wastes in faeces. The liver also converts toxic ammonia into urea, which the kidneys then excrete.</p><p><b>Lungs:</b> they remove large amounts of CO<sub>2</sub>, approximately 200 mL per minute, and also significant quantities of water every day as water vapour in expired air.</p><p><b>Skin:</b> the sweat glands produce sweat, a watery fluid containing NaCl, small amounts of urea, lactic acid and other substances; its main function is cooling the body surface, but it also removes wastes. The sebaceous glands eliminate sterols, hydrocarbons and waxes through sebum, which also forms a protective oily covering on the skin.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "16.6",
+      "q": "Explain micturition.",
+      "a": "<p>Urine formed by the nephrons is carried to the urinary bladder and stored there until a voluntary signal from the central nervous system allows its release. As the bladder fills with urine, its wall stretches, and stretch receptors on the wall send sensory signals to the CNS. The CNS passes on motor messages that cause the contraction of the smooth muscles of the bladder and the simultaneous relaxation of the urethral sphincter, so urine is released. This process of release of urine is called micturition, and the neural mechanism causing it is called the micturition reflex. An adult human excretes on average 1 to 1.5 litres of urine per day.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "16.7",
+      "q": "Match the items of column I with those of column II. Column I: (a) Ammonotelism (b) Bowman's capsule (c) Micturition (d) Uricotelism (e) ADH. Column II: (i) Birds (ii) Water reabsorption (iii) Bony fish (iv) Urinary bladder (v) Renal tubule.",
+      "a": "<p>(a) Ammonotelism: (iii) Bony fish<br>(b) Bowman's capsule: (v) Renal tubule<br>(c) Micturition: (iv) Urinary bladder<br>(d) Uricotelism: (i) Birds<br>(e) ADH: (ii) Water reabsorption</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "16.8",
+      "q": "What is meant by the term osmoregulation?",
+      "a": "<p>Osmoregulation is the process by which an organism regulates the water content and the ionic (solute) concentration of its body fluids so that they are maintained at a constant level, regardless of changes in the environment or in intake. In humans the kidneys carry it out mainly through the counter-current mechanism and the hormones ADH and aldosterone; in simpler animals structures like flame cells are primarily osmoregulatory.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "16.9",
+      "q": "Terrestrial animals are generally either ureotelic or uricotelic, not ammonotelic, why?",
+      "a": "<p>Ammonia is the most toxic of the nitrogenous wastes and is highly soluble, so it can be removed safely only if it is diluted in and flushed out with a large volume of water. Aquatic animals have unlimited water around them and simply let ammonia diffuse out across the body or gill surface. Terrestrial animals must conserve water; they cannot afford to lose the large volumes needed to excrete ammonia. So they convert ammonia, in the liver, into the less toxic urea (ureotelic: mammals, terrestrial amphibians) or into the least toxic and almost insoluble uric acid (uricotelic: reptiles, birds, insects, land snails), which can be excreted with little water, even as a paste or pellet.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "16.10",
+      "q": "What is the significance of juxta glomerular apparatus (JGA) in kidney function?",
+      "a": "<p>The JGA is a special sensitive region formed by cellular modifications in the DCT and the afferent arteriole where they touch. It is the sensor and effector of the kidney's autoregulation. When the glomerular blood flow, glomerular blood pressure or GFR falls, the JG cells release renin, which converts angiotensinogen to angiotensin I and then angiotensin II. Angiotensin II constricts blood vessels, raising glomerular blood pressure and GFR, and stimulates the adrenal cortex to release aldosterone, which increases Na<sup>+</sup> and water reabsorption from the distal tubule and raises blood pressure further. Thus the JGA keeps GFR and blood pressure within normal limits through the renin-angiotensin mechanism.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "16.11",
+      "q": "Name the following: (a) A chordate animal having flame cells as excretory structures. (b) Cortical portions projecting between the medullary pyramids in the human kidney. (c) A loop of capillary running parallel to the Henle's loop.",
+      "a": "<p>(a) <i>Amphioxus</i> (a cephalochordate).<br>(b) Columns of Bertini (renal columns).<br>(c) Vasa recta.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "16.12",
+      "q": "Fill in the gaps: (a) The ascending limb of Henle's loop is ______ to water whereas the descending limb is ______ to it. (b) Reabsorption of water from distal parts of the tubules is facilitated by hormone ______. (c) Dialysis fluid contain all the constituents as in plasma except ______. (d) A healthy adult human excretes (on an average) ______ gm of urea/day.",
+      "a": "<p>(a) impermeable; permeable<br>(b) antidiuretic hormone (ADH) or vasopressin<br>(c) nitrogenous wastes<br>(d) 25 to 30 g</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exemplar",
+      "number": "Exemplar",
+      "q": "Which one of the following statements is incorrect? (a) Birds and land snails are uricotelic animals. (b) Mammals and frogs are ureotelic animals. (c) Aquatic amphibians and aquatic insects are ammonotelic animals. (d) Birds and reptiles are ureotelic animals.",
+      "a": "<p>(d) is incorrect. Birds and reptiles are uricotelic, not ureotelic: they excrete uric acid as a pellet or paste with minimum loss of water. Statements (a), (b) and (c) match NCERT: land snails and birds are uricotelic; mammals and adult (terrestrial) frogs are ureotelic; aquatic amphibians and aquatic insects are ammonotelic.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exemplar",
+      "number": "Exemplar",
+      "q": "The pH of human urine is approximately (a) 6.5 (b) 7 (c) 6 (d) 7.5.",
+      "a": "<p>(c) 6. Human urine is a light yellow, slightly acidic fluid with pH 6.0 and a characteristic odour.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exemplar",
+      "number": "Exemplar",
+      "q": "Podocytes are the cells present on the (a) outer wall of Bowman's capsule (b) inner wall of Bowman's capsule (c) wall of glomerular capillaries (d) wall of the PCT.",
+      "a": "<p>(b) inner wall of Bowman's capsule. The podocytes form the epithelium of the capsule that lies against the glomerular capillaries, and the minute spaces between their foot processes are the filtration slits or slit pores.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exemplar",
+      "number": "Exemplar",
+      "q": "Differentiate between cortical nephrons and juxtamedullary nephrons.",
+      "a": "<p>Cortical nephrons form the majority; their Henle's loop is too short and extends only very little into the medulla, and the vasa recta is absent or highly reduced. Juxtamedullary nephrons are fewer; their Henle's loop is very long and runs deep into the medulla, and they have a well-developed vasa recta. Juxtamedullary nephrons are mainly responsible for building the medullary osmolarity gradient and hence for producing concentrated urine.</p>",
+      "marks": 2
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The amount of filtrate formed by the kidneys per minute in a healthy adult is approximately",
+      "options": [
+        "125 L",
+        "180 mL",
+        "125 mL",
+        "1.5 L"
+      ],
+      "answer": "c",
+      "solution": "GFR is about 125 mL per minute, which adds up to 180 litres per day; 1.5 L is the daily urine output."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following animals is uricotelic?",
+      "options": [
+        "Bony fish",
+        "Adult frog",
+        "Pigeon",
+        "Human"
+      ],
+      "answer": "c",
+      "solution": "Birds (pigeon) excrete uric acid. Bony fishes are ammonotelic; adult frog and human are ureotelic."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The segment of the nephron that is impermeable to water but allows the transport of electrolytes is the",
+      "options": [
+        "Descending limb of Henle's loop",
+        "Ascending limb of Henle's loop",
+        "Proximal convoluted tubule",
+        "Collecting duct"
+      ],
+      "answer": "b",
+      "solution": "The ascending limb is impermeable to water but lets electrolytes out, diluting the filtrate; the descending limb is the reverse."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The osmolarity of the interstitial fluid in the inner medulla of a human kidney is about",
+      "options": [
+        "300 mOsmolL<sup>−1</sup>",
+        "600 mOsmolL<sup>−1</sup>",
+        "900 mOsmolL<sup>−1</sup>",
+        "1200 mOsmolL<sup>−1</sup>"
+      ],
+      "answer": "d",
+      "solution": "The gradient runs from 300 mOsmolL<sup>−1</sup> in the cortex to about 1200 mOsmolL<sup>−1</sup> in the inner medulla."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The excretory structure of the cockroach is the",
+      "options": [
+        "Nephridia",
+        "Antennal gland",
+        "Malpighian tubules",
+        "Flame cells"
+      ],
+      "answer": "c",
+      "solution": "Insects including cockroaches excrete through Malpighian tubules; nephridia belong to earthworms, antennal glands to prawns and flame cells to planaria."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Renin is released by the juxta glomerular cells in response to",
+      "options": [
+        "A rise in glomerular blood pressure",
+        "A fall in glomerular filtration rate",
+        "An increase in blood flow to the atria",
+        "An increase in body fluid volume"
+      ],
+      "answer": "b",
+      "solution": "A fall in glomerular blood flow, blood pressure or GFR activates the JG cells to release renin. Atrial stretch releases ANF, and increased fluid volume suppresses ADH."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The dialysing fluid used in haemodialysis has the same composition as plasma except that it lacks",
+      "options": [
+        "Glucose",
+        "Sodium ions",
+        "Nitrogenous wastes",
+        "Proteins"
+      ],
+      "answer": "c",
+      "solution": "Because nitrogenous wastes are absent from the dialysing fluid, urea and other wastes diffuse out of the blood across the cellophane membrane down their concentration gradient."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which hormone is released from the neurohypophysis when osmoreceptors detect excessive loss of body fluid?",
+      "options": [
+        "Aldosterone",
+        "Atrial natriuretic factor",
+        "Renin",
+        "Vasopressin"
+      ],
+      "answer": "d",
+      "solution": "ADH or vasopressin, released from the neurohypophysis on stimulation of the hypothalamus, increases water reabsorption from the latter parts of the tubule and prevents diuresis."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Uric acid can be excreted as a pellet or paste with a minimum loss of water. Reason (R): Uric acid is the least toxic and almost insoluble nitrogenous waste.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Because uric acid is least toxic and barely soluble, it does not need dilution in water and can be passed out as a semi-solid; R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): ADH makes the urine hypotonic by increasing water elimination. Reason (R): ADH increases the permeability of the DCT and collecting duct to water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "ADH increases water reabsorption in the latter parts of the tubule (R is true), which conserves water and makes the urine concentrated, so A is false."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The glomerular filtrate is free of proteins. Reason (R): Ultrafiltration through the endothelium, basement membrane and podocyte slits allows all plasma constituents except proteins to pass.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The three-layered filtration membrane holds back proteins while letting water and small solutes through; R is exactly why A is true."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): ANF acts as a check on the renin-angiotensin mechanism. Reason (R): ANF is released from the atria and causes vasoconstriction, raising blood pressure.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "ANF does check the renin-angiotensin mechanism, but it does so by causing vasodilation and lowering blood pressure, so R is false."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the three layers through which blood is filtered in the glomerulus and state what kind of filtration it is.",
+      "answer": "<p>The glomerular capillary blood pressure filters blood through (1) the endothelium of the glomerular blood vessels, (2) the basement membrane and (3) the epithelium of Bowman's capsule, whose podocytes leave filtration slits. Almost all plasma constituents except proteins pass through, so it is called ultrafiltration.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Even though the GFR of a healthy person is about 180 litres per day, only about 1.5 litres of urine is passed. Give the reason.",
+      "answer": "<p>Nearly 99 per cent of the filtrate is reabsorbed by the renal tubules (tubular reabsorption). Glucose, amino acids and Na<sup>+</sup> are reabsorbed actively, water and nitrogenous wastes passively, mostly in the PCT, with further water recovery in the DCT and collecting duct under ADH. Reabsorbed = (180 − 1.5)/180 × 100 ≈ 99 per cent, leaving only about 1.5 L as urine.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Give one word for each: (a) presence of glucose in urine, (b) presence of ketone bodies in urine. Which disorder shows both?",
+      "answer": "<p>(a) Glycosuria. (b) Ketonuria. Both together are indicative of diabetes mellitus. Urine analysis is used for the clinical diagnosis of such metabolic disorders and of kidney malfunction.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is the tadpole of a frog ammonotelic while the adult frog is ureotelic?",
+      "answer": "<p>The tadpole lives in water, where the highly soluble ammonia can diffuse out freely across the body surface and gills and be diluted by the surrounding water, so it excretes ammonia. The adult frog lives largely on land and must conserve water; it cannot afford the large volume needed to flush out toxic ammonia, so its liver converts ammonia to the less toxic urea, which needs less water for removal.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State two functions of the proximal convoluted tubule.",
+      "answer": "<p>(1) Reabsorption: its brush-border cuboidal epithelium reabsorbs nearly all essential nutrients (glucose, amino acids) and 70 to 80 per cent of the electrolytes and water from the filtrate. (2) Maintenance of pH and ionic balance: it selectively secretes H<sup>+</sup>, ammonia and K<sup>+</sup> into the filtrate and absorbs HCO<sub>3</sub><sup>−</sup> from it.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Differentiate between ammonotelism, ureotelism and uricotelism with one example each.",
+      "answer": "<p><b>Ammonotelism:</b> the main nitrogenous waste is ammonia, the most toxic waste, needing a large amount of water; it is excreted by diffusion across the body or gill surface as ammonium ions and the kidneys play no significant role. Examples: many bony fishes, aquatic amphibians, aquatic insects.</p><p><b>Ureotelism:</b> ammonia is converted in the liver into urea, which is less toxic and needs less water; urea is released into blood and filtered and excreted by the kidneys. Examples: mammals, many terrestrial amphibians, marine fishes.</p><p><b>Uricotelism:</b> the waste is uric acid, the least toxic and almost insoluble, excreted as a pellet or paste with minimum loss of water. Examples: reptiles, birds, land snails, insects.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Describe the renin-angiotensin mechanism of regulation of kidney function.",
+      "answer": "<p>A fall in glomerular blood flow, glomerular blood pressure or GFR activates the JG cells of the juxta glomerular apparatus to release the enzyme renin. Renin converts angiotensinogen present in the blood into angiotensin I, which is further converted into angiotensin II. Angiotensin II is a powerful vasoconstrictor: it increases the glomerular blood pressure and thereby the GFR. Angiotensin II also activates the adrenal cortex to release aldosterone. Aldosterone causes reabsorption of Na<sup>+</sup> and water from the distal parts of the tubule, which also raises blood pressure and GFR. This is the renin-angiotensin mechanism; it is kept in check by ANF from the atria, which causes vasodilation and lowers blood pressure.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the working of a haemodialysis unit.",
+      "answer": "<p>Blood drained from a convenient artery of the patient is pumped into the dialysing unit after adding an anticoagulant such as heparin. The unit contains a coiled cellophane tube surrounded by dialysing fluid, whose composition is the same as that of plasma except that nitrogenous wastes are absent. The porous cellophane membrane allows molecules to pass according to their concentration gradient; since the dialysing fluid has no nitrogenous wastes, urea and other wastes move freely out of the blood into the fluid, clearing the blood. The cleared blood is pumped back into the body through a vein after anti-heparin has been added to restore normal clotting. Haemodialysis is used in patients with uremia due to kidney failure.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the three processes involved in urine formation.",
+      "answer": "<p><b>Glomerular filtration:</b> glomerular capillary blood pressure forces plasma through the capillary endothelium, the basement membrane and the podocyte epithelium of Bowman's capsule; everything except proteins passes (ultrafiltration), at about 125 mL per minute (180 L per day).</p><p><b>Tubular reabsorption:</b> nearly 99 per cent of the filtrate is returned to the blood by the tubular epithelial cells: glucose, amino acids and Na<sup>+</sup> actively, nitrogenous wastes passively, and water passively in the initial segments; most of this occurs in the PCT.</p><p><b>Tubular secretion:</b> the tubular cells secrete H<sup>+</sup>, K<sup>+</sup> and ammonia from the peritubular blood into the filtrate, which maintains the ionic and acid-base balance of body fluids. The fluid left after these three steps is urine, which passes into the collecting duct.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Describe the functions of the distal convoluted tubule and the collecting duct.",
+      "answer": "<p><b>DCT:</b> conditional reabsorption of Na<sup>+</sup> and water occurs here, depending on aldosterone and ADH. The DCT is also capable of reabsorbing HCO<sub>3</sub><sup>−</sup> and of selectively secreting H<sup>+</sup>, K<sup>+</sup> and NH<sub>3</sub>, which maintains the pH and the sodium-potassium balance of the blood.</p><p><b>Collecting duct:</b> it extends from the cortex to the inner medulla. Large amounts of water can be reabsorbed from it, under ADH, to produce a concentrated urine. It allows small amounts of urea to pass into the medullary interstitium to keep up the osmolarity there (part of the counter-current mechanism), and it maintains pH and ionic balance by selective secretion of H<sup>+</sup> and K<sup>+</sup>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Draw a labelled diagram of a nephron showing its blood supply and describe the structure of the nephron.",
+      "answer": "<p>(Diagram: glomerulus in Bowman's capsule with afferent and efferent arterioles, PCT, descending and ascending limbs of Henle's loop, DCT, collecting duct, peritubular capillaries and the U-shaped vasa recta, with cortex and medulla marked.)</p><p>Each nephron has two parts, the glomerulus and the renal tubule. The glomerulus is a tuft of capillaries formed by the afferent arteriole, a fine branch of the renal artery; blood leaves it by the efferent arteriole. The renal tubule begins with a double-walled cup-like Bowman's capsule that encloses the glomerulus; together they form the Malpighian body or renal corpuscle. The tubule continues as the highly coiled proximal convoluted tubule (PCT), then a hairpin-shaped Henle's loop with a descending and an ascending limb, and the ascending limb continues as the coiled distal convoluted tubule (DCT). The DCTs of many nephrons open into a straight collecting duct; many collecting ducts converge and open into the renal pelvis through the medullary pyramids in the calyces.</p><p>The Malpighian corpuscle, PCT and DCT lie in the cortex; Henle's loop dips into the medulla. In most nephrons the loop is short and barely enters the medulla (cortical nephrons); in some it is very long and runs deep into the medulla (juxtamedullary nephrons). The efferent arteriole forms a fine peritubular capillary network around the tubule, and a minute vessel of this network runs parallel to Henle's loop as the U-shaped vasa recta, which is absent or highly reduced in cortical nephrons. Each kidney has nearly one million nephrons.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain the mechanism of concentration of the filtrate in the human kidney with a suitable diagram.",
+      "answer": "<p>(Diagram: a long-looped nephron and the parallel vasa recta crossing from cortex into medulla, with the osmolarity values 300, 600, 900 and 1200 mOsmolL<sup>−1</sup> written down the interstitium, and arrows for NaCl, urea and water as described below.)</p><p>Mammals can produce concentrated urine because of the Henle's loop and the vasa recta. The filtrate flows in opposite directions in the two limbs of the loop, and blood flows in opposite directions in the two limbs of the vasa recta, forming counter currents. The closeness of the loop and the vasa recta together with the counter-current flow maintains an increasing osmolarity towards the inner medulla, from 300 mOsmolL<sup>−1</sup> in the cortex to about 1200 mOsmolL<sup>−1</sup> in the inner medulla.</p><p>The gradient is created mainly by NaCl and urea. NaCl is transported out by the ascending limb of Henle's loop and is exchanged with the descending limb of the vasa recta; the ascending portion of the vasa recta returns the NaCl to the interstitium. Small amounts of urea enter the thin segment of the ascending limb of Henle's loop and are transported back to the interstitium by the collecting tubule. So NaCl and urea keep cycling within the medulla and are not washed away. This arrangement is the counter current mechanism.</p><p>The descending limb is permeable to water and concentrates the filtrate as it descends; the ascending limb is impermeable to water and dilutes the filtrate by pumping out electrolytes. Finally, as the filtrate passes down the collecting duct through the concentrated medulla, water leaves by osmosis (the duct being made permeable by ADH) and the urine becomes concentrated. Human kidneys can produce urine nearly four times as concentrated as the initial filtrate (1200/300 = 4).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe how the functioning of the kidney is regulated by the hypothalamus, the juxta glomerular apparatus and the heart.",
+      "answer": "<p><b>Hypothalamus and ADH:</b> osmoreceptors are activated by changes in blood volume, body fluid volume and ionic concentration. Excessive loss of fluid activates them, and they stimulate the hypothalamus to release antidiuretic hormone (ADH, vasopressin) from the neurohypophysis. ADH facilitates water reabsorption from the DCT and collecting duct and so prevents diuresis. When body fluid volume rises, the osmoreceptors are switched off and ADH release is suppressed, completing a negative feedback. ADH also constricts blood vessels, raising blood pressure, glomerular blood flow and GFR.</p><p><b>JGA and the renin-angiotensin mechanism:</b> a fall in glomerular blood flow, glomerular blood pressure or GFR activates the JG cells to release renin, which converts angiotensinogen to angiotensin I and then to angiotensin II. Angiotensin II, a powerful vasoconstrictor, raises glomerular blood pressure and GFR, and activates the adrenal cortex to release aldosterone, which causes reabsorption of Na<sup>+</sup> and water from the distal tubule, raising blood pressure and GFR further.</p><p><b>Heart and ANF:</b> an increase in blood flow to the atria causes release of atrial natriuretic factor, which causes vasodilation and lowers blood pressure; it thus acts as a check on the renin-angiotensin mechanism.</p><p>(A flow chart of the three pathways earns the diagram mark.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the human excretory system with a labelled diagram of the longitudinal section of the kidney.",
+      "answer": "<p>(Diagram: L.S. of kidney showing capsule, cortex, medulla, medullary pyramids, columns of Bertini, calyces, renal pelvis, hilum, renal artery and vein, ureter.)</p><p>The human excretory system consists of a pair of kidneys, a pair of ureters, a urinary bladder and a urethra. The kidneys are reddish brown, bean-shaped organs lying between the levels of the last thoracic and third lumbar vertebra close to the dorsal inner wall of the abdominal cavity. Each is 10 to 12 cm long, 5 to 7 cm wide, 2 to 3 cm thick and weighs 120 to 170 g. On the inner concave surface is a notch, the hilum, through which the ureter, blood vessels and nerves enter. Inner to the hilum is the broad funnel-shaped renal pelvis with projections called calyces.</p><p>The outer layer is a tough capsule. Inside are the outer cortex and the inner medulla. The medulla is divided into a few conical medullary pyramids projecting into the calyces, and the cortex extends between the pyramids as the renal columns or columns of Bertini. Each kidney has nearly one million nephrons, the functional units, each with a glomerulus and a renal tubule (Bowman's capsule, PCT, Henle's loop, DCT). The corpuscles and convoluted tubules lie in the cortex and the loops of Henle in the medulla. Urine from the nephrons flows through the collecting ducts into the calyces, the renal pelvis, the ureter, and is stored in the urinary bladder until it is released through the urethra by micturition.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A 45-year-old man is found to have a very high level of urea in his blood and his kidneys are no longer able to filter it. The doctor advises haemodialysis three times a week and says that in the long run a kidney transplant from a close relative would be best.<br>(i) Name the condition of accumulation of urea in the blood.<br>(ii) Name the anticoagulant added to the blood before it enters the dialysing unit, and what is added before the blood is returned.<br>(iii) How does the dialysing fluid differ from plasma, and why does this difference matter?<br>(iv) Why is a close relative preferred as the kidney donor?",
+      "answer": "<p>(i) Uremia.<br>(ii) Heparin is added before the blood enters the unit; anti-heparin is added before the cleared blood is returned to the body through a vein.<br>(iii) The dialysing fluid has the same composition as plasma except that it lacks nitrogenous wastes. Because of this, urea and other nitrogenous wastes have a concentration gradient from the blood in the cellophane tube into the fluid and diffuse out freely, while other useful constituents do not, so the blood is cleared of wastes only.<br>(iv) A kidney from a close relative is genetically closer to the recipient, which minimises the chances of rejection of the transplanted kidney by the host's immune system.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "The diagram of a juxtamedullary nephron shows the osmolarity of the interstitial fluid rising from 300 mOsmolL<sup>−1</sup> at the cortex to 1200 mOsmolL<sup>−1</sup> in the inner medulla. The Henle's loop and a U-shaped blood vessel run side by side across this gradient.<br>(i) Name the U-shaped blood vessel and the mechanism that maintains this gradient.<br>(ii) Which two solutes mainly build the gradient, and from which parts of the tubule do they enter the interstitium?<br>(iii) Up to how many times more concentrated than the filtrate can the urine become? Show the calculation.<br>(iv) Which hormone must act on the collecting duct for this gradient to actually concentrate the urine, and what does it do?",
+      "answer": "<p>(i) The vasa recta; the counter current mechanism.<br>(ii) NaCl and urea. NaCl is transported out by the ascending limb of Henle's loop (and returned to the interstitium by the ascending vasa recta); urea passes out of the collecting duct into the interstitium and enters the thin ascending limb of the loop, cycling back.<br>(iii) Nearly four times: 1200 mOsmolL<sup>−1</sup> ÷ 300 mOsmolL<sup>−1</sup> = 4.<br>(iv) Antidiuretic hormone (ADH, vasopressin). It increases the permeability of the DCT and collecting duct to water so that water leaves the duct by osmosis into the concentrated medullary interstitium, concentrating the urine and preventing diuresis.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The most toxic nitrogenous waste, which needs the largest amount of water for its elimination, is",
+      "options": [
+        "Urea",
+        "Uric acid",
+        "Ammonia",
+        "Creatinine"
+      ],
+      "answer_index": 2,
+      "explanation": "Ammonia is the most toxic and highly soluble; it must be flushed out with large amounts of water, which is why only aquatic animals are ammonotelic."
+    },
+    {
+      "q": "Ammonia produced by metabolism is converted into urea in the",
+      "options": [
+        "Kidney",
+        "Liver",
+        "Spleen",
+        "Pancreas"
+      ],
+      "answer_index": 1,
+      "explanation": "In ureotelic animals the liver converts ammonia into urea, which is released into the blood and then filtered and excreted by the kidneys."
+    },
+    {
+      "q": "Antennal glands or green glands are the excretory organs of",
+      "options": [
+        "Insects",
+        "Earthworms",
+        "Crustaceans such as prawns",
+        "Planaria"
+      ],
+      "answer_index": 2,
+      "explanation": "Crustaceans like prawns excrete through antennal (green) glands; insects use Malpighian tubules, earthworms nephridia and planaria flame cells."
+    },
+    {
+      "q": "The human kidneys lie between the levels of the",
+      "options": [
+        "Last cervical and first thoracic vertebra",
+        "Last thoracic and third lumbar vertebra",
+        "First and fifth lumbar vertebra",
+        "Sacral vertebrae"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT places the kidneys between the last thoracic and third lumbar vertebra, close to the dorsal inner wall of the abdominal cavity."
+    },
+    {
+      "q": "The glomerulus together with Bowman's capsule is called the",
+      "options": [
+        "Malpighian tubule",
+        "Malpighian body",
+        "Juxta glomerular apparatus",
+        "Renal pyramid"
+      ],
+      "answer_index": 1,
+      "explanation": "Glomerulus plus Bowman's capsule is the Malpighian body or renal corpuscle. Malpighian tubules are insect excretory organs."
+    },
+    {
+      "q": "Blood leaves the glomerulus through the",
+      "options": [
+        "Efferent arteriole",
+        "Afferent arteriole",
+        "Renal vein",
+        "Vasa recta"
+      ],
+      "answer_index": 0,
+      "explanation": "The afferent arteriole brings blood into the glomerulus and the efferent arteriole carries it away, later forming the peritubular capillaries and vasa recta."
+    },
+    {
+      "q": "The vasa recta is absent or highly reduced in",
+      "options": [
+        "Juxtamedullary nephrons",
+        "Cortical nephrons",
+        "All human nephrons",
+        "The collecting ducts"
+      ],
+      "answer_index": 1,
+      "explanation": "Cortical nephrons have a short Henle's loop that barely enters the medulla and a reduced or absent vasa recta; juxtamedullary nephrons have both well developed."
+    },
+    {
+      "q": "Which of the following is reabsorbed by passive transport in the nephron?",
+      "options": [
+        "Glucose",
+        "Amino acids",
+        "Na<sup>+</sup>",
+        "Nitrogenous wastes"
+      ],
+      "answer_index": 3,
+      "explanation": "Glucose, amino acids and Na<sup>+</sup> are reabsorbed actively; nitrogenous wastes are absorbed passively."
+    },
+    {
+      "q": "The PCT is lined by",
+      "options": [
+        "Simple squamous epithelium",
+        "Simple cuboidal brush border epithelium",
+        "Ciliated columnar epithelium",
+        "Stratified epithelium"
+      ],
+      "answer_index": 1,
+      "explanation": "The brush border of the simple cuboidal epithelium of the PCT increases the surface area for reabsorption."
+    },
+    {
+      "q": "Tubular secretion of H<sup>+</sup>, K<sup>+</sup> and ammonia into the filtrate is important because it",
+      "options": [
+        "Increases the GFR",
+        "Maintains the ionic and acid-base balance of body fluids",
+        "Concentrates the urine",
+        "Removes glucose from the blood"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT states that tubular secretion helps in the maintenance of ionic and acid-base balance of body fluids."
+    },
+    {
+      "q": "Which part of the nephron shows conditional reabsorption of Na<sup>+</sup> and water?",
+      "options": [
+        "Proximal convoluted tubule",
+        "Descending limb of Henle's loop",
+        "Distal convoluted tubule",
+        "Bowman's capsule"
+      ],
+      "answer_index": 2,
+      "explanation": "Conditional reabsorption of Na<sup>+</sup> and water, controlled by aldosterone and ADH, occurs in the DCT."
+    },
+    {
+      "q": "Human kidneys can produce urine that is concentrated, relative to the initial filtrate, nearly",
+      "options": [
+        "Two times",
+        "Four times",
+        "Ten times",
+        "Forty times"
+      ],
+      "answer_index": 1,
+      "explanation": "The medullary gradient of 300 to 1200 mOsmolL<sup>−1</sup> allows urine nearly four times as concentrated as the filtrate."
+    },
+    {
+      "q": "Angiotensin II activates the adrenal cortex to release",
+      "options": [
+        "Adrenaline",
+        "Aldosterone",
+        "Vasopressin",
+        "Renin"
+      ],
+      "answer_index": 1,
+      "explanation": "Aldosterone from the adrenal cortex increases Na<sup>+</sup> and water reabsorption from the distal tubule; adrenaline comes from the adrenal medulla, vasopressin from the neurohypophysis and renin from JG cells."
+    },
+    {
+      "q": "An adult human excretes on average how much urea per day?",
+      "options": [
+        "2 to 3 g",
+        "25 to 30 g",
+        "125 g",
+        "180 g"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT gives 25 to 30 g of urea per day; 125 and 180 are GFR numbers in mL/min and L/day."
+    },
+    {
+      "q": "Approximately how much CO<sub>2</sub> do the lungs remove per minute?",
+      "options": [
+        "20 mL",
+        "125 mL",
+        "200 mL",
+        "500 mL"
+      ],
+      "answer_index": 2,
+      "explanation": "The lungs remove approximately 200 mL of CO<sub>2</sub> per minute, along with significant quantities of water."
+    },
+    {
+      "q": "Sterols, hydrocarbons and waxes are eliminated from the body through",
+      "options": [
+        "Sweat",
+        "Sebum",
+        "Bile",
+        "Saliva"
+      ],
+      "answer_index": 1,
+      "explanation": "Sebaceous glands eliminate sterols, hydrocarbons and waxes through sebum; sweat carries NaCl, urea and lactic acid, and bile carries bilirubin, cholesterol and drugs."
+    },
+    {
+      "q": "Insoluble masses of crystallised salts such as oxalates formed within the kidney are called",
+      "options": [
+        "Uremia",
+        "Glomerulonephritis",
+        "Renal calculi",
+        "Ketonuria"
+      ],
+      "answer_index": 2,
+      "explanation": "Renal calculi are kidney stones; uremia is urea accumulation in blood, glomerulonephritis is inflammation of glomeruli, ketonuria is ketone bodies in urine."
+    },
+    {
+      "q": "The juxta glomerular apparatus is formed by cellular modifications of the",
+      "options": [
+        "PCT and efferent arteriole",
+        "DCT and afferent arteriole",
+        "Collecting duct and vasa recta",
+        "Bowman's capsule and glomerulus"
+      ],
+      "answer_index": 1,
+      "explanation": "The JGA is a sensitive region where the DCT and the afferent arteriole come into contact; its JG cells release renin."
+    }
+  ],
+  "common_mistakes": [
+    "Writing 'all fishes are ammonotelic'. NCERT says many bony fishes are ammonotelic and lists marine fishes under ureotelic; copy the wording.",
+    "Swapping the permeabilities of the two limbs of Henle's loop. The descending limb is permeable to water and nearly impermeable to electrolytes; the ascending limb is impermeable to water and lets electrolytes out. The filtrate is concentrated going down and diluted coming up.",
+    "Saying ADH makes urine dilute or 'helps water elimination'. ADH increases water reabsorption, prevents diuresis and makes the urine concentrated; the NCERT true-false item tests exactly this.",
+    "Confusing renin with rennin and putting aldosterone in the adrenal medulla. Renin is an enzyme from the JG cells of the kidney; aldosterone is a hormone of the adrenal cortex.",
+    "Listing podocytes as a separate filtration layer or forgetting the basement membrane. The three layers are capillary endothelium, basement membrane and capsular epithelium (podocytes with filtration slits).",
+    "Crediting the vasa recta with creating the medullary gradient. Henle's loop creates it by transporting NaCl; the vasa recta maintains it by counter-current exchange. Also forgetting that urea, not only NaCl, contributes.",
+    "Giving GFR as 125 L or urine as 180 L. GFR is 125 mL per minute = 180 L per day; urine is 1 to 1.5 L per day; urea is 25 to 30 g per day; pH is 6.0.",
+    "In the dialysis answer, leaving out heparin and anti-heparin or saying the dialysing fluid is 'pure water'. It has the composition of plasma minus nitrogenous wastes, and the blood returns through a vein.",
+    "Drawing the nephron without the afferent and efferent arterioles, the peritubular capillaries and the vasa recta, or without marking the cortex-medulla boundary. Half the diagram marks sit in the blood supply.",
+    "Answering 'Amphioxus is a fish' for the chordate with flame cells, or giving nephridia for the cockroach. Learn the animal-to-organ pairs as a fixed list."
+  ],
+  "strategy": "<p>Prepare this chapter in three sittings. In the first, read NCERT once and build a single page of numbers and names: the three wastes with their toxicity order, the animal-to-organ pairs, the kidney dimensions and position, the GFR arithmetic (125 mL/min = 180 L/day, 99 per cent reabsorbed, 1.5 L urine, 25 to 30 g urea, pH 6.0), the 300 to 1200 mOsmolL<sup>−1</sup> gradient and the factor of four, and the 200 mL/min of CO<sub>2</sub>. Every 1-mark question in the paper comes from this page.</p><p>In the second sitting draw. Practise the nephron with its vasa recta, the L.S. of the kidney and the counter-current diagram until each takes about three minutes with all labels. Then draw the reabsorption-secretion map of the nephron once, because it is the fastest way to remember what the PCT, the two limbs, the DCT and the collecting duct each do. These diagrams carry the 5-mark questions, and a correct diagram with labels usually scores even when the prose is thin.</p><p>In the third sitting write the four standard long answers from memory and check them against NCERT: the three steps of urine formation, the functions of the tubule segments, the counter-current mechanism, and the regulation of kidney function with its three pathways (ADH, renin-angiotensin-aldosterone, ANF). Add the two short set pieces, haemodialysis in four named steps and the disorders as one-word answers, and the modes of excretion with examples. Finish by solving all twelve NCERT exercise questions in writing; the true-false, match and fill-in items reappear verbatim in school papers. On the day, do the 1-mark items first, keep 12 to 15 minutes for the 5-mark diagram question, and write the marking points as short labelled sentences rather than a single paragraph.</p>",
+  "revision_checklist": [
+    "Order of toxicity and of water needed for ammonia, urea and uric acid, and where urea is made (liver)",
+    "Ammonotelic, ureotelic and uricotelic examples exactly as NCERT lists them; tadpole vs adult frog",
+    "Excretory structures: flame cells, nephridia, Malpighian tubules, antennal glands, kidneys, with their animals; Amphioxus is the chordate with flame cells",
+    "Kidney: position (last thoracic to third lumbar), size (10 to 12 × 5 to 7 × 2 to 3 cm, 120 to 170 g), hilum, pelvis, calyces, cortex, medulla, pyramids, columns of Bertini, one million nephrons",
+    "Nephron parts in order; corpuscle and convoluted tubules in cortex, loop in medulla; cortical vs juxtamedullary nephrons; peritubular capillaries and vasa recta",
+    "Three layers of the filtration membrane, podocytes and filtration slits, ultrafiltration, GFR 125 mL/min = 180 L/day, JGA and renin autoregulation",
+    "Active reabsorption of glucose, amino acids, Na<sup>+</sup>; passive for wastes and water; 99 per cent reabsorbed; secretion of H<sup>+</sup>, K<sup>+</sup>, NH<sub>3</sub> for ionic and acid-base balance",
+    "PCT: brush border, nutrients, 70 to 80 per cent electrolytes and water; descending limb water-permeable, ascending limb water-impermeable; DCT conditional reabsorption; collecting duct water and urea",
+    "Counter-current mechanism: 300 to 1200 mOsmolL<sup>−1</sup>, NaCl and urea, loop establishes and vasa recta maintains, urine four times as concentrated",
+    "Regulation: osmoreceptors, hypothalamus, ADH from neurohypophysis, negative feedback; renin, angiotensinogen, angiotensin I and II, adrenal cortex, aldosterone; ANF from atria causes vasodilation and checks RAAS",
+    "Micturition reflex: stretch receptors, CNS, bladder smooth muscle contracts, urethral sphincter relaxes; voluntary control",
+    "Urine: 1 to 1.5 L per day, light yellow, pH 6.0, 25 to 30 g urea; glycosuria and ketonuria indicate diabetes mellitus",
+    "Other organs: lungs 200 mL CO<sub>2</sub> per minute and water; liver bile with bilirubin, biliverdin, cholesterol, steroid hormones, vitamins, drugs; sweat NaCl, urea, lactic acid; sebum sterols, hydrocarbons, waxes; saliva",
+    "Disorders: uremia, haemodialysis (heparin, cellophane tube, dialysing fluid without nitrogenous wastes, anti-heparin, vein), transplant from a close relative, renal calculi, glomerulonephritis",
+    "Can draw and label in three minutes each: nephron with vasa recta, L.S. of kidney, counter-current diagram; can write the regulation flow chart"
+  ],
+  "videos": []
+}

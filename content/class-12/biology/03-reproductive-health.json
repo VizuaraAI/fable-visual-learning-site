@@ -1,0 +1,1083 @@
+{
+  "class": 12,
+  "subject": "Biology",
+  "chapter_no": 3,
+  "slug": "reproductive-health",
+  "title": "Reproductive Health",
+  "summary": "Reproductive Health covers what a reproductively healthy society looks like, how India has tried to build one (family planning since 1951, the RCH programme, the ban on sex-determination), the full range of contraceptive methods, medical termination of pregnancy, sexually transmitted infections and the assisted reproductive technologies used to treat infertility. It is a short, fact-dense chapter that the board paper mines every year for 1-, 2- and 3-mark questions and for the case-based question.",
+  "exam_profile": {
+    "weightage": "Class 12 Biology is a 70-mark theory paper. This chapter belongs to Unit VI, Reproduction, which carries 16 marks in the CBSE blueprint together with Sexual Reproduction in Flowering Plants and Human Reproduction. Reproductive Health on its own usually brings one or two 1-mark items plus a 2- or 3-mark question, and quite often a case-based question on contraception or ART; a full 5-mark question is less common but has appeared.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Saheli, ZIFT versus IUT (the 8-blastomere rule), which STI is not curable, the year MTP was legalised, lactational amenorrhea duration, named IUDs and their type, fertile window in periodic abstinence."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Vasectomy and sexual drive, breastfeeding as contraception, copper ions and sperm motility, curability of STIs, first-trimester MTP safety, amniocentesis ban."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Why Cu-T is good for spacing children, two IUDs that affect sperm motility, four features of an ideal contraceptive, one use and one misuse of amniocentesis, why removal of gonads is not a contraceptive option, expand GIFT/ICSI/ZIFT/IUT."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "How oral pills work and the schedule, copper- versus hormone-releasing IUDs, vasectomy/tubectomy with one advantage and one disadvantage, reasons for population growth and government steps, measures against STIs, the steps of the test-tube baby programme."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Classify contraceptive methods with one example and mode of action for each, describe all ARTs and match each to the couple's problem, RCH programme objectives with justification of sex education, MTP: why legalised, when safe, why the ban on sex determination."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A family-planning counselling scenario, an infertility clinic report (low sperm count, blocked tubes, no ova) with 'suggest the ART', or a data table on population growth or STI incidence in the 15–24 age group."
+      }
+    ],
+    "hot_topics": [
+      "Assisted reproductive technologies: IVF-ET, ZIFT, IUT, GIFT, ICSI, AI/IUI and which couple each suits",
+      "IUDs: three types, named examples, copper versus hormone-releasing mechanism",
+      "Oral contraceptive pills: contents, 21-day schedule, mechanism, Saheli",
+      "Surgical sterilisation: vasectomy and tubectomy, advantage and disadvantage",
+      "Natural methods: periodic abstinence (days 10–17), withdrawal, lactational amenorrhea (six months)",
+      "MTP: 1971 Act, 2017 amendment, first trimester safety, female foeticide, amniocentesis ban",
+      "STIs: list of eight, the three that are not curable, complications, prevention",
+      "RCH programme: objectives, indicators of a reproductively healthy society, population figures"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "3.1 Reproductive Health – Problems and Strategies",
+      "pyq_years": [
+        2019,
+        2016,
+        2015
+      ],
+      "body": "<p>The <b>World Health Organisation (WHO)</b> defines reproductive health as <b>total well-being in all aspects of reproduction, i.e., physical, emotional, behavioural and social</b>. So a reproductively healthy society is one whose people have physically and functionally normal reproductive organs <i>and</i> normal emotional and behavioural interactions among themselves in all sex-related matters. Write this WHO wording exactly; the examiner looks for the four adjectives.</p><p>India was among the <b>first countries in the world</b> to start action plans and programmes at the national level to achieve total reproductive health. These began as <b>'family planning' in 1951</b> and were assessed and improved periodically. The improved programmes now run under the popular name <b>Reproductive and Child Health Care (RCH) programmes</b>. Their major task is to create awareness about the wide range of reproduction-related aspects and to provide facilities and support for building a reproductively healthy society.</p><p>How is awareness created? Through <b>audio-visual and print media</b>, with governmental and non-governmental agencies taking part. Parents, close relatives, teachers and friends also have a role. <b>Sex education in schools</b> should be encouraged, because it gives young people correct information, helps them discard myths and misconceptions, and lets them understand reproductive organs, adolescence and its changes, safe and hygienic sexual practices and STIs. The people who most need educating are <b>fertile couples and those of marriageable age</b>: they should know about the available birth-control options, care of pregnant mothers, post-natal care of mother and child, the importance of <b>breast-feeding</b>, and <b>equal opportunities for the male and the female child</b>. Awareness of the problems of uncontrolled population growth and of social evils such as sex-abuse and sex-related crimes is also part of the programme.</p><p>Successful implementation needs <b>strong infrastructural facilities, professional expertise and material support</b> for problems ranging from pregnancy, delivery and contraception to STIs, abortions and infertility. Two other strategies are exam favourites: a <b>statutory ban on amniocentesis for sex determination</b>, to check the rising number of female foeticides, and <b>massive child immunisation</b> programmes.</p><p>Has it worked? The <b>indicators of an improved reproductive health</b> NCERT lists are: better awareness about sex-related matters, an increased number of medically assisted deliveries and better post-natal care (hence lower maternal and infant mortality rates), an increased number of couples with small families, better detection and cure of STIs, and overall increased medical facilities for all sex-related problems.</p>",
+      "formulas": [
+        {
+          "expr": "Reproductive health (WHO) = total well-being in all aspects of reproduction: physical + emotional + behavioural + social",
+          "where": [
+            [
+              "Family planning",
+              "India's national programme, initiated in 1951"
+            ],
+            [
+              "RCH",
+              "Reproductive and Child Health Care programmes, the improved successor of family planning"
+            ]
+          ]
+        }
+      ],
+      "tip": "When asked for 'two indicators of a reproductively healthy society', pick measurable ones: lower maternal and infant mortality rates, more medically assisted deliveries, more couples with small families, better detection and cure of STIs. 'Awareness' alone is weak."
+    },
+    {
+      "heading": "3.2 Population Stabilisation and Birth Control",
+      "pyq_years": [
+        2011
+      ],
+      "body": "<p>Better health facilities and living conditions raised the size of the world population sharply. The world population was around <b>2 billion in 1900</b>, rocketed to about <b>6 billion by 2000</b> and to <b>7.2 billion in 2011</b>. India followed the same curve: <b>350 million at independence</b>, crossing <b>1 billion by May 2000</b> and reaching <b>1.2 billion in May 2011</b>. Such an alarming growth rate could lead to an absolute scarcity of even basic requirements, food, shelter and clothing, whatever the country's development.</p><p>NCERT gives three reasons for the explosion, and the paper asks for two of them: a <b>rapid decline in the death rate</b>, a decline in the <b>maternal mortality rate (MMR)</b> and in the <b>infant mortality rate (IMR)</b>, and an <b>increase in the number of people of reproducible age</b>. Note that the reason is not a rise in the birth rate; births stayed high while deaths fell.</p><p>According to the <b>2011 census report</b>, the population growth rate was <b>less than 2 per cent, i.e., 20/1000/year</b>, a rate at which the population could still increase rapidly. The government therefore took serious measures: the most important step was to <b>motivate smaller families by using various contraceptive methods</b>. Media advertisements of <b>'Hum Do Hamare Do'</b> (we two, our two) and, in many urban families, the 'one child norm' are the visible face of this. <b>Statutory raising of the marriageable age</b> to <b>18 years for females and 21 years for males</b>, and <b>incentives to couples with small families</b>, are the other measures. Remember the pairing: two reasons for the rise, two government steps, and you have the standard 3-mark answer.</p><p>The rest of section 3.2 describes the contraceptive methods themselves. Before the methods, learn what an <b>ideal contraceptive</b> is, because it is a 2-mark question by itself: it should be <b>user-friendly, easily available, effective and reversible with no or least side-effects</b>, and it should in no way <b>interfere with the sexual drive, desire and/or the sexual act</b>. NCERT groups the available methods as <b>natural/traditional, barrier, IUDs, oral contraceptives, injectables, implants and surgical methods</b>; the next three sections take them in that order.</p>",
+      "formulas": [
+        {
+          "expr": "World: ~2 billion (1900) → ~6 billion (2000) → 7.2 billion (2011)",
+          "where": [
+            [
+              "India",
+              "350 million (1947) → 1 billion (May 2000) → 1.2 billion (May 2011)"
+            ]
+          ]
+        },
+        {
+          "expr": "Growth rate (2011 census) < 2 per cent = 20 per 1000 per year",
+          "where": [
+            [
+              "Marriageable age",
+              "18 years (female), 21 years (male)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Death rate down, MMR down, IMR down, more people of reproductive age: four points, of which any two earn the marks. Do not write 'increase in birth rate'."
+    },
+    {
+      "heading": "3.2 (contd.) Natural and barrier methods of contraception",
+      "pyq_years": [
+        2019,
+        2014,
+        2011
+      ],
+      "body": "<p><b>Natural or traditional methods</b> work on the principle of <b>avoiding the chance of meeting of the sperm and the ovum</b>. There are three. In <b>periodic abstinence</b>, the couple avoids coitus from <b>day 10 to day 17 of the menstrual cycle</b>, the <b>fertile period</b>, when ovulation is expected; since the chance of fertilisation is very high in these days, abstaining prevents conception. In <b>withdrawal or coitus interruptus</b>, the male partner withdraws the penis from the vagina just before ejaculation so that insemination is avoided. <b>Lactational amenorrhea</b> (absence of menstruation) is based on the fact that <b>ovulation, and therefore the menstrual cycle, does not occur during the period of intense lactation</b> following parturition; as long as the mother breast-feeds the child <b>fully</b>, the chance of conception is almost nil. The method is effective only up to a maximum of <b>six months</b> after parturition. Natural methods have <b>no side-effects</b> because no medicine or device is used, but their chances of <b>failure are high</b>.</p><p><b>Barrier methods</b> prevent the ovum and sperms from physically meeting with the help of barriers, and are available for both sexes. <b>Condoms</b> are barriers made of thin <b>rubber or latex sheath</b>, used to cover the penis in the male or the vagina and cervix in the female, just before coitus, so that the ejaculated semen is not retained in the female reproductive tract. <b>'Nirodh'</b> is a popular brand of the male condom. Condom use has gone up in recent years because of the additional benefit of <b>protection from STIs and AIDS</b>. Both male and female condoms are <b>disposable</b>, can be self-inserted, and give the user privacy. <b>Diaphragms, cervical caps and vaults</b> are also barriers made of rubber, inserted into the female reproductive tract to <b>cover the cervix</b> during coitus, blocking the entry of sperms through the cervix; they are <b>reusable</b>. <b>Spermicidal creams, jellies and foams</b> are usually used along with these barriers to increase their contraceptive efficiency.</p><p>Two points the examiner likes: condoms are the only method that also prevents STIs, and the fertile period of days 10–17 assumes a regular 28-day cycle, which is why periodic abstinence fails in women with irregular cycles.</p>",
+      "formulas": [
+        {
+          "expr": "Periodic abstinence: no coitus on days 10–17 of the cycle (fertile period around ovulation)",
+          "where": [
+            [
+              "Lactational amenorrhea",
+              "effective up to six months after parturition, only with full breast-feeding"
+            ]
+          ]
+        },
+        {
+          "expr": "Barrier: condom (disposable, also protects from STIs); diaphragm / cervical cap / vault (reusable, cover the cervix) + spermicide",
+          "where": [
+            [
+              "Nirodh",
+              "popular brand of male condom"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'why does breast-feeding act as a natural contraceptive' write the mechanism, not the outcome: intense lactation suppresses ovulation, so there is no ovum to fertilise. Add 'only up to six months' for the second mark."
+    },
+    {
+      "heading": "3.2 (contd.) IUDs, oral contraceptives, injectables, implants and emergency contraception",
+      "pyq_years": [
+        2016,
+        2014,
+        2012,
+        2011,
+        2010
+      ],
+      "body": "<p><b>Intra Uterine Devices (IUDs)</b> are inserted into the uterus by doctors or expert nurses through the vagina. Three kinds are available: <b>non-medicated IUDs</b> (e.g., <b>Lippes loop</b>), <b>copper-releasing IUDs</b> (<b>CuT, Cu7, Multiload 375</b>) and <b>hormone-releasing IUDs</b> (<b>Progestasert, LNG-20</b>). Their mechanism is asked repeatedly, so learn it in three layers. All IUDs <b>increase phagocytosis of sperms within the uterus</b>. Copper IUDs in addition release <b>Cu ions that suppress sperm motility and the fertilising capacity of sperms</b>. Hormone-releasing IUDs in addition <b>make the uterus unsuitable for implantation and the cervix hostile to the sperms</b>. IUDs are the ideal contraceptive for females who want to <b>delay pregnancy and/or space children</b>, and they are one of the <b>most widely accepted methods of contraception in India</b>.</p><p><b>Oral contraceptives</b> are pills containing small doses of either <b>progestogens</b> or <b>progestogen–estrogen combinations</b>. The schedule is a marking point: the pill is taken <b>daily for 21 days, starting preferably within the first five days of the menstrual cycle</b>; after a gap of <b>7 days</b> (during which menstruation occurs) it is repeated in the same pattern until the female wants to prevent conception. They work by <b>inhibiting ovulation and implantation</b> and by <b>altering the quality of cervical mucus</b> to prevent or retard the entry of sperms. Pills are very effective with fewer side-effects and are well accepted by females. <b>Saheli</b>, the new oral contraceptive for females developed by scientists at the <b>Central Drug Research Institute (CDRI), Lucknow</b>, contains a <b>non-steroidal</b> preparation; it is a <b>'once a week' pill</b> with very few side-effects and a high contraceptive value.</p><p>Progestogens alone, or in combination with estrogen, can also be given as <b>injections or implants</b> under the skin. Their mode of action is similar to that of pills, but their <b>effective periods are much longer</b>, which is the advantage of implants over pills. <b>Emergency contraception</b> means the administration of progestogens, progestogen–estrogen combinations, or IUDs <b>within 72 hours of coitus</b>, to avoid a possible pregnancy after rape or a casual unprotected intercourse.</p><p>Small trap: Saheli is non-steroidal and weekly; the ordinary combined pill is steroidal and daily. Another: a hormone-releasing IUD does not 'kill' sperms, it makes the cervix hostile to them and the endometrium unfit for implantation.</p>",
+      "formulas": [
+        {
+          "expr": "IUD action: ↑ phagocytosis of sperms (all) + Cu ions ↓ sperm motility and fertilising capacity (copper) + uterus unfit for implantation, cervix hostile to sperms (hormonal)",
+          "where": [
+            [
+              "Non-medicated",
+              "Lippes loop"
+            ],
+            [
+              "Copper-releasing",
+              "CuT, Cu7, Multiload 375"
+            ],
+            [
+              "Hormone-releasing",
+              "Progestasert, LNG-20"
+            ]
+          ]
+        },
+        {
+          "expr": "Pill schedule: daily × 21 days (start within first 5 days of cycle) → 7-day gap → repeat",
+          "where": [
+            [
+              "Contents",
+              "progestogen only, or progestogen + estrogen"
+            ],
+            [
+              "Saheli",
+              "non-steroidal, once a week, CDRI Lucknow"
+            ]
+          ]
+        },
+        {
+          "expr": "Emergency contraception: progestogen / progestogen–estrogen / IUD within 72 hours of coitus",
+          "where": [
+            [
+              "Implant advantage",
+              "much longer effective period than pills"
+            ]
+          ]
+        }
+      ],
+      "tip": "If the question says 'IUD that makes the cervix hostile to sperms', the answer is a hormone-releasing IUD (Progestasert or LNG-20). If it says 'suppresses sperm motility', answer a copper-releasing IUD (CuT, Cu7, Multiload 375)."
+    },
+    {
+      "heading": "3.2 (contd.) Surgical methods and side-effects of contraceptives",
+      "pyq_years": [
+        2014,
+        2010
+      ],
+      "body": "<p><b>Surgical methods</b>, also called <b>sterilisation</b>, are generally advised for the male or the female partner as a <b>terminal method</b> to prevent any more pregnancies. Surgical intervention <b>blocks gamete transport</b> and thereby prevents conception; it does not stop gamete formation, which is the correction NCERT expects in exercise question 12(a). <b>Vasectomy</b> is the procedure in the male: a small part of the <b>vas deferens</b> is removed or tied up through a small incision on the <b>scrotum</b>. <b>Tubectomy</b> is the procedure in the female: a small part of the <b>fallopian tube</b> is removed or tied up through a small incision in the <b>abdomen</b> or through the <b>vagina</b>. Sterilisation techniques are <b>highly effective</b>, but their <b>reversibility is very poor</b>; that pair is the standard 'one advantage and one disadvantage'.</p><p>Why not just remove the gonads? Because the testes and ovaries also make the sex hormones. Removing them would stop testosterone or estrogen and progesterone, cause loss of secondary sexual characters and sexual drive, and be irreversible. A contraceptive must not interfere with the sexual drive or act, so gonadectomy fails the definition of a contraceptive. Vasectomy, by contrast, leaves the testes intact: sperms are still produced (and reabsorbed), testosterone is still secreted and the man's sexual life is unaffected, which is why it counts as a contraceptive and is a common Assertion–Reason item.</p><p>NCERT ends the section with a caution that is often converted into a question of values. The selection of a suitable contraceptive and its use should always be done <b>in consultation with qualified medical professionals</b>. Contraceptives are not regular requirements for maintaining reproductive health; they are, in fact, practised <b>against a natural reproductive event</b>, i.e., conception or pregnancy. One is using these devices to prevent pregnancy either to avoid it altogether or to delay or space it, for personal reasons, and that is justified because unchecked population growth harms everyone. But the possible <b>ill-effects</b> must be known: <b>nausea, abdominal pain, breakthrough bleeding, irregular menstrual bleeding, or even breast cancer</b>. NCERT adds that these are not very significant, but they should not be totally ignored.</p>",
+      "formulas": [
+        {
+          "expr": "Vasectomy: vas deferens cut/tied through an incision on the scrotum · Tubectomy: fallopian tube cut/tied through an incision in the abdomen or through the vagina",
+          "where": [
+            [
+              "Advantage",
+              "highly effective"
+            ],
+            [
+              "Disadvantage",
+              "reversibility very poor"
+            ]
+          ]
+        },
+        {
+          "expr": "Side-effects of contraceptives: nausea, abdominal pain, breakthrough bleeding, irregular menstrual bleeding, breast cancer (rare)",
+          "where": []
+        }
+      ],
+      "tip": "Surgical methods block gamete transport, never gamete formation. Writing 'stops sperm production' for vasectomy costs the mark."
+    },
+    {
+      "heading": "3.3 Medical Termination of Pregnancy (MTP)",
+      "pyq_years": [
+        2019,
+        2017,
+        2014,
+        2012,
+        2010
+      ],
+      "body": "<p>Intentional or voluntary termination of pregnancy before full term is called <b>medical termination of pregnancy (MTP)</b> or <b>induced abortion</b>. Nearly <b>45 to 50 million MTPs</b> are performed in a year all over the world, which is about <b>one-fifth of the total number of conceived pregnancies</b> in a year. MTP is significant in decreasing the population, though it is not meant to be a contraceptive.</p><p>Whether to accept or legalise MTP is debated in many countries because of emotional, ethical, religious and social issues. The <b>Government of India legalised MTP in 1971</b> with some <b>strict conditions</b> to avoid its misuse; the restrictions are essential to check indiscriminate and illegal female foeticide, which is reported to be high in India. The Act was <b>amended in 2017</b>. Why is MTP done? To get rid of <b>unwanted pregnancies</b> due to casual unprotected intercourse or failure of the contraceptive used, or rape; and in cases where continuation of the pregnancy could be <b>harmful or even fatal to the mother, the foetus or both</b>.</p><p>Timing is a certain examination point. MTPs are considered <b>relatively safe during the first trimester, i.e., up to 12 weeks of pregnancy</b>; second-trimester abortions are much riskier. That is the reason an examiner accepts 'during the first trimester' as the safe period and nothing else.</p><p>The disturbing side is that the <b>majority of MTPs performed in India are illegal</b>. Many are done by <b>unqualified quacks</b>, which is unsafe and even fatal. A dangerous trend is misusing <b>amniocentesis</b> to determine the sex of the unborn child, followed by MTP if the foetus is female. In amniocentesis, some of the amniotic fluid surrounding the foetus is withdrawn and the foetal cells and dissolved substances in it are analysed; its proper use is to test for <b>congenital disorders and metabolic disorders</b> in the foetus (Down's syndrome, haemophilia, sickle-cell anaemia) and to assess the survivability of the foetus. Its misuse is sex determination leading to female foeticide, so there is a <b>statutory ban on amniocentesis for sex determination</b>. Effective counselling on MTP, awareness of the dangers of illegal abortions, and more health-care facilities are needed to stop the trend.</p>",
+      "formulas": [
+        {
+          "expr": "MTP: legalised in India in 1971 (strict conditions) → amended 2017; safe in the first trimester, up to 12 weeks",
+          "where": [
+            [
+              "World MTPs",
+              "45–50 million a year, about 1/5 of all conceived pregnancies"
+            ]
+          ]
+        },
+        {
+          "expr": "Amniocentesis: use = detect congenital/metabolic disorders of the foetus; misuse = sex determination → female foeticide (banned)",
+          "where": []
+        }
+      ],
+      "tip": "The 2-mark 'justify the strict conditions' answer is two sentences: to prevent indiscriminate and illegal female foeticide, and to prevent unsafe abortions by unqualified persons. Write both."
+    },
+    {
+      "heading": "3.4 Sexually Transmitted Infections (STIs)",
+      "pyq_years": [
+        2018,
+        2013
+      ],
+      "body": "<p>Infections or diseases transmitted through sexual intercourse are collectively called <b>sexually transmitted infections (STIs)</b>, <b>venereal diseases (VD)</b> or <b>reproductive tract infections (RTI)</b>. NCERT names eight common ones, and you should be able to list them: <b>gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B and HIV leading to AIDS</b>.</p><p>Not all of them spread only by sex. <b>Hepatitis-B and HIV</b> are also transmitted by <b>sharing of injection needles and surgical instruments</b> with infected persons, by <b>transfusion of blood</b>, or from an <b>infected mother to the foetus</b>. Except for <b>hepatitis-B, genital herpes and HIV infections</b>, the other STIs are <b>completely curable if detected early and treated properly</b>. That trio, the viral ones, is the answer to every 'which cannot be cured' question and the correction to exercise 12(b).</p><p>The early symptoms of most STIs are minor: <b>itching, fluid discharge, slight pain and swellings in the genital region</b>. Infected females are often <b>asymptomatic</b>, so the infection goes undetected. The absence or lack of significant symptoms in the early stages, and the social stigma attached to STIs, deter people from timely detection and treatment. This leads to complications later: <b>pelvic inflammatory diseases (PID), abortions, still births, ectopic pregnancies, infertility or even cancer of the reproductive tract</b>. STIs are a major threat to a healthy society, so their prevention or early detection and cure is a prime consideration of the RCH programmes.</p><p>Though all persons are vulnerable, the incidence is reported to be <b>very high among persons in the age group 15–24 years</b>. Prevention is simple and NCERT gives three rules: <b>avoid sex with unknown partners or multiple partners</b>; <b>always use condoms</b> during coitus; and, in case of doubt, <b>consult a qualified doctor for early detection and complete treatment</b> if diagnosed. Mention all three when the question is 'measures to prevent STIs', and add that the infected person should not be stigmatised, since stigma delays treatment and spreads the disease.</p>",
+      "formulas": [
+        {
+          "expr": "Eight STIs: gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, HIV/AIDS",
+          "where": [
+            [
+              "Not curable",
+              "hepatitis-B, genital herpes, HIV (viral)"
+            ],
+            [
+              "Also non-sexual routes",
+              "hepatitis-B and HIV: needles, instruments, blood transfusion, mother to foetus"
+            ]
+          ]
+        },
+        {
+          "expr": "Complications: PID, abortions, still births, ectopic pregnancy, infertility, cancer of the reproductive tract",
+          "where": [
+            [
+              "High-incidence group",
+              "15–24 years"
+            ]
+          ]
+        }
+      ],
+      "tip": "STIs are STIs whether caused by bacteria, viruses or protozoa; if asked for a curable bacterial one give gonorrhoea, syphilis or chlamydiasis, and for a protozoan one give trichomoniasis."
+    },
+    {
+      "heading": "3.5 Infertility and assisted reproductive technologies",
+      "pyq_years": [
+        2019,
+        2016,
+        2015,
+        2014,
+        2013,
+        2012,
+        2010
+      ],
+      "body": "<p>A large number of couples all over the world, including India, are <b>infertile</b>, i.e., unable to produce children in spite of <b>unprotected sexual co-habitation</b>. The reasons may be <b>physical, congenital, diseases, drugs, immunological or even psychological</b>. In India the female partner is often blamed, but the problem may be in the male partner just as often; exercise 11(b) makes this point. Specialised health-care units (infertility clinics) can diagnose and correct many of these disorders. Where correction is not possible, <b>assisted reproductive technologies (ART)</b> can help.</p><p><b>In vitro fertilisation (IVF)</b> followed by <b>embryo transfer (ET)</b> is the method popularly called the <b>test-tube baby programme</b>. Ova from the wife or a donor female and sperms from the husband or a donor male are collected and induced to form a zygote under <b>simulated conditions in the laboratory</b>. The zygote or early embryos <b>with up to 8 blastomeres</b> can be transferred into the <b>fallopian tube</b>, which is <b>ZIFT (zygote intra fallopian transfer)</b>; embryos with <b>more than 8 blastomeres</b> are transferred into the <b>uterus</b>, which is <b>IUT (intra uterine transfer)</b>. Embryos formed by <b>in vivo</b> fertilisation (fusion inside the female) can also be transferred to assist females who cannot conceive.</p><p><b>GIFT (gamete intra fallopian transfer)</b> is the transfer of an <b>ovum collected from a donor into the fallopian tube of another female</b> who cannot produce one but can provide a suitable environment for fertilisation and further development. Fertilisation here is in vivo, inside the recipient's tube; that is how GIFT differs from ZIFT. <b>ICSI (intra cytoplasmic sperm injection)</b> is a specialised procedure in which a <b>sperm is directly injected into the ovum</b> to form an embryo in the laboratory; it suits a male with very low sperm count or immotile sperms. When infertility is due to the male's inability to inseminate the female or to <b>very low sperm counts</b> in the ejaculate, <b>artificial insemination (AI)</b> is used: semen collected from the husband or a healthy donor is artificially introduced into the <b>vagina</b>, or into the <b>uterus (IUI, intra-uterine insemination)</b>.</p><p>All these techniques need extremely high precision, specialised professionals and expensive instrumentation, so they are available only in very few centres and only a limited number of people can afford them. Emotional, religious and social factors also stop many from adopting them. NCERT's closing point: since infertility is not always correctable, <b>legal adoption</b> of orphaned and destitute children is one of the best methods for couples looking for parenthood. In a values-based question, write it.</p>",
+      "formulas": [
+        {
+          "expr": "IVF-ET: zygote / embryo ≤ 8 blastomeres → fallopian tube (ZIFT); embryo > 8 blastomeres → uterus (IUT)",
+          "where": [
+            [
+              "GIFT",
+              "donor ovum → recipient's fallopian tube; fertilisation in vivo"
+            ],
+            [
+              "ICSI",
+              "one sperm injected directly into the ovum in vitro"
+            ],
+            [
+              "AI / IUI",
+              "semen (husband or donor) introduced into the vagina / uterus"
+            ]
+          ]
+        },
+        {
+          "expr": "Infertility = no children despite unprotected co-habitation; causes: physical, congenital, diseases, drugs, immunological, psychological",
+          "where": []
+        }
+      ],
+      "tip": "Match the ART to the defect: wife makes no ova but has a normal tube → GIFT (donor ovum); husband has few or immotile sperms → ICSI; husband cannot inseminate → AI/IUI; wife's tubes blocked → IVF followed by IUT."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Reproductive health",
+      "definition": "As per WHO, total well-being in all aspects of reproduction: physical, emotional, behavioural and social."
+    },
+    {
+      "term": "RCH programme",
+      "definition": "Reproductive and Child Health Care programmes, the improved form of India's 1951 family planning programme, aimed at awareness and facilities for building a reproductively healthy society."
+    },
+    {
+      "term": "Amniocentesis",
+      "definition": "A prenatal diagnostic technique in which amniotic fluid surrounding the foetus is withdrawn and the foetal cells and dissolved substances in it are analysed; used to detect congenital and metabolic disorders in the foetus and to assess its survivability, banned for sex determination because of its misuse in female foeticide."
+    },
+    {
+      "term": "Contraception",
+      "definition": "The deliberate prevention of conception or pregnancy by natural, barrier, intra-uterine, hormonal or surgical means."
+    },
+    {
+      "term": "Periodic abstinence",
+      "definition": "A natural method in which the couple avoids coitus from day 10 to day 17 of the menstrual cycle, the fertile period when ovulation is expected."
+    },
+    {
+      "term": "Coitus interruptus",
+      "definition": "Withdrawal of the penis from the vagina just before ejaculation so that insemination is avoided."
+    },
+    {
+      "term": "Lactational amenorrhea",
+      "definition": "Absence of menstruation during intense lactation after parturition because ovulation does not occur; acts as a natural contraceptive for up to six months if the mother breast-feeds fully."
+    },
+    {
+      "term": "Intra Uterine Device (IUD)",
+      "definition": "A device inserted into the uterus through the vagina; non-medicated (Lippes loop), copper-releasing (CuT, Cu7, Multiload 375) or hormone-releasing (Progestasert, LNG-20)."
+    },
+    {
+      "term": "Saheli",
+      "definition": "A non-steroidal once-a-week oral contraceptive for females developed at CDRI, Lucknow, with very few side-effects and high contraceptive value."
+    },
+    {
+      "term": "Emergency contraception",
+      "definition": "Administration of progestogens, progestogen–estrogen combinations or an IUD within 72 hours of coitus to avoid pregnancy after rape or casual unprotected intercourse."
+    },
+    {
+      "term": "Vasectomy",
+      "definition": "Male sterilisation in which a small part of the vas deferens is removed or tied up through a small incision on the scrotum."
+    },
+    {
+      "term": "Tubectomy",
+      "definition": "Female sterilisation in which a small part of the fallopian tube is removed or tied up through a small incision in the abdomen or through the vagina."
+    },
+    {
+      "term": "Medical Termination of Pregnancy (MTP)",
+      "definition": "Intentional or voluntary termination of pregnancy before full term (induced abortion); legalised in India in 1971 with strict conditions, safe in the first trimester."
+    },
+    {
+      "term": "Sexually transmitted infections (STIs)",
+      "definition": "Infections transmitted through sexual intercourse; also called venereal diseases or reproductive tract infections. Examples: gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, HIV/AIDS."
+    },
+    {
+      "term": "Pelvic inflammatory disease (PID)",
+      "definition": "A complication of untreated STIs in which infection spreads to the upper female reproductive tract, leading to abortions, ectopic pregnancy or infertility."
+    },
+    {
+      "term": "Infertility",
+      "definition": "Inability of a couple to produce children in spite of unprotected sexual co-habitation (NCERT's summary puts this at even after 2 years of trying); due to physical, congenital, disease-related, drug-related, immunological or psychological causes in either partner."
+    },
+    {
+      "term": "Assisted reproductive technology (ART)",
+      "definition": "Special techniques that help infertile couples have children, such as IVF-ET, ZIFT, IUT, GIFT, ICSI and artificial insemination."
+    },
+    {
+      "term": "In vitro fertilisation (IVF)",
+      "definition": "Fusion of the ovum and sperm outside the body, under simulated conditions in the laboratory, followed by embryo transfer; the test-tube baby programme."
+    },
+    {
+      "term": "ZIFT",
+      "definition": "Zygote intra fallopian transfer: a zygote or early embryo with up to 8 blastomeres formed in vitro is transferred into the fallopian tube."
+    },
+    {
+      "term": "IUT",
+      "definition": "Intra uterine transfer: an embryo with more than 8 blastomeres formed in vitro is transferred into the uterus."
+    },
+    {
+      "term": "GIFT",
+      "definition": "Gamete intra fallopian transfer: an ovum collected from a donor is transferred into the fallopian tube of a female who cannot produce ova but can support fertilisation and development."
+    },
+    {
+      "term": "ICSI",
+      "definition": "Intra cytoplasmic sperm injection: a single sperm is injected directly into an ovum in the laboratory to form an embryo."
+    },
+    {
+      "term": "Artificial insemination (AI)",
+      "definition": "Semen from the husband or a healthy donor is artificially introduced into the vagina, or into the uterus (intra-uterine insemination, IUI), when the male cannot inseminate or has a very low sperm count."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "WHO definition",
+      "expr": "Reproductive health = total well-being in all aspects of reproduction: physical, emotional, behavioural, social",
+      "note": "Quote all four adjectives"
+    },
+    {
+      "name": "Key dates",
+      "expr": "Family planning 1951 · MTP legalised 1971 · MTP Act amended 2017 · 2011 census growth rate < 2% (20/1000/yr)",
+      "note": "Marriageable age: 18 (female), 21 (male)"
+    },
+    {
+      "name": "Population figures",
+      "expr": "World 2 billion (1900) → 6 billion (2000) → 7.2 billion (2011); India 350 million (1947) → 1 billion (May 2000) → 1.2 billion (May 2011)",
+      "note": "Reasons: ↓ death rate, ↓ MMR, ↓ IMR, ↑ people of reproducible age"
+    },
+    {
+      "name": "Ideal contraceptive",
+      "expr": "User-friendly, easily available, effective, reversible, no or least side-effects, no interference with sexual drive/desire/act",
+      "note": "Any four for 2 marks"
+    },
+    {
+      "name": "Natural methods",
+      "expr": "Periodic abstinence (days 10–17) · withdrawal / coitus interruptus · lactational amenorrhea (≤ 6 months)",
+      "note": "No side-effects, high failure rate"
+    },
+    {
+      "name": "Barrier methods",
+      "expr": "Male and female condoms (latex, disposable, Nirodh) · diaphragm, cervical cap, vault (rubber, reusable, cover cervix) · spermicidal creams/jellies/foams",
+      "note": "Condoms also protect against STIs/AIDS"
+    },
+    {
+      "name": "IUD types and examples",
+      "expr": "Non-medicated: Lippes loop · Copper: CuT, Cu7, Multiload 375 · Hormonal: Progestasert, LNG-20",
+      "note": "All ↑ phagocytosis of sperms; Cu ions ↓ motility and fertilising capacity; hormones make uterus unfit for implantation and cervix hostile"
+    },
+    {
+      "name": "Oral pill schedule",
+      "expr": "Progestogen or progestogen–estrogen; daily × 21 days from within first 5 days of cycle, 7-day gap, repeat",
+      "note": "Inhibit ovulation and implantation, alter cervical mucus"
+    },
+    {
+      "name": "Saheli",
+      "expr": "Non-steroidal, once-a-week pill, CDRI Lucknow",
+      "note": "Few side-effects, high contraceptive value"
+    },
+    {
+      "name": "Emergency contraception",
+      "expr": "Progestogen / progestogen–estrogen / IUD within 72 hours of coitus",
+      "note": "After rape or casual unprotected intercourse"
+    },
+    {
+      "name": "Surgical methods",
+      "expr": "Vasectomy: vas deferens, incision on scrotum · Tubectomy: fallopian tube, incision in abdomen or via vagina",
+      "note": "Highly effective; reversibility very poor; block gamete transport, not formation"
+    },
+    {
+      "name": "MTP facts",
+      "expr": "45–50 million a year worldwide = 1/5 of conceived pregnancies; safe in first trimester (≤ 12 weeks); second trimester much riskier",
+      "note": "Amniocentesis banned for sex determination"
+    },
+    {
+      "name": "STIs",
+      "expr": "Gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, HIV/AIDS",
+      "note": "Hep-B, genital herpes, HIV not curable; incidence highest at 15–24 years; complications PID, abortion, still birth, ectopic pregnancy, infertility, cancer"
+    },
+    {
+      "name": "ART map",
+      "expr": "IVF-ET: ≤ 8 blastomeres → tube (ZIFT), > 8 → uterus (IUT) · GIFT: donor ovum → tube · ICSI: sperm injected into ovum · AI/IUI: semen into vagina/uterus",
+      "note": "Adoption is the alternative NCERT ends with"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Copper-T (CuT) in position inside the uterus",
+      "how_to_draw": "Draw a sectional outline of the uterus (inverted triangle with a thick wall), cervix and the upper vagina, with the two fallopian tubes leaving the upper corners. Inside the uterine cavity draw the T-shaped device: a vertical stem with copper wire wound round it and two short horizontal arms tucked under the fundus; two thin nylon threads hang from the stem through the cervix into the vagina. Label uterus, fallopian tube, uterine cavity, copper wire on stem, horizontal arms, nylon threads, cervix, vagina. Caption it 'copper-releasing IUD'."
+    },
+    {
+      "title": "Vasectomy",
+      "how_to_draw": "Draw the male reproductive system in side view: testis in the scrotum, epididymis behind it, the vas deferens rising from it and looping over the urinary bladder to join the urethra. Show a short segment of the vas deferens above the testis cut out and both cut ends tied with a knot; a small incision line on the scrotum. Label testis, scrotum, epididymis, vas deferens, site of cut and ligature, urinary bladder, urethra. State in one line under it: sperm transport blocked, testosterone production unaffected."
+    },
+    {
+      "title": "Tubectomy",
+      "how_to_draw": "Draw the uterus in front view with both fallopian tubes and ovaries. On each tube, midway between uterus and ovary, show a small segment removed and the two ends tied off. Label uterus, fallopian tube, ovary, fimbriae, ligated and cut portion of tube, cervix, vagina. Note beneath: the ovum released by the ovary cannot travel to the uterus, so sperms cannot reach it."
+    },
+    {
+      "title": "Diaphragm, cervical cap and vault covering the cervix",
+      "how_to_draw": "Draw a side section of the vagina, cervix and lower uterus. Show a dome-shaped rubber diaphragm sitting across the upper vagina with its rim against the vaginal walls, its dome covering the cervical opening; in a second small inset show a smaller thimble-shaped cervical cap fitted snugly over the cervix alone. Label vagina, cervix, uterus, diaphragm (or cap), rim and dome, and add 'spermicidal jelly applied on the dome'. Caption: reusable barrier, blocks entry of sperms through the cervix."
+    },
+    {
+      "title": "Male and female condoms",
+      "how_to_draw": "Draw two figures side by side. (a) Male condom: a thin latex sheath with a small teat at the closed end and a rolled rim at the open end; label the sheath, reservoir tip and rolled rim. (b) Female condom: a longer, loose sheath with a flexible inner ring at the closed end (placed at the cervix) and a larger outer ring at the open end that stays outside the vulva; label inner ring, outer ring and sheath. Caption both as barrier methods made of latex, disposable, that also protect from STIs."
+    },
+    {
+      "title": "Amniocentesis",
+      "how_to_draw": "Draw a sagittal outline of a pregnant uterus with the foetus curled inside the amniotic sac, placenta on one wall and the umbilical cord. Show a hypodermic needle entering through the abdominal wall and uterine wall into the amniotic fluid (away from the foetus), with an ultrasound probe on the abdomen guiding it. Label abdominal wall, uterine wall, placenta, amniotic fluid, foetus, needle, syringe, ultrasound probe. Note beneath: foetal cells and dissolved substances in the fluid are analysed to detect congenital or metabolic disorders and to assess foetal survivability; use for sex determination is banned."
+    },
+    {
+      "title": "Flow chart of the test-tube baby programme (IVF-ET)",
+      "how_to_draw": "Draw boxes joined by arrows: 'Ova from wife/donor' and 'Sperms from husband/donor' both feed into 'In vitro fertilisation under simulated laboratory conditions' → 'Zygote / early embryo'. From here two branches: 'Up to 8 blastomeres → transferred into fallopian tube = ZIFT' and 'More than 8 blastomeres → transferred into uterus = IUT'. Add a side box 'Embryo formed in vivo can also be transferred (ET)'. Label every arrow and use the full expansions of ZIFT and IUT."
+    },
+    {
+      "title": "Classification chart of contraceptive methods",
+      "how_to_draw": "A tree diagram with 'Contraceptive methods' at the top splitting into six branches: Natural (periodic abstinence, withdrawal, lactational amenorrhea), Barrier (condoms, diaphragm, cervical cap, vault, spermicides), IUDs (non-medicated: Lippes loop; copper: CuT, Cu7, Multiload 375; hormonal: Progestasert, LNG-20), Oral pills (progestogen or combined; Saheli), Injectables and implants (progestogen with or without estrogen), Surgical (vasectomy, tubectomy). Write one-line mode of action under each branch. The examiner rewards the named examples under every branch."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "3.1",
+      "q": "What do you think is the significance of reproductive health in a society?",
+      "a": "<p>Reproductive health means total well-being in all aspects of reproduction: physical, emotional, behavioural and social (WHO). A society whose people have functionally normal reproductive organs and normal, responsible behaviour in sex-related matters is a reproductively healthy society. Its significance:</p><ul><li>It lowers maternal and infant mortality through safe, medically assisted deliveries and post-natal care.</li><li>It checks population growth by making people aware of and able to use contraception, so families stay small and resources are not over-stretched.</li><li>It prevents and cures STIs, which otherwise cause PID, abortions, still births, ectopic pregnancy, infertility and cancer.</li><li>It reduces female foeticide, sex-abuse and sex-related crimes through awareness and legal safeguards such as the ban on sex determination.</li><li>It gives infertile couples access to diagnosis and ART, and gives adolescents correct knowledge instead of myths.</li></ul>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.2",
+      "q": "Suggest the aspects of reproductive health which need to be given special attention in the present scenario.",
+      "a": "<p>The aspects that need special attention are:</p><ul><li>Introduction of sex education in schools to remove myths and misconceptions among adolescents.</li><li>Educating fertile couples and those of marriageable age about birth-control options and family planning.</li><li>Care of pregnant mothers, medically assisted deliveries and post-natal care of mother and child, including breast-feeding.</li><li>Awareness about STIs and HIV/AIDS, their prevention, early detection and treatment.</li><li>Control of population growth and stabilisation of the population.</li><li>Prevention of female foeticide, with strict enforcement of the ban on sex determination, and equal opportunities for the male and female child.</li><li>Prevention of sex-abuse and sex-related crimes, and counselling and treatment for infertility.</li></ul>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.3",
+      "q": "Is sex education necessary in schools? Why?",
+      "a": "<p>Yes. Sex education in schools is necessary because:</p><ul><li>It provides adolescents with correct, scientific information about reproductive organs, adolescence and the changes it brings, safe and hygienic sexual practices and STIs, and saves them from picking up myths and misconceptions from unreliable sources.</li><li>It helps young people behave responsibly and protects them from sex-abuse, sex-related crimes, unwanted pregnancies and STIs, whose incidence is highest in the 15–24 age group.</li><li>It teaches the value of small families, the equal worth of the male and female child, and the dangers of female foeticide.</li><li>Informed adolescents grow into reproductively healthy adults, which is the goal of the RCH programme.</li></ul>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.4",
+      "q": "Do you think that reproductive health in our country has improved in the past 50 years? If yes, mention some such areas of improvement.",
+      "a": "<p>Yes, it has improved considerably. Areas of improvement:</p><ul><li>Better awareness about sex-related matters through media and education.</li><li>Increased number of medically assisted deliveries and better post-natal care, leading to a decrease in maternal and infant mortality rates.</li><li>Increased number of couples with small families because of wider use of contraceptives.</li><li>Better detection and cure of STIs.</li><li>Overall increase in medical facilities for all sex-related problems, including infertility clinics offering ART.</li><li>Massive child immunisation programmes and a statutory ban on amniocentesis for sex determination.</li></ul>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.5",
+      "q": "What are the suggested reasons for population explosion?",
+      "a": "<p>The population explosion is attributed to better health facilities and improved living conditions, which caused:</p><ul><li>a rapid decline in the death rate;</li><li>a decline in the maternal mortality rate (MMR);</li><li>a decline in the infant mortality rate (IMR);</li><li>an increase in the number of people of reproducible age.</li></ul><p>The world population rose from about 2 billion in 1900 to about 6 billion by 2000 and 7.2 billion in 2011; India's rose from 350 million at independence to 1.2 billion in May 2011.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.6",
+      "q": "Is the use of contraceptives justified? Give reasons.",
+      "a": "<p>Yes, the use of contraceptives is justified.</p><ul><li>Uncontrolled population growth leads to scarcity of food, shelter, clothing, education and health care; contraceptives are the most important means of stabilising the population.</li><li>They let a couple avoid, delay or space pregnancies, which improves the health of the mother and the care given to each child.</li><li>Barrier methods such as condoms also protect against STIs and AIDS.</li><li>They prevent unwanted pregnancies and so reduce the need for MTP, especially unsafe illegal abortions.</li></ul><p>Contraceptives do act against a natural event (conception) and may have side-effects such as nausea, abdominal pain, breakthrough bleeding, irregular menstrual bleeding or rarely breast cancer, so they should be chosen and used in consultation with a qualified doctor.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.7",
+      "q": "Removal of gonads cannot be considered as a contraceptive option. Why?",
+      "a": "<p>The gonads (testes and ovaries) produce not only gametes but also the sex hormones: testosterone in the male; estrogen and progesterone in the female. Removing them would stop hormone secretion, causing loss of secondary sexual characters, loss of sexual drive and desire, and permanent sterility. An ideal contraceptive must be reversible and must not interfere with the sexual drive, desire or act. Gonadectomy fails every one of these conditions, so it is not a contraceptive option. Surgical sterilisation (vasectomy, tubectomy) only blocks gamete transport and leaves hormone production intact.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.8",
+      "q": "Amniocentesis for sex determination is banned in our country. Is this ban necessary? Comment.",
+      "a": "<p>Yes, the ban is necessary. Amniocentesis is a prenatal diagnostic technique in which some of the amniotic fluid surrounding the foetus is withdrawn and the foetal cells and dissolved substances in it are analysed. Its legitimate use is to detect congenital disorders and metabolic disorders in the foetus, such as Down's syndrome, haemophilia or sickle-cell anaemia, and to assess the survivability of the foetus, so that parents can be counselled. However, in India it was widely misused to find out the sex of the foetus, followed by illegal MTP if the foetus was female. This female foeticide has skewed the sex ratio and is a social evil. A statutory ban on using amniocentesis for sex determination therefore legally checks female foeticide while still allowing its use for detecting genetic disorders.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.9",
+      "q": "Suggest some methods to assist infertile couples to have children.",
+      "a": "<ul><li><b>IVF-ET (test-tube baby programme):</b> ova from the wife or a donor and sperms from the husband or a donor are fused under simulated laboratory conditions; the zygote or early embryo with up to 8 blastomeres is transferred into the fallopian tube (ZIFT) and an embryo with more than 8 blastomeres into the uterus (IUT).</li><li><b>GIFT:</b> an ovum collected from a donor is transferred into the fallopian tube of a female who cannot produce ova but can provide the environment for fertilisation and development.</li><li><b>ICSI:</b> a sperm is directly injected into the ovum in the laboratory to form an embryo.</li><li><b>Artificial insemination (AI/IUI):</b> semen from the husband or a healthy donor is introduced into the vagina or uterus when the male cannot inseminate or has a very low sperm count.</li><li><b>Adoption</b> of orphaned or destitute children when the disorder cannot be corrected.</li></ul>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.10",
+      "q": "What are the measures one has to take to prevent from contracting STDs?",
+      "a": "<ul><li>Avoid sex with unknown partners or with multiple partners.</li><li>Always use condoms during coitus; condoms are the only contraceptive that also protects from STIs and AIDS.</li><li>In case of doubt, consult a qualified doctor for early detection and get complete treatment if diagnosed.</li><li>Avoid sharing injection needles and surgical instruments and insist on screened blood for transfusion, since hepatitis-B and HIV also spread by these routes.</li><li>Maintain personal and sexual hygiene, and do not let social stigma delay diagnosis, as most STIs are completely curable if detected early.</li></ul>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.11",
+      "q": "State True/False with explanation. (a) Abortions could happen spontaneously too. (b) Infertility is defined as the inability to produce a viable offspring and is always due to abnormalities/defects in the female partner. (c) Complete lactation could help as a natural method of contraception. (d) Creating awareness about sex related aspects is an effective method to improve reproductive health of the people.",
+      "a": "<p>(a) <b>True.</b> Abortion may occur naturally (spontaneous abortion or miscarriage) because of a genetic defect in the embryo, hormonal problems, infections or an accident; only intentional termination is called MTP.</p><p>(b) <b>False.</b> Infertility is the inability to produce children despite unprotected sexual co-habitation, but the cause may lie in either partner; physical, congenital, disease-related, drug-related, immunological or psychological defects in the male are as common as in the female.</p><p>(c) <b>True.</b> During intense lactation after parturition ovulation does not occur, so there is no menstrual cycle and conception is almost impossible; the method (lactational amenorrhea) works only with full breast-feeding and only up to six months.</p><p>(d) <b>True.</b> Awareness about reproductive organs, adolescence, safe sexual practices, contraception and STIs removes myths, promotes responsible behaviour, reduces STIs, unwanted pregnancies and female foeticide, and is the core of the RCH programme.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "3.12",
+      "q": "Correct the following statements: (a) Surgical methods of contraception prevent gamete formation. (b) All sexually transmitted diseases are completely curable. (c) Oral pills are very popular contraceptives among the rural women. (d) In E.T. techniques, embryos are always transferred into the uterus.",
+      "a": "<p>(a) Surgical methods of contraception (vasectomy, tubectomy) prevent <b>gamete transport</b> and thereby conception; gamete formation continues.</p><p>(b) All sexually transmitted diseases <b>except hepatitis-B, genital herpes and HIV infection</b> are completely curable if detected early and treated properly.</p><p>(c) Oral pills are very popular contraceptives among <b>urban</b> women; <b>IUDs</b> are the most widely accepted method among rural women in India (any accepted version of this correction earns the mark).</p><p>(d) In E.T. techniques, embryos with <b>more than 8 blastomeres</b> are transferred into the uterus (IUT), while the zygote or embryos with <b>up to 8 blastomeres</b> are transferred into the <b>fallopian tube</b> (ZIFT).</p>",
+      "marks": 4
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Saheli, the oral contraceptive developed at CDRI, Lucknow, is",
+      "options": [
+        "a steroidal daily pill",
+        "a non-steroidal once-a-week pill",
+        "a progestogen-releasing implant",
+        "a copper-releasing IUD"
+      ],
+      "answer": "b",
+      "solution": "Saheli contains a non-steroidal preparation and is taken once a week; it has very few side-effects and a high contraceptive value."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In the test-tube baby programme, an embryo with more than 8 blastomeres is transferred into the",
+      "options": [
+        "fallopian tube by ZIFT",
+        "fallopian tube by GIFT",
+        "uterus by IUT",
+        "ovum by ICSI"
+      ],
+      "answer": "c",
+      "solution": "Zygotes or early embryos with up to 8 blastomeres go into the fallopian tube (ZIFT); embryos with more than 8 blastomeres go into the uterus (IUT)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following sexually transmitted infections is NOT completely curable even if detected early?",
+      "options": [
+        "Gonorrhoea",
+        "Chlamydiasis",
+        "Hepatitis-B",
+        "Trichomoniasis"
+      ],
+      "answer": "c",
+      "solution": "Except hepatitis-B, genital herpes and HIV (the viral infections), all other STIs are completely curable if detected early and treated properly."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Lactational amenorrhea is effective as a natural contraceptive for a maximum period of",
+      "options": [
+        "three months after parturition",
+        "six months after parturition",
+        "one year after parturition",
+        "as long as the mother lives"
+      ],
+      "answer": "b",
+      "solution": "NCERT states the method is effective only up to a maximum period of six months following parturition, and only with full breast-feeding."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The Government of India legalised Medical Termination of Pregnancy (with strict conditions) in the year",
+      "options": [
+        "1951",
+        "1971",
+        "1981",
+        "2000"
+      ],
+      "answer": "b",
+      "solution": "MTP was legalised in 1971 with strict conditions to avoid its misuse; 1951 is the year the family planning programme started; the MTP Act was amended in 2017."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In periodic abstinence, a couple avoids coitus during which days of the menstrual cycle?",
+      "options": [
+        "Day 1 to day 5",
+        "Day 5 to day 10",
+        "Day 10 to day 17",
+        "Day 20 to day 28"
+      ],
+      "answer": "c",
+      "solution": "Ovulation is expected around day 14, so days 10 to 17 form the fertile period during which the chance of fertilisation is very high."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which one of the following is a hormone-releasing IUD?",
+      "options": [
+        "Lippes loop",
+        "Multiload 375",
+        "Cu7",
+        "LNG-20"
+      ],
+      "answer": "d",
+      "solution": "Progestasert and LNG-20 are hormone-releasing IUDs; Lippes loop is non-medicated; CuT, Cu7 and Multiload 375 release copper."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Vasectomy does not affect the sexual drive or secondary sexual characters of a man. Reason (R): In vasectomy only a small part of the vas deferens is removed or tied, and the testes continue to secrete testosterone.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Vasectomy blocks sperm transport only; the Leydig cells of the intact testes keep producing testosterone, so drive and secondary characters are unchanged."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Copper-releasing IUDs such as CuT are effective contraceptives. Reason (R): The Cu ions released suppress sperm motility and the fertilising capacity of sperms.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Besides increasing phagocytosis of sperms, copper IUDs release Cu ions that reduce sperm motility and fertilising ability; R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): All sexually transmitted infections are completely curable if detected early and treated properly. Reason (R): Hepatitis-B, genital herpes and HIV are viral infections.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "A is false because hepatitis-B, genital herpes and HIV infections are not curable; R is a true statement."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2011",
+      "marks": 2,
+      "q": "Why is Cu-T considered a good contraceptive device to space children?",
+      "answer": "<p>Cu-T is a copper-releasing intra uterine device. It is inserted into the uterus once and works for years, so it is convenient and effective; it increases phagocytosis of sperms in the uterus, and the copper ions released suppress sperm motility and the fertilising capacity of sperms. It is reversible: it can be removed by a doctor when the couple wants the next child. Being effective, long-acting and reversible, it is ideal for delaying pregnancy and spacing children.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2016",
+      "marks": 2,
+      "q": "(i) List any four characteristics of an ideal contraceptive. (ii) Name two intrauterine contraceptive devices that affect the motility of sperms.",
+      "answer": "<p>(i) An ideal contraceptive should be user-friendly, easily available, effective, reversible, have no or least side-effects, and not interfere with the sexual drive, desire or act (any four).</p><p>(ii) Copper-releasing IUDs: CuT and Cu7 (or Multiload 375). The Cu ions they release suppress sperm motility and fertilising capacity.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2010",
+      "marks": 2,
+      "q": "Mention one positive and one negative application of amniocentesis.",
+      "answer": "<p><b>Positive application:</b> amniocentesis analyses the foetal cells and dissolved substances in the amniotic fluid and detects congenital and metabolic disorders in the foetus, such as Down's syndrome, haemophilia or sickle-cell anaemia, allowing timely counselling.</p><p><b>Negative application:</b> it is misused for determining the sex of the foetus, followed by illegal MTP of female foetuses (female foeticide); for this reason its use for sex determination is banned by law.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2017",
+      "marks": 2,
+      "q": "Our government has intentionally imposed strict conditions for MTP in our country. Justify giving a reason.",
+      "answer": "<p>MTP was legalised in 1971 with strict conditions to prevent its misuse. Without restrictions, MTP would be used for indiscriminate and illegal female foeticide after sex determination of the foetus, which is reported to be high in India and which skews the sex ratio. The conditions also ensure that MTPs are carried out by qualified doctors in the safe first trimester, and not by unqualified quacks, whose unsafe abortions can be fatal to the mother.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Expand GIFT and ICSI. State one situation in which each is recommended.",
+      "answer": "<p><b>GIFT:</b> Gamete Intra Fallopian Transfer, in which an ovum collected from a donor is transferred into the fallopian tube of a female who cannot produce ova but can provide a suitable environment for fertilisation and development. Recommended when the wife cannot produce ova but has normal fallopian tubes and uterus.</p><p><b>ICSI:</b> Intra Cytoplasmic Sperm Injection, in which a single sperm is injected directly into an ovum in the laboratory to form an embryo. Recommended when the husband has a very low sperm count or immotile sperms.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2014",
+      "marks": 3,
+      "q": "A woman has certain queries as listed below, before starting with contraceptive pills. Answer them. (i) What do contraceptive pills contain and how do they act as contraceptives? (ii) What schedule should be followed for taking these pills?",
+      "answer": "<p>(i) Oral contraceptive pills contain small doses of either <b>progestogens</b> or <b>progestogen–estrogen combinations</b>. They act by <b>inhibiting ovulation</b>, by <b>inhibiting implantation</b>, and by <b>altering the quality of the cervical mucus</b> so that entry of sperms is prevented or retarded.</p><p>(ii) The pill is taken <b>daily for 21 days</b>, starting preferably within the <b>first five days of the menstrual cycle</b>. After the 21st day there is a <b>gap of 7 days</b>, during which menstruation occurs, and then the same pattern is repeated as long as the woman wants to prevent conception. The pills should be started in consultation with a qualified doctor; a non-steroidal once-a-week alternative, Saheli, is also available.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2010",
+      "marks": 3,
+      "q": "How do copper and hormone releasing IUDs act as contraceptives? Explain.",
+      "answer": "<p>Both are intra uterine devices inserted into the uterus by a doctor or expert nurse through the vagina.</p><ul><li><b>Common action:</b> all IUDs increase phagocytosis of sperms within the uterus.</li><li><b>Copper-releasing IUDs</b> (CuT, Cu7, Multiload 375): the Cu ions released suppress the motility of sperms and their fertilising capacity, so sperms fail to reach or fertilise the ovum.</li><li><b>Hormone-releasing IUDs</b> (Progestasert, LNG-20): the progestogen released makes the uterus (endometrium) unsuitable for implantation and makes the cervix hostile to sperms, so sperm entry and implantation are both prevented.</li></ul><p>IUDs are ideal for delaying pregnancy and spacing children, and are one of the most widely accepted contraceptive methods in India.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2014",
+      "marks": 3,
+      "q": "Name and explain the surgical method advised to human males and females as a means of birth control. Mention its one advantage and one disadvantage.",
+      "answer": "<p>Surgical methods, called <b>sterilisation</b>, are terminal methods advised to prevent any further pregnancy; they block gamete transport and thereby conception.</p><ul><li><b>Vasectomy (male):</b> a small part of the vas deferens is removed or tied up through a small incision on the scrotum, so sperms cannot pass into the ejaculate.</li><li><b>Tubectomy (female):</b> a small part of the fallopian tube is removed or tied up through a small incision in the abdomen or through the vagina, so the ovum cannot reach the site of fertilisation and sperms cannot reach it.</li></ul><p><b>Advantage:</b> highly effective, one-time procedure with no effect on hormone production or the sexual act. <b>Disadvantage:</b> reversibility is very poor, so it is unsuitable for couples who may want children later.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2011",
+      "marks": 3,
+      "q": "At the time of Independence, the population of India was 350 million, which exploded to over 1 billion by May 2000. List any two reasons for this rise in population and any two steps taken by the government to check this population explosion.",
+      "answer": "<p><b>Reasons</b> (any two): (i) rapid decline in the death rate because of better health facilities and living conditions; (ii) decline in the maternal mortality rate (MMR) and the infant mortality rate (IMR); (iii) increase in the number of people of reproducible age.</p><p><b>Steps taken by the government</b> (any two): (i) motivating smaller families through the use of various contraceptive methods, with media campaigns such as 'Hum Do Hamare Do'; (ii) statutory raising of the marriageable age to 18 years for females and 21 years for males; (iii) incentives to couples with small families; (iv) family planning programme (1951) now expanded as RCH programmes, and legalisation of MTP.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Name any four sexually transmitted infections. Mention two complications of untreated STIs and three measures to prevent them.",
+      "answer": "<p><b>STIs</b> (any four): gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, HIV/AIDS.</p><p><b>Complications</b> (any two): pelvic inflammatory diseases (PID), abortions, still births, ectopic pregnancies, infertility, cancer of the reproductive tract.</p><p><b>Prevention:</b> (i) avoid sex with unknown partners or multiple partners; (ii) always use condoms during coitus; (iii) in case of doubt consult a qualified doctor for early detection and complete treatment, since most STIs are curable if treated early. Not sharing needles and using screened blood also prevent hepatitis-B and HIV.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "An infertile couple is advised to adopt a test-tube baby programme. Describe the procedure. Also explain how GIFT, ICSI and artificial insemination differ from it and when each is recommended.",
+      "answer": "<p><b>Test-tube baby programme (IVF-ET):</b></p><ol><li>Ova are collected from the wife (or a donor female) after hormonal stimulation, and sperms from the husband (or a donor male).</li><li>The gametes are induced to fuse under simulated conditions in the laboratory: in vitro fertilisation.</li><li>The zygote or early embryo with up to 8 blastomeres is transferred into the fallopian tube: ZIFT (zygote intra fallopian transfer).</li><li>An embryo with more than 8 blastomeres is transferred into the uterus: IUT (intra uterine transfer). Embryos formed in vivo may also be transferred.</li><li>The embryo implants and develops normally. Recommended when the wife's fallopian tubes are blocked or when either partner needs donor gametes.</li></ol><p><b>GIFT (gamete intra fallopian transfer):</b> an ovum from a donor is transferred into the fallopian tube of the female; fertilisation occurs inside her body, not in vitro. Recommended when the wife cannot produce ova but has normal tubes and uterus.</p><p><b>ICSI (intra cytoplasmic sperm injection):</b> one sperm is injected directly into the ovum in the laboratory before embryo transfer. Recommended when the husband's sperms are very few or immotile.</p><p><b>Artificial insemination (AI/IUI):</b> semen from the husband or a healthy donor is introduced into the vagina or uterus; no laboratory fertilisation. Recommended when the husband cannot inseminate the female or has a very low sperm count.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2019",
+      "marks": 5,
+      "q": "(i) Explain one application of each of the following: (a) Amniocentesis (b) Lactational amenorrhea (c) ZIFT. (ii) Prepare a poster for the school programme depicting the objectives of the 'Reproductive and Child Healthcare Programme'.",
+      "answer": "<p>(i) (a) <b>Amniocentesis:</b> foetal cells and dissolved substances in the amniotic fluid are analysed to detect congenital and metabolic disorders (Down's syndrome, haemophilia, sickle-cell anaemia) before birth. (b) <b>Lactational amenorrhea:</b> used as a natural contraceptive; ovulation and the menstrual cycle do not occur during intense lactation, so full breast-feeding prevents conception for up to six months after parturition. (c) <b>ZIFT:</b> zygote intra fallopian transfer; a zygote or embryo with up to 8 blastomeres produced by in vitro fertilisation is transferred into the fallopian tube of an infertile woman to help her conceive.</p><p>(ii) <b>Poster: 'Healthy mothers, healthy children, healthy society', objectives of the RCH programme:</b></p><ul><li>Create awareness about reproductive organs, adolescence, safe and hygienic sexual practices and STIs through media and sex education in schools.</li><li>Educate fertile couples and those of marriageable age about birth-control options and small families.</li><li>Ensure care of pregnant mothers, medically assisted deliveries, post-natal care and breast-feeding, to reduce maternal and infant mortality.</li><li>Promote equal opportunities for the male and female child and prevent female foeticide; enforce the ban on sex determination.</li><li>Prevent, detect early and cure STIs; provide massive child immunisation.</li><li>Provide infrastructure, professional expertise and material support for problems of pregnancy, contraception, abortion and infertility.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Classify the contraceptive methods available in India. Give one example and the mode of action of each category.",
+      "answer": "<ol><li><b>Natural / traditional methods:</b> avoid the meeting of sperm and ovum. Periodic abstinence (no coitus on days 10–17 of the cycle), withdrawal or coitus interruptus (penis withdrawn before ejaculation), lactational amenorrhea (no ovulation during full breast-feeding, up to six months). No side-effects but high failure rate.</li><li><b>Barrier methods:</b> physically prevent the sperm and ovum from meeting. Condoms (latex sheath over the penis or lining the vagina and cervix; Nirodh; also protect from STIs), diaphragms, cervical caps and vaults (rubber covers over the cervix, reusable), used with spermicidal creams, jellies or foams.</li><li><b>Intra uterine devices (IUDs):</b> inserted into the uterus. Non-medicated (Lippes loop), copper-releasing (CuT, Cu7, Multiload 375) and hormone-releasing (Progestasert, LNG-20). They increase phagocytosis of sperms; Cu ions suppress sperm motility and fertilising capacity; hormones make the uterus unfit for implantation and the cervix hostile to sperms.</li><li><b>Oral contraceptives:</b> pills of progestogen or progestogen–estrogen combination taken daily for 21 days with a 7-day gap; inhibit ovulation and implantation and alter cervical mucus. Saheli is a non-steroidal weekly pill.</li><li><b>Injectables and implants:</b> progestogen alone or with estrogen given as injections or implants under the skin; same action as pills but for a much longer period. Emergency contraception: hormones or an IUD within 72 hours of coitus.</li><li><b>Surgical methods (sterilisation):</b> vasectomy (vas deferens cut or tied) and tubectomy (fallopian tube cut or tied); block gamete transport; highly effective but poorly reversible.</li></ol>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. At an infertility clinic three couples were examined. Couple P: the husband has a normal sperm count but is unable to inseminate; the wife is normal. Couple Q: the wife cannot produce ova, but her fallopian tubes and uterus are normal; the husband is normal. Couple R: both partners produce functional gametes and the wife's fallopian tubes and uterus are normal, but repeated attempts at natural conception have failed, so the couple opts for the test-tube baby programme. The doctor has an embryo from couple R at the 16-cell stage and another at the 4-cell stage.<br>(i) Which technique would you suggest for couple P? Name it and state what it involves.<br>(ii) Which technique suits couple Q and where is the donor gamete placed?<br>(iii) For couple R, where should the 16-cell embryo and the 4-cell embryo be transferred? Name the two procedures.<br>(iv) Give one reason why ART is not accessible to most infertile couples in India.",
+      "answer": "<p>(i) <b>Artificial insemination</b> (intra-uterine insemination): the husband's semen is collected and artificially introduced into the wife's vagina or uterus, since his sperms are normal and only insemination is the problem.</p><p>(ii) <b>GIFT</b> (gamete intra fallopian transfer): an ovum from a donor female is placed into the wife's <b>fallopian tube</b>, where it is fertilised in vivo by the husband's sperms and develops normally.</p><p>(iii) Couple R's gametes are fused in vitro (IVF-ET). The <b>16-cell embryo</b> (more than 8 blastomeres) is transferred into the <b>uterus</b>: <b>IUT</b> (intra uterine transfer). The <b>4-cell embryo</b> (up to 8 blastomeres) is transferred into the <b>fallopian tube</b>: <b>ZIFT</b> (zygote intra fallopian transfer).</p><p>(iv) ART requires extremely high precision, specialised professionals and expensive instrumentation, so it is available only in a few centres and is unaffordable for most; emotional, religious and social factors also deter couples.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. A health worker counsels three women. Sunita, 24, delivered a baby two months ago and is breast-feeding exclusively; she wants to avoid pregnancy for now. Rekha, 30, has two children and wants to space her next child by three or four years without taking a daily pill. Meena, 38, has three children and is certain she wants no more.<br>(i) Which natural method protects Sunita at present, and for how long is it effective?<br>(ii) Suggest a suitable method for Rekha. Name two examples of it and explain how it works.<br>(iii) Which method would you recommend for Meena? State one advantage and one disadvantage.<br>(iv) Meena's husband asks whether the procedure will affect his 'manliness' if he opts for it instead. What should the health worker reply?",
+      "answer": "<p>(i) <b>Lactational amenorrhea:</b> ovulation and the menstrual cycle do not occur during intense lactation, so as long as Sunita breast-feeds fully the chance of conception is almost nil. It is effective only up to a maximum of <b>six months</b> after parturition.</p><p>(ii) An <b>intra uterine device</b>, the ideal method for spacing children: e.g., <b>CuT, Cu7 or Multiload 375</b> (copper-releasing) or Progestasert / LNG-20 (hormone-releasing). IUDs increase phagocytosis of sperms in the uterus; Cu ions suppress sperm motility and fertilising capacity; hormone-releasing IUDs make the uterus unsuitable for implantation and the cervix hostile to sperms. It is long-acting and can be removed when she wants the next child.</p><p>(iii) <b>Tubectomy</b> (surgical sterilisation): a small part of each fallopian tube is removed or tied through a small incision in the abdomen or via the vagina. <b>Advantage:</b> highly effective and permanent. <b>Disadvantage:</b> reversibility is very poor.</p><p>(iv) <b>Vasectomy</b> only removes or ties a small part of the vas deferens through an incision on the scrotum; the testes remain intact and keep secreting testosterone, so sexual drive, secondary sexual characters and the sexual act are unaffected. Only sperm transport is blocked.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "India's family planning programme was initiated in the year",
+      "options": [
+        "1947",
+        "1951",
+        "1971",
+        "2000"
+      ],
+      "answer_index": 1,
+      "explanation": "Family planning began in 1951 and was later expanded into the Reproductive and Child Health Care (RCH) programmes."
+    },
+    {
+      "q": "Which of the following is a non-medicated IUD?",
+      "options": [
+        "Progestasert",
+        "Multiload 375",
+        "Lippes loop",
+        "LNG-20"
+      ],
+      "answer_index": 2,
+      "explanation": "Lippes loop is non-medicated; Multiload 375 releases copper and Progestasert and LNG-20 release hormones."
+    },
+    {
+      "q": "Hormone-releasing IUDs prevent pregnancy by",
+      "options": [
+        "killing sperms with copper ions",
+        "making the uterus unsuitable for implantation and the cervix hostile to sperms",
+        "blocking the fallopian tubes",
+        "inhibiting spermatogenesis"
+      ],
+      "answer_index": 1,
+      "explanation": "Progestasert and LNG-20 release progestogen that alters the endometrium and cervical mucus; copper ions are released by copper IUDs, not hormonal ones."
+    },
+    {
+      "q": "Oral contraceptive pills are taken daily for 21 days, starting preferably within the first ______ days of the menstrual cycle, followed by a gap of ______ days.",
+      "options": [
+        "5, 7",
+        "7, 5",
+        "10, 7",
+        "5, 14"
+      ],
+      "answer_index": 0,
+      "explanation": "NCERT: daily for 21 days starting within the first five days of the cycle, then a 7-day gap during which menstruation occurs."
+    },
+    {
+      "q": "Emergency contraceptives are effective if used within",
+      "options": [
+        "24 hours of coitus",
+        "48 hours of coitus",
+        "72 hours of coitus",
+        "one week of coitus"
+      ],
+      "answer_index": 2,
+      "explanation": "Progestogens, progestogen–estrogen combinations or IUDs given within 72 hours of coitus can avoid a possible pregnancy."
+    },
+    {
+      "q": "Which contraceptive method also gives protection against STIs and AIDS?",
+      "options": [
+        "Oral pills",
+        "Condoms",
+        "Cu-T",
+        "Tubectomy"
+      ],
+      "answer_index": 1,
+      "explanation": "Condoms are barriers that keep semen out of the female tract and thus also prevent transmission of infections; no other method does."
+    },
+    {
+      "q": "In tubectomy, the part removed or tied up is a small portion of the",
+      "options": [
+        "vas deferens",
+        "fallopian tube",
+        "cervix",
+        "uterus"
+      ],
+      "answer_index": 1,
+      "explanation": "Tubectomy ties or removes part of the fallopian tube; vasectomy ties or removes part of the vas deferens."
+    },
+    {
+      "q": "MTP is considered relatively safe during",
+      "options": [
+        "the first trimester, up to 12 weeks",
+        "the second trimester",
+        "the third trimester",
+        "any time before parturition"
+      ],
+      "answer_index": 0,
+      "explanation": "MTPs are relatively safe up to 12 weeks; second-trimester abortions are much riskier."
+    },
+    {
+      "q": "Which of the following STIs is caused by a protozoan?",
+      "options": [
+        "Syphilis",
+        "Gonorrhoea",
+        "Trichomoniasis",
+        "Genital warts"
+      ],
+      "answer_index": 2,
+      "explanation": "Trichomoniasis is caused by Trichomonas vaginalis, a protozoan; syphilis and gonorrhoea are bacterial and genital warts are viral."
+    },
+    {
+      "q": "Hepatitis-B and HIV can also be transmitted by",
+      "options": [
+        "sharing injection needles and blood transfusion",
+        "sharing food",
+        "mosquito bite",
+        "shaking hands"
+      ],
+      "answer_index": 0,
+      "explanation": "NCERT lists sharing of injection needles and surgical instruments, blood transfusion and mother-to-foetus transmission as the non-sexual routes for these two."
+    },
+    {
+      "q": "The incidence of STIs is reported to be very high in the age group",
+      "options": [
+        "5–14 years",
+        "15–24 years",
+        "25–40 years",
+        "above 40 years"
+      ],
+      "answer_index": 1,
+      "explanation": "Although all persons are vulnerable, STIs are most frequent among young people of 15–24 years."
+    },
+    {
+      "q": "GIFT differs from ZIFT in that in GIFT",
+      "options": [
+        "an embryo is transferred into the uterus",
+        "an unfertilised ovum is transferred into the fallopian tube",
+        "a sperm is injected into the ovum",
+        "semen is introduced into the vagina"
+      ],
+      "answer_index": 1,
+      "explanation": "GIFT transfers a donor ovum (a gamete) into the recipient's fallopian tube for in vivo fertilisation; ZIFT transfers a zygote formed in vitro."
+    },
+    {
+      "q": "A man has a very low sperm count with poorly motile sperms. The most suitable ART is",
+      "options": [
+        "GIFT",
+        "IUT with donor ovum",
+        "ICSI",
+        "Lactational amenorrhea"
+      ],
+      "answer_index": 2,
+      "explanation": "In ICSI a single sperm is injected directly into the ovum, so very few or immotile sperms are enough."
+    },
+    {
+      "q": "Which statement about lactational amenorrhea is correct?",
+      "options": [
+        "It works even with partial breast-feeding",
+        "It has serious side-effects",
+        "It is based on absence of ovulation during intense lactation",
+        "It is effective for two years after delivery"
+      ],
+      "answer_index": 2,
+      "explanation": "The method relies on the suppression of ovulation during full breast-feeding, has no side-effects and works only up to six months."
+    },
+    {
+      "q": "Which one is NOT a complication of untreated STIs?",
+      "options": [
+        "Pelvic inflammatory disease",
+        "Ectopic pregnancy",
+        "Infertility",
+        "Diabetes mellitus"
+      ],
+      "answer_index": 3,
+      "explanation": "PID, abortions, still births, ectopic pregnancies, infertility and reproductive-tract cancer are STI complications; diabetes is unrelated."
+    },
+    {
+      "q": "Removal of gonads is not a contraceptive option because it",
+      "options": [
+        "is reversible",
+        "stops gamete formation only",
+        "also stops sex-hormone secretion and sexual drive",
+        "prevents gamete transport only"
+      ],
+      "answer_index": 2,
+      "explanation": "Gonads make the sex hormones; removing them abolishes secondary sexual characters and sexual drive, which no contraceptive should do."
+    },
+    {
+      "q": "According to the 2011 census, the population growth rate of India was",
+      "options": [
+        "less than 2 per cent, i.e., 20/1000/year",
+        "about 5 per cent",
+        "less than 1 per cent",
+        "zero"
+      ],
+      "answer_index": 0,
+      "explanation": "NCERT quotes the 2011 census figure of less than 2 per cent (20/1000/year), a rate at which the population could still increase rapidly."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that vasectomy or tubectomy stops gamete formation. Sterilisation blocks gamete transport; the testes and ovaries keep working. This is also the correction NCERT expects in exercise 12(a).",
+    "Confusing ZIFT with IUT. Up to 8 blastomeres go into the fallopian tube (ZIFT); more than 8 go into the uterus (IUT). The cut-off is asked as an MCQ almost every year.",
+    "Treating GIFT as an embryo transfer. In GIFT an unfertilised donor ovum goes into the fallopian tube and fertilisation happens inside the body; only ZIFT and IUT transfer a zygote or embryo.",
+    "Mixing up the IUD groups. Lippes loop is non-medicated; CuT, Cu7 and Multiload 375 release copper (they reduce sperm motility); Progestasert and LNG-20 release hormones (they make the uterus unfit for implantation and the cervix hostile). Name the example that matches the mechanism asked.",
+    "Saying all STIs are curable or naming a bacterial one as incurable. Only hepatitis-B, genital herpes and HIV, the viral infections, are not curable; the rest are curable if detected early.",
+    "Giving the fertile period as day 14 alone. NCERT's periodic abstinence window is day 10 to day 17 of the cycle; the whole range earns the mark.",
+    "Calling Saheli a steroidal daily pill. It is a non-steroidal once-a-week pill from CDRI Lucknow; the ordinary combined pill is steroidal and taken daily for 21 days with a 7-day gap.",
+    "Answering 'increase in birth rate' as the reason for population explosion. NCERT's reasons are the decline in death rate, MMR and IMR and the increase in people of reproducible age.",
+    "Writing '1951' for the legalisation of MTP. Family planning began in 1951; MTP was legalised in 1971 and the Act was amended in 2017."
+  ],
+  "strategy": "<p>This is the shortest chapter of Unit VI and almost entirely factual, so it rewards two disciplined readings of NCERT rather than any external book. Read the chapter once with a pencil and mark every number, year, name and list; those items are the whole question bank. Then make four tables in your own hand and revise only from them: (1) the contraceptive table with six categories, examples, mechanism, advantage and drawback; (2) the IUD table with the three types and five named devices; (3) the ART table with expansion, what is transferred, where, and which couple it suits; (4) the numbers list: 1951, 1971, 2017, 2 billion/6 billion/7.2 billion, 350 million/1 billion/1.2 billion, 18/21 years, days 10–17, six months, 21 days/7 days, 72 hours, 12 weeks, 8 blastomeres, 15–24 years, 45–50 million.</p><p>For the 2-mark questions practise writing the mechanism, not the name: why breast-feeding prevents conception, why Cu-T spaces children, why the MTP conditions are strict, why gonads are not removed. For the 3-mark questions write the NCERT sentence structure: two reasons plus two steps, contents plus schedule, copper action plus hormone action. Prepare the two value-based questions the board likes here, sex education in schools and the blaming of women for infertility, with four reasoned points each. Draw the Cu-T, vasectomy, tubectomy and the IVF flow chart once each so you can reproduce them in a case question. Allocate about one hour for the first study, thirty minutes for the tables, and fifteen minutes on the night before the exam for the numbers list. Solve the twelve NCERT exercise questions in writing; three of them (7, 8 and the corrections in 12) appear in board papers almost verbatim.</p>",
+  "revision_checklist": [
+    "WHO definition of reproductive health with all four aspects",
+    "Family planning 1951, RCH programme, its objectives and the indicators of a reproductively healthy society",
+    "Population numbers: world and India; three reasons for the explosion; 2011 growth rate; marriageable ages",
+    "Six features of an ideal contraceptive",
+    "Three natural methods with days 10–17 and the six-month limit of lactational amenorrhea",
+    "Barrier methods: condoms (Nirodh, STI protection, disposable) versus diaphragm/cap/vault (reusable) plus spermicides",
+    "Three IUD types with all five named examples and the three-layer mechanism",
+    "Oral pill contents, 21-day/7-day schedule, three actions; Saheli facts",
+    "Injectables, implants and emergency contraception within 72 hours",
+    "Vasectomy and tubectomy: what is cut, through which incision, advantage and disadvantage",
+    "Side-effects of contraceptives and why gonad removal is not an option",
+    "MTP: 1971, 2017 amendment, 45–50 million a year, first trimester up to 12 weeks, illegal MTPs and female foeticide",
+    "Amniocentesis: one use, one misuse, why banned for sex determination",
+    "Eight STIs, the three incurable ones, non-sexual routes of hepatitis-B and HIV, complications, 15–24 age group, three preventive measures",
+    "ART: IVF-ET, ZIFT (up to 8), IUT (more than 8), GIFT, ICSI, AI/IUI, adoption; match each to the couple's problem"
+  ],
+  "videos": []
+}

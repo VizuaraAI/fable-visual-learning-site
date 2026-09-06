@@ -1,0 +1,888 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 3,
+  "slug": "atoms-and-molecules",
+  "title": "Atoms and Molecules",
+  "summary": "This chapter builds the whole language of chemistry: the two laws of chemical combination, Dalton's atomic theory, atomic and molecular mass, chemical formulae by valency, and the mole concept that connects mass to the number of particles.",
+  "exam_profile": {
+    "weightage": "Part of the Chemistry unit in the Class 9 Science paper (Matter unit), typically good for 8-11 marks across MCQ, VSA, SA, LA and one case-based question. There is no board exam for Class 9, so questions are drawn from the school's own periodic tests, half-yearly and annual papers set on the NCERT pattern.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Definitions (mole, valency, atomicity), symbol-name matching, and one-line numericals on molecular/formula unit mass."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Pairs a law or definition (assertion) with its underlying reason — conservation of mass, constant proportions, formula unit mass vs molecular mass."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "State a law, define a term, or do a one-step formula/valency calculation."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Verify a law with numbers, write 2-3 chemical formulae by the criss-cross method, or a short mole-concept numerical."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Dalton's atomic theory in full with its links to the two laws, valency rules with several worked formulae, or a multi-step mole/molar mass numerical."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage with data (a reaction, a mole calculation, or fixed-proportion data) followed by 4 sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Law of conservation of mass — statement and numerical verification",
+      "Law of constant proportions — statement and numerical verification",
+      "Writing chemical formulae by the criss-cross (valency) method",
+      "Mole concept — Avogadro number, molar mass, and mole-mass-particle conversions",
+      "Molecular mass and formula unit mass calculations",
+      "Dalton's atomic theory and its postulates",
+      "Atomicity of common elements (monatomic to polyatomic)",
+      "Ions — cations, anions and common polyatomic ions (radicals)"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "3.1.1 Law of Conservation of Mass",
+      "pyq_years": [],
+      "body": "<p>Antoine Lavoisier gave this law in 1789: in a chemical reaction, mass can neither be created nor destroyed. The total mass of the reactants equals the total mass of the products, provided the reaction is carried out in a closed vessel so that no gas escapes and nothing enters from outside.</p><p>This looks obvious for reactions between solids, but it needs a closed container when a gas is involved — if you burn magnesium ribbon in an open dish, the solid product (magnesium oxide) weighs <i>more</i> than the ribbon because oxygen from the air has combined with it and added its mass. If you did the same reaction in a sealed flask containing air, the total mass of flask + contents would stay exactly the same before and after burning.</p><p>To verify the law in the lab, two reactants (say, sodium sulphate solution and barium chloride solution) are taken in separate arms of a W-shaped tube, sealed, and weighed. The tube is tilted so the solutions mix, a white precipitate of barium sulphate forms, and the tube is weighed again — the mass does not change.</p>",
+      "formulas": [
+        {
+          "expr": "Total mass of reactants = Total mass of products",
+          "where": [
+            [
+              "Condition",
+              "reaction must occur in a closed system"
+            ]
+          ]
+        }
+      ],
+      "tip": "Whenever a question gives masses of some reactants/products and asks you to 'show the law is obeyed', just add up both sides and show the two totals are equal — examiners want the addition shown, not just the final word 'verified'."
+    },
+    {
+      "heading": "3.1.2 Law of Constant Proportions",
+      "pyq_years": [],
+      "body": "<p>This law was given by the French chemist Joseph Proust in 1799. It states that in a chemical substance (a pure compound), the elements are always present in a definite proportion by mass, no matter what the source of the compound is or how it was prepared.</p><p>Water made by burning hydrogen in oxygen in a laboratory in India, and water collected from a river in another country, both contain hydrogen and oxygen combined in the same ratio: 1 part hydrogen to 8 parts oxygen by mass (that is, 1:8). Similarly, carbon dioxide from any source always has carbon and oxygen in the ratio 3:8 by mass.</p><p>This law is what makes a compound different from a mixture — in a mixture, the proportion of components can vary; in a compound, it is always fixed. It is also the reason a compound always has one fixed chemical formula.</p>",
+      "formulas": [
+        {
+          "expr": "Mass ratio of elements in a given compound = constant, whatever the source",
+          "where": [
+            [
+              "Example",
+              "water: H : O = 1 : 8 by mass, always"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a numerical gives you the mass of a compound and the ratio of its elements, split the total mass in that ratio directly — do not convert to moles unless the question asks for it."
+    },
+    {
+      "heading": "3.2 What is an Atom? — Dalton's Atomic Theory",
+      "pyq_years": [],
+      "body": "<p>An atom is the smallest particle of an element that can take part in a chemical reaction and may or may not exist independently. Atoms are extremely small — far too small to be seen even with the most powerful optical microscope; the radius of a hydrogen atom is about 10<sup>−10</sup> m, which is measured in a unit called the nanometre (1 nm = 10<sup>−9</sup> m).</p><p>John Dalton, a British schoolteacher, put forward the atomic theory of matter in 1808 to explain the two laws of chemical combination. Its main postulates are:</p><ul><li>All matter is made of very tiny particles called atoms.</li><li>Atoms are indivisible particles that cannot be created or destroyed in a chemical reaction.</li><li>Atoms of a given element are all identical in mass and chemical properties.</li><li>Atoms of different elements have different masses and chemical properties.</li><li>Atoms combine in small whole-number ratios to form compounds.</li><li>The relative number and kinds of atoms are constant in a given compound.</li></ul><p>The postulate that atoms cannot be created or destroyed explains the law of conservation of mass; the postulate that atoms of an element are identical, combining in fixed whole-number ratios, explains the law of constant proportions.</p>",
+      "formulas": [],
+      "tip": "A 5-mark question often asks you to link each law to the postulate that explains it — learn this pairing by heart, it is the most repeated question from this section."
+    },
+    {
+      "heading": "3.2.1 and 3.2.2 Symbols and Atomic Mass",
+      "pyq_years": [],
+      "body": "<p>Every element is given a short symbol, standardised by IUPAC (International Union of Pure and Applied Chemistry). Most symbols are the first one or two letters of the English name, with the first letter capital and the second (if any) lowercase — for example, hydrogen (H), carbon (C), aluminium (Al), calcium (Ca). Some symbols come from the element's Latin name: sodium is Na (from <i>Natrium</i>), potassium is K (<i>Kalium</i>), iron is Fe (<i>Ferrum</i>), copper is Cu (<i>Cuprum</i>), silver is Ag (<i>Argentum</i>), gold is Au (<i>Aurum</i>), and mercury is Hg (<i>Hydrargyrum</i>).</p><p>Because an atom is too light to weigh on any real balance, atomic mass is expressed as a relative value, using a unit called the atomic mass unit (u). One atomic mass unit is defined as exactly 1/12th of the mass of one atom of carbon-12. Carbon-12 was chosen as the reference because it is easy to obtain in pure form and gives whole-number or near whole-number masses for most other elements: hydrogen = 1 u, carbon = 12 u, nitrogen = 14 u, oxygen = 16 u, sodium = 23 u, magnesium = 24 u, sulphur = 32 u, chlorine = 35.5 u, calcium = 40 u.</p>",
+      "formulas": [
+        {
+          "expr": "1 u = (1/12) × mass of one atom of carbon-12",
+          "where": [
+            [
+              "u",
+              "atomic mass unit (also written amu)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Learn the atomic masses H=1, C=12, N=14, O=16, Na=23, Mg=24, Al=27, S=32, Cl=35.5, K=39, Ca=40 by heart — nearly every numerical in this chapter needs them and none will be given in the question."
+    },
+    {
+      "heading": "3.3.1 Molecules of Elements — Atomicity",
+      "pyq_years": [],
+      "body": "<p>A molecule is the smallest particle of an element or a compound that is capable of independent existence and shows all the properties of that substance. The number of atoms that make up one molecule of a substance is called its atomicity.</p><p>Molecules of elements can be made of one, two, three or more atoms of the same element joined together:</p><ul><li><b>Monatomic</b> (one atom): all the noble/inert gases — helium (He), neon (Ne), argon (Ar) — and metals such as iron, copper and other elements that exist as single atoms.</li><li><b>Diatomic</b> (two atoms): hydrogen (H<sub>2</sub>), oxygen (O<sub>2</sub>), nitrogen (N<sub>2</sub>), chlorine (Cl<sub>2</sub>).</li><li><b>Triatomic</b> (three atoms): ozone (O<sub>3</sub>).</li><li><b>Polyatomic</b> (more atoms): phosphorus exists as P<sub>4</sub>, sulphur as S<sub>8</sub>.</li></ul><p>Note that a molecule of an element (like O<sub>2</sub>) is made of atoms of only one element, joined by chemical bonds, whereas the free single atom (like a lone O) does not exist independently under ordinary conditions for most non-metals.</p>",
+      "formulas": [],
+      "tip": "Atomicity questions love to trip students on phosphorus (P4) and sulphur (S8) — these two are the most-asked 'give the atomicity of' pairs."
+    },
+    {
+      "heading": "3.3.2 and 3.3.3 Molecules of Compounds and Ions",
+      "pyq_years": [],
+      "body": "<p>A molecule of a compound is formed when two or more atoms of different elements combine together in a fixed ratio. Water (H<sub>2</sub>O) has 2 atoms of hydrogen and 1 atom of oxygen; ammonia (NH<sub>3</sub>) has 1 nitrogen and 3 hydrogen atoms; carbon dioxide (CO<sub>2</sub>) has 1 carbon and 2 oxygen atoms; methane (CH<sub>4</sub>) has 1 carbon and 4 hydrogen atoms.</p><p>An ion is a charged particle. It can be a single charged atom (a simple ion) or a group of atoms carrying a net charge that behaves as one unit (a polyatomic ion, also called a radical). A positively charged ion is a cation (formed when an atom loses electrons), and a negatively charged ion is an anion (formed when an atom gains electrons).</p><p>Common simple ions: Na<sup>+</sup>, K<sup>+</sup>, Ca<sup>2+</sup>, Mg<sup>2+</sup>, Al<sup>3+</sup> (cations); Cl<sup>−</sup>, O<sup>2−</sup>, N<sup>3−</sup> (anions). Common polyatomic ions that must be memorised: ammonium NH<sub>4</sub><sup>+</sup>, hydroxide OH<sup>−</sup>, nitrate NO<sub>3</sub><sup>−</sup>, carbonate CO<sub>3</sub><sup>2−</sup>, sulphate SO<sub>4</sub><sup>2−</sup>, phosphate PO<sub>4</sub><sup>3−</sup>, and acetate CH<sub>3</sub>COO<sup>−</sup>.</p>",
+      "formulas": [],
+      "tip": "The polyatomic-ion table is pure memory work with no shortcuts — write it out from memory every revision day until you never miss one."
+    },
+    {
+      "heading": "3.4.1 Valency and Writing Chemical Formulae",
+      "pyq_years": [],
+      "body": "<p>Valency is the combining capacity of an element — the number of electrons it loses, gains, or shares to complete its outermost shell. It decides how many atoms of one element combine with how many atoms of another.</p><p>A chemical formula is the shorthand way of representing a compound using symbols and small numbers (subscripts) that show how many atoms of each element are combined. To write it, use the criss-cross method:</p><ol><li>Write the symbols of the two parts (element or radical) with their valencies marked above each.</li><li>Cross the valency of one part down as the subscript of the other, and vice versa.</li><li>Simplify the subscripts to the smallest whole-number ratio, unless the compound is by convention written without simplifying (such as some peroxides).</li><li>A subscript of 1 is never written; brackets are used when a polyatomic ion's subscript is more than 1, e.g. Mg(OH)<sub>2</sub>, Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>.</li></ol><p>Some elements show variable valency — they form more than one type of ion. Iron forms Fe<sup>2+</sup> (ferrous, in FeSO<sub>4</sub>) and Fe<sup>3+</sup> (ferric, in FeCl<sub>3</sub>); copper forms Cu<sup>+</sup> (cuprous) and Cu<sup>2+</sup> (cupric).</p>",
+      "formulas": [
+        {
+          "expr": "Element A (valency a) + Element B (valency b) → A<sub>b</sub>B<sub>a</sub>",
+          "where": [
+            [
+              "a, b",
+              "valencies of A and B; subscripts get simplified to the lowest ratio"
+            ]
+          ]
+        }
+      ],
+      "tip": "Always simplify the criss-crossed subscripts — the most common mark-losing slip is writing Mg2O2 instead of MgO because the 2:2 ratio was not reduced to 1:1."
+    },
+    {
+      "heading": "3.5.1 and 3.5.2 Molecular Mass and Formula Unit Mass",
+      "pyq_years": [],
+      "body": "<p>The molecular mass of a substance is the sum of the atomic masses of all the atoms present in one molecule of that substance, expressed in atomic mass units (u). For example, the molecular mass of water (H<sub>2</sub>O) = 2 × (atomic mass of H) + 1 × (atomic mass of O) = 2×1 + 16 = 18 u.</p><p>Ionic compounds such as sodium chloride do not exist as single discrete molecules — in the solid state they form a giant, continuously repeating lattice of oppositely charged ions. For such compounds, instead of 'molecular mass' we calculate the formula unit mass: the sum of the atomic masses of all atoms in one formula unit of the compound. The formula unit mass of NaCl = atomic mass of Na + atomic mass of Cl = 23 + 35.5 = 58.5 u.</p>",
+      "formulas": [
+        {
+          "expr": "Molecular mass = Σ (number of atoms of each element × its atomic mass)",
+          "where": [
+            [
+              "Example",
+              "CO<sub>2</sub> = 12 + 2×16 = 44 u"
+            ]
+          ]
+        },
+        {
+          "expr": "Formula unit mass (for ionic compounds) = Σ (atomic masses in one formula unit)",
+          "where": [
+            [
+              "Example",
+              "NaCl = 23 + 35.5 = 58.5 u"
+            ]
+          ]
+        }
+      ],
+      "tip": "If the compound has a metal + a non-metal or radical joined by an ionic bond (most salts), say 'formula unit mass', not 'molecular mass' — examiners do deduct a mark for the wrong term even if the number is right."
+    },
+    {
+      "heading": "3.5.3 to 3.5.5 The Mole Concept",
+      "pyq_years": [],
+      "body": "<p>Chemists needed a way to count atoms and molecules, which are far too many and far too small to count one by one. The mole is the SI unit for the amount of a substance. One mole of any species (atoms, molecules or ions) contains exactly 6.022 × 10<sup>23</sup> particles of that species — this huge number is called the Avogadro constant (N<sub>A</sub>), named after the Italian scientist Amedeo Avogadro.</p><p>The mass of one mole of a substance, in grams, is called its molar mass, and it is numerically equal to the atomic mass, molecular mass, or formula unit mass of that substance expressed in u. So 1 mole of carbon atoms has a mass of 12 g and contains 6.022 × 10<sup>23</sup> carbon atoms; 1 mole of water molecules has a mass of 18 g and contains 6.022 × 10<sup>23</sup> water molecules.</p><p>To find how many moles are present in a given mass of substance, divide the given mass by the molar mass. To find the number of particles, multiply the number of moles by the Avogadro constant.</p>",
+      "formulas": [
+        {
+          "expr": "Number of moles (n) = Given mass / Molar mass",
+          "where": [
+            [
+              "n",
+              "amount of substance in mol"
+            ],
+            [
+              "Given mass",
+              "in grams"
+            ],
+            [
+              "Molar mass",
+              "mass of 1 mole, in g mol<sup>−1</sup>"
+            ]
+          ]
+        },
+        {
+          "expr": "Number of particles = Number of moles × N<sub>A</sub>",
+          "where": [
+            [
+              "N<sub>A</sub>",
+              "Avogadro constant = 6.022 × 10<sup>23</sup> mol<sup>−1</sup>"
+            ]
+          ]
+        }
+      ],
+      "tip": "Set up mole numericals as a small three-line chain — mass → moles → particles (or reverse) — and write each unit; most marks are lost to skipped units, not wrong arithmetic."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Law of conservation of mass",
+      "definition": "Mass can neither be created nor destroyed in a chemical reaction; total mass of reactants equals total mass of products in a closed system."
+    },
+    {
+      "term": "Law of constant proportions",
+      "definition": "In a pure chemical compound, the elements are always present in a fixed proportion by mass, regardless of the source of the compound."
+    },
+    {
+      "term": "Dalton's atomic theory",
+      "definition": "John Dalton's 1808 theory that matter is made of indivisible atoms, which explains why mass is conserved and why compounds have fixed composition."
+    },
+    {
+      "term": "Atom",
+      "definition": "The smallest particle of an element that can take part in a chemical reaction; typically has a radius of about 10<sup>−10</sup> m."
+    },
+    {
+      "term": "Atomic mass unit (u)",
+      "definition": "The standard unit for atomic mass, equal to exactly 1/12th of the mass of one atom of carbon-12."
+    },
+    {
+      "term": "Molecule",
+      "definition": "The smallest particle of an element or compound that can exist independently and shows all the properties of that substance."
+    },
+    {
+      "term": "Atomicity",
+      "definition": "The number of atoms that constitute one molecule of a substance, e.g. O<sub>2</sub> is diatomic, O<sub>3</sub> is triatomic, P<sub>4</sub> is tetratomic."
+    },
+    {
+      "term": "Ion",
+      "definition": "A charged particle formed when an atom or a group of atoms loses or gains electrons; positively charged ions are cations, negatively charged ones are anions."
+    },
+    {
+      "term": "Polyatomic ion (radical)",
+      "definition": "A group of atoms carrying a net electric charge that behaves as a single ion, e.g. sulphate SO<sub>4</sub><sup>2−</sup>, ammonium NH<sub>4</sub><sup>+</sup>."
+    },
+    {
+      "term": "Valency",
+      "definition": "The combining capacity of an element, equal to the number of electrons it loses, gains or shares to complete its outer shell."
+    },
+    {
+      "term": "Chemical formula",
+      "definition": "The symbolic representation of a compound showing the elements present and the ratio in which their atoms are combined."
+    },
+    {
+      "term": "Molecular mass",
+      "definition": "The sum of the atomic masses of all the atoms present in one molecule of a substance, in atomic mass units."
+    },
+    {
+      "term": "Formula unit mass",
+      "definition": "The sum of the atomic masses of all atoms in one formula unit of an ionic compound, used because such compounds do not exist as discrete molecules."
+    },
+    {
+      "term": "Mole",
+      "definition": "The SI unit for the amount of a substance; one mole of any species contains 6.022 × 10<sup>23</sup> particles of that species."
+    },
+    {
+      "term": "Avogadro constant (N<sub>A</sub>)",
+      "definition": "The number of particles present in one mole of any substance, equal to 6.022 × 10<sup>23</sup> mol<sup>−1</sup>."
+    },
+    {
+      "term": "Molar mass",
+      "definition": "The mass of one mole of a substance, in grams; numerically equal to its atomic, molecular or formula unit mass in u."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Law of conservation of mass",
+      "expr": "Total mass of reactants = Total mass of products",
+      "note": "applies only in a closed system"
+    },
+    {
+      "name": "1 atomic mass unit",
+      "expr": "1 u = (1/12) × mass of 1 atom of C-12",
+      "note": "reference standard for all atomic masses"
+    },
+    {
+      "name": "Molecular mass",
+      "expr": "Molecular mass = Σ (atoms of each element × its atomic mass)",
+      "note": "used for molecules of elements and compounds, e.g. H<sub>2</sub>O, CO<sub>2</sub>, NH<sub>3</sub>"
+    },
+    {
+      "name": "Formula unit mass",
+      "expr": "Formula unit mass = Σ (atomic masses in one formula unit)",
+      "note": "used for ionic compounds that do not exist as molecules, e.g. NaCl, CaCO<sub>3</sub>"
+    },
+    {
+      "name": "Number of moles from mass",
+      "expr": "n = Given mass / Molar mass",
+      "note": "molar mass in g mol<sup>−1</sup>, gives n in mol"
+    },
+    {
+      "name": "Number of particles",
+      "expr": "Number of particles = n × N<sub>A</sub>",
+      "note": "N<sub>A</sub> = 6.022 × 10<sup>23</sup> mol<sup>−1</sup>"
+    },
+    {
+      "name": "Mass from moles",
+      "expr": "Mass = n × Molar mass",
+      "note": "gives mass in grams"
+    },
+    {
+      "name": "Number of moles from particles",
+      "expr": "n = Number of particles / N<sub>A</sub>",
+      "note": "used when the question gives a count of atoms/molecules"
+    },
+    {
+      "name": "Criss-cross rule for formulae",
+      "expr": "A<sup>a+</sup>B<sup>b−</sup> → A<sub>b</sub>B<sub>a</sub> (simplify subscripts)",
+      "note": "valency of one part becomes the subscript of the other"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Criss-cross method for a chemical formula (e.g. magnesium chloride)",
+      "how_to_draw": "Write Mg with its valency 2 above it on the left and Cl with its valency 1 above it on the right, joined by a plus sign. Draw two crossing arrows from each valency number down to the position under the other symbol. Show the result MgCl<sub>2</sub> below, and note that the subscript 1 under Mg is never written."
+    },
+    {
+      "title": "The mole triangle: mass, moles and number of particles",
+      "how_to_draw": "Draw a triangle with 'Given mass (g)' at the top-left corner, 'Number of moles (n)' at the top-right corner, and 'Number of particles' at the bottom corner. Label the mass-to-mole arrow '÷ molar mass' (and the reverse arrow '× molar mass'), and label the mole-to-particle arrow '× N<sub>A</sub>' (and the reverse arrow '÷ N<sub>A</sub>')."
+    },
+    {
+      "title": "Atomicity ladder — from monatomic to polyatomic",
+      "how_to_draw": "Draw four small boxes in a row. In box 1 draw a single circle labelled He (monatomic); in box 2 draw two joined circles labelled O<sub>2</sub> (diatomic); in box 3 draw three joined circles labelled O<sub>3</sub> (triatomic); in box 4 draw four circles arranged as a small tetrahedron labelled P<sub>4</sub> (polyatomic). Caption each box with its atomicity name."
+    },
+    {
+      "title": "Setup for verifying the law of conservation of mass",
+      "how_to_draw": "Draw a W-shaped glass tube (two side arms and a connecting bottom) sealed at both ends, with a barium chloride solution in one arm and a sodium sulphate solution in the other, kept apart. Show the tube on a balance reading a mass value; then draw a second copy of the tube tilted so the solutions have mixed, with a white precipitate shown at the bottom bend, and the same balance still reading the identical mass."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "3.1",
+      "q": "In a reaction, 5.3 g of sodium carbonate reacted with 6 g of ethanoic acid. The products were 2.2 g of carbon dioxide, 0.9 g of water and 8.2 g of sodium ethanoate. Show that these observations are in agreement with the law of conservation of mass.",
+      "a": "<p>Total mass of reactants = mass of sodium carbonate + mass of ethanoic acid = 5.3 g + 6 g = 11.3 g</p><p>Total mass of products = mass of CO<sub>2</sub> + mass of water + mass of sodium ethanoate = 2.2 g + 0.9 g + 8.2 g = 11.3 g</p><p>Since the total mass of reactants (11.3 g) equals the total mass of products (11.3 g), the observations agree with the law of conservation of mass.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.2",
+      "q": "Hydrogen and oxygen combine in the ratio 1:8 by mass to form water. What mass of oxygen gas would be required to react completely with 3 g of hydrogen gas?",
+      "a": "<p>Ratio of H : O by mass = 1 : 8</p><p>For 3 g of hydrogen, mass of oxygen required = 3 × 8 = 24 g</p><p>So 24 g of oxygen gas is required to react completely with 3 g of hydrogen gas.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.3",
+      "q": "Which postulate of Dalton's atomic theory is the result of the law of conservation of mass?",
+      "a": "<p>The postulate 'atoms are indivisible particles, which cannot be created or destroyed in a chemical reaction' is the result of the law of conservation of mass — since no atom is created or lost, the total mass before and after a reaction must stay the same.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.4",
+      "q": "Which postulate of Dalton's atomic theory can explain the law of constant proportions?",
+      "a": "<p>The postulate 'atoms of a given element are all identical in mass and chemical properties, and atoms combine in small whole-number ratios to form compounds' explains the law of constant proportions — since the atoms of each element always have the same mass and combine in a fixed ratio, a compound's mass composition is always fixed.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.5",
+      "q": "Define atomic mass unit.",
+      "a": "<p>The atomic mass unit (u) is a standard unit used to express the mass of atoms. One atomic mass unit is defined as exactly 1/12th of the mass of one atom of carbon-12.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.6",
+      "q": "Why is it not possible to see an atom with naked eyes?",
+      "a": "<p>Atoms are extremely small — the radius of even a hydrogen atom is about 10<sup>−10</sup> m. This size is far smaller than the wavelength of visible light, so no optical instrument, including the naked eye, can resolve or see a single atom.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.8",
+      "q": "Write down the formulae of (a) sodium oxide (b) aluminium chloride (c) sodium sulphide (d) magnesium hydroxide.",
+      "a": "<p>(a) Sodium oxide: Na<sub>2</sub>O (Na has valency 1, O has valency 2)</p><p>(b) Aluminium chloride: AlCl<sub>3</sub> (Al has valency 3, Cl has valency 1)</p><p>(c) Sodium sulphide: Na<sub>2</sub>S (Na has valency 1, S has valency 2)</p><p>(d) Magnesium hydroxide: Mg(OH)<sub>2</sub> (Mg has valency 2, OH has valency 1)</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "3.9",
+      "q": "Write down the names of compounds represented by the following formulae: (a) Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> (b) CaCl<sub>2</sub> (c) K<sub>2</sub>SO<sub>4</sub> (d) KNO<sub>3</sub> (e) CaCO<sub>3</sub>.",
+      "a": "<p>(a) Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> — Aluminium sulphate</p><p>(b) CaCl<sub>2</sub> — Calcium chloride</p><p>(c) K<sub>2</sub>SO<sub>4</sub> — Potassium sulphate</p><p>(d) KNO<sub>3</sub> — Potassium nitrate</p><p>(e) CaCO<sub>3</sub> — Calcium carbonate</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.11",
+      "q": "How many atoms are present in a (i) H<sub>2</sub>S molecule and (ii) PO<sub>4</sub><sup>3−</sup> ion?",
+      "a": "<p>(i) H<sub>2</sub>S has 2 hydrogen atoms + 1 sulphur atom = 3 atoms.</p><p>(ii) PO<sub>4</sub><sup>3−</sup> has 1 phosphorus atom + 4 oxygen atoms = 5 atoms.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.12",
+      "q": "Calculate the molecular masses of H<sub>2</sub>, O<sub>2</sub>, Cl<sub>2</sub>, CO<sub>2</sub>, CH<sub>4</sub> and NH<sub>3</sub>. (Atomic masses: H=1, O=16, Cl=35.5, C=12, N=14)",
+      "a": "<p>H<sub>2</sub> = 2×1 = 2 u</p><p>O<sub>2</sub> = 2×16 = 32 u</p><p>Cl<sub>2</sub> = 2×35.5 = 71 u</p><p>CO<sub>2</sub> = 12 + 2×16 = 44 u</p><p>CH<sub>4</sub> = 12 + 4×1 = 16 u</p><p>NH<sub>3</sub> = 14 + 3×1 = 17 u</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.13",
+      "q": "Calculate the formula unit masses of ZnO, Na<sub>2</sub>O and K<sub>2</sub>CO<sub>3</sub>, given atomic masses of Zn = 65 u, Na = 23 u, K = 39 u, C = 12 u and O = 16 u.",
+      "a": "<p>ZnO = 65 + 16 = 81 u</p><p>Na<sub>2</sub>O = 2×23 + 16 = 62 u</p><p>K<sub>2</sub>CO<sub>3</sub> = 2×39 + 12 + 3×16 = 78 + 12 + 48 = 138 u</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.14",
+      "q": "If one mole of carbon atoms weighs 12 grams, what is the mass in grams of 1 atom of carbon?",
+      "a": "<p>1 mole of carbon atoms = 6.022 × 10<sup>23</sup> atoms, and this weighs 12 g.</p><p>Mass of 1 atom of carbon = 12 / (6.022 × 10<sup>23</sup>) = 1.993 × 10<sup>−23</sup> g.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.15",
+      "q": "Which has more number of atoms: 100 g of sodium or 100 g of iron (atomic mass of Na = 23 u, Fe = 56 u)?",
+      "a": "<p>Moles of Na in 100 g = 100/23 = 4.35 mol</p><p>Moles of Fe in 100 g = 100/56 = 1.79 mol</p><p>Since 4.35 mol > 1.79 mol, and number of atoms is proportional to number of moles, 100 g of sodium contains more atoms than 100 g of iron.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "E.1",
+      "q": "In photosynthesis, 6 molecules of carbon dioxide combine with an equal number of water molecules to give one molecule of glucose (C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>) and oxygen. How many grams of water would be required to produce 18 g of glucose? (Molar mass of glucose = 180 g, of water = 18 g)",
+      "a": "<p>Reaction: 6CO<sub>2</sub> + 6H<sub>2</sub>O → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub></p><p>180 g of glucose is produced from 6 × 18 g = 108 g of water.</p><p>For 18 g of glucose, water required = (108/180) × 18 = 10.8 g.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "E.2",
+      "q": "Cinnabar (HgS) is a prominent ore of mercury. How many grams of mercury are present in 225 g of pure HgS? (Atomic mass: Hg = 200 u, S = 32 u)",
+      "a": "<p>Formula unit mass of HgS = 200 + 32 = 232 u.</p><p>Mass fraction of Hg in HgS = 200/232.</p><p>Mass of Hg in 225 g of HgS = (200/232) × 225 = 193.97 g ≈ 194 g.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which scientist gave the law of conservation of mass?",
+      "options": [
+        "John Dalton",
+        "Antoine Lavoisier",
+        "Joseph Proust",
+        "Amedeo Avogadro"
+      ],
+      "answer": "b",
+      "solution": "Antoine Lavoisier proposed the law of conservation of mass in 1789."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "One mole of any substance contains how many particles?",
+      "options": [
+        "6.022 × 10<sup>22</sup>",
+        "6.022 × 10<sup>23</sup>",
+        "1.602 × 10<sup>19</sup>",
+        "9.1 × 10<sup>−31</sup>"
+      ],
+      "answer": "b",
+      "solution": "The Avogadro constant, the number of particles in one mole, is 6.022 × 10<sup>23</sup> mol<sup>−1</sup>."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "What is the chemical formula of ammonium sulphate?",
+      "options": [
+        "NH<sub>4</sub>SO<sub>4</sub>",
+        "(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>",
+        "NH<sub>4</sub>(SO<sub>4</sub>)<sub>2</sub>",
+        "N<sub>2</sub>H<sub>4</sub>SO<sub>4</sub>"
+      ],
+      "answer": "b",
+      "solution": "Ammonium (NH<sub>4</sub><sup>+</sup>, valency 1) and sulphate (SO<sub>4</sub><sup>2−</sup>, valency 2) cross to give (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The SI unit for the amount of a substance is the:",
+      "options": [
+        "gram",
+        "atomic mass unit",
+        "mole",
+        "litre"
+      ],
+      "answer": "c",
+      "solution": "The mole is the SI base unit for the amount of a substance."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of these is a triatomic molecule of an element?",
+      "options": [
+        "O<sub>2</sub>",
+        "O<sub>3</sub>",
+        "CO<sub>2</sub>",
+        "H<sub>2</sub>O"
+      ],
+      "answer": "b",
+      "solution": "O<sub>3</sub> (ozone) is made of 3 atoms of the same element, oxygen, so it is a triatomic molecule of an element. CO<sub>2</sub> and H<sub>2</sub>O are triatomic molecules of compounds, not of an element."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "One atomic mass unit is defined as:",
+      "options": [
+        "the mass of one hydrogen atom",
+        "1/12th the mass of one carbon-12 atom",
+        "the mass of one mole of any element",
+        "1/16th the mass of one oxygen atom"
+      ],
+      "answer": "b",
+      "solution": "By present-day convention, 1 u = 1/12th of the mass of one atom of the carbon-12 isotope."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which pair correctly shows an element with its Latin-derived symbol?",
+      "options": [
+        "Iron — Fe (Ferrum)",
+        "Calcium — Ca (Calcum)",
+        "Aluminium — Al (Aluminum)",
+        "Nitrogen — N (Nitrogenum)"
+      ],
+      "answer": "a",
+      "solution": "Fe comes from the Latin 'Ferrum' for iron; Ca, Al and N are simply the first letters of their English names, not Latin-derived exceptions."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The law of constant proportions holds true for every pure compound. Reason (R): In a compound, the elements are always present in a fixed proportion by mass, regardless of the source of the compound.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The law of constant proportions is exactly the statement given as the reason, so R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): One mole of any gas contains 6.022 × 10<sup>23</sup> molecules. Reason (R): This fixed number of particles present in one mole of any substance is called the Avogadro constant.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both statements are correct facts about the mole, and the reason explains why the number in the assertion has that specific value — it is the defined Avogadro constant."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): We use 'formula unit mass' rather than 'molecular mass' for sodium chloride. Reason (R): Ionic compounds like sodium chloride do not exist as discrete molecules; they form a continuous lattice of ions.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Since NaCl has no separate molecule, the term 'formula unit mass' is used instead of 'molecular mass', for exactly the reason stated."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State the law of conservation of mass.",
+      "answer": "<p>The law of conservation of mass states that mass can neither be created nor destroyed in a chemical reaction — the total mass of the reactants is equal to the total mass of the products, provided the reaction takes place in a closed system.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define valency. What is the valency of nitrogen in ammonia (NH<sub>3</sub>)?",
+      "answer": "<p>Valency is the combining capacity of an element — the number of electrons it loses, gains or shares to complete its outermost shell.</p><p>In NH<sub>3</sub>, one nitrogen atom combines with three hydrogen atoms (each of valency 1), so the valency of nitrogen here is 3.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is molecular mass? Calculate the molecular mass of carbon dioxide (CO<sub>2</sub>). (C = 12 u, O = 16 u)",
+      "answer": "<p>Molecular mass is the sum of the atomic masses of all the atoms present in one molecule of a substance.</p><p>Molecular mass of CO<sub>2</sub> = 12 + 2×16 = 12 + 32 = 44 u.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is atomicity? Give the atomicity of phosphorus and of an oxygen molecule.",
+      "answer": "<p>Atomicity is the number of atoms that make up one molecule of a substance.</p><p>Phosphorus exists as P<sub>4</sub>, so its atomicity is 4 (polyatomic); an oxygen molecule is O<sub>2</sub>, so its atomicity is 2 (diatomic).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "3 g of carbon is burnt in 8 g of oxygen to give 11 g of carbon dioxide. If 3 g of carbon is burnt in 50 g of oxygen, how much carbon dioxide will be formed? Which law is illustrated?",
+      "answer": "<p>By the law of constant proportions, carbon and oxygen always combine in the fixed ratio 3:8 by mass to give carbon dioxide, no matter how much extra oxygen is provided.</p><p>So even with 50 g of oxygen available, only 8 g of oxygen actually combines with the 3 g of carbon (the remaining 42 g of oxygen stays unreacted).</p><p>Mass of CO<sub>2</sub> formed = 3 g + 8 g = 11 g, exactly as before. This illustrates the law of constant proportions.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Write the chemical formulae of calcium oxide, potassium sulphate and aluminium chloride, showing the criss-cross method briefly for one of them.",
+      "answer": "<p>Calcium oxide: Ca (valency 2) + O (valency 2) → CaO (2 and 2 cancel to give a 1:1 ratio).</p><p>Potassium sulphate: K (valency 1) + SO<sub>4</sub> (valency 2) → crossing gives K<sub>2</sub>SO<sub>4</sub>.</p><p>Aluminium chloride: Al (valency 3) + Cl (valency 1) → crossing gives AlCl<sub>3</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Calculate the number of moles, the number of molecules, and the number of nitrogen atoms present in 5.6 g of nitrogen gas (N<sub>2</sub>). (Atomic mass of N = 14 u)",
+      "answer": "<p>Molar mass of N<sub>2</sub> = 2×14 = 28 g/mol.</p><p>Number of moles = 5.6/28 = 0.2 mol.</p><p>Number of N<sub>2</sub> molecules = 0.2 × 6.022×10<sup>23</sup> = 1.2044 × 10<sup>23</sup> molecules.</p><p>Number of nitrogen atoms = 2 × 1.2044×10<sup>23</sup> = 2.4088 × 10<sup>23</sup> atoms.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Distinguish between molecules of an element and molecules of a compound, with one example of each.",
+      "answer": "<p>A molecule of an element is made of two or more atoms of the same element joined together, e.g. O<sub>2</sub> (two oxygen atoms).</p><p>A molecule of a compound is made of atoms of two or more different elements combined in a fixed ratio, e.g. H<sub>2</sub>O (two hydrogen atoms and one oxygen atom).</p><p>A compound's molecule always shows properties different from its constituent elements, while an element's molecule shows the properties of that one element.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "State the main postulates of Dalton's atomic theory. Explain how it accounts for the law of conservation of mass and the law of constant proportions.",
+      "answer": "<p>Dalton's atomic theory (1808) states:</p><ul><li>All matter is made of very tiny particles called atoms.</li><li>Atoms are indivisible and cannot be created or destroyed in a chemical reaction.</li><li>Atoms of a given element are all identical in mass and chemical properties.</li><li>Atoms of different elements have different masses and chemical properties.</li><li>Atoms combine in small whole-number ratios to form compounds.</li><li>The relative number and kinds of atoms in a given compound are constant.</li></ul><p>Because atoms can neither be created nor destroyed, the same atoms present before a reaction are simply rearranged into new combinations after it — nothing is lost, so the total mass stays the same. This is exactly the law of conservation of mass.</p><p>Because atoms of one element are all identical and combine with atoms of another element in a small, fixed whole-number ratio, the mass proportion of the elements in a given compound is always the same, whatever the source. This is exactly the law of constant proportions.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain valency and the rules for writing a chemical formula using the criss-cross method. Using this method, write the formulae of magnesium chloride, aluminium oxide and calcium phosphate. Also explain, with an example, what is meant by variable valency.",
+      "answer": "<p>Valency is the combining capacity of an element or radical, decided by the electrons it needs to lose, gain or share to complete its outer shell.</p><p>To write a formula by the criss-cross method: write the symbols of the two combining parts with their valencies marked above them; cross each valency down as the subscript of the other part; simplify the subscripts to the smallest whole-number ratio; never write a subscript of 1, and use brackets around a polyatomic ion whose subscript is more than 1.</p><p>Magnesium chloride: Mg (valency 2) + Cl (valency 1) → MgCl<sub>2</sub>.</p><p>Aluminium oxide: Al (valency 3) + O (valency 2) → Al<sub>2</sub>O<sub>3</sub>.</p><p>Calcium phosphate: Ca (valency 2) + PO<sub>4</sub> (valency 3) → Ca<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub>.</p><p>Variable valency is when the same element forms ions of more than one valency in different compounds. Iron shows this: it is Fe<sup>2+</sup> (ferrous, valency 2) in FeSO<sub>4</sub>, and Fe<sup>3+</sup> (ferric, valency 3) in FeCl<sub>3</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain the mole concept, including the terms molar mass and Avogadro constant. Calculate the mass of 0.5 mole of water molecules and the number of water molecules and hydrogen atoms present in it. (Molar mass of water = 18 g/mol)",
+      "answer": "<p>The mole is the SI unit for the amount of a substance. One mole of any species — atoms, molecules or ions — contains exactly 6.022 × 10<sup>23</sup> particles of that species, a number called the Avogadro constant (N<sub>A</sub>). The molar mass of a substance is the mass, in grams, of one mole of it, and is numerically equal to its atomic, molecular or formula unit mass in u.</p><p>Mass of 0.5 mole of water = 0.5 × 18 = 9 g.</p><p>Number of water molecules = 0.5 × 6.022×10<sup>23</sup> = 3.011 × 10<sup>23</sup> molecules.</p><p>Each water molecule has 2 hydrogen atoms, so number of hydrogen atoms = 2 × 3.011×10<sup>23</sup> = 6.022 × 10<sup>23</sup> atoms.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>A student prepared carbon dioxide by three different methods in the school lab — by burning carbon in oxygen, by heating limestone, and by reacting marble chips with dilute hydrochloric acid. In every sample she collected, the mass ratio of carbon to oxygen in the carbon dioxide always worked out to 3:8, whatever the method used.<br>(i) Which law of chemical combination does this observation illustrate?<br>(ii) State this law.<br>(iii) If a sample of carbon dioxide has a total mass of 22 g, find the masses of carbon and oxygen present in it.<br>(iv) Which scientist first proposed this law?",
+      "answer": "<p>(i) This illustrates the law of constant proportions.</p><p>(ii) The law states that in a chemical compound, the elements are always present in a definite proportion by mass, whatever the source of the compound.</p><p>(iii) C : O = 3 : 8, so total parts = 11. In 22 g of CO<sub>2</sub>: mass of carbon = (3/11) × 22 = 6 g; mass of oxygen = (8/11) × 22 = 16 g.</p><p>(iv) The law was proposed by the French chemist Joseph Proust.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>A teacher asked her class to find how many moles, molecules and atoms are present in 4.4 g of carbon dioxide gas (CO<sub>2</sub>). She reminded the class that the molar mass of CO<sub>2</sub> is 44 g/mol, and that the Avogadro constant is 6.022 × 10<sup>23</sup> per mole.<br>(i) What is the mole, and why do chemists need such a unit?<br>(ii) Calculate the number of moles of CO<sub>2</sub> present in 4.4 g of the gas.<br>(iii) Calculate the number of CO<sub>2</sub> molecules present in this sample.<br>(iv) Calculate the total number of oxygen atoms present in this sample.",
+      "answer": "<p>(i) The mole is the SI unit for the amount of a substance; chemists need it because atoms and molecules are far too small and far too numerous to count individually, so a mole lets a countable, weighable quantity in grams stand for a fixed, huge number of particles (6.022 × 10<sup>23</sup>).</p><p>(ii) Moles of CO<sub>2</sub> = 4.4/44 = 0.1 mol.</p><p>(iii) Number of CO<sub>2</sub> molecules = 0.1 × 6.022×10<sup>23</sup> = 6.022 × 10<sup>22</sup> molecules.</p><p>(iv) Each CO<sub>2</sub> molecule has 2 oxygen atoms, so total oxygen atoms = 2 × 6.022×10<sup>22</sup> = 1.2044 × 10<sup>23</sup> atoms.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Who proposed the law of constant proportions?",
+      "options": [
+        "John Dalton",
+        "Antoine Lavoisier",
+        "Joseph Proust",
+        "John Newlands"
+      ],
+      "answer_index": 2,
+      "explanation": "Joseph Proust proposed the law of constant proportions (also called the law of definite proportions) in 1799."
+    },
+    {
+      "q": "The radius of a hydrogen atom is of the order of:",
+      "options": [
+        "10<sup>−5</sup> m",
+        "10<sup>−10</sup> m",
+        "10<sup>−15</sup> m",
+        "10<sup>−2</sup> m"
+      ],
+      "answer_index": 1,
+      "explanation": "Atomic radii are typically of the order of 10<sup>−10</sup> m, which is why atoms cannot be seen with the naked eye or an optical microscope."
+    },
+    {
+      "q": "Which of the following is an example of a monatomic molecule?",
+      "options": [
+        "H<sub>2</sub>",
+        "Ar",
+        "O<sub>3</sub>",
+        "P<sub>4</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "Argon, a noble gas, exists as single free atoms, so its molecule is monatomic."
+    },
+    {
+      "q": "The symbol for potassium is:",
+      "options": [
+        "P",
+        "Pt",
+        "K",
+        "Po"
+      ],
+      "answer_index": 2,
+      "explanation": "Potassium's symbol K comes from its Latin name 'Kalium'."
+    },
+    {
+      "q": "The formula unit mass of calcium carbonate (CaCO<sub>3</sub>) is: (Ca=40, C=12, O=16)",
+      "options": [
+        "100 u",
+        "60 u",
+        "44 u",
+        "116 u"
+      ],
+      "answer_index": 0,
+      "explanation": "CaCO<sub>3</sub> = 40 + 12 + 3×16 = 40 + 12 + 48 = 100 u."
+    },
+    {
+      "q": "How many atoms of hydrogen are present in one molecule of methane (CH<sub>4</sub>)?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer_index": 3,
+      "explanation": "Methane's formula CH<sub>4</sub> shows 4 hydrogen atoms combined with 1 carbon atom."
+    },
+    {
+      "q": "Which of these is a cation?",
+      "options": [
+        "Cl<sup>−</sup>",
+        "O<sup>2−</sup>",
+        "Na<sup>+</sup>",
+        "SO<sub>4</sub><sup>2−</sup>"
+      ],
+      "answer_index": 2,
+      "explanation": "Na<sup>+</sup> is a positively charged ion, formed when a sodium atom loses one electron, so it is a cation."
+    },
+    {
+      "q": "What is the valency of calcium in calcium chloride (CaCl<sub>2</sub>)?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer_index": 1,
+      "explanation": "In CaCl<sub>2</sub>, one calcium atom balances two chlorine atoms (each valency 1), so calcium's valency here is 2."
+    },
+    {
+      "q": "The mass of 1 mole of oxygen atoms is:",
+      "options": [
+        "8 g",
+        "16 g",
+        "32 g",
+        "6.022 × 10<sup>23</sup> g"
+      ],
+      "answer_index": 1,
+      "explanation": "The molar mass of oxygen atoms (O) equals its atomic mass in grams, which is 16 g. (32 g would be the molar mass of O<sub>2</sub> molecules.)"
+    },
+    {
+      "q": "Which pair correctly matches a polyatomic ion with its charge?",
+      "options": [
+        "Nitrate, NO<sub>3</sub><sup>2−</sup>",
+        "Carbonate, CO<sub>3</sub><sup>2−</sup>",
+        "Ammonium, NH<sub>4</sub><sup>2+</sup>",
+        "Sulphate, SO<sub>4</sub><sup>−</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "Carbonate is CO<sub>3</sub><sup>2−</sup>. Nitrate is NO<sub>3</sub><sup>−</sup>, ammonium is NH<sub>4</sub><sup>+</sup>, and sulphate is SO<sub>4</sub><sup>2−</sup>."
+    },
+    {
+      "q": "How many moles are present in 92 g of sodium metal? (Atomic mass of Na = 23 u)",
+      "options": [
+        "2 mol",
+        "4 mol",
+        "0.25 mol",
+        "46 mol"
+      ],
+      "answer_index": 1,
+      "explanation": "Number of moles = given mass/molar mass = 92/23 = 4 mol."
+    },
+    {
+      "q": "The number of atoms present in one molecule of sulphuric acid (H<sub>2</sub>SO<sub>4</sub>) is:",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "4"
+      ],
+      "answer_index": 2,
+      "explanation": "H<sub>2</sub>SO<sub>4</sub> has 2 hydrogen + 1 sulphur + 4 oxygen = 7 atoms."
+    },
+    {
+      "q": "Which of the following correctly states why carbon-12 is used as the reference for atomic mass?",
+      "options": [
+        "It is the lightest known element",
+        "It gives whole-number masses for most elements and is easy to obtain pure",
+        "It has no isotopes",
+        "It was the first element discovered"
+      ],
+      "answer_index": 1,
+      "explanation": "Carbon-12 was chosen because it is readily available in a pure form and gives atomic masses of most other elements as whole numbers or very close to whole numbers."
+    },
+    {
+      "q": "3 g of magnesium burns completely in oxygen to form 5 g of magnesium oxide. What mass of oxygen combined?",
+      "options": [
+        "2 g",
+        "3 g",
+        "5 g",
+        "8 g"
+      ],
+      "answer_index": 0,
+      "explanation": "By the law of conservation of mass, mass of oxygen = mass of product − mass of magnesium = 5 g − 3 g = 2 g."
+    },
+    {
+      "q": "Which term is used instead of 'molecular mass' for an ionic compound like potassium chloride?",
+      "options": [
+        "Atomic mass",
+        "Formula unit mass",
+        "Molar volume",
+        "Relative mass"
+      ],
+      "answer_index": 1,
+      "explanation": "Ionic compounds do not exist as discrete molecules, so 'formula unit mass' is used in place of 'molecular mass'."
+    }
+  ],
+  "common_mistakes": [
+    "Confusing 'molecular mass' with 'formula unit mass' — using 'molecular mass' for an ionic compound like NaCl or CaCO<sub>3</sub> costs a mark; those compounds don't have molecules.",
+    "Forgetting to simplify the subscripts after the criss-cross method, e.g. writing Mg<sub>2</sub>O<sub>2</sub> instead of the simplified MgO.",
+    "Writing a subscript of 1 in a formula (e.g. Na<sub>1</sub>Cl) — a subscript of 1 is never written.",
+    "Mixing up cation and anion — forgetting that a cation is positive (an atom that lost electrons) and an anion is negative (an atom that gained electrons).",
+    "Skipping units in mole numericals — writing '0.2' instead of '0.2 mol', or leaving out 'g' for mass, which examiners mark as an incomplete step.",
+    "Treating the law of constant proportions as if extra reactant changes the product ratio — students forget that only the fixed proportion actually reacts, and the rest stays unused.",
+    "Not memorising atomic masses of common elements, then being unable to attempt a numerical because the question does not restate them.",
+    "Confusing atomicity with valency — atomicity is the number of atoms in one molecule, valency is the combining capacity of an element."
+  ],
+  "strategy": "<p>This chapter rewards precision more than length — most marks come from getting a definition word-perfect, a formula correctly simplified, or a numerical answer with the right number of steps shown. Start by memorising the two laws exactly as NCERT states them, and be ready to link each one to the matching postulate of Dalton's atomic theory; that pairing is asked almost every year in some form.</p><p>Next, drill the atomic masses of the dozen or so elements that appear repeatedly (H, C, N, O, Na, Mg, Al, S, Cl, K, Ca) until you can recall them instantly — nearly every numerical in this chapter assumes you know them without being told. Then practise the criss-cross method on at least 15-20 compounds until writing a formula becomes automatic, including at least a few with polyatomic radicals (sulphate, carbonate, phosphate, nitrate, hydroxide, ammonium) and at least one element with variable valency (iron or copper).</p><p>For the mole concept, always write out the mass → moles → particles chain with units at every step; this is where most 3-mark and 5-mark numericals sit, and partial marks are awarded per step, so an unfinished but correctly set-up numerical still scores. Finally, keep the polyatomic ion table and the atomicity of P<sub>4</sub>, S<sub>8</sub> and O<sub>3</sub> on a small revision card — these three details are asked disproportionately often relative to how easy they are to learn.</p>",
+  "revision_checklist": [
+    "Can state the law of conservation of mass and the law of constant proportions word-perfectly.",
+    "Can name the scientist behind each law (Lavoisier — conservation of mass; Proust — constant proportions).",
+    "Can list all six postulates of Dalton's atomic theory and match two of them to the two laws.",
+    "Know the symbols and atomic masses of H, C, N, O, Na, Mg, Al, S, Cl, K, Ca without looking them up.",
+    "Know which element symbols come from Latin names (Na, K, Fe, Cu, Ag, Au, Hg, Sn, Pb, Sb, W).",
+    "Can define atomicity and give the atomicity of common elements including P<sub>4</sub> and S<sub>8</sub>.",
+    "Can distinguish a molecule of an element from a molecule of a compound with an example each.",
+    "Can define cation, anion and polyatomic ion, and recall the 6-7 common polyatomic ions with their charges.",
+    "Can write a chemical formula by the criss-cross method for at least 10 different compounds without hesitation.",
+    "Can explain variable valency with the iron or copper example.",
+    "Can calculate molecular mass for a molecule and formula unit mass for an ionic compound and state which term applies when.",
+    "Can define mole, molar mass and the Avogadro constant, and state the value 6.022 × 10<sup>23</sup> mol<sup>−1</sup>.",
+    "Can convert confidently between given mass, number of moles and number of particles, showing every step with units.",
+    "Have solved the law-of-conservation numerical (sodium carbonate + ethanoic acid, NCERT 3.1) at least once from memory."
+  ],
+  "videos": [
+    {
+      "id": "lwzq6p2O0os",
+      "title": "Atoms and Molecules · full chapter"
+    }
+  ]
+}

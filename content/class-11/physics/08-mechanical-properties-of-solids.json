@@ -1,0 +1,935 @@
+{
+  "class": 11,
+  "subject": "Physics",
+  "chapter_no": 8,
+  "slug": "mechanical-properties-of-solids",
+  "title": "Mechanical Properties of Solids",
+  "summary": "This chapter explains why solids resist and recover from deformation, using stress, strain, Hooke's law and the three elastic moduli, and then applies these ideas to real structures like cables, columns and beams. It has no Class 11 board exam, but it is tested in the school final and it is the direct foundation for elasticity questions in Class 12 boards, JEE and NEET.",
+  "exam_profile": {
+    "weightage": "In the Class 11 school final this chapter typically carries about 4–6 marks, usually one short numerical, one definition/derivation question and sometimes one assertion–reason or case-based item. It also feeds directly into JEE/NEET where elastic moduli numericals are a recurring, high-yield topic.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Units and dimensions of stress/strain, identifying which modulus applies to which deformation, reading a stress-strain curve."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Often built around why steel is 'more elastic' than rubber, or why fluids have no shear modulus."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Definitions of stress, strain, Hooke's law, Poisson's ratio, or a one-line conceptual trap question."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "A short numerical using Y, G or B, or a compare-and-explain question (steel vs rubber, elastic limit vs yield point)."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full derivation (Searle's method for Y, or elastic potential energy) plus a labelled stress-strain curve explanation."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage describing a tensile test or a loaded cable/column, with sub-questions on stress, strain, and the modulus."
+      }
+    ],
+    "hot_topics": [
+      "Stress-strain curve and its labelled regions",
+      "Young's modulus — definition, formula and numericals",
+      "Determining Y using Searle's apparatus",
+      "Shear modulus and bulk modulus numericals",
+      "Difference between elastic limit, yield point and fracture point",
+      "Elastic potential energy stored in a stretched wire",
+      "Why cables, columns and beams are shaped the way they are",
+      "Elastomers (rubber) vs ductile metals on a stress-strain graph"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "8.1–8.2 Introduction and Elastic Behaviour of Solids",
+      "pyq_years": [],
+      "body": "<p>Every solid has a definite shape and size because of the strong interatomic and intermolecular forces holding its atoms at their equilibrium positions. Pushing, pulling or twisting a solid applies a <b>deforming force</b>, displacing atoms slightly; this produces an internal <b>restoring force</b> that tries to bring the body back to its original shape once the force is removed. This tendency to regain original shape and size is called <b>elasticity</b>.</p><p>No material is perfectly elastic or perfectly plastic, but both are used as idealised limits. A body that regains its original configuration completely and instantly is <b>perfectly elastic</b> (quartz, phosphor bronze). A body with no tendency to recover, staying deformed, is <b>perfectly plastic</b> (putty, wet clay). Most engineering materials — steel, copper, aluminium — lie between these extremes: elastic up to a certain load, and permanently deformed beyond it.</p><p>Elastic behaviour comes entirely from interatomic forces. Every atom normally sits at its position of minimum potential energy; a deforming force shifts atoms from this position, and the interatomic force acts as a restoring force pulling them back — exactly like a compressed or stretched spring connecting neighbouring atoms.</p>",
+      "formulas": [],
+      "tip": "If a question asks for an everyday example, use rubber for elastic (within limits) and putty/mud for plastic — these are the pair NCERT itself uses, and examiners expect them."
+    },
+    {
+      "heading": "8.3 Stress and Strain",
+      "pyq_years": [],
+      "body": "<p>When a deforming force acts on a body, an internal restoring force develops that is equal and opposite to it in equilibrium. <b>Stress</b> is this restoring force per unit area, measured on any cross-section of the body.</p><p>Stress = Restoring force/Area. Its SI unit is N/m² (pascal, Pa), the same as pressure, and its dimensional formula is [ML<sup>−1</sup>T<sup>−2</sup>]. Stress is not exactly a vector since it does not add like a force, but for board purposes it is enough to know it is a force per unit area with the units of pressure.</p><p><b>Strain</b> is the fractional change in a body's dimension (length, shape or volume) due to the deforming force: Strain = change in dimension/original dimension. Being a ratio of two lengths (or volumes), <b>strain has no unit and no dimensions</b> — one of the most commonly tested facts in this chapter.</p><p>A common trap: writing a unit for strain, or forgetting to square the radius when finding area from a diameter given in mm. Always convert lengths to metres, and remember A = πr² uses the radius, not the diameter.</p>",
+      "formulas": [
+        {
+          "expr": "Stress = F/A",
+          "where": [
+            [
+              "F",
+              "restoring force (N), equal in magnitude to the applied deforming force in equilibrium"
+            ],
+            [
+              "A",
+              "area of cross-section (m<sup>2</sup>) over which the force acts"
+            ]
+          ]
+        },
+        {
+          "expr": "Strain = (change in dimension)/(original dimension)",
+          "where": [
+            [
+              "Strain",
+              "dimensionless ratio, no SI unit"
+            ]
+          ]
+        }
+      ],
+      "tip": "Stress and pressure have the same unit (Pa) and the same dimensions, but stress can act along, across or perpendicular to a surface, while pressure is always normal (perpendicular) to the surface."
+    },
+    {
+      "heading": "8.3.1–8.3.3 Types of Stress and Strain",
+      "pyq_years": [],
+      "body": "<p>Depending on how the deforming force is applied, stress and strain are classified into three kinds.</p><p><b>1. Longitudinal (tensile/compressive) stress and strain.</b> When two equal and opposite forces act along a rod's length, normal to its cross-section, and change its length, the stress is longitudinal stress, and the strain — ΔL/L — is longitudinal strain. Length increasing is <b>tensile</b>; length decreasing (compression) is <b>compressive</b>.</p><p><b>2. Shearing stress and strain.</b> When equal and opposite tangential forces act on the top and bottom faces of a body, keeping the bottom fixed, its shape changes but its volume stays the same — one face slides relative to the other. The tangential force per unit area is the shearing stress; the resulting angle of shear θ (≈ Δx/L for small deformations) is the shearing strain.</p><p><b>3. Hydraulic (volume) stress and strain.</b> When a body is subjected to uniform pressure from all sides, its volume changes without any change in shape. The pressure applied is hydraulic (volume) stress, and ΔV/V is the volume strain — the only kind of stress a fluid at rest can support, since it cannot resist a shearing force.</p>",
+      "formulas": [
+        {
+          "expr": "Longitudinal strain = ΔL/L",
+          "where": [
+            [
+              "ΔL",
+              "change in length"
+            ],
+            [
+              "L",
+              "original length"
+            ]
+          ]
+        },
+        {
+          "expr": "Shearing strain, θ ≈ Δx/L",
+          "where": [
+            [
+              "Δx",
+              "relative displacement of the top face"
+            ],
+            [
+              "L",
+              "height/thickness of the block, θ in radians"
+            ]
+          ]
+        },
+        {
+          "expr": "Volume strain = ΔV/V",
+          "where": [
+            [
+              "ΔV",
+              "change in volume"
+            ],
+            [
+              "V",
+              "original volume"
+            ]
+          ]
+        }
+      ],
+      "tip": "A one-mark favourite: a fluid at rest has zero shear modulus because it offers no resistance to a tangential force — it simply flows."
+    },
+    {
+      "heading": "8.4 Hooke's Law",
+      "pyq_years": [],
+      "body": "<p>Robert Hooke found experimentally that, for small deformations, the stress developed in a solid is directly proportional to the strain produced, provided the strain stays small: <b>stress ∝ strain</b>. This is <b>Hooke's law</b>, and it holds only within a certain range called the <b>elastic limit</b> — beyond this limit, stress and strain are no longer proportional, though the body may still be elastic for a little longer before permanent deformation sets in.</p><p>The constant of proportionality connecting stress and strain for a given type of deformation is called the <b>modulus of elasticity</b> for that deformation. It has the same unit as stress (Pa), because strain itself has no unit. Three moduli are defined for the three kinds of strain described above — Young's modulus (for longitudinal strain), shear modulus (for shearing strain) and bulk modulus (for volume strain) — and these are studied in detail later in the chapter.</p><p>It is worth being precise in an exam answer: Hooke's law is an experimental law with a <b>restricted range of validity</b>, not a universal one. Every real material eventually departs from this linear behaviour as the load increases, and this departure is exactly what the stress-strain curve in the next section is designed to show.</p>",
+      "formulas": [
+        {
+          "expr": "Stress = k × Strain, i.e. stress/strain = constant (modulus of elasticity)",
+          "where": [
+            [
+              "k",
+              "modulus of elasticity for the given type of deformation (Y, G or B)"
+            ]
+          ]
+        }
+      ],
+      "tip": "If asked to 'state Hooke's law', always add the phrase 'within the elastic limit' — many marking schemes deduct a mark for stating the proportionality alone."
+    },
+    {
+      "heading": "8.5 Stress-Strain Curve",
+      "pyq_years": [],
+      "body": "<p>A stress-strain curve plots the stress developed in a test wire against the strain produced, as the load is increased gradually until it breaks. For a ductile metal such as copper or mild steel, the curve has these labelled regions:</p><ul><li><b>Proportional limit (O to A):</b> a straight line through the origin; stress ∝ strain, Hooke's law holds, and the slope equals the Young's modulus.</li><li><b>Elastic limit (near A/B):</b> the highest stress up to which the material fully returns to its original dimensions on unloading.</li><li><b>Yield point (B):</b> beyond this, strain increases rapidly for a small stress increase, and permanent deformation begins.</li><li><b>Plastic region (B to D):</b> permanent deformation; the body will not return to its original shape.</li><li><b>Ultimate tensile strength (D):</b> the maximum stress before the cross-section necks down rapidly.</li><li><b>Fracture point (E):</b> where the wire finally breaks.</li></ul><p>Materials behave very differently here. <b>Ductile</b> materials (copper, mild steel) show a long plastic region and can be drawn into wires. <b>Brittle</b> materials (cast iron, glass) fracture soon after the elastic limit, with almost no plastic region. <b>Elastomers</b> (rubber) show large strain for small stress and a markedly non-linear curve, with no proportional or plastic region — yet remain elastic because they still return to their original length.</p>",
+      "formulas": [],
+      "tip": "When asked to sketch this curve, always mark the origin, label O-A as a straight line, mark B as the yield point, D as the highest point (UTS) and E as the break — five labelled points earn full marks even without perfect proportions."
+    },
+    {
+      "heading": "8.6.1–8.6.2 Young's Modulus",
+      "pyq_years": [],
+      "body": "<p><b>Young's modulus (Y)</b> is the ratio of longitudinal stress to longitudinal strain, within the elastic limit. Since strain is dimensionless, Y carries the unit of stress, Pa, and dimensional formula [ML<sup>−1</sup>T<sup>−2</sup>].</p><p>A larger Y means a <b>stiffer</b> material. Steel (Y ≈ 2.0 × 10<sup>11</sup> Pa) is about 3 times stiffer than copper (≈ 1.1–1.3 × 10<sup>11</sup> Pa) and aluminium (≈ 7.0 × 10<sup>10</sup> Pa) — exactly why steel is used for load-bearing structures.</p><p><b>Determining Y (Searle's apparatus).</b> A reference wire and an experimental wire hang side by side from a rigid support, joined at the bottom by a frame with a spirit level and vernier scale. The reference wire, kept taut by a fixed weight, cancels out effects of temperature change or support yielding, since both wires are affected equally. A small initial load removes kinks in the experimental wire before the zero reading; the load is then increased in steps, and elongation ΔL read off each time. With length L and area A = πr² (r from a screw gauge), Y = FL/(AΔL) is found for each load. A stress-strain graph gives a straight line through the origin whose slope is the most reliable value of Y.</p>",
+      "formulas": [
+        {
+          "expr": "Y = (F/A) / (ΔL/L) = FL / (AΔL)",
+          "where": [
+            [
+              "F",
+              "applied force (N)"
+            ],
+            [
+              "A",
+              "cross-sectional area of the wire (m<sup>2</sup>)"
+            ],
+            [
+              "L",
+              "original length of the wire (m)"
+            ],
+            [
+              "ΔL",
+              "elongation produced (m)"
+            ]
+          ]
+        }
+      ],
+      "tip": "In the worked example 'a steel rod of radius 10 mm, length 1.0 m, stretched by 100 kN', the answer is stress ≈ 3.18 × 10<sup>8</sup> Pa, strain ≈ 1.59 × 10<sup>−3</sup>, elongation ≈ 1.59 mm — this exact set of numbers has appeared in several school papers, so it's worth memorising the method, not just the answer."
+    },
+    {
+      "heading": "8.6.3 Shear Modulus (Modulus of Rigidity)",
+      "pyq_years": [],
+      "body": "<p>The <b>shear modulus (G)</b>, also called the modulus of rigidity, is the ratio of shearing stress to shearing strain, within the elastic limit. Its SI unit is again the pascal, since shearing strain (the angle θ) is dimensionless.</p><p>For a rectangular block of height L, if a tangential force F is applied on the top face of area A while the bottom is fixed, and the top face shifts sideways by Δx, then the shearing strain is θ = Δx/L (for small θ), and G = (F/A)/θ.</p><p>For most solids, G is smaller than Y — typically G is roughly a third of Y for common metals — because it is generally easier to change a solid's shape (slide layers past each other) than to stretch its bonds along a line. This is also why a solid loses its shape (shears) more easily than it loses its volume.</p><p>Only solids possess a meaningful shear modulus. Fluids (liquids and gases) at rest cannot sustain a shearing stress at all — they simply flow to relieve it — so their shear modulus is taken as zero. This single fact is one of the most repeated one-mark/assertion-reason questions from this section.</p>",
+      "formulas": [
+        {
+          "expr": "G = shearing stress / shearing strain = (F/A) / θ",
+          "where": [
+            [
+              "F",
+              "tangential (shearing) force (N)"
+            ],
+            [
+              "A",
+              "area of the face on which the force acts (m<sup>2</sup>)"
+            ],
+            [
+              "θ",
+              "angle of shear, in radians (dimensionless)"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a question gives a cube with a shearing force on the top face and the bottom fixed, first find shear stress = F/A, then strain = stress/G, then the displacement = strain × height of the cube — three simple steps, in that order."
+    },
+    {
+      "heading": "8.6.4 Bulk Modulus, Compressibility and Poisson's Ratio",
+      "pyq_years": [],
+      "body": "<p>The <b>bulk modulus (B)</b> is the modulus of elasticity for volume strain: the ratio of hydraulic (volume) stress to volume strain, within the elastic limit. Since a pressure increase always decreases volume, ΔV is negative when p is positive; the negative sign is included purely so B itself comes out positive.</p><p>Solids have the largest bulk modulus, liquids intermediate values, and gases very small ones — this is why gases compress far more easily than liquids, and liquids more than solids. Water's B (≈ 2.2 × 10<sup>9</sup> Pa) is roughly a thousand times that of air, and steel's (≈ 1.6 × 10<sup>11</sup> Pa) roughly a hundred times that of water. The reciprocal of B is <b>compressibility</b>, k = 1/B — a large B means small compressibility, i.e. hard to compress; a common mix-up is reading a large B as 'compresses easily', which is the opposite of the truth.</p><p>When a wire stretches, it also gets very slightly thinner. The ratio of this lateral strain to the longitudinal strain is <b>Poisson's ratio (σ)</b> — dimensionless, typically 0.2–0.4 for common materials.</p><p><b>Elastic potential energy in a stretched wire.</b> Work done stretching a wire is stored as elastic potential energy. For a wire of length L, area A, obeying Hooke's law, tension at extension x is F = YAx/L, so W = ∫<sub>0</sub><sup>ΔL</sup> F dx = ½ Y A (ΔL)²/L. Using stress = YΔL/L and volume = AL, this becomes U = ½ × stress × strain × volume, so energy stored <b>per unit volume</b> is u = ½ × stress × strain = ½ Y (strain)².</p>",
+      "formulas": [
+        {
+          "expr": "B = −p / (ΔV/V)",
+          "where": [
+            [
+              "p",
+              "hydraulic pressure applied (Pa)"
+            ],
+            [
+              "ΔV/V",
+              "volume strain (negative for compression, so B is positive)"
+            ]
+          ]
+        },
+        {
+          "expr": "Compressibility, k = 1/B",
+          "where": [
+            [
+              "k",
+              "SI unit Pa<sup>−1</sup>"
+            ]
+          ]
+        },
+        {
+          "expr": "Poisson's ratio, σ = lateral strain / longitudinal strain",
+          "where": [
+            [
+              "σ",
+              "dimensionless, roughly 0.2–0.4 for common metals"
+            ]
+          ]
+        },
+        {
+          "expr": "u = ½ × stress × strain = ½ Y (strain)<sup>2</sup>",
+          "where": [
+            [
+              "u",
+              "elastic potential energy stored per unit volume of the stretched wire (J/m<sup>3</sup>)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Derive u = ½ × stress × strain step by step if a 5-mark question asks for it — the marking scheme usually gives separate marks for writing F = YAx/L, for the integration, and for the final simplified form."
+    },
+    {
+      "heading": "8.7 Applications of Elastic Behaviour of Materials",
+      "pyq_years": [],
+      "body": "<p>The elastic moduli directly decide how engineers design cables, columns, pillars and beams.</p><p><b>Cranes and lifts.</b> Steel ropes are chosen thick enough that the maximum stress stays well below the elastic limit of steel, with a safety margin. Steel is preferred here specifically for its very high Young's modulus — for the same load, it stretches far less than copper, aluminium or a fibre rope, so the load barely moves the cable.</p><p><b>Columns and pillars.</b> A column under a compressive load can fail not just by crushing but by <b>bending/buckling</b> sideways if it is too thin for its height. Engineers use thick pillars, or more efficiently, <b>hollow cylindrical columns</b>: for the same mass as a solid column, spreading the material to a larger radius resists bending much better, because bending resistance depends strongly on how far material sits from the central axis, not just on the cross-sectional area. This is why many concrete pillars and bridge legs are hollow or ring-shaped rather than solid.</p><p><b>Beams and girders.</b> A beam of length l, breadth b and depth d, supported at both ends and loaded with weight W at the middle, sags by δ = Wl³/(4bd³Y). Since depression falls as d³, increasing depth reduces sag far more effectively than increasing breadth, for the same material. This is why girders and rails use an <b>I-shaped cross-section</b>: material is concentrated in the top and bottom flanges (farthest from the neutral axis, where bending stress is largest), while the thin web near the neutral axis (where bending stress is nearly zero) saves weight without sacrificing strength.</p>",
+      "formulas": [
+        {
+          "expr": "δ = Wl<sup>3</sup> / (4bd<sup>3</sup>Y)",
+          "where": [
+            [
+              "δ",
+              "depression (sag) at the middle of the beam (m)"
+            ],
+            [
+              "W",
+              "load applied at the middle (N)"
+            ],
+            [
+              "l",
+              "length of the beam between supports (m)"
+            ],
+            [
+              "b, d",
+              "breadth and depth (thickness) of the beam's cross-section (m)"
+            ],
+            [
+              "Y",
+              "Young's modulus of the beam's material (Pa)"
+            ]
+          ]
+        }
+      ],
+      "tip": "For a 'why' question on I-beams or hollow pillars, always mention that bending resistance depends on how far material sits from the neutral axis (or central axis), not just on how much material is used — that phrase is exactly what the NCERT explanation is built on."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Elasticity",
+      "definition": "Property by which a body regains its original shape and size after the deforming force is removed."
+    },
+    {
+      "term": "Plasticity",
+      "definition": "Property by which a body does not regain its original shape after the deforming force is removed; the deformation is permanent."
+    },
+    {
+      "term": "Elastic limit",
+      "definition": "The maximum stress up to which a body returns completely to its original dimensions once the deforming force is removed."
+    },
+    {
+      "term": "Stress",
+      "definition": "Restoring force per unit area developed in a body under a deforming force; SI unit Pa, same dimensions as pressure."
+    },
+    {
+      "term": "Strain",
+      "definition": "Fractional change in a body's dimension caused by a deforming force; a dimensionless ratio with no unit."
+    },
+    {
+      "term": "Hooke's law",
+      "definition": "Within the elastic limit, stress is directly proportional to strain; the constant of proportionality is the modulus of elasticity."
+    },
+    {
+      "term": "Young's modulus (Y)",
+      "definition": "Ratio of longitudinal stress to longitudinal strain within the elastic limit; measures a solid's resistance to stretching or compressing along its length."
+    },
+    {
+      "term": "Shear modulus / Modulus of rigidity (G)",
+      "definition": "Ratio of shearing stress to shearing strain within the elastic limit; defined only for solids, since fluids at rest cannot sustain a shearing stress."
+    },
+    {
+      "term": "Bulk modulus (B)",
+      "definition": "Ratio of hydraulic (volume) stress to volume strain within the elastic limit; defined for solids, liquids and gases."
+    },
+    {
+      "term": "Poisson's ratio (σ)",
+      "definition": "Ratio of lateral strain to longitudinal strain in a stretched wire; dimensionless, roughly 0.2–0.4 for common metals."
+    },
+    {
+      "term": "Elastomer",
+      "definition": "A material like rubber that stretches to a large strain under small stress and shows a strongly non-linear stress-strain curve, with no proportional or plastic region."
+    },
+    {
+      "term": "Ductile material",
+      "definition": "A material such as copper or mild steel with a long plastic region, that can be drawn into thin wires before fracturing."
+    },
+    {
+      "term": "Brittle material",
+      "definition": "A material such as glass or cast iron that fractures soon after the elastic limit, with almost no plastic deformation."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Stress",
+      "expr": "Stress = F/A",
+      "note": "SI unit Pa (N/m<sup>2</sup>); use the actual cross-sectional area, A = πr<sup>2</sup> for a wire."
+    },
+    {
+      "name": "Longitudinal strain",
+      "expr": "Strain = ΔL/L",
+      "note": "Dimensionless; no unit."
+    },
+    {
+      "name": "Hooke's law / modulus of elasticity",
+      "expr": "Modulus = Stress/Strain",
+      "note": "Holds only within the elastic limit."
+    },
+    {
+      "name": "Young's modulus",
+      "expr": "Y = (F/A)/(ΔL/L) = FL/(AΔL)",
+      "note": "Applies to longitudinal stress and strain; steel ≈ 2.0 × 10<sup>11</sup> Pa, copper ≈ 1.1–1.3 × 10<sup>11</sup> Pa, aluminium ≈ 7.0 × 10<sup>10</sup> Pa."
+    },
+    {
+      "name": "Shear modulus",
+      "expr": "G = (F/A)/θ",
+      "note": "θ is the angle of shear in radians; defined only for solids."
+    },
+    {
+      "name": "Bulk modulus",
+      "expr": "B = −p/(ΔV/V)",
+      "note": "Negative sign keeps B positive since ΔV is negative for a pressure increase; solids > liquids > gases."
+    },
+    {
+      "name": "Compressibility",
+      "expr": "k = 1/B",
+      "note": "SI unit Pa<sup>−1</sup>; larger B means smaller (harder) compressibility."
+    },
+    {
+      "name": "Poisson's ratio",
+      "expr": "σ = lateral strain/longitudinal strain",
+      "note": "Dimensionless; roughly 0.2–0.4 for common metals."
+    },
+    {
+      "name": "Elastic potential energy per unit volume",
+      "expr": "u = ½ × stress × strain = ½ Y (strain)<sup>2</sup>",
+      "note": "Total energy stored, U = u × volume of the wire."
+    },
+    {
+      "name": "Depression of a loaded beam",
+      "expr": "δ = Wl<sup>3</sup>/(4bd<sup>3</sup>Y)",
+      "note": "For a beam supported at both ends, loaded at the middle; δ falls sharply as depth d increases."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Stress-strain curve for a ductile metal",
+      "how_to_draw": "Stress on the y-axis, strain on the x-axis. Draw straight line OA through the origin (label 'Hooke's law, slope = Y'), a curve bending to point B ('yield point'), rising gently to peak D ('ultimate tensile strength'), then falling to E ('fracture point'). Mark O-to-B as 'elastic region' and B-to-E as 'plastic region'."
+    },
+    {
+      "title": "Three types of stress and strain",
+      "how_to_draw": "Three panels. Panel 1: a rod with opposite arrows pulling outward along its length, labelled 'longitudinal stress'. Panel 2: a block fixed at the bottom with an arrow pushing the top sideways into a parallelogram, labelled 'shearing stress, angle θ'. Panel 3: a sphere with inward arrows from all sides shrinking slightly, labelled 'hydraulic (volume) stress'."
+    },
+    {
+      "title": "Searle's apparatus for measuring Young's modulus",
+      "how_to_draw": "A rigid support from which two thin wires hang side by side: the reference wire (fixed small weight) and the experimental wire (loaded hanger). Join them at the bottom with a frame carrying a spirit level and vernier scale that reads the experimental wire's relative extension. Label the initial load, the added weights, and the vernier scale."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "8.1",
+      "q": "Two metal wires, P and Q, of the same length and the same area of cross-section are stretched by identical loads. On plotting stress against strain, wire P shows a steeper straight-line graph than wire Q, and wire Q continues to stretch over a longer plastic region before it finally breaks. (a) Which wire has the greater Young's modulus? (b) Which wire would you call more ductile?",
+      "a": "<p>(a) The slope of the linear part of a stress-strain graph equals Young's modulus, so wire P (steeper) has the greater Y — it is stiffer.</p><p>(b) Ductility is judged by how much plastic deformation a material undergoes before fracture. Wire Q, with the longer plastic region, is the more ductile.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.2",
+      "q": "A structural steel rod has a radius of 10 mm and a length of 1.0 m. A force of 100 kN stretches it along its length. Calculate (a) the stress, (b) the elongation, and (c) the strain produced in the rod. Take Young's modulus of steel, Y = 2.0 × 10<sup>11</sup> Pa.",
+      "a": "<p>r = 1.0 × 10<sup>−2</sup> m, A = πr<sup>2</sup> = 3.14 × 10<sup>−4</sup> m<sup>2</sup>.</p><p>(a) Stress = F/A = (100 × 10<sup>3</sup>)/(3.14 × 10<sup>−4</sup>) ≈ 3.18 × 10<sup>8</sup> Pa.</p><p>(b) Strain = Stress/Y ≈ 1.59 × 10<sup>−3</sup>.</p><p>(c) Elongation ΔL = Strain × L ≈ 1.59 × 10<sup>−3</sup> m = 1.59 mm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.3",
+      "q": "A copper wire of length 2.2 m and diameter 1.3 mm is stretched by applying a force of 40 N. Given Young's modulus of copper, Y = 1.1 × 10<sup>11</sup> Pa, find the elongation produced in the wire.",
+      "a": "<p>r = 6.5 × 10<sup>−4</sup> m, A = πr<sup>2</sup> ≈ 1.33 × 10<sup>−6</sup> m<sup>2</sup>.</p><p>Stress = F/A ≈ 3.01 × 10<sup>7</sup> Pa. Strain = Stress/Y ≈ 2.74 × 10<sup>−4</sup>.</p><p>Elongation ΔL = Strain × L ≈ 6.0 × 10<sup>−4</sup> m ≈ 0.60 mm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.4",
+      "q": "Four identical hollow cylindrical steel columns support a total load of 50,000 kg. The inner and outer radii of each column are 30 cm and 60 cm respectively. Assuming the load is equally distributed, calculate the compressional strain of each column. Young's modulus of steel, Y = 2.0 × 10<sup>11</sup> Pa (g = 9.8 m/s<sup>2</sup>).",
+      "a": "<p>Total force = mg = 4.9 × 10<sup>5</sup> N; per column, F = 1.225 × 10<sup>5</sup> N.</p><p>A = π(R<sup>2</sup> − r<sup>2</sup>) = π(0.36 − 0.09) ≈ 0.848 m<sup>2</sup>.</p><p>Stress = F/A ≈ 1.44 × 10<sup>5</sup> Pa. Strain = Stress/Y ≈ 7.2 × 10<sup>−7</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.5",
+      "q": "A cube of aluminium of side 10 cm is subjected to a shearing force of 100 kN applied on its top face, with the bottom face held fixed. Given the shear modulus of aluminium, G = 25 × 10<sup>9</sup> Pa, calculate (a) the shearing strain and (b) the horizontal displacement of the top face.",
+      "a": "<p>A = 0.01 m<sup>2</sup>. Shear stress = F/A = 1.0 × 10<sup>7</sup> Pa.</p><p>(a) θ = stress/G = 4.0 × 10<sup>−4</sup> rad.</p><p>(b) Δx = θ × L = 4.0 × 10<sup>−5</sup> m = 0.04 mm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.6",
+      "q": "A piece of copper of volume 1.0 × 10<sup>−3</sup> m<sup>3</sup> is subjected to a hydraulic pressure of 7.0 × 10<sup>6</sup> Pa. The compressibility of copper is 7.8 × 10<sup>−11</sup> Pa<sup>−1</sup>. Find the change in the volume of the piece.",
+      "a": "<p>ΔV = k × p × V = (7.8 × 10<sup>−11</sup>) × (7.0 × 10<sup>6</sup>) × (1.0 × 10<sup>−3</sup>) ≈ 5.46 × 10<sup>−7</sup> m<sup>3</sup>, a decrease.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.7",
+      "q": "Why is steel preferred over copper, brass or aluminium in the manufacture of heavy-duty machine parts and load-bearing structures, even though these other metals are also elastic?",
+      "a": "<p>Steel has a much higher Young's modulus (≈ 2.0 × 10<sup>11</sup> Pa) than copper, brass or aluminium, so for the same stress it deforms far less. Since structures must not sag or bend appreciably under load, steel's greater stiffness makes it the safer, more reliable choice.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.8",
+      "q": "Define Poisson's ratio. State the typical range of its value for common engineering materials such as steel and aluminium.",
+      "a": "<p>When a wire stretches, its length increases (longitudinal strain) but its diameter decreases slightly (lateral strain). Poisson's ratio σ = lateral strain/longitudinal strain, a dimensionless number, typically 0.2–0.4 for common materials like steel and aluminium.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.9",
+      "q": "Derive an expression for the elastic potential energy stored per unit volume in a wire that is stretched by an amount ΔL, obeying Hooke's law throughout.",
+      "a": "<p>Consider a wire of natural length L and cross-sectional area A. When stretched by a small extra amount dx at extension x (0 ≤ x ≤ ΔL), Hooke's law gives the tension F = YAx/L, where Y is the Young's modulus.</p><p>Work done, dW = F dx = (YAx/L) dx. Total work stretching from x = 0 to ΔL: W = ∫<sub>0</sub><sup>ΔL</sup> (YAx/L) dx = ½ Y A (ΔL)<sup>2</sup>/L.</p><p>This is stored as elastic potential energy U. Writing stress = YΔL/L and volume = AL, U = ½ × stress × strain × volume, so the energy per unit volume is u = ½ × stress × strain = ½ Y (strain)<sup>2</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.10",
+      "q": "Explain, using the idea of an elastic limit, roughly why there is a natural upper limit to the height of a mountain on the Earth. (Take the elastic limit of typical rock as about 3 × 10<sup>8</sup> Pa, density of rock ρ ≈ 3 × 10<sup>3</sup> kg/m<sup>3</sup>, g ≈ 10 m/s<sup>2</sup>.)",
+      "a": "<p>At the base of a mountain of height h, the rock bears the weight of the column above it: stress ≈ hρg (base area cancels).</p><p>The base will not flow plastically as long as this stress stays below the rock's elastic limit P<sub>max</sub>, so the greatest stable height is h = P<sub>max</sub>/(ρg) = (3 × 10<sup>8</sup>)/(3 × 10<sup>3</sup> × 10) = 1.0 × 10<sup>4</sup> m = 10 km.</p><p>This rough estimate is remarkably close to Mount Everest's actual height (about 8.8 km) — beyond this limit, the base rock would exceed its elastic limit and flow.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.11",
+      "q": "A wire stretches by 1 mm when a load W is hung from one end, the other end being fixed to a rigid support. The same wire is now passed over a smooth, frictionless pulley, and equal weights W are hung from each of its two ends. What is the extension of the wire now?",
+      "a": "<p>Extension depends only on the tension in the wire, not on how it is produced. In the first case, tension = W, giving 1 mm extension.</p><p>Over a smooth, massless pulley with equal weights W at both ends, the system is in equilibrium and the tension throughout the wire is still just W — the two weights balance each other via the pulley rather than adding to 2W.</p><p>Since tension is unchanged, the extension remains 1 mm.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.12",
+      "q": "Why is a hollow cylindrical pillar generally preferred over a solid pillar of the same mass in building construction?",
+      "a": "<p>A pillar's resistance to bending depends strongly on how far its material sits from the central axis, not just on the total material used. For the same mass, a hollow pillar has a larger radius, so its material lies farther from the axis, giving much greater bending resistance for the same weight — which is why hollow pillars are preferred; they use material more efficiently.</p>",
+      "marks": 2
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The SI unit of stress is the same as the SI unit of:",
+      "options": [
+        "Force",
+        "Pressure",
+        "Energy",
+        "Strain"
+      ],
+      "answer": "b",
+      "solution": "Stress and pressure are both force/area, so both are measured in Pa."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A rubber band is stretched and, on releasing the applied force, it regains almost its original length instantly. This is an example of:",
+      "options": [
+        "Elastic behaviour",
+        "Plastic behaviour",
+        "Rigidity",
+        "Ductility"
+      ],
+      "answer": "a",
+      "solution": "Recovering original shape and size on removing the force is elastic behaviour."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "For a given material, the shear modulus (G) compared with its Young's modulus (Y) is generally:",
+      "options": [
+        "G > Y",
+        "G = Y",
+        "G < Y",
+        "G = 2Y"
+      ],
+      "answer": "c",
+      "solution": "It is generally easier to change a solid's shape than to stretch it, so G is usually smaller than Y."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A wire of original length L and cross-sectional area A obeys Hooke's law and stretches by ΔL under a load F, with Young's modulus Y. Which expression correctly gives F?",
+      "options": [
+        "F = YA/(LΔL)",
+        "F = YAΔL/L",
+        "F = YLΔL/A",
+        "F = YL/(AΔL)"
+      ],
+      "answer": "b",
+      "solution": "From Y = FL/(AΔL), F = YAΔL/L."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following materials shows a large strain for comparatively small stress, with no well-defined plastic region before it fails?",
+      "options": [
+        "Mild steel",
+        "Cast iron",
+        "Rubber",
+        "Copper"
+      ],
+      "answer": "c",
+      "solution": "Rubber is an elastomer: its curve is strongly non-linear, stretching to a large strain under small stress with no distinct plastic region."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In the relation B = −p/(ΔV/V), the negative sign is included because:",
+      "options": [
+        "Pressure is always taken as negative",
+        "Volume increases as pressure increases",
+        "Volume decreases as pressure increases, so B itself is positive",
+        "The material is always brittle"
+      ],
+      "answer": "c",
+      "solution": "ΔV is negative for a pressure increase; the minus sign keeps B positive."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Steel is described as more elastic than rubber. Reason (R): For the same applied stress, steel undergoes a smaller strain than rubber.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Steel's much higher Y gives it a smaller strain for the same stress, which is exactly why it is called more elastic."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A hollow cylindrical column can be more effective than a solid column of the same mass in supporting a building. Reason (R): Resistance to bending depends strongly on how far the material of the column is spread from its central axis, not merely on the total cross-sectional area.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "For the same mass, a hollow column has a larger radius, so its material sits farther from the central axis, which is exactly why it resists bending better."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): When a gas is compressed uniformly on all sides, the strain produced in it is called shearing strain. Reason (R): Shearing strain arises when a tangential force changes the shape of a body while its volume stays unchanged.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "A is false: uniform compression is volume (hydraulic) strain, not shearing strain. R is a correct definition on its own, so it does not explain A."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State Hooke's law. Within what limit does it hold?",
+      "answer": "<p>Within the elastic limit, the stress developed in a body is directly proportional to the strain produced: stress ∝ strain. The constant of proportionality is the modulus of elasticity. This holds only within the elastic limit; beyond it, stress and strain are no longer proportional.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why does the stress-strain curve for an elastomer like rubber look very different from that of a metal like steel?",
+      "answer": "<p>Steel obeys Hooke's law over a good range: its graph is a straight line through the origin up to the elastic limit, then a short plastic region before fracture at high stress, small strain. Rubber, an elastomer, stretches to a large strain under small stress, and its graph is curved (non-linear) from the start, with no straight-line or plastic region — yet it still returns close to its original length, so it remains elastic.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define compressibility of a substance and state its SI unit.",
+      "answer": "<p>The compressibility of a substance is the reciprocal of its bulk modulus: k = 1/B. It measures how readily the volume of a substance changes under an applied pressure — a substance with high compressibility (low B), such as a gas, changes volume easily, while one with low compressibility (high B), such as a solid, resists volume change. Its SI unit is Pa<sup>−1</sup> (the reciprocal of the pascal).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A wire stretches by 1 mm under a load W hung from its lower end. The same wire is passed over a smooth pulley and equal weights W are hung from its two ends. What will its extension be now, and why?",
+      "answer": "<p>Still 1 mm. Extension depends only on the tension in the wire. Over a smooth, frictionless pulley, equal weights W at each end still give a tension of only W throughout (they balance each other via the pulley, not add to 2W). Since the tension is unchanged, the extension stays 1 mm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Distinguish between the elastic limit and the yield point of a material, referring to the stress-strain curve.",
+      "answer": "<p>The <b>elastic limit</b> is the highest stress up to which a material returns completely to its original dimensions the instant the deforming force is removed. The <b>yield point</b> is a slightly later point at which strain suddenly begins to increase rapidly for only a small further rise in stress, marking the clear onset of large-scale plastic (permanent) flow. The two lie close together, but the elastic limit marks the boundary of full recovery, while the yield point marks the onset of rapid, sustained plastic deformation.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain, with reasoning, why steel cables (not rubber ropes) are used for bridges and cranes, even though rubber can stretch to a far greater strain without breaking.",
+      "answer": "<p>What matters structurally is not how far a material can stretch before breaking, but how little it deforms under the working load. Steel has a very high Young's modulus (≈ 2 × 10<sup>11</sup> Pa) compared to rubber, so for the same stress it produces a strain thousands of times smaller. A steel cable therefore sags only a tiny, controlled amount under load, keeping the structure rigid and predictable, whereas a rubber cable would stretch visibly and unpredictably, making it unsafe for a load-bearing member.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A copper wire of length 2.2 m and diameter 1.3 mm is stretched by a force of 40 N. Given Young's modulus of copper Y = 1.1 × 10<sup>11</sup> Pa, calculate the elongation produced.",
+      "answer": "<p>r = 0.65 mm = 6.5 × 10<sup>−4</sup> m, A = πr<sup>2</sup> ≈ 1.33 × 10<sup>−6</sup> m<sup>2</sup>.</p><p>Stress = F/A = 40/(1.33 × 10<sup>−6</sup>) ≈ 3.01 × 10<sup>7</sup> Pa. Strain = Stress/Y ≈ 2.74 × 10<sup>−4</sup>.</p><p>Elongation = Strain × L ≈ 2.74 × 10<sup>−4</sup> × 2.2 ≈ 6.0 × 10<sup>−4</sup> m ≈ 0.60 mm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State and briefly explain the three types of strain, giving one example situation for each.",
+      "answer": "<p><b>Longitudinal strain</b>: fractional change in length when a rod is stretched or compressed along its length, e.g. a wire pulled by a hanging weight. <b>Shearing strain</b>: the angle of shear from a tangential force that changes shape without changing volume, e.g. pushing sideways on a book's top while its base stays fixed. <b>Volume strain</b>: fractional change in volume under uniform pressure from all sides, e.g. a solid deep in water.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe, with a labelled diagram in mind, how Searle's apparatus is used to determine the Young's modulus of the material of a wire. Include the formula used and explain the purpose of the reference wire.",
+      "answer": "<p><b>Setup:</b> Two long, thin wires of the same material and length hang side by side from a common rigid support. The <b>reference wire</b> is kept taut by a small fixed weight; the <b>experimental wire</b> carries a hanger for the load. Their lower ends are joined by a frame fitted with a spirit level and a vernier scale that reads the relative extension of the experimental wire against the reference wire.</p><p><b>Purpose of the reference wire:</b> Since both wires hang from the same support, any change from temperature variation or sagging of the support affects both equally and cancels out in the relative reading — so the vernier reading reflects only the true extension due to the load.</p><p><b>Procedure:</b> A small initial load straightens out kinks, and the vernier reading is noted as zero. The load is increased in equal steps, and the extension ΔL is read for each load F, keeping the spirit level horizontal. The wire's diameter is measured with a screw gauge (giving A = πr<sup>2</sup>) and its length L with a metre scale.</p><p><b>Calculation:</b> Y = FL/(AΔL) for each load. Plotting stress (F/A) against strain (ΔL/L) gives a straight line through the origin, and its slope is the most reliable value of Y, since it is based on several readings rather than one.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Sketch and explain a typical stress-strain curve for a ductile metal wire loaded until it breaks. Label all the important points and explain the significance of each region for the design of structures.",
+      "answer": "<p>On a graph of stress (y-axis) against strain (x-axis), a ductile metal such as mild steel shows: (i) a straight line OA through the origin, where Hooke's law holds and the slope equals Young's modulus; (ii) a point near A/B, the <b>elastic limit</b>, up to which the wire fully recovers on removing the load; (iii) the <b>yield point B</b>, beyond which strain grows rapidly for a small rise in stress and permanent deformation begins; (iv) the <b>plastic region B to D</b>, where deformation is permanent; (v) point <b>D</b>, the <b>ultimate tensile strength</b>, the highest stress the wire bears before necking rapidly; (vi) point <b>E</b>, the <b>fracture point</b>, where it breaks.</p><p><b>Significance for design:</b> Structures are always designed so the maximum working stress stays well within the elastic limit (O to near B), with a safety margin, so the material never enters the plastic region in service. The ultimate tensile strength (D) only sets the absolute survival limit, used to compute the margin of safety — never used as a working limit. This is why cable, beam and column calculations are always based on the elastic region, not the breaking strength.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Estimate the maximum possible height of a mountain on Earth, given that rock at the base can withstand a maximum compressive stress (its elastic limit) of about 3 × 10<sup>8</sup> Pa, the density of rock is about 3 × 10<sup>3</sup> kg/m<sup>3</sup>, and g ≈ 10 m/s<sup>2</sup>. Explain the physical reasoning behind your estimate and compare it with the height of Mount Everest.",
+      "answer": "<p><b>Reasoning:</b> For a mountain of height h and density ρ, the rock at the base supports the weight of the column above it. For a column of base area A₀, weight = (A₀h)ρg acting over A₀, so the compressive stress at the base ≈ hρg (A₀ cancels).</p><p>For stability, this stress must not exceed the elastic limit of rock, P<sub>max</sub>, so h = P<sub>max</sub>/(ρg).</p><p><b>Calculation:</b> h = (3 × 10<sup>8</sup>)/(3 × 10<sup>3</sup> × 10) = 1.0 × 10<sup>4</sup> m = 10 km.</p><p><b>Comparison:</b> This estimate, about 10 km, is close to Mount Everest's actual height of roughly 8.8 km — supporting the idea that the elastic limit of rock sets a natural ceiling on mountain height, beyond which the base would flow plastically under its own weight.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A materials-testing lab performs a tensile test on a straight steel test-piece of original length 50 cm and uniform cross-sectional area 5 × 10<sup>−5</sup> m<sup>2</sup>. The load is increased gradually and the corresponding extension is recorded. Up to a load of 40 kN, the graph of load against extension is found to be a perfectly straight line passing through the origin, with an extension of 2.0 mm recorded at this load of 40 kN. Beyond 40 kN, the extension begins to increase much faster than the load, and the specimen finally snaps at a considerably higher load.<br>(i) What is the stress and the strain in the test-piece at the load of 40 kN?<br>(ii) Calculate the Young's modulus of the steel used, based on this reading.<br>(iii) What is the name given to the load of 40 kN on this stress-strain curve, and what does it signify physically?<br>(iv) Beyond this load, will the test-piece return to its original 50 cm length if the load is removed? Explain.",
+      "answer": "<p>(i) Stress = F/A = (40 × 10<sup>3</sup>)/(5 × 10<sup>−5</sup>) = 8.0 × 10<sup>8</sup> Pa. Strain = ΔL/L = (2.0 × 10<sup>−3</sup>)/0.50 = 4.0 × 10<sup>−3</sup>.</p><p>(ii) Y = Stress/Strain = (8.0 × 10<sup>8</sup>)/(4.0 × 10<sup>−3</sup>) = 2.0 × 10<sup>11</sup> Pa.</p><p>(iii) This is the <b>elastic limit</b> (essentially the proportional limit, since the graph is linear up to here) — the greatest stress up to which the material obeys Hooke's law and fully recovers on unloading.</p><p>(iv) No. Beyond this load the material has entered the plastic region, where extension grows disproportionately for a small rise in load. On removing the load it will retain a permanent extension, not return exactly to 50 cm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A lift is supported by a single steel cable of radius 8 mm. The elastic limit of the steel used is 3.0 × 10<sup>8</sup> Pa, and its Young's modulus is 2.0 × 10<sup>11</sup> Pa. The maximum combined weight of the lift cabin and passengers it is expected to carry produces a tension of 60,000 N in the cable.<br>(i) Calculate the stress produced in the cable at this maximum load.<br>(ii) Is this stress within the elastic limit of the steel? Justify with a comparison.<br>(iii) If the cable is 20 m long, find its extension at this maximum load.<br>(iv) If a cable of double the radius (16 mm) were used instead for the same tension, how would the stress and the extension change, and why might engineers still choose the thicker cable?",
+      "answer": "<p>(i) Area A = πr<sup>2</sup> = π × (8 × 10<sup>−3</sup>)<sup>2</sup> ≈ 2.01 × 10<sup>−4</sup> m<sup>2</sup>. Stress = F/A = 60,000/(2.01 × 10<sup>−4</sup>) ≈ 2.99 × 10<sup>8</sup> Pa.</p><p>(ii) This is just below the elastic limit of 3.0 × 10<sup>8</sup> Pa — within it, but with almost no safety margin, so a real design would need a thicker cable.</p><p>(iii) Strain = Stress/Y ≈ 1.5 × 10<sup>−3</sup>. Extension = Strain × L ≈ 1.5 × 10<sup>−3</sup> × 20 ≈ 0.030 m = 3.0 cm.</p><p>(iv) Doubling the radius makes area 4× larger (A ∝ r<sup>2</sup>), so stress and extension both drop to one-fourth (≈ 7.5 × 10<sup>7</sup> Pa, ≈ 0.75 cm). Engineers pick the thicker cable to keep working stress well below the elastic limit, as a safety margin against overload, fatigue and wear.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The SI unit of Young's modulus is:",
+      "options": [
+        "N",
+        "N/m",
+        "N/m²",
+        "N·m"
+      ],
+      "answer_index": 2,
+      "explanation": "Y = stress/strain; strain has no unit, so Y carries the unit of stress, N/m² (Pa)."
+    },
+    {
+      "q": "Strain is:",
+      "options": [
+        "A vector quantity",
+        "Measured in pascals",
+        "A dimensionless ratio",
+        "Always negative"
+      ],
+      "answer_index": 2,
+      "explanation": "Strain is a change in dimension divided by the original dimension, so it has no unit."
+    },
+    {
+      "q": "Which of these has zero shear modulus?",
+      "options": [
+        "Steel",
+        "Water at rest",
+        "Rubber",
+        "Glass"
+      ],
+      "answer_index": 1,
+      "explanation": "A fluid at rest cannot sustain a shearing stress — it simply flows."
+    },
+    {
+      "q": "For most common engineering materials, Poisson's ratio typically lies between:",
+      "options": [
+        "−1 and 0",
+        "0.6 and 1.0",
+        "0.2 and 0.4",
+        "1 and 2"
+      ],
+      "answer_index": 2,
+      "explanation": "For common metals like steel and aluminium, σ is roughly 0.2–0.4."
+    },
+    {
+      "q": "On a stress-strain graph for a ductile metal, permanent (plastic) deformation begins beyond the:",
+      "options": [
+        "Elastic limit",
+        "Origin",
+        "Fracture point",
+        "Midpoint of the straight-line region"
+      ],
+      "answer_index": 0,
+      "explanation": "Up to the elastic limit the material fully recovers; beyond it, deformation becomes permanent."
+    },
+    {
+      "q": "Two wires of the same material have radii in the ratio 1:2 and are stretched by the same force. The ratio of stress in the thinner wire to the thicker wire is:",
+      "options": [
+        "1:4",
+        "4:1",
+        "1:2",
+        "2:1"
+      ],
+      "answer_index": 1,
+      "explanation": "Stress = F/A and A ∝ r², so the ratio = (2/1)² = 4:1."
+    },
+    {
+      "q": "The point on a stress-strain graph up to which a wire returns fully to its original length when the load is removed is called the:",
+      "options": [
+        "Yield point",
+        "Elastic limit",
+        "Fracture point",
+        "Ultimate tensile strength"
+      ],
+      "answer_index": 1,
+      "explanation": "The elastic limit is the highest stress up to which deformation is fully recoverable."
+    },
+    {
+      "q": "Bulk modulus is the modulus of elasticity associated with which type of strain?",
+      "options": [
+        "Longitudinal strain",
+        "Shearing strain",
+        "Volume strain",
+        "Angular strain"
+      ],
+      "answer_index": 2,
+      "explanation": "B is the ratio of hydraulic stress to volume strain, ΔV/V."
+    },
+    {
+      "q": "A perfectly rigid body would have:",
+      "options": [
+        "Infinite Young's modulus",
+        "Zero Young's modulus",
+        "Negative Poisson's ratio",
+        "Infinite compressibility"
+      ],
+      "answer_index": 0,
+      "explanation": "A perfectly rigid body shows zero strain for any stress, so Y tends to infinity."
+    },
+    {
+      "q": "Which of the following best describes a brittle material?",
+      "options": [
+        "It shows a long plastic region before fracture",
+        "It fractures soon after crossing the elastic limit, with little plastic deformation",
+        "It necks down extensively before breaking",
+        "It always has a very low Young's modulus"
+      ],
+      "answer_index": 1,
+      "explanation": "Brittle materials like glass and cast iron break shortly after the elastic limit, with little plastic deformation."
+    },
+    {
+      "q": "The compressibility of a material is defined as:",
+      "options": [
+        "Its bulk modulus, B",
+        "1/B, the reciprocal of the bulk modulus",
+        "Y/B",
+        "B/Y"
+      ],
+      "answer_index": 1,
+      "explanation": "Compressibility k = 1/B."
+    },
+    {
+      "q": "In an I-shaped girder used for bridges, most of the material is concentrated:",
+      "options": [
+        "Exactly along the neutral axis",
+        "In the top and bottom flanges, away from the neutral axis",
+        "Uniformly through the whole cross-section",
+        "Only at the two supported ends"
+      ],
+      "answer_index": 1,
+      "explanation": "Bending stress is largest farthest from the neutral axis, so material is placed there for maximum strength with minimum weight."
+    },
+    {
+      "q": "The elastic potential energy stored per unit volume of a stretched wire (obeying Hooke's law) is:",
+      "options": [
+        "Stress × strain",
+        "½ × stress × strain",
+        "Stress ÷ strain",
+        "2 × stress × strain"
+      ],
+      "answer_index": 1,
+      "explanation": "u = ½ × stress × strain = ½ Y (strain)², from integrating the work done during linear loading."
+    },
+    {
+      "q": "Steel is preferred over copper for heavy-duty structural applications mainly because steel has a:",
+      "options": [
+        "Lower density",
+        "Higher Young's modulus",
+        "Higher electrical conductivity",
+        "Lower melting point"
+      ],
+      "answer_index": 1,
+      "explanation": "Steel's higher Y means it deforms far less than copper under the same stress."
+    },
+    {
+      "q": "When a coil spring made of a certain wire is compressed instead of stretched, the strain produced along the wire's length is:",
+      "options": [
+        "Shearing strain",
+        "Volume strain",
+        "Longitudinal (compressive) strain",
+        "Undefined, since strain only applies to stretching"
+      ],
+      "answer_index": 2,
+      "explanation": "Compression along a length is still longitudinal strain, just with length decreasing."
+    }
+  ],
+  "common_mistakes": [
+    "Forgetting that strain is dimensionless and writing a unit (like m or Pa) for it — strain never has a unit.",
+    "Using the diameter instead of the radius when computing the cross-sectional area A = πr² of a wire.",
+    "Not converting mm or cm to metres before substituting into a formula, causing an error of several powers of ten in the final answer.",
+    "Applying Hooke's law (stress ∝ strain) beyond the elastic limit — it is only valid within the elastic (usually the proportional) limit of the material.",
+    "Treating the elastic limit, the yield point and the proportional limit as identical — they are closely spaced but distinct points on the stress-strain curve.",
+    "Assuming a larger Young's modulus means a material stretches more easily — it is the opposite: a larger Y means the material is stiffer and stretches less for the same stress.",
+    "Misreading the bulk modulus: a substance with a large bulk modulus is hard to compress (low compressibility), not easy to compress.",
+    "Forgetting the direction/sign convention in the bulk modulus formula B = −p/(ΔV/V), and getting confused about why the negative sign is there at all — it exists purely to keep B positive."
+  ],
+  "strategy": "<p>This chapter rewards precision over memorised paragraphs. Start with the definitions of stress and strain and their units — nearly every numerical in this chapter is just a careful, two- or three-step substitution into Y = FL/(AΔL), G = (F/A)/θ, or B = −p/(ΔV/V), so get comfortable converting mm/cm to metres and computing A = πr² before you touch the main formula.</p><p>Next, learn the stress-strain curve cold: be able to sketch it from memory with all five labelled points (proportional limit, elastic limit, yield point, ultimate tensile strength, fracture point), and be ready to explain how a brittle material and an elastomer differ from a ductile metal on the same kind of graph. This single diagram covers a large share of the conceptual marks in this chapter.</p><p>For the 5-mark questions, practise two full derivations until you can write them without hesitation: Searle's method for determining Young's modulus, and the derivation of elastic potential energy per unit volume, u = ½ × stress × strain. Both come up repeatedly.</p><p>Finally, don't skip the applications section — questions on why cables are thick, why pillars are hollow, and why girders are I-shaped are short, conceptual, and easy marks if you remember one line: bending and buckling resistance depends on how far material sits from the neutral/central axis, not just on how much material is used.</p>",
+  "revision_checklist": [
+    "Can define stress and strain, and state that strain has no unit while stress is measured in Pa.",
+    "Can state Hooke's law, including the phrase 'within the elastic limit'.",
+    "Can sketch and fully label a stress-strain curve for a ductile metal (proportional limit, elastic limit, yield point, UTS, fracture point).",
+    "Can distinguish longitudinal, shearing and volume (hydraulic) stress/strain, with one example of each.",
+    "Know the formulas for Y, G and B, and can rearrange each of them for F, ΔL, θ or ΔV.",
+    "Can describe Searle's apparatus and explain why a reference wire is used alongside the experimental wire.",
+    "Know the rough order of Young's modulus values: steel > copper > aluminium, and can explain why steel is preferred structurally.",
+    "Can derive the elastic potential energy per unit volume of a stretched wire, u = ½ × stress × strain.",
+    "Can explain, in one or two lines, why cables are made thick, why columns are made hollow, and why girders are I-shaped.",
+    "Can solve a numerical converting mm/cm to metres and correctly computing A = πr² before applying the modulus formula.",
+    "Know that elastomers (like rubber) show a non-linear stress-strain curve with no proportional or plastic region.",
+    "Can define Poisson's ratio and state that it typically lies between about 0.2 and 0.4 for metals.",
+    "Know that bulk modulus applies to solids, liquids and gases, but shear modulus is defined only for solids."
+  ],
+  "videos": [
+    {
+      "id": "L7gOIFgYl2k",
+      "title": "Mechanical Properties of Solids · full chapter"
+    }
+  ]
+}

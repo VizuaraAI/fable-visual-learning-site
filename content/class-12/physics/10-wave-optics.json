@@ -1,0 +1,1205 @@
+{
+  "class": 12,
+  "subject": "Physics",
+  "chapter_no": 10,
+  "slug": "wave-optics",
+  "title": "Wave Optics",
+  "summary": "Light treated as a wave: how Huygens' construction gives the laws of reflection and refraction, why only coherent waves interfere, the fringe pattern of Young's double-slit experiment, the single-slit diffraction pattern and the idea of polarisation. Together with Ray Optics it forms Unit VI, and the Huygens proofs, the fringe-width expression and the single-slit pattern are asked almost every year.",
+  "exam_profile": {
+    "weightage": "Units V and VI together (Electromagnetic Waves and Optics: Chapters 8, 9 and 10) carry 18 marks in the CBSE Class 12 Physics paper. Wave Optics typically contributes 5 to 7 of those: one 3-mark or 5-mark question on Huygens' principle, Young's experiment or single-slit diffraction, plus one or two 1-mark or 2-mark questions on wavefronts, coherence, fringe width or the width of the central maximum. Note that the current CBSE syllabus (2023-24 onwards) lists Huygens' principle with the proofs of reflection and refraction, interference with Young's experiment and the fringe-width expression (final expression only), coherent sources, and single-slit diffraction with the width of the central maximum (qualitative). Polarisation, the Doppler effect, resolving power and Brewster's law are not in the CBSE syllabus, although Section 10.7 on polarisation remains in the NCERT book.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Shape of a wavefront from a given source, which quantity stays the same on refraction (frequency), how fringe width changes with λ, D, d or immersion in a liquid, the ratio of maximum to minimum intensity for a given amplitude ratio, the condition for the first diffraction minimum, and what happens to the central maximum when the slit is narrowed."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Why two independent sources cannot give a sustained pattern, why frequency does not change on refraction, why the central fringe is white with white light, why fringes get closer when the slits are moved apart, and why secondary diffraction maxima are weak."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define wavefront or coherent sources; draw the wavefront after a plane wave passes through a convex lens or a prism or reflects from a concave mirror; state the effect on fringe width of a given change; a one-step fringe-width or slit-width numerical; sketch the intensity distribution of the single-slit pattern."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Prove the law of reflection or Snell's law with Huygens' construction; obtain the expression I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2) and the conditions for maxima and minima; a Young's double-slit numerical; two features distinguishing the interference pattern from the diffraction pattern; a single-slit numerical on the position of a minimum or the width of the central maximum."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Describe Young's experiment, derive the fringe width and discuss what changes when the source, the screen or the medium is changed; or explain single-slit diffraction with Huygens' principle, obtain the condition for minima and the width of the central maximum, and compare with the double-slit pattern; usually paired with a numerical."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on Young's experiment or on single-slit diffraction followed by four one-mark parts: identify the condition for a bright fringe, compute a fringe width or slit width, predict the effect of a change, or pick the correct intensity graph."
+      }
+    ],
+    "hot_topics": [
+      "Huygens' construction: proof of Snell's law for refraction of a plane wave and proof of the law of reflection",
+      "Young's double-slit experiment: path difference, positions of bright and dark fringes, fringe width β = λD/d and how it changes",
+      "Coherent and incoherent addition: I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2), conditions for constructive and destructive interference, why independent sources do not interfere",
+      "Single-slit diffraction: condition for minima a sin θ = nλ, width of the central maximum 2λD/a, intensity distribution",
+      "Differences between the interference pattern and the diffraction pattern",
+      "Wavefronts: definition, shapes for a point source, a distant source, and after a lens, mirror or prism",
+      "Numericals on fringe width, wavelength, slit width and immersion in a medium",
+      "Polarisation and Malus's law (in NCERT, currently outside the CBSE syllabus)"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "10.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>In Chapter 9 we treated light as rays travelling in straight lines. That works because the wavelength of light (about 4 × 10<sup>−7</sup> m to 7 × 10<sup>−7</sup> m) is far smaller than the mirrors, lenses and apertures we normally use. This chapter is about the situations where the wave nature shows itself: light passing through very narrow slits, two beams overlapping, light bending round an edge.</p><p>A short history is expected in the introduction. Descartes (1637) explained refraction with a corpuscular model, which Newton developed. In that model, light corpuscles are pulled toward a denser medium at the boundary, so the normal component of velocity increases and the ray bends toward the normal. This predicts that light travels <b>faster</b> in a denser medium. Huygens (1678) proposed the wave theory, which explains reflection and refraction equally well but predicts that light travels <b>slower</b> in a denser medium. Foucault (1850) measured the speed of light in water and found it lower than in air, which settled the matter in favour of the wave theory. Before that, Young's interference experiment (1801) had already shown that light is a wave, because interference and diffraction cannot be explained by particles travelling in straight lines.</p><p>Maxwell (1864) showed that light is an electromagnetic wave whose speed in vacuum is c = 1/√(μ<sub>0</sub>ε<sub>0</sub>), and Hertz produced such waves in 1887. Light waves are transverse: the electric and magnetic fields oscillate perpendicular to the direction of travel. That transverse nature is what polarisation (Section 10.7) demonstrates.</p><p>The plan of the chapter: Huygens' principle first, then its use to prove the laws of reflection and refraction, then the superposition of two waves (interference), the bending of a wave passing a single slit (diffraction), and finally polarisation. Keep in mind throughout that when light crosses from one medium to another, its <b>frequency does not change</b>; the speed and wavelength change in the same ratio.</p>",
+      "formulas": [
+        {
+          "expr": "c = 1/√(μ<sub>0</sub>ε<sub>0</sub>) ≈ 3 × 10<sup>8</sup> m s<sup>−1</sup>",
+          "where": [
+            [
+              "c",
+              "speed of light in vacuum"
+            ],
+            [
+              "μ<sub>0</sub>, ε<sub>0</sub>",
+              "permeability and permittivity of free space"
+            ]
+          ]
+        },
+        {
+          "expr": "v = c/n, λ<sub>medium</sub> = λ<sub>0</sub>/n, ν unchanged",
+          "where": [
+            [
+              "n",
+              "refractive index of the medium"
+            ],
+            [
+              "λ<sub>0</sub>",
+              "wavelength in vacuum"
+            ]
+          ]
+        }
+      ],
+      "tip": "The 1-mark question here is almost always the same: when light enters glass, which of speed, wavelength and frequency change? Speed and wavelength fall by the factor n; frequency stays the same because it is fixed by the source."
+    },
+    {
+      "heading": "10.2 Huygens Principle",
+      "pyq_years": [
+        2015,
+        2013,
+        2008
+      ],
+      "body": "<p>A <b>wavefront</b> is the locus of all points in the medium that are vibrating in the same phase. For a point source in a uniform medium the wavefronts are concentric spheres (spherical wavefront); at a large distance from the source a small portion of a sphere is nearly flat, so we speak of a plane wavefront; a line source gives cylindrical wavefronts. A <b>ray</b> is a line drawn perpendicular to the wavefront in the direction of propagation. Energy travels along the rays, perpendicular to the wavefront.</p><p><b>Huygens' principle</b> tells us how to find the wavefront at a later time if we know it now. Each point on a wavefront acts as a source of a secondary disturbance, and the wavelets from these points spread out in all directions with the speed of the wave. The new wavefront at a time τ later is the common tangent (envelope) to all these secondary wavelets, drawn in the forward direction.</p><p>Construction, as the examiner wants it: take a spherical wavefront F<sub>1</sub>F<sub>2</sub> at t = 0 from a source O. Mark points A, B, C, D on it. With each as centre draw a sphere of radius vτ, where v is the speed of the wave. The common tangent G<sub>1</sub>G<sub>2</sub> on the forward side is the wavefront at time τ; it is again a sphere with centre O, of radius larger by vτ. For a plane wavefront the same construction gives a parallel plane wavefront.</p><p>One point deserves a sentence in a 3-mark answer. The wavelets also have a common tangent on the backward side, which would predict a backward-moving wave. Huygens argued that the amplitude of the secondary wavelets is zero in the backward direction, so there is no back wave. This is an assumption of the model, not a derived result.</p><p>Standard 2-mark asks about shapes: a plane wavefront on a convex lens emerges as a spherical wavefront converging on the focus; on a concave mirror it reflects as a converging spherical wavefront; on a prism it emerges as a tilted plane wavefront (the part passing through the thicker side is delayed more); from a point source at the focus of a convex lens it emerges as a plane wavefront.</p>",
+      "formulas": [
+        {
+          "expr": "Radius of secondary wavelet in time τ = vτ",
+          "where": [
+            [
+              "v",
+              "speed of the wave in the medium"
+            ],
+            [
+              "τ",
+              "time interval"
+            ]
+          ]
+        }
+      ],
+      "tip": "Draw the secondary wavelets as semicircles on the forward side only and label the new wavefront as the common tangent. A diagram without the wavelets earns nothing."
+    },
+    {
+      "heading": "10.3.1 Refraction of a Plane Wave",
+      "pyq_years": [
+        2015,
+        2011,
+        2008
+      ],
+      "body": "<p>This is the derivation the board asks most often from this chapter. Set it up exactly like NCERT Fig. 10.4. A plane wavefront AB is incident on the surface PP' separating medium 1 (speed v<sub>1</sub>) from medium 2 (speed v<sub>2</sub> &lt; v<sub>1</sub>). The incident ray makes angle i with the normal, so the wavefront AB makes angle i with the surface. Let τ be the time in which the disturbance from B reaches the surface at C. Then BC = v<sub>1</sub>τ.</p><p>In the same time τ the secondary wavelet from A has travelled a distance AE = v<sub>2</sub>τ into medium 2. Draw a sphere of radius v<sub>2</sub>τ about A; the tangent from C to this sphere touches it at E. CE is the refracted wavefront, and it makes angle r with the surface, so the refracted ray makes angle r with the normal.</p><p>From triangle ABC, sin i = BC/AC = v<sub>1</sub>τ/AC. From triangle AEC, sin r = AE/AC = v<sub>2</sub>τ/AC. Dividing:</p><p><b>sin i / sin r = v<sub>1</sub>/v<sub>2</sub></b></p><p>This ratio is a constant for the pair of media, which is Snell's law. If c is the speed in vacuum, n<sub>1</sub> = c/v<sub>1</sub> and n<sub>2</sub> = c/v<sub>2</sub> are the refractive indices, and the law becomes n<sub>1</sub> sin i = n<sub>2</sub> sin r. Also, the incident ray, the refracted ray and the normal all lie in the plane of the figure, which is the other part of the law of refraction.</p><p>Two consequences that fetch the last mark. First, since v<sub>2</sub> &lt; v<sub>1</sub>, sin r &lt; sin i, so r &lt; i: the ray bends toward the normal in the denser medium, in agreement with experiment and against the corpuscular model. Second, the frequency does not change on refraction, because the number of waves arriving at the surface per second must equal the number leaving it. So if λ<sub>1</sub> and λ<sub>2</sub> are the wavelengths, v<sub>1</sub> = νλ<sub>1</sub> and v<sub>2</sub> = νλ<sub>2</sub>, giving λ<sub>1</sub>/λ<sub>2</sub> = v<sub>1</sub>/v<sub>2</sub> = n<sub>2</sub>/n<sub>1</sub>: the wavelength is shorter in the denser medium.</p>",
+      "formulas": [
+        {
+          "expr": "sin i / sin r = v<sub>1</sub>/v<sub>2</sub> = n<sub>21</sub> = n<sub>2</sub>/n<sub>1</sub>",
+          "where": [
+            [
+              "i, r",
+              "angles of incidence and refraction"
+            ],
+            [
+              "v<sub>1</sub>, v<sub>2</sub>",
+              "wave speeds in medium 1 and medium 2"
+            ],
+            [
+              "n<sub>21</sub>",
+              "refractive index of medium 2 with respect to medium 1"
+            ]
+          ]
+        },
+        {
+          "expr": "n<sub>1</sub> sin i = n<sub>2</sub> sin r",
+          "where": [
+            [
+              "n<sub>1</sub>, n<sub>2</sub>",
+              "absolute refractive indices c/v<sub>1</sub> and c/v<sub>2</sub>"
+            ]
+          ]
+        },
+        {
+          "expr": "λ<sub>1</sub>/λ<sub>2</sub> = v<sub>1</sub>/v<sub>2</sub>",
+          "where": [
+            [
+              "λ<sub>1</sub>, λ<sub>2</sub>",
+              "wavelengths in the two media; frequency ν is the same in both"
+            ]
+          ]
+        }
+      ],
+      "tip": "The marking scheme gives separate marks for the labelled diagram, for BC = v<sub>1</sub>τ and AE = v<sub>2</sub>τ, for the two sine expressions, and for the final statement. Write all four."
+    },
+    {
+      "heading": "10.3.2 Refraction at a Rarer Medium",
+      "pyq_years": [],
+      "body": "<p>Now let the wave go from a denser medium into a rarer one, so v<sub>2</sub> &gt; v<sub>1</sub>. The same construction applies: BC = v<sub>1</sub>τ and AE = v<sub>2</sub>τ, but now AE is larger than BC, and the refracted wavefront CE is tilted further away. Snell's law still reads n<sub>1</sub> sin i = n<sub>2</sub> sin r, and since n<sub>2</sub> &lt; n<sub>1</sub> we get sin r &gt; sin i: the refracted ray bends away from the normal.</p><p>Because r must be larger than i, there is a limit. Define the critical angle i<sub>c</sub> as the angle of incidence for which r = 90°. Then n<sub>1</sub> sin i<sub>c</sub> = n<sub>2</sub> sin 90°, so sin i<sub>c</sub> = n<sub>2</sub>/n<sub>1</sub> = n<sub>21</sub>, where n<sub>21</sub> &lt; 1 for a rarer second medium. For i &gt; i<sub>c</sub>, sin r would have to exceed 1, which is impossible, so no refracted wave can be constructed: the sphere of radius v<sub>2</sub>τ about A is now so large that no tangent from C can be drawn to it. The wave is entirely reflected. This is total internal reflection, seen here from the wave point of view.</p><p>The link to Chapter 9 is worth one line in an answer: for glass with n = 1.5 in air, sin i<sub>c</sub> = 1/1.5, i<sub>c</sub> ≈ 42°, which is why a 45° prism turns light through 90° or 180° by total internal reflection.</p><p>A short numerical the board likes: light of wavelength 600 nm in air enters glass of refractive index 1.5. The speed becomes 2 × 10<sup>8</sup> m s<sup>−1</sup>, the wavelength becomes 400 nm, and the frequency stays 5 × 10<sup>14</sup> Hz. Coming out of the glass, all three return to their air values.</p>",
+      "formulas": [
+        {
+          "expr": "sin i<sub>c</sub> = n<sub>2</sub>/n<sub>1</sub> = n<sub>21</sub> (n<sub>2</sub> &lt; n<sub>1</sub>)",
+          "where": [
+            [
+              "i<sub>c</sub>",
+              "critical angle of incidence in the denser medium"
+            ],
+            [
+              "n<sub>21</sub>",
+              "refractive index of the rarer medium with respect to the denser one, less than 1"
+            ]
+          ]
+        }
+      ],
+      "tip": "Do not write sin i<sub>c</sub> = 1/n without saying which medium is which. With NCERT symbols, sin i<sub>c</sub> = n<sub>2</sub>/n<sub>1</sub>, and for glass-to-air that is 1/n<sub>glass</sub>."
+    },
+    {
+      "heading": "10.3.3 Reflection of a Plane Wave by a Plane Surface",
+      "pyq_years": [
+        2015,
+        2008
+      ],
+      "body": "<p>A plane wavefront AB is incident on a reflecting surface MN at an angle of incidence i, with v the speed of the wave in the medium. As before, let τ be the time in which the disturbance from B reaches the surface at C, so BC = vτ. In the same time the secondary wavelet from A has spread out to a sphere of radius AE = vτ. Draw the tangent from C to this sphere; it touches at E. CE is the reflected wavefront, and the reflected ray makes angle r with the normal.</p><p>Compare the triangles EAC and BAC. AE = BC = vτ, AC is common, and both are right-angled (angle AEC and angle ABC are 90° because a wavefront is perpendicular to the ray). So the two triangles are congruent, and the angle BAC equals the angle ECA, that is, <b>i = r</b>. The incident ray, the reflected ray and the normal lie in the same plane. This proves the law of reflection.</p><p>The same method extends to lenses, mirrors and prisms; what you need for the exam are the resulting wavefront shapes. A plane wavefront through a thin prism emerges as a plane wavefront tilted toward the base, because the part through the thicker portion is slowed for longer. A plane wavefront through a convex lens emerges as a spherical wavefront converging on the focus, since the central part passes through the thickest glass and is delayed most. A plane wavefront on a concave mirror reflects as a spherical wavefront converging on the focus. In every case the total time taken by light from a point on the object to the corresponding point on the image is the same along every ray, which is why the rays can converge to form an image.</p><p>Reflected light keeps the same speed, wavelength and frequency as the incident light because it stays in the same medium.</p>",
+      "formulas": [
+        {
+          "expr": "i = r (angle of incidence = angle of reflection)",
+          "where": [
+            [
+              "i",
+              "angle between incident ray and normal"
+            ],
+            [
+              "r",
+              "angle between reflected ray and normal"
+            ]
+          ]
+        }
+      ],
+      "tip": "The proof rests on two facts: AE = BC = vτ, and the triangles are right-angled. State both explicitly before writing that they are congruent."
+    },
+    {
+      "heading": "10.4 Coherent and Incoherent Addition of Waves",
+      "pyq_years": [
+        2015,
+        2012,
+        2011
+      ],
+      "body": "<p>Superposition says that at a point where two waves overlap, the resultant displacement is the sum of the individual displacements. Interference is the effect of this sum on the intensity. Take two needles S<sub>1</sub> and S<sub>2</sub> moving up and down in phase on a water surface; they are <b>coherent</b> sources because the phase difference between them does not change with time.</p><p>At a point P equidistant from both, the two waves arrive in phase: y<sub>1</sub> = y<sub>2</sub> = a cos ωt, so y = 2a cos ωt and, since intensity is proportional to the square of the amplitude, I = 4I<sub>0</sub>, where I<sub>0</sub> is the intensity due to one source alone. At a point Q where S<sub>2</sub>Q − S<sub>1</sub>Q = 2λ, the waves arrive with phase difference 4π, again in phase, again I = 4I<sub>0</sub>. At a point R where S<sub>2</sub>R − S<sub>1</sub>R = −2.5λ, the phase difference is 5π, the waves are exactly out of phase, y = 0 and I = 0.</p><p>In general, if S<sub>2</sub>P − S<sub>1</sub>P = nλ (n = 0, 1, 2, ...) the waves arrive in phase and the intensity is 4I<sub>0</sub>: constructive interference. If S<sub>2</sub>P − S<sub>1</sub>P = (n + ½)λ, the intensity is zero: destructive interference. For any phase difference φ, write y<sub>1</sub> = a cos ωt, y<sub>2</sub> = a cos(ωt + φ). Then y = y<sub>1</sub> + y<sub>2</sub> = 2a cos(φ/2) cos(ωt + φ/2). The amplitude is 2a cos(φ/2), so</p><p><b>I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2)</b></p><p>which gives 4I<sub>0</sub> for φ = 0, ±2π, ±4π, ... and 0 for φ = ±π, ±3π, .... For unequal amplitudes a<sub>1</sub> and a<sub>2</sub>, the resultant amplitude squared is a<sub>1</sub><sup>2</sup> + a<sub>2</sub><sup>2</sup> + 2a<sub>1</sub>a<sub>2</sub> cos φ, so I<sub>max</sub>/I<sub>min</sub> = (a<sub>1</sub> + a<sub>2</sub>)<sup>2</sup>/(a<sub>1</sub> − a<sub>2</sub>)<sup>2</sup>.</p><p>Now the key point. If the two sources are <b>incoherent</b>, φ changes randomly with time, so cos<sup>2</sup>(φ/2) averages to ½ and I = 2I<sub>0</sub> everywhere: the intensities simply add and no pattern is seen. Two independent light sources, even two identical sodium lamps, are incoherent because each atom emits a wave train for only about 10<sup>−10</sup> s and the phase of the emitted light changes randomly. That is why Young had to derive both his sources from one.</p><p>Energy is not destroyed in interference; it is redistributed. Averaged over a fringe, the intensity is 2I<sub>0</sub>, exactly the sum of the two.</p>",
+      "formulas": [
+        {
+          "expr": "Phase difference φ = (2π/λ) × path difference",
+          "where": [
+            [
+              "φ",
+              "phase difference (rad)"
+            ],
+            [
+              "λ",
+              "wavelength in the medium"
+            ]
+          ]
+        },
+        {
+          "expr": "I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2)",
+          "where": [
+            [
+              "I<sub>0</sub>",
+              "intensity due to each source alone"
+            ],
+            [
+              "φ",
+              "phase difference at the point"
+            ]
+          ]
+        },
+        {
+          "expr": "Constructive: path difference = nλ; destructive: path difference = (n + ½)λ, n = 0, 1, 2, ...",
+          "where": [
+            [
+              "n",
+              "order of the fringe"
+            ]
+          ]
+        },
+        {
+          "expr": "I<sub>max</sub>/I<sub>min</sub> = (a<sub>1</sub> + a<sub>2</sub>)<sup>2</sup>/(a<sub>1</sub> − a<sub>2</sub>)<sup>2</sup>",
+          "where": [
+            [
+              "a<sub>1</sub>, a<sub>2</sub>",
+              "amplitudes of the two waves"
+            ]
+          ]
+        }
+      ],
+      "tip": "In a numerical, first convert the path difference to a phase difference, then use I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2). If the question calls the intensity at path difference λ as K, then K = 4I<sub>0</sub>; at λ/3, φ = 2π/3 and I = K/4; at λ/4, φ = π/2 and I = K/2."
+    },
+    {
+      "heading": "10.5 Interference of Light Waves and Young's Experiment",
+      "pyq_years": [
+        2015,
+        2012,
+        2011,
+        2009
+      ],
+      "body": "<p>Young (1801) illuminated a single pinhole S and then two pinholes S<sub>1</sub> and S<sub>2</sub> very close together, equidistant from S. Light from S reaches both with the same phase, so S<sub>1</sub> and S<sub>2</sub> act as coherent sources. On a screen GG' at a distance D they produce alternate bright and dark bands: the interference fringes.</p><p><b>Positions of the fringes.</b> Let the slits be d apart and P a point on the screen at distance x from the central point O (which is equidistant from the slits). Then</p><p>(S<sub>2</sub>P)<sup>2</sup> − (S<sub>1</sub>P)<sup>2</sup> = [D<sup>2</sup> + (x + d/2)<sup>2</sup>] − [D<sup>2</sup> + (x − d/2)<sup>2</sup>] = 2xd</p><p>so S<sub>2</sub>P − S<sub>1</sub>P = 2xd/(S<sub>2</sub>P + S<sub>1</sub>P). Since x and d are both much smaller than D, S<sub>2</sub>P + S<sub>1</sub>P ≈ 2D, and the path difference is</p><p><b>S<sub>2</sub>P − S<sub>1</sub>P ≈ xd/D</b></p><p>Bright fringes (constructive interference) occur where xd/D = nλ, that is, at x<sub>n</sub> = nλD/d, n = 0, ±1, ±2, .... The n = 0 fringe at O is the central bright fringe. Dark fringes occur at x<sub>n</sub> = (n + ½)λD/d. The separation between consecutive bright (or dark) fringes is the <b>fringe width</b></p><p><b>β = x<sub>n+1</sub> − x<sub>n</sub> = λD/d</b></p><p>The fringes are equally spaced and, in this approximation, of equal intensity 4I<sub>0</sub>. The angular fringe width is β/D = λ/d, independent of D. Strictly, points of constant path difference lie on hyperbolas, but near the centre with D large these are nearly straight lines parallel to the slits.</p><p><b>What the examiner asks next.</b> (i) β ∝ λ: red fringes are wider than blue. (ii) β ∝ D and β ∝ 1/d: moving the screen away widens the fringes; moving the slits apart narrows them; the angular width λ/d does not change with D. (iii) In a liquid of refractive index n the wavelength becomes λ/n, so β becomes β/n. (iv) With white light the central fringe is white (zero path difference for every colour) and is flanked by coloured fringes, since each colour has its own fringe width β ∝ λ. NCERT's description: at the point where the path difference is λ<sub>blue</sub>/2 the blue component is missing, so the fringe next to the central one looks red; a little farther, where the path difference is λ<sub>blue</sub> = λ<sub>red</sub>/2, red is missing and the fringe looks blue. After a few fringes the colours overlap and no clear pattern is seen. (v) If one slit is covered, the fringes disappear and only the single-slit diffraction pattern remains. (vi) If the source slit S is widened beyond a limit, each part of it produces a shifted pattern and the fringes blur; the condition for clear fringes is s/S &lt; λ/d, where s is the source-slit width and S its distance from the double slit. (vii) If the source S is moved closer to the double slit, β does not change (it does not involve that distance), but S decreases in the condition s/S &lt; λ/d, so the fringes become less sharp and finally disappear.</p><p>Conditions for sustained interference: the two sources must be coherent (constant phase difference, same frequency), preferably of equal amplitude for good contrast, close together, and the screen reasonably far away.</p>",
+      "formulas": [
+        {
+          "expr": "Path difference at P: S<sub>2</sub>P − S<sub>1</sub>P ≈ xd/D",
+          "where": [
+            [
+              "x",
+              "distance of P from the central point O"
+            ],
+            [
+              "d",
+              "slit separation"
+            ],
+            [
+              "D",
+              "slit-to-screen distance, D ≫ d, x"
+            ]
+          ]
+        },
+        {
+          "expr": "Bright: x<sub>n</sub> = nλD/d; dark: x<sub>n</sub> = (n + ½)λD/d",
+          "where": [
+            [
+              "n",
+              "0, ±1, ±2, ..."
+            ]
+          ]
+        },
+        {
+          "expr": "β = λD/d",
+          "where": [
+            [
+              "β",
+              "fringe width, the spacing of consecutive bright or dark fringes"
+            ]
+          ]
+        },
+        {
+          "expr": "Angular fringe width θ = λ/d; in a medium of index n, β' = β/n",
+          "where": [
+            [
+              "n",
+              "refractive index of the medium filling the apparatus"
+            ]
+          ]
+        }
+      ],
+      "tip": "The syllabus asks only for the final expression β = λD/d, but the path-difference step xd/D is where most numericals start. Write x<sub>n</sub> = nλD/d for the n-th bright fringe; the distance of the n-th dark fringe from the centre is (n − ½)λD/d if you count the first dark fringe as n = 1."
+    },
+    {
+      "heading": "10.6 Diffraction and 10.6.1 The Single Slit",
+      "pyq_years": [
+        2017,
+        2015,
+        2014,
+        2013,
+        2012,
+        2011,
+        2009,
+        2008
+      ],
+      "body": "<p>Diffraction is the bending of a wave round the edge of an obstacle or aperture. Sound diffracts visibly round corners because its wavelength is metres; light diffracts noticeably only when the aperture is comparable to its wavelength, so the effect is easy to miss but always present. Since the wavelength of light is small, diffraction effects are small, which is why ray optics usually works.</p><p><b>The single slit.</b> A parallel beam (plane wavefront) of wavelength λ falls on a slit of width a, and the pattern is observed on a screen far away (or at the focal plane of a lens). By Huygens' principle every point of the slit is a source of secondary wavelets. Consider the light leaving at angle θ to the incident direction. Between the two edges of the slit the path difference is a sin θ ≈ aθ for small θ.</p><p>At θ = 0 all wavelets are in phase and add to give the <b>central maximum</b>. Now consider θ such that aθ = λ. Divide the slit into two halves. Each point in the upper half has a corresponding point in the lower half a/2 below it, and the path difference between the pair is (a/2)θ = λ/2. The pairs cancel, and the net intensity is zero: this is the first minimum. Dividing into four, six, ... parts shows minima at</p><p><b>a sin θ = nλ, n = ±1, ±2, ±3, ...</b> (θ ≈ nλ/a)</p><p>Between these lie secondary maxima at approximately θ ≈ (n + ½)λ/a. At θ = 3λ/2a, for instance, the slit can be divided into three parts of width a/3; two of them cancel in pairs and only the third contributes, so the first secondary maximum is much weaker than the central one (about 1/22 of it). The intensity falls further for higher orders because a smaller fraction of the slit contributes net amplitude.</p><p><b>Width of the central maximum.</b> It extends from θ = −λ/a to θ = +λ/a, so its angular width is 2λ/a and its linear width on a screen at distance D is 2λD/a. Halving the slit width doubles the width of the central maximum and reduces its intensity to one quarter (less light and spread over twice the width). Increasing λ widens the pattern; red light gives a broader pattern than blue.</p><p><b>Double slit as a product.</b> In Young's experiment each slit has a finite width a, so the interference fringes of spacing λD/d sit inside the single-slit diffraction envelope of central width 2λD/a. NCERT Example 10.4: with d = 1 mm, ten interference maxima fit inside the central diffraction maximum if 10 λ/d = 2λ/a, so a = d/5 = 0.2 mm. The two effects are not different in kind: interference is superposition of a few coherent sources, diffraction is superposition of a continuous set of sources across one aperture.</p><p><b>Interference versus diffraction pattern.</b> (i) Interference fringes are all of nearly equal intensity; in diffraction the central maximum is much brighter and the secondary maxima fade quickly. (ii) Interference fringes are equally spaced; the central diffraction maximum is twice as wide as the secondary maxima, which are of equal width. (iii) Interference needs two coherent sources; diffraction comes from a single aperture.</p>",
+      "formulas": [
+        {
+          "expr": "Minima: a sin θ = nλ (n = ±1, ±2, ...)",
+          "where": [
+            [
+              "a",
+              "slit width"
+            ],
+            [
+              "θ",
+              "angle of diffraction"
+            ]
+          ]
+        },
+        {
+          "expr": "Secondary maxima: a sin θ ≈ (n + ½)λ",
+          "where": [
+            [
+              "n",
+              "1, 2, 3, ..."
+            ]
+          ]
+        },
+        {
+          "expr": "Angular width of central maximum = 2λ/a; linear width = 2λD/a",
+          "where": [
+            [
+              "D",
+              "slit-to-screen distance"
+            ]
+          ]
+        },
+        {
+          "expr": "Position of n-th minimum on the screen: x<sub>n</sub> = nλD/a",
+          "where": [
+            [
+              "x<sub>n</sub>",
+              "distance from the centre of the pattern"
+            ]
+          ]
+        }
+      ],
+      "tip": "The condition a sin θ = nλ gives the MINIMA of a single slit, not the maxima. Students who copy the interference condition here lose the whole numerical."
+    },
+    {
+      "heading": "10.6.2 Seeing the Single Slit Diffraction Pattern",
+      "pyq_years": [],
+      "body": "<p>NCERT describes a home experiment worth a 2-mark answer. Hold two razor blades so that their edges are parallel and form a narrow slit, and look through it at a clear glass electric bulb with a straight filament, with the filament parallel to the slit. Put a coloured filter (red or blue) in front of the eye. You will see a bright central band with fainter bands on either side: the single-slit pattern. Without the filter the bands are coloured, because each wavelength gives its own pattern of different width, red wider than blue, and they overlap.</p><p>Notice two things. The slit here is the razor-blade gap, the filament plays the role of a distant line source, and the eye lens focuses the parallel diffracted beams onto the retina, which plays the role of the screen at a large distance. Second, the filament must be parallel to the slit: a filament at any other angle acts as many slits at different positions and blurs the pattern.</p><p>Diffraction is also why every shadow has a slightly soft edge, and why a bright spot appears at the centre of the shadow of a small circular disc (the wavelets from all points of the edge reach the centre in phase). It is the same effect that limits how fine a detail a telescope or microscope can resolve, since the image of a point is never a point but a small diffraction pattern.</p><p>One more remark from NCERT worth knowing: when a slit is wide, diffraction is negligible and the light travels in a straight beam, which is the ray-optics limit. The narrower the slit compared with λ, the more the light spreads. That is the sense in which ray optics is the short-wavelength limit of wave optics.</p>",
+      "formulas": [
+        {
+          "expr": "Width of pattern ∝ λ/a",
+          "where": [
+            [
+              "λ",
+              "wavelength of the filtered light"
+            ],
+            [
+              "a",
+              "gap between the razor-blade edges"
+            ]
+          ]
+        }
+      ],
+      "tip": "If asked why the pattern is coloured without a filter, say that the width of each maximum is proportional to λ, so the patterns for different colours do not coincide."
+    },
+    {
+      "heading": "10.7 Polarisation",
+      "pyq_years": [
+        2017,
+        2016,
+        2015,
+        2011,
+        2008
+      ],
+      "body": "<p>Polarisation is in the NCERT chapter but has been outside the CBSE syllabus since 2023-24, so read this for completeness and for competitive exams. A wave on a string that moves up and down is linearly (plane) polarised in the vertical plane; a wave whose displacement direction changes randomly is unpolarised. Light is a transverse electromagnetic wave. In ordinary light from a lamp or the Sun, the electric vector points in all directions perpendicular to the ray, changing randomly and rapidly: the light is unpolarised. If the electric vector oscillates along one fixed line perpendicular to the direction of propagation, the light is linearly polarised.</p><p>A <b>polaroid</b> is a thin sheet with long-chain molecules aligned in one direction. The electric field component parallel to the chains is absorbed; the component perpendicular to them passes. The perpendicular direction is called the pass-axis. When unpolarised light passes through a polaroid P<sub>1</sub>, it emerges linearly polarised along the pass-axis with half the original intensity (the average of cos<sup>2</sup> over all orientations is ½). If this light falls on a second polaroid P<sub>2</sub> whose pass-axis makes angle θ with that of P<sub>1</sub>, only the component of the electric field along the new axis, E<sub>0</sub> cos θ, passes. Since intensity is proportional to the square of the amplitude,</p><p><b>I = I<sub>0</sub> cos<sup>2</sup> θ</b> (Malus's law)</p><p>where I<sub>0</sub> is the intensity of the polarised light incident on P<sub>2</sub>. The transmitted intensity is maximum when the axes are parallel (θ = 0) and zero when they are crossed (θ = 90°). Rotating P<sub>2</sub> through one full turn gives two maxima and two minima. That the intensity varies with θ at all is proof that light is a transverse wave; a longitudinal wave such as sound cannot be polarised.</p><p>A classic numerical: a third polaroid inserted between two crossed polaroids with its axis at angle θ to the first transmits (I<sub>0</sub>/2) cos<sup>2</sup> θ, and the last one then passes (I<sub>0</sub>/2) cos<sup>2</sup> θ cos<sup>2</sup>(90° − θ) = (I<sub>0</sub>/8) sin<sup>2</sup> 2θ, which is maximum, I<sub>0</sub>/8, at θ = 45°. Polaroids are used in sunglasses, window panes and car windscreens to cut glare, in photographic filters, and in 3-D cinema where the two images are sent with perpendicular polarisations. Polarisation by scattering (the blue of the sky) and by reflection (Brewster's law, tan i<sub>B</sub> = n) have been removed from the rationalised book.</p>",
+      "formulas": [
+        {
+          "expr": "I = I<sub>0</sub> cos<sup>2</sup> θ (Malus's law)",
+          "where": [
+            [
+              "I<sub>0</sub>",
+              "intensity of the polarised light incident on the analyser"
+            ],
+            [
+              "θ",
+              "angle between the pass-axes of polariser and analyser"
+            ]
+          ]
+        },
+        {
+          "expr": "Unpolarised light of intensity I through one polaroid → I/2",
+          "where": [
+            [
+              "I",
+              "intensity of the incident unpolarised light"
+            ]
+          ]
+        }
+      ],
+      "tip": "Malus's law applies to already-polarised light. For unpolarised light falling on the first polaroid the answer is always half, whatever the orientation."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Wavefront",
+      "definition": "The locus of all points in a medium that are vibrating in the same phase. It is perpendicular to the rays, which give the direction of energy flow."
+    },
+    {
+      "term": "Ray",
+      "definition": "A line drawn perpendicular to the wavefront in the direction of propagation of the wave; it is the path along which energy travels."
+    },
+    {
+      "term": "Spherical, plane and cylindrical wavefronts",
+      "definition": "A point source gives spherical wavefronts; a very distant source gives plane wavefronts; a line source gives cylindrical wavefronts."
+    },
+    {
+      "term": "Huygens' principle",
+      "definition": "Every point on a wavefront is a source of secondary wavelets that spread out with the speed of the wave; the common tangent to these wavelets in the forward direction gives the new wavefront."
+    },
+    {
+      "term": "Secondary wavelets",
+      "definition": "The spherical wavelets emitted by each point of a wavefront in Huygens' construction; their backward amplitude is taken to be zero."
+    },
+    {
+      "term": "Superposition principle",
+      "definition": "When two or more waves overlap, the resultant displacement at any point is the vector sum of the displacements due to each wave alone."
+    },
+    {
+      "term": "Interference",
+      "definition": "The redistribution of light energy when two coherent waves superpose, giving alternate regions of maximum intensity (constructive) and minimum intensity (destructive)."
+    },
+    {
+      "term": "Coherent sources",
+      "definition": "Two sources of the same frequency whose phase difference at any point stays constant with time. Only coherent sources produce a sustained interference pattern."
+    },
+    {
+      "term": "Incoherent sources",
+      "definition": "Sources whose relative phase changes randomly with time, such as two independent lamps; their intensities simply add and no fringes are seen."
+    },
+    {
+      "term": "Constructive interference",
+      "definition": "Superposition in phase, occurring where the path difference is an integral multiple of λ (phase difference 2nπ); the intensity is 4I<sub>0</sub> for equal sources."
+    },
+    {
+      "term": "Destructive interference",
+      "definition": "Superposition exactly out of phase, occurring where the path difference is (n + ½)λ (phase difference (2n + 1)π); the intensity is zero for equal sources."
+    },
+    {
+      "term": "Fringe width",
+      "definition": "The distance between two consecutive bright or two consecutive dark fringes in Young's experiment, β = λD/d."
+    },
+    {
+      "term": "Sustained interference",
+      "definition": "An interference pattern whose positions of maxima and minima do not change with time; it needs coherent sources of the same frequency and, for good contrast, comparable amplitudes."
+    },
+    {
+      "term": "Diffraction",
+      "definition": "The bending of a wave round the edges of an obstacle or aperture, noticeable when the aperture size is comparable to the wavelength."
+    },
+    {
+      "term": "Central maximum",
+      "definition": "The bright band at the centre of the single-slit pattern, of angular width 2λ/a, twice as wide as and far brighter than any secondary maximum."
+    },
+    {
+      "term": "Secondary maxima",
+      "definition": "The weaker bright bands on either side of the central maximum in single-slit diffraction, located at approximately a sin θ = (n + ½)λ, of rapidly decreasing intensity."
+    },
+    {
+      "term": "Linearly (plane) polarised light",
+      "definition": "Light in which the electric field vector oscillates along one fixed direction perpendicular to the direction of propagation."
+    },
+    {
+      "term": "Unpolarised light",
+      "definition": "Light in which the electric vector takes all directions perpendicular to the ray, changing randomly and rapidly; ordinary light from a lamp or the Sun."
+    },
+    {
+      "term": "Polaroid and pass-axis",
+      "definition": "A sheet of aligned long-chain molecules that absorbs the field component along the chains and transmits the perpendicular component; the transmitted direction is the pass-axis."
+    },
+    {
+      "term": "Malus's law",
+      "definition": "When polarised light of intensity I<sub>0</sub> passes through an analyser whose pass-axis makes angle θ with the polarisation direction, the transmitted intensity is I = I<sub>0</sub> cos<sup>2</sup> θ."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Speed, wavelength and frequency on refraction",
+      "expr": "v = c/n, λ = λ<sub>0</sub>/n, ν unchanged",
+      "note": "Frequency is fixed by the source; speed and wavelength both fall by the factor n in a denser medium."
+    },
+    {
+      "name": "Snell's law from Huygens' construction",
+      "expr": "sin i / sin r = v<sub>1</sub>/v<sub>2</sub> = n<sub>2</sub>/n<sub>1</sub> = n<sub>21</sub>",
+      "note": "From BC = v<sub>1</sub>τ and AE = v<sub>2</sub>τ in the same triangle base AC."
+    },
+    {
+      "name": "Critical angle",
+      "expr": "sin i<sub>c</sub> = n<sub>2</sub>/n<sub>1</sub> (n<sub>2</sub> &lt; n<sub>1</sub>)",
+      "note": "For i &gt; i<sub>c</sub> no refracted wavefront can be drawn: total internal reflection."
+    },
+    {
+      "name": "Law of reflection",
+      "expr": "i = r",
+      "note": "Triangles EAC and BAC congruent, AE = BC = vτ."
+    },
+    {
+      "name": "Phase and path difference",
+      "expr": "φ = (2π/λ) Δx",
+      "note": "λ is the wavelength in the medium in which the path difference is measured."
+    },
+    {
+      "name": "Resultant intensity of two coherent waves",
+      "expr": "I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2)",
+      "note": "Equal amplitudes; 4I<sub>0</sub> for φ = 2nπ, zero for φ = (2n + 1)π. Incoherent: I = 2I<sub>0</sub>."
+    },
+    {
+      "name": "Maximum to minimum intensity",
+      "expr": "I<sub>max</sub>/I<sub>min</sub> = (a<sub>1</sub> + a<sub>2</sub>)<sup>2</sup>/(a<sub>1</sub> − a<sub>2</sub>)<sup>2</sup> = (√I<sub>1</sub> + √I<sub>2</sub>)<sup>2</sup>/(√I<sub>1</sub> − √I<sub>2</sub>)<sup>2</sup>",
+      "note": "Also I<sub>max</sub> = (a<sub>1</sub> + a<sub>2</sub>)<sup>2</sup> in units where I = a<sup>2</sup>."
+    },
+    {
+      "name": "Path difference in Young's experiment",
+      "expr": "S<sub>2</sub>P − S<sub>1</sub>P ≈ xd/D",
+      "note": "Valid for x, d ≪ D."
+    },
+    {
+      "name": "Fringe positions",
+      "expr": "Bright x<sub>n</sub> = nλD/d; dark x<sub>n</sub> = (n + ½)λD/d",
+      "note": "n = 0, ±1, ±2, ...; central fringe is bright."
+    },
+    {
+      "name": "Fringe width",
+      "expr": "β = λD/d; angular width θ = λ/d",
+      "note": "β ∝ λ, β ∝ D, β ∝ 1/d; in a medium of index n, β' = β/n."
+    },
+    {
+      "name": "Single-slit minima",
+      "expr": "a sin θ = nλ, n = ±1, ±2, ...",
+      "note": "Position on the screen x<sub>n</sub> = nλD/a for small θ."
+    },
+    {
+      "name": "Single-slit secondary maxima",
+      "expr": "a sin θ ≈ (n + ½)λ",
+      "note": "Intensity falls rapidly; first secondary maximum about 1/22 of the central one."
+    },
+    {
+      "name": "Width of central maximum",
+      "expr": "Angular 2λ/a; linear 2λD/a",
+      "note": "Doubles when the slit width is halved; each secondary maximum has half this width."
+    },
+    {
+      "name": "Interference fringes inside the diffraction envelope",
+      "expr": "Number of interference maxima in the central diffraction maximum = 2d/a",
+      "note": "From 2λ/a divided by λ/d; Example 10.4 gives a = 0.2 mm for 10 fringes with d = 1 mm."
+    },
+    {
+      "name": "Malus's law",
+      "expr": "I = I<sub>0</sub> cos<sup>2</sup> θ",
+      "note": "For polarised light on an analyser; unpolarised light through a polaroid gives I/2. Outside the CBSE syllabus since 2023-24."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Huygens' construction for refraction of a plane wave",
+      "how_to_draw": "Draw a horizontal surface PP' separating medium 1 above (speed v<sub>1</sub>) from medium 2 below (v<sub>2</sub> &lt; v<sub>1</sub>). Draw the incident plane wavefront AB tilted so that A touches the surface and B is above it, with the incident ray perpendicular to AB making angle i with the normal at A. Mark C on the surface where the ray from B meets it, and label BC = v<sub>1</sub>τ. Draw a semicircle of radius AE = v<sub>2</sub>τ centred at A in medium 2, draw the tangent from C touching it at E, and label CE as the refracted wavefront with the refracted ray perpendicular to it making angle r with the normal. Mark i in triangle ABC and r in triangle AEC."
+    },
+    {
+      "title": "Huygens' construction for reflection of a plane wave",
+      "how_to_draw": "Draw the reflecting surface MN and the incident plane wavefront AB touching it at A, with the incident ray at angle i to the normal. Mark C where the ray from B reaches the surface; label BC = vτ. Draw a semicircle of radius AE = vτ about A on the incident side, the tangent from C touching it at E, and label CE the reflected wavefront with the reflected ray at angle r. Label the right angles at B and at E so the congruence of triangles ABC and AEC is visible."
+    },
+    {
+      "title": "Young's double-slit geometry",
+      "how_to_draw": "Draw the source S, then the double slit S<sub>1</sub>S<sub>2</sub> separated by d with its midpoint on the axis, and the screen GG' at distance D. Mark O on the screen on the axis and a point P at distance x above O. Draw S<sub>1</sub>P and S<sub>2</sub>P and label the path difference S<sub>2</sub>P − S<sub>1</sub>P = xd/D. Alongside the screen sketch the intensity: equally spaced maxima of equal height 4I<sub>0</sub> with zeros between them, and label the fringe width β = λD/d between adjacent maxima."
+    },
+    {
+      "title": "Single-slit diffraction: geometry and intensity distribution",
+      "how_to_draw": "Draw a slit of width a, a plane wavefront incident from the left, and a bundle of parallel rays leaving at angle θ toward a distant screen (or through a lens to its focal plane). Mark the path difference a sin θ between the two edge rays. Below or beside it plot intensity against θ: a tall central maximum from −λ/a to +λ/a, then much smaller secondary maxima near ±3λ/2a, ±5λ/2a with zeros at ±λ/a, ±2λ/a, ±3λ/a. Label the central width 2λ/a and note the central peak is twice as wide as the others."
+    },
+    {
+      "title": "Wavefront shapes after a lens, a mirror and a prism",
+      "how_to_draw": "Three small sketches. Convex lens: plane wavefronts (vertical parallel lines) enter, spherical wavefronts converging on the focus F leave. Concave mirror: plane wavefronts reflect as spherical wavefronts converging on F. Prism: plane wavefronts enter, plane wavefronts tilted toward the base leave. In each, draw a ray perpendicular to the wavefront to show that the part through thicker glass lags behind."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "10.1",
+      "q": "Monochromatic light of wavelength 589 nm is incident from air on a water surface. What are the wavelength, frequency and speed of (a) reflected and (b) refracted light? Refractive index of water is 1.33.",
+      "a": "<p>(a) Reflected light stays in air, so nothing changes: λ = 589 nm, v = 3 × 10<sup>8</sup> m s<sup>−1</sup>, and ν = c/λ = (3 × 10<sup>8</sup>)/(589 × 10<sup>−9</sup>) = 5.09 × 10<sup>14</sup> Hz.</p><p>(b) Refracted light: the frequency is unchanged, ν = 5.09 × 10<sup>14</sup> Hz. Speed v = c/n = (3 × 10<sup>8</sup>)/1.33 = 2.26 × 10<sup>8</sup> m s<sup>−1</sup>. Wavelength λ' = λ/n = 589/1.33 = 443 nm (≈ 4.43 × 10<sup>−7</sup> m).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10.2",
+      "q": "What is the shape of the wavefront in each of the following cases: (a) light diverging from a point source, (b) light emerging out of a convex lens when a point source is placed at its focus, (c) the portion of the wavefront of light from a distant star intercepted by the Earth?",
+      "a": "<p>(a) Spherical wavefront, diverging, with the source at its centre.</p><p>(b) Plane wavefront: the lens converts the diverging spherical wavefront into a plane one, so the emergent rays are parallel to the axis.</p><p>(c) Plane wavefront: the star is so far away that the small portion of the huge spherical wavefront reaching the Earth is effectively flat.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10.3",
+      "q": "(a) The refractive index of glass is 1.5. What is the speed of light in glass? (Speed of light in vacuum is 3.0 × 10<sup>8</sup> m s<sup>−1</sup>.) (b) Is the speed of light in glass independent of the colour of light? If not, which of the two colours, red and violet, travels slower in a glass prism?",
+      "a": "<p>(a) v = c/n = (3.0 × 10<sup>8</sup>)/1.5 = 2.0 × 10<sup>8</sup> m s<sup>−1</sup>.</p><p>(b) No. The refractive index of glass depends on wavelength (dispersion): it is larger for violet than for red. Since v = c/n, violet light travels slower in glass than red light.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.4",
+      "q": "In a Young's double-slit experiment, the slits are separated by 0.28 mm and the screen is placed 1.4 m away. The distance between the central bright fringe and the fourth bright fringe is measured to be 1.2 cm. Determine the wavelength of light used in the experiment.",
+      "a": "<p>Position of the n-th bright fringe: x<sub>n</sub> = nλD/d. Here n = 4, x<sub>4</sub> = 1.2 × 10<sup>−2</sup> m, d = 0.28 × 10<sup>−3</sup> m, D = 1.4 m.</p><p>λ = x<sub>4</sub>d/(nD) = (1.2 × 10<sup>−2</sup> × 0.28 × 10<sup>−3</sup>)/(4 × 1.4) = (3.36 × 10<sup>−6</sup>)/5.6 = 6.0 × 10<sup>−7</sup> m = 600 nm.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.5",
+      "q": "In Young's double-slit experiment using monochromatic light of wavelength λ, the intensity of light at a point on the screen where path difference is λ is K units. What is the intensity of light at a point where path difference is λ/3?",
+      "a": "<p>I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2) with φ = (2π/λ) × path difference.</p><p>Path difference λ: φ = 2π, I = 4I<sub>0</sub> cos<sup>2</sup> π = 4I<sub>0</sub> = K.</p><p>Path difference λ/3: φ = 2π/3, I = 4I<sub>0</sub> cos<sup>2</sup>(π/3) = 4I<sub>0</sub> × ¼ = I<sub>0</sub> = K/4.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.6",
+      "q": "A beam of light consisting of two wavelengths, 650 nm and 520 nm, is used to obtain interference fringes in a Young's double-slit experiment. The separation between the slits is 2 mm and the distance between the slits and the screen is 120 cm. (a) Find the distance of the third bright fringe on the screen from the central maximum for wavelength 650 nm. (b) What is the least distance from the central maximum where the bright fringes due to both the wavelengths coincide?",
+      "a": "<p>d = 2 × 10<sup>−3</sup> m, D = 1.2 m.</p><p>(a) x<sub>3</sub> = 3λD/d = (3 × 650 × 10<sup>−9</sup> × 1.2)/(2 × 10<sup>−3</sup>) = 1.17 × 10<sup>−3</sup> m = 1.17 mm.</p><p>(b) Coincidence needs n<sub>1</sub>λ<sub>1</sub> = n<sub>2</sub>λ<sub>2</sub>, i.e. n<sub>1</sub>/n<sub>2</sub> = 520/650 = 4/5. The smallest integers are n<sub>1</sub> = 4 (for 650 nm) and n<sub>2</sub> = 5 (for 520 nm). Least distance x = 4 × 650 × 10<sup>−9</sup> × D/d = 5 × 520 × 10<sup>−9</sup> × D/d = (2.6 × 10<sup>−6</sup> × 1.2)/(2 × 10<sup>−3</sup>) = 1.56 × 10<sup>−3</sup> m = 1.56 mm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10.7",
+      "q": "In a double-slit experiment the angular width of a fringe is found to be 0.2° on a screen placed 1 m away. The wavelength of light used is 600 nm. What will be the angular width of the fringe if the entire experimental apparatus is immersed in water? Take refractive index of water to be 4/3.",
+      "a": "<p>Angular fringe width θ = λ/d. In water the wavelength becomes λ/n, so θ' = θ/n.</p><p>θ' = 0.2° × 3/4 = 0.15°.</p><p>(The screen distance is not needed; the angular width does not depend on D.)</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.8",
+      "q": "Light of wavelength 5000 Å falls on a plane reflecting surface. What are the wavelength and frequency of the reflected light? For what angle of incidence is the reflected ray normal to the incident ray?",
+      "a": "<p>Reflection does not change the medium, so the reflected light has the same wavelength, 5000 Å = 5 × 10<sup>−7</sup> m, and frequency ν = c/λ = (3 × 10<sup>8</sup>)/(5 × 10<sup>−7</sup>) = 6 × 10<sup>14</sup> Hz.</p><p>The angle between the incident and reflected rays is i + r = 2i (since i = r). For the rays to be perpendicular, 2i = 90°, so i = 45°.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "example",
+      "number": "10.2",
+      "q": "Two slits are made one millimetre apart and the screen is placed one metre away. What is the fringe separation when blue-green light of wavelength 500 nm is used?",
+      "a": "<p>β = λD/d = (500 × 10<sup>−9</sup> × 1)/(1 × 10<sup>−3</sup>) = 5 × 10<sup>−4</sup> m = 0.5 mm.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "example",
+      "number": "10.3",
+      "q": "What is the effect on the interference fringes in a Young's double-slit experiment due to each of the following operations: (a) the screen is moved away from the plane of the slits; (b) the monochromatic source is replaced by another of shorter wavelength; (c) the separation between the two slits is increased; (d) the source slit is moved closer to the double-slit plane; (e) the width of the source slit is increased; (f) the monochromatic source is replaced by a source of white light?",
+      "a": "<p>(a) β = λD/d increases with D, so the fringes become wider; the angular separation λ/d is unchanged.</p><p>(b) Shorter λ gives smaller β and smaller angular separation: the fringes come closer.</p><p>(c) Larger d gives smaller β and smaller angular separation.</p><p>(d) Let s be the width of the source slit and S its distance from the double slit. Fringes are seen only if s/S &lt; λ/d. Bringing the source closer reduces S, so the pattern becomes less and less sharp and disappears when the condition fails; until then the fringe separation stays fixed.</p><p>(e) Each point of a wide source slit produces its own shifted pattern; the fringes lose contrast and disappear when s/S exceeds λ/d.</p><p>(f) The patterns of the different colours overlap. The central bright fringes of all colours coincide, so the central fringe is white. At the point where the path difference is λ<sub>b</sub>/2 (λ<sub>b</sub> ≈ 4000 Å) blue is absent and the fringe appears red; slightly farther, where the path difference is λ<sub>b</sub> = λ<sub>r</sub>/2 (λ<sub>r</sub> ≈ 8000 Å), red is absent and the fringe appears blue. So the fringe nearest the central white one is red and the farther one blue. After a few fringes no clear pattern is seen.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "example",
+      "number": "10.4",
+      "q": "In Example 10.2 (d = 1 mm), what should the width of each slit be to obtain 10 maxima of the double-slit pattern within the central maximum of the single-slit pattern?",
+      "a": "<p>Angular width of the central diffraction maximum = 2λ/a. Angular width of one interference fringe = λ/d. For 10 fringes to fit inside: 10 × λ/d = 2λ/a, so a = 2d/10 = d/5 = 1 mm/5 = 0.2 mm.</p>",
+      "marks": 2
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The shape of the wavefront emerging from a point source of light is",
+      "options": [
+        "plane",
+        "spherical",
+        "cylindrical",
+        "elliptical"
+      ],
+      "answer": "b",
+      "solution": "All points equidistant from a point source are in the same phase, so the wavefronts are concentric spheres centred on the source."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "When monochromatic light travels from air into glass, the quantity that remains unchanged is its",
+      "options": [
+        "speed",
+        "wavelength",
+        "frequency",
+        "amplitude"
+      ],
+      "answer": "c",
+      "solution": "The frequency is fixed by the source; the number of waves arriving at the boundary per second equals the number leaving. Speed and wavelength both fall by the factor n."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In Young's double-slit experiment the distance of the screen from the slits is doubled and the separation between the slits is halved. The fringe width becomes",
+      "options": [
+        "the same",
+        "twice",
+        "four times",
+        "one-fourth"
+      ],
+      "answer": "c",
+      "solution": "β = λD/d. Doubling D doubles β; halving d doubles it again, so β becomes 4 times."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Two coherent sources of light have amplitudes in the ratio 3 : 1. The ratio of the maximum to the minimum intensity in the interference pattern is",
+      "options": [
+        "3 : 1",
+        "9 : 1",
+        "4 : 1",
+        "16 : 1"
+      ],
+      "answer": "c",
+      "solution": "I<sub>max</sub>/I<sub>min</sub> = (a<sub>1</sub> + a<sub>2</sub>)<sup>2</sup>/(a<sub>1</sub> − a<sub>2</sub>)<sup>2</sup> = (3 + 1)<sup>2</sup>/(3 − 1)<sup>2</sup> = 16/4 = 4 : 1."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In a single-slit diffraction experiment the width of the slit is halved. The width of the central maximum",
+      "options": [
+        "is halved",
+        "is doubled",
+        "remains the same",
+        "becomes one-fourth"
+      ],
+      "answer": "b",
+      "solution": "The angular width of the central maximum is 2λ/a, so halving a doubles the width. Its intensity falls to one quarter."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The phase difference between two light waves reaching a point corresponds to a path difference of λ/2. The phase difference is",
+      "options": [
+        "π/2",
+        "π",
+        "2π",
+        "π/4"
+      ],
+      "answer": "b",
+      "solution": "φ = (2π/λ) × path difference = (2π/λ)(λ/2) = π. The waves are exactly out of phase: destructive interference."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Two sources of light are said to be coherent when they emit light waves of",
+      "options": [
+        "the same wavelength and a constant phase difference",
+        "the same amplitude only",
+        "different wavelengths but the same amplitude",
+        "the same wavelength and random phase difference"
+      ],
+      "answer": "a",
+      "solution": "Coherence means the same frequency (wavelength) and a phase difference that does not change with time; amplitude affects contrast but is not part of the definition."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A parallel beam of light of wavelength λ falls on a single slit of width a. The first minimum of the diffraction pattern is observed at an angle θ given by",
+      "options": [
+        "a sin θ = λ/2",
+        "a sin θ = λ",
+        "a sin θ = 3λ/2",
+        "a sin θ = 2λ"
+      ],
+      "answer": "b",
+      "solution": "Minima of the single-slit pattern occur at a sin θ = nλ; the first minimum has n = 1. The maxima, not the minima, lie near the half-integer values."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Young's double-slit experiment is performed with white light. The central fringe is",
+      "options": [
+        "dark",
+        "red",
+        "violet",
+        "white"
+      ],
+      "answer": "d",
+      "solution": "At the centre the path difference is zero for every wavelength, so all colours interfere constructively and the fringe is white; the fringes on either side are coloured."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Two independent sodium lamps of the same wavelength do not produce a sustained interference pattern on a screen. Reason (R): The phase difference between light waves from two independent sources changes randomly with time.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Each atom emits for about 10<sup>−10</sup> s with a random phase, so independent sources are incoherent; cos<sup>2</sup>(φ/2) averages to ½ and the intensity is uniform. R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): When the separation between the two slits in Young's experiment is increased, the fringes come closer together. Reason (R): The fringe width is inversely proportional to the slit separation.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "β = λD/d, so a larger d gives a smaller β. R states exactly this and explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The frequency of light changes when it passes from air into water. Reason (R): The speed of light in water is less than the speed of light in air.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "Frequency does not change on refraction; only the speed and the wavelength decrease, in the same ratio. So A is false while R is true."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): In the single-slit diffraction pattern, the secondary maxima are much weaker than the central maximum. Reason (R): At the position of a secondary maximum only a fraction of the slit contributes a net amplitude; the rest cancels in pairs.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "At θ ≈ 3λ/2a the slit divides into three parts, two of which cancel, leaving one third to contribute; the intensity falls further for higher orders. R is the correct explanation."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define a wavefront. Draw the shape of the refracted wavefront when a plane wavefront is incident on (i) a convex lens and (ii) a prism.",
+      "answer": "<p>A wavefront is the locus of all points of the medium vibrating in the same phase; it is perpendicular to the rays.</p><p>(i) Convex lens: the emergent wavefront is spherical, converging on the focus, because the central part of the wavefront passes through the thickest glass and is delayed most.</p><p>(ii) Prism: the emergent wavefront is plane but tilted toward the base, because the part passing through the thicker portion near the base is delayed more than the part near the apex.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why cannot two independent monochromatic sources of light produce a sustained interference pattern? What is the intensity at a point on the screen when such sources are used?",
+      "answer": "<p>Light is emitted by atoms in wave trains lasting about 10<sup>−10</sup> s, each with a random phase. So the phase difference between two independent sources changes randomly and rapidly, the positions of maxima and minima shift every 10<sup>−10</sup> s, and no steady pattern is seen. The sources are incoherent.</p><p>Averaged over time, cos<sup>2</sup>(φ/2) = ½, so I = 4I<sub>0</sub> × ½ = 2I<sub>0</sub>: the intensities simply add and the screen is uniformly illuminated.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "In a Young's double-slit experiment the fringe width is β when the apparatus is in air. What will be the fringe width if the whole apparatus is immersed in a liquid of refractive index 1.33? Also state how the angular fringe width changes when the screen is moved away from the slits.",
+      "answer": "<p>In the liquid the wavelength becomes λ' = λ/n, so β' = λ'D/d = β/n = β/1.33 = 0.75β. The fringes become narrower.</p><p>The angular fringe width θ = λ/d does not depend on D, so moving the screen away leaves it unchanged, even though the linear fringe width β = λD/d increases.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A parallel beam of light of wavelength 500 nm falls on a narrow slit and the resulting diffraction pattern is observed on a screen 1 m away. The first minimum is at a distance of 2.5 mm from the centre of the screen. Find the width of the slit.",
+      "answer": "<p>For the first minimum, a sin θ = λ, and for small θ, sin θ ≈ θ = x/D.</p><p>a = λD/x = (500 × 10<sup>−9</sup> × 1)/(2.5 × 10<sup>−3</sup>) = 2 × 10<sup>−4</sup> m = 0.2 mm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Sketch the intensity distribution of the single-slit diffraction pattern as a function of the angle of diffraction. Write the condition for the first minimum and the angular width of the central maximum.",
+      "answer": "<p>Sketch: a tall central maximum centred at θ = 0, falling to zero at θ = ±λ/a, then small secondary maxima of rapidly decreasing height at about ±3λ/2a, ±5λ/2a with zeros at ±2λ/a, ±3λ/a. The central peak is twice as wide as each secondary peak.</p><p>First minimum: a sin θ = λ. Angular width of the central maximum: 2λ/a (from −λ/a to +λ/a); on a screen at distance D its linear width is 2λD/a.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Use Huygens' principle to verify the laws of refraction when a plane wavefront travels from a rarer to a denser medium. Hence show that the ray bends toward the normal.",
+      "answer": "<p>Diagram: plane wavefront AB incident on the surface PP' at angle i; medium 1 above with speed v<sub>1</sub>, medium 2 below with speed v<sub>2</sub> &lt; v<sub>1</sub>.</p><p>Let τ be the time in which the disturbance from B reaches C on the surface: BC = v<sub>1</sub>τ. In the same time the secondary wavelet from A travels AE = v<sub>2</sub>τ into medium 2. Draw the sphere of radius v<sub>2</sub>τ about A and the tangent CE from C; CE is the refracted wavefront, making angle r with the surface.</p><p>From triangle ABC: sin i = BC/AC = v<sub>1</sub>τ/AC. From triangle AEC: sin r = AE/AC = v<sub>2</sub>τ/AC. Dividing, sin i / sin r = v<sub>1</sub>/v<sub>2</sub> = constant = n<sub>21</sub>, which is Snell's law. With n<sub>1</sub> = c/v<sub>1</sub> and n<sub>2</sub> = c/v<sub>2</sub>, this is n<sub>1</sub> sin i = n<sub>2</sub> sin r. The incident ray, refracted ray and normal lie in the plane of the figure.</p><p>Since v<sub>2</sub> &lt; v<sub>1</sub>, sin r &lt; sin i, so r &lt; i: the refracted ray bends toward the normal. The frequency is unchanged, so λ<sub>2</sub>/λ<sub>1</sub> = v<sub>2</sub>/v<sub>1</sub>: the wavelength is shorter in the denser medium.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Two coherent sources of equal intensity I<sub>0</sub> produce an interference pattern. Obtain the expression for the resultant intensity at a point where the phase difference is φ, and write the conditions for constructive and destructive interference. If the intensity at a point where the path difference is λ is K, find the intensity where the path difference is λ/4.",
+      "answer": "<p>Let y<sub>1</sub> = a cos ωt and y<sub>2</sub> = a cos(ωt + φ). By superposition, y = y<sub>1</sub> + y<sub>2</sub> = 2a cos(φ/2) cos(ωt + φ/2). The resultant amplitude is 2a cos(φ/2), and since intensity ∝ (amplitude)<sup>2</sup>, I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2), where I<sub>0</sub> ∝ a<sup>2</sup>.</p><p>Constructive interference: I = 4I<sub>0</sub> when φ = 0, ±2π, ±4π, ..., i.e. path difference = nλ. Destructive: I = 0 when φ = ±π, ±3π, ..., i.e. path difference = (n + ½)λ.</p><p>Numerical: path difference λ means φ = 2π, so K = 4I<sub>0</sub>. Path difference λ/4 means φ = π/2, so I = 4I<sub>0</sub> cos<sup>2</sup>(π/4) = 4I<sub>0</sub> × ½ = 2I<sub>0</sub> = K/2.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "In a Young's double-slit experiment, light of wavelength 600 nm is used, the slits are 0.2 mm apart and the screen is 1 m from the slits. Find (i) the fringe width, (ii) the distance of the second bright fringe from the central maximum, and (iii) the distance of the first dark fringe from the central maximum.",
+      "answer": "<p>(i) β = λD/d = (600 × 10<sup>−9</sup> × 1)/(0.2 × 10<sup>−3</sup>) = 3 × 10<sup>−3</sup> m = 3 mm.</p><p>(ii) Second bright fringe: x<sub>2</sub> = 2β = 6 mm.</p><p>(iii) First dark fringe: x = (n + ½)λD/d with n = 0, so x = β/2 = 1.5 mm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "In Young's experiment, the third bright fringe for light of wavelength 640 nm coincides with the fourth bright fringe of another wavelength λ'. Find λ'. Also state two differences between the interference pattern of a double slit and the diffraction pattern of a single slit.",
+      "answer": "<p>Coincidence: 3 × 640 nm × D/d = 4 × λ' × D/d, so λ' = 3 × 640/4 = 480 nm.</p><p>Differences: (i) Interference fringes have nearly equal intensity; in the diffraction pattern the central maximum is far brighter and the secondary maxima fade rapidly. (ii) Interference fringes are of equal width; the central diffraction maximum is twice as wide as the secondary maxima. (iii) Interference arises from two coherent sources; diffraction from the wavelets of a single aperture.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Light of wavelength 600 nm is incident normally on a slit of width 0.2 mm and the diffraction pattern is observed on a screen 1 m away. Find (i) the angular position of the first minimum, (ii) the linear width of the central maximum, and (iii) the distance of the first secondary maximum from the centre.",
+      "answer": "<p>(i) First minimum: sin θ = λ/a = (600 × 10<sup>−9</sup>)/(0.2 × 10<sup>−3</sup>) = 3 × 10<sup>−3</sup> rad (small, so θ ≈ 3 × 10<sup>−3</sup> rad ≈ 0.17°).</p><p>(ii) Width of the central maximum = 2λD/a = 2 × 3 × 10<sup>−3</sup> × 1 = 6 × 10<sup>−3</sup> m = 6 mm.</p><p>(iii) First secondary maximum at θ ≈ 3λ/2a, so x = 1.5 λD/a = 1.5 × 3 × 10<sup>−3</sup> m = 4.5 mm from the centre.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Describe Young's double-slit experiment and derive the expression for the fringe width. (b) How does the fringe pattern change when (i) the monochromatic source is replaced by white light, (ii) one of the slits is covered?",
+      "answer": "<p>(a) Light from a narrow source slit S falls on two close, parallel slits S<sub>1</sub> and S<sub>2</sub>, equidistant from S, separated by d, and the pattern is observed on a screen at distance D. Since both slits are lit by the same wavefront, they act as coherent sources and produce stable alternate bright and dark fringes.</p><p>Let P be a point on the screen at distance x from the central point O. Then (S<sub>2</sub>P)<sup>2</sup> − (S<sub>1</sub>P)<sup>2</sup> = [D<sup>2</sup> + (x + d/2)<sup>2</sup>] − [D<sup>2</sup> + (x − d/2)<sup>2</sup>] = 2xd, so S<sub>2</sub>P − S<sub>1</sub>P = 2xd/(S<sub>2</sub>P + S<sub>1</sub>P). For x, d ≪ D, S<sub>2</sub>P + S<sub>1</sub>P ≈ 2D, giving path difference = xd/D.</p><p>Bright fringes: xd/D = nλ, x<sub>n</sub> = nλD/d (n = 0, ±1, ±2, ...). Dark fringes: x<sub>n</sub> = (n + ½)λD/d. Fringe width β = x<sub>n+1</sub> − x<sub>n</sub> = (n + 1)λD/d − nλD/d = λD/d. The fringes are equally spaced and of equal intensity 4I<sub>0</sub>; angular width λ/d.</p><p>(b)(i) With white light the central fringe (zero path difference for all λ) is white; the fringes on either side are coloured because each colour has its own fringe width β ∝ λ (NCERT: the fringe next to the central one appears red where blue is absent, the next appears blue where red is absent); a few fringes away the colours overlap and no clear pattern remains. (ii) Covering one slit removes interference; only the broad single-slit diffraction pattern of the open slit remains, with a central maximum of width 2λD/a.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Using Huygens' principle, explain the diffraction of light at a single slit and obtain the condition for the minima. Draw the intensity distribution. (b) Two slits 1 mm apart are used in a double-slit experiment. What should be the width of each slit so that 10 maxima of the double-slit pattern lie within the central maximum of the single-slit pattern?",
+      "answer": "<p>(a) A plane wavefront of wavelength λ falls on a slit of width a; every point of the slit acts as a source of secondary wavelets (Huygens). Consider the wavelets leaving at angle θ. The path difference between the edges of the slit is a sin θ ≈ aθ.</p><p>At θ = 0 all wavelets are in phase: central maximum. When aθ = λ, divide the slit into two halves; each point of the upper half pairs with a point a/2 below it with path difference (a/2)θ = λ/2, so the pairs cancel and the intensity is zero. Dividing the slit into 4, 6, ... equal parts gives the general condition for minima: a sin θ = nλ, n = ±1, ±2, ....</p><p>Between the minima are secondary maxima at about a sin θ = (n + ½)λ. At θ = 3λ/2a the slit splits into three parts; two cancel and one contributes, so the maximum is weak (about 1/22 of the central intensity), and the intensity falls further for higher orders. The central maximum extends from −λ/a to +λ/a: angular width 2λ/a, linear width 2λD/a, twice that of any secondary maximum.</p><p>Intensity graph: tall central peak at θ = 0, zeros at ±λ/a, ±2λ/a, ..., small peaks near ±3λ/2a, ±5λ/2a decreasing outward.</p><p>(b) Angular width of the central diffraction maximum = 2λ/a; angular width of one interference fringe = λ/d. For 10 fringes: 10λ/d = 2λ/a, so a = d/5 = 1 mm/5 = 0.2 mm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) State Huygens' principle. Using it, prove the law of reflection of a plane wavefront at a plane surface. (b) Monochromatic light of wavelength 600 nm in air enters a glass slab of refractive index 1.5. Find its speed, wavelength and frequency in glass, and explain which of these change and why.",
+      "answer": "<p>(a) Huygens' principle: every point on a wavefront is a source of secondary wavelets which spread out in all directions with the speed of the wave; the common tangent to these wavelets in the forward direction gives the new wavefront.</p><p>Proof: let the plane wavefront AB strike the reflecting surface MN at A, making angle i with the surface, and let v be the wave speed. In time τ the disturbance from B reaches C: BC = vτ. In the same time the wavelet from A grows to a sphere of radius AE = vτ. The tangent from C to this sphere touches at E; CE is the reflected wavefront, at angle r to the surface. In triangles EAC and BAC: AE = BC = vτ, AC is common, and the angles at E and B are right angles. The triangles are congruent, so angle BAC = angle ECA, i.e. i = r. The incident ray, reflected ray and normal are in the same plane. This is the law of reflection.</p><p>(b) Speed v = c/n = (3 × 10<sup>8</sup>)/1.5 = 2 × 10<sup>8</sup> m s<sup>−1</sup>. Frequency ν = c/λ = (3 × 10<sup>8</sup>)/(600 × 10<sup>−9</sup>) = 5 × 10<sup>14</sup> Hz, unchanged in glass. Wavelength in glass λ' = λ/n = 600/1.5 = 400 nm.</p><p>Speed and wavelength decrease by the factor n; the frequency does not change because the number of waves crossing the boundary per second is the same on both sides; it is fixed by the source.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "In Young's double-slit experiment, light from a single narrow slit falls on two narrow slits close together, which therefore act as coherent sources. On a screen at a large distance D from the slits, alternate bright and dark fringes are observed. The path difference at a point at distance x from the centre is xd/D, where d is the slit separation, and the fringe width is β = λD/d. The pattern is symmetric about the central bright fringe. Answer the following:<br>(i) What is the path difference at the position of the third dark fringe from the centre?<br>(ii) The slits are 0.5 mm apart and the screen is 1 m away. With light of wavelength 500 nm, what is the fringe width?<br>(iii) The whole apparatus is now immersed in water (n = 4/3). What happens to the fringe width?<br>(iv) If the two slits were illuminated by two separate identical lamps instead, what would be seen on the screen?",
+      "answer": "<p>(i) Dark fringes have path difference (n + ½)λ with n = 0, 1, 2, ...; the third dark fringe corresponds to n = 2, so the path difference is 2.5λ = 5λ/2.</p><p>(ii) β = λD/d = (500 × 10<sup>−9</sup> × 1)/(0.5 × 10<sup>−3</sup>) = 1 × 10<sup>−3</sup> m = 1 mm.</p><p>(iii) The wavelength in water is λ/n, so β becomes β/n = 1 mm × 3/4 = 0.75 mm: the fringes become narrower.</p><p>(iv) Two separate lamps are incoherent, so no fringes are seen; the screen is uniformly lit with intensity 2I<sub>0</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "When a parallel beam of monochromatic light of wavelength λ passes through a single narrow slit of width a, the light spreads out and on a distant screen a diffraction pattern is seen: a broad, bright central maximum flanked by alternate dark and much fainter bright bands. The minima occur at a sin θ = nλ (n = 1, 2, 3, ...), and the angular width of the central maximum is 2λ/a. Answer the following:<br>(i) Light of wavelength 600 nm falls on a slit of width 0.3 mm. At what angle (in radians) is the first minimum?<br>(ii) If the screen is 1.5 m away, what is the linear width of the central maximum?<br>(iii) The slit width is now doubled. What happens to the width and the intensity of the central maximum?<br>(iv) Give one difference between this pattern and the interference pattern of a double slit.",
+      "answer": "<p>(i) sin θ = λ/a = (600 × 10<sup>−9</sup>)/(0.3 × 10<sup>−3</sup>) = 2 × 10<sup>−3</sup>; θ ≈ 2 × 10<sup>−3</sup> rad.</p><p>(ii) Width = 2λD/a = 2 × 2 × 10<sup>−3</sup> × 1.5 = 6 × 10<sup>−3</sup> m = 6 mm.</p><p>(iii) The width 2λD/a is halved to 3 mm; the intensity of the central maximum becomes four times larger (twice the light through the slit, concentrated in half the width).</p><p>(iv) In the diffraction pattern the central maximum is much brighter and twice as wide as the others, and the secondary maxima fade quickly; in the double-slit interference pattern all fringes are equally wide and of nearly equal brightness.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "A plane wavefront is incident on a concave mirror. The reflected wavefront is",
+      "options": [
+        "plane",
+        "spherical and converging toward the focus",
+        "spherical and diverging from the pole",
+        "cylindrical"
+      ],
+      "answer_index": 1,
+      "explanation": "A concave mirror brings a parallel beam to its focus, so the reflected wavefront is a sphere converging on the focus."
+    },
+    {
+      "q": "Light of wavelength 600 nm in air enters a medium of refractive index 1.5. Its wavelength in the medium is",
+      "options": [
+        "900 nm",
+        "600 nm",
+        "400 nm",
+        "300 nm"
+      ],
+      "answer_index": 2,
+      "explanation": "λ' = λ/n = 600/1.5 = 400 nm; the frequency is unchanged."
+    },
+    {
+      "q": "In Huygens' construction for refraction, if BC = v<sub>1</sub>τ and AE = v<sub>2</sub>τ, then sin i / sin r equals",
+      "options": [
+        "v<sub>2</sub>/v<sub>1</sub>",
+        "v<sub>1</sub>/v<sub>2</sub>",
+        "(v<sub>1</sub>/v<sub>2</sub>)<sup>2</sup>",
+        "v<sub>1</sub>v<sub>2</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "sin i = BC/AC and sin r = AE/AC, so their ratio is v<sub>1</sub>τ/v<sub>2</sub>τ = v<sub>1</sub>/v<sub>2</sub>."
+    },
+    {
+      "q": "Two waves of the same frequency and amplitude a superpose with a phase difference of 2π/3. The resultant amplitude is",
+      "options": [
+        "2a",
+        "a",
+        "a√3",
+        "zero"
+      ],
+      "answer_index": 1,
+      "explanation": "Resultant amplitude = 2a cos(φ/2) = 2a cos(π/3) = 2a × ½ = a."
+    },
+    {
+      "q": "The intensities of two coherent waves are in the ratio 9 : 1. The ratio of maximum to minimum intensity in their interference pattern is",
+      "options": [
+        "9 : 1",
+        "3 : 1",
+        "4 : 1",
+        "16 : 1"
+      ],
+      "answer_index": 2,
+      "explanation": "Amplitudes are in the ratio 3 : 1, so I<sub>max</sub>/I<sub>min</sub> = (3 + 1)<sup>2</sup>/(3 − 1)<sup>2</sup> = 16/4 = 4 : 1."
+    },
+    {
+      "q": "In Young's experiment, the intensity at the centre of a bright fringe is I. The intensity at a point one quarter of the fringe width from the centre of that bright fringe is",
+      "options": [
+        "I",
+        "I/2",
+        "I/4",
+        "zero"
+      ],
+      "answer_index": 1,
+      "explanation": "One fringe width corresponds to a phase difference of 2π, so a quarter of it is π/2; I' = I cos<sup>2</sup>(π/4) = I/2."
+    },
+    {
+      "q": "In Young's experiment with light of wavelength 500 nm, the slits are 0.25 mm apart and the screen is 1 m away. The fringe width is",
+      "options": [
+        "0.5 mm",
+        "1 mm",
+        "2 mm",
+        "4 mm"
+      ],
+      "answer_index": 2,
+      "explanation": "β = λD/d = (500 × 10<sup>−9</sup> × 1)/(0.25 × 10<sup>−3</sup>) = 2 × 10<sup>−3</sup> m = 2 mm."
+    },
+    {
+      "q": "Which change increases the fringe width in Young's double-slit experiment?",
+      "options": [
+        "Replacing red light with blue light",
+        "Moving the screen closer to the slits",
+        "Increasing the separation between the slits",
+        "Immersing the apparatus in a medium of lower refractive index than the present one"
+      ],
+      "answer_index": 3,
+      "explanation": "β = λD/d with λ = λ<sub>0</sub>/n. A lower n means a longer wavelength and a wider fringe; the other three changes all reduce β."
+    },
+    {
+      "q": "The angular width of a fringe in Young's experiment is 0.1° with light of wavelength 600 nm. The slit separation is about",
+      "options": [
+        "0.034 mm",
+        "0.34 mm",
+        "3.4 mm",
+        "34 mm"
+      ],
+      "answer_index": 1,
+      "explanation": "θ = λ/d, with 0.1° = 1.745 × 10<sup>−3</sup> rad; d = 600 × 10<sup>−9</sup>/1.745 × 10<sup>−3</sup> = 3.44 × 10<sup>−4</sup> m ≈ 0.34 mm."
+    },
+    {
+      "q": "In Young's experiment, if one slit is covered with an opaque sheet, the screen shows",
+      "options": [
+        "the same fringes with half the intensity",
+        "fringes of double the width",
+        "a single-slit diffraction pattern",
+        "uniform darkness"
+      ],
+      "answer_index": 2,
+      "explanation": "With one source there is no interference; the light from the open slit produces its own diffraction pattern with a broad central maximum."
+    },
+    {
+      "q": "In the single-slit diffraction pattern, the first secondary maximum occurs approximately at",
+      "options": [
+        "a sin θ = λ",
+        "a sin θ = 3λ/2",
+        "a sin θ = 2λ",
+        "a sin θ = λ/2"
+      ],
+      "answer_index": 1,
+      "explanation": "Secondary maxima lie roughly midway between successive minima, at a sin θ ≈ (n + ½)λ; the first is at 3λ/2."
+    },
+    {
+      "q": "Light of wavelength 500 nm falls on a slit of width 2 μm. The angle of the first diffraction minimum is",
+      "options": [
+        "sin<sup>−1</sup>(0.125)",
+        "sin<sup>−1</sup>(0.25)",
+        "sin<sup>−1</sup>(0.5)",
+        "90°"
+      ],
+      "answer_index": 1,
+      "explanation": "sin θ = λ/a = (500 × 10<sup>−9</sup>)/(2 × 10<sup>−6</sup>) = 0.25, so θ = sin<sup>−1</sup>(0.25) ≈ 14.5°."
+    },
+    {
+      "q": "In a single-slit experiment, red light is replaced by blue light of the same intensity. The central maximum",
+      "options": [
+        "becomes wider",
+        "becomes narrower",
+        "stays the same width",
+        "disappears"
+      ],
+      "answer_index": 1,
+      "explanation": "Width of the central maximum is 2λD/a, and blue light has a shorter wavelength than red, so the maximum narrows."
+    },
+    {
+      "q": "Sound waves cannot be polarised because they are",
+      "options": [
+        "mechanical",
+        "longitudinal",
+        "of low frequency",
+        "of long wavelength"
+      ],
+      "answer_index": 1,
+      "explanation": "Polarisation is possible only for transverse waves, where the vibration can be restricted to one direction perpendicular to propagation; sound in air is longitudinal."
+    },
+    {
+      "q": "Unpolarised light of intensity I<sub>0</sub> passes through two polaroids whose pass-axes make an angle of 60° with each other. The transmitted intensity is",
+      "options": [
+        "I<sub>0</sub>/2",
+        "I<sub>0</sub>/4",
+        "I<sub>0</sub>/8",
+        "3I<sub>0</sub>/8"
+      ],
+      "answer_index": 2,
+      "explanation": "The first polaroid passes I<sub>0</sub>/2; Malus's law then gives (I<sub>0</sub>/2) cos<sup>2</sup> 60° = (I<sub>0</sub>/2)(¼) = I<sub>0</sub>/8."
+    },
+    {
+      "q": "Which of the following phenomena cannot be explained by the corpuscular theory of light?",
+      "options": [
+        "Reflection",
+        "Refraction",
+        "Rectilinear propagation",
+        "Interference"
+      ],
+      "answer_index": 3,
+      "explanation": "Particles travelling in straight lines cannot cancel each other to give dark fringes; interference and diffraction need the wave picture."
+    }
+  ],
+  "common_mistakes": [
+    "Saying the frequency of light changes on refraction. Only the speed and the wavelength change, and both by the same factor n. The examiner deducts the mark and often the follow-up numerical too.",
+    "In the Huygens refraction proof, writing BC = AE or forgetting to state that BC = v<sub>1</sub>τ and AE = v<sub>2</sub>τ are distances covered in the same time τ. Without the time τ the two sine expressions cannot be divided.",
+    "Using a sin θ = nλ as the condition for maxima in single-slit diffraction. It gives the minima. The secondary maxima are approximately at (n + ½)λ, and the central maximum sits at θ = 0.",
+    "Forgetting that the central maximum in diffraction has width 2λD/a, twice that of the other bands, while in Young's interference all fringes have the same width λD/d. Mixing the two costs the numerical.",
+    "Treating two sodium lamps, or the two halves of one wide slit illuminated separately, as coherent. Coherence requires a constant phase difference, which only sources derived from a single wavefront can provide.",
+    "Claiming the angular fringe width changes when the screen is moved. β = λD/d changes with D, but the angular width λ/d does not.",
+    "Counting dark fringes wrongly: the n-th dark fringe from the centre is at (n − ½)λD/d if you count from n = 1, or at (n + ½)λD/d with n starting at 0. Write which convention you use.",
+    "Applying Malus's law I = I<sub>0</sub> cos<sup>2</sup> θ to unpolarised light on the first polaroid. Unpolarised light always loses exactly half its intensity at the first polaroid, whatever its orientation.",
+    "Drawing the Huygens diagram without the secondary wavelet (the semicircle of radius vτ about A) and the tangent from C. The proof lives in that construction; a bare pair of wavefronts earns nothing."
+  ],
+  "strategy": "<p>Wave Optics is a small chapter with a very predictable paper. Start with the two Huygens proofs (refraction, then reflection) and practise them with the diagram until you can write each in four minutes: diagram, BC = v<sub>1</sub>τ and AE = v<sub>2</sub>τ, the two sine ratios, the conclusion. They are worth 3 marks almost every year and are the safest marks in Unit VI.</p><p>Next, the interference block. Memorise I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2) with its two-line derivation, the conversion φ = (2π/λ) × path difference, and the two conditions nλ and (n + ½)λ. Then learn β = λD/d and the seven what-if cases from Example 10.3 (screen moved, shorter wavelength, slits moved apart, source moved, source widened, white light, one slit covered, immersed in liquid). Every 1-mark and 2-mark question on this chapter is one of those cases.</p><p>Then diffraction. Learn the half-slit argument for the first minimum, the general condition a sin θ = nλ, the width 2λD/a, and the shape of the intensity graph. Be ready with the three differences between the interference and diffraction patterns and with Example 10.4 (10 fringes inside the central maximum, a = d/5).</p><p>Numericals here are short: fringe width, wavelength from fringe position, slit width from the first minimum, immersion in a liquid. Do the NCERT exercises 10.1 to 10.8 twice, once with the book and once without. Polarisation is in NCERT but not in the current CBSE syllabus, so read Malus's law once and move on. Allocate about four hours to the whole chapter: two for the derivations and diagrams, one for the numericals, one for revision of the what-if cases and the differences table.</p>",
+  "revision_checklist": [
+    "Define wavefront and ray; know the shapes for a point source, a distant source, and after a convex lens, a concave mirror and a prism",
+    "State Huygens' principle and draw the construction with secondary wavelets and the common tangent",
+    "Prove Snell's law with Huygens' construction: BC = v<sub>1</sub>τ, AE = v<sub>2</sub>τ, sin i / sin r = v<sub>1</sub>/v<sub>2</sub>",
+    "Prove the law of reflection: triangles EAC and BAC congruent, i = r",
+    "State what changes on refraction (speed, wavelength) and what does not (frequency); sin i<sub>c</sub> = n<sub>2</sub>/n<sub>1</sub> for a rarer second medium",
+    "Derive I = 4I<sub>0</sub> cos<sup>2</sup>(φ/2) and the conditions for constructive (nλ) and destructive ((n + ½)λ) interference",
+    "Explain why independent sources are incoherent and why intensities simply add for them (I = 2I<sub>0</sub>)",
+    "Obtain the path difference xd/D and the fringe width β = λD/d in Young's experiment; angular width λ/d",
+    "Know the effect on fringes of changing λ, D, d, the medium, the source slit, white light, covering one slit",
+    "Compute I<sub>max</sub>/I<sub>min</sub> from an amplitude or intensity ratio",
+    "Explain single-slit diffraction with the half-slit pairing argument; minima at a sin θ = nλ, maxima near (n + ½)λ",
+    "Width of the central maximum 2λD/a; sketch the intensity distribution; number of fringes inside it = 2d/a",
+    "List three differences between the interference and diffraction patterns",
+    "Describe the razor-blade experiment for seeing the single-slit pattern and why the bands are coloured without a filter",
+    "Malus's law I = I<sub>0</sub> cos<sup>2</sup> θ, half intensity through the first polaroid, and why polarisation proves light is transverse (NCERT only, not in the CBSE syllabus)"
+  ],
+  "videos": []
+}

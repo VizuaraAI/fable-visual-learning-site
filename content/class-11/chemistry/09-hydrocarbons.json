@@ -1,0 +1,1056 @@
+{
+  "class": 11,
+  "subject": "Chemistry",
+  "chapter_no": 9,
+  "slug": "hydrocarbons",
+  "title": "Hydrocarbons",
+  "summary": "This chapter is the first full tour of organic reactions: how alkanes, alkenes, alkynes and benzene are named, prepared and made to react, with the three mechanisms every later organic chapter assumes you know (free-radical halogenation, electrophilic addition with Markovnikov's rule and the peroxide effect, and electrophilic substitution on benzene). It carries about 10 marks in the Class 11 syllabus blueprint and is the base for haloalkanes, alcohols and the whole of Class 12 organic chemistry, JEE and NEET.",
+  "exam_profile": {
+    "weightage": "There is no board exam in Class 11. In the CBSE Class 11 syllabus blueprint this unit carries about 10 of the 70 theory marks (the two organic units together are around 21), and most school final papers follow that split: one or two 1-mark items, a 2-mark naming or reasoning question, a 3-mark mechanism or conversion, and often a 5-mark question that combines a mechanism with conversions.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "IUPAC name of a given alkene or alkyne, the product of a named reaction (Wurtz, Kolbe, ozonolysis, hydration of an alkyne), which species is aromatic by Hückel's rule, order of acidity or boiling point."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Staggered vs eclipsed ethane, peroxide effect only with HBr, cis-alkene boiling point, benzene giving substitution not addition, halogens being deactivating yet ortho/para directing."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Why Wurtz reaction fails for odd-carbon alkanes, state Markovnikov's rule, conditions for aromaticity, draw cis and trans hex-2-ene, name the products of one ozonolysis."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Free-radical mechanism of methane chlorination, mechanism of HBr addition to propene with and without peroxide, three-step conversion (ethyne to benzene to a disubstituted product), acidity order of ethyne, benzene and hexane with reason."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Mechanism of electrophilic substitution in benzene with generation of the electrophile, structure and stability of benzene (Kekulé, resonance, orbital picture), directive influence of a substituent with resonance structures, a set of four conversions starting from benzene."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on ozonolysis, conformations, or the peroxide effect, followed by three or four sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Markovnikov's rule and the anti-Markovnikov (peroxide, Kharasch) effect with both mechanisms",
+      "Free-radical chain mechanism of halogenation of methane, including why ethane forms",
+      "Ozonolysis: predicting products and working backwards to the alkene",
+      "Structure of benzene (Kekulé, resonance, orbital picture) and Hückel's (4n+2) rule",
+      "Mechanism of electrophilic substitution in benzene and the five named reactions (nitration, halogenation, sulphonation, Friedel–Crafts alkylation and acylation)",
+      "Directive influence: ortho/para vs meta directing groups with resonance structures",
+      "Conformations of ethane: staggered vs eclipsed, sawhorse and Newman projections, torsional strain",
+      "Preparation of alkanes (Wurtz, Kolbe, decarboxylation) and why Wurtz fails for odd-carbon alkanes"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "9.1 Classification",
+      "pyq_years": [],
+      "body": "<p>A hydrocarbon is a compound of carbon and hydrogen only. Our fuels are hydrocarbons: LPG, CNG, petrol, diesel and kerosene come from petroleum and natural gas, and coal gives coal gas and coal tar.</p><p>NCERT classifies hydrocarbons by the carbon–carbon bonds present. <b>Saturated</b> hydrocarbons have only C–C single bonds: open-chain alkanes (C<sub>n</sub>H<sub>2n+2</sub>) and ring-shaped cycloalkanes (C<sub>n</sub>H<sub>2n</sub>). <b>Unsaturated</b> hydrocarbons contain at least one C=C double bond (alkenes, C<sub>n</sub>H<sub>2n</sub>) or C≡C triple bond (alkynes, C<sub>n</sub>H<sub>2n−2</sub>). <b>Aromatic</b> hydrocarbons (arenes) contain a benzene ring or a similar delocalised ring; benzene and its homologues are C<sub>n</sub>H<sub>2n−6</sub>. A second division is by chain shape: acyclic or aliphatic (open chain) versus cyclic, and cyclic compounds are either alicyclic (a ring but not aromatic, like cyclohexane) or aromatic.</p><p>Notice that cyclohexane and hex-1-ene share the formula C<sub>6</sub>H<sub>12</sub>: a ring costs the same two hydrogens as a double bond. The one-mark question 'to which class does cyclohexane belong' is set because of this trap; it is a saturated, alicyclic hydrocarbon.</p>",
+      "formulas": [
+        {
+          "expr": "Alkanes C<sub>n</sub>H<sub>2n+2</sub>; alkenes and cycloalkanes C<sub>n</sub>H<sub>2n</sub>; alkynes C<sub>n</sub>H<sub>2n−2</sub>; benzene homologues C<sub>n</sub>H<sub>2n−6</sub>",
+          "where": [
+            [
+              "n",
+              "number of carbon atoms"
+            ]
+          ]
+        }
+      ],
+      "tip": "Classify by bond type first (saturated / unsaturated / aromatic), then by chain shape."
+    },
+    {
+      "heading": "9.2 Alkanes: Nomenclature and Isomerism (9.2.1)",
+      "pyq_years": [],
+      "body": "<p>Alkanes are saturated open-chain hydrocarbons, C<sub>n</sub>H<sub>2n+2</sub>. Every carbon is sp<sup>3</sup> hybridised and tetrahedral with bond angles near 109.5°; the C–H bond in methane is 112 pm and the C–C bond in ethane 154 pm. These strong, non-polar σ bonds make alkanes unreactive under ordinary conditions, hence the old name <b>paraffins</b> (little affinity).</p><p>Names follow the IUPAC rules of Chapter 8: longest continuous chain, lowest locants, substituents as prefixes in alphabetical order. Carbons are classified by the number of other carbons attached: primary (1°) one, secondary (2°) two, tertiary (3°) three, quaternary (4°) four; a hydrogen takes the label of its carbon, so a 3° carbon carries one 3° hydrogen and a 4° carbon carries none.</p><p>Chain isomerism starts at C<sub>4</sub>: butane has two isomers (butane and 2-methylpropane), C<sub>5</sub>H<sub>12</sub> three (pentane, 2-methylbutane, 2,2-dimethylpropane), C<sub>6</sub>H<sub>14</sub> five (hexane, 2-methylpentane, 3-methylpentane, 2,2-dimethylbutane, 2,3-dimethylbutane). To list them without missing any, draw the straight chain, then shorten it by one carbon and place a methyl at each distinct position, then shorten again and place two methyls.</p>",
+      "formulas": [
+        {
+          "expr": "Chain isomers: C<sub>4</sub>H<sub>10</sub> 2, C<sub>5</sub>H<sub>12</sub> 3, C<sub>6</sub>H<sub>14</sub> 5",
+          "where": [
+            [
+              "1°, 2°, 3°, 4° carbon",
+              "carbon joined to one, two, three or four other carbons"
+            ]
+          ]
+        }
+      ],
+      "tip": "The smallest alkane with a quaternary carbon is 2,2-dimethylpropane (neopentane); give the IUPAC name, not the common one."
+    },
+    {
+      "heading": "9.2.2 Preparation of Alkanes",
+      "pyq_years": [],
+      "body": "<p>NCERT gives three routes. Write the equation, the reagent and the condition for each; a marking scheme rewards all three.</p><p><b>1. From unsaturated hydrocarbons.</b> Dihydrogen adds to an alkene or alkyne over finely divided Pt, Pd or Ni: CH<sub>2</sub>=CH<sub>2</sub> + H<sub>2</sub> → CH<sub>3</sub>–CH<sub>3</sub>; HC≡CH + 2H<sub>2</sub> → CH<sub>3</sub>–CH<sub>3</sub>.</p><p><b>2. From alkyl halides.</b> (a) Reduction with zinc and dilute HCl: CH<sub>3</sub>Cl + H<sub>2</sub> → CH<sub>4</sub> + HCl (Zn, H<sup>+</sup>). (b) <b>Wurtz reaction</b>: an alkyl halide with sodium in dry ether gives an alkane with twice the carbons, 2CH<sub>3</sub>Br + 2Na → CH<sub>3</sub>–CH<sub>3</sub> + 2NaBr. It suits symmetrical, even-carbon alkanes only. An odd-carbon alkane would need two different halides, and then all three coupling products form (R–R, R–R′, R′–R′) with close boiling points that are hard to separate (exercise 9.25).</p><p><b>3. From carboxylic acids.</b> (a) <b>Decarboxylation</b>: the sodium salt heated with soda lime (NaOH + CaO) gives an alkane with one carbon less: CH<sub>3</sub>COONa + NaOH → CH<sub>4</sub> + Na<sub>2</sub>CO<sub>3</sub> (CaO, heat). (b) <b>Kolbe's electrolytic method</b>: electrolysis of an aqueous solution of the sodium or potassium salt gives an even-carbon alkane at the anode: 2CH<sub>3</sub>COO<sup>−</sup>Na<sup>+</sup> + 2H<sub>2</sub>O → CH<sub>3</sub>–CH<sub>3</sub> + 2CO<sub>2</sub> + H<sub>2</sub> + 2NaOH. The mechanism is free-radical: acetate ions lose an electron at the anode to give CH<sub>3</sub>COO• radicals, which lose CO<sub>2</sub> to give CH<sub>3</sub>• radicals, which dimerise to ethane; at the cathode 2H<sub>2</sub>O + 2e<sup>−</sup> → H<sub>2</sub> + 2OH<sup>−</sup>. Methane cannot be made by either Wurtz or Kolbe, since both join two alkyl groups.</p>",
+      "formulas": [
+        {
+          "expr": "2R–X + 2Na → R–R + 2NaX (dry ether)",
+          "where": [
+            [
+              "R–R",
+              "symmetrical, even-carbon alkane (Wurtz)"
+            ]
+          ]
+        },
+        {
+          "expr": "RCOONa + NaOH → R–H + Na<sub>2</sub>CO<sub>3</sub> (CaO, Δ)",
+          "where": [
+            [
+              "R–H",
+              "alkane with one carbon fewer (decarboxylation)"
+            ]
+          ]
+        },
+        {
+          "expr": "2RCOO<sup>−</sup>Na<sup>+</sup> + 2H<sub>2</sub>O → R–R + 2CO<sub>2</sub> + H<sub>2</sub> + 2NaOH (electrolysis)",
+          "where": [
+            [
+              "R–R",
+              "at the anode; H<sub>2</sub> at the cathode (Kolbe)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Soda lime is NaOH + CaO; the CaO keeps the mixture dry and porous. That is the expected answer to 'what is the function of CaO'."
+    },
+    {
+      "heading": "9.2.3 Properties of Alkanes",
+      "pyq_years": [],
+      "body": "<p><b>Physical.</b> Alkanes are colourless and odourless; at 298 K, C<sub>1</sub>–C<sub>4</sub> are gases, C<sub>5</sub>–C<sub>17</sub> liquids and C<sub>18</sub> onwards solids. Being almost non-polar they dissolve in non-polar solvents, not in water. Boiling point rises with molar mass (about 20–30 K per CH<sub>2</sub>) as van der Waals forces grow, and falls with branching because a branched isomer is more compact, with a smaller surface area and weaker forces: pentane 309 K, 2-methylbutane 301 K, 2,2-dimethylpropane 282.5 K.</p><p><b>(i) Halogenation (substitution).</b> In diffused sunlight or at 573–773 K chlorine replaces hydrogens one at a time, CH<sub>4</sub> → CH<sub>3</sub>Cl → CH<sub>2</sub>Cl<sub>2</sub> → CHCl<sub>3</sub> → CCl<sub>4</sub>, releasing HCl at each step. Reactivity: F<sub>2</sub> > Cl<sub>2</sub> > Br<sub>2</sub> > I<sub>2</sub>; fluorination is explosive, iodination is reversible and needs an oxidising agent (HIO<sub>3</sub> or HNO<sub>3</sub>) to remove HI. The <b>mechanism is a free-radical chain</b>. Initiation: homolysis in light, Cl<sub>2</sub> → 2Cl•. Propagation: Cl• + CH<sub>4</sub> → CH<sub>3</sub>• + HCl; CH<sub>3</sub>• + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl•, and the regenerated Cl• continues the chain. Termination: Cl• + Cl• → Cl<sub>2</sub>; CH<sub>3</sub>• + Cl• → CH<sub>3</sub>Cl; CH<sub>3</sub>• + CH<sub>3</sub>• → C<sub>2</sub>H<sub>6</sub>, which is why a little ethane is always found (exercise 9.1). In the dark no radicals form, so there is no reaction.</p><p><b>(ii) Combustion.</b> CH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O, Δ<sub>c</sub>H<sup>⊖</sup> = −890 kJ mol<sup>−1</sup>; with insufficient air, incomplete combustion gives carbon black, CH<sub>4</sub> + O<sub>2</sub> → C(s) + 2H<sub>2</sub>O. <b>(iii) Controlled oxidation.</b> 2CH<sub>4</sub> + O<sub>2</sub> → 2CH<sub>3</sub>OH (Cu, 523 K, 100 atm); CH<sub>4</sub> + O<sub>2</sub> → HCHO + H<sub>2</sub>O (Mo<sub>2</sub>O<sub>3</sub>); 2CH<sub>3</sub>CH<sub>3</sub> + 3O<sub>2</sub> → 2CH<sub>3</sub>COOH + 2H<sub>2</sub>O ((CH<sub>3</sub>COO)<sub>2</sub>Mn); a tertiary C–H is oxidised by KMnO<sub>4</sub> to a tertiary alcohol, (CH<sub>3</sub>)<sub>3</sub>CH → (CH<sub>3</sub>)<sub>3</sub>COH. <b>(iv) Isomerisation.</b> n-Hexane with anhydrous AlCl<sub>3</sub> and HCl gives 2-methylpentane and 3-methylpentane. <b>(v) Aromatisation.</b> n-Hexane over V<sub>2</sub>O<sub>5</sub>, Cr<sub>2</sub>O<sub>3</sub>, Mo<sub>2</sub>O<sub>3</sub> or Al<sub>2</sub>O<sub>3</sub> at 773 K and 10–20 atm gives benzene (n-heptane gives toluene). <b>(vi) Reaction with steam.</b> CH<sub>4</sub> + H<sub>2</sub>O → CO + 3H<sub>2</sub> (Ni, 1273 K), the industrial source of dihydrogen. <b>(vii) Pyrolysis (cracking).</b> Higher alkanes heated strongly break by C–C cleavage into smaller alkanes and alkenes; NCERT's example is dodecane at 973 K over Pt, Pd or Ni giving heptane and pentene, or hexane and hexene.</p>",
+      "formulas": [
+        {
+          "expr": "C<sub>n</sub>H<sub>2n+2</sub> + (3n+1)/2 O<sub>2</sub> → nCO<sub>2</sub> + (n+1)H<sub>2</sub>O",
+          "where": [
+            [
+              "Δ<sub>c</sub>H<sup>⊖</sup>(CH<sub>4</sub>)",
+              "−890 kJ mol<sup>−1</sup>"
+            ]
+          ]
+        },
+        {
+          "expr": "Cl<sub>2</sub> → 2Cl• (hν); Cl• + CH<sub>4</sub> → CH<sub>3</sub>• + HCl; CH<sub>3</sub>• + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl•",
+          "where": [
+            [
+              "•",
+              "unpaired electron of a free radical"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write the mechanism in three labelled blocks (initiation, propagation, termination). The overall equation alone earns only the reagent mark."
+    },
+    {
+      "heading": "9.2.4 Conformations",
+      "pyq_years": [],
+      "body": "<p>The C–C σ bond in ethane has cylindrical symmetry, so one CH<sub>3</sub> group can rotate about it relative to the other. Rotation is not completely free: as the C–H bonds on the two carbons pass one another their electron clouds repel weakly, an effect called <b>torsional strain</b>. The spatial arrangements produced by rotation are <b>conformations</b> (conformers, rotamers). Because the barrier is tiny they interconvert millions of times a second and cannot be isolated at room temperature.</p><p>Ethane has two extreme conformations. In the <b>eclipsed</b> form the hydrogens on the two carbons are as close as possible (dihedral angle 0°); in the <b>staggered</b> form they are as far apart as possible (dihedral angle 60°); anything between is a skew conformation. Staggered ethane is the most stable because torsional strain is least; the eclipsed form is least stable. The difference is only about 12.5 kJ mol<sup>−1</sup>.</p><p>Two projections are used. In the <b>sawhorse projection</b> the C–C bond is a longer tilted line, front carbon lower left, back carbon upper right, with three bonds drawn from each end. In the <b>Newman projection</b> you look along the C–C axis: the front carbon is a point with its three bonds at 120°, the back carbon is a circle with its bonds drawn from the rim. In the eclipsed projection the back bonds sit directly behind the front ones (drawn slightly offset); in the staggered projection they bisect the angles between the front bonds.</p>",
+      "formulas": [
+        {
+          "expr": "E(eclipsed) − E(staggered) ≈ 12.5 kJ mol<sup>−1</sup>",
+          "where": [
+            [
+              "dihedral angle",
+              "0° eclipsed, 60° staggered"
+            ]
+          ]
+        }
+      ],
+      "tip": "State the reason in the examiner's words: 'least torsional strain, because the electron clouds of C–H bonds on adjacent carbons are farthest apart'."
+    },
+    {
+      "heading": "9.3 Alkenes: Structure of Double Bond, Nomenclature and Isomerism (9.3.1–9.3.3)",
+      "pyq_years": [],
+      "body": "<p>Alkenes, C<sub>n</sub>H<sub>2n</sub>, contain one C=C double bond; the old name <b>olefins</b> (oil-forming) comes from ethene giving oily 1,2-dichloroethane with chlorine. The doubly bonded carbons are sp<sup>2</sup> hybridised: three σ bonds in a plane at about 120°, and the unhybridised p orbitals overlap sideways to give a π bond above and below that plane. The C=C bond (134 pm, 681 kJ mol<sup>−1</sup>) is shorter and stronger than C–C (154 pm, 348 kJ mol<sup>−1</sup>) but not twice as strong, because the π bond formed by sideways overlap is weaker than the σ bond. That exposed π cloud is why alkenes add electrophiles, and the sideways overlap stops rotation about C=C, which is the origin of geometrical isomerism.</p><p><b>Nomenclature.</b> Replace -ane by -ene and give the double bond the lowest locant: but-1-ene, but-2-ene, 2-methylpropene, buta-1,3-diene. CH<sub>2</sub>=CH– is vinyl, CH<sub>2</sub>=CH–CH<sub>2</sub>– is allyl.</p><p><b>Structural isomerism.</b> C<sub>4</sub>H<sub>8</sub> has three structural isomers: but-1-ene and but-2-ene (position isomers) and 2-methylpropene (chain isomer).</p><p><b>Geometrical (cis–trans) isomerism.</b> When each doubly bonded carbon carries two different groups, restricted rotation gives two isomers: cis (like groups on the same side) and trans (opposite sides). But-2-ene shows it; but-1-ene and 2-methylpropene do not, since one carbon carries two identical groups. The cis form is more polar (cis-but-2-ene 0.33 D, trans almost zero; cis-1,2-dichloroethene 1.90 D, trans zero), so the cis isomer has the higher boiling point, while the more symmetrical trans isomer packs better and has the higher melting point.</p>",
+      "formulas": [
+        {
+          "expr": "C=C: 134 pm, 681 kJ mol<sup>−1</sup>; C–C: 154 pm, 348 kJ mol<sup>−1</sup>",
+          "where": [
+            [
+              "sp<sup>2</sup>",
+              "trigonal planar, about 120°"
+            ]
+          ]
+        },
+        {
+          "expr": "μ(cis-but-2-ene) = 0.33 D; μ(trans-but-2-ene) ≈ 0",
+          "where": [
+            [
+              "μ",
+              "dipole moment"
+            ]
+          ]
+        }
+      ],
+      "tip": "Geometrical isomerism needs two different groups on each double-bonded carbon. Alkynes never show it because each sp carbon carries only one group."
+    },
+    {
+      "heading": "9.3.4 Preparation of Alkenes",
+      "pyq_years": [],
+      "body": "<p><b>1. From alkynes.</b> Partial hydrogenation with a calculated amount of H<sub>2</sub> over palladised charcoal partially deactivated with sulphur compounds or quinoline (<b>Lindlar's catalyst</b>) gives the <b>cis</b>-alkene; reduction with sodium in liquid ammonia gives the <b>trans</b>-alkene. But-2-yne gives cis- or trans-but-2-ene accordingly.</p><p><b>2. From alkyl halides (dehydrohalogenation).</b> Heating with alcoholic KOH removes hydrogen from the β-carbon and halogen from the α-carbon, a <b>β-elimination</b>: CH<sub>3</sub>CH<sub>2</sub>Br + KOH(alc) → CH<sub>2</sub>=CH<sub>2</sub> + KBr + H<sub>2</sub>O. Rate order for the halogen is I > Br > Cl and for the alkyl group tertiary > secondary > primary. When two alkenes can form, the more substituted one is the major product (Saytzeff rule): 2-bromobutane gives mainly but-2-ene.</p><p><b>3. From vicinal dihalides (dehalogenation).</b> Halogens on adjacent carbons are removed by zinc in methanol or ethanol: CH<sub>2</sub>Br–CH<sub>2</sub>Br + Zn → CH<sub>2</sub>=CH<sub>2</sub> + ZnBr<sub>2</sub>.</p><p><b>4. From alcohols (acidic dehydration).</b> Concentrated H<sub>2</sub>SO<sub>4</sub> at 443 K: CH<sub>3</sub>CH<sub>2</sub>OH → CH<sub>2</sub>=CH<sub>2</sub> + H<sub>2</sub>O, also a β-elimination.</p><p>If asked to define β-elimination, write: 'a reaction in which two atoms or groups are removed from adjacent carbon atoms, the α- and β-carbons, to form a multiple bond'.</p>",
+      "formulas": [
+        {
+          "expr": "R–CH<sub>2</sub>–CH<sub>2</sub>–X + KOH(alc) → R–CH=CH<sub>2</sub> + KX + H<sub>2</sub>O",
+          "where": [
+            [
+              "β-elimination",
+              "H lost from β-carbon, X from α-carbon"
+            ]
+          ]
+        },
+        {
+          "expr": "R–CHBr–CHBr–R′ + Zn → R–CH=CH–R′ + ZnBr<sub>2</sub>",
+          "where": [
+            [
+              "vicinal dihalide",
+              "halogens on adjacent carbons"
+            ]
+          ]
+        }
+      ],
+      "tip": "Lindlar's catalyst gives cis, Na in liquid NH<sub>3</sub> gives trans. This pair is asked as a two-mark 'distinguish' question and as an MCQ."
+    },
+    {
+      "heading": "9.3.5 Properties of Alkenes",
+      "pyq_years": [],
+      "body": "<p><b>Physical.</b> The first three members are gases, the next fourteen liquids, the higher ones solids; ethene is a colourless gas with a faint sweet smell. Alkenes are insoluble in water, soluble in non-polar solvents, with boiling points rising with molar mass.</p><p><b>Chemical.</b> The loosely held π electrons make alkenes give <b>electrophilic addition</b> reactions.</p><p><b>(i) H<sub>2</sub></b> (Pt, Pd or Ni) gives the alkane. <b>(ii) Halogens:</b> Br<sub>2</sub> in CCl<sub>4</sub> gives the vicinal dibromide, CH<sub>2</sub>=CH<sub>2</sub> + Br<sub>2</sub> → BrCH<sub>2</sub>–CH<sub>2</sub>Br, through a cyclic halonium ion; the reddish-brown colour disappears, the standard <b>test for unsaturation</b>. Fluorine reacts too violently and iodine does not add under normal conditions.</p><p><b>(iii) Hydrogen halides</b> (HI > HBr > HCl). A symmetrical alkene gives one product: CH<sub>2</sub>=CH<sub>2</sub> + HBr → CH<sub>3</sub>CH<sub>2</sub>Br. For an unsymmetrical alkene <b>Markovnikov's rule</b> applies: the negative part of the addendum attaches to the carbon with fewer hydrogens, so propene with HBr gives 2-bromopropane. Mechanism: H<sup>+</sup> adds first to the CH<sub>2</sub> carbon, giving the secondary carbocation CH<sub>3</sub>–CH<sup>+</sup>–CH<sub>3</sub>, more stable (hyperconjugation, +I effect) than the primary CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub><sup>+</sup>; then Br<sup>−</sup> attacks it. <b>Peroxide (Kharasch) effect:</b> with benzoyl peroxide, HBr adds the other way and propene gives 1-bromopropane, by a free-radical chain. The peroxide homolyses to C<sub>6</sub>H<sub>5</sub>COO•, which loses CO<sub>2</sub> to give C<sub>6</sub>H<sub>5</sub>•; C<sub>6</sub>H<sub>5</sub>• + HBr → C<sub>6</sub>H<sub>6</sub> + Br•; Br• adds to the terminal CH<sub>2</sub> to give the more stable secondary radical CH<sub>3</sub>–CH•–CH<sub>2</sub>Br, which abstracts H from HBr to give CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br and a new Br•. Only HBr shows the effect: H–Cl (431 kJ mol<sup>−1</sup>) is too strong for the phenyl radical to break, and though H–I breaks easily the iodine radical is too unreactive to add and simply recombines to I<sub>2</sub>.</p><p><b>(iv) H<sub>2</sub>SO<sub>4</sub>:</b> cold concentrated acid adds by Markovnikov's rule, CH<sub>3</sub>CH=CH<sub>2</sub> → CH<sub>3</sub>CH(OSO<sub>3</sub>H)CH<sub>3</sub>. <b>(v) Water</b> with a few drops of concentrated H<sub>2</sub>SO<sub>4</sub>: Markovnikov hydration, propene → propan-2-ol.</p><p><b>(vi) Oxidation.</b> Cold, dilute, alkaline KMnO<sub>4</sub> (<b>Baeyer's reagent</b>) gives a vicinal diol, CH<sub>2</sub>=CH<sub>2</sub> → HOCH<sub>2</sub>–CH<sub>2</sub>OH (ethane-1,2-diol), and its pink colour is discharged, a second test for unsaturation. Hot acidic KMnO<sub>4</sub> or K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> cleaves the double bond: propene gives ethanoic acid + CO<sub>2</sub> + H<sub>2</sub>O; 2-methylpropene gives propanone + CO<sub>2</sub> + H<sub>2</sub>O.</p><p><b>(vii) Ozonolysis.</b> Ozone gives an ozonide, which Zn and water cleave to aldehydes and ketones: CH<sub>2</sub>=CH<sub>2</sub> → 2HCHO; CH<sub>3</sub>CH=CH<sub>2</sub> → CH<sub>3</sub>CHO + HCHO. Each doubly bonded carbon becomes a C=O carbon, so the products locate the double bond; zinc destroys the H<sub>2</sub>O<sub>2</sub> formed so the aldehydes are not oxidised.</p><p><b>(viii) Polymerisation.</b> At high temperature and pressure with a catalyst, n CH<sub>2</sub>=CH<sub>2</sub> → –(CH<sub>2</sub>–CH<sub>2</sub>)<sub>n</sub>– (polythene); propene gives polypropene; used in bags, pipes, insulation and milk crates.</p>",
+      "formulas": [
+        {
+          "expr": "CH<sub>3</sub>CH=CH<sub>2</sub> + HBr → CH<sub>3</sub>CHBrCH<sub>3</sub>; with peroxide → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br",
+          "where": [
+            [
+              "Markovnikov",
+              "negative part to the carbon with fewer H (ionic); reversed only for HBr with peroxide (radical)"
+            ]
+          ]
+        },
+        {
+          "expr": "R–CH=CH–R′ + O<sub>3</sub> → ozonide; Zn/H<sub>2</sub>O → R–CHO + R′–CHO",
+          "where": [
+            [
+              "Zn",
+              "destroys H<sub>2</sub>O<sub>2</sub> so the aldehydes are not oxidised"
+            ]
+          ]
+        }
+      ],
+      "tip": "State the rule, draw both possible carbocations and say which is more stable and why. That 'why' (hyperconjugation / +I) separates 2/3 from 3/3."
+    },
+    {
+      "heading": "9.4 Alkynes: Nomenclature, Isomerism, Structure of Triple Bond and Preparation (9.4.1–9.4.3)",
+      "pyq_years": [],
+      "body": "<p>Alkynes, C<sub>n</sub>H<sub>2n−2</sub>, contain a C≡C triple bond; the first member is ethyne (acetylene), burnt in oxy-acetylene welding torches. Names replace -ane with -yne: but-1-yne and but-2-yne are position isomers; C<sub>5</sub>H<sub>8</sub> has three isomers, pent-1-yne, pent-2-yne and 3-methylbut-1-yne. A <b>terminal</b> alkyne has H–C≡C– at the chain end; but-2-yne is non-terminal, and only terminal alkynes have an acidic hydrogen.</p><p><b>Structure.</b> Each triply bonded carbon is sp hybridised: two sp orbitals at 180°, one bonding to H (C–H 106 pm) and one to the other carbon, so the molecule is linear. The two remaining p orbitals on each carbon, perpendicular to each other and to the axis, overlap sideways to give two π bonds; the triple bond is one σ plus two π, and the four π electrons form a cylindrical cloud around the C–C axis. C≡C is 120 pm with bond enthalpy 823 kJ mol<sup>−1</sup>, shorter and stronger than C=C (134 pm, 681) and C–C (154 pm, 348).</p><p><b>Preparation.</b> (1) <b>From calcium carbide</b>, the industrial route: CaCO<sub>3</sub> → CaO + CO<sub>2</sub> (heat); CaO + 3C → CaC<sub>2</sub> + CO; CaC<sub>2</sub> + 2H<sub>2</sub>O → Ca(OH)<sub>2</sub> + C<sub>2</sub>H<sub>2</sub>. (2) <b>From vicinal dihalides</b> by double dehydrohalogenation: alcoholic KOH removes the first HX, and the harder second one needs sodamide. CH<sub>2</sub>Br–CH<sub>2</sub>Br + KOH(alc) → CH<sub>2</sub>=CHBr (bromoethene) + KBr + H<sub>2</sub>O; CH<sub>2</sub>=CHBr + NaNH<sub>2</sub> → HC≡CH + NaBr + NH<sub>3</sub>. Since the vicinal dihalide comes from adding Br<sub>2</sub> to an alkene, this is also the ethene-to-ethyne route used in conversion questions.</p>",
+      "formulas": [
+        {
+          "expr": "C≡C: 120 pm, 823 kJ mol<sup>−1</sup>; C–H in ethyne: 106 pm",
+          "where": [
+            [
+              "sp",
+              "linear, 180°, one σ + two π bonds"
+            ]
+          ]
+        },
+        {
+          "expr": "CaC<sub>2</sub> + 2H<sub>2</sub>O → Ca(OH)<sub>2</sub> + HC≡CH",
+          "where": [
+            [
+              "CaC<sub>2</sub>",
+              "calcium carbide, from CaO + 3C → CaC<sub>2</sub> + CO"
+            ]
+          ]
+        }
+      ],
+      "tip": "Ethene → ethyne is three steps: Br<sub>2</sub>/CCl<sub>4</sub>, alcoholic KOH, then NaNH<sub>2</sub>. Writing alcoholic KOH for both eliminations loses the second reagent mark."
+    },
+    {
+      "heading": "9.4.4 Properties of Alkynes",
+      "pyq_years": [],
+      "body": "<p><b>Physical.</b> The first three alkynes are gases, the next eight liquids, the rest solids; all colourless, and pure ethyne is odourless. They are weakly polar, lighter than water, insoluble in water but soluble in organic solvents; melting point, boiling point and density rise with molar mass.</p><p><b>A. Acidic character.</b> An sp carbon has 50% s-character, so it is more electronegative than sp<sup>2</sup> (33.3%) or sp<sup>3</sup> (25%) carbon and holds the C–H electrons closer; the hydrogen of a terminal alkyne is weakly acidic. Ethyne reacts with sodium: HC≡CH + Na → HC≡C<sup>−</sup>Na<sup>+</sup> (monosodium ethynide) + ½H<sub>2</sub>, and then to disodium ethynide. Acidity order: HC≡CH > CH<sub>2</sub>=CH<sub>2</sub> > CH<sub>3</sub>–CH<sub>3</sub>, following s-character. Alkynes are still far weaker acids than water, so they do not react with NaOH or Na<sub>2</sub>CO<sub>3</sub>, only with very strong bases (NaNH<sub>2</sub>) or sodium metal; but-2-yne, with no hydrogen on an sp carbon, shows no acidity. School papers also use the classical tests: a terminal alkyne gives a white precipitate with ammoniacal AgNO<sub>3</sub> (silver acetylide) and a red precipitate with ammoniacal Cu<sub>2</sub>Cl<sub>2</sub>; but-2-yne gives neither.</p><p><b>B. Addition reactions</b>, one π bond at a time. <b>H<sub>2</sub>:</b> HC≡CH → CH<sub>2</sub>=CH<sub>2</sub> → CH<sub>3</sub>CH<sub>3</sub> (Pt/Pd/Ni). <b>Halogens:</b> HC≡CH + Br<sub>2</sub> → CHBr=CHBr (1,2-dibromoethene) → CHBr<sub>2</sub>–CHBr<sub>2</sub> (1,1,2,2-tetrabromoethane); bromine water is decolourised. <b>Hydrogen halides:</b> HC≡CH + HBr → CH<sub>2</sub>=CHBr → CH<sub>3</sub>CHBr<sub>2</sub> (1,1-dibromoethane); the second addition follows Markovnikov's rule, so both bromines go to the same carbon. <b>Water:</b> with 40% dilute H<sub>2</sub>SO<sub>4</sub> and 1% HgSO<sub>4</sub> at 333 K ethyne gives vinyl alcohol, CH<sub>2</sub>=CH–OH, an unstable enol that tautomerises to ethanal, CH<sub>3</sub>CHO. Propyne gives propanone by Markovnikov addition; every alkyne except ethyne gives a ketone.</p><p><b>C. Polymerisation.</b> <b>Linear:</b> ethyne gives polyethyne (polyacetylene), –(CH=CH–CH=CH)<sub>n</sub>–, a conjugated polymer that conducts electricity when doped and is used as a thin-film electrode in batteries. <b>Cyclic:</b> through a red-hot iron tube at 873 K, 3HC≡CH → C<sub>6</sub>H<sub>6</sub>, the bridge from aliphatic to aromatic chemistry; propyne under the same conditions gives 1,3,5-trimethylbenzene (mesitylene).</p>",
+      "formulas": [
+        {
+          "expr": "Acidity: HC≡CH > CH<sub>2</sub>=CH<sub>2</sub> > CH<sub>3</sub>CH<sub>3</sub>",
+          "where": [
+            [
+              "s-character",
+              "sp 50% > sp<sup>2</sup> 33.3% > sp<sup>3</sup> 25%"
+            ]
+          ]
+        },
+        {
+          "expr": "HC≡CH + H<sub>2</sub>O → [CH<sub>2</sub>=CHOH] → CH<sub>3</sub>CHO (Hg<sup>2+</sup>, H<sub>2</sub>SO<sub>4</sub>, 333 K)",
+          "where": [
+            [
+              "CH<sub>2</sub>=CHOH",
+              "vinyl alcohol, the unstable enol"
+            ]
+          ]
+        },
+        {
+          "expr": "3HC≡CH → C<sub>6</sub>H<sub>6</sub> (red-hot Fe tube, 873 K)",
+          "where": [
+            [
+              "C<sub>6</sub>H<sub>6</sub>",
+              "benzene, by cyclic polymerisation"
+            ]
+          ]
+        }
+      ],
+      "tip": "Ethyne + water gives an aldehyde (ethanal); every other alkyne gives a ketone. Propyne → propanone is the most repeated hydration question."
+    },
+    {
+      "heading": "9.5 Aromatic Hydrocarbons: Nomenclature, Structure of Benzene and Aromaticity (9.5.1–9.5.3)",
+      "pyq_years": [],
+      "body": "<p>Aromatic hydrocarbons, or <b>arenes</b>, were named for their pleasant smell. Most contain a benzene ring and are called <b>benzenoids</b>; those with a delocalised ring other than benzene are non-benzenoids. Substituted benzenes are named as derivatives: methylbenzene (toluene), ethylbenzene. A monosubstituted benzene has only one isomer because all six positions are equivalent; a disubstituted benzene has three, 1,2 (ortho), 1,3 (meta) and 1,4 (para), as in the three xylenes. C<sub>6</sub>H<sub>5</sub>– is phenyl and C<sub>6</sub>H<sub>5</sub>CH<sub>2</sub>– is benzyl.</p><p><b>Kekulé structure (1865):</b> a planar six-membered ring with alternate single and double bonds and one hydrogen on each carbon. It could not explain why only one 1,2-disubstituted isomer exists (the structure predicts two, with the substituents across a C–C or a C=C) or why benzene refuses the addition reactions three C=C bonds should give. Kekulé suggested the two structures oscillate rapidly.</p><p><b>Resonance:</b> the two Kekulé structures are canonical forms of one resonance hybrid. All six C–C bonds are identical, 139 pm, between a single (154 pm) and a double (134 pm) bond, as X-ray diffraction confirms. Resonance stabilisation (the resonance energy) makes benzene unusually stable and unwilling to lose that stability by addition.</p><p><b>Orbital picture:</b> each carbon is sp<sup>2</sup> hybridised and forms three σ bonds (two to carbons, one to hydrogen) in one plane at 120°, giving a regular planar hexagon. The six unhybridised p orbitals stand perpendicular to the ring and overlap sideways with both neighbours, so the six π electrons are delocalised in doughnut-shaped clouds above and below the plane; there is no localised C=C bond.</p><p><b>Aromaticity (Hückel's rule):</b> a compound is aromatic if it is (i) planar, (ii) has complete delocalisation of π electrons in the ring, and (iii) contains (4n+2) π electrons, n = 0, 1, 2, .... Benzene has 6 (n = 1), naphthalene 10, anthracene 14. The cyclopentadienyl anion and the tropylium (cycloheptatrienyl) cation have 6 π electrons and are aromatic; cyclooctatetraene has 8 and is non-planar, so it is not; a ring containing an sp<sup>3</sup> carbon breaks delocalisation and cannot be aromatic. Exercise 9.12 asks exactly this: test each structure against all three conditions in order.</p>",
+      "formulas": [
+        {
+          "expr": "Aromatic if planar, fully delocalised, and π electrons = 4n + 2 (n = 0, 1, 2, ...)",
+          "where": [
+            [
+              "n = 1",
+              "6 π electrons: benzene, cyclopentadienyl anion, tropylium cation"
+            ]
+          ]
+        },
+        {
+          "expr": "C–C in benzene = 139 pm (C–C 154 pm, C=C 134 pm)",
+          "where": [
+            [
+              "139 pm",
+              "all six bonds equal, evidence for resonance"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'why is benzene extraordinarily stable' the examiner looks for resonance, delocalisation and resonance energy, plus the 139 pm bond length."
+    },
+    {
+      "heading": "9.5.4–9.5.5 Preparation and Properties of Benzene",
+      "pyq_years": [],
+      "body": "<p><b>Preparation.</b> (i) Cyclic polymerisation of ethyne in a red-hot iron tube at 873 K. (ii) Decarboxylation of sodium benzoate with soda lime: C<sub>6</sub>H<sub>5</sub>COONa + NaOH → C<sub>6</sub>H<sub>6</sub> + Na<sub>2</sub>CO<sub>3</sub> (CaO, heat). (iii) Reduction of phenol vapour over heated zinc dust: C<sub>6</sub>H<sub>5</sub>OH + Zn → C<sub>6</sub>H<sub>6</sub> + ZnO.</p><p><b>Physical properties.</b> Arenes are non-polar, colourless liquids or solids with a characteristic aroma, immiscible with water, miscible with organic solvents, and burn with a sooty flame because of their high carbon content.</p><p><b>Electrophilic substitution.</b> The π cloud makes benzene electron-rich, so electrophiles attack it; but instead of adding (which would destroy aromaticity) benzene replaces a hydrogen and keeps the ring. <b>Nitration:</b> C<sub>6</sub>H<sub>6</sub> + conc. HNO<sub>3</sub> → C<sub>6</sub>H<sub>5</sub>NO<sub>2</sub> + H<sub>2</sub>O (conc. H<sub>2</sub>SO<sub>4</sub>, 323–333 K). <b>Halogenation:</b> C<sub>6</sub>H<sub>6</sub> + Cl<sub>2</sub> → C<sub>6</sub>H<sub>5</sub>Cl + HCl (anhydrous FeCl<sub>3</sub> or AlCl<sub>3</sub>, no sunlight). <b>Sulphonation:</b> C<sub>6</sub>H<sub>6</sub> + fuming H<sub>2</sub>SO<sub>4</sub> (containing SO<sub>3</sub>) → C<sub>6</sub>H<sub>5</sub>SO<sub>3</sub>H + H<sub>2</sub>O. <b>Friedel–Crafts alkylation:</b> C<sub>6</sub>H<sub>6</sub> + CH<sub>3</sub>Cl → C<sub>6</sub>H<sub>5</sub>CH<sub>3</sub> + HCl (anhydrous AlCl<sub>3</sub>). <b>Friedel–Crafts acylation:</b> C<sub>6</sub>H<sub>6</sub> + CH<sub>3</sub>COCl → C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub> (acetophenone) + HCl (anhydrous AlCl<sub>3</sub>; acetic anhydride also works). Excess reagent gives polysubstitution: benzene with excess conc. HNO<sub>3</sub>/H<sub>2</sub>SO<sub>4</sub> gives 1,3,5-trinitrobenzene.</p><p><b>Mechanism (three steps; the five-mark derivation).</b> <i>Step 1, generation of the electrophile:</i> Cl<sub>2</sub> + AlCl<sub>3</sub> → Cl<sup>+</sup> + AlCl<sub>4</sub><sup>−</sup>; CH<sub>3</sub>Cl + AlCl<sub>3</sub> → CH<sub>3</sub><sup>+</sup> + AlCl<sub>4</sub><sup>−</sup>; CH<sub>3</sub>COCl + AlCl<sub>3</sub> → CH<sub>3</sub>CO<sup>+</sup> (acylium ion) + AlCl<sub>4</sub><sup>−</sup>; in nitration, HNO<sub>3</sub> + 2H<sub>2</sub>SO<sub>4</sub> → NO<sub>2</sub><sup>+</sup> (nitronium ion) + H<sub>3</sub>O<sup>+</sup> + 2HSO<sub>4</sub><sup>−</sup>, where H<sub>2</sub>SO<sub>4</sub> acts as the acid and HNO<sub>3</sub> as the base. <i>Step 2, formation of the carbocation:</i> E<sup>+</sup> attacks the π cloud and bonds to one ring carbon, which becomes sp<sup>3</sup>. This <b>arenium ion</b> (σ-complex) is resonance-stabilised over three structures with the positive charge at the ortho and para carbons, but it is not aromatic, so the step is slow and rate-determining. <i>Step 3, loss of a proton:</i> AlCl<sub>4</sub><sup>−</sup> or HSO<sub>4</sub><sup>−</sup> removes H<sup>+</sup> from the sp<sup>3</sup> carbon, aromaticity is restored, and the substituted benzene forms quickly.</p><p><b>Addition reactions</b> need drastic conditions: C<sub>6</sub>H<sub>6</sub> + 3H<sub>2</sub> → cyclohexane (Ni, high temperature); C<sub>6</sub>H<sub>6</sub> + 3Cl<sub>2</sub> → C<sub>6</sub>H<sub>6</sub>Cl<sub>6</sub> in ultraviolet light, benzene hexachloride (BHC, gammaxene), an insecticide. <b>Combustion:</b> C<sub>6</sub>H<sub>6</sub> + 15/2 O<sub>2</sub> → 6CO<sub>2</sub> + 3H<sub>2</sub>O; in general C<sub>n</sub>H<sub>2n−6</sub> + (3n−3)/2 O<sub>2</sub> → nCO<sub>2</sub> + (n−3)H<sub>2</sub>O.</p>",
+      "formulas": [
+        {
+          "expr": "HNO<sub>3</sub> + 2H<sub>2</sub>SO<sub>4</sub> → NO<sub>2</sub><sup>+</sup> + H<sub>3</sub>O<sup>+</sup> + 2HSO<sub>4</sub><sup>−</sup>",
+          "where": [
+            [
+              "NO<sub>2</sub><sup>+</sup>",
+              "nitronium ion, the electrophile in nitration"
+            ]
+          ]
+        },
+        {
+          "expr": "C<sub>n</sub>H<sub>2n−6</sub> + (3n−3)/2 O<sub>2</sub> → nCO<sub>2</sub> + (n−3)H<sub>2</sub>O",
+          "where": [
+            [
+              "sooty flame",
+              "high C : H ratio of arenes"
+            ]
+          ]
+        }
+      ],
+      "tip": "In the mechanism, name the intermediate (arenium ion or σ-complex), draw its three resonance structures, and say step 2 is slow and rate-determining."
+    },
+    {
+      "heading": "9.5.6 Directive Influence of a Functional Group in Monosubstituted Benzene",
+      "pyq_years": [],
+      "body": "<p>A group already on the ring decides <b>where</b> the next electrophile goes (ortho and para, or meta) and <b>how fast</b> the ring reacts compared with benzene (activating or deactivating). NCERT explains both through the electron density at the ring positions.</p><p><b>Ortho- and para-directing groups:</b> –OH, –NH<sub>2</sub>, –NHR, –NHCOCH<sub>3</sub>, –OCH<sub>3</sub>, –CH<sub>3</sub>, –C<sub>2</sub>H<sub>5</sub> and the halogens. In phenol the oxygen lone pair is delocalised into the ring (+R effect); the resonance structures put a negative charge at the ortho and para carbons and never at meta. Electron density is highest there, so the electrophile attacks ortho/para, and because the ring is richer than benzene the group is <b>activating</b>. –CH<sub>3</sub> does the same through hyperconjugation and its +I effect. Halogens are the exception: their −I effect outweighs their +R effect, so chlorobenzene reacts more slowly than benzene (<b>deactivating</b>), but the +R effect still places the electrons at ortho and para, so substitution still goes ortho/para.</p><p><b>Meta-directing groups:</b> –NO<sub>2</sub>, –CN, –CHO, –COR, –COOH, –COOR, –SO<sub>3</sub>H. In nitrobenzene the nitro group withdraws electrons inductively and by resonance (−R effect); the resonance structures place a positive charge at the ortho and para carbons, so those positions are poorest in electrons and the electrophile attacks meta. The whole ring is depleted, so the group is <b>deactivating</b>. Hence toluene is nitrated more easily than benzene and m-dinitrobenzene far less easily (exercise 9.23), and reactivity towards E<sup>+</sup> falls in the order chlorobenzene > p-nitrochlorobenzene > 2,4-dinitrochlorobenzene (exercise 9.22).</p><p>These rules decide the order of steps in every conversion. For p-nitrobromobenzene, brominate first (Br directs para); for m-nitrochlorobenzene, nitrate first (NO<sub>2</sub> directs meta), then chlorinate.</p>",
+      "formulas": [
+        {
+          "expr": "o/p-directing, activating: –OH, –NH<sub>2</sub>, –OCH<sub>3</sub>, –NHCOCH<sub>3</sub>, –CH<sub>3</sub>; o/p-directing, deactivating: –Cl, –Br, –I",
+          "where": [
+            [
+              "+R / +I",
+              "raise electron density at ortho and para"
+            ]
+          ]
+        },
+        {
+          "expr": "m-directing, deactivating: –NO<sub>2</sub>, –CN, –CHO, –COR, –COOH, –COOR, –SO<sub>3</sub>H",
+          "where": [
+            [
+              "−R / −I",
+              "lower electron density, most at ortho and para"
+            ]
+          ]
+        }
+      ],
+      "tip": "Draw at least three resonance structures of phenol (or nitrobenzene) showing the charge at ortho and para; an explanation without structures rarely gets full marks."
+    },
+    {
+      "heading": "9.6 Carcinogenicity and Toxicity",
+      "pyq_years": [],
+      "body": "<p>Benzene and the polynuclear (fused-ring) aromatic hydrocarbons are toxic and <b>carcinogenic</b>, that is, cancer-causing. Polynuclear hydrocarbons such as 1,2-benzanthracene, 3-methylcholanthrene, 1,2-benzpyrene and 1,2,5,6-dibenzanthracene contain several fused benzene rings. They form on incomplete combustion of organic material, carbon-containing fuels and tobacco; coal, petroleum and cigarette smoke are the usual sources.</p><p>NCERT's explanation is short and is what a two-mark answer needs: when these hydrocarbons enter the body they undergo various biochemical reactions, and the products damage DNA, causing cancer. Benzene itself is linked to leukaemia, which is why toluene has replaced it as a laboratory solvent.</p><p>The exam angle is small but reliable: name two carcinogenic hydrocarbons, state where they come from, and say why they are harmful. Do not mix this up with the ozone layer or the greenhouse effect, which belong to environmental chemistry.</p>",
+      "formulas": [],
+      "tip": "One line to memorise: 'polynuclear hydrocarbons formed on incomplete combustion of coal, petroleum and tobacco enter the body, undergo biochemical reactions and damage DNA, causing cancer'."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Hydrocarbon",
+      "definition": "A compound made of carbon and hydrogen only; classified as saturated (alkanes, cycloalkanes), unsaturated (alkenes, alkynes) or aromatic."
+    },
+    {
+      "term": "Wurtz reaction",
+      "definition": "Coupling of two molecules of an alkyl halide by sodium metal in dry ether to give a symmetrical alkane with twice the number of carbons: 2R–X + 2Na → R–R + 2NaX."
+    },
+    {
+      "term": "Decarboxylation",
+      "definition": "Removal of CO<sub>2</sub> (as carbonate) from the sodium salt of a carboxylic acid by heating with soda lime, giving an alkane with one carbon fewer."
+    },
+    {
+      "term": "Kolbe's electrolytic method",
+      "definition": "Electrolysis of an aqueous solution of the sodium or potassium salt of a carboxylic acid; an even-carbon alkane and CO<sub>2</sub> form at the anode and H<sub>2</sub> at the cathode."
+    },
+    {
+      "term": "Conformations",
+      "definition": "The different spatial arrangements of atoms that arise from rotation about a C–C single bond; also called conformers or rotamers. In ethane the staggered form is most stable and the eclipsed least."
+    },
+    {
+      "term": "Torsional strain",
+      "definition": "The weak repulsion between the electron clouds of C–H bonds on adjacent carbons as they pass each other during rotation; it is greatest in the eclipsed conformation."
+    },
+    {
+      "term": "Geometrical isomerism",
+      "definition": "Isomerism arising from restricted rotation about a C=C bond when each doubly bonded carbon carries two different groups; the cis isomer has like groups on the same side, trans on opposite sides."
+    },
+    {
+      "term": "Markovnikov's rule",
+      "definition": "In the addition of an unsymmetrical reagent to an unsymmetrical alkene, the negative part of the addendum attaches to the carbon that carries fewer hydrogen atoms."
+    },
+    {
+      "term": "Peroxide (Kharasch) effect",
+      "definition": "Anti-Markovnikov addition of HBr (only HBr) to an unsymmetrical alkene in the presence of an organic peroxide, by a free-radical chain mechanism; propene gives 1-bromopropane."
+    },
+    {
+      "term": "Ozonolysis",
+      "definition": "Addition of ozone to a double bond to form an ozonide, which on cleavage with zinc and water gives aldehydes or ketones; used to locate the position of a C=C bond."
+    },
+    {
+      "term": "Lindlar's catalyst",
+      "definition": "Palladised charcoal partially deactivated with sulphur compounds or quinoline; it reduces an alkyne only to the cis-alkene."
+    },
+    {
+      "term": "Aromaticity (Hückel's rule)",
+      "definition": "A planar cyclic compound with complete delocalisation of π electrons and (4n+2) π electrons in the ring (n = 0, 1, 2, ...) is aromatic; benzene has six."
+    },
+    {
+      "term": "Resonance hybrid of benzene",
+      "definition": "The real structure of benzene, intermediate between the two Kekulé structures, with all six C–C bonds equal at 139 pm and six π electrons delocalised over the ring."
+    },
+    {
+      "term": "Arenium ion (σ-complex)",
+      "definition": "The resonance-stabilised carbocation formed when an electrophile bonds to one carbon of benzene in the slow, rate-determining step of electrophilic substitution."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "General formulas",
+      "expr": "Alkane C<sub>n</sub>H<sub>2n+2</sub>; alkene / cycloalkane C<sub>n</sub>H<sub>2n</sub>; alkyne C<sub>n</sub>H<sub>2n−2</sub>; benzene homologue C<sub>n</sub>H<sub>2n−6</sub>",
+      "note": "a ring costs the same two H as a double bond"
+    },
+    {
+      "name": "Bond data",
+      "expr": "C–C 154 pm / 348 kJ mol<sup>−1</sup>; C=C 134 pm / 681 kJ mol<sup>−1</sup>; C≡C 120 pm / 823 kJ mol<sup>−1</sup>; benzene C–C 139 pm",
+      "note": "C–H: 112 pm in methane, 106 pm in ethyne; angles 109.5° (sp<sup>3</sup>), 120° (sp<sup>2</sup>), 180° (sp)"
+    },
+    {
+      "name": "Combustion of an alkane",
+      "expr": "C<sub>n</sub>H<sub>2n+2</sub> + (3n+1)/2 O<sub>2</sub> → nCO<sub>2</sub> + (n+1)H<sub>2</sub>O",
+      "note": "Δ<sub>c</sub>H<sup>⊖</sup>(CH<sub>4</sub>) = −890 kJ mol<sup>−1</sup>; alkene: C<sub>n</sub>H<sub>2n</sub> + 3n/2 O<sub>2</sub> → nCO<sub>2</sub> + nH<sub>2</sub>O"
+    },
+    {
+      "name": "Wurtz reaction",
+      "expr": "2R–X + 2Na → R–R + 2NaX",
+      "note": "dry ether; even-carbon symmetrical alkanes only"
+    },
+    {
+      "name": "Kolbe's electrolysis",
+      "expr": "2RCOO<sup>−</sup>Na<sup>+</sup> + 2H<sub>2</sub>O → R–R + 2CO<sub>2</sub> + H<sub>2</sub> + 2NaOH",
+      "note": "alkane and CO<sub>2</sub> at anode, H<sub>2</sub> at cathode; free-radical mechanism"
+    },
+    {
+      "name": "Markovnikov and anti-Markovnikov",
+      "expr": "CH<sub>3</sub>CH=CH<sub>2</sub> + HBr → CH<sub>3</sub>CHBrCH<sub>3</sub> ; with (C<sub>6</sub>H<sub>5</sub>CO)<sub>2</sub>O<sub>2</sub> → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br",
+      "note": "ionic via the more stable 2° carbocation; radical via the more stable 2° radical; peroxide effect only for HBr"
+    },
+    {
+      "name": "Ozonolysis",
+      "expr": "R<sub>2</sub>C=CR′<sub>2</sub> + O<sub>3</sub> → ozonide ; Zn/H<sub>2</sub>O → R<sub>2</sub>C=O + R′<sub>2</sub>C=O",
+      "note": "each C of the C=C becomes a C=O; reverse it to find the alkene"
+    },
+    {
+      "name": "Hydration of alkynes",
+      "expr": "R–C≡CH + H<sub>2</sub>O → R–CO–CH<sub>3</sub> (Hg<sup>2+</sup>, dil. H<sub>2</sub>SO<sub>4</sub>, 333 K)",
+      "note": "ethyne gives ethanal via vinyl alcohol; all other alkynes give ketones"
+    },
+    {
+      "name": "Acidity and s-character",
+      "expr": "HC≡CH (sp, 50%) > CH<sub>2</sub>=CH<sub>2</sub> (sp<sup>2</sup>, 33.3%) > CH<sub>3</sub>CH<sub>3</sub> (sp<sup>3</sup>, 25%)",
+      "note": "more s-character, more electronegative carbon, more acidic H; ethyne > benzene > hexane"
+    },
+    {
+      "name": "Hückel's rule",
+      "expr": "π electrons = 4n + 2, n = 0, 1, 2, ...",
+      "note": "plus planarity and complete delocalisation; benzene 6, naphthalene 10, anthracene 14"
+    },
+    {
+      "name": "Nitronium ion generation",
+      "expr": "HNO<sub>3</sub> + 2H<sub>2</sub>SO<sub>4</sub> → NO<sub>2</sub><sup>+</sup> + H<sub>3</sub>O<sup>+</sup> + 2HSO<sub>4</sub><sup>−</sup>",
+      "note": "H<sub>2</sub>SO<sub>4</sub> acts as acid, HNO<sub>3</sub> as base; other electrophiles: Cl<sup>+</sup>, CH<sub>3</sub><sup>+</sup>, CH<sub>3</sub>CO<sup>+</sup>, SO<sub>3</sub>"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Sawhorse and Newman projections of eclipsed and staggered ethane",
+      "how_to_draw": "Four small figures in a row. Sawhorse: the C–C bond as a tilted line, front carbon lower left, three C–H bonds at each end; back hydrogens directly behind the front ones (eclipsed) or between them (staggered). Newman: a dot for the front carbon with three bonds at 120°, a circle for the back carbon with its bonds from the rim, drawn just beside the front bonds (eclipsed, dihedral 0°) or bisecting them (staggered, 60°). Label 'staggered: most stable, least torsional strain' and 'difference about 12.5 kJ mol<sup>−1</sup>'."
+    },
+    {
+      "title": "Structure of benzene: Kekulé structures, resonance hybrid and orbital picture",
+      "how_to_draw": "Left: the two Kekulé hexagons with alternate double bonds in the two positions, joined by a double-headed resonance arrow. Middle: the hybrid as a hexagon with an inscribed circle, labelled 'all C–C = 139 pm'. Right: a planar hexagon of sp<sup>2</sup> carbons with a p orbital standing on each, lobes overlapping sideways, and two doughnut-shaped π clouds above and below the ring; label 120° and '6 delocalised π electrons'."
+    },
+    {
+      "title": "Mechanism of electrophilic substitution in benzene (arenium ion)",
+      "how_to_draw": "Step 1: write the electrophile generation, Cl<sub>2</sub> + AlCl<sub>3</sub> → Cl<sup>+</sup> + AlCl<sub>4</sub><sup>−</sup>. Step 2: benzene with an arrow from the π cloud to E<sup>+</sup>, giving a ring with an sp<sup>3</sup> carbon carrying both H and E; draw its three resonance structures with the positive charge at the two ortho positions and the para position, labelled 'arenium ion, slow, rate-determining'. Step 3: AlCl<sub>4</sub><sup>−</sup> removes H<sup>+</sup>, restoring the aromatic ring, labelled 'fast'."
+    },
+    {
+      "title": "Resonance structures of phenol and nitrobenzene showing directive influence",
+      "how_to_draw": "Top row, phenol: the lone pair on O, then three structures with C=O<sup>+</sup> and a negative charge at ortho, para and the other ortho carbon; label 'electron density high at o and p: ortho/para directing, activating'. Bottom row, nitrobenzene: the same pattern with positive charges at the ortho and para carbons and a negative charge on a nitro oxygen; label 'electron density low at o and p: meta directing, deactivating'."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "9.1",
+      "q": "How do you account for the formation of ethane during chlorination of methane?",
+      "a": "<p>Chlorination of methane is a free-radical chain reaction. In the propagation step Cl• abstracts hydrogen from methane to give methyl radicals, CH<sub>3</sub>•. In the termination step two methyl radicals can combine: CH<sub>3</sub>• + CH<sub>3</sub>• → CH<sub>3</sub>–CH<sub>3</sub>. This is why a small amount of ethane is always found in the product mixture.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.3",
+      "q": "For the following compounds, write structural formulas and IUPAC names for all possible isomers having the number of double or triple bond as indicated: (a) C<sub>4</sub>H<sub>8</sub> (one double bond) (b) C<sub>5</sub>H<sub>8</sub> (one triple bond).",
+      "a": "<p>(a) C<sub>4</sub>H<sub>8</sub>: CH<sub>2</sub>=CH–CH<sub>2</sub>–CH<sub>3</sub> (but-1-ene); CH<sub>3</sub>–CH=CH–CH<sub>3</sub> (but-2-ene, which exists as cis and trans geometrical isomers); CH<sub>2</sub>=C(CH<sub>3</sub>)–CH<sub>3</sub> (2-methylpropene).</p><p>(b) C<sub>5</sub>H<sub>8</sub>: HC≡C–CH<sub>2</sub>–CH<sub>2</sub>–CH<sub>3</sub> (pent-1-yne); CH<sub>3</sub>–C≡C–CH<sub>2</sub>–CH<sub>3</sub> (pent-2-yne); HC≡C–CH(CH<sub>3</sub>)–CH<sub>3</sub> (3-methylbut-1-yne).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.4",
+      "q": "Write IUPAC names of the products obtained by the ozonolysis of the following compounds: (i) pent-2-ene (ii) 3,4-dimethylhept-3-ene (iii) 2-ethylbut-1-ene (iv) 1-phenylbut-1-ene.",
+      "a": "<p>Cut the double bond and turn each of its carbons into C=O.</p><p>(i) CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub> → CH<sub>3</sub>CHO (ethanal) + CH<sub>3</sub>CH<sub>2</sub>CHO (propanal).</p><p>(ii) CH<sub>3</sub>CH<sub>2</sub>C(CH<sub>3</sub>)=C(CH<sub>3</sub>)CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> → CH<sub>3</sub>CH<sub>2</sub>COCH<sub>3</sub> (butan-2-one) + CH<sub>3</sub>COCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> (pentan-2-one).</p><p>(iii) CH<sub>2</sub>=C(C<sub>2</sub>H<sub>5</sub>)CH<sub>2</sub>CH<sub>3</sub> → HCHO (methanal) + CH<sub>3</sub>CH<sub>2</sub>COCH<sub>2</sub>CH<sub>3</sub> (pentan-3-one).</p><p>(iv) C<sub>6</sub>H<sub>5</sub>CH=CHCH<sub>2</sub>CH<sub>3</sub> → C<sub>6</sub>H<sub>5</sub>CHO (benzaldehyde) + CH<sub>3</sub>CH<sub>2</sub>CHO (propanal).</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "9.5",
+      "q": "An alkene 'A' on ozonolysis gives a mixture of ethanal and pentan-3-one. Write structure and IUPAC name of 'A'.",
+      "a": "<p>Join the two carbonyl carbons back with a double bond. Ethanal CH<sub>3</sub>CH=O and pentan-3-one (C<sub>2</sub>H<sub>5</sub>)<sub>2</sub>C=O give CH<sub>3</sub>CH=C(C<sub>2</sub>H<sub>5</sub>)<sub>2</sub>. The longest chain through the double bond is five carbons with an ethyl on C3, so A is <b>3-ethylpent-2-ene</b>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.6",
+      "q": "An alkene 'A' contains three C–C, eight C–H σ bonds and one C–C π bond. 'A' on ozonolysis gives two moles of an aldehyde of molar mass 44 u. Write IUPAC name of 'A'.",
+      "a": "<p>Three C–C σ bonds mean a chain of four carbons; eight C–H bonds give C<sub>4</sub>H<sub>8</sub>. An aldehyde of molar mass 44 u is ethanal, CH<sub>3</sub>CHO (12 + 1 + 12 + 16 + 3 = 44). Two moles of ethanal from one mole of alkene means the double bond is in the middle with a CH<sub>3</sub>CH= unit on each side: CH<sub>3</sub>CH=CHCH<sub>3</sub>, <b>but-2-ene</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.8",
+      "q": "Write chemical equations for the combustion reaction of the following hydrocarbons: (i) butane (ii) pentene (iii) hexyne (iv) toluene.",
+      "a": "<p>(i) C<sub>4</sub>H<sub>10</sub> + 13/2 O<sub>2</sub> → 4CO<sub>2</sub> + 5H<sub>2</sub>O (or 2C<sub>4</sub>H<sub>10</sub> + 13O<sub>2</sub> → 8CO<sub>2</sub> + 10H<sub>2</sub>O).</p><p>(ii) C<sub>5</sub>H<sub>10</sub> + 15/2 O<sub>2</sub> → 5CO<sub>2</sub> + 5H<sub>2</sub>O.</p><p>(iii) C<sub>6</sub>H<sub>10</sub> + 17/2 O<sub>2</sub> → 6CO<sub>2</sub> + 5H<sub>2</sub>O.</p><p>(iv) C<sub>7</sub>H<sub>8</sub> + 9O<sub>2</sub> → 7CO<sub>2</sub> + 4H<sub>2</sub>O.</p><p>Check by counting O atoms on the right: 13, 15, 17 and 18, each halved for O<sub>2</sub>.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "9.9",
+      "q": "Draw the cis and trans structures of hex-2-ene. Which isomer will have higher boiling point and why?",
+      "a": "<p>Hex-2-ene is CH<sub>3</sub>CH=CHCH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub>. In the cis isomer the CH<sub>3</sub> and the CH<sub>2</sub>CH<sub>2</sub>CH<sub>3</sub> groups are on the same side of the double bond; in the trans isomer they are on opposite sides (draw the C=C horizontally with the two alkyl groups both above it for cis, one above and one below for trans). The <b>cis isomer has the higher boiling point</b> because the bond dipoles do not cancel, so it has a net dipole moment and stronger dipole–dipole attractions; in the trans isomer the dipoles cancel and the molecule is almost non-polar.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.10",
+      "q": "Why is benzene extraordinarily stable though it contains three double bonds?",
+      "a": "<p>Benzene is a resonance hybrid of the two Kekulé structures. The six π electrons are not localised in three C=C bonds but delocalised over all six carbons in a π cloud above and below the ring; every C–C bond is identical (139 pm). Delocalisation lowers the energy of the molecule by the resonance energy, so benzene is much more stable than a hypothetical cyclohexatriene and resists addition reactions that would destroy this delocalisation.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.13",
+      "q": "How will you convert benzene into (i) p-nitrobromobenzene (ii) m-nitrochlorobenzene (iii) p-nitrotoluene (iv) acetophenone?",
+      "a": "<p>The directing effect of the first group fixes the order of steps.</p><p>(i) Benzene + Br<sub>2</sub> (anhydrous FeBr<sub>3</sub>) → bromobenzene; then conc. HNO<sub>3</sub>/conc. H<sub>2</sub>SO<sub>4</sub> → p-nitrobromobenzene (major; Br is ortho/para directing).</p><p>(ii) Benzene + conc. HNO<sub>3</sub>/conc. H<sub>2</sub>SO<sub>4</sub> → nitrobenzene; then Cl<sub>2</sub> (anhydrous FeCl<sub>3</sub>) → m-nitrochlorobenzene (NO<sub>2</sub> is meta directing).</p><p>(iii) Benzene + CH<sub>3</sub>Cl (anhydrous AlCl<sub>3</sub>) → toluene; then nitration → p-nitrotoluene (major).</p><p>(iv) Benzene + CH<sub>3</sub>COCl (anhydrous AlCl<sub>3</sub>, Friedel–Crafts acylation) → acetophenone, C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub>.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "9.14",
+      "q": "In the alkane H<sub>3</sub>C–CH<sub>2</sub>–C(CH<sub>3</sub>)<sub>2</sub>–CH<sub>2</sub>–CH(CH<sub>3</sub>)<sub>2</sub>, identify 1°, 2°, 3° carbon atoms and give the number of H atoms bonded to each one of these.",
+      "a": "<p>The compound is 2,4,4-trimethylhexane, C<sub>9</sub>H<sub>20</sub>. <b>1° carbons</b> (bonded to one carbon): five, the terminal CH<sub>3</sub> and the four CH<sub>3</sub> branches; 3 H each, 15 H. <b>2° carbons</b> (bonded to two carbons): the two CH<sub>2</sub> groups; 2 H each, 4 H. <b>3° carbon</b> (bonded to three carbons): the CH of CH(CH<sub>3</sub>)<sub>2</sub>; 1 H. <b>4° carbon</b>: C(CH<sub>3</sub>)<sub>2</sub>, bonded to four carbons; no H. Total 15 + 4 + 1 = 20 H, matching C<sub>9</sub>H<sub>20</sub>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.16",
+      "q": "Addition of HBr to propene yields 2-bromopropane, while in the presence of benzoyl peroxide, the same reaction yields 1-bromopropane. Explain and give mechanism.",
+      "a": "<p><b>Without peroxide (ionic, Markovnikov):</b> H<sup>+</sup> adds to the terminal CH<sub>2</sub> carbon to form the secondary carbocation CH<sub>3</sub>–CH<sup>+</sup>–CH<sub>3</sub>, more stable than the primary CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub><sup>+</sup> (hyperconjugation, +I effect); Br<sup>−</sup> then attacks it, giving CH<sub>3</sub>CHBrCH<sub>3</sub>, 2-bromopropane.</p><p><b>With benzoyl peroxide (free radical, anti-Markovnikov):</b> Initiation: (C<sub>6</sub>H<sub>5</sub>COO)<sub>2</sub> → 2C<sub>6</sub>H<sub>5</sub>COO• → 2C<sub>6</sub>H<sub>5</sub>• + 2CO<sub>2</sub>; C<sub>6</sub>H<sub>5</sub>• + HBr → C<sub>6</sub>H<sub>6</sub> + Br•. Propagation: Br• adds to the terminal carbon to give the more stable secondary radical CH<sub>3</sub>CH•CH<sub>2</sub>Br; CH<sub>3</sub>CH•CH<sub>2</sub>Br + HBr → CH<sub>3</sub>CH<sub>2</sub>CH<sub>2</sub>Br + Br•, and the chain continues. In the ionic route H<sup>+</sup> adds first, in the radical route Br• adds first; each goes through the more stable secondary intermediate, so the regiochemistry reverses.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "9.17",
+      "q": "Write down the products of ozonolysis of 1,2-dimethylbenzene (o-xylene). How does the result support the Kekulé structure for benzene?",
+      "a": "<p>o-Xylene has two Kekulé structures. In one the double bond lies between the two methyl-bearing carbons: ozonolysis gives one dimethylglyoxal, CH<sub>3</sub>CO–COCH<sub>3</sub>, and two glyoxal, OHC–CHO. In the other those carbons are singly bonded: it gives two methylglyoxal, CH<sub>3</sub>CO–CHO, and one glyoxal. All three products are obtained, in the ratio 3 glyoxal : 2 methylglyoxal : 1 dimethylglyoxal per two molecules of o-xylene. Neither structure alone gives all three, so both must be present as canonical forms of a resonance hybrid, supporting Kekulé's oscillating structures and the modern resonance view.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.18",
+      "q": "Arrange benzene, n-hexane and ethyne in decreasing order of acidic behaviour. Also give reason for this behaviour.",
+      "a": "<p>Ethyne > benzene > n-hexane. Acidity of a C–H bond depends on the s-character of the carbon: sp carbon (ethyne, 50% s) is more electronegative than sp<sup>2</sup> carbon (benzene, 33.3%) which is more electronegative than sp<sup>3</sup> carbon (hexane, 25%). A more electronegative carbon pulls the C–H bonding electrons towards itself, making the hydrogen easier to release as H<sup>+</sup> and the resulting carbanion more stable.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.21",
+      "q": "Write structures of all the alkenes which on hydrogenation give 2-methylbutane.",
+      "a": "<p>2-Methylbutane is (CH<sub>3</sub>)<sub>2</sub>CH–CH<sub>2</sub>–CH<sub>3</sub>. Put a double bond at each possible C–C position of this skeleton: CH<sub>2</sub>=C(CH<sub>3</sub>)–CH<sub>2</sub>–CH<sub>3</sub> (2-methylbut-1-ene); (CH<sub>3</sub>)<sub>2</sub>C=CH–CH<sub>3</sub> (2-methylbut-2-ene); (CH<sub>3</sub>)<sub>2</sub>CH–CH=CH<sub>2</sub> (3-methylbut-1-ene). Three alkenes; each adds H<sub>2</sub> over Pt, Pd or Ni to give 2-methylbutane.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.25",
+      "q": "Why is Wurtz reaction not preferred for the preparation of alkanes containing odd number of carbon atoms? Illustrate your answer by taking one example.",
+      "a": "<p>The Wurtz reaction couples two alkyl groups, so one alkyl halide gives only an even-carbon alkane. To get an odd-carbon alkane two different halides must be used, and then all three coupling products form: R–R, R–R′ and R′–R′. Example: CH<sub>3</sub>Br + C<sub>2</sub>H<sub>5</sub>Br with Na in dry ether gives propane (CH<sub>3</sub>–C<sub>2</sub>H<sub>5</sub>) along with ethane (CH<sub>3</sub>–CH<sub>3</sub>) and butane (C<sub>2</sub>H<sub>5</sub>–C<sub>2</sub>H<sub>5</sub>). The mixture is hard to separate because the boiling points are close, and the yield of the required alkane is low.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Electrolysis of an aqueous solution of potassium ethanoate (Kolbe's method) gives at the anode:",
+      "options": [
+        "Methane",
+        "Ethane",
+        "Propane",
+        "Ethene"
+      ],
+      "answer": "b",
+      "solution": "Two ethanoate ions lose electrons at the anode, lose CO<sub>2</sub>, and the two CH<sub>3</sub>• radicals combine to give ethane; H<sub>2</sub> is liberated at the cathode."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The energy difference between the eclipsed and staggered conformations of ethane is about:",
+      "options": [
+        "12.5 kJ mol<sup>−1</sup>",
+        "125 kJ mol<sup>−1</sup>",
+        "348 kJ mol<sup>−1</sup>",
+        "1.25 kJ mol<sup>−1</sup>"
+      ],
+      "answer": "a",
+      "solution": "Torsional strain raises the eclipsed form by only about 12.5 kJ mol<sup>−1</sup>, which is why rotation is nearly free and conformers cannot be isolated."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Ozonolysis of but-2-ene followed by treatment with zinc and water gives:",
+      "options": [
+        "Methanal and propanal",
+        "Two moles of ethanal",
+        "Propanone",
+        "Ethanoic acid and CO<sub>2</sub>"
+      ],
+      "answer": "b",
+      "solution": "CH<sub>3</sub>CH=CHCH<sub>3</sub> is symmetrical; each CH<sub>3</sub>CH= becomes CH<sub>3</sub>CHO, so two moles of ethanal form."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following species is aromatic according to Hückel's rule?",
+      "options": [
+        "Cyclooctatetraene",
+        "Cyclobutadiene",
+        "Cyclopentadienyl anion",
+        "Cyclopentadiene"
+      ],
+      "answer": "c",
+      "solution": "The cyclopentadienyl anion is planar with six delocalised π electrons (4n+2, n = 1). Cyclooctatetraene has 8 π electrons and is non-planar, cyclobutadiene has 4, and cyclopentadiene has an sp<sup>3</sup> CH<sub>2</sub> that breaks delocalisation."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Propyne on hydration with 40% H<sub>2</sub>SO<sub>4</sub> and 1% HgSO<sub>4</sub> at 333 K gives:",
+      "options": [
+        "Propanal",
+        "Propanone",
+        "Propan-1-ol",
+        "Propan-2-ol"
+      ],
+      "answer": "b",
+      "solution": "Markovnikov addition of water gives the enol CH<sub>3</sub>C(OH)=CH<sub>2</sub>, which tautomerises to propanone, CH<sub>3</sub>COCH<sub>3</sub>."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "But-2-yne on reduction with H<sub>2</sub> in the presence of Lindlar's catalyst gives:",
+      "options": [
+        "cis-But-2-ene",
+        "trans-But-2-ene",
+        "Butane",
+        "But-1-ene"
+      ],
+      "answer": "a",
+      "solution": "Partially deactivated palladised charcoal adds one H<sub>2</sub> to the same face of the triple bond, giving the cis-alkene; Na in liquid NH<sub>3</sub> gives the trans-alkene."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The peroxide effect (anti-Markovnikov addition) is observed with HBr but not with HCl or HI. Reason (R): The H–Cl bond is too strong to be broken homolytically by the phenyl radical, and though the H–I bond breaks easily the iodine radical is too unreactive to add to the alkene.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Only HBr has a bond weak enough to give the halogen radical and a radical reactive enough to add to the double bond; R is exactly why the effect is limited to HBr."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): But-2-yne reacts with sodium metal to liberate dihydrogen. Reason (R): A hydrogen atom attached to an sp-hybridised carbon is acidic in character.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "R is correct, but but-2-yne, CH<sub>3</sub>C≡CCH<sub>3</sub>, has no hydrogen on an sp carbon, so it has no acidic hydrogen and does not react with sodium; A is false."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): When two different alkyl halides are used in the Wurtz reaction, a mixture of three alkanes is obtained. Reason (R): The Wurtz reaction is the preferred method for preparing alkanes with an odd number of carbon atoms.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "R–R, R–R′ and R′–R′ all form (A true), and because of that inseparable mixture the Wurtz reaction is not preferred for odd-carbon alkanes (R false)."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State Markovnikov's rule. Write the major product formed when HCl adds to 2-methylpropene.",
+      "answer": "<p>Markovnikov's rule: when an unsymmetrical reagent adds to an unsymmetrical alkene, the negative part of the addendum attaches to the carbon atom carrying the smaller number of hydrogen atoms. (1 mark)</p><p>(CH<sub>3</sub>)<sub>2</sub>C=CH<sub>2</sub> + HCl → (CH<sub>3</sub>)<sub>3</sub>C–Cl, 2-chloro-2-methylpropane, via the more stable tertiary carbocation. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "How will you distinguish between but-1-yne and but-2-yne chemically?",
+      "answer": "<p>But-1-yne is a terminal alkyne with an acidic hydrogen on an sp carbon; but-2-yne has none. With ammoniacal silver nitrate, but-1-yne gives a white precipitate of silver butynide, CH<sub>3</sub>CH<sub>2</sub>C≡CAg, while but-2-yne gives no precipitate. Ammoniacal Cu<sub>2</sub>Cl<sub>2</sub> (red precipitate with but-1-yne only) or sodium metal (H<sub>2</sub> evolved with but-1-yne only) also work. Give the test, the observation and the reason.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why do alkenes decolourise bromine water while alkanes do not? Give the equation for ethene.",
+      "answer": "<p>Alkenes have a loosely held π electron cloud that the electrophile Br<sub>2</sub> attacks; bromine adds across the double bond and its reddish-brown colour disappears: CH<sub>2</sub>=CH<sub>2</sub> + Br<sub>2</sub> → BrCH<sub>2</sub>–CH<sub>2</sub>Br (1,2-dibromoethane). Alkanes have only strong σ bonds and no π electrons, so they do not add bromine (they substitute only in light), and the colour stays. This is the test for unsaturation.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is torsional strain? Which conformation of ethane has the least torsional strain and what is the energy difference between the two extreme conformations?",
+      "answer": "<p>Torsional strain is the weak repulsion between the electron clouds of C–H bonds on adjacent carbons as they pass each other during rotation about the C–C bond. The staggered conformation (dihedral angle 60°) has the least torsional strain and is the most stable; the eclipsed conformation (0°) has the most. The energy difference is about 12.5 kJ mol<sup>−1</sup>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Write the mechanism of the chlorination of methane in the presence of sunlight. Name the type of mechanism.",
+      "answer": "<p>Free-radical chain mechanism, in three stages.</p><p><b>Initiation:</b> homolytic fission in light, Cl<sub>2</sub> → 2Cl•.</p><p><b>Propagation:</b> Cl• + CH<sub>4</sub> → CH<sub>3</sub>• + HCl; CH<sub>3</sub>• + Cl<sub>2</sub> → CH<sub>3</sub>Cl + Cl•. The regenerated Cl• attacks another methane, so the chain continues, and CH<sub>3</sub>Cl is attacked further to give CH<sub>2</sub>Cl<sub>2</sub>, CHCl<sub>3</sub> and CCl<sub>4</sub>.</p><p><b>Termination:</b> Cl• + Cl• → Cl<sub>2</sub>; CH<sub>3</sub>• + Cl• → CH<sub>3</sub>Cl; CH<sub>3</sub>• + CH<sub>3</sub>• → C<sub>2</sub>H<sub>6</sub> (the source of the ethane found among the products).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "How will you convert: (i) ethyne to ethanal (ii) benzene to acetophenone (iii) ethene to ethyne?",
+      "answer": "<p>(i) HC≡CH + H<sub>2</sub>O → [CH<sub>2</sub>=CH–OH] → CH<sub>3</sub>CHO, with 40% dilute H<sub>2</sub>SO<sub>4</sub> and 1% HgSO<sub>4</sub> at 333 K; the vinyl alcohol tautomerises to ethanal.</p><p>(ii) C<sub>6</sub>H<sub>6</sub> + CH<sub>3</sub>COCl → C<sub>6</sub>H<sub>5</sub>COCH<sub>3</sub> + HCl with anhydrous AlCl<sub>3</sub> (Friedel–Crafts acylation).</p><p>(iii) CH<sub>2</sub>=CH<sub>2</sub> + Br<sub>2</sub> (CCl<sub>4</sub>) → BrCH<sub>2</sub>–CH<sub>2</sub>Br; alcoholic KOH, heat → CH<sub>2</sub>=CHBr; NaNH<sub>2</sub> → HC≡CH.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "An alkene of molecular formula C<sub>5</sub>H<sub>10</sub> on ozonolysis followed by treatment with Zn and water gives propanone and ethanal. Identify the alkene, write its IUPAC name and the equation for the reaction.",
+      "answer": "<p>Propanone is (CH<sub>3</sub>)<sub>2</sub>C=O and ethanal is CH<sub>3</sub>CH=O. Rejoining the two carbonyl carbons by a double bond gives (CH<sub>3</sub>)<sub>2</sub>C=CH–CH<sub>3</sub>, which is C<sub>5</sub>H<sub>10</sub> as required: <b>2-methylbut-2-ene</b>.</p><p>(CH<sub>3</sub>)<sub>2</sub>C=CHCH<sub>3</sub> + O<sub>3</sub> → ozonide; ozonide + Zn/H<sub>2</sub>O → (CH<sub>3</sub>)<sub>2</sub>C=O + CH<sub>3</sub>CHO. Zinc removes the H<sub>2</sub>O<sub>2</sub> formed so that ethanal is not oxidised to ethanoic acid.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the following: (a) ethyne is acidic but ethane is not; (b) benzene undergoes substitution rather than addition despite being highly unsaturated; (c) n-pentane has a higher boiling point than 2,2-dimethylpropane.",
+      "answer": "<p>(a) The C–H bond of ethyne is on an sp carbon (50% s-character), more electronegative than the sp<sup>3</sup> carbon (25%) of ethane; the bonding electrons stay closer to carbon, the hydrogen leaves more easily as H<sup>+</sup>, and the ethynide ion is stabilised. So ethyne gives sodium ethynide and H<sub>2</sub> with sodium; ethane does not.</p><p>(b) The six delocalised π electrons give benzene resonance stability. Addition would convert sp<sup>2</sup> carbons to sp<sup>3</sup> and destroy this delocalisation; substitution replaces a hydrogen and keeps the aromatic ring, so it is preferred.</p><p>(c) 2,2-Dimethylpropane is compact and nearly spherical, with a smaller surface area than straight-chain pentane, so its van der Waals forces are weaker and it boils lower (282.5 K against 309 K).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the mechanism of electrophilic substitution in benzene, taking nitration as the example. What is the role of sulphuric acid in the reaction?",
+      "answer": "<p>Nitration: C<sub>6</sub>H<sub>6</sub> + conc. HNO<sub>3</sub> → C<sub>6</sub>H<sub>5</sub>NO<sub>2</sub> + H<sub>2</sub>O (conc. H<sub>2</sub>SO<sub>4</sub>, 323–333 K).</p><p><b>Step 1, generation of the electrophile:</b> HNO<sub>3</sub> + 2H<sub>2</sub>SO<sub>4</sub> → NO<sub>2</sub><sup>+</sup> + H<sub>3</sub>O<sup>+</sup> + 2HSO<sub>4</sub><sup>−</sup>. Sulphuric acid protonates nitric acid, which loses water to give the nitronium ion; H<sub>2</sub>SO<sub>4</sub> acts as the acid and HNO<sub>3</sub> as the base.</p><p><b>Step 2, formation of the arenium ion:</b> the π cloud of benzene attacks NO<sub>2</sub><sup>+</sup>, which bonds to one ring carbon; that carbon becomes sp<sup>3</sup> and aromaticity is lost. The intermediate (arenium ion, σ-complex) is resonance-stabilised over three structures with the positive charge at the two ortho carbons and the para carbon. This step is slow and rate-determining.</p><p><b>Step 3, loss of a proton:</b> HSO<sub>4</sub><sup>−</sup> removes H<sup>+</sup> from the sp<sup>3</sup> carbon, aromaticity is restored, nitrobenzene forms and H<sub>2</sub>SO<sub>4</sub> is regenerated. This step is fast.</p><p><b>Role of H<sub>2</sub>SO<sub>4</sub>:</b> it generates the electrophile NO<sub>2</sub><sup>+</sup> from HNO<sub>3</sub>, its conjugate base HSO<sub>4</sub><sup>−</sup> removes the proton in the last step, and it is regenerated, so it acts as a catalyst.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Draw the Kekulé structures of benzene and state two facts they could not explain. (b) Describe the structure of benzene on the basis of resonance and the orbital picture. (c) State the conditions for aromaticity and say whether cyclooctatetraene is aromatic.",
+      "answer": "<p>(a) Kekulé (1865): a planar hexagon of six carbons with alternate single and double bonds and one hydrogen on each carbon; the two structures differ only in the positions of the double bonds. They could not explain (i) why only one 1,2-disubstituted benzene exists although two are predicted (substituents across a C–C or a C=C), and (ii) why benzene, with three double bonds, does not give the addition reactions of alkenes and is unusually stable.</p><p>(b) Resonance: the two Kekulé structures are canonical forms of one hybrid; all six C–C bonds are 139 pm, between C–C (154 pm) and C=C (134 pm), and the hybrid is lower in energy than either form by the resonance energy. Orbital picture: each carbon is sp<sup>2</sup> hybridised, forming three σ bonds in one plane at 120°, so the ring is a regular planar hexagon; the unhybridised p orbital on each carbon overlaps sideways equally with both neighbours, so the six π electrons are delocalised in doughnut-shaped clouds above and below the ring.</p><p>(c) Aromaticity needs (i) planarity, (ii) complete delocalisation of π electrons in the ring and (iii) (4n+2) π electrons, n = 0, 1, 2, .... Cyclooctatetraene has 8 π electrons, not a Hückel number, and is tub-shaped rather than planar, so it is not aromatic.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Give three methods of preparation of alkanes with one equation each, including the mechanism of Kolbe's electrolytic method. Why can methane not be prepared by the Wurtz reaction or by Kolbe's method? (b) Explain with resonance structures why the –OH group in phenol is ortho- and para-directing.",
+      "answer": "<p>(a) (i) Hydrogenation: CH<sub>2</sub>=CH<sub>2</sub> + H<sub>2</sub> → CH<sub>3</sub>CH<sub>3</sub> (Pt, Pd or Ni). (ii) Wurtz reaction: 2CH<sub>3</sub>Br + 2Na → CH<sub>3</sub>CH<sub>3</sub> + 2NaBr (dry ether). (iii) Decarboxylation: CH<sub>3</sub>COONa + NaOH → CH<sub>4</sub> + Na<sub>2</sub>CO<sub>3</sub> (CaO, heat). Kolbe's method: 2CH<sub>3</sub>COO<sup>−</sup>Na<sup>+</sup> + 2H<sub>2</sub>O → C<sub>2</sub>H<sub>6</sub> + 2CO<sub>2</sub> + H<sub>2</sub> + 2NaOH; at the anode CH<sub>3</sub>COO<sup>−</sup> → CH<sub>3</sub>COO• + e<sup>−</sup>, CH<sub>3</sub>COO• → CH<sub>3</sub>• + CO<sub>2</sub>, 2CH<sub>3</sub>• → C<sub>2</sub>H<sub>6</sub>; at the cathode 2H<sub>2</sub>O + 2e<sup>−</sup> → H<sub>2</sub> + 2OH<sup>−</sup>. Both Wurtz and Kolbe join two alkyl groups, so the smallest product has two carbons; one-carbon methane cannot be made by either.</p><p>(b) In phenol one lone pair on oxygen is conjugated with the ring. Pushing it into the ring gives structures with C=O<sup>+</sup> and a negative charge at the ortho carbon, then the para carbon, then the other ortho carbon, never at meta. Electron density is highest at ortho and para, so the electrophile attacks there, and because the whole ring is richer than benzene the –OH group also activates it. The same holds for –NH<sub>2</sub>, –OCH<sub>3</sub> and –NHCOCH<sub>3</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>Ozonolysis is used to locate a double bond. Ozone adds across C=C to form an ozonide, which on cleavage with zinc and water gives two carbonyl compounds; each carbon of the original double bond becomes a carbonyl carbon. Alkene P (C<sub>4</sub>H<sub>8</sub>) gave methanal and propanal. Alkene Q (C<sub>4</sub>H<sub>8</sub>) gave methanal and propanone. Alkene R gave only butan-2-one.<br>(i) Identify P and Q and write their IUPAC names.<br>(ii) Identify R and give its IUPAC name.<br>(iii) Why is zinc used along with water in the cleavage of the ozonide?<br>(iv) Which of P and Q can show geometrical isomerism? Give a reason.",
+      "answer": "<p>(i) P: methanal (CH<sub>2</sub>=O) and propanal (CH<sub>3</sub>CH<sub>2</sub>CH=O) rejoin to CH<sub>2</sub>=CHCH<sub>2</sub>CH<sub>3</sub>, but-1-ene. Q: methanal and propanone ((CH<sub>3</sub>)<sub>2</sub>C=O) rejoin to CH<sub>2</sub>=C(CH<sub>3</sub>)<sub>2</sub>, 2-methylpropene.</p><p>(ii) Only butan-2-one, CH<sub>3</sub>COCH<sub>2</sub>CH<sub>3</sub>, means both halves are identical: R is CH<sub>3</sub>(C<sub>2</sub>H<sub>5</sub>)C=C(C<sub>2</sub>H<sub>5</sub>)CH<sub>3</sub>, 3,4-dimethylhex-3-ene.</p><p>(iii) Cleavage of the ozonide produces H<sub>2</sub>O<sub>2</sub>, which would oxidise the aldehydes to acids; zinc destroys the H<sub>2</sub>O<sub>2</sub>.</p><p>(iv) Neither. In but-1-ene one doubly bonded carbon carries two hydrogens, and in 2-methylpropene one carries two methyl groups; geometrical isomerism needs two different groups on each carbon of the double bond.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>Because a σ bond has cylindrical symmetry, the two carbon atoms of ethane can rotate about the C–C axis, producing different spatial arrangements called conformations. Rotation is not completely free: as the C–H bonds on the two carbons pass each other their electron clouds repel weakly. In the eclipsed conformation the hydrogens are as close as possible; in the staggered conformation they are as far apart as possible. The two forms differ in energy by about 12.5 kJ mol<sup>−1</sup>.<br>(i) Name the strain that makes rotation about the C–C bond not completely free.<br>(ii) What are the dihedral angles of the eclipsed and staggered conformations of ethane?<br>(iii) Why can the conformers of ethane not be separated at room temperature?<br>(iv) Name the two projections used to represent conformations and state how the front and back carbons are shown in one of them.",
+      "answer": "<p>(i) Torsional strain.</p><p>(ii) Eclipsed 0°, staggered 60°.</p><p>(iii) The barrier of about 12.5 kJ mol<sup>−1</sup> is small compared with the thermal energy available at room temperature, so the conformers interconvert millions of times per second and no single conformer can be isolated.</p><p>(iv) Sawhorse and Newman projections. In the Newman projection the molecule is viewed along the C–C axis: the front carbon is a point with its three bonds at 120°, and the back carbon is a circle with its three bonds drawn from the circumference.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The IUPAC name of CH<sub>3</sub>–CH=C(CH<sub>3</sub>)<sub>2</sub> is:",
+      "options": [
+        "2-methylbut-2-ene",
+        "3-methylbut-2-ene",
+        "2-methylbut-3-ene",
+        "Pent-2-ene"
+      ],
+      "answer_index": 0,
+      "explanation": "The longest chain through the double bond has four carbons; numbering from the end nearer the double bond gives the double bond locant 2 and the methyl locant 2, so 2-methylbut-2-ene."
+    },
+    {
+      "q": "The number of structural isomers of C<sub>5</sub>H<sub>12</sub> is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer_index": 1,
+      "explanation": "Pentane, 2-methylbutane and 2,2-dimethylpropane; C<sub>4</sub>H<sub>10</sub> has 2 and C<sub>6</sub>H<sub>14</sub> has 5."
+    },
+    {
+      "q": "Which alkane cannot be prepared by the Wurtz reaction?",
+      "options": [
+        "Ethane",
+        "Butane",
+        "Methane",
+        "Hexane"
+      ],
+      "answer_index": 2,
+      "explanation": "The Wurtz reaction couples two alkyl groups, so the smallest possible product is ethane; methane has only one carbon."
+    },
+    {
+      "q": "Ethene reacts with cold, dilute, alkaline KMnO<sub>4</sub> (Baeyer's reagent) to give:",
+      "options": [
+        "Ethanal",
+        "Ethanoic acid",
+        "Ethane-1,2-diol",
+        "Ethanol"
+      ],
+      "answer_index": 2,
+      "explanation": "Baeyer's reagent hydroxylates the double bond to a vicinal diol, HOCH<sub>2</sub>CH<sub>2</sub>OH, and its pink colour is discharged."
+    },
+    {
+      "q": "The order of reactivity of halogens in the halogenation of alkanes is:",
+      "options": [
+        "I<sub>2</sub> > Br<sub>2</sub> > Cl<sub>2</sub> > F<sub>2</sub>",
+        "F<sub>2</sub> > Cl<sub>2</sub> > Br<sub>2</sub> > I<sub>2</sub>",
+        "Cl<sub>2</sub> > F<sub>2</sub> > Br<sub>2</sub> > I<sub>2</sub>",
+        "Br<sub>2</sub> > Cl<sub>2</sub> > I<sub>2</sub> > F<sub>2</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "Fluorination is explosive, chlorination and bromination need light or heat, and iodination is reversible and needs an oxidising agent such as HIO<sub>3</sub>."
+    },
+    {
+      "q": "Which of the following alkenes shows geometrical isomerism?",
+      "options": [
+        "But-1-ene",
+        "But-2-ene",
+        "2-Methylpropene",
+        "Propene"
+      ],
+      "answer_index": 1,
+      "explanation": "Only in but-2-ene does each doubly bonded carbon carry two different groups (H and CH<sub>3</sub>); the others have two identical groups on one carbon."
+    },
+    {
+      "q": "Benzene reacts with three molecules of chlorine in bright sunlight to form:",
+      "options": [
+        "Chlorobenzene",
+        "1,3,5-Trichlorobenzene",
+        "Benzene hexachloride (C<sub>6</sub>H<sub>6</sub>Cl<sub>6</sub>)",
+        "Hexachlorobenzene"
+      ],
+      "answer_index": 2,
+      "explanation": "In UV light chlorine adds rather than substitutes, giving benzene hexachloride (gammaxene, BHC), an insecticide; substitution to chlorobenzene needs FeCl<sub>3</sub> in the dark."
+    },
+    {
+      "q": "The reagent that converts but-2-yne into trans-but-2-ene is:",
+      "options": [
+        "H<sub>2</sub>, Lindlar's catalyst",
+        "H<sub>2</sub>, Ni at high temperature",
+        "Na in liquid NH<sub>3</sub>",
+        "Zn in ethanol"
+      ],
+      "answer_index": 2,
+      "explanation": "Sodium in liquid ammonia reduces an alkyne to the trans-alkene; Lindlar's catalyst gives cis and Ni with excess H<sub>2</sub> gives the alkane."
+    },
+    {
+      "q": "The hybridisation of carbon and the shape of the ethyne molecule are:",
+      "options": [
+        "sp<sup>2</sup>, planar",
+        "sp<sup>3</sup>, tetrahedral",
+        "sp, linear",
+        "sp<sup>2</sup>, linear"
+      ],
+      "answer_index": 2,
+      "explanation": "Each carbon in HC≡CH is sp hybridised with the two sp orbitals at 180°, so all four atoms lie on a straight line."
+    },
+    {
+      "q": "The C–C bond length in benzene is:",
+      "options": [
+        "134 pm",
+        "139 pm",
+        "154 pm",
+        "120 pm"
+      ],
+      "answer_index": 1,
+      "explanation": "All six bonds are equal at 139 pm, between the C=C (134 pm) and C–C (154 pm) values, because of delocalisation."
+    },
+    {
+      "q": "The attacking electrophile in the nitration of benzene is:",
+      "options": [
+        "NO<sub>2</sub><sup>−</sup>",
+        "NO<sub>2</sub><sup>+</sup>",
+        "NO<sub>3</sub><sup>−</sup>",
+        "HNO<sub>3</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "Sulphuric acid protonates nitric acid, which loses water to give the nitronium ion NO<sub>2</sub><sup>+</sup>."
+    },
+    {
+      "q": "n-Hexane heated with anhydrous AlCl<sub>3</sub> and HCl gives mainly:",
+      "options": [
+        "Benzene",
+        "Cyclohexane",
+        "2-Methylpentane and 3-methylpentane",
+        "Propene and propane"
+      ],
+      "answer_index": 2,
+      "explanation": "This is isomerisation; the straight chain rearranges to branched isomers. Aromatisation to benzene needs Cr<sub>2</sub>O<sub>3</sub>/V<sub>2</sub>O<sub>5</sub>/Mo<sub>2</sub>O<sub>3</sub> at 773 K."
+    },
+    {
+      "q": "Ethanol heated with concentrated H<sub>2</sub>SO<sub>4</sub> at 443 K gives:",
+      "options": [
+        "Ethene",
+        "Ethyne",
+        "Ethanal",
+        "Diethyl ether"
+      ],
+      "answer_index": 0,
+      "explanation": "At 443 K concentrated sulphuric acid dehydrates ethanol by β-elimination to ethene; ether forms at a lower temperature (413 K, Class 12)."
+    },
+    {
+      "q": "Propene on oxidation with hot acidic KMnO<sub>4</sub> gives:",
+      "options": [
+        "Propane-1,2-diol",
+        "Propanone",
+        "Ethanoic acid and CO<sub>2</sub>",
+        "Propanal"
+      ],
+      "answer_index": 2,
+      "explanation": "Hot acidic permanganate cleaves the double bond; the CH<sub>3</sub>CH= end becomes ethanoic acid and the =CH<sub>2</sub> end is oxidised to CO<sub>2</sub> and water."
+    },
+    {
+      "q": "Which group is ortho/para-directing but deactivating towards electrophilic substitution?",
+      "options": [
+        "–NH<sub>2</sub>",
+        "–Cl",
+        "–CHO",
+        "–OCH<sub>3</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "The strong −I effect of chlorine deactivates the ring, but its +R effect still puts electron density at the ortho and para positions."
+    }
+  ],
+  "common_mistakes": [
+    "Applying Markovnikov's rule with HCl or HI in the presence of peroxide as if it reversed. The peroxide effect is shown only by HBr; the examiner expects 2-chloropropane from propene and HCl even with peroxide present.",
+    "Writing the halogenation of methane as a single equation. The question wants initiation, propagation and termination written separately with radical dots; without them the mechanism marks are lost.",
+    "Using the Wurtz reaction to make propane or any odd-carbon alkane, or methane. Say a mixture forms and why, and pick decarboxylation or reduction of an alkyl halide instead.",
+    "Writing alcoholic KOH for both steps of ethene to ethyne. The second HBr is removed by NaNH<sub>2</sub> (sodamide), not by KOH.",
+    "Reversing the order of steps in benzene conversions, for example nitrating first when p-nitrobromobenzene is wanted. Decide the order from the directing effect of the group introduced first.",
+    "Counting cyclooctatetraene as aromatic because it is cyclic and conjugated. It has 8 π electrons and is non-planar; all three conditions must hold.",
+    "Saying halogens are meta-directing because they deactivate the ring. Halogens deactivate by −I but direct ortho/para by +R."
+  ],
+  "strategy": "<p>Treat this chapter as three short chapters with one shared idea: hybridisation decides the bond type, the bond type decides the reaction. Alkanes have only σ bonds, so they substitute by free radicals. Alkenes and alkynes have exposed π electrons, so they add electrophiles. Benzene has delocalised π electrons it will not give up, so it substitutes electrophiles. If you can say that sentence in your sleep, the mechanisms stop being separate things to memorise.</p><p>Spend the first sitting on nomenclature and isomer counting, because every later question hides a naming step. Then learn the four mechanisms as written derivations: halogenation of methane, Markovnikov addition, the peroxide effect, and electrophilic substitution of benzene, each with its named intermediate and the reason it is the more stable one. Practise writing each in under four minutes.</p><p>Next, make a single sheet of preparations: three for alkanes, four for alkenes, two for alkynes, three for benzene, with reagent and condition. Conversion questions are built from this sheet plus the directive-influence rules, so practise ten conversions in both directions (ethene to ethyne to benzene to acetophenone, and back).</p><p>Ozonolysis is the numerical of this chapter: do every NCERT exercise on it, forwards and backwards, until rejoining carbonyl carbons is automatic. Finish with the reasoning questions (acidity order, boiling points, stability of benzene, why substitution not addition), each answered in three lines with the keyword the examiner wants: s-character, surface area, resonance energy, delocalisation.</p><p>In the paper, give mechanisms and conversions the most time; the one-mark items are quick if the preparations sheet is in your head.</p>",
+  "revision_checklist": [
+    "General formulas of alkanes, alkenes, alkynes and benzene homologues, and why cyclohexane is saturated",
+    "1°, 2°, 3°, 4° carbons; isomer counts for C<sub>4</sub>H<sub>10</sub>, C<sub>5</sub>H<sub>12</sub>, C<sub>6</sub>H<sub>14</sub>",
+    "Three preparations of alkanes with conditions; Kolbe's mechanism; why Wurtz fails for odd-carbon alkanes and methane",
+    "Free-radical mechanism of chlorination of methane in three labelled steps, and why ethane forms",
+    "Sawhorse and Newman projections of eclipsed and staggered ethane; torsional strain; 12.5 kJ mol<sup>−1</sup>",
+    "Conditions for geometrical isomerism; dipole moment and boiling point of cis vs trans",
+    "Four preparations of alkenes; Lindlar (cis) vs Na/liquid NH<sub>3</sub> (trans); β-elimination",
+    "Markovnikov's rule with the carbocation argument; peroxide effect with the radical chain; why only HBr",
+    "Baeyer's reagent, bromine water, acidic KMnO<sub>4</sub> and ozonolysis products; working backwards from ozonolysis",
+    "Ethyne from CaC<sub>2</sub> and from vicinal dihalides (KOH then NaNH<sub>2</sub>); acidity order and s-character",
+    "Kekulé structures, resonance, orbital picture, 139 pm; the three conditions of aromaticity and Hückel numbers",
+    "Five electrophilic substitutions with reagents; the three-step mechanism with the arenium ion; BHC in sunlight",
+    "Ortho/para vs meta directors with resonance structures; halogens as the exception; order of steps in conversions"
+  ],
+  "videos": []
+}

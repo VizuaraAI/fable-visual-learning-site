@@ -1,0 +1,1308 @@
+{
+  "class": 12,
+  "subject": "Physics",
+  "chapter_no": 1,
+  "slug": "electric-charges-and-fields",
+  "title": "Electric Charges and Fields",
+  "summary": "Electrostatics begins here: charge and its three properties, Coulomb's law, the electric field and its lines, flux, the electric dipole, and Gauss's law with its three standard applications. Together with Chapter 2 it forms Unit I, and the derivations in this chapter are among the most dependable long-answer questions in the board paper.",
+  "exam_profile": {
+    "weightage": "Unit I (Electrostatics: Chapters 1 and 2) together with Unit II (Current Electricity) carries 16 marks in the CBSE Class 12 Physics paper. This chapter alone typically contributes about 6 to 8 marks: usually one 5-mark derivation (dipole field or a Gauss's law application) or a 3-mark numerical, plus one or two 1-mark questions.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Flux through a face or a closed surface, the force after two conductors touch, the orientation of a dipole in stable equilibrium, how the field of a wire, sheet or dipole falls with distance, and units or dimensions of flux."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Properties of field lines, statements of Gauss's law (any closed surface, only enclosed charge), quantisation of charge, and the force and torque on a dipole."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define flux or dipole moment with the SI unit; why field lines never cross or form closed loops; flux through a sphere when its radius changes; a short Coulomb's law numerical; derive the torque on a dipole."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Flux of a uniform field through a square at an angle, flux of a non-uniform field through a cylinder, the point where the net field of two charges is zero, the resultant field at a vertex of a triangle, flux through a cylinder around a charged wire."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Derivations: field on the axial or equatorial line of a dipole, torque on a dipole, and Gauss's law applied to an infinite wire, an infinite plane sheet or a spherical shell, usually with a graph of E against r and a small numerical attached."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on Gauss's law, field lines or the dipole followed by four short parts, mostly one-line answers or a two-step numerical."
+      }
+    ],
+    "hot_topics": [
+      "Gauss's law applied to an infinite wire, an infinite plane sheet and a thin spherical shell, with the E–r graph",
+      "Electric field of a dipole on the axial and equatorial lines, and the torque on a dipole in a uniform field",
+      "Electric flux numericals: a square at an angle to a uniform field, a cube or sphere around a charge, a cylinder in a non-uniform field",
+      "Coulomb's law numericals, including two conductors touched and separated, and the force in a medium",
+      "Properties of electric field lines and the standard sketches",
+      "The point between or outside two charges where the net field is zero",
+      "Quantisation and conservation of charge, and counting electrons transferred",
+      "Charge densities and the field of continuous distributions"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1.2 Electric Charge",
+      "pyq_years": [],
+      "body": "<p>Electric charge is the property of matter because of which a body exerts and experiences electric forces. The Greek word <i>elektron</i> means amber; amber rubbed with wool attracts light objects, and that is the oldest electrical observation on record. Rubbing transfers electrons from one body to the other. The body that loses electrons is left with a deficit and becomes positively charged; the body that gains them becomes negatively charged. The signs are a convention that goes back to Benjamin Franklin: a glass rod rubbed with silk is positive and the silk negative, while a plastic or ebonite rod rubbed with fur or wool is negative and the fur positive. A polythene piece rubbed with wool is negative, which is the setting of NCERT exercise 1.11.</p><p>Three experimental facts carry the whole chapter. Like charges repel and unlike charges attract. The two rubbed bodies acquire equal and opposite charges, so the pair as a whole stays neutral. And a charged body attracts light uncharged objects, because it polarises them. A gold-leaf electroscope shows the presence of charge: when the knob is charged, the two leaves receive the same kind of charge and diverge, and the larger the charge, the larger the divergence.</p><p>Write these two lines whenever a question asks what charging means: a body is charged when it has an excess or a deficiency of electrons, and charging by friction is a transfer of electrons, not a creation of charge. A negatively charged body is very slightly heavier than the same body when neutral, because it has gained electrons; a positively charged body is very slightly lighter. Charge has no direction; it is a scalar, and its SI unit is the coulomb (C).</p>",
+      "formulas": [
+        {
+          "expr": "q = ±ne, with e = 1.6 × 10<sup>−19</sup> C",
+          "where": [
+            [
+              "n",
+              "number of electrons gained or lost (a whole number)"
+            ],
+            [
+              "e",
+              "magnitude of the charge on an electron"
+            ]
+          ]
+        }
+      ],
+      "tip": "When a question asks from which body to which the electrons move, name the direction explicitly (for example, from wool to polythene). The body that ends up negative is the one that received the electrons."
+    },
+    {
+      "heading": "1.3 Conductors and Insulators",
+      "pyq_years": [
+        2019,
+        2017
+      ],
+      "body": "<p>Conductors are materials that let electric charge pass through them easily; metals, the human body, the earth and salt solutions are conductors. Insulators such as glass, porcelain, plastic, nylon and dry wood offer high resistance to the passage of charge. The difference is in the electrons. In a metal the outer electrons of the atoms are free to move through the whole piece; in an insulator every electron stays bound to its own atom or molecule.</p><p>This changes what happens when you charge them. Charge given to a conductor spreads at once over its entire outer surface; charge given to an insulator stays exactly where it was put. It also explains a common demonstration: a metal rod held in the hand and rubbed with wool shows no charge, because whatever charge is produced leaks through the hand and the body to the earth. Hold the rod by a wooden or plastic handle and it stays charged. Connecting a body to the earth through a conductor is called earthing or grounding. The earth is so large that it can absorb or supply any amount of charge without its own potential changing, which is why the third pin of a household plug is connected to a metal plate buried in the ground.</p><p>Two consequences appear again and again in board questions. When two identical conducting spheres touch, the total charge divides equally between them, so balls carrying −Q and +3Q end up with +Q each and then repel (CBSE 2019). And the charge a metal sphere holds does not depend on whether it is hollow or solid (CBSE 2017), because in either case the charge sits only on the outer surface. Semiconductors such as silicon and germanium lie between the two classes: they conduct better than insulators but far worse than metals.</p>",
+      "formulas": [
+        {
+          "expr": "Charge on each of two identical conductors after contact = (q<sub>1</sub> + q<sub>2</sub>)/2",
+          "where": [
+            [
+              "q<sub>1</sub>, q<sub>2</sub>",
+              "the charges before contact, with their signs"
+            ]
+          ]
+        }
+      ],
+      "tip": "Equal sharing after contact holds only for identical conductors (same size and shape). Spheres of different radii share charge so that both reach the same potential, which is a Chapter 2 idea."
+    },
+    {
+      "heading": "1.4 Basic Properties of Electric Charge",
+      "pyq_years": [],
+      "body": "<p>Three properties are examined, usually as a 1- or 2-mark question, and each is worth stating in one exact sentence.</p><p><b>Additivity.</b> Charge is a scalar. The total charge of a system is the algebraic sum of the charges on its parts, signs included: a system with +5 μC, −3 μC and +1 μC has a total charge of +3 μC. Unlike mass, charge can be negative, so the total can be zero or smaller than any individual charge.</p><p><b>Conservation.</b> The total charge of an isolated system is constant. Charge can be transferred from one body to another, but it is never created or destroyed. When a glass rod is rubbed with silk the rod becomes positive and the silk negative by exactly the same amount, so the total stays zero (NCERT exercise 1.5). In a nuclear process a neutron decays into a proton and an electron (with an antineutrino); the total charge is zero before and after.</p><p><b>Quantisation.</b> All free charges are integral multiples of a basic unit e, the magnitude of the charge on an electron: q = ne with n = 0, ±1, ±2, ... and e = 1.6 × 10<sup>−19</sup> C. So one coulomb contains 1/(1.6 × 10<sup>−19</sup>) = 6.25 × 10<sup>18</sup> electrons, and a charge of 2.4 × 10<sup>−19</sup> C (1.5 e) is impossible. Faraday's laws of electrolysis first suggested quantisation; Millikan's oil-drop experiment (1912) established it. On the macroscopic scale e is so small compared with the charges we handle (a microcoulomb means about 6 × 10<sup>12</sup> electrons) that charge appears continuous, just as a heap of sand looks continuous though it is made of grains. That is why quantisation is ignored in macroscopic problems and charge is treated as a continuous variable (NCERT exercise 1.4).</p>",
+      "formulas": [
+        {
+          "expr": "q = ne, n = 0, ±1, ±2, ...",
+          "where": [
+            [
+              "e",
+              "1.6 × 10<sup>−19</sup> C, the elementary charge"
+            ],
+            [
+              "n",
+              "an integer; a fractional n is not allowed"
+            ]
+          ]
+        },
+        {
+          "expr": "Number of electrons in 1 C = 1/e = 6.25 × 10<sup>18</sup>",
+          "where": [
+            [
+              "1/e",
+              "reciprocal of the elementary charge"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a numerical gives a charge that is not a whole multiple of e, the intended answer is that such a charge cannot exist. Check n = q/e before doing anything else."
+    },
+    {
+      "heading": "1.5 Coulomb's Law",
+      "pyq_years": [
+        2019
+      ],
+      "body": "<p>Coulomb measured the force between charged spheres with a torsion balance (1785). The law: the force between two point charges at rest is directly proportional to the product of the charges and inversely proportional to the square of the distance between them, and it acts along the line joining them. In magnitude, F = (1/4πε<sub>0</sub>) · |q<sub>1</sub>||q<sub>2</sub>|/r<sup>2</sup>. The constant 1/4πε<sub>0</sub> = 9 × 10<sup>9</sup> N m<sup>2</sup> C<sup>−2</sup>, and ε<sub>0</sub> = 8.854 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup> is the permittivity of free space. The law also defines the coulomb: 1 C is the charge which, placed 1 m from an equal charge in vacuum, repels it with a force of 9 × 10<sup>9</sup> N.</p><p><b>Vector form</b> (a regular 2-mark question). Let <b>r</b><sub>1</sub> and <b>r</b><sub>2</sub> be the position vectors of q<sub>1</sub> and q<sub>2</sub>. Write <b>r</b><sub>21</sub> = <b>r</b><sub>2</sub> − <b>r</b><sub>1</sub> for the vector from charge 1 to charge 2, and r̂<sub>21</sub> for the unit vector along it. The force on q<sub>2</sub> due to q<sub>1</sub> is <b>F</b><sub>21</sub> = (1/4πε<sub>0</sub>) · (q<sub>1</sub>q<sub>2</sub>/r<sub>21</sub><sup>2</sup>) r̂<sub>21</sub>. If q<sub>1</sub>q<sub>2</sub> > 0 the force is along r̂<sub>21</sub>, that is, repulsive; if q<sub>1</sub>q<sub>2</sub> < 0 it is along −r̂<sub>21</sub>, attractive. Since r̂<sub>12</sub> = −r̂<sub>21</sub>, <b>F</b><sub>12</sub> = −<b>F</b><sub>21</sub>: the two forces are equal and opposite, in agreement with Newton's third law. Say in your answer that the vector form takes care of the direction and of both signs of charge automatically.</p><p>In a medium of dielectric constant (relative permittivity) K the force falls to F/K, because ε = Kε<sub>0</sub>. Two charges that repel with 8 N in air repel with 8/80 = 0.1 N in water (K = 80). Coulomb's law holds for point charges at rest; for several charges the forces must be added vectorially, which is the next section. The law has the same 1/r<sup>2</sup> form as gravitation but is enormously stronger: for an electron and a proton the ratio of the electric to the gravitational force is about 2.3 × 10<sup>39</sup> (NCERT exercise 1.3), which is why gravity is ignored in atomic physics.</p>",
+      "formulas": [
+        {
+          "expr": "F = (1/4πε<sub>0</sub>) · |q<sub>1</sub>||q<sub>2</sub>|/r<sup>2</sup>",
+          "where": [
+            [
+              "F",
+              "magnitude of the electrostatic force (N)"
+            ],
+            [
+              "1/4πε<sub>0</sub>",
+              "9 × 10<sup>9</sup> N m<sup>2</sup> C<sup>−2</sup>"
+            ],
+            [
+              "ε<sub>0</sub>",
+              "permittivity of free space, 8.854 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>"
+            ],
+            [
+              "r",
+              "distance between the point charges (m)"
+            ]
+          ]
+        },
+        {
+          "expr": "<b>F</b><sub>21</sub> = (1/4πε<sub>0</sub>) · (q<sub>1</sub>q<sub>2</sub>/r<sub>21</sub><sup>2</sup>) r̂<sub>21</sub> = −<b>F</b><sub>12</sub>",
+          "where": [
+            [
+              "<b>F</b><sub>21</sub>",
+              "force on q<sub>2</sub> due to q<sub>1</sub>"
+            ],
+            [
+              "r̂<sub>21</sub>",
+              "unit vector from q<sub>1</sub> towards q<sub>2</sub>"
+            ]
+          ]
+        },
+        {
+          "expr": "F<sub>medium</sub> = F<sub>vacuum</sub>/K",
+          "where": [
+            [
+              "K",
+              "dielectric constant of the medium (K = 1 for vacuum, about 80 for water)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Substitute magnitudes into the scalar formula and then state the direction in words (attractive or repulsive, along the line joining the charges). Putting a negative charge into the magnitude formula and reporting a negative force loses the direction mark."
+    },
+    {
+      "heading": "1.6 Forces between Multiple Charges",
+      "pyq_years": [],
+      "body": "<p>Coulomb's law gives the force between one pair. For three or more charges we need one more experimental fact, the principle of superposition: the force on any charge due to a number of other charges is the vector sum of the forces on it due to each of the others taken one at a time, and each pair force is unaffected by the presence of the remaining charges. For charges q<sub>1</sub>, q<sub>2</sub>, ..., q<sub>n</sub> at <b>r</b><sub>1</sub>, ..., <b>r</b><sub>n</sub>, the force on q<sub>1</sub> is <b>F</b><sub>1</sub> = <b>F</b><sub>12</sub> + <b>F</b><sub>13</sub> + ... + <b>F</b><sub>1n</sub> = (q<sub>1</sub>/4πε<sub>0</sub>) ∑ (q<sub>i</sub>/r<sub>1i</sub><sup>2</sup>) r̂<sub>1i</sub>, the sum running over i = 2 to n.</p><p>The exam versions are geometric. For charges at the corners of a square or an equilateral triangle, draw every force on the chosen charge as an arrow along the line joining the pair, resolve along two perpendicular directions, add the components, then find the magnitude and direction. In NCERT exercise 1.6, four charges at the corners of a square with equal charges on opposite corners give zero net force on a charge at the centre, because each diagonal pair produces equal and opposite forces. A charge at one corner of an equilateral triangle with charges at the other two feels two forces at 60° to each other, and the magnitude comes from F = √(F<sub>1</sub><sup>2</sup> + F<sub>2</sub><sup>2</sup> + 2F<sub>1</sub>F<sub>2</sub> cos 60°).</p><p>The other standard question is the position where a third charge feels no net force. For like charges +q and +4q a distance d apart, the null point lies between them, nearer the smaller charge: kqQ/x<sup>2</sup> = k(4q)Q/(d − x)<sup>2</sup> gives d − x = 2x, so x = d/3 from q. For unlike charges the null point lies outside the pair, on the side of the smaller charge. The sign and size of the third charge never matter, because they cancel from the equation.</p>",
+      "formulas": [
+        {
+          "expr": "<b>F</b><sub>1</sub> = (q<sub>1</sub>/4πε<sub>0</sub>) ∑ (q<sub>i</sub>/r<sub>1i</sub><sup>2</sup>) r̂<sub>1i</sub>, i = 2 to n",
+          "where": [
+            [
+              "r<sub>1i</sub>",
+              "distance between q<sub>1</sub> and q<sub>i</sub>"
+            ],
+            [
+              "r̂<sub>1i</sub>",
+              "unit vector from q<sub>i</sub> towards q<sub>1</sub>"
+            ]
+          ]
+        },
+        {
+          "expr": "F = √(F<sub>1</sub><sup>2</sup> + F<sub>2</sub><sup>2</sup> + 2F<sub>1</sub>F<sub>2</sub> cos θ)",
+          "where": [
+            [
+              "θ",
+              "angle between the two forces being added"
+            ]
+          ]
+        }
+      ],
+      "tip": "Never add magnitudes of Coulomb forces directly unless the forces lie along the same line. The most common lost mark in this chapter is treating forces at 60° or 90° as if they were collinear."
+    },
+    {
+      "heading": "1.7 Electric Field",
+      "pyq_years": [],
+      "body": "<p>A charge does not need to touch another charge to push it; the field is how we describe this action at a distance. The electric field at a point is the force experienced by a unit positive test charge placed there: <b>E</b>(<b>r</b>) = <b>F</b>/q<sub>0</sub>, taken in the limit q<sub>0</sub> → 0 so that the test charge does not disturb the charges producing the field. Its SI unit is N C<sup>−1</sup> (equivalently V m<sup>−1</sup>) and it is a vector. Once <b>E</b> is known, the force on any charge q at that point is <b>F</b> = q<b>E</b>: along <b>E</b> for a positive charge and opposite to <b>E</b> for a negative one. A proton placed in a field along +x moves along +x; an electron moves along −x.</p><p><b>Field of a point charge.</b> Put Q at the origin and the test charge q<sub>0</sub> at <b>r</b>. Coulomb's law gives <b>F</b> = (1/4πε<sub>0</sub>) Qq<sub>0</sub>/r<sup>2</sup> r̂, so <b>E</b> = (1/4πε<sub>0</sub>) Q/r<sup>2</sup> r̂. It is radially outward for Q > 0 and inward for Q < 0, has the same magnitude at all points of a sphere centred on Q (spherical symmetry) and falls off as 1/r<sup>2</sup>. <b>Field of a system of charges.</b> By superposition, <b>E</b>(<b>r</b>) = (1/4πε<sub>0</sub>) ∑ (q<sub>i</sub>/r<sub>iP</sub><sup>2</sup>) r̂<sub>iP</sub>, the vector sum of the individual fields. In NCERT exercise 1.8, +3 μC and −3 μC placed 20 cm apart give a field at the midpoint made of two parallel contributions, 5.4 × 10<sup>6</sup> N C<sup>−1</sup> in total, directed from the positive charge towards the negative one.</p><p><b>Physical significance.</b> The field is a property of the charge configuration at every point of space, whether or not a test charge is there to feel it. Its real importance shows when charges move: if q<sub>1</sub> is displaced, q<sub>2</sub> does not feel the change instantly but only after a time r/c, because the change travels through the field at the speed of light. Time-dependent electric and magnetic fields carry energy and momentum and propagate as electromagnetic waves. So the field is not just a calculating device but a physical entity with its own dynamics.</p>",
+      "formulas": [
+        {
+          "expr": "<b>E</b> = <b>F</b>/q<sub>0</sub> (q<sub>0</sub> → 0); <b>F</b> = q<b>E</b>",
+          "where": [
+            [
+              "q<sub>0</sub>",
+              "a vanishingly small positive test charge"
+            ],
+            [
+              "<b>E</b>",
+              "electric field, N C<sup>−1</sup> or V m<sup>−1</sup>"
+            ]
+          ]
+        },
+        {
+          "expr": "<b>E</b> = (1/4πε<sub>0</sub>) · Q/r<sup>2</sup> r̂",
+          "where": [
+            [
+              "Q",
+              "source point charge"
+            ],
+            [
+              "r̂",
+              "unit vector from Q to the field point"
+            ]
+          ]
+        },
+        {
+          "expr": "<b>E</b>(<b>r</b>) = (1/4πε<sub>0</sub>) ∑ (q<sub>i</sub>/r<sub>iP</sub><sup>2</sup>) r̂<sub>iP</sub>",
+          "where": [
+            [
+              "r<sub>iP</sub>",
+              "distance from q<sub>i</sub> to the field point P"
+            ]
+          ]
+        }
+      ],
+      "tip": "State the limit q<sub>0</sub> → 0 in the definition. Without it the definition earns only part of the mark, because a finite test charge would rearrange the charges that produce the field, especially on a conductor."
+    },
+    {
+      "heading": "1.8 Electric Field Lines",
+      "pyq_years": [
+        2019,
+        2015,
+        2014
+      ],
+      "body": "<p>Faraday introduced field lines as a picture of the field. A field line is a curve drawn so that its tangent at any point gives the direction of <b>E</b> there, and the lines are spaced so that the number crossing unit area held normal to them is proportional to the magnitude of <b>E</b>. Around a single point charge the lines are radial straight lines. The same number of lines cross every sphere centred on the charge, and the area of the sphere grows as r<sup>2</sup>, so the density of lines, and with it the field, falls as 1/r<sup>2</sup>. Crowded lines mean a strong field.</p><p>Properties to write, in this order. (i) Field lines start from positive charges and end at negative charges; if there is a single charge they start or end at infinity. (ii) In a charge-free region they are continuous curves without breaks. (iii) Two field lines never cross, because at the crossing point the field would have two directions, which is impossible. (iv) Electrostatic field lines do not form closed loops; this follows from the conservative nature of the electrostatic field. If a line closed on itself, a charge carried once round the loop would have net work done on it by the field, which cannot happen in an electrostatic field. Point (iv) was asked for 1 mark in CBSE 2014, and the continuity of lines is NCERT exercise 1.7.</p><p>Learn the four standard sketches: a single positive charge (lines radially outward), a single negative charge (inward), a dipole (lines leaving +q and curving round to −q, densest between the charges) and two equal positive charges (lines pushed apart, with a null point midway through which no line passes). Also learn the sketch of a point charge near an uncharged conducting plate (CBSE 2019): the lines leave the charge and meet the plate at right angles, because the field must be normal to the surface of a conductor. Field lines are a picture of a real vector field; they are not the paths of charges.</p>",
+      "formulas": [
+        {
+          "expr": "Number of field lines crossing unit normal area ∝ |<b>E</b>|",
+          "where": [
+            [
+              "|<b>E</b>|",
+              "magnitude of the field at that point"
+            ]
+          ]
+        }
+      ],
+      "tip": "Draw arrows on every field line and make lines meet a conductor at 90°. A dipole sketch without arrows, or with lines crossing, loses the diagram mark."
+    },
+    {
+      "heading": "1.9 Electric Flux",
+      "pyq_years": [
+        2018,
+        2016,
+        2014,
+        2013,
+        2012,
+        2010,
+        2009
+      ],
+      "body": "<p>Think of the field lines as a flow. Electric flux measures how many of them pass through a surface. For a small plane area element define the area vector Δ<b>S</b>, of magnitude ΔS and direction along the normal to the surface. The flux through it is ΔΦ = <b>E</b> · Δ<b>S</b> = E ΔS cos θ, where θ is the angle between <b>E</b> and the normal. The flux is maximum (E ΔS) when the field is along the normal, that is, when the surface faces the field, and zero when the field lies in the plane of the surface (θ = 90°). The flux through a whole surface is the sum Φ = ∑ <b>E</b> · Δ<b>S</b>, which becomes a surface integral in the limit. Flux is a scalar. Its SI unit is N m<sup>2</sup> C<sup>−1</sup> (equivalently V m) and its dimensional formula is [M L<sup>3</sup> T<sup>−3</sup> A<sup>−1</sup>].</p><p>For a closed surface the convention is that the outward normal is positive: flux leaving the surface is positive and flux entering is negative. A uniform field through a closed surface such as a cube gives zero net flux, because whatever enters one face leaves through the opposite one (NCERT exercise 1.15). A uniform field <b>E</b> = 5 × 10<sup>3</sup> î N C<sup>−1</sup> through a square of side 10 cm parallel to the yz plane gives Φ = EA = 5 × 10<sup>3</sup> × 0.01 = 50 N m<sup>2</sup> C<sup>−1</sup>; if the plane is turned to make 30° with the x-axis, the normal makes 60° with the field and Φ = 50 cos 60° = 25 N m<sup>2</sup> C<sup>−1</sup> (CBSE 2014).</p><p>Two traps. The angle in the formula is between the field and the normal, not between the field and the plane. And for a non-uniform field, such as <b>E</b> = 50x î through a cylinder along the x-axis (CBSE 2013), evaluate the flux face by face: the two flat faces sit at different x and so have different E, the curved surface has zero flux because <b>E</b> is parallel to it, and the net flux is the difference between the two ends.</p>",
+      "formulas": [
+        {
+          "expr": "ΔΦ = <b>E</b> · Δ<b>S</b> = E ΔS cos θ; Φ = ∑ <b>E</b> · Δ<b>S</b>",
+          "where": [
+            [
+              "θ",
+              "angle between <b>E</b> and the outward normal to the surface"
+            ],
+            [
+              "Φ",
+              "electric flux, N m<sup>2</sup> C<sup>−1</sup> or V m"
+            ]
+          ]
+        },
+        {
+          "expr": "Φ = 0 for any closed surface in a uniform field",
+          "where": [
+            [
+              "closed surface",
+              "one with no boundary, such as a cube or a sphere"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a question says the plane of the surface makes angle α with the field, use θ = 90° − α in E S cos θ. Write the angle you are using and why."
+    },
+    {
+      "heading": "1.10 Electric Dipole",
+      "pyq_years": [
+        2017,
+        2015,
+        2013,
+        2011
+      ],
+      "body": "<p>An electric dipole is a pair of equal and opposite point charges, +q and −q, separated by a distance 2a. Its dipole moment is <b>p</b> = q × 2<b>a</b>, a vector of magnitude 2qa directed along the axis from −q to +q. The SI unit is C m. The total charge of a dipole is zero, but its field is not, because the two charges are at slightly different distances from any field point. The field is proportional to p and falls off as 1/r<sup>3</sup> at large distances, faster than the 1/r<sup>2</sup> field of a point charge.</p><p><b>Axial line</b> (the line through both charges). Let P be at distance r from the centre O, on the side of +q. The field due to +q is q/[4πε<sub>0</sub>(r − a)<sup>2</sup>] along <b>p</b>; the field due to −q is q/[4πε<sub>0</sub>(r + a)<sup>2</sup>] opposite to <b>p</b>. P is nearer to +q, so the net field is along <b>p</b>: E = (q/4πε<sub>0</sub>)[1/(r − a)<sup>2</sup> − 1/(r + a)<sup>2</sup>] = (q/4πε<sub>0</sub>) · 4ar/(r<sup>2</sup> − a<sup>2</sup>)<sup>2</sup> = 2pr/[4πε<sub>0</sub>(r<sup>2</sup> − a<sup>2</sup>)<sup>2</sup>]. For r ≫ a, <b>E</b><sub>axial</sub> = 2<b>p</b>/(4πε<sub>0</sub>r<sup>3</sup>).</p><p><b>Equatorial line</b> (the perpendicular bisector of the axis). P is now at distance √(r<sup>2</sup> + a<sup>2</sup>) from each charge, so the two fields have equal magnitudes q/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)]. Their components perpendicular to the axis cancel; the components along the axis add, each being E<sub>+q</sub> cos θ with cos θ = a/√(r<sup>2</sup> + a<sup>2</sup>). The net field is E = 2qa/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)<sup>3/2</sup>] = p/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)<sup>3/2</sup>], directed opposite to <b>p</b>. For r ≫ a, <b>E</b><sub>equatorial</sub> = −<b>p</b>/(4πε<sub>0</sub>r<sup>3</sup>). At the same distance the axial field is twice the equatorial field, and the two point in opposite senses relative to <b>p</b>.</p><p><b>Physical significance.</b> In molecules such as CO<sub>2</sub> and CH<sub>4</sub> the centres of positive and negative charge coincide, so the permanent dipole moment is zero; in polar molecules such as H<sub>2</sub>O, NH<sub>3</sub> and HCl they do not coincide, and the molecule has a permanent dipole moment. A non-polar molecule develops an induced dipole moment when placed in an external field.</p>",
+      "formulas": [
+        {
+          "expr": "<b>p</b> = q × 2<b>a</b>, directed from −q to +q",
+          "where": [
+            [
+              "p",
+              "dipole moment, C m"
+            ],
+            [
+              "2a",
+              "separation of the charges"
+            ]
+          ]
+        },
+        {
+          "expr": "<b>E</b><sub>axial</sub> = 2<b>p</b>r/[4πε<sub>0</sub>(r<sup>2</sup> − a<sup>2</sup>)<sup>2</sup>] ≈ 2<b>p</b>/(4πε<sub>0</sub>r<sup>3</sup>) for r ≫ a",
+          "where": [
+            [
+              "r",
+              "distance of the point from the centre of the dipole"
+            ]
+          ]
+        },
+        {
+          "expr": "<b>E</b><sub>equatorial</sub> = −<b>p</b>/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)<sup>3/2</sup>] ≈ −<b>p</b>/(4πε<sub>0</sub>r<sup>3</sup>) for r ≫ a",
+          "where": [
+            [
+              "minus sign",
+              "field is antiparallel to <b>p</b>"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write the direction with the magnitude: axial field along <b>p</b>, equatorial field opposite to <b>p</b>. The ratio E<sub>axial</sub> : E<sub>equatorial</sub> = 2 : 1 at the same large distance is a favourite 1-mark question."
+    },
+    {
+      "heading": "1.11 Dipole in a Uniform External Field",
+      "pyq_years": [
+        2020,
+        2017,
+        2010,
+        2008
+      ],
+      "body": "<p>Place a dipole in a uniform field <b>E</b> with <b>p</b> at angle θ to <b>E</b>. The charge +q feels q<b>E</b> and −q feels −q<b>E</b>. The two forces are equal and opposite, so the net force is zero and the dipole does not translate. But they do not act along the same line, so they form a couple and produce a torque. Magnitude of torque = either force × perpendicular distance between their lines of action = qE × 2a sin θ = pE sin θ. In vector form <b>τ</b> = <b>p</b> × <b>E</b>, perpendicular to the plane of <b>p</b> and <b>E</b>; the torque tends to rotate the dipole so as to align <b>p</b> with <b>E</b>. This derivation was asked for 2 marks in CBSE 2020 and 2017.</p><p>The torque is zero at θ = 0 and θ = 180° and maximum (pE) at θ = 90°. At θ = 0, with <b>p</b> parallel to <b>E</b>, the dipole is in stable equilibrium: a small rotation produces a torque that brings it back. At θ = 180°, with <b>p</b> antiparallel to <b>E</b>, it is in unstable equilibrium: a small rotation produces a torque that turns it further away (CBSE 2008, 2010). NCERT exercise 1.10: a dipole of moment 4 × 10<sup>−9</sup> C m at 30° to a field of 5 × 10<sup>4</sup> N C<sup>−1</sup> feels τ = 4 × 10<sup>−9</sup> × 5 × 10<sup>4</sup> × sin 30° = 1 × 10<sup>−4</sup> N m.</p><p>If the field is not uniform, the forces on the two charges differ in magnitude and the net force is no longer zero. When <b>p</b> is parallel to <b>E</b> the dipole is pulled in the direction of increasing field, and when antiparallel it is pushed towards decreasing field; in these two cases there is a net force but no torque. This is why a charged comb picks up bits of paper: the non-uniform field of the comb induces a dipole in the paper with its moment along the field, and the net force is towards the comb.</p>",
+      "formulas": [
+        {
+          "expr": "<b>τ</b> = <b>p</b> × <b>E</b>, τ = pE sin θ",
+          "where": [
+            [
+              "θ",
+              "angle between <b>p</b> and <b>E</b>"
+            ],
+            [
+              "τ",
+              "torque, N m"
+            ]
+          ]
+        },
+        {
+          "expr": "Net force on a dipole in a uniform field = 0",
+          "where": [
+            [
+              "uniform field",
+              "same <b>E</b> at both charges"
+            ]
+          ]
+        }
+      ],
+      "tip": "Torque uses sin θ, not cos θ. State both equilibrium orientations with the word stable or unstable attached, since examiners award the mark for the pairing, not for the angles alone."
+    },
+    {
+      "heading": "1.12 Continuous Charge Distribution",
+      "pyq_years": [],
+      "body": "<p>For a charged wire, sheet or solid we do not count electrons; we treat the charge as spread continuously and describe it by a density. Linear charge density λ = ΔQ/Δl (C m<sup>−1</sup>) for a wire, surface charge density σ = ΔQ/ΔS (C m<sup>−2</sup>) for a sheet or the surface of a conductor, and volume charge density ρ = ΔQ/ΔV (C m<sup>−3</sup>) for charge filling a volume. Here ΔQ is the charge in a small length, area or volume element that is small on the laboratory scale but still contains a very large number of elementary charges, so the density is a smooth function of position. This is exactly the macroscopic limit in which quantisation can be ignored.</p><p>The field of a continuous distribution follows from Coulomb's law and superposition. Divide the body into small elements, treat the charge ρΔV of each as a point charge, and add the fields vectorially: <b>E</b>(<b>r</b>) = (1/4πε<sub>0</sub>) ∑ (ρΔV/r'<sup>2</sup>) r̂', the sum running over all elements, with r' the distance from the element to the field point. In the limit the sum becomes an integral. For most shapes this integral is hard; for the symmetric ones we use Gauss's law instead, which is the point of the last two sections.</p><p>A uniformly charged conducting sphere of diameter 2.4 m with σ = 80 μC m<sup>−2</sup> carries Q = σ × 4πR<sup>2</sup> = 80 × 10<sup>−6</sup> × 4π × (1.2)<sup>2</sup> = 1.45 × 10<sup>−3</sup> C (NCERT exercise 1.21). A wire with λ = 0.1 μC m<sup>−1</sup> carries 0.1 μC on every metre of its length. Keep the three quantities apart: a question that gives σ for a sheet and λ for a wire is testing exactly whether you know which formula each one enters.</p>",
+      "formulas": [
+        {
+          "expr": "λ = ΔQ/Δl, σ = ΔQ/ΔS, ρ = ΔQ/ΔV",
+          "where": [
+            [
+              "λ",
+              "linear charge density, C m<sup>−1</sup>"
+            ],
+            [
+              "σ",
+              "surface charge density, C m<sup>−2</sup>"
+            ],
+            [
+              "ρ",
+              "volume charge density, C m<sup>−3</sup>"
+            ]
+          ]
+        },
+        {
+          "expr": "<b>E</b>(<b>r</b>) = (1/4πε<sub>0</sub>) ∑ (ρΔV/r'<sup>2</sup>) r̂'",
+          "where": [
+            [
+              "r'",
+              "distance from the charge element to the field point"
+            ]
+          ]
+        }
+      ],
+      "tip": "Total charge on a uniformly charged body is density × size: Q = λL, Q = σA, Q = ρV. For a sphere's surface use A = 4πR<sup>2</sup> with the radius, not the diameter."
+    },
+    {
+      "heading": "1.13 Gauss's Law",
+      "pyq_years": [
+        2018,
+        2015,
+        2013,
+        2012,
+        2011
+      ],
+      "body": "<p>Gauss's law: the electric flux through any closed surface S is 1/ε<sub>0</sub> times the total charge enclosed by S. Φ = ∮ <b>E</b> · d<b>S</b> = q<sub>enclosed</sub>/ε<sub>0</sub>. The circle on the integral sign means the surface is closed, and the closed surface chosen for applying the law is called a Gaussian surface.</p><p><b>Verification for a point charge.</b> Take a sphere of radius r centred on a charge q. At every point of the sphere <b>E</b> is radial with magnitude q/(4πε<sub>0</sub>r<sup>2</sup>), parallel to the outward normal, so the flux through an element ΔS is E ΔS. Adding over the whole sphere, Φ = E × 4πr<sup>2</sup> = [q/(4πε<sub>0</sub>r<sup>2</sup>)] × 4πr<sup>2</sup> = q/ε<sub>0</sub>. The r<sup>2</sup> cancels: the flux is the same through a sphere of any radius and, because field lines are continuous in empty space, the same through any closed surface enclosing q. This cancellation is a consequence of the inverse-square law; Gauss's law is Coulomb's law in another form. Doubling the radius of a Gaussian sphere leaves the flux unchanged (NCERT exercise 1.19; CBSE 2009, 2016).</p><p>Points the examiner looks for. (i) The law holds for any closed surface, whatever its shape or size. (ii) The charge on the right side is the total charge enclosed, with sign; charges outside contribute nothing to the net flux, because every line they send in also comes out. Charges −2Q at (a, 0) and +Q at (4a, 0) give a flux of −2Q/ε<sub>0</sub> through a sphere of radius 3a about the origin, since only −2Q is inside (CBSE 2013). (iii) The <b>E</b> on the left side is the total field due to all charges, inside and outside, even though only the enclosed charge fixes the flux. (iv) Zero flux means zero net enclosed charge; it does not mean zero field and it does not mean no charges. A dipole inside a cube gives zero flux (CBSE 2015). (v) The law is useful for calculating <b>E</b> only when symmetry lets you choose a surface on which E is constant and either normal or parallel to the surface. A charge at the centre of a cube sends q/(6ε<sub>0</sub>) through each face by symmetry (CBSE 2012); a charge at a corner sends q/(8ε<sub>0</sub>) through the cube, since the cube covers one-eighth of the space around it.</p>",
+      "formulas": [
+        {
+          "expr": "Φ = ∮ <b>E</b> · d<b>S</b> = q<sub>enclosed</sub>/ε<sub>0</sub>",
+          "where": [
+            [
+              "q<sub>enclosed</sub>",
+              "algebraic sum of the charges inside the closed surface"
+            ],
+            [
+              "∮",
+              "integral over the whole closed surface"
+            ]
+          ]
+        },
+        {
+          "expr": "Flux through each face of a cube with q at its centre = q/(6ε<sub>0</sub>)",
+          "where": [
+            [
+              "6",
+              "the six identical faces share the total flux q/ε<sub>0</sub> equally"
+            ]
+          ]
+        }
+      ],
+      "tip": "Before writing any flux, list which charges are inside the surface. Everything outside is irrelevant to the flux, however close it is to the surface."
+    },
+    {
+      "heading": "1.14 Applications of Gauss's Law",
+      "pyq_years": [
+        2018,
+        2012,
+        2011,
+        2008
+      ],
+      "body": "<p>Three derivations, each a regular 5-mark question, follow one recipe: use symmetry to say what <b>E</b> looks like, choose a Gaussian surface that matches it, evaluate the flux, set it equal to the enclosed charge over ε<sub>0</sub>, and solve for E.</p><p><b>Infinitely long straight wire, linear charge density λ.</b> By symmetry the field is radial, perpendicular to the wire, with the same magnitude at all points at distance r. Take a coaxial cylinder of radius r and length l as the Gaussian surface. On the curved surface <b>E</b> is along the outward normal, so its flux is E × 2πrl; on the two flat ends <b>E</b> is perpendicular to the normal, so the flux is zero. The enclosed charge is λl. Gauss's law gives E × 2πrl = λl/ε<sub>0</sub>, so E = λ/(2πε<sub>0</sub>r), radially outward for positive λ and inward for negative λ. The graph of E against r is a rectangular hyperbola (CBSE 2018).</p><p><b>Infinite plane sheet, surface charge density σ.</b> By symmetry the field is perpendicular to the sheet, pointing away from it on both sides for positive σ, with the same magnitude at equal distances. Take a cylinder (pillbox) of cross-section A whose axis is normal to the sheet and which the sheet cuts in half. The flux through the curved surface is zero; through each flat end it is EA, so the total flux is 2EA. The enclosed charge is σA. So 2EA = σA/ε<sub>0</sub> and E = σ/(2ε<sub>0</sub>), independent of the distance from the sheet, directed away from the sheet for σ > 0 and towards it for σ < 0 (CBSE 2012). For two parallel sheets carrying +σ and −σ the fields add between the sheets to σ/ε<sub>0</sub> and cancel outside (NCERT exercise 1.23).</p><p><b>Uniformly charged thin spherical shell, radius R, charge q, so σ = q/(4πR<sup>2</sup>).</b> Outside (r > R): take a concentric Gaussian sphere of radius r; <b>E</b> is radial and constant on it, the flux is E × 4πr<sup>2</sup> and the enclosed charge is q, so E = q/(4πε<sub>0</sub>r<sup>2</sup>) = σR<sup>2</sup>/(ε<sub>0</sub>r<sup>2</sup>). The shell behaves as if all its charge were at the centre. Inside (r < R): the concentric Gaussian sphere encloses no charge, so E × 4πr<sup>2</sup> = 0 and E = 0 everywhere inside. On the surface E = σ/ε<sub>0</sub>. The E–r graph is zero up to R, jumps to its maximum q/(4πε<sub>0</sub>R<sup>2</sup>) at R and then falls as 1/r<sup>2</sup> (CBSE 2008).</p>",
+      "formulas": [
+        {
+          "expr": "E<sub>wire</sub> = λ/(2πε<sub>0</sub>r), radial",
+          "where": [
+            [
+              "λ",
+              "linear charge density of the wire"
+            ],
+            [
+              "r",
+              "perpendicular distance from the wire"
+            ]
+          ]
+        },
+        {
+          "expr": "E<sub>sheet</sub> = σ/(2ε<sub>0</sub>), normal to the sheet, independent of distance",
+          "where": [
+            [
+              "σ",
+              "surface charge density of the sheet"
+            ]
+          ]
+        },
+        {
+          "expr": "E<sub>shell</sub> = q/(4πε<sub>0</sub>r<sup>2</sup>) for r ≥ R; E<sub>shell</sub> = 0 for r < R",
+          "where": [
+            [
+              "q",
+              "total charge on the shell, q = 4πR<sup>2</sup>σ"
+            ],
+            [
+              "R",
+              "radius of the shell"
+            ]
+          ]
+        }
+      ],
+      "tip": "In every derivation write three explicit lines: the symmetry statement, which parts of the Gaussian surface have zero flux and why, and the enclosed charge. Each is a separate marking point, and the graph is a fourth."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Electric charge",
+      "definition": "The property of matter by which it experiences and exerts electric forces. It comes in two kinds, positive and negative, is a scalar and is measured in coulombs (C)."
+    },
+    {
+      "term": "Conductor",
+      "definition": "A material containing charges that are free to move through it, such as a metal. Charge given to a conductor spreads over its entire outer surface."
+    },
+    {
+      "term": "Insulator",
+      "definition": "A material in which charges cannot move freely, such as glass or plastic. Charge given to an insulator stays where it is placed."
+    },
+    {
+      "term": "Additivity of charge",
+      "definition": "The total charge of a system is the algebraic sum of the charges of its parts, taken with their signs."
+    },
+    {
+      "term": "Conservation of charge",
+      "definition": "The total charge of an isolated system never changes; charge can be transferred between bodies but is neither created nor destroyed."
+    },
+    {
+      "term": "Quantisation of charge",
+      "definition": "The charge on any body is an integral multiple of the elementary charge e = 1.6 × 10<sup>−19</sup> C, so q = ne with n an integer."
+    },
+    {
+      "term": "Coulomb's law",
+      "definition": "The force between two point charges at rest is proportional to the product of the charges and inversely proportional to the square of the distance between them, acting along the line joining them."
+    },
+    {
+      "term": "Permittivity of free space (ε<sub>0</sub>)",
+      "definition": "The constant in Coulomb's law for vacuum, ε<sub>0</sub> = 8.854 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup>, with 1/4πε<sub>0</sub> = 9 × 10<sup>9</sup> N m<sup>2</sup> C<sup>−2</sup>."
+    },
+    {
+      "term": "Dielectric constant (K)",
+      "definition": "The ratio of the force between two charges in vacuum to the force between them at the same separation in a medium; K = ε/ε<sub>0</sub>, and K = 80 for water."
+    },
+    {
+      "term": "Principle of superposition",
+      "definition": "The force (or field) due to several charges is the vector sum of the forces (or fields) due to each charge taken separately, each unaffected by the presence of the others."
+    },
+    {
+      "term": "Electric field",
+      "definition": "The force per unit positive test charge at a point, <b>E</b> = <b>F</b>/q<sub>0</sub> in the limit q<sub>0</sub> → 0. It is a vector with SI unit N C<sup>−1</sup>."
+    },
+    {
+      "term": "Electric field lines",
+      "definition": "Curves whose tangent at each point gives the direction of the field there, drawn so that their density is proportional to the magnitude of the field."
+    },
+    {
+      "term": "Electric flux",
+      "definition": "A measure of the number of field lines crossing a surface: Φ = ∑ <b>E</b> · Δ<b>S</b>, a scalar with SI unit N m<sup>2</sup> C<sup>−1</sup>."
+    },
+    {
+      "term": "Electric dipole",
+      "definition": "A pair of equal and opposite charges +q and −q separated by a distance 2a. Its dipole moment <b>p</b> = q × 2<b>a</b> points from −q to +q and has unit C m."
+    },
+    {
+      "term": "Torque on a dipole",
+      "definition": "The turning effect <b>τ</b> = <b>p</b> × <b>E</b>, of magnitude pE sin θ, that a uniform field exerts on a dipole; it tends to align <b>p</b> with <b>E</b>."
+    },
+    {
+      "term": "Charge densities (λ, σ, ρ)",
+      "definition": "Charge per unit length (C m<sup>−1</sup>), per unit area (C m<sup>−2</sup>) and per unit volume (C m<sup>−3</sup>) of a continuous charge distribution."
+    },
+    {
+      "term": "Gaussian surface",
+      "definition": "An imaginary closed surface chosen to apply Gauss's law, usually shaped to match the symmetry of the charge distribution so that E is constant over it."
+    },
+    {
+      "term": "Gauss's law",
+      "definition": "The total electric flux through any closed surface equals 1/ε<sub>0</sub> times the net charge enclosed by the surface."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Quantisation of charge",
+      "expr": "q = ne, e = 1.6 × 10<sup>−19</sup> C",
+      "note": "n is an integer; 1 C = 6.25 × 10<sup>18</sup> electrons"
+    },
+    {
+      "name": "Coulomb's law (magnitude)",
+      "expr": "F = (1/4πε<sub>0</sub>) · |q<sub>1</sub>||q<sub>2</sub>|/r<sup>2</sup>",
+      "note": "point charges at rest in vacuum; 1/4πε<sub>0</sub> = 9 × 10<sup>9</sup> N m<sup>2</sup> C<sup>−2</sup>"
+    },
+    {
+      "name": "Coulomb's law (vector form)",
+      "expr": "<b>F</b><sub>21</sub> = (1/4πε<sub>0</sub>) · (q<sub>1</sub>q<sub>2</sub>/r<sub>21</sub><sup>2</sup>) r̂<sub>21</sub> = −<b>F</b><sub>12</sub>",
+      "note": "r̂<sub>21</sub> points from q<sub>1</sub> to q<sub>2</sub>; sign of q<sub>1</sub>q<sub>2</sub> gives attraction or repulsion"
+    },
+    {
+      "name": "Force in a medium",
+      "expr": "F<sub>medium</sub> = F<sub>vacuum</sub>/K",
+      "note": "K is the dielectric constant; the force always decreases"
+    },
+    {
+      "name": "Field of a point charge",
+      "expr": "E = (1/4πε<sub>0</sub>) · Q/r<sup>2</sup>",
+      "note": "radially outward for +Q, inward for −Q; unit N C<sup>−1</sup>"
+    },
+    {
+      "name": "Force on a charge in a field",
+      "expr": "<b>F</b> = q<b>E</b>",
+      "note": "along <b>E</b> for positive q, opposite for negative q"
+    },
+    {
+      "name": "Electric flux",
+      "expr": "Φ = E S cos θ = <b>E</b> · <b>S</b>",
+      "note": "θ measured from the normal; unit N m<sup>2</sup> C<sup>−1</sup>; zero through any closed surface in a uniform field"
+    },
+    {
+      "name": "Dipole moment",
+      "expr": "p = q × 2a",
+      "note": "direction from −q to +q; unit C m"
+    },
+    {
+      "name": "Dipole field, axial point",
+      "expr": "E = 2pr/[4πε<sub>0</sub>(r<sup>2</sup> − a<sup>2</sup>)<sup>2</sup>] ≈ 2p/(4πε<sub>0</sub>r<sup>3</sup>)",
+      "note": "along <b>p</b>; the approximation needs r ≫ a"
+    },
+    {
+      "name": "Dipole field, equatorial point",
+      "expr": "E = p/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)<sup>3/2</sup>] ≈ p/(4πε<sub>0</sub>r<sup>3</sup>)",
+      "note": "opposite to <b>p</b>; half the axial field at the same large distance"
+    },
+    {
+      "name": "Torque on a dipole",
+      "expr": "<b>τ</b> = <b>p</b> × <b>E</b>, τ = pE sin θ",
+      "note": "zero at θ = 0 (stable) and 180° (unstable), maximum at 90°; net force zero in a uniform field"
+    },
+    {
+      "name": "Gauss's law",
+      "expr": "∮ <b>E</b> · d<b>S</b> = q<sub>enclosed</sub>/ε<sub>0</sub>",
+      "note": "any closed surface; only enclosed charge counts; in a medium replace ε<sub>0</sub> by Kε<sub>0</sub>"
+    },
+    {
+      "name": "Infinite line charge",
+      "expr": "E = λ/(2πε<sub>0</sub>r)",
+      "note": "radial; E ∝ 1/r"
+    },
+    {
+      "name": "Infinite plane sheet",
+      "expr": "E = σ/(2ε<sub>0</sub>)",
+      "note": "normal to the sheet; independent of distance; between sheets +σ and −σ, E = σ/ε<sub>0</sub>"
+    },
+    {
+      "name": "Thin spherical shell",
+      "expr": "E = q/(4πε<sub>0</sub>r<sup>2</sup>) for r ≥ R; E = 0 for r < R",
+      "note": "acts like a point charge at the centre when outside; on the surface E = σ/ε<sub>0</sub>"
+    },
+    {
+      "name": "Charge from density",
+      "expr": "Q = λL = σA = ρV",
+      "note": "λ in C m<sup>−1</sup>, σ in C m<sup>−2</sup>, ρ in C m<sup>−3</sup>; sphere surface A = 4πR<sup>2</sup>"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Field lines of a single positive and a single negative charge",
+      "how_to_draw": "Draw a small circle marked +q with eight to twelve straight lines radiating outward, arrows pointing away from the charge and equally spaced. Beside it draw −q with the same lines, arrows pointing inward. Label the charges and add a one-line caption: lines start on positive charge, end on negative charge, density shows field strength."
+    },
+    {
+      "title": "Field lines of an electric dipole and of two equal positive charges",
+      "how_to_draw": "For the dipole, place +q on the left and −q on the right; draw lines leaving +q, curving in smooth arcs above and below the axis and entering −q, with the straight axial line between them and arrows from +q to −q. Make the lines densest between the charges. For two equal positive charges draw lines leaving both charges that bend away from each other, leaving an empty neutral point midway on the line joining them; label it N (E = 0). Never let lines cross."
+    },
+    {
+      "title": "Electric dipole in a uniform electric field",
+      "how_to_draw": "Draw parallel horizontal field lines labelled <b>E</b>. Place a dipole as a short rod at angle θ to the lines, −q at one end and +q at the other, with <b>p</b> marked from −q to +q. Draw the force q<b>E</b> on +q along the field and −q<b>E</b> on −q opposite to it, and mark the perpendicular distance 2a sin θ between the two lines of action. Write τ = pE sin θ and show the sense of rotation with a curved arrow."
+    },
+    {
+      "title": "Field at an axial and an equatorial point of a dipole",
+      "how_to_draw": "Draw the axis with −q at A, +q at B, centre O and AB = 2a. For the axial case mark P on the axis beyond B at distance r from O, and draw <b>E</b><sub>+q</sub> away from B (longer arrow) and <b>E</b><sub>−q</sub> towards A (shorter arrow) along the axis. For the equatorial case mark P on the perpendicular bisector at distance r from O, draw AP = BP = √(r<sup>2</sup> + a<sup>2</sup>), then <b>E</b><sub>+q</sub> along BP produced and <b>E</b><sub>−q</sub> along PA, both making angle θ with the axis, and show the resultant along the axis opposite to <b>p</b>."
+    },
+    {
+      "title": "Gaussian surfaces for the infinite wire, the plane sheet and the spherical shell",
+      "how_to_draw": "Wire: a vertical line with + signs, enclosed by a coaxial cylinder of radius r and length l; draw <b>E</b> arrows radially outward through the curved surface and the area vectors on the flat ends perpendicular to <b>E</b>. Sheet: a vertical plane with + signs, cut through the middle by a horizontal cylinder of cross-section A; draw <b>E</b> arrows leaving both flat ends. Shell: a circle of radius R with + signs, and two dashed concentric circles, one of radius r > R and one of radius r < R, with radial <b>E</b> arrows on the outer one only. Label r, l, A, R and the enclosed charge (λl, σA, q, 0) on each."
+    },
+    {
+      "title": "E versus r graphs for a charged spherical shell and a line charge",
+      "how_to_draw": "For the shell, axes E (vertical) and r (horizontal): E = 0 from r = 0 to r = R, a vertical jump at r = R to E<sub>max</sub> = q/(4πε<sub>0</sub>R<sup>2</sup>), then a curve falling as 1/r<sup>2</sup>. Label R and E<sub>max</sub>. For the line charge draw a rectangular hyperbola E ∝ 1/r, approaching both axes but never touching them, and write E = λ/(2πε<sub>0</sub>r) beside it."
+    },
+    {
+      "title": "Point charge near an uncharged conducting plate",
+      "how_to_draw": "Draw a vertical plate and a point charge +q (or −q) a little distance from it. Draw lines leaving +q (or entering −q) that curve towards the plate and meet its surface at right angles, spreading out over the face nearest the charge. Show induced charges of the opposite sign on that face. Every line must be perpendicular to the plate where it meets it."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1.1",
+      "q": "What is the force between two small charged spheres having charges of 2 × 10<sup>−7</sup> C and 3 × 10<sup>−7</sup> C placed 30 cm apart in air?",
+      "a": "<p>F = (1/4πε<sub>0</sub>) · q<sub>1</sub>q<sub>2</sub>/r<sup>2</sup> = 9 × 10<sup>9</sup> × (2 × 10<sup>−7</sup>)(3 × 10<sup>−7</sup>)/(0.30)<sup>2</sup> = 9 × 10<sup>9</sup> × 6 × 10<sup>−14</sup>/0.09 = 5.4 × 10<sup>−4</sup>/0.09 = 6 × 10<sup>−3</sup> N.</p><p>Both charges are positive, so the force is repulsive, along the line joining the spheres.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.2",
+      "q": "The electrostatic force on a small sphere of charge 0.4 μC due to another small sphere of charge −0.8 μC in air is 0.2 N. (a) What is the distance between the two spheres? (b) What is the force on the second sphere due to the first?",
+      "a": "<p>(a) r<sup>2</sup> = (1/4πε<sub>0</sub>) · |q<sub>1</sub>q<sub>2</sub>|/F = 9 × 10<sup>9</sup> × (0.4 × 10<sup>−6</sup>)(0.8 × 10<sup>−6</sup>)/0.2 = 9 × 10<sup>9</sup> × 3.2 × 10<sup>−13</sup>/0.2 = 2.88 × 10<sup>−3</sup>/0.2 = 1.44 × 10<sup>−2</sup> m<sup>2</sup>, so r = 0.12 m = 12 cm.</p><p>(b) By Newton's third law the force on the second sphere due to the first is also 0.2 N, and since the charges are unlike it is attractive, directed towards the first sphere.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "1.4",
+      "q": "(a) Explain the meaning of the statement 'electric charge of a body is quantised'. (b) Why can one ignore quantisation of electric charge when dealing with macroscopic, i.e. large-scale, charges?",
+      "a": "<p>(a) The charge on any body is always an integral multiple of the elementary charge e = 1.6 × 10<sup>−19</sup> C, that is, q = ne with n = 0, ±1, ±2, ...; a body cannot have a fraction of e.</p><p>(b) On the macroscopic scale the charges involved are enormous multiples of e (1 μC is about 6 × 10<sup>12</sup> electrons), and e itself is tiny, so the graininess is undetectable and charge behaves as a continuous quantity, just as a large number of grains of sand behaves as a continuous heap.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.5",
+      "q": "When a glass rod is rubbed with a silk cloth, charges appear on both. A similar phenomenon is observed with many other pairs of bodies. Explain how this observation is consistent with the law of conservation of charge.",
+      "a": "<p>Rubbing transfers electrons from the glass to the silk. The glass loses electrons and becomes positive; the silk gains exactly those electrons and becomes negative by an equal amount. The charges appear in equal and opposite pairs, so the total charge of the system (rod plus cloth) is zero before and after rubbing. Charge is only transferred, not created, which is what conservation of charge states.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.6",
+      "q": "Four point charges q<sub>A</sub> = 2 μC, q<sub>B</sub> = −5 μC, q<sub>C</sub> = 2 μC and q<sub>D</sub> = −5 μC are located at the corners of a square ABCD of side 10 cm. What is the force on a charge of 1 μC placed at the centre of the square?",
+      "a": "<p>The centre is equidistant from all four corners. Charges at opposite corners A and C are equal (2 μC each), so the forces they exert on the 1 μC charge are equal in magnitude and opposite in direction, and cancel. Likewise the equal charges −5 μC at B and D exert equal and opposite forces that cancel.</p><p>Net force on the charge at the centre = zero.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.7",
+      "q": "(a) An electrostatic field line is a continuous curve. That is, a field line cannot have sudden breaks. Why not? (b) Explain why two field lines never cross each other at any point.",
+      "a": "<p>(a) A field line is the path along which a free positive test charge would move under the field. The field is continuous in a charge-free region and the charge experiences a continuous force, so its path cannot break suddenly; a break would mean the field vanished abruptly at that point.</p><p>(b) The tangent to a field line gives the direction of <b>E</b>. If two lines crossed, the field at the crossing point would have two directions at once, which is impossible. Hence field lines never intersect.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.8",
+      "q": "Two point charges q<sub>A</sub> = 3 μC and q<sub>B</sub> = −3 μC are located 20 cm apart in vacuum. (a) What is the electric field at the midpoint O of the line AB joining the two charges? (b) If a negative test charge of magnitude 1.5 × 10<sup>−9</sup> C is placed at this point, what is the force experienced by the test charge?",
+      "a": "<p>(a) O is 0.10 m from each charge. Field due to q<sub>A</sub>: E<sub>A</sub> = 9 × 10<sup>9</sup> × 3 × 10<sup>−6</sup>/(0.10)<sup>2</sup> = 2.7 × 10<sup>6</sup> N C<sup>−1</sup>, directed from A towards B (away from the positive charge). Field due to q<sub>B</sub>: same magnitude 2.7 × 10<sup>6</sup> N C<sup>−1</sup>, directed towards B (towards the negative charge), that is, also from A to B. Total E = 5.4 × 10<sup>6</sup> N C<sup>−1</sup> along OB.</p><p>(b) F = qE = 1.5 × 10<sup>−9</sup> × 5.4 × 10<sup>6</sup> = 8.1 × 10<sup>−3</sup> N. The charge is negative, so the force is opposite to <b>E</b>, along OA, towards q<sub>A</sub>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "1.9",
+      "q": "A system has two charges q<sub>A</sub> = 2.5 × 10<sup>−7</sup> C and q<sub>B</sub> = −2.5 × 10<sup>−7</sup> C located at points A (0, 0, −15 cm) and B (0, 0, +15 cm) respectively. What are the total charge and electric dipole moment of the system?",
+      "a": "<p>Total charge = 2.5 × 10<sup>−7</sup> + (−2.5 × 10<sup>−7</sup>) = 0.</p><p>Separation 2a = 30 cm = 0.30 m. Dipole moment p = q × 2a = 2.5 × 10<sup>−7</sup> × 0.30 = 7.5 × 10<sup>−8</sup> C m, directed from the negative charge (B) to the positive charge (A), that is, along the negative z-axis.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.10",
+      "q": "An electric dipole with dipole moment 4 × 10<sup>−9</sup> C m is aligned at 30° with the direction of a uniform electric field of magnitude 5 × 10<sup>4</sup> N C<sup>−1</sup>. Calculate the magnitude of the torque acting on the dipole.",
+      "a": "<p>τ = pE sin θ = 4 × 10<sup>−9</sup> × 5 × 10<sup>4</sup> × sin 30° = 2 × 10<sup>−4</sup> × 0.5 = 1 × 10<sup>−4</sup> N m.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.11",
+      "q": "A polythene piece rubbed with wool is found to have a negative charge of 3 × 10<sup>−7</sup> C. (a) Estimate the number of electrons transferred (from which to which?). (b) Is there a transfer of mass from wool to polythene?",
+      "a": "<p>(a) n = q/e = 3 × 10<sup>−7</sup>/1.6 × 10<sup>−19</sup> = 1.875 × 10<sup>12</sup> ≈ 1.9 × 10<sup>12</sup> electrons, transferred from the wool to the polythene (polythene became negative, so it gained electrons).</p><p>(b) Yes. Mass transferred = n × m<sub>e</sub> = 1.875 × 10<sup>12</sup> × 9.1 × 10<sup>−31</sup> = 1.7 × 10<sup>−18</sup> kg, which is negligible.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.12",
+      "q": "(a) Two insulated charged copper spheres A and B have their centres separated by a distance of 50 cm. What is the mutual force of electrostatic repulsion if the charge on each is 6.5 × 10<sup>−7</sup> C? The radii of A and B are negligible compared to the distance of separation. (b) What is the force of repulsion if each sphere is charged double the above amount, and the distance between them is halved?",
+      "a": "<p>(a) F = 9 × 10<sup>9</sup> × (6.5 × 10<sup>−7</sup>)<sup>2</sup>/(0.50)<sup>2</sup> = 9 × 10<sup>9</sup> × 4.225 × 10<sup>−13</sup>/0.25 = 3.80 × 10<sup>−3</sup>/0.25 = 1.52 × 10<sup>−2</sup> N.</p><p>(b) Doubling each charge multiplies the force by 4; halving the distance multiplies it by 4 again. F' = 16 × 1.52 × 10<sup>−2</sup> = 0.24 N.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "1.14",
+      "q": "Consider a uniform electric field <b>E</b> = 3 × 10<sup>3</sup> î N C<sup>−1</sup>. (a) What is the flux of this field through a square of 10 cm on a side whose plane is parallel to the yz plane? (b) What is the flux through the same square if the normal to its plane makes a 60° angle with the x-axis?",
+      "a": "<p>Area A = (0.10)<sup>2</sup> = 0.01 m<sup>2</sup>.</p><p>(a) The plane is parallel to the yz plane, so its normal is along the x-axis, parallel to <b>E</b>: Φ = EA cos 0° = 3 × 10<sup>3</sup> × 0.01 = 30 N m<sup>2</sup> C<sup>−1</sup>.</p><p>(b) Φ = EA cos 60° = 30 × 0.5 = 15 N m<sup>2</sup> C<sup>−1</sup>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.17",
+      "q": "A point charge +10 μC is at a distance 5 cm directly above the centre of a square of side 10 cm. What is the magnitude of the electric flux through the square? (Hint: think of the square as one face of a cube with edge 10 cm.)",
+      "a": "<p>Imagine a cube of edge 10 cm with the square as one face; the charge, 5 cm above the centre of the square, sits at the centre of this cube. By Gauss's law the total flux through the cube is q/ε<sub>0</sub>, and by symmetry each of the six faces receives one-sixth of it.</p><p>Φ = q/(6ε<sub>0</sub>) = 10 × 10<sup>−6</sup>/(6 × 8.854 × 10<sup>−12</sup>) = 1.88 × 10<sup>5</sup> N m<sup>2</sup> C<sup>−1</sup>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.19",
+      "q": "A point charge causes an electric flux of −1.0 × 10<sup>3</sup> N m<sup>2</sup> C<sup>−1</sup> to pass through a spherical Gaussian surface of 10.0 cm radius centred on the charge. (a) If the radius of the Gaussian surface were doubled, how much flux would pass through the surface? (b) What is the value of the point charge?",
+      "a": "<p>(a) By Gauss's law the flux depends only on the enclosed charge, not on the radius. Doubling the radius leaves it unchanged: −1.0 × 10<sup>3</sup> N m<sup>2</sup> C<sup>−1</sup>.</p><p>(b) q = Φε<sub>0</sub> = −1.0 × 10<sup>3</sup> × 8.854 × 10<sup>−12</sup> = −8.85 × 10<sup>−9</sup> C = −8.85 nC. The negative flux tells us the charge is negative.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.20",
+      "q": "A conducting sphere of radius 10 cm has an unknown charge. If the electric field 20 cm from the centre of the sphere is 1.5 × 10<sup>3</sup> N C<sup>−1</sup> and points radially inward, what is the net charge on the sphere?",
+      "a": "<p>Outside a charged conducting sphere the field is that of a point charge at the centre: E = q/(4πε<sub>0</sub>r<sup>2</sup>).</p><p>|q| = E r<sup>2</sup> × 4πε<sub>0</sub> = 1.5 × 10<sup>3</sup> × (0.20)<sup>2</sup>/(9 × 10<sup>9</sup>) = 60/(9 × 10<sup>9</sup>) = 6.67 × 10<sup>−9</sup> C.</p><p>The field points inward, so the charge is negative: q = −6.67 × 10<sup>−9</sup> C = −6.67 nC.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.22",
+      "q": "An infinite line charge produces a field of 9 × 10<sup>4</sup> N C<sup>−1</sup> at a distance of 2 cm. Calculate the linear charge density.",
+      "a": "<p>E = λ/(2πε<sub>0</sub>r), so λ = 2πε<sub>0</sub>rE = rE/(2 × 9 × 10<sup>9</sup>) = 0.02 × 9 × 10<sup>4</sup>/(1.8 × 10<sup>10</sup>) = 1800/(1.8 × 10<sup>10</sup>) = 1.0 × 10<sup>−7</sup> C m<sup>−1</sup> = 0.1 μC m<sup>−1</sup>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.23",
+      "q": "Two large, thin metal plates are parallel and close to each other. On their inner faces, the plates have surface charge densities of opposite signs and of magnitude 17.0 × 10<sup>−22</sup> C m<sup>−2</sup>. What is <b>E</b> (a) in the outer region of the first plate, (b) in the outer region of the second plate, (c) between the plates?",
+      "a": "<p>Each plate produces a field σ/(2ε<sub>0</sub>) directed away from it if positive and towards it if negative.</p><p>(a) and (b) In the outer regions the fields of the two plates are equal and opposite, so E = 0.</p><p>(c) Between the plates the two fields point the same way (from the positive plate to the negative plate) and add: E = σ/(2ε<sub>0</sub>) + σ/(2ε<sub>0</sub>) = σ/ε<sub>0</sub> = 17.0 × 10<sup>−22</sup>/8.854 × 10<sup>−12</sup> = 1.92 × 10<sup>−10</sup> N C<sup>−1</sup>.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": "CBSE 2019",
+      "marks": 1,
+      "q": "Two identical conducting balls A and B have charges −Q and +3Q respectively. They are brought in contact with each other and then separated by a distance d. The Coulomb force between them is now",
+      "options": [
+        "attractive, of magnitude 3Q<sup>2</sup>/(4πε<sub>0</sub>d<sup>2</sup>)",
+        "repulsive, of magnitude Q<sup>2</sup>/(4πε<sub>0</sub>d<sup>2</sup>)",
+        "zero",
+        "attractive, of magnitude Q<sup>2</sup>/(4πε<sub>0</sub>d<sup>2</sup>)"
+      ],
+      "answer": "b",
+      "solution": "Identical conductors share the total charge −Q + 3Q = 2Q equally, so each carries +Q after contact. Like charges repel, with F = Q<sup>2</sup>/(4πε<sub>0</sub>d<sup>2</sup>)."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2012",
+      "marks": 1,
+      "q": "A charge q is placed at the centre of a cube of side l. The electric flux passing through each face of the cube is",
+      "options": [
+        "q/ε<sub>0</sub>",
+        "q/(6ε<sub>0</sub>)",
+        "q/(6ε<sub>0</sub>l<sup>2</sup>)",
+        "zero"
+      ],
+      "answer": "b",
+      "solution": "Gauss's law gives a total flux q/ε<sub>0</sub> through the cube, and by symmetry the six identical faces share it equally. The side l does not enter."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2013",
+      "marks": 1,
+      "q": "Two charges of magnitudes −2Q and +Q are located at points (a, 0) and (4a, 0) respectively. The electric flux due to these charges through a sphere of radius 3a with its centre at the origin is",
+      "options": [
+        "−Q/ε<sub>0</sub>",
+        "+Q/ε<sub>0</sub>",
+        "−2Q/ε<sub>0</sub>",
+        "zero"
+      ],
+      "answer": "c",
+      "solution": "Only −2Q (at distance a < 3a) lies inside the sphere; +Q at 4a is outside and contributes no net flux. Φ = q<sub>enclosed</sub>/ε<sub>0</sub> = −2Q/ε<sub>0</sub>."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2015",
+      "marks": 1,
+      "q": "The electric flux through a cube of side 1 cm which encloses an electric dipole is",
+      "options": [
+        "q/ε<sub>0</sub>",
+        "2q/ε<sub>0</sub>",
+        "q/(6ε<sub>0</sub>)",
+        "zero"
+      ],
+      "answer": "d",
+      "solution": "A dipole has total charge +q + (−q) = 0. Gauss's law gives Φ = 0 for any closed surface enclosing it, whatever its size."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2010",
+      "marks": 1,
+      "q": "An electric dipole placed in a uniform electric field is in stable equilibrium when the angle between <b>p</b> and <b>E</b> is",
+      "options": [
+        "0°",
+        "90°",
+        "180°",
+        "45°"
+      ],
+      "answer": "a",
+      "solution": "At θ = 0 the torque pE sin θ is zero and any small rotation produces a restoring torque; the potential energy −pE cos θ is minimum. At 180° the equilibrium is unstable."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Two point charges +4 μC and −2 μC placed a certain distance apart in air attract each other with a force F. They are brought in contact and then separated to the same distance. The force between them is now",
+      "options": [
+        "F/8, repulsive",
+        "F/4, repulsive",
+        "8F, attractive",
+        "F/8, attractive"
+      ],
+      "answer": "a",
+      "solution": "After contact each carries (4 − 2)/2 = +1 μC. The product of charges falls from 8 (μC)<sup>2</sup> to 1 (μC)<sup>2</sup>, so the force becomes F/8, and it is now repulsive because both charges are positive."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The electric field inside a uniformly charged thin spherical shell is zero at every point. Reason (R): A Gaussian sphere drawn inside the shell encloses no charge, and by symmetry the field on it is radial and uniform, so Gauss's law gives E = 0.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both statements are correct and R is exactly the Gauss's law argument that proves A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): An electric dipole placed in a uniform electric field experiences no net force. Reason (R): The equal and opposite forces on the two charges of the dipole always produce zero torque as well.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true: the forces q<b>E</b> and −q<b>E</b> cancel. R is false: the forces act along different lines and produce a torque pE sin θ, which is zero only when θ = 0 or 180°."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A body can carry a charge of 2.4 × 10<sup>−19</sup> C. Reason (R): The charge on any body is an integral multiple of the electronic charge e = 1.6 × 10<sup>−19</sup> C.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "2.4 × 10<sup>−19</sup> C is 1.5 e, not an integral multiple of e, so A is false. R is the correct statement of quantisation of charge."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2009",
+      "marks": 2,
+      "q": "Define electric flux. Write its SI unit. A charge q is enclosed by a spherical surface of radius R. If the radius is reduced to half, how would the electric flux through the surface change?",
+      "answer": "<p>Electric flux through a surface is the total number of electric field lines passing normally through it; for a surface element, ΔΦ = <b>E</b> · Δ<b>S</b> = E ΔS cos θ, and Φ = ∑ <b>E</b> · Δ<b>S</b> over the surface. SI unit: N m<sup>2</sup> C<sup>−1</sup> (or V m).</p><p>By Gauss's law Φ = q/ε<sub>0</sub>, which depends only on the enclosed charge. Halving the radius does not change the enclosed charge, so the flux remains q/ε<sub>0</sub>, unchanged.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2014",
+      "marks": 2,
+      "q": "Why do the electrostatic field lines not form closed loops?",
+      "answer": "<p>Electrostatic field lines start from positive charges and end on negative charges (or at infinity), so a line has a beginning and an end and cannot close on itself.</p><p>Equivalently, the electrostatic field is conservative: the work done by it on a charge moved round any closed path is zero. If a field line formed a closed loop, a charge taken once round that loop along the field would have positive work done on it, which contradicts the conservative nature of the field.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2017",
+      "marks": 2,
+      "q": "Does the charge given to a metallic sphere depend on whether it is hollow or solid? Give reason for your answer.",
+      "answer": "<p>No. The charge given to a conductor resides entirely on its outer surface, because the electrostatic field inside a conductor is zero and any excess charge is pushed by mutual repulsion to the surface.</p><p>A hollow and a solid sphere of the same radius have the same outer surface, so they hold the same charge for the same potential; the interior of the solid sphere plays no part.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2010",
+      "marks": 2,
+      "q": "Three point charges +2q, −q and +3q are placed such that the charges +2q and −q lie inside a closed surface S while +3q lies outside it. What is the electric flux due to this configuration through the surface S?",
+      "answer": "<p>By Gauss's law, Φ = (net charge enclosed)/ε<sub>0</sub>. The enclosed charge is +2q + (−q) = +q, so Φ = q/ε<sub>0</sub>.</p><p>The charge +3q outside S contributes no net flux, because every field line from it that enters S also leaves S. It does contribute to the field <b>E</b> at points on S, but not to the total flux.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2011",
+      "marks": 2,
+      "q": "Define electric dipole moment. Write its SI unit. Is it a scalar or a vector quantity?",
+      "answer": "<p>The electric dipole moment of a dipole of charges +q and −q separated by 2a is the product of the magnitude of either charge and the separation: p = q × 2a. It is a vector, <b>p</b> = q × 2<b>a</b>, directed along the axis from the negative charge to the positive charge.</p><p>SI unit: coulomb metre (C m).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2020",
+      "marks": 2,
+      "q": "Derive the expression for the torque acting on an electric dipole when it is held in a uniform electric field. Identify the orientation of the dipole in the electric field in which it attains a stable equilibrium.",
+      "answer": "<p>Let the dipole (charges ±q, separation 2a, moment p = 2qa) make angle θ with the uniform field <b>E</b>. Force on +q is q<b>E</b> along the field; force on −q is −q<b>E</b> opposite to it. The two forces are equal and opposite, so the net force is zero, but their lines of action are separated by 2a sin θ and they form a couple.</p><p>Torque = force × perpendicular distance = qE × 2a sin θ = pE sin θ. In vector form <b>τ</b> = <b>p</b> × <b>E</b>, and it tends to align <b>p</b> with <b>E</b>.</p><p>Stable equilibrium: θ = 0, that is, <b>p</b> parallel to <b>E</b>. The torque is zero there and a small rotation produces a restoring torque.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2011",
+      "marks": 3,
+      "q": "A thin straight infinitely long conducting wire having charge density λ is enclosed by a cylindrical surface of radius r and length l, its axis coinciding with the length of the wire. Find the expression for the electric flux through the surface of the cylinder. Hence obtain the electric field at a point on the curved surface, indicating its direction.",
+      "answer": "<p>Charge enclosed by the cylinder = λl. By Gauss's law the total flux through the closed cylindrical surface is Φ = λl/ε<sub>0</sub>, whatever the radius r.</p><p>By symmetry <b>E</b> is radial, perpendicular to the wire, with the same magnitude E at every point of the curved surface. Through the two flat ends the flux is zero because <b>E</b> is parallel to those faces (perpendicular to their normals). Through the curved surface the flux is E × 2πrl, since <b>E</b> is along the normal everywhere on it.</p><p>So E × 2πrl = λl/ε<sub>0</sub>, giving E = λ/(2πε<sub>0</sub>r), directed radially outward from the wire if λ is positive and radially inward if λ is negative.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2014",
+      "marks": 3,
+      "q": "Given a uniform electric field <b>E</b> = 5 × 10<sup>3</sup> î N C<sup>−1</sup>, find the flux of this field through a square of 10 cm on a side whose plane is parallel to the y-z plane. What would be the flux through the same square if the plane makes a 30° angle with the x-axis?",
+      "answer": "<p>Area A = (0.10)<sup>2</sup> = 1.0 × 10<sup>−2</sup> m<sup>2</sup>.</p><p>Plane parallel to the y-z plane: the normal is along the x-axis, parallel to <b>E</b>, so θ = 0. Φ = EA cos 0° = 5 × 10<sup>3</sup> × 1.0 × 10<sup>−2</sup> = 50 N m<sup>2</sup> C<sup>−1</sup>.</p><p>Plane at 30° to the x-axis: the normal to the plane then makes 90° − 30° = 60° with the x-axis, that is, with <b>E</b>. Φ = EA cos 60° = 50 × 0.5 = 25 N m<sup>2</sup> C<sup>−1</sup>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2013",
+      "marks": 3,
+      "q": "A hollow cylindrical box of length 1 m and area of cross-section 25 cm<sup>2</sup> is placed in a three-dimensional coordinate system with its axis along the x-axis. The electric field in the region is given by <b>E</b> = 50x î, where E is in N C<sup>−1</sup> and x is in metres. Find (i) the net flux through the cylinder, (ii) the charge enclosed by the cylinder.",
+      "answer": "<p>A = 25 cm<sup>2</sup> = 25 × 10<sup>−4</sup> m<sup>2</sup>. Let the left face be at x = x<sub>1</sub> and the right face at x<sub>2</sub> = x<sub>1</sub> + 1.</p><p>(i) The field is along the x-axis, so it is parallel to the curved surface and the flux through it is zero. Through the left face (outward normal −î): Φ<sub>1</sub> = −50x<sub>1</sub>A. Through the right face (outward normal +î): Φ<sub>2</sub> = +50x<sub>2</sub>A. Net flux Φ = 50A(x<sub>2</sub> − x<sub>1</sub>) = 50 × 25 × 10<sup>−4</sup> × 1 = 0.125 N m<sup>2</sup> C<sup>−1</sup>.</p><p>(ii) By Gauss's law q = ε<sub>0</sub>Φ = 8.854 × 10<sup>−12</sup> × 0.125 = 1.1 × 10<sup>−12</sup> C.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2018",
+      "marks": 3,
+      "q": "(a) Define electric flux. Is it a scalar or a vector quantity? A point charge q is at a distance of d/2 directly above the centre of a square of side d. Use Gauss's law to obtain the expression for the electric flux through the square. (b) If the point charge is now moved to a distance d from the centre of the square and the side of the square is doubled, explain how the electric flux will be affected.",
+      "answer": "<p>(a) Electric flux through a surface is the surface integral of the electric field over it, Φ = ∑ <b>E</b> · Δ<b>S</b>; it measures the number of field lines crossing the surface. It is a scalar.</p><p>Construct a cube of side d with the given square as one face. The charge at d/2 above the centre of the square is then at the centre of the cube. Gauss's law: total flux through the closed cube = q/ε<sub>0</sub>. By symmetry the six faces receive equal flux, so the flux through the square is Φ = q/(6ε<sub>0</sub>).</p><p>(b) With the charge at distance d from the centre and the side doubled to 2d, the charge is again at the centre of a cube, now of side 2d. The flux through the square is again one-sixth of q/ε<sub>0</sub>, so it is unchanged: q/(6ε<sub>0</sub>).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Two point charges +3q and −4q are placed at the vertices B and C of an equilateral triangle ABC of side a. Obtain the expression for (i) the magnitude and (ii) the direction of the resultant electric field at the vertex A due to these two charges.",
+      "answer": "<p>Let k = 1/4πε<sub>0</sub>. At A, the field due to +3q at B is E<sub>1</sub> = 3kq/a<sup>2</sup>, directed away from B, along BA produced. The field due to −4q at C is E<sub>2</sub> = 4kq/a<sup>2</sup>, directed towards C, along AC. The angle at A between AB and AC is 60°, so the angle between E<sub>1</sub> (pointing away from B) and E<sub>2</sub> (pointing towards C) is 180° − 60° = 120°.</p><p>(i) E = √(E<sub>1</sub><sup>2</sup> + E<sub>2</sub><sup>2</sup> + 2E<sub>1</sub>E<sub>2</sub> cos 120°) = (kq/a<sup>2</sup>) √(9 + 16 − 12) = √13 kq/a<sup>2</sup> = √13 q/(4πε<sub>0</sub>a<sup>2</sup>).</p><p>(ii) If β is the angle the resultant makes with E<sub>1</sub>, tan β = E<sub>2</sub> sin 120°/(E<sub>1</sub> + E<sub>2</sub> cos 120°) = (4 × √3/2)/(3 − 2) = 2√3, so β ≈ 74° from the direction of BA produced, turned towards C.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Two point charges +4 μC and +1 μC are separated by a distance of 2 m in air. Find the point on the line joining the charges at which the net electric field of the system is zero.",
+      "answer": "<p>Both charges are positive, so their fields at a point between them are in opposite directions and can cancel; outside the pair both fields point the same way and cannot. Let the point be at distance x from the 4 μC charge, so it is 2 − x from the 1 μC charge.</p><p>k(4 × 10<sup>−6</sup>)/x<sup>2</sup> = k(1 × 10<sup>−6</sup>)/(2 − x)<sup>2</sup>, so 4(2 − x)<sup>2</sup> = x<sup>2</sup>, taking square roots 2(2 − x) = x, 4 = 3x, x = 4/3 m.</p><p>The net field is zero at 1.33 m from the 4 μC charge (0.67 m from the 1 μC charge) on the line joining them, nearer the smaller charge.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2013",
+      "marks": 5,
+      "q": "Define electric dipole moment. Is it a scalar or a vector? Derive the expression for the electric field of a dipole at a point on the equatorial plane of the dipole.",
+      "answer": "<p><b>Dipole moment:</b> for charges −q and +q separated by 2a, <b>p</b> = q × 2<b>a</b>, of magnitude 2qa, directed along the axis from −q to +q. It is a vector; SI unit C m.</p><p><b>Set-up:</b> place −q at A and +q at B with AB = 2a and midpoint O. Let P lie on the perpendicular bisector of AB at distance r from O. Then AP = BP = √(r<sup>2</sup> + a<sup>2</sup>). Draw the diagram with both field vectors at P.</p><p><b>Fields at P:</b> due to +q, E<sub>+q</sub> = q/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)] along BP produced (away from +q); due to −q, E<sub>−q</sub> = q/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)] along PA (towards −q). The magnitudes are equal. Each makes the same angle θ with the axis, where cos θ = a/√(r<sup>2</sup> + a<sup>2</sup>).</p><p><b>Resolution:</b> the components perpendicular to the axis (along OP) are equal and opposite and cancel. The components parallel to the axis, each E<sub>+q</sub> cos θ, add, and both point from the +q side towards the −q side, that is, opposite to <b>p</b>.</p><p><b>Result:</b> E = 2E<sub>+q</sub> cos θ = 2qa/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)<sup>3/2</sup>] = p/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)<sup>3/2</sup>]. In vector form <b>E</b><sub>equatorial</sub> = −<b>p</b>/[4πε<sub>0</sub>(r<sup>2</sup> + a<sup>2</sup>)<sup>3/2</sup>], and for r ≫ a, <b>E</b><sub>equatorial</sub> = −<b>p</b>/(4πε<sub>0</sub>r<sup>3</sup>).</p><p>Marking points: definition with direction and unit; labelled diagram; the two magnitudes; cancellation and addition of components; final expression with direction and the r ≫ a form.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2015",
+      "marks": 5,
+      "q": "(a) An electric dipole of dipole moment <b>p</b> consists of point charges +q and −q separated by a distance 2a apart. Deduce the expression for the electric field <b>E</b> due to the dipole at a distance x from the centre of the dipole on its axial line in terms of the dipole moment <b>p</b>. Hence show that in the limit x ≫ a, <b>E</b> → 2<b>p</b>/(4πε<sub>0</sub>x<sup>3</sup>). (b) Draw a sketch of the field lines of the dipole for points in the equatorial plane.",
+      "answer": "<p>(a) Place −q at A and +q at B, centre O, AB = 2a, with <b>p</b> from A to B. Let P be on the axis at distance x from O, on the side of +q, so BP = x − a and AP = x + a.</p><p>Field at P due to +q: E<sub>+q</sub> = q/[4πε<sub>0</sub>(x − a)<sup>2</sup>], directed away from B, along <b>p</b>. Field due to −q: E<sub>−q</sub> = q/[4πε<sub>0</sub>(x + a)<sup>2</sup>], directed towards A, opposite to <b>p</b>. Since x − a < x + a, E<sub>+q</sub> > E<sub>−q</sub>, and the net field is along <b>p</b>:</p><p>E = (q/4πε<sub>0</sub>)[1/(x − a)<sup>2</sup> − 1/(x + a)<sup>2</sup>] = (q/4πε<sub>0</sub>) · [(x + a)<sup>2</sup> − (x − a)<sup>2</sup>]/(x<sup>2</sup> − a<sup>2</sup>)<sup>2</sup> = (q/4πε<sub>0</sub>) · 4ax/(x<sup>2</sup> − a<sup>2</sup>)<sup>2</sup>.</p><p>With p = 2qa: <b>E</b> = 2<b>p</b>x/[4πε<sub>0</sub>(x<sup>2</sup> − a<sup>2</sup>)<sup>2</sup>]. For x ≫ a, a<sup>2</sup> is negligible against x<sup>2</sup>, so (x<sup>2</sup> − a<sup>2</sup>)<sup>2</sup> ≈ x<sup>4</sup> and <b>E</b> → 2<b>p</b>/(4πε<sub>0</sub>x<sup>3</sup>), directed along <b>p</b>.</p><p>(b) Sketch: +q and −q on a horizontal axis; lines leave +q, curve round above and below and enter −q, symmetric about the axis and densest between the charges. Every line crossing the equatorial plane (the perpendicular bisector) crosses it perpendicularly, pointing from the +q side to the −q side, that is, antiparallel to <b>p</b>. Mark arrows on all lines; no two lines cross.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2018",
+      "marks": 5,
+      "q": "(a) Use Gauss's law to derive the expression for the electric field <b>E</b> due to a straight uniformly charged infinite line of charge density λ C m<sup>−1</sup>. (b) Draw a graph to show the variation of E with perpendicular distance r from the line of charge.",
+      "answer": "<p>(a) <b>Symmetry:</b> the wire is infinite and uniformly charged, so the field at any point depends only on the perpendicular distance r from the wire, is directed radially (perpendicular to the wire), and has the same magnitude at all points at the same r. Components along the wire cancel by symmetry.</p><p><b>Gaussian surface:</b> a coaxial cylinder of radius r and length l with the wire as axis. Its surface has three parts: the curved surface and two flat circular ends.</p><p><b>Flux:</b> on the curved surface <b>E</b> is everywhere along the outward normal and of constant magnitude, so the flux is E × (2πrl). On each flat end <b>E</b> is perpendicular to the normal (it lies in the plane of the end), so the flux is zero. Total flux Φ = 2πrlE.</p><p><b>Enclosed charge:</b> the cylinder encloses length l of the wire, so q = λl.</p><p><b>Gauss's law:</b> 2πrlE = λl/ε<sub>0</sub>, giving E = λ/(2πε<sub>0</sub>r). In vector form <b>E</b> = [λ/(2πε<sub>0</sub>r)] n̂, where n̂ is the unit vector radially outward from the wire; the field points outward for λ > 0 and inward for λ < 0.</p><p>(b) Plot E (vertical) against r (horizontal). Since E ∝ 1/r the graph is a rectangular hyperbola: large near the wire, falling steadily, approaching the r-axis without touching it. Mark E = λ/(2πε<sub>0</sub>r) on the curve. The field falls more slowly than the 1/r<sup>2</sup> field of a point charge.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2012",
+      "marks": 5,
+      "q": "(a) Define electric flux. Write its SI units. (b) Using Gauss's law, prove that the electric field at a point due to a uniformly charged infinite plane sheet is independent of the distance from it. (c) How is the field directed if (i) the sheet is positively charged, (ii) negatively charged?",
+      "answer": "<p>(a) Electric flux through a surface is the surface integral of the electric field over it, Φ = ∑ <b>E</b> · Δ<b>S</b> = ∑ E ΔS cos θ, a measure of the number of field lines crossing the surface. SI unit: N m<sup>2</sup> C<sup>−1</sup> (equivalently V m).</p><p>(b) Let the sheet have uniform surface charge density σ. By symmetry the field at any point is perpendicular to the sheet, has the same magnitude at all points at the same distance, and points away from the sheet on both sides for positive σ.</p><p>Gaussian surface: a cylinder of cross-sectional area A with its axis normal to the sheet, extending a distance r on either side, so that the sheet cuts it in half. Flux through the curved surface is zero, because <b>E</b> is parallel to it. Through each flat end <b>E</b> is along the outward normal, so the flux is EA; total flux = 2EA.</p><p>Charge enclosed = σA. Gauss's law: 2EA = σA/ε<sub>0</sub>, so E = σ/(2ε<sub>0</sub>).</p><p>The distance r of the ends from the sheet does not appear in the result, so the field is independent of the distance from the sheet. The reason is that the flux through the ends and the enclosed charge both scale with A only.</p><p>(c) (i) For a positively charged sheet the field is normal to the sheet and directed away from it on both sides. (ii) For a negatively charged sheet it is normal to the sheet and directed towards it on both sides.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2008",
+      "marks": 5,
+      "q": "(a) Using Gauss's law, derive an expression for the electric field intensity at any point outside a uniformly charged thin spherical shell of radius R and charge density σ C m<sup>−2</sup>. Draw the field lines when the charge density of the sphere is (i) positive, (ii) negative. (b) A uniformly charged conducting sphere of 2.5 m diameter has a surface charge density of 100 μC m<sup>−2</sup>. Calculate (i) the charge on the sphere, (ii) the total electric flux passing through the sphere.",
+      "answer": "<p>(a) Total charge on the shell q = σ × 4πR<sup>2</sup>. By symmetry the field at any point outside is radial and depends only on the distance r from the centre.</p><p>Gaussian surface: a sphere of radius r > R concentric with the shell. At every point on it <b>E</b> is along the outward normal and has the same magnitude E, so the flux is E × 4πr<sup>2</sup>. Enclosed charge = q. Gauss's law: E × 4πr<sup>2</sup> = q/ε<sub>0</sub>, so E = q/(4πε<sub>0</sub>r<sup>2</sup>) = σR<sup>2</sup>/(ε<sub>0</sub>r<sup>2</sup>). The shell behaves as if its entire charge were concentrated at its centre. (For r < R the Gaussian sphere encloses no charge and E = 0.)</p><p>Field lines: (i) positive σ, straight radial lines starting on the surface and pointing outward, equally spaced; (ii) negative σ, the same lines with arrows pointing inward, ending on the surface. No lines inside the shell in either case.</p><p>(b) R = 1.25 m. (i) q = σ × 4πR<sup>2</sup> = 100 × 10<sup>−6</sup> × 4π × (1.25)<sup>2</sup> = 100 × 10<sup>−6</sup> × 19.63 = 1.96 × 10<sup>−3</sup> C. (ii) Φ = q/ε<sub>0</sub> = 1.96 × 10<sup>−3</sup>/8.854 × 10<sup>−12</sup> = 2.2 × 10<sup>8</sup> N m<sup>2</sup> C<sup>−1</sup>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "<p>Read the passage and answer the questions that follow.</p><p>Gauss's law states that the total electric flux through any closed surface is 1/ε<sub>0</sub> times the net charge enclosed by the surface. The flux does not depend on the shape or size of the surface, nor on where the enclosed charges sit inside it, and a charge outside the surface contributes no net flux, because every line it sends in also comes out. The law is used to find <b>E</b> only when the charge distribution has enough symmetry for a Gaussian surface on which E is constant and either normal or tangential to the surface. Two hollow concentric spheres S<sub>1</sub> and S<sub>2</sub> enclose charges 2Q and 4Q respectively.</p>(i) What is the ratio of the electric flux through S<sub>1</sub> and S<sub>2</sub>?<br>(ii) How does the flux through S<sub>1</sub> change if the space inside S<sub>1</sub> is filled with a medium of dielectric constant K?<br>(iii) A point charge q is placed at the centre of a cube. What is the flux through one face? What happens to the total flux through the cube if the charge is moved off-centre but stays inside?<br>(iv) Which one of these changes the flux through a closed surface: moving an enclosed charge about inside the surface, doubling the size of the surface, placing a charge just outside the surface, or bringing that outside charge inside?",
+      "answer": "<p>(i) Φ<sub>1</sub> : Φ<sub>2</sub> = (2Q/ε<sub>0</sub>) : (4Q/ε<sub>0</sub>) = 1 : 2, because the flux depends only on the charge enclosed by each surface.</p><p>(ii) In a medium Gauss's law reads Φ = q/(Kε<sub>0</sub>), so the flux through S<sub>1</sub> becomes 2Q/(Kε<sub>0</sub>); it is reduced by the factor K.</p><p>(iii) By symmetry each of the six faces gets q/(6ε<sub>0</sub>). Moving the charge inside the cube changes the share through individual faces but not the total, which stays q/ε<sub>0</sub>.</p><p>(iv) Only bringing the outside charge inside changes the flux, since it changes the enclosed charge. The other three leave the enclosed charge, and therefore the flux, unchanged.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "<p>Read the passage and answer the questions that follow.</p><p>An electric dipole consists of charges +q and −q separated by 2a, with dipole moment <b>p</b> = q × 2<b>a</b> directed from −q to +q. In a uniform electric field <b>E</b> the two charges experience equal and opposite forces q<b>E</b> and −q<b>E</b>. Their lines of action are separated by 2a sin θ, where θ is the angle between <b>p</b> and <b>E</b>, so the dipole feels a torque but no net force. Water, ammonia and HCl molecules are permanent dipoles; a molecule such as CO<sub>2</sub> has no permanent dipole moment but acquires an induced one in an external field.</p>(i) Write the expression for the torque on the dipole in magnitude and in vector form. For which value of θ is it maximum?<br>(ii) Identify the orientations of stable and unstable equilibrium.<br>(iii) A dipole of moment 2 × 10<sup>−8</sup> C m is placed at 30° to a uniform field of 5 × 10<sup>4</sup> N C<sup>−1</sup>. Find the torque on it.<br>(iv) The same dipole is placed with <b>p</b> parallel to a non-uniform field whose magnitude increases along <b>p</b>. What does it experience?",
+      "answer": "<p>(i) τ = pE sin θ; <b>τ</b> = <b>p</b> × <b>E</b>. It is maximum, τ = pE, at θ = 90°.</p><p>(ii) Stable equilibrium at θ = 0 (<b>p</b> parallel to <b>E</b>); unstable equilibrium at θ = 180° (<b>p</b> antiparallel to <b>E</b>). The torque is zero in both, but a small displacement restores the first and overturns the second.</p><p>(iii) τ = 2 × 10<sup>−8</sup> × 5 × 10<sup>4</sup> × sin 30° = 1 × 10<sup>−3</sup> × 0.5 = 5 × 10<sup>−4</sup> N m.</p><p>(iv) No torque, since θ = 0, but the force on +q, which sits where the field is stronger, exceeds the force on −q, so the dipole experiences a net force in the direction of increasing field.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "How many electrons together carry one coulomb of charge?",
+      "options": [
+        "1.6 × 10<sup>19</sup>",
+        "6.25 × 10<sup>18</sup>",
+        "6.25 × 10<sup>−18</sup>",
+        "1.6 × 10<sup>−19</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "n = q/e = 1/(1.6 × 10<sup>−19</sup>) = 6.25 × 10<sup>18</sup>."
+    },
+    {
+      "q": "Two point charges attract each other with a force F in air. Each charge is doubled and the separation between them is also doubled. The new force is",
+      "options": [
+        "F/4",
+        "4F",
+        "F",
+        "16F"
+      ],
+      "answer_index": 2,
+      "explanation": "F ∝ q<sub>1</sub>q<sub>2</sub>/r<sup>2</sup>; the product of charges rises 4 times and r<sup>2</sup> rises 4 times, so the force is unchanged."
+    },
+    {
+      "q": "The SI unit of electric flux is",
+      "options": [
+        "N C<sup>−1</sup>",
+        "N m<sup>2</sup> C<sup>−1</sup>",
+        "C m<sup>−2</sup>",
+        "N m C<sup>−1</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "Φ = E × area, so the unit is (N C<sup>−1</sup>)(m<sup>2</sup>) = N m<sup>2</sup> C<sup>−1</sup>, equivalent to V m."
+    },
+    {
+      "q": "At a large distance r from a short dipole, the electric field falls off as",
+      "options": [
+        "1/r",
+        "1/r<sup>2</sup>",
+        "1/r<sup>4</sup>",
+        "1/r<sup>3</sup>"
+      ],
+      "answer_index": 3,
+      "explanation": "Both the axial field 2p/(4πε<sub>0</sub>r<sup>3</sup>) and the equatorial field p/(4πε<sub>0</sub>r<sup>3</sup>) vary as 1/r<sup>3</sup> for r ≫ a."
+    },
+    {
+      "q": "For a short dipole, the ratio of the electric field on the axial line to that on the equatorial line at the same distance is",
+      "options": [
+        "1 : 2",
+        "2 : 1",
+        "1 : 1",
+        "4 : 1"
+      ],
+      "answer_index": 1,
+      "explanation": "E<sub>axial</sub> = 2p/(4πε<sub>0</sub>r<sup>3</sup>) and E<sub>equatorial</sub> = p/(4πε<sub>0</sub>r<sup>3</sup>), so the ratio is 2 : 1."
+    },
+    {
+      "q": "The electric field due to a uniformly charged infinite plane sheet at a distance r from the sheet is",
+      "options": [
+        "proportional to 1/r",
+        "proportional to 1/r<sup>2</sup>",
+        "proportional to r",
+        "independent of r"
+      ],
+      "answer_index": 3,
+      "explanation": "Gauss's law with a pillbox gives E = σ/(2ε<sub>0</sub>), with no dependence on the distance from the sheet."
+    },
+    {
+      "q": "Inside a uniformly charged thin spherical shell of surface charge density σ, the electric field is",
+      "options": [
+        "σ/ε<sub>0</sub>",
+        "σ/(2ε<sub>0</sub>)",
+        "zero",
+        "q/(4πε<sub>0</sub>R<sup>2</sup>)"
+      ],
+      "answer_index": 2,
+      "explanation": "A concentric Gaussian sphere inside the shell encloses no charge, so by Gauss's law and symmetry E = 0 at every interior point."
+    },
+    {
+      "q": "The torque on an electric dipole in a uniform electric field is maximum when the angle between <b>p</b> and <b>E</b> is",
+      "options": [
+        "90°",
+        "0°",
+        "180°",
+        "45°"
+      ],
+      "answer_index": 0,
+      "explanation": "τ = pE sin θ is largest when sin θ = 1, that is, at θ = 90°; it is zero at 0° and 180°."
+    },
+    {
+      "q": "A charge Q is placed at one corner of a cube. The electric flux through the cube is",
+      "options": [
+        "Q/ε<sub>0</sub>",
+        "Q/(6ε<sub>0</sub>)",
+        "Q/(24ε<sub>0</sub>)",
+        "Q/(8ε<sub>0</sub>)"
+      ],
+      "answer_index": 3,
+      "explanation": "Eight identical cubes meeting at the corner would enclose the charge completely, so this cube receives one-eighth of the total flux Q/ε<sub>0</sub>."
+    },
+    {
+      "q": "Charges +q and +4q are fixed a distance d apart. A third charge placed on the line joining them experiences no net force when it is",
+      "options": [
+        "at d/3 from +q",
+        "at d/3 from +4q",
+        "at d/2 from each charge",
+        "at 2d/3 from +q"
+      ],
+      "answer_index": 0,
+      "explanation": "kqQ/x<sup>2</sup> = k(4q)Q/(d − x)<sup>2</sup> gives d − x = 2x, so x = d/3 from +q, nearer the smaller charge."
+    },
+    {
+      "q": "Which of the following charges can a body possess?",
+      "options": [
+        "2.4 × 10<sup>−19</sup> C",
+        "0.8 × 10<sup>−19</sup> C",
+        "3.2 × 10<sup>−19</sup> C",
+        "4.0 × 10<sup>−19</sup> C"
+      ],
+      "answer_index": 2,
+      "explanation": "Charge must be an integral multiple of e = 1.6 × 10<sup>−19</sup> C; 3.2 × 10<sup>−19</sup> C = 2e, while the others are 1.5e, 0.5e and 2.5e."
+    },
+    {
+      "q": "Which statement about electrostatic field lines is wrong?",
+      "options": [
+        "They start on positive charges and end on negative charges",
+        "They never cross each other",
+        "They can form closed loops",
+        "Their tangent at a point gives the direction of the field there"
+      ],
+      "answer_index": 2,
+      "explanation": "Electrostatic field lines never form closed loops, because the electrostatic field is conservative; the other three statements are properties of field lines."
+    },
+    {
+      "q": "The force between two point charges in vacuum is F. When the same charges are placed at the same separation in a medium of dielectric constant K, the force becomes",
+      "options": [
+        "KF",
+        "F/K<sup>2</sup>",
+        "F",
+        "F/K"
+      ],
+      "answer_index": 3,
+      "explanation": "The permittivity becomes Kε<sub>0</sub>, so the Coulomb force is divided by K."
+    },
+    {
+      "q": "Equal charges q are placed at the four corners of a square of side a. The electric field at the centre of the square is",
+      "options": [
+        "4kq/a<sup>2</sup>",
+        "zero",
+        "2√2 kq/a<sup>2</sup>",
+        "8kq/a<sup>2</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "The fields due to the two charges on each diagonal are equal and opposite at the centre, so the four fields cancel in pairs."
+    },
+    {
+      "q": "The electric field at a distance r from an infinite line charge is E. If the distance is doubled, the field becomes",
+      "options": [
+        "2E",
+        "E/4",
+        "E/2",
+        "E"
+      ],
+      "answer_index": 2,
+      "explanation": "E = λ/(2πε<sub>0</sub>r) ∝ 1/r, so doubling r halves the field."
+    },
+    {
+      "q": "A dipole is placed with <b>p</b> parallel to a non-uniform electric field whose magnitude increases along <b>p</b>. The dipole experiences",
+      "options": [
+        "a torque only",
+        "a net force towards the stronger field and no torque",
+        "neither a force nor a torque",
+        "a net force towards the weaker field"
+      ],
+      "answer_index": 1,
+      "explanation": "With θ = 0 the torque is zero, but +q sits in the stronger field than −q, so the forces do not cancel and the net force is towards increasing field."
+    }
+  ],
+  "common_mistakes": [
+    "Using the angle between the field and the plane of the surface in Φ = ES cos θ. The angle must be measured from the normal; if the plane makes 30° with the field, θ is 60°. The examiner gives no credit for the numerical if the angle is wrong.",
+    "Adding Coulomb forces or fields as scalars when they are not along the same line. In a triangle or square question this forfeits everything except the marks for the individual magnitudes.",
+    "Leaving out the direction. Every force or field numerical carries a mark for stating attractive or repulsive, or the direction of <b>E</b>, and a negative number on its own does not earn it.",
+    "Mixing up the axial and equatorial fields of a dipole: the axial field is twice as large and along <b>p</b>, the equatorial field is opposite to <b>p</b>, and both 1/r<sup>3</sup> forms hold only for r ≫ a.",
+    "Concluding from zero flux that the field is zero or that there is no charge inside, or assuming the field on a Gaussian surface is due only to the enclosed charge. Zero flux means zero net enclosed charge; the field is due to all charges.",
+    "Changing the flux when the radius or shape of a Gaussian surface changes, or counting a charge that sits just outside the surface. Only the enclosed charge fixes the flux.",
+    "Multiplying by the dielectric constant instead of dividing. In a medium the force and the flux both fall by the factor K.",
+    "Skipping the symmetry argument and the statement of which parts of the Gaussian surface carry zero flux in a Gauss's law derivation. Each is a separate marking point, and the graph of E against r is another.",
+    "Using cos θ instead of sin θ in the torque on a dipole, and forgetting to give the vector form <b>τ</b> = <b>p</b> × <b>E</b> and the direction from −q to +q for <b>p</b>."
+  ],
+  "strategy": "<p>Prepare this chapter in three passes. First, the definitions and statements: the three properties of charge, Coulomb's law with its vector form, the definition of <b>E</b> with the limit q<sub>0</sub> → 0, the four properties of field lines, flux with its sign convention, dipole moment with its direction, and the statement of Gauss's law with the remarks about enclosed and outside charges. These feed every 1- and 2-mark question, and they take one evening.</p><p>Second, the six derivations, written out by hand with the diagram until you can do each in under five minutes: the axial field, the equatorial field, the torque on a dipole, and Gauss's law applied to the infinite wire, the infinite sheet and the spherical shell. Board papers have taken at least one long question from this list almost every year since 2008, usually paired with a graph of E against r or a short numerical. Practise the diagram and the graph together with the derivation, because they carry separate marks.</p><p>Third, numericals. Work NCERT exercises 1.1, 1.2, 1.6, 1.8, 1.10 and 1.14 to 1.23, then the board numericals on flux through a square or a cylinder, the point where the net field is zero, and the charges after two conductors touch. Keep e, ε<sub>0</sub> and 1/4πε<sub>0</sub> with their units on one page and check every answer's power of ten. In the exam, expect this chapter's questions to take 12 to 15 minutes. Write derivations in the marking-scheme order: symmetry, Gaussian surface named, flux through each part, enclosed charge, final expression boxed with its direction.</p>",
+  "revision_checklist": [
+    "State additivity, conservation and quantisation of charge with one example each",
+    "Write Coulomb's law in scalar and vector form and say what happens in a medium of dielectric constant K",
+    "Find the net force on a charge at a corner or the centre of a square or triangle by vector addition",
+    "Locate the point between or outside two charges where the net field is zero",
+    "Define the electric field with the limit q<sub>0</sub> → 0 and write E for a point charge and for a system of charges",
+    "List the four properties of electric field lines with the reason for each",
+    "Draw the field lines of a single charge, a dipole, two like charges and a charge near a conducting plate",
+    "Define electric flux, give its unit and compute it through a square at an angle and through a cube",
+    "Derive the dipole field on the axial and equatorial lines and quote the r ≫ a forms with directions",
+    "Derive the torque on a dipole and state the stable and unstable orientations",
+    "Explain what a dipole feels in a non-uniform field",
+    "Define λ, σ and ρ with units and find the total charge on a wire, sheet or sphere",
+    "State Gauss's law, verify it for a point charge and list which charges count",
+    "Derive E for an infinite wire, an infinite sheet and a spherical shell, and sketch E against r for each",
+    "Memorise e = 1.6 × 10<sup>−19</sup> C, ε<sub>0</sub> = 8.854 × 10<sup>−12</sup> C<sup>2</sup> N<sup>−1</sup> m<sup>−2</sup> and 1/4πε<sub>0</sub> = 9 × 10<sup>9</sup> N m<sup>2</sup> C<sup>−2</sup>"
+  ],
+  "videos": [
+    {
+      "id": "nN9n3quiJto",
+      "title": "Electric Charges and Fields · full chapter"
+    }
+  ]
+}

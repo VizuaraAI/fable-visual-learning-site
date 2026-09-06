@@ -1,0 +1,1063 @@
+{
+  "class": 10,
+  "subject": "Science",
+  "chapter_no": 13,
+  "slug": "our-environment",
+  "title": "Our Environment",
+  "summary": "The chapter explains how living and non-living things around us form an ecosystem, how energy enters that system through green plants and moves along food chains and food webs, why only about 10 per cent of it reaches each next level, how pesticides get concentrated as they climb the chain, and then turns to two things our own activities have done: thinning the ozone layer with CFCs and piling up garbage that nature cannot break down. It is a short, mostly conceptual chapter that reliably carries marks in the Class 10 board paper.",
+  "exam_profile": {
+    "weightage": "Class 10 Science is one 80-mark paper covering physics, chemistry and biology. Our Environment is the only chapter of Unit V, Natural Resources, which is allotted about 5 marks in the current syllabus. In practice this shows up as one or two 1-mark items (an MCQ or an Assertion–Reason) plus one 2- or 3-mark question, and now and then a case-based question built on a food web or on waste disposal. Because the chapter is small and the questions repeat, it is one of the cheapest 5 marks in the paper.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Pick the group that is entirely biodegradable or non-biodegradable; pick the correct food chain from a list; which trophic level a frog or a human occupies; a 10 per cent law calculation (third level has 50 kJ, so the producer had 5000 kJ); natural versus man-made ecosystem (lake versus garden or cropland); which organism carries the highest pesticide concentration; the gas whose layer is depleted by CFCs; the wrong statement about ozone (it is not used as a refrigerant)."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Tertiary consumers carry the highest pesticide concentration because of biological magnification; food chains have only 3–4 steps because only 10 per cent of energy is passed on; energy flow is unidirectional; bacteria and fungi are decomposers because they break complex organic matter into simple inorganic substances; ozone is a poison at ground level but a shield at higher levels; the number of individuals is greatest at the producer level."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define ecosystem and list its two components; why a garden or a crop field is an ecosystem; why a pond does not need cleaning but an aquarium does; two differences between biodegradable and non-biodegradable substances; why food chains have three or four steps; what ozone is and how it forms (with the two equations); the 1987 UNEP agreement on CFCs; role of decomposers."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Explain biological magnification and why humans at the top of the chain are worst affected; write a four-step terrestrial food chain and calculate energy at a given level; why energy flow is unidirectional; what happens if one trophic level is removed; food chain versus food web and why a food web makes an ecosystem more stable; ozone formation, its function and the cause of its depletion; harmful effects of plastic bags and the alternatives."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "This chapter rarely gets a full 5-marker on its own, but a combined question does appear: define ecosystem, draw a block diagram of energy flow, state the 10 per cent law and do a calculation, then explain why the chain is limited to four levels; or a garbage question that asks for the harm of plastics, the kulhad–paper cup–plastic cup story, and the disposal methods you would recommend at home."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A food-web diagram of a pond or grassland followed by four questions: name the producers, write the longest chain, say which organism has the highest pesticide load, and calculate energy with the 10 per cent law. The other favourite passage is on disposable cups or plastic waste, asking students to classify wastes and suggest disposal."
+      }
+    ],
+    "hot_topics": [
+      "10 per cent law: energy at each trophic level, worked calculations, and why food chains are limited to 3–4 steps",
+      "Biological magnification: how pesticides enter and accumulate along a food chain and why humans get the highest dose",
+      "Ozone: what it is, how UV forms it from O<sub>2</sub>, its role as a UV shield, CFCs and the 1987 UNEP agreement",
+      "Biodegradable versus non-biodegradable substances, with examples and safe disposal of each",
+      "Ecosystem: definition, biotic and abiotic components, natural versus artificial examples, pond versus aquarium",
+      "Food chain, trophic levels and food web; effect of removing one trophic level; why energy flow is unidirectional",
+      "Decomposers: who they are, what they do, and what happens if they are absent",
+      "Garbage: the kulhad, paper cup and plastic cup story, harm from plastic bags, ways to reduce waste at home"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Introduction: Biodegradable and Non-biodegradable Substances",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2015
+      ],
+      "body": "<p>Everything around us, living and non-living, is our <b>environment</b>. The chapter opens by asking what happens to the things we throw away, and the answer splits every substance into two groups.</p><p><b>Biodegradable</b> substances are those that can be broken down by biological processes, chiefly by the enzymes released by bacteria and other saprophytes. Vegetable peels, dead leaves, paper, cotton, wool, cow dung, leather and wood are all broken down in weeks or months and their material goes back into the soil.</p><p><b>Non-biodegradable</b> substances are not broken down this way. Plastics, polythene, glass, metal, DDT and synthetic fibres like nylon and polyester persist for a very long time. The reason is one sentence the examiner likes: <b>enzymes are specific in their action</b>. The bacterial enzymes that digest cellulose or protein simply do not fit the man-made molecules of a plastic, so nothing in nature can take those molecules apart. Some of these materials may also be broken down only physically (a plastic bag tears into smaller pieces) which is not decomposition at all.</p><p>Why does this matter? Non-biodegradable wastes pile up, choke drains, are eaten by animals, and some, like pesticides, enter food chains and harm other organisms. Biodegradable wastes are not harmless either: a heap of rotting garbage breeds flies, smells, releases methane and can spread disease. The chapter's point is that each type needs its own disposal, which is why we keep two separate dustbins.</p><p>In NCERT's Activity 13.1 you bury pieces of both kinds of waste and dig them up after three weeks. The vegetable matter has darkened and started to break down; the plastic looks exactly the same. That observation is the whole idea in one picture.</p>",
+      "formulas": [
+        {
+          "expr": "Biodegradable: broken down by enzymes of bacteria and saprophytes; Non-biodegradable: enzymes are specific, so these persist",
+          "where": [
+            [
+              "saprophytes",
+              "organisms such as bacteria and fungi that feed on dead organic matter"
+            ]
+          ]
+        }
+      ],
+      "tip": "Leather, wool, cotton, paper and wood are biodegradable (they come from living things). Students often mark leather as non-biodegradable and lose the MCQ. DDT, polythene, glass, aluminium foil and polyester are non-biodegradable."
+    },
+    {
+      "heading": "13.1 Eco-system: What are its Components?",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2020,
+        2019,
+        2017,
+        2016
+      ],
+      "body": "<p>An <b>ecosystem</b> is all the organisms living in a given area, interacting with each other and with the non-living constituents of that area. Write both halves. The <b>biotic components</b> are the plants, animals and micro-organisms; the <b>abiotic components</b> are the physical factors such as temperature, rainfall, wind, soil and minerals.</p><p>Ecosystems can be <b>natural</b>, like a forest, a pond, a lake or the ocean, or <b>artificial</b> (man-made), like a garden, a crop field or an aquarium. A garden is still an ecosystem because its plants, insects, birds, earthworms and soil bacteria all interact with each other and with sunlight, soil and water, even though a human put it together.</p><p>Within the biotic part there are three roles. <b>Producers</b> are the green plants and some blue-green algae that make their own food from sunlight by photosynthesis. <b>Consumers</b> depend on producers directly or indirectly: herbivores eat plants, carnivores eat animals, omnivores eat both, and parasites feed on a living host. <b>Decomposers</b> are the bacteria and fungi that break down the dead remains and waste products of organisms into simple inorganic substances, which go back into the soil and are used again by plants.</p><p>The decomposer point earns marks in three different questions, so learn the role clearly: they clean the environment of dead matter, they recycle nutrients, and they keep the soil fertile. Without them, dead bodies and waste would pile up, nutrients would stay locked inside them, and the soil would soon be unable to support new plants.</p><p>The favourite comparison is the pond and the aquarium. A pond is a complete natural ecosystem with producers, consumers and decomposers, so its waste is broken down and its nutrients are recycled on their own. An aquarium is an incomplete artificial ecosystem: it usually has no decomposers and no natural inflow, so fish waste and uneaten food accumulate and the tank must be cleaned. To make an aquarium self-sustaining you would need aquatic plants for oxygen and food, decomposer bacteria and a balanced number of fish.</p>",
+      "formulas": [
+        {
+          "expr": "Ecosystem = biotic components (producers + consumers + decomposers) + abiotic components (light, temperature, water, soil, air)",
+          "where": [
+            [
+              "producers",
+              "green plants and blue-green algae"
+            ],
+            [
+              "decomposers",
+              "bacteria and fungi"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'Define an ecosystem' the marking scheme wants the word 'interacting' and both the living and non-living parts. 'A place where plants and animals live' gets nothing."
+    },
+    {
+      "heading": "13.1.1 Food Chains and Webs: Trophic Levels",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2020,
+        2019,
+        2016,
+        2015
+      ],
+      "body": "<p>A <b>food chain</b> is a series of organisms in which each one feeds on the one before it. The simplest example: grass → deer → lion. Each step or level of the chain is called a <b>trophic level</b>.</p><p>The <b>first trophic level</b> is always the producers (autotrophs), because they are the only organisms that can fix the sun's energy into food. Herbivores, the <b>primary consumers</b>, form the second trophic level. Small carnivores that eat the herbivores are the <b>secondary consumers</b> at the third level, and the larger carnivores that eat them are the <b>tertiary consumers</b> at the fourth level. In grass → grasshopper → frog → snake → hawk, the frog is at the third level and the hawk at the fifth.</p><p>Decomposers are not shown as a step in the chain because they act at every level, feeding on the dead remains of producers and consumers alike.</p><p>In nature an organism rarely eats only one kind of food. Grass is eaten by grasshoppers, rabbits and deer; a snake may eat frogs, rats and birds. When these overlapping food chains are drawn together they form a <b>food web</b>. A food web makes the ecosystem more stable: if one prey species declines, the predator can switch to another, so a single loss does not collapse the whole system.</p><p>What if we remove one trophic level? Remove the producers and every level above starves. Remove the herbivores and the plants grow unchecked while the carnivores die out. Remove the top carnivores and the herbivores multiply, overgraze and eventually destroy the vegetation. So the impact differs with the level, but no level can be removed without damage. The examiner also expects you to say that in a food web the damage is smaller than in a simple chain because alternative pathways exist.</p><p>One more fact: the number of individuals is usually greatest at the producer level and falls as you go up, though this is not always true, since one large tree can support thousands of insects.</p>",
+      "formulas": [
+        {
+          "expr": "Producer (T<sub>1</sub>) → Herbivore / primary consumer (T<sub>2</sub>) → Small carnivore / secondary consumer (T<sub>3</sub>) → Large carnivore / tertiary consumer (T<sub>4</sub>)",
+          "where": [
+            [
+              "T<sub>n</sub>",
+              "trophic level number; the producer is always T<sub>1</sub>"
+            ]
+          ]
+        }
+      ],
+      "tip": "When asked to write a four-step terrestrial food chain, give one with clear land organisms and arrows pointing from food to eater: grass → grasshopper → frog → snake. Arrows drawn the wrong way lose the mark."
+    },
+    {
+      "heading": "13.1.1 (continued) Energy Flow, the 10 per cent Law and Biological Magnification",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2020,
+        2019,
+        2017,
+        2015,
+        2012
+      ],
+      "body": "<p>Energy enters an ecosystem from the sun. Green plants in a terrestrial ecosystem capture only about <b>1 per cent</b> of the solar energy falling on their leaves and convert it into food energy. So if 10,000 J of sunlight falls on a plant, it stores about 100 J.</p><p>When a herbivore eats the plant, most of the energy it takes in is used up in digestion, in movement and in keeping warm, and a part is lost as heat. On average only <b>10 per cent</b> of the food eaten is turned into the eater's own body and so becomes available to the next level. This is the <b>10 per cent law</b>. Grass with 1000 J of stored energy gives the deer 100 J, and the lion that eats the deer gets only 10 J.</p><p>Two consequences follow. First, since so little energy passes each step, <b>food chains generally have only three or four trophic levels</b>; by the fifth level there is too little energy to support a population. Second, <b>energy flow is unidirectional</b>. The energy that a plant captures does not go back to the sun, and the energy that a deer takes from the grass does not return to the grass; at each step some is lost as heat to the surroundings and cannot be recovered. Matter, by contrast, is recycled by decomposers.</p><p>Worked calculation, the way the examiner wants it: in plants → rats → snakes → hawks, if the plants have 10,000 J, the rats get 10 per cent of that, 1000 J; the snakes get 100 J; the hawks get 10 J. Going the other way, if the third level receives 50 kJ, the second level had 500 kJ and the producers had 5000 kJ.</p><p><b>Biological magnification</b> is the other half of this section. Pesticides and other non-degradable chemicals sprayed on crops wash into the soil and water and are taken up by plants. They cannot be broken down or excreted, so they stay in the body. When a herbivore eats many plants, it collects all their pesticide; when a carnivore eats many herbivores, it collects all of theirs. The concentration therefore increases progressively at each trophic level, and the organism at the top of the chain gets the maximum concentration. Humans are at the top of many chains, which is why our grains, vegetables, fruits, milk and meat all carry pesticide residues that washing cannot remove.</p>",
+      "formulas": [
+        {
+          "expr": "Energy at level n+1 = 10% × energy at level n",
+          "where": [
+            [
+              "level n",
+              "any trophic level; the 10 per cent is an average, the rest is used in life processes or lost as heat"
+            ]
+          ]
+        },
+        {
+          "expr": "Energy stored by plants ≈ 1% of solar energy falling on leaves",
+          "where": [
+            [
+              "1%",
+              "so 10,000 J of sunlight → about 100 J of food energy"
+            ]
+          ]
+        },
+        {
+          "expr": "Pesticide concentration: T<sub>1</sub> < T<sub>2</sub> < T<sub>3</sub> < T<sub>4</sub> (biological magnification)",
+          "where": [
+            [
+              "T<sub>4</sub>",
+              "top carnivore, often the human, gets the maximum concentration"
+            ]
+          ]
+        }
+      ],
+      "tip": "Read carefully whether the number given is the energy at a level or the sunlight falling on the plants. Sunlight → plant is 1 per cent; every later step is 10 per cent. Show each step in the working, not just the final number."
+    },
+    {
+      "heading": "13.2 How do Our Activities Affect the Environment?",
+      "pyq_years": [
+        2025,
+        2024,
+        2016,
+        2014
+      ],
+      "body": "<p>Humans are part of the environment, not observers of it. Every activity, from farming to travelling to buying packaged goods, changes the environment in some way. NCERT picks two problems to study in detail: the depletion of the ozone layer, and the garbage we produce. Before those, it is worth having a clear picture of the general link between lifestyle and environmental damage, because the board paper asks about it in 1- and 2-mark questions.</p><p>An affluent lifestyle means more consumption: more packaging, more disposable items, more electricity, more vehicles, more chemicals in farming. Each of these adds waste or pollution. Industrialisation has deteriorated the environment in at least four ways the examiner accepts: it pollutes air with smoke and gases, pollutes water with effluents, produces mountains of solid waste, and cuts down forests for land and raw material. Excessive use of fertilisers and pesticides on crops adds a fifth: chemicals that enter food chains and reach us by biological magnification.</p><p>On the other side, some everyday choices are genuinely environment-friendly and the chapter's own exercise lists them: carrying cloth bags when shopping, switching off unnecessary lights and fans, walking or cycling to school instead of being dropped by scooter, using both sides of paper, and separating biodegradable from non-biodegradable waste. Questions built on this section are simple; they just want you to name the harm and suggest a practical alternative. Organic farming, which avoids synthetic pesticides, is the one option in a recent MCQ that does not damage the environment.</p><p>Read this section as a bridge. The two sub-sections that follow are the ones that carry the marks, and both are examples of the same idea: a convenient product (CFC refrigerants, plastic cups) whose waste nature cannot handle.</p>",
+      "formulas": [
+        {
+          "expr": "Human activity → waste or pollutant → non-degradable → accumulates or enters food chains",
+          "where": [
+            [
+              "examples",
+              "CFCs → ozone depletion; plastics → garbage; pesticides → biological magnification"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'one negative effect of an affluent lifestyle on the environment', a single clear sentence about increased waste or increased consumption of resources is enough for the mark."
+    },
+    {
+      "heading": "13.2.1 Ozone Layer and How it is Getting Depleted",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2020,
+        2017,
+        2016,
+        2015,
+        2012,
+        2011
+      ],
+      "body": "<p><b>Ozone</b> (O<sub>3</sub>) is a molecule made of three atoms of oxygen. Ordinary oxygen (O<sub>2</sub>) has two atoms and is essential for all aerobic life; ozone at ground level is a <b>deadly poison</b>. But high in the atmosphere ozone does a vital job: it absorbs the harmful <b>ultraviolet (UV) radiation</b> from the sun, which would otherwise reach the earth and cause skin cancer, cataracts and damage to plants and animals.</p><p><b>How ozone forms.</b> At the higher levels of the atmosphere, high-energy UV radiation splits molecular oxygen into free oxygen atoms. These very reactive atoms then combine with molecular oxygen to make ozone.</p><p>O<sub>2</sub> → (UV) → O + O<br>O + O<sub>2</sub> → O<sub>3</sub></p><p>Write both steps; the first alone is half the answer.</p><p><b>Depletion.</b> The amount of ozone in the atmosphere began to drop sharply in the <b>1980s</b>. The decrease was linked to synthetic chemicals called <b>chlorofluorocarbons (CFCs)</b>, used as refrigerants (in fridges and air-conditioners), in aerosol sprays and in fire extinguishers. CFCs are very stable; they drift up to the upper atmosphere, where UV breaks them and releases chlorine atoms that destroy ozone molecules. The thinning was most dramatic over Antarctica, the so-called ozone hole.</p><p><b>What was done.</b> In <b>1987</b> the <b>United Nations Environment Programme (UNEP)</b> forged an agreement, the Montreal Protocol, to freeze CFC production at 1986 levels. It is now mandatory for all manufacturers to make CFC-free refrigerators and air-conditioners throughout the world.</p><p><b>Why it is a cause for concern.</b> Less ozone means more UV reaching the ground: higher rates of skin cancer and cataracts in humans, weakened immune systems, damage to crops and plankton, and hence disturbance of food chains. A 3-mark answer needs the definition, the formation equations and the CFC link; a 5-mark answer adds the effects and the UNEP action.</p>",
+      "formulas": [
+        {
+          "expr": "O<sub>2</sub> → (UV) → O + O; then O + O<sub>2</sub> → O<sub>3</sub>",
+          "where": [
+            [
+              "UV",
+              "high-energy ultraviolet radiation acting on oxygen at the higher levels of the atmosphere"
+            ],
+            [
+              "O",
+              "free oxygen atom, very reactive"
+            ]
+          ]
+        },
+        {
+          "expr": "CFCs (chlorofluorocarbons) → ozone depletion; 1987 UNEP agreement froze CFC production at 1986 levels",
+          "where": [
+            [
+              "CFC uses",
+              "refrigerants, aerosol sprays, fire extinguishers"
+            ]
+          ]
+        }
+      ],
+      "tip": "The MCQ trap is the statement 'ozone is used as a refrigerant and in fire extinguishers'. That is CFCs, not ozone; ozone itself is a poison at ground level and a shield in the upper atmosphere."
+    },
+    {
+      "heading": "13.2.2 Managing the Garbage we Produce",
+      "pyq_years": [
+        2024,
+        2023,
+        2022,
+        2020,
+        2015,
+        2014,
+        2013
+      ],
+      "body": "<p>Improvements in our lifestyle have changed the amount and the kind of waste we make. Packaging, disposable items, plastics and electronic goods have made non-biodegradable waste the bigger problem. NCERT tells the story of the tea cup on Indian trains. Tea was once served in <b>kulhads</b>, disposable clay cups. These were biodegradable but making millions of them stripped fertile topsoil. They were replaced by <b>paper cups</b>, which need trees to be cut. Then came <b>plastic cups</b>, which are cheap and hygienic but non-biodegradable and pile up along every railway line. Each solution created a new problem, and the exam asks you to explain the harm at each step.</p><p><b>Why plastic bags are harmful.</b> They are non-biodegradable, so they persist for centuries; they choke drains and cause flooding; they are swallowed by cattle and marine animals, which die; burning them releases toxic gases; and their litter spoils soil and water. This is why many states have banned polythene bags. The alternatives are cloth, jute and paper bags, which are reusable or biodegradable.</p><p><b>Disposal methods.</b> Sort waste at home into two dustbins. Biodegradable kitchen and garden waste goes to <b>composting</b> or a vermicompost pit, which turns it into manure. Non-biodegradable waste is <b>recycled</b> where possible (paper, glass, metal, some plastics) or sent to a sanitary landfill. Some cities burn waste in incinerators, which reduces volume but can pollute the air. Sewage is treated at sewage treatment plants before the water is released.</p><p><b>How you can help.</b> The three Rs: <b>Reduce</b> (avoid disposable items and excess packaging), <b>Reuse</b> (cloth bags, refillable bottles, using old jars for storage) and <b>Recycle</b> (send paper, plastic, metal and glass for reprocessing). Add the practical habits: carrying your own bag, composting kitchen waste, not littering, and buying products with less packaging.</p><p>If a question asks why biodegradable and non-biodegradable wastes should go in separate bins, the answer is that they need different disposal: one can be composted, the other must be recycled or safely dumped, and mixing them makes both impossible and spreads the non-degradable waste into the soil.</p>",
+      "formulas": [
+        {
+          "expr": "Kulhad (topsoil loss) → paper cup (trees cut) → plastic cup (non-biodegradable litter)",
+          "where": [
+            [
+              "lesson",
+              "each 'improvement' created a new environmental cost"
+            ]
+          ]
+        },
+        {
+          "expr": "Reduce → Reuse → Recycle; biodegradable → compost; non-biodegradable → recycle or landfill",
+          "where": [
+            [
+              "compost",
+              "biodegradable waste broken down by micro-organisms into manure"
+            ]
+          ]
+        }
+      ],
+      "tip": "For a 3-mark 'harmful effects of plastic bags and alternatives' question, give at least three distinct effects (drains, animals, toxic gas on burning) and two named alternatives (cloth, jute). Students usually give one effect and lose two marks."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Environment",
+      "definition": "Everything that surrounds an organism: the living (biotic) and non-living (abiotic) things around it with which it interacts."
+    },
+    {
+      "term": "Biodegradable substance",
+      "definition": "A substance that can be broken down into simpler harmless substances by biological processes, chiefly the enzymes of bacteria and other saprophytes; for example paper, wood, cotton, cow dung."
+    },
+    {
+      "term": "Non-biodegradable substance",
+      "definition": "A substance that is not broken down by biological processes because enzymes are specific and cannot act on it; plastics, glass, DDT and polyester persist in the environment for a long time."
+    },
+    {
+      "term": "Ecosystem",
+      "definition": "All the organisms in a given area interacting with each other and with the non-living constituents of that area; a pond, a forest, a garden or an aquarium."
+    },
+    {
+      "term": "Biotic and abiotic components",
+      "definition": "Biotic components are the living parts of an ecosystem (plants, animals, micro-organisms); abiotic components are the physical factors (temperature, rainfall, wind, soil, minerals, sunlight)."
+    },
+    {
+      "term": "Producer",
+      "definition": "An organism such as a green plant or blue-green alga that makes its own food from sunlight by photosynthesis and forms the first trophic level of every food chain."
+    },
+    {
+      "term": "Consumer",
+      "definition": "An organism that depends on producers directly or indirectly for food; herbivores, carnivores, omnivores and parasites are all consumers."
+    },
+    {
+      "term": "Decomposer",
+      "definition": "A micro-organism, chiefly bacteria and fungi, that breaks down the dead remains and wastes of organisms into simple inorganic substances that return to the soil and are reused by plants."
+    },
+    {
+      "term": "Food chain",
+      "definition": "A series of organisms in which each organism feeds on the one before it, transferring food energy from producers through consumers; for example grass → deer → lion."
+    },
+    {
+      "term": "Trophic level",
+      "definition": "Each step or level of a food chain at which the transfer of food energy takes place; producers occupy the first, herbivores the second, small carnivores the third and large carnivores the fourth."
+    },
+    {
+      "term": "Food web",
+      "definition": "A network of many interconnected food chains in an ecosystem, formed because most organisms eat and are eaten by more than one kind of organism."
+    },
+    {
+      "term": "10 per cent law",
+      "definition": "On average only 10 per cent of the food energy taken in at one trophic level is stored in the body and made available to the next trophic level; the rest is used in life processes or lost as heat."
+    },
+    {
+      "term": "Biological magnification",
+      "definition": "The progressive increase in the concentration of non-degradable chemicals such as pesticides at successive trophic levels of a food chain, so that the top consumer carries the highest concentration."
+    },
+    {
+      "term": "Ozone",
+      "definition": "A molecule of three oxygen atoms, O<sub>3</sub>, formed by the action of UV radiation on oxygen in the upper atmosphere; a poison at ground level but a shield against UV radiation at higher levels."
+    },
+    {
+      "term": "Chlorofluorocarbons (CFCs)",
+      "definition": "Stable synthetic compounds of chlorine, fluorine and carbon used as refrigerants and in fire extinguishers and aerosols, held responsible for the depletion of the ozone layer since the 1980s."
+    },
+    {
+      "term": "UNEP agreement of 1987",
+      "definition": "The agreement forged by the United Nations Environment Programme (the Montreal Protocol) to freeze CFC production at 1986 levels; CFC-free refrigerators are now mandatory worldwide."
+    },
+    {
+      "term": "Composting",
+      "definition": "Converting biodegradable waste such as kitchen and garden refuse into manure by letting micro-organisms (and in vermicomposting, earthworms) break it down."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "10 per cent law",
+      "expr": "Energy at next trophic level = 10% of energy at the present level",
+      "note": "Grass 1000 J → deer 100 J → lion 10 J; work backwards by multiplying by 10"
+    },
+    {
+      "name": "Solar energy captured by plants",
+      "expr": "≈ 1% of sunlight falling on the leaves",
+      "note": "10,000 J of sunlight → about 100 J stored as food; do not confuse this 1% with the 10% between levels"
+    },
+    {
+      "name": "Length of food chains",
+      "expr": "Usually 3 to 4 trophic levels",
+      "note": "Because the energy loss at each step is so great that too little remains to support a fifth level"
+    },
+    {
+      "name": "Direction of energy flow",
+      "expr": "Sun → producers → herbivores → carnivores → (heat lost); never reverses",
+      "note": "Energy flow is unidirectional; matter is recycled through decomposers"
+    },
+    {
+      "name": "Formation of ozone",
+      "expr": "O<sub>2</sub> → (UV) → O + O; O + O<sub>2</sub> → O<sub>3</sub>",
+      "note": "In the upper atmosphere; high-energy UV splits O<sub>2</sub>, free O atoms join O<sub>2</sub>"
+    },
+    {
+      "name": "Ozone depletion timeline",
+      "expr": "Sharp drop noticed in the 1980s; cause CFCs; UNEP agreement 1987 froze production at 1986 levels",
+      "note": "CFCs were used as refrigerants and in fire extinguishers"
+    },
+    {
+      "name": "Biological magnification order",
+      "expr": "Pesticide concentration: producer < herbivore < carnivore < top carnivore (human)",
+      "note": "Residues in grains, vegetables, fruit, milk and meat cannot be removed by washing"
+    },
+    {
+      "name": "Two kinds of substance",
+      "expr": "Biodegradable: paper, wood, cotton, wool, leather, cow dung, vegetable peels; Non-biodegradable: plastic, polythene, glass, DDT, nylon, polyester, metals",
+      "note": "Enzymes are specific, which is why man-made materials are not broken down"
+    },
+    {
+      "name": "Components of an ecosystem",
+      "expr": "Biotic (producers, consumers, decomposers) + Abiotic (light, temperature, water, air, soil, minerals)",
+      "note": "Natural: forest, pond, lake; artificial: garden, crop field, aquarium"
+    },
+    {
+      "name": "Waste management rule",
+      "expr": "Reduce → Reuse → Recycle; two dustbins; compost the biodegradable, recycle or landfill the rest",
+      "note": "Kulhad → paper cup → plastic cup shows each fix created a new cost"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Block diagram of energy flow in an ecosystem",
+      "how_to_draw": "Draw a box for the Sun at the top left with an arrow to a box labelled Producers (green plants, T1). From it draw arrows in one direction to Herbivores (T2), then Carnivores (T3), then Top carnivores (T4). From every box draw a small arrow downwards labelled 'heat lost to the environment' and one arrow to a box labelled Decomposers at the bottom, which sends nutrients back to the soil with a dotted arrow. Write '1% of solar energy' on the Sun → Producers arrow and '10%' on each later arrow. The single-direction arrows are what earn the 'unidirectional' mark."
+    },
+    {
+      "title": "A four-step terrestrial food chain with trophic levels",
+      "how_to_draw": "Write grass → grasshopper → frog → snake in a straight line with arrows pointing from the food to the eater. Under each write its trophic level (T1 producer, T2 primary consumer or herbivore, T3 secondary consumer, T4 tertiary consumer). If the question gives energy, write the values above each organism (for example 10,000 J, 1000 J, 100 J, 10 J)."
+    },
+    {
+      "title": "A grassland food web",
+      "how_to_draw": "Put grass at the bottom. Draw arrows from grass to grasshopper, rabbit and deer. From grasshopper draw arrows to frog and to a small bird; from rabbit and frog to snake; from deer, rabbit and snake to the hawk or the lion at the top. Every arrow points from the organism eaten to the organism eating it. Show at least two organisms with more than one arrow leaving them, because that interlinking is what makes it a web rather than a chain."
+    },
+    {
+      "title": "Formation of ozone in the upper atmosphere",
+      "how_to_draw": "Draw the Sun with a wavy arrow labelled 'high-energy UV radiation' hitting an O2 molecule drawn as two joined circles. Show it splitting into two separate O atoms. Next, show one O atom joining another O2 molecule to form O3 drawn as three joined circles. Write the two equations beneath: O2 → (UV) → O + O and O + O2 → O3. Label the region 'higher levels of the atmosphere'."
+    },
+    {
+      "title": "Biological magnification along a food chain",
+      "how_to_draw": "Draw a pond food chain: aquatic plants → small fish → large fish → fish-eating bird (or human). Above each, draw a small bar that gets taller at each step, labelled with increasing pesticide concentration (for example 0.01 ppm, 0.1 ppm, 1 ppm, 10 ppm as illustrative values). Add a note 'pesticide sprayed on crops washes into the pond' with an arrow into the water. The rising bars show the progressive accumulation."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "intext",
+      "number": "p.214 Q1",
+      "q": "What are trophic levels? Give an example of a food chain and state the different trophic levels in it.",
+      "a": "<p>Each step or level of a food chain at which the transfer of food energy takes place is called a trophic level. Example: grass → grasshopper → frog → snake. Grass is the producer at the first trophic level; the grasshopper, a herbivore, is the primary consumer at the second; the frog, a small carnivore, is the secondary consumer at the third; and the snake, a larger carnivore, is the tertiary consumer at the fourth trophic level.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "intext",
+      "number": "p.214 Q2",
+      "q": "What is the role of decomposers in the ecosystem?",
+      "a": "<p>Decomposers are micro-organisms such as bacteria and fungi that break down the dead remains and waste products of organisms into simple inorganic substances. Their roles: (i) they clean the environment by removing dead bodies and waste, (ii) they release the nutrients locked in dead matter back into the soil, water and air so that producers can use them again, and (iii) they thus keep the soil fertile and maintain the cycle of matter in the ecosystem. Without them nutrients would stay trapped in dead matter and the ecosystem would run down.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "intext",
+      "number": "p.216 Q1",
+      "q": "What is ozone and how does it affect any ecosystem?",
+      "a": "<p>Ozone, O<sub>3</sub>, is a molecule formed of three atoms of oxygen. It is formed in the upper atmosphere when high-energy UV radiation splits molecular oxygen into free atoms which then combine with O<sub>2</sub>: O<sub>2</sub> → (UV) → O + O, and O + O<sub>2</sub> → O<sub>3</sub>. At ground level ozone is a deadly poison, but the ozone layer high in the atmosphere absorbs the harmful ultraviolet radiation of the sun and stops it reaching the earth. It thus protects all organisms in every ecosystem from UV damage such as skin cancer in humans, cataracts, damage to crops and harm to plankton at the base of aquatic food chains.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "intext",
+      "number": "p.216 Q2",
+      "q": "How can you help in reducing the problem of waste disposal? Give any two methods.",
+      "a": "<p>(i) Separate waste at home into biodegradable and non-biodegradable and compost the biodegradable kitchen and garden waste to make manure. (ii) Reduce, reuse and recycle: avoid disposable plastic items and excess packaging, carry cloth bags, reuse bottles and containers, and send paper, glass, metal and plastic for recycling. (Any two; other accepted answers: avoid burning waste, use kulhads or paper instead of plastic, buy products with minimal packaging.)</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "13.1",
+      "q": "Which of the following groups contain only biodegradable items? (a) Grass, flowers and leather (b) Grass, wood and plastic (c) Fruit-peels, cake and lime-juice (d) Cake, wood and grass",
+      "a": "<p>(a), (c) and (d). Grass, flowers, leather, fruit peels, cake, lime juice and wood all come from living things and are broken down by micro-organisms. Group (b) contains plastic, which is non-biodegradable, so (b) is excluded. Note that leather is biodegradable.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "13.2",
+      "q": "Which of the following constitute a food-chain? (a) Grass, wheat and mango (b) Grass, goat and human (c) Goat, cow and elephant (d) Grass, fish and goat",
+      "a": "<p>(b) Grass, goat and human. Grass is the producer, the goat eats grass and the human eats the goat: grass → goat → human. In (a) all three are producers, in (c) all are herbivores, and in (d) a fish does not eat grass nor does a goat eat fish, so none of these form a chain.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "13.3",
+      "q": "Which of the following are environment-friendly practices? (a) Carrying cloth-bags to put purchases in while shopping (b) Switching off unnecessary lights and fans (c) Walking to school instead of getting your mother to drop you on her scooter (d) All of the above",
+      "a": "<p>(d) All of the above. Cloth bags avoid plastic waste, switching off lights and fans saves electricity and the fuel burnt to generate it, and walking avoids the petrol and exhaust of a scooter journey.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "13.4",
+      "q": "What will happen if we kill all the organisms in one trophic level?",
+      "a": "<p>The whole food chain will be disturbed. The organisms of the next higher trophic level will lose their food and starve, so their number will fall. The organisms of the trophic level just below will have no predator, so their number will rise sharply and they will over-consume their own food. For example, in grass → deer → lion, killing all the deer starves the lions while the grass grows unchecked. The energy flow through that chain stops, and the balance of the ecosystem is upset.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "13.5",
+      "q": "Will the impact of removing all the organisms in a trophic level be different for different trophic levels? Can the organisms of any trophic level be removed without causing any damage to the ecosystem?",
+      "a": "<p>Yes, the impact differs. Removing the producers is the most serious: every other level depends on them for energy, so the whole ecosystem collapses. Removing the herbivores starves the carnivores and lets the plants grow unchecked. Removing the top carnivores lets the herbivores multiply, overgraze and destroy the vegetation, which then affects everything. In a food web the damage from losing one level is smaller than in a simple chain because alternative food sources exist, but it is never zero. No trophic level can be removed without causing damage, since every level is linked to the ones above and below it by the flow of energy.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "13.6",
+      "q": "What is biological magnification? Will the levels of this magnification be different at different levels of the ecosystem?",
+      "a": "<p>Biological magnification is the progressive increase in the concentration of harmful non-degradable chemicals, such as pesticides, in the bodies of organisms at successive trophic levels of a food chain. Pesticides sprayed on crops wash into soil and water, are absorbed by plants, and pass to herbivores and then to carnivores; because they cannot be broken down or excreted, each level accumulates all the chemical of the many organisms it eats. Yes, the level of magnification is different at different trophic levels: it is lowest in the producers and increases at each step, so the organism at the top of the chain, often the human, carries the maximum concentration.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "13.7",
+      "q": "What are the problems caused by the non-biodegradable wastes that we generate?",
+      "a": "<p>(i) They cannot be broken down by micro-organisms, so they persist for hundreds of years and accumulate in the environment. (ii) Plastics choke drains and cause flooding, and pollute soil and water bodies. (iii) Animals such as cattle and marine creatures swallow plastic bags and die. (iv) Burning plastics releases toxic gases. (v) Non-degradable chemicals such as pesticides enter food chains and get concentrated by biological magnification, harming organisms at the top including humans. (vi) They occupy huge land areas as landfills.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "13.8",
+      "q": "If all the waste we generate is biodegradable, will this have no impact on the environment?",
+      "a": "<p>It would still have an impact. Biodegradable waste is broken down only slowly and only if micro-organisms are present in enough numbers. When we produce it faster than it decomposes, it piles up, gives off a foul smell and gases such as methane, becomes a breeding ground for flies, mosquitoes and disease-causing organisms, and its leachate can pollute water. Decomposition also consumes oxygen, which harms aquatic life when the waste enters water bodies. So even purely biodegradable waste must be managed, for example by composting, and its quantity reduced.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "13.9",
+      "q": "Why is damage to the ozone layer a cause for concern? What steps are being taken to limit this damage?",
+      "a": "<p>The ozone layer in the upper atmosphere absorbs the harmful ultraviolet radiation of the sun. Damage to it lets more UV reach the earth, which causes skin cancer and cataracts in humans, weakens the immune system, damages crops and kills plankton, upsetting aquatic food chains. The depletion, noticed in the 1980s, is caused by chlorofluorocarbons (CFCs) used as refrigerants and in fire extinguishers. Steps taken: in 1987 the United Nations Environment Programme (UNEP) forged an agreement (the Montreal Protocol) to freeze CFC production at 1986 levels, and it is now mandatory for all manufacturers to make CFC-free refrigerators and air-conditioners. Substitutes for CFCs are being used and public awareness is being spread.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following groups contains only non-biodegradable substances?",
+      "options": [
+        "Wood, paper, leather",
+        "Polythene, detergent, grass",
+        "DDT, polyester, glass",
+        "Plastic, wool, cotton"
+      ],
+      "answer": "c",
+      "solution": "DDT, polyester and glass are all man-made or mineral materials that bacterial enzymes cannot break down. Every other option has at least one biodegradable item (wood, paper, leather, grass, wool, cotton)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is not a natural ecosystem?",
+      "options": [
+        "Forest ecosystem",
+        "Pond ecosystem",
+        "Lake ecosystem",
+        "Cropland ecosystem"
+      ],
+      "answer": "d",
+      "solution": "A crop field is made and maintained by humans, so it is an artificial or man-made ecosystem. Forests, ponds and lakes form on their own."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In a food chain, the third trophic level receives 50 kJ of energy. Applying the 10 per cent law, the energy available at the producer level was",
+      "options": [
+        "5 kJ",
+        "500 kJ",
+        "50 kJ",
+        "5000 kJ"
+      ],
+      "answer": "d",
+      "solution": "Each level receives 10 per cent of the previous one, so go backwards by multiplying by 10: second level 500 kJ, producer level 5000 kJ."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In which of the following food chains is the second trophic level missing?",
+      "options": [
+        "Grass, grasshopper, frog, snake",
+        "Plants, deer, lion",
+        "Tiger, grass, snake, frog",
+        "Grass, rabbit, hawk"
+      ],
+      "answer": "c",
+      "solution": "Arranged as a chain, grass → frog → snake → tiger has no herbivore: the frog eats insects, not grass. In every other option the second organism is a herbivore."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2020",
+      "marks": 1,
+      "q": "With regard to the various food chains operating in an ecosystem, man is a",
+      "options": [
+        "Producer",
+        "Herbivore",
+        "Omnivore",
+        "Decomposer"
+      ],
+      "answer": "c",
+      "solution": "Humans eat both plants (grains, vegetables) and animals (meat, fish), so they are omnivores and can occupy the second, third or fourth trophic level in different chains."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following statements about ozone is incorrect?",
+      "options": [
+        "Ozone is a molecule made of three atoms of oxygen",
+        "Ozone at ground level is a deadly poison",
+        "Ozone is used as a refrigerant and in fire extinguishers",
+        "Ozone in the upper atmosphere shields the earth from ultraviolet radiation"
+      ],
+      "answer": "c",
+      "solution": "Refrigerants and fire extinguishers used CFCs, the very chemicals that destroy ozone. The other three statements are straight from NCERT."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following organisms are always found at the second trophic level of a food chain?",
+      "options": [
+        "Carnivores",
+        "Herbivores",
+        "Autotrophs",
+        "Decomposers"
+      ],
+      "answer": "b",
+      "solution": "Producers are always at the first level, and the organisms that eat producers, the herbivores or primary consumers, are always at the second."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following food chains makes the most energy available to the human at its end?",
+      "options": [
+        "Plants → goat → man",
+        "Plants → insect → frog → man",
+        "Plants → man",
+        "Plants → fish → bird → man"
+      ],
+      "answer": "c",
+      "solution": "Every extra trophic level loses 90 per cent of the energy. The shortest chain, plants → man, has only one transfer, so the human gets 10 per cent of the plant energy instead of 1 per cent or 0.1 per cent."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Pesticides sprayed on a crop are eventually found in the highest concentration in",
+      "options": [
+        "the soil of the field",
+        "the crop plants",
+        "the herbivores that eat the crop",
+        "the top carnivores of the food chain"
+      ],
+      "answer": "d",
+      "solution": "By biological magnification the non-degradable pesticide accumulates at each trophic level, so the organism at the top of the chain has the maximum concentration."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The concentration of harmful chemicals such as pesticides is highest in tertiary consumers. Reason (R): Non-biodegradable chemicals accumulate progressively at each trophic level of a food chain.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "This is biological magnification: the progressive accumulation described in R is exactly why the top consumer ends up with the highest concentration."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Food chains generally consist of only three or four trophic levels. Reason (R): Only about 10 per cent of the energy at one trophic level is transferred to the next.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Because 90 per cent is lost at every step, very little energy is left after four levels, so a fifth level cannot be supported. R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Bacteria and fungi are called decomposers. Reason (R): They break down the complex organic substances in dead remains into simple inorganic substances that go back into the soil.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "That breakdown of dead organic matter into inorganic nutrients is the definition of a decomposer, so R is the correct explanation."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Ozone at ground level is a deadly poison. Reason (R): Ozone in the upper atmosphere absorbs the harmful ultraviolet radiation of the sun.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "b",
+      "solution": "Both statements are true NCERT facts, but the protective role of ozone high up has nothing to do with why it is poisonous to breathe at ground level."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The flow of energy in an ecosystem is unidirectional. Reason (R): The energy captured by autotrophs does not revert to the sun, and the energy passed to herbivores does not come back to the autotrophs.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "R is the NCERT justification for A: energy moves forward through the trophic levels, some being lost as heat at every step, and never returns."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A garden is an ecosystem. Justify this statement.",
+      "answer": "<p>An ecosystem is all the organisms of an area interacting with each other and with the non-living constituents of that area. A garden has biotic components: plants as producers, insects, birds and earthworms as consumers, and soil bacteria and fungi as decomposers. It also has abiotic components: sunlight, soil, water, air and temperature. These living and non-living parts interact (plants use sunlight and soil minerals, insects feed on plants, decomposers return nutrients to the soil), so a garden is an ecosystem, though an artificial one since it is made and maintained by humans.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A pond does not need to be cleaned, but an aquarium has to be cleaned regularly. Give reason.",
+      "answer": "<p>A pond is a complete, self-sustaining natural ecosystem. It has producers (aquatic plants and algae), consumers and decomposers (bacteria and fungi), so the waste and dead matter in it are broken down and the nutrients are recycled; it also has natural inflow and outflow of water. An aquarium is an incomplete artificial ecosystem: it has fish and perhaps a few plants but no decomposers and no natural water exchange. Fish excreta and uneaten food therefore accumulate, foul the water and use up oxygen, so it must be cleaned by hand.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State two differences between biodegradable and non-biodegradable substances. Suggest one safe method of disposal for each.",
+      "answer": "<p>Differences: (i) Biodegradable substances are broken down into simpler substances by micro-organisms; non-biodegradable substances are not broken down because enzymes are specific and cannot act on them. (ii) Biodegradable substances (paper, cotton, vegetable waste) decompose in weeks or months and their material returns to the soil; non-biodegradable substances (plastic, glass, DDT) persist for a very long time and accumulate. Disposal: biodegradable waste should be composted or vermicomposted into manure; non-biodegradable waste should be recycled (paper, glass, metal, plastic) or sent to a sanitary landfill.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why do food chains generally consist of only three or four steps?",
+      "answer": "<p>Only about 10 per cent of the energy at one trophic level is stored in the body of the organisms and passed to the next level; the remaining 90 per cent is used in the organism's own life processes and lost as heat to the environment. The energy available therefore falls very sharply at each step: if the producers have 10,000 J, the herbivores get 1000 J, the small carnivores 100 J and the large carnivores only 10 J. After three or four steps so little energy remains that it cannot support another population, so food chains rarely have more than four trophic levels.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is ozone? What is its function in the upper atmosphere? Name the group of compounds responsible for its depletion.",
+      "answer": "<p>Ozone is a molecule made of three atoms of oxygen, O<sub>3</sub>, formed in the upper atmosphere by the action of UV radiation on oxygen. Its function is to absorb the harmful ultraviolet radiation of the sun and prevent it from reaching the earth, where it would cause skin cancer and other damage to living organisms. The compounds responsible for its depletion are chlorofluorocarbons (CFCs), used as refrigerants and in fire extinguishers.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Name the phenomenon by which harmful chemicals such as pesticides get progressively accumulated in a food chain. Explain why the concentration of such chemicals is maximum in human beings.",
+      "answer": "<p>The phenomenon is biological magnification. Pesticides sprayed on crops to protect them wash into the soil and water bodies and are absorbed by plants along with water and minerals. These chemicals are non-biodegradable, so once inside a body they are neither broken down nor excreted. When a herbivore eats many plants, it collects all the pesticide those plants contained; when a carnivore eats many herbivores, it collects all of theirs. The concentration therefore increases at every trophic level. Human beings occupy the top of most food chains, eating grains, vegetables, fruits, milk, eggs and meat, so all the pesticide accumulated along these chains reaches us, and our bodies carry the maximum concentration. Washing food does not remove these residues because they are inside the tissues.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "(a) Construct a food chain of four trophic levels using the organisms hawk, snake, plants and rat. (b) If 10,000 J of energy is available at the producer level of this chain, how much energy will be available to the hawk? Show the calculation.",
+      "answer": "<p>(a) Plants → rat → snake → hawk. Plants are the producers (T<sub>1</sub>), the rat is the herbivore or primary consumer (T<sub>2</sub>), the snake is the secondary consumer (T<sub>3</sub>) and the hawk is the tertiary consumer (T<sub>4</sub>).</p><p>(b) By the 10 per cent law, each trophic level receives 10 per cent of the energy of the previous level.<br>Plants: 10,000 J<br>Rat: 10% of 10,000 = 1000 J<br>Snake: 10% of 1000 = 100 J<br>Hawk: 10% of 100 = 10 J<br>So 10 J of energy is available to the hawk.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain how the ozone layer is formed in the upper atmosphere. Why did its amount begin to drop in the 1980s, and what was done about it?",
+      "answer": "<p>Formation: high-energy ultraviolet radiation from the sun splits molecular oxygen in the upper atmosphere into free oxygen atoms; these reactive atoms combine with molecular oxygen to form ozone.<br>O<sub>2</sub> → (UV) → O + O<br>O + O<sub>2</sub> → O<sub>3</sub><br>Depletion: in the 1980s the amount of ozone began to fall sharply. The cause was chlorofluorocarbons (CFCs), synthetic chemicals used as refrigerants and in fire extinguishers, which rise to the upper atmosphere and release chlorine that destroys ozone.<br>Action: in 1987 the United Nations Environment Programme (UNEP) forged an agreement to freeze CFC production at 1986 levels, and it is now mandatory for manufacturers worldwide to make CFC-free refrigerators.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Differentiate between a food chain and a food web. In the food web of a forest, what would happen to the populations of the other organisms if the number of deer decreased sharply?",
+      "answer": "<p>A food chain is a single straight sequence of organisms in which each feeds on the previous one (grass → deer → tiger). A food web is a network of many interlinked food chains, formed because most organisms eat more than one kind of food and are eaten by more than one kind of predator. A food chain shows only one pathway of energy flow; a food web shows all the alternative pathways and so is more stable.</p><p>If the deer decreased sharply: the grass and other plants the deer grazed on would increase because they are eaten less. The tigers, leopards and other predators of deer would face a shortage and would either decline in number or switch to other prey such as rabbits and wild boar, whose numbers would then fall. Because the forest is a web, the predators do not die out immediately as they would in a simple chain, but the balance of every connected population shifts.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "(a) List two harmful effects of plastic bags on the environment and suggest two alternatives. (b) Why should the wastes of a household be collected in two separate dustbins?",
+      "answer": "<p>(a) Harmful effects: (i) plastic bags are non-biodegradable, so they persist for centuries and choke drains, causing water-logging and flooding; (ii) stray cattle and marine animals swallow them and die; burning them releases toxic gases. Alternatives: cloth bags and jute bags, which are reusable, or paper bags, which are biodegradable.</p><p>(b) Biodegradable and non-biodegradable wastes need different treatment. Kitchen and garden waste can be composted into manure, while plastic, glass and metal must be recycled or sent to a landfill. If the two are mixed, the biodegradable waste cannot be composted cleanly and the non-biodegradable pieces are spread into the soil. Separate bins make both disposal methods possible and reduce pollution.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2020",
+      "marks": 5,
+      "q": "(a) Write a food chain of four trophic levels operating in a terrestrial ecosystem. (b) What will happen if all the organisms of the second trophic level are removed from this chain? (c) If 2000 J of energy is available at the second trophic level, how much energy will be available at the fourth trophic level? Show the working.",
+      "answer": "<p>(a) Grass → grasshopper → frog → snake. Grass is the producer (first trophic level), the grasshopper the herbivore (second), the frog the secondary consumer (third) and the snake the tertiary consumer (fourth).</p><p>(b) If all the grasshoppers (second trophic level) are removed, the frogs lose their food and starve, so their number falls, and in turn the snakes that feed on frogs also decline. At the same time the grass, no longer eaten by grasshoppers, grows unchecked. The flow of energy from the producers to the higher levels stops and the balance of the ecosystem is upset.</p><p>(c) By the 10 per cent law, each level receives 10 per cent of the previous level.<br>Second level (grasshopper): 2000 J<br>Third level (frog): 10% of 2000 = 200 J<br>Fourth level (snake): 10% of 200 = 20 J<br>Energy available at the fourth trophic level = 20 J.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Define an ecosystem and name its two main components. Draw a block diagram to show the flow of energy in an ecosystem. State two reasons why the flow of energy in an ecosystem is unidirectional.",
+      "answer": "<p><b>Ecosystem:</b> all the organisms in a given area, interacting with each other and with the non-living constituents of that area, form an ecosystem. Its two components are the biotic components (producers, consumers and decomposers) and the abiotic components (light, temperature, water, air, soil and minerals).</p><p><b>Block diagram:</b> Sun → Producers (green plants) → Herbivores (primary consumers) → Carnivores (secondary consumers) → Top carnivores (tertiary consumers). Every box has a side arrow labelled 'heat lost' and an arrow to a box labelled Decomposers, which returns nutrients to the soil. Mark 1 per cent on the Sun → Producers arrow and 10 per cent on each later arrow; all arrows point one way.</p><p><b>Why unidirectional:</b> (i) The solar energy captured by the producers does not go back to the sun, and the energy that passes from producers to herbivores and on to carnivores never returns to the earlier level. (ii) At every transfer a large part of the energy is used in the organism's life processes and is lost to the environment as heat, which cannot be recaptured by any organism. Energy therefore moves in one direction only, from the sun through the trophic levels to the environment.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Kulhads were replaced by paper cups and then by plastic cups for serving tea on trains. Explain the environmental problem at each stage. (b) List three practices you would adopt at home to reduce the problem of waste disposal.",
+      "answer": "<p>(a) Kulhads are disposable clay cups. They are biodegradable, but making them in millions removed large quantities of fertile topsoil, so they were replaced. Paper cups are also biodegradable, but their manufacture required cutting down trees, adding to deforestation. Plastic cups are cheap and hygienic but non-biodegradable: micro-organisms cannot break them down, so the used cups litter railway tracks and the countryside, choke drains, harm animals that swallow them and persist for centuries. Each replacement solved one problem and created another, which is the lesson of the chapter: a disposable product always has an environmental cost.</p><p>(b) At home: (i) keep two dustbins and separate biodegradable from non-biodegradable waste; (ii) compost kitchen and garden waste into manure; (iii) reduce, reuse and recycle: carry cloth bags, avoid disposable cups and plates, reuse bottles and containers, and send paper, glass, metal and plastic for recycling. (Also accepted: avoid excess packaging, do not burn waste, repair rather than replace items.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. In a grassland, grass is eaten by grasshoppers, rabbits and deer. Grasshoppers are eaten by frogs and small birds; rabbits and frogs are eaten by snakes; and hawks feed on snakes, small birds and rabbits. A farmer nearby sprays pesticide on his fields, and some of it washes into the grassland with the rain. Scientists measuring the energy of the grass find that it stores 20,000 J.<br>(i) Write the longest food chain in this grassland and state the trophic level of the hawk in it.<br>(ii) Which organism in the grassland will have the highest concentration of pesticide in its body? Name the phenomenon.<br>(iii) Using the 10 per cent law, calculate the energy available to a snake in the chain grass → rabbit → snake.<br>(iv) Why is the grassland described as a food web rather than a food chain?",
+      "answer": "<p>(i) Grass → grasshopper → frog → snake → hawk. The hawk is at the fifth trophic level (a top carnivore, the quaternary consumer).</p><p>(ii) The hawk, because it is at the top of the food web and eats snakes, birds and rabbits, each of which has already accumulated pesticide from what it ate. The phenomenon is biological magnification.</p><p>(iii) Grass: 20,000 J. Rabbit: 10% of 20,000 = 2000 J. Snake: 10% of 2000 = 200 J. The snake receives 200 J.</p><p>(iv) Because the feeding relationships are interlinked: grass is eaten by three different herbivores, the rabbit is eaten by both snakes and hawks, and the hawk eats three kinds of prey. Several food chains overlap and share organisms, which is the definition of a food web.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. A school canteen used to serve snacks on steel plates with steel tumblers for water. To save washing time it switched to disposable plastic plates and cups. Within a month the bins overflowed, stray dogs were seen chewing plastic near the gate, and the drain behind the canteen was blocked. The eco-club suggested switching to leaf plates and paper cups, and setting up a compost pit for leftover food.<br>(i) Classify the following canteen wastes as biodegradable or non-biodegradable: leftover rice, plastic cups, leaf plates, aluminium foil.<br>(ii) State two problems created by the plastic plates, as seen in the passage.<br>(iii) Why is it said that enzymes are responsible for the difference between the two kinds of waste?<br>(iv) Which of the three options, steel, disposable plastic or leaf plates with a compost pit, is best for the environment, and why?",
+      "answer": "<p>(i) Biodegradable: leftover rice, leaf plates. Non-biodegradable: plastic cups, aluminium foil.</p><p>(ii) The plastic waste piled up because it does not decompose, so the bins overflowed; animals chewed and could swallow the plastic; and the plastic blocked the drain behind the canteen.</p><p>(iii) Biodegradable substances are broken down by the enzymes released by bacteria and other saprophytes. Enzymes are specific in their action, so they can act on natural materials like rice and leaves but not on man-made molecules like plastic, which therefore stay unchanged.</p><p>(iv) Reusable steel plates are the best option: they produce no waste at all and only need washing (an example of Reuse). Leaf plates with composting are the next best because the waste is biodegradable and the compost returns nutrients to the soil. Disposable plastic is the worst since it creates non-biodegradable waste that persists and harms animals and drains.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of the following is a biodegradable substance?",
+      "options": [
+        "Polythene bag",
+        "Aluminium can",
+        "Woollen sweater",
+        "Glass bottle"
+      ],
+      "answer_index": 2,
+      "explanation": "Wool is an animal fibre and is broken down by micro-organisms; polythene, aluminium and glass are not."
+    },
+    {
+      "q": "Enzymes of bacteria cannot break down plastics because",
+      "options": [
+        "plastics are too hard",
+        "enzymes are specific in their action",
+        "plastics contain no carbon",
+        "bacteria cannot live near plastics"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT's reason: each enzyme acts only on a particular substrate, and none of the natural enzymes fits the man-made molecules of plastic."
+    },
+    {
+      "q": "Which of the following is an artificial ecosystem?",
+      "options": [
+        "Lake",
+        "Forest",
+        "Ocean",
+        "Aquarium"
+      ],
+      "answer_index": 3,
+      "explanation": "An aquarium is set up and maintained by humans; the other three form naturally."
+    },
+    {
+      "q": "In the food chain grass → insect → frog → snake, the frog is a",
+      "options": [
+        "producer",
+        "primary consumer",
+        "secondary consumer",
+        "tertiary consumer"
+      ],
+      "answer_index": 2,
+      "explanation": "Grass is the producer, the insect the primary consumer (herbivore), the frog the secondary consumer at the third trophic level and the snake the tertiary consumer."
+    },
+    {
+      "q": "Green plants occupy the first trophic level of every food chain because they",
+      "options": [
+        "are the most numerous organisms",
+        "are eaten by all animals",
+        "fix solar energy and make it available to consumers",
+        "have chlorophyll only in leaves"
+      ],
+      "answer_index": 2,
+      "explanation": "Producers are the only organisms that capture the sun's energy by photosynthesis, so all other levels depend on them."
+    },
+    {
+      "q": "About what fraction of the solar energy falling on green leaves is converted into food energy?",
+      "options": [
+        "1 per cent",
+        "10 per cent",
+        "50 per cent",
+        "90 per cent"
+      ],
+      "answer_index": 0,
+      "explanation": "NCERT states that terrestrial plants capture about 1 per cent of the solar energy falling on their leaves; the 10 per cent figure applies to transfer between trophic levels."
+    },
+    {
+      "q": "If the producers in a food chain have 5000 J of energy, the energy reaching the secondary consumer is",
+      "options": [
+        "500 J",
+        "50 J",
+        "5 J",
+        "0.5 J"
+      ],
+      "answer_index": 1,
+      "explanation": "Primary consumer gets 10% of 5000 = 500 J; secondary consumer gets 10% of 500 = 50 J."
+    },
+    {
+      "q": "The number of trophic levels in a food chain is limited because",
+      "options": [
+        "there are too few carnivores",
+        "decomposers eat the top consumers",
+        "energy decreases sharply at each higher level",
+        "plants stop photosynthesis in winter"
+      ],
+      "answer_index": 2,
+      "explanation": "Only 10 per cent of energy passes each step, so after three or four steps too little is left to support another population."
+    },
+    {
+      "q": "Decomposers are not shown as a separate step in a food chain because they",
+      "options": [
+        "are too small to matter",
+        "act on dead matter at every trophic level",
+        "are producers",
+        "do not need energy"
+      ],
+      "answer_index": 1,
+      "explanation": "Bacteria and fungi break down the dead remains of producers and consumers alike, so they work across the whole chain rather than at one level."
+    },
+    {
+      "q": "Which statement about energy and matter in an ecosystem is correct?",
+      "options": [
+        "Both flow in one direction",
+        "Both are recycled",
+        "Energy flows in one direction; matter is recycled",
+        "Matter flows in one direction; energy is recycled"
+      ],
+      "answer_index": 2,
+      "explanation": "Energy lost as heat cannot be recovered, so it moves one way; nutrients are returned to the soil by decomposers and used again."
+    },
+    {
+      "q": "A food web makes an ecosystem more stable than a single food chain because",
+      "options": [
+        "it has more producers",
+        "predators have alternative sources of food",
+        "it has no decomposers",
+        "energy is not lost as heat in a web"
+      ],
+      "answer_index": 1,
+      "explanation": "When one prey species declines, a predator in a web can switch to another, so the loss does not collapse the whole system."
+    },
+    {
+      "q": "Which of the following correctly shows the formation of ozone?",
+      "options": [
+        "O<sub>3</sub> → O<sub>2</sub> + O",
+        "O<sub>2</sub> + O<sub>2</sub> → O<sub>3</sub> + O",
+        "O<sub>2</sub> → (UV) → O + O; O + O<sub>2</sub> → O<sub>3</sub>",
+        "O + O + O → O<sub>3</sub>"
+      ],
+      "answer_index": 2,
+      "explanation": "UV first splits an oxygen molecule into atoms, and a free atom then joins another oxygen molecule to give O<sub>3</sub>."
+    },
+    {
+      "q": "The 1987 agreement forged by UNEP aimed to",
+      "options": [
+        "ban all pesticides",
+        "freeze CFC production at 1986 levels",
+        "stop the use of plastic bags",
+        "reduce the number of refrigerators"
+      ],
+      "answer_index": 1,
+      "explanation": "The agreement (Montreal Protocol) froze chlorofluorocarbon production at 1986 levels; CFC-free refrigerators are now mandatory."
+    },
+    {
+      "q": "Which of these health effects is linked to increased ultraviolet radiation reaching the earth?",
+      "options": [
+        "Skin cancer",
+        "Malaria",
+        "Scurvy",
+        "Anaemia"
+      ],
+      "answer_index": 0,
+      "explanation": "UV radiation damages skin cells and causes skin cancer; it is also linked to cataracts. The other three have nothing to do with UV."
+    },
+    {
+      "q": "Kulhads were replaced by paper cups on trains mainly because making kulhads",
+      "options": [
+        "was too expensive",
+        "used up fertile topsoil",
+        "produced non-biodegradable waste",
+        "needed trees to be cut"
+      ],
+      "answer_index": 1,
+      "explanation": "Kulhads are clay cups; producing them in millions stripped fertile topsoil. Cutting trees was the problem with paper cups."
+    },
+    {
+      "q": "Which of the following is the best way to handle kitchen waste at home?",
+      "options": [
+        "Burn it",
+        "Put it in a plastic bag and throw it in a drain",
+        "Compost it to make manure",
+        "Mix it with glass and metal waste"
+      ],
+      "answer_index": 2,
+      "explanation": "Kitchen waste is biodegradable and composting returns its nutrients to the soil; burning pollutes air and drains get choked."
+    },
+    {
+      "q": "Which of the following is a man-made ecosystem?",
+      "options": [
+        "River",
+        "Crop field",
+        "Grassland",
+        "Desert"
+      ],
+      "answer_index": 1,
+      "explanation": "A crop field is planted and maintained by farmers; rivers, grasslands and deserts occur naturally."
+    },
+    {
+      "q": "A lion receives 10 J of energy in the chain grass → deer → lion. The energy stored in the grass was",
+      "options": [
+        "100 J",
+        "1000 J",
+        "10,000 J",
+        "1 J"
+      ],
+      "answer_index": 1,
+      "explanation": "Work backwards multiplying by 10: deer 100 J, grass 1000 J."
+    }
+  ],
+  "common_mistakes": [
+    "Confusing the 1 per cent (sunlight captured by plants) with the 10 per cent (transfer between trophic levels). If the question gives solar energy, the first step is 1 per cent; if it gives energy at a trophic level, every step is 10 per cent.",
+    "Marking leather, wool, cotton or paper as non-biodegradable. Anything that came from a living thing is biodegradable; only man-made or mineral materials like plastic, glass, DDT and metal are not.",
+    "Drawing food-chain arrows from the eater to the food. Arrows show the direction of energy flow, from the organism eaten to the organism that eats it: grass → deer, never deer → grass.",
+    "Writing only the first ozone equation. The examiner wants both: O2 → (UV) → O + O, and O + O2 → O3. Also, do not write that ozone is used as a refrigerant; that was CFCs.",
+    "Defining an ecosystem as 'a place where plants and animals live'. The definition needs the word interacting and both components, living and non-living.",
+    "Answering 'What is biological magnification?' with a definition only. The marking scheme also wants the mechanism (chemicals are non-degradable, so they accumulate at each level) and the consequence (highest concentration at the top, in humans).",
+    "Saying energy is recycled in an ecosystem. Matter is recycled by decomposers; energy is lost as heat at every step and flows one way only.",
+    "Giving one harmful effect of plastic bags in a 3-mark question. Give at least three distinct effects (drains blocked, animals killed, toxic gases on burning, persistence) and name real alternatives (cloth, jute)."
+  ],
+  "strategy": "<p>This is the shortest biology chapter in the book and one of the most predictable. Plan for one focused evening, then ten-minute revisions.</p><p><b>What to memorise.</b> The definitions of ecosystem, food chain, trophic level, food web, decomposer, biodegradable and non-biodegradable, and biological magnification, each in one clean NCERT-style sentence. The two ozone equations and the three ozone facts: 1980s depletion, CFCs from refrigerants and fire extinguishers, 1987 UNEP agreement freezing production at 1986 levels. The lists: examples of natural versus artificial ecosystems and of biodegradable versus non-biodegradable substances.</p><p><b>What to practise.</b> The 10 per cent calculation both forwards and backwards until you can do it in your head, always writing each step. Two or three four-step food chains (terrestrial and aquatic) with trophic levels labelled. The block diagram of energy flow, drawn twice from memory. One food web with at least six organisms.</p><p><b>What to be able to explain in three lines each.</b> Why food chains have three or four steps; why energy flow is unidirectional; why a pond does not need cleaning but an aquarium does; what happens if one trophic level is removed; why humans get the highest pesticide dose; why plastic bags are banned and what replaces them; the kulhad, paper cup, plastic cup story.</p><p><b>In the exam.</b> These questions are quick. Answer them early in the paper to bank the marks, write in points, underline the key terms (interacting, 10 per cent, unidirectional, CFCs, biological magnification), and give a diagram wherever energy flow or a food chain is mentioned even if it is not asked; it usually earns a mark of its own.</p>",
+  "revision_checklist": [
+    "I can define environment, ecosystem, biotic and abiotic components in NCERT words and give two natural and two artificial ecosystems.",
+    "I can explain why a garden or crop field is an ecosystem and why a pond needs no cleaning while an aquarium does.",
+    "I can list producers, consumers (herbivores, carnivores, omnivores, parasites) and decomposers with the role of each.",
+    "I can state three roles of decomposers and two consequences of their absence.",
+    "I can write a four-step terrestrial food chain and an aquatic one, with the trophic level and consumer name of each organism.",
+    "I can draw a food web of at least six organisms and explain why a web is more stable than a chain.",
+    "I know that plants capture about 1 per cent of sunlight and that 10 per cent passes between trophic levels, and I can calculate energy forwards and backwards showing each step.",
+    "I can give two reasons why food chains are limited to three or four steps and two reasons why energy flow is unidirectional.",
+    "I can explain biological magnification with its mechanism and say why humans get the maximum concentration.",
+    "I can explain what happens when the organisms of any one trophic level are removed.",
+    "I can write both equations for ozone formation and state the role of ozone in the upper atmosphere versus at ground level.",
+    "I know the 1980s depletion, the CFCs from refrigerants and fire extinguishers, and the 1987 UNEP agreement freezing production at 1986 levels.",
+    "I can define biodegradable and non-biodegradable with three examples of each and the reason (enzymes are specific).",
+    "I can list three harmful effects of plastic bags, two alternatives, and the kulhad, paper cup, plastic cup story.",
+    "I can suggest three ways to reduce waste at home and explain why we keep two separate dustbins."
+  ],
+  "videos": [
+    {
+      "id": "FAPfEhOWkdY",
+      "title": "Our Environment · full chapter"
+    }
+  ]
+}

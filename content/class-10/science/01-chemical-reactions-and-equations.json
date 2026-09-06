@@ -1,0 +1,1327 @@
+{
+  "class": 10,
+  "subject": "Science",
+  "chapter_no": 1,
+  "slug": "chemical-reactions-and-equations",
+  "title": "Chemical Reactions and Equations",
+  "summary": "The chapter teaches you to write and balance chemical equations with states and conditions, to sort reactions into combination, decomposition, displacement, double displacement and redox, and to explain corrosion and rancidity. It is the first chemistry chapter of the Class 10 Science paper and the board draws on its NCERT activities year after year.",
+  "exam_profile": {
+    "weightage": "Class 10 Science is one 80-mark theory paper covering physics, chemistry and biology. This chapter sits in Unit I, Chemical Substances: Nature and Behaviour (Chapters 1 to 4), which carries 25 of the 80 marks. From Chapter 1 the paper typically draws one or two 1-mark items (MCQ or Assertion-Reason) plus one 2- or 3-mark question, so about 4 to 6 marks in a usual year; a 5-mark or case-based question built around an NCERT activity appears in some years.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Identify the type of reaction from an equation, pick the correctly balanced equation or the missing coefficients, name the gas or colour in an activity (brown fumes on heating lead nitrate, 2:1 volume ratio in electrolysis of water), spot the physical change among chemical changes."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Quicklime plus water is exothermic; silver chloride turns grey in sunlight; a balanced equation obeys the law of conservation of mass; decomposition reactions need energy; burning of natural gas is exothermic, not endothermic."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Translate a word statement into a balanced equation with states; give two observations for a reaction; state what rancidity is and two ways to prevent it; write the equation for quicklime and water and name the type."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Describe an NCERT activity with observations, balanced equation and type of reaction (ferrous sulphate, lead nitrate, silver chloride, copper heating, iron nail in copper sulphate); identify substances oxidised and reduced and the agents; distinguish displacement from double displacement with equations."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Define a balanced equation and explain why equations must be balanced, then balance a set; explain decomposition with heat, light and electricity, one equation each; account for a list of observations (silver chloride turning grey, copper turning black, colour change of copper sulphate) with equations."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on electrolysis of water (why dilute acid is added, which gas at which electrode, why the volumes are 2:1) or on the activities showing reaction types, followed by four sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Balancing equations by hit and trial, with state symbols and reaction conditions",
+      "Decomposition reactions: heating ferrous sulphate, lead nitrate and calcium carbonate; electrolysis of water; silver chloride in sunlight",
+      "Iron nail in copper sulphate and other displacement reactions, with reactivity reasoning",
+      "Double displacement: Na2SO4 + BaCl2 and Pb(NO3)2 + KI precipitation, neutralisation",
+      "Oxidation and reduction: copper to copper oxide and back, oxidising and reducing agents in ZnO + C and MnO2 + HCl",
+      "Exothermic and endothermic reactions with NCERT examples (quicklime, respiration, burning of methane, composting)",
+      "Corrosion and rancidity: what they are and how they are prevented",
+      "Observations that show a reaction has occurred: burning magnesium, zinc plus dilute acid, lead iodide precipitate"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Introduction: how do we know a chemical reaction has taken place?",
+      "pyq_years": [
+        2025,
+        2024,
+        2022,
+        2020
+      ],
+      "body": "<p>A chemical reaction is a change in which one or more substances (the reactants) turn into new substances (the products) with different properties. Milk turning into curd, food being digested, iron rusting and magnesium burning are all chemical changes. Melting of ice, dissolving sugar and boiling water are not: no new substance forms. A 2025 MCQ asked exactly this, and the answer was the melting of glaciers.</p><p><b>Activity 1.1, burning of a magnesium ribbon.</b> Clean a 2 cm piece with sandpaper, hold it with tongs and burn it over a watch-glass. It burns with a dazzling white flame and leaves a white powder, magnesium oxide: 2Mg(s) + O<sub>2</sub>(g) → 2MgO(s). The ribbon is cleaned because magnesium reacts slowly with air to form a dull protective layer (magnesium oxide and basic magnesium carbonate) that stops the metal underneath from burning readily.</p><p><b>Activity 1.2, lead nitrate and potassium iodide.</b> Two colourless solutions give a yellow precipitate of lead iodide: Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + 2KI(aq) → PbI<sub>2</sub>(s) + 2KNO<sub>3</sub>(aq).</p><p><b>Activity 1.3, zinc and dilute sulphuric acid.</b> Zinc granules in dilute H<sub>2</sub>SO<sub>4</sub> (or dilute HCl) give bubbles of hydrogen gas, and the test tube becomes warm: Zn(s) + H<sub>2</sub>SO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + H<sub>2</sub>(g).</p><p>From these, NCERT lists four observations that tell us a reaction has occurred: change in state, change in colour, evolution of a gas, and change in temperature. One is enough; often several appear together. In a 2-mark question, quote two observations and back each with the reaction, for example: bubbles of a colourless gas are seen and the tube gets warm when zinc is added to dilute sulphuric acid, so a gas has evolved and the temperature has changed.</p>",
+      "formulas": [
+        {
+          "expr": "2Mg(s) + O<sub>2</sub>(g) → 2MgO(s)",
+          "where": [
+            [
+              "MgO",
+              "white powder, magnesium oxide; dazzling white flame"
+            ]
+          ]
+        },
+        {
+          "expr": "Zn(s) + H<sub>2</sub>SO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + H<sub>2</sub>(g)",
+          "where": [
+            [
+              "H<sub>2</sub>",
+              "the gas that bubbles out; the tube warms, so the reaction is exothermic"
+            ]
+          ]
+        }
+      ],
+      "tip": "The examiner wants the observation and the equation together. Writing only that a reaction took place earns nothing; writing that the blue colour faded, or that a yellow precipitate formed, with the equation, earns the marks."
+    },
+    {
+      "heading": "1.1 Chemical Equations",
+      "pyq_years": [
+        2021
+      ],
+      "body": "<p>A chemical equation is the shorthand in which chemists write a reaction. Start with the word equation for burning magnesium: Magnesium + Oxygen → Magnesium oxide. The substances on the left of the arrow are the reactants, the substance on the right is the product, and the arrow points from reactants to products and is read as gives. A plus sign between reactants means they react together; a plus sign between products means they are formed together.</p><p>Word equations are long, and they do not say how much of each substance is involved. So we replace the names with chemical formulae: Mg + O<sub>2</sub> → MgO. This is shorter and every chemist in the world reads it the same way. But it is a skeletal (unbalanced) equation: there are two oxygen atoms on the left and one on the right. The next section fixes that.</p><p>A complete chemical equation tells you four things, and a 1-mark question can ask for any of them: which substances react and which are formed; the physical states of each (solid, liquid, gas or aqueous); the relative numbers of atoms and molecules taking part, which is what the coefficients mean; and the conditions such as heat, light, pressure or a catalyst written over the arrow. Practise reading an equation aloud: CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) reads as solid calcium oxide reacts with liquid water to give an aqueous solution of calcium hydroxide.</p>",
+      "formulas": [
+        {
+          "expr": "Reactants → Products",
+          "where": [
+            [
+              "→",
+              "read as gives; it shows the direction of the reaction"
+            ]
+          ]
+        }
+      ],
+      "tip": "A word equation is not accepted where the question asks for a chemical equation. Always give formulae, and balance them even when the question does not say so."
+    },
+    {
+      "heading": "1.1.1 and 1.1.2 Writing and balancing a chemical equation",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2020,
+        2019
+      ],
+      "body": "<p>Mass can neither be created nor destroyed in a chemical reaction (law of conservation of mass). Atoms are only rearranged, so the number of atoms of each element must be the same before and after the reaction. That is the one-line reason the board wants when it asks why equations must be balanced.</p><p><b>Hit-and-trial method, with the NCERT example.</b> Iron reacts with steam: Fe + H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + H<sub>2</sub>.<br>Step 1: draw a box around each formula; you may only change the numbers in front of the boxes, never the subscripts inside them.<br>Step 2: count atoms. Left: Fe 1, H 2, O 1. Right: Fe 3, H 2, O 4.<br>Step 3: start with the compound having the most atoms (Fe<sub>3</sub>O<sub>4</sub>) and pick one element, say oxygen. Four O on the right, so put 4 in front of H<sub>2</sub>O: Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + H<sub>2</sub>.<br>Step 4: hydrogen is now 8 on the left, so write 4H<sub>2</sub> on the right.<br>Step 5: iron is 3 on the right, so write 3Fe on the left.<br>Step 6: recount. Fe 3 = 3, H 8 = 8, O 4 = 4. Balanced: 3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>.</p><p><b>States.</b> Add (s) solid, (l) liquid, (g) gas and (aq) aqueous after each formula: 3Fe(s) + 4H<sub>2</sub>O(g) → Fe<sub>3</sub>O<sub>4</sub>(s) + 4H<sub>2</sub>(g). Steam is written H<sub>2</sub>O(g).</p><p><b>Conditions.</b> Write them above or below the arrow: heat as Δ, a catalyst, pressure, sunlight or electricity. NCERT gives N<sub>2</sub>(g) + 3H<sub>2</sub>(g) → 2NH<sub>3</sub>(g) with a catalyst at 200 atm, and photosynthesis, 6CO<sub>2</sub>(g) + 6H<sub>2</sub>O(l) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) + 6O<sub>2</sub>(g), with sunlight and chlorophyll over the arrow.</p><p>Balance these before the exam; each has been an MCQ: Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O; 2Al + 3H<sub>2</sub>O → Al<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub>; 2Pb(NO<sub>3</sub>)<sub>2</sub> → 2PbO + 4NO<sub>2</sub> + O<sub>2</sub>; 3Zn + 2H<sub>3</sub>PO<sub>4</sub> → Zn<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> + 3H<sub>2</sub>.</p>",
+      "formulas": [
+        {
+          "expr": "3Fe(s) + 4H<sub>2</sub>O(g) → Fe<sub>3</sub>O<sub>4</sub>(s) + 4H<sub>2</sub>(g)",
+          "where": [
+            [
+              "Fe<sub>3</sub>O<sub>4</sub>",
+              "iron(II,III) oxide; the NCERT balancing example, iron with steam"
+            ]
+          ]
+        },
+        {
+          "expr": "N<sub>2</sub>(g) + 3H<sub>2</sub>(g) → 2NH<sub>3</sub>(g)   (catalyst, 200 atm)",
+          "where": [
+            [
+              "200 atm",
+              "catalyst and pressure are reaction conditions, written over the arrow"
+            ]
+          ]
+        }
+      ],
+      "tip": "Never balance by changing a subscript: writing H<sub>2</sub>O<sub>2</sub> to balance oxygen changes water into hydrogen peroxide and loses all the marks. Balance a polyatomic ion such as SO<sub>4</sub> or NO<sub>3</sub> as one unit."
+    },
+    {
+      "heading": "1.2.1 Combination reaction, and exothermic reactions",
+      "pyq_years": [
+        2024,
+        2023,
+        2022,
+        2021,
+        2020
+      ],
+      "body": "<p>A combination reaction is one in which two or more substances combine to form a single product. <b>Activity 1.4</b> is the standard example: add water slowly to a few pieces of calcium oxide (quicklime) in a beaker and touch the beaker. It becomes hot, and the lumps turn into a white suspension of calcium hydroxide (slaked lime): CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) + heat.</p><p>The slaked lime is used for whitewashing. It reacts slowly with carbon dioxide in the air over two to three days to form a thin layer of calcium carbonate, which gives the wall its shine: Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l). Marble has the same formula as this calcium carbonate. Both of these are combination reactions and the board has asked for both in one 3-mark question (identify the compound used for whitewashing, write its reaction with water, name the type).</p><p>Other NCERT combination reactions: burning of coal, C(s) + O<sub>2</sub>(g) → CO<sub>2</sub>(g), and formation of water, 2H<sub>2</sub>(g) + O<sub>2</sub>(g) → 2H<sub>2</sub>O(l). Note that in a combination reaction the reactants may be elements or compounds, but the product is always a single compound.</p><p><b>Exothermic reactions.</b> Reactions that release heat are exothermic. Quicklime with water is one. NCERT adds three more: burning of natural gas, CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(g) + heat; respiration, in which glucose combines with oxygen in our cells, C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) + 6O<sub>2</sub>(aq) → 6CO<sub>2</sub>(aq) + 6H<sub>2</sub>O(l) + energy; and the decomposition of vegetable matter into compost, which is also exothermic. The respiration one is asked almost every year: state that it is exothermic because energy is released when glucose is oxidised, and write the equation.</p>",
+      "formulas": [
+        {
+          "expr": "CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) + heat",
+          "where": [
+            [
+              "CaO",
+              "quicklime (calcium oxide)"
+            ],
+            [
+              "Ca(OH)<sub>2</sub>",
+              "slaked lime (calcium hydroxide); the reaction is combination and exothermic"
+            ]
+          ]
+        },
+        {
+          "expr": "Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l)",
+          "where": [
+            [
+              "CaCO<sub>3</sub>",
+              "calcium carbonate, the shiny layer on a whitewashed wall; also the formula of marble"
+            ]
+          ]
+        },
+        {
+          "expr": "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) + 6O<sub>2</sub>(aq) → 6CO<sub>2</sub>(aq) + 6H<sub>2</sub>O(l) + energy",
+          "where": [
+            [
+              "energy",
+              "released, so respiration is exothermic"
+            ]
+          ]
+        }
+      ],
+      "tip": "Composting is a decomposition process that is exothermic, while most laboratory decomposition reactions are endothermic. A 2025 Assertion-Reason item tested exactly this distinction."
+    },
+    {
+      "heading": "1.2.2 Decomposition reaction: thermal, electrolytic and photolytic",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2022,
+        2020,
+        2019
+      ],
+      "body": "<p>A decomposition reaction is one in which a single reactant breaks down into two or more simpler products. It is the opposite of combination, and it needs energy, which may be supplied as heat, electricity or light. Because energy is absorbed, decomposition reactions are endothermic.</p><p><b>Thermal decomposition (heat).</b> <i>Activity 1.5:</i> heat 2 g of green ferrous sulphate crystals in a dry boiling tube. The crystals first lose their water of crystallisation and turn whitish, then decompose to reddish-brown ferric oxide with the smell of burning sulphur: 2FeSO<sub>4</sub>(s) → Fe<sub>2</sub>O<sub>3</sub>(s) + SO<sub>2</sub>(g) + SO<sub>3</sub>(g). Precautions the board has asked for: keep the mouth of the tube away from yourself and others, and hold the tube with a holder. <i>Activity 1.6:</i> heat lead nitrate in a boiling tube. You hear crackling, brown fumes of nitrogen dioxide come out, and a yellow residue of lead oxide is left: 2Pb(NO<sub>3</sub>)<sub>2</sub>(s) → 2PbO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g). Heating limestone gives quicklime, an important industrial reaction: CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g).</p><p><b>Electrolytic decomposition (electricity).</b> <i>Activity 1.7:</i> water with a few drops of dilute sulphuric acid in a plastic mug, two carbon electrodes connected to a 6 V battery, an inverted water-filled test tube over each electrode. Bubbles form at both electrodes; the tube at the cathode fills twice as fast as the one at the anode. 2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g). Hydrogen collects at the cathode and oxygen at the anode in a 2:1 volume ratio because that is the ratio in the equation. The acid is added to make pure water conduct. A burning candle at the mouth of the hydrogen tube burns with a pop; at the oxygen tube it burns more brightly.</p><p><b>Photolytic decomposition (light).</b> <i>Activity 1.8:</i> silver chloride kept in sunlight turns from white to grey because it decomposes to silver metal and chlorine: 2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g). Silver bromide behaves the same way, 2AgBr(s) → 2Ag(s) + Br<sub>2</sub>(g), and this reaction is used in black and white photography.</p>",
+      "formulas": [
+        {
+          "expr": "2FeSO<sub>4</sub>(s) → Fe<sub>2</sub>O<sub>3</sub>(s) + SO<sub>2</sub>(g) + SO<sub>3</sub>(g)   (heat)",
+          "where": [
+            [
+              "FeSO<sub>4</sub>",
+              "green ferrous sulphate crystals"
+            ],
+            [
+              "Fe<sub>2</sub>O<sub>3</sub>",
+              "reddish-brown ferric oxide; SO<sub>2</sub> and SO<sub>3</sub> give the burning-sulphur smell"
+            ]
+          ]
+        },
+        {
+          "expr": "2Pb(NO<sub>3</sub>)<sub>2</sub>(s) → 2PbO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g)   (heat)",
+          "where": [
+            [
+              "NO<sub>2</sub>",
+              "brown fumes"
+            ],
+            [
+              "PbO",
+              "yellow residue of lead oxide"
+            ]
+          ]
+        },
+        {
+          "expr": "2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g)   (electricity)",
+          "where": [
+            [
+              "H<sub>2</sub>",
+              "at the cathode, double the volume of O<sub>2</sub> at the anode"
+            ]
+          ]
+        },
+        {
+          "expr": "2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g)   (sunlight)",
+          "where": [
+            [
+              "Ag",
+              "grey silver, which is why white AgCl darkens"
+            ]
+          ]
+        }
+      ],
+      "tip": "One equation each for heat, light and electricity is a favourite 3-mark question. Learn the three above word for word, with the condition written over the arrow and the states shown."
+    },
+    {
+      "heading": "1.2.3 Displacement reaction",
+      "pyq_years": [
+        2024,
+        2023,
+        2022,
+        2019
+      ],
+      "body": "<p>In a displacement reaction a more reactive element takes the place of a less reactive element in its compound. With metals, the more reactive metal displaces the less reactive metal from its salt solution.</p><p><b>Activity 1.9, iron nail in copper sulphate solution.</b> Tie a clean iron nail with thread, dip it in blue copper sulphate solution for about twenty minutes, and compare it with a nail kept aside. The blue colour of the solution fades to light green, and the nail is coated with a brownish layer of copper: Fe(s) + CuSO<sub>4</sub>(aq) → FeSO<sub>4</sub>(aq) + Cu(s). Iron is more reactive than copper, so it displaces copper from copper sulphate; the green colour is due to ferrous sulphate. Other metals that can do the same to copper sulphate are zinc, aluminium and magnesium, all more reactive than copper: Zn(s) + CuSO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + Cu(s). NCERT also gives Pb(s) + CuCl<sub>2</sub>(aq) → PbCl<sub>2</sub>(aq) + Cu(s).</p><p>The reverse never happens: a copper strip in ferrous sulphate or in zinc sulphate shows no change, because copper is less reactive. An aluminium strip in ferrous sulphate does react: 2Al(s) + 3FeSO<sub>4</sub>(aq) → Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>(aq) + 3Fe(s), and the green colour disappears. This pairing (Cu and Al strips in FeSO<sub>4</sub>) was a 3-mark question in 2019.</p><p>Two applications worth remembering. In the refining of silver, copper displaces silver from silver nitrate solution: Cu(s) + 2AgNO<sub>3</sub>(aq) → Cu(NO<sub>3</sub>)<sub>2</sub>(aq) + 2Ag(s); the solution turns blue. For the same reason a silver nitrate solution must not be stirred with a copper spoon, and a copper sulphate solution must not be stored in an iron or zinc vessel. Zinc with silver nitrate, Zn + 2AgNO<sub>3</sub> → Zn(NO<sub>3</sub>)<sub>2</sub> + 2Ag, is the same idea.</p>",
+      "formulas": [
+        {
+          "expr": "Fe(s) + CuSO<sub>4</sub>(aq) → FeSO<sub>4</sub>(aq) + Cu(s)",
+          "where": [
+            [
+              "CuSO<sub>4</sub>(aq)",
+              "blue solution, fades to the light green of FeSO<sub>4</sub>"
+            ],
+            [
+              "Cu(s)",
+              "brownish deposit on the nail"
+            ]
+          ]
+        },
+        {
+          "expr": "Cu(s) + 2AgNO<sub>3</sub>(aq) → Cu(NO<sub>3</sub>)<sub>2</sub>(aq) + 2Ag(s)",
+          "where": [
+            [
+              "Ag",
+              "silver recovered in refining; solution turns blue"
+            ]
+          ]
+        }
+      ],
+      "tip": "Always give the reason: the displacing metal is more reactive. Order to keep in mind for this chapter: Mg > Al > Zn > Fe > Pb > Cu > Ag."
+    },
+    {
+      "heading": "1.2.4 Double displacement reaction: precipitation and neutralisation",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2020,
+        2019
+      ],
+      "body": "<p>In a double displacement reaction two compounds exchange their ions to form two new compounds. Think of the positive ions swapping partners.</p><p><b>Activity 1.10, sodium sulphate and barium chloride.</b> Mix about 3 mL of each solution in a test tube: a white, insoluble substance settles at once. Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq). The white precipitate is barium sulphate, formed by the reaction of Ba<sup>2+</sup> and SO<sub>4</sub><sup>2−</sup> ions; the other product, sodium chloride, stays in solution. An insoluble solid that separates from a solution is a precipitate, and any reaction that produces one is a precipitation reaction. Since ions have been exchanged, it is also a double displacement reaction: give both names when the question asks for the type.</p><p>Other precipitation reactions from the chapter: Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + 2KI(aq) → PbI<sub>2</sub>(s) + 2KNO<sub>3</sub>(aq), a yellow precipitate of lead iodide; and AgNO<sub>3</sub>(aq) + NaCl(aq) → AgCl(s) + NaNO<sub>3</sub>(aq), a white precipitate of silver chloride.</p><p><b>Neutralisation is also double displacement.</b> An acid and a base exchange ions to give a salt and water: NaOH(aq) + HCl(aq) → NaCl(aq) + H<sub>2</sub>O(l); 2HNO<sub>3</sub>(aq) + Ca(OH)<sub>2</sub>(aq) → Ca(NO<sub>3</sub>)<sub>2</sub>(aq) + 2H<sub>2</sub>O(l). A 2023 question asked for one neutralisation and one precipitation example of double displacement, so keep one of each ready.</p><p><b>Displacement versus double displacement.</b> In displacement one element displaces another from its compound, and an element is always a reactant (Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu). In double displacement two compounds exchange ions and no free element appears on either side (Na<sub>2</sub>SO<sub>4</sub> + BaCl<sub>2</sub> → BaSO<sub>4</sub> + 2NaCl). This comparison with one equation each is the standard 3-mark answer.</p>",
+      "formulas": [
+        {
+          "expr": "Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq)",
+          "where": [
+            [
+              "BaSO<sub>4</sub>",
+              "white precipitate of barium sulphate; the reaction is double displacement and precipitation"
+            ]
+          ]
+        },
+        {
+          "expr": "Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + 2KI(aq) → PbI<sub>2</sub>(s) + 2KNO<sub>3</sub>(aq)",
+          "where": [
+            [
+              "PbI<sub>2</sub>",
+              "yellow precipitate of lead iodide"
+            ]
+          ]
+        },
+        {
+          "expr": "NaOH(aq) + HCl(aq) → NaCl(aq) + H<sub>2</sub>O(l)",
+          "where": [
+            [
+              "NaCl + H<sub>2</sub>O",
+              "salt and water: neutralisation, a double displacement reaction"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write the colour of every precipitate: BaSO<sub>4</sub> white, AgCl white, PbI<sub>2</sub> yellow. A missing colour costs the observation mark."
+    },
+    {
+      "heading": "1.2.5 Oxidation and reduction (redox reactions)",
+      "pyq_years": [
+        2024,
+        2023,
+        2022,
+        2020
+      ],
+      "body": "<p><b>Activity 1.11, heating copper powder.</b> Heat 1 g of copper powder in a china dish. The shiny brown surface turns black because copper combines with oxygen to form copper(II) oxide: 2Cu(s) + O<sub>2</sub>(g) → 2CuO(s). If hydrogen gas is now passed over the hot black powder, the brown colour of copper returns: CuO(s) + H<sub>2</sub>(g) → Cu(s) + H<sub>2</sub>O(l). In the first reaction copper gains oxygen and is oxidised; in the second copper oxide loses oxygen and is reduced.</p><p><b>Definitions the examiner expects.</b> Oxidation is the gain of oxygen or the loss of hydrogen by a substance. Reduction is the loss of oxygen or the gain of hydrogen. A reaction in which one reactant is oxidised while another is reduced is an oxidation-reduction or redox reaction. In CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O, copper oxide is reduced to copper and hydrogen is oxidised to water: one reaction, both changes.</p><p><b>Oxidising and reducing agents.</b> The substance that gives oxygen (or removes hydrogen) is the oxidising agent; it is itself reduced. The substance that removes oxygen (or gives hydrogen) is the reducing agent; it is itself oxidised. So the substance oxidised is the reducing agent and the substance reduced is the oxidising agent. Students mix these up under pressure, so say it as a rule: oxidised = reducing agent.</p><p>Work through the NCERT set. ZnO + C → Zn + CO: zinc oxide loses oxygen (reduced, oxidising agent), carbon gains oxygen (oxidised, reducing agent). MnO<sub>2</sub> + 4HCl → MnCl<sub>2</sub> + 2H<sub>2</sub>O + Cl<sub>2</sub>: HCl loses hydrogen and becomes Cl<sub>2</sub>, so HCl is oxidised and is the reducing agent; MnO<sub>2</sub> loses oxygen, so it is reduced and is the oxidising agent. 4Na + O<sub>2</sub> → 2Na<sub>2</sub>O: sodium is oxidised, oxygen is reduced. Fe<sub>2</sub>O<sub>3</sub> + 2Al → Al<sub>2</sub>O<sub>3</sub> + 2Fe: aluminium is oxidised (reducing agent) and iron oxide is reduced; this is also a displacement reaction. H<sub>2</sub>S + Cl<sub>2</sub> → S + 2HCl: H<sub>2</sub>S loses hydrogen, so it is oxidised.</p>",
+      "formulas": [
+        {
+          "expr": "2Cu(s) + O<sub>2</sub>(g) → 2CuO(s)   (heat)",
+          "where": [
+            [
+              "CuO",
+              "black copper(II) oxide; copper is oxidised"
+            ]
+          ]
+        },
+        {
+          "expr": "CuO(s) + H<sub>2</sub>(g) → Cu(s) + H<sub>2</sub>O(l)   (heat)",
+          "where": [
+            [
+              "CuO",
+              "reduced (loses oxygen), oxidising agent"
+            ],
+            [
+              "H<sub>2</sub>",
+              "oxidised (gains oxygen), reducing agent"
+            ]
+          ]
+        },
+        {
+          "expr": "MnO<sub>2</sub> + 4HCl → MnCl<sub>2</sub> + 2H<sub>2</sub>O + Cl<sub>2</sub>",
+          "where": [
+            [
+              "HCl",
+              "oxidised to Cl<sub>2</sub> (loses hydrogen), reducing agent"
+            ],
+            [
+              "MnO<sub>2</sub>",
+              "reduced to MnCl<sub>2</sub> (loses oxygen), oxidising agent"
+            ]
+          ]
+        }
+      ],
+      "tip": "In every redox answer name four things: substance oxidised, substance reduced, oxidising agent, reducing agent, and say why in terms of gain or loss of oxygen or hydrogen. That is how the 3 marks are split."
+    },
+    {
+      "heading": "1.3.1 Effects of oxidation in everyday life: corrosion",
+      "pyq_years": [
+        2020
+      ],
+      "body": "<p>When a metal is attacked by substances around it, such as moisture, acids and gases, it is said to corrode, and the process is corrosion. It is an oxidation of the metal by air and water. NCERT gives three everyday cases: the black coating on silver, which is silver sulphide formed by reaction with hydrogen sulphide in the air; the green coating on copper, which is basic copper carbonate formed in moist air containing carbon dioxide; and rust on iron, the reddish-brown, flaky hydrated iron(III) oxide, Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O. A 2020 MCQ asked what the green coating on copper is; the answer is copper carbonate (basic copper carbonate), not copper oxide.</p><p>Rusting needs both oxygen and water together. Iron in dry air, or in boiled water with no dissolved oxygen, does not rust; the same nail in ordinary water open to air rusts within days. The equation you can quote: 4Fe(s) + 3O<sub>2</sub>(g) + 2xH<sub>2</sub>O(l) → 2Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O(s).</p><p>Corrosion is a serious problem: it weakens car bodies, bridges, railings, ships and every iron object exposed to weather, and huge sums are spent replacing damaged metal each year. The chapter says prevention is discussed in detail in the chapter on metals, but a 2-mark question here can still ask for two methods. Give any two: painting, applying oil or grease, galvanisation (coating iron with a layer of zinc), chrome plating, or alloying (stainless steel). Each method works by keeping air and moisture away from the metal surface.</p><p>Why do we paint iron articles? Because the paint layer stops air and moisture reaching the iron, so the oxidation that causes rusting cannot occur. That single sentence is the whole answer to NCERT exercise 18.</p>",
+      "formulas": [
+        {
+          "expr": "4Fe(s) + 3O<sub>2</sub>(g) + 2xH<sub>2</sub>O(l) → 2Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O(s)",
+          "where": [
+            [
+              "Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O",
+              "rust, hydrated iron(III) oxide, reddish brown; needs air and moisture together"
+            ]
+          ]
+        }
+      ],
+      "tip": "Rust is not iron oxide alone; write hydrated iron(III) oxide. And say both air (oxygen) and moisture are needed; writing only one is a common half-mark loss."
+    },
+    {
+      "heading": "1.3.2 Effects of oxidation in everyday life: rancidity",
+      "pyq_years": [
+        2025,
+        2020
+      ],
+      "body": "<p>Fats and oils, and foods that contain them, are slowly oxidised by the oxygen in air when they are kept for a long time. Their smell and taste change and they become unpleasant; we say the food has turned rancid. The process is called rancidity. Butter, ghee, fried snacks, cooking oil and cake kept for weeks are the usual examples. Because rancidity is an oxidation, everything that prevents fat from meeting oxygen slows it down.</p><p>Ways to prevent rancidity, of which the board asks for two: add antioxidants, which are substances that prevent oxidation, to foods containing fats and oils; store food in airtight containers so that air cannot reach it; keep food in a refrigerator, since oxidation is slower at low temperature; keep food away from light; and flush packets of chips and other fried snacks with nitrogen gas. Nitrogen is unreactive, so it replaces the oxygen in the packet and the chips stay fresh for months. NCERT exercise 19 is exactly this: oil and fat containing food items are flushed with nitrogen. Why?</p><p>A typical 2-mark question runs: what changes would you observe in a rancid food item, and how can rancidity be prevented? Write two changes (unpleasant smell, changed taste, sometimes a changed colour) and two prevention methods with the reason that each keeps oxygen away or slows oxidation. Corrosion and rancidity are both effects of oxidation, and the chapter ends with that link: one damages metals, the other spoils food, and the chemistry underneath is the same gain of oxygen.</p>",
+      "formulas": [
+        {
+          "expr": "Fats and oils + O<sub>2</sub> (air) → oxidised products with bad smell and taste",
+          "where": [
+            [
+              "antioxidants",
+              "substances added to food to prevent this oxidation"
+            ]
+          ]
+        }
+      ],
+      "tip": "Nitrogen is used for flushing because it is unreactive, not because it is heavier or cheaper. Give that reason, and mention that it replaces oxygen."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Chemical reaction",
+      "definition": "A change in which one or more substances (reactants) are converted into new substances (products) with different properties, shown by a change in state or colour, evolution of a gas, or a change in temperature."
+    },
+    {
+      "term": "Chemical equation",
+      "definition": "The symbolic representation of a reaction, with the formulae of reactants on the left, products on the right and an arrow showing the direction of the change."
+    },
+    {
+      "term": "Skeletal equation",
+      "definition": "An equation written with correct formulae but with unequal numbers of atoms of each element on the two sides; it must be balanced before use."
+    },
+    {
+      "term": "Balanced chemical equation",
+      "definition": "An equation in which the number of atoms of each element is the same on both sides, so that it obeys the law of conservation of mass."
+    },
+    {
+      "term": "Law of conservation of mass",
+      "definition": "Mass can neither be created nor destroyed in a chemical reaction; the total mass of the products equals the total mass of the reactants."
+    },
+    {
+      "term": "Combination reaction",
+      "definition": "A reaction in which two or more substances combine to form a single product, for example CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub>."
+    },
+    {
+      "term": "Decomposition reaction",
+      "definition": "A reaction in which a single compound breaks down into two or more simpler substances on supplying energy as heat, light or electricity."
+    },
+    {
+      "term": "Thermal decomposition",
+      "definition": "Decomposition brought about by heat, such as CaCO<sub>3</sub> → CaO + CO<sub>2</sub> or the heating of lead nitrate."
+    },
+    {
+      "term": "Electrolysis (electrolytic decomposition)",
+      "definition": "Decomposition caused by passing electricity through a compound, such as acidified water giving hydrogen at the cathode and oxygen at the anode."
+    },
+    {
+      "term": "Photolytic (photochemical) decomposition",
+      "definition": "Decomposition caused by light, such as 2AgCl → 2Ag + Cl<sub>2</sub> in sunlight; used in black and white photography."
+    },
+    {
+      "term": "Displacement reaction",
+      "definition": "A reaction in which a more reactive element displaces a less reactive element from its compound, such as Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu."
+    },
+    {
+      "term": "Double displacement reaction",
+      "definition": "A reaction in which two compounds exchange ions to form two new compounds, such as Na<sub>2</sub>SO<sub>4</sub> + BaCl<sub>2</sub> → BaSO<sub>4</sub> + 2NaCl."
+    },
+    {
+      "term": "Precipitate and precipitation reaction",
+      "definition": "A precipitate is an insoluble solid that separates out of a solution during a reaction; a reaction that produces one is a precipitation reaction."
+    },
+    {
+      "term": "Neutralisation",
+      "definition": "The double displacement reaction of an acid with a base to give a salt and water, such as NaOH + HCl → NaCl + H<sub>2</sub>O."
+    },
+    {
+      "term": "Exothermic reaction",
+      "definition": "A reaction that releases heat, such as burning of natural gas, respiration and quicklime reacting with water."
+    },
+    {
+      "term": "Endothermic reaction",
+      "definition": "A reaction that absorbs energy, such as most decomposition reactions and photosynthesis."
+    },
+    {
+      "term": "Oxidation",
+      "definition": "Gain of oxygen or loss of hydrogen by a substance during a reaction."
+    },
+    {
+      "term": "Reduction",
+      "definition": "Loss of oxygen or gain of hydrogen by a substance during a reaction."
+    },
+    {
+      "term": "Redox reaction",
+      "definition": "A reaction in which one reactant is oxidised and another is reduced at the same time, such as CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O."
+    },
+    {
+      "term": "Oxidising agent",
+      "definition": "The substance that supplies oxygen or removes hydrogen from another substance; it is itself reduced."
+    },
+    {
+      "term": "Reducing agent",
+      "definition": "The substance that removes oxygen from, or supplies hydrogen to, another substance; it is itself oxidised."
+    },
+    {
+      "term": "Corrosion",
+      "definition": "The slow attack on a metal by moisture, acids and gases in its surroundings, such as rusting of iron, tarnishing of silver and the green coating on copper."
+    },
+    {
+      "term": "Rancidity",
+      "definition": "The oxidation of fats and oils in food kept for a long time, which changes its smell and taste."
+    },
+    {
+      "term": "Antioxidant",
+      "definition": "A substance added to foods containing fats and oils to prevent their oxidation and so delay rancidity."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Burning of magnesium (Activity 1.1)",
+      "expr": "2Mg(s) + O<sub>2</sub>(g) → 2MgO(s)",
+      "note": "Combination; dazzling white flame, white ash of MgO; clean the ribbon first"
+    },
+    {
+      "name": "Zinc with dilute acid (Activity 1.3)",
+      "expr": "Zn(s) + H<sub>2</sub>SO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + H<sub>2</sub>(g)",
+      "note": "Displacement; bubbles of H<sub>2</sub>, tube becomes warm (exothermic)"
+    },
+    {
+      "name": "Iron with steam (balancing example)",
+      "expr": "3Fe(s) + 4H<sub>2</sub>O(g) → Fe<sub>3</sub>O<sub>4</sub>(s) + 4H<sub>2</sub>(g)",
+      "note": "The NCERT hit-and-trial example; steam is H<sub>2</sub>O(g)"
+    },
+    {
+      "name": "Quicklime with water (Activity 1.4)",
+      "expr": "CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) + heat",
+      "note": "Combination, exothermic; gives slaked lime used for whitewashing"
+    },
+    {
+      "name": "Whitewash shine",
+      "expr": "Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l)",
+      "note": "Combination; slow, over 2 to 3 days; CaCO<sub>3</sub> is also the formula of marble"
+    },
+    {
+      "name": "Burning of natural gas",
+      "expr": "CH<sub>4</sub>(g) + 2O<sub>2</sub>(g) → CO<sub>2</sub>(g) + 2H<sub>2</sub>O(g) + heat",
+      "note": "Exothermic combustion"
+    },
+    {
+      "name": "Respiration",
+      "expr": "C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) + 6O<sub>2</sub>(aq) → 6CO<sub>2</sub>(aq) + 6H<sub>2</sub>O(l) + energy",
+      "note": "Exothermic; energy released from glucose"
+    },
+    {
+      "name": "Heating ferrous sulphate (Activity 1.5)",
+      "expr": "2FeSO<sub>4</sub>(s) → Fe<sub>2</sub>O<sub>3</sub>(s) + SO<sub>2</sub>(g) + SO<sub>3</sub>(g)",
+      "note": "Thermal decomposition; green to reddish brown, smell of burning sulphur"
+    },
+    {
+      "name": "Heating limestone",
+      "expr": "CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g)",
+      "note": "Thermal decomposition; industrial preparation of quicklime"
+    },
+    {
+      "name": "Heating lead nitrate (Activity 1.6)",
+      "expr": "2Pb(NO<sub>3</sub>)<sub>2</sub>(s) → 2PbO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g)",
+      "note": "Thermal decomposition; brown fumes of NO<sub>2</sub>, yellow PbO residue"
+    },
+    {
+      "name": "Electrolysis of water (Activity 1.7)",
+      "expr": "2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g)",
+      "note": "Electrolytic decomposition; H<sub>2</sub> at cathode, O<sub>2</sub> at anode, volume ratio 2:1, mass ratio 1:8"
+    },
+    {
+      "name": "Silver chloride in sunlight (Activity 1.8)",
+      "expr": "2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g)",
+      "note": "Photolytic decomposition; white to grey; AgBr behaves the same, used in photography"
+    },
+    {
+      "name": "Iron nail in copper sulphate (Activity 1.9)",
+      "expr": "Fe(s) + CuSO<sub>4</sub>(aq) → FeSO<sub>4</sub>(aq) + Cu(s)",
+      "note": "Displacement; blue to light green, brown deposit on nail"
+    },
+    {
+      "name": "Sodium sulphate with barium chloride (Activity 1.10)",
+      "expr": "Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq)",
+      "note": "Double displacement and precipitation; white BaSO<sub>4</sub>"
+    },
+    {
+      "name": "Lead nitrate with potassium iodide (Activity 1.2)",
+      "expr": "Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + 2KI(aq) → PbI<sub>2</sub>(s) + 2KNO<sub>3</sub>(aq)",
+      "note": "Double displacement and precipitation; yellow PbI<sub>2</sub>"
+    },
+    {
+      "name": "Copper heated in air (Activity 1.11)",
+      "expr": "2Cu(s) + O<sub>2</sub>(g) → 2CuO(s)",
+      "note": "Oxidation of copper; brown to black"
+    },
+    {
+      "name": "Copper oxide with hydrogen",
+      "expr": "CuO(s) + H<sub>2</sub>(g) → Cu(s) + H<sub>2</sub>O(l)",
+      "note": "Redox; CuO reduced (oxidising agent), H<sub>2</sub> oxidised (reducing agent)"
+    },
+    {
+      "name": "Zinc oxide with carbon",
+      "expr": "ZnO + C → Zn + CO",
+      "note": "Redox; ZnO reduced, C oxidised; C is the reducing agent"
+    },
+    {
+      "name": "Manganese dioxide with hydrochloric acid",
+      "expr": "MnO<sub>2</sub> + 4HCl → MnCl<sub>2</sub> + 2H<sub>2</sub>O + Cl<sub>2</sub>",
+      "note": "Redox; HCl oxidised to Cl<sub>2</sub>, MnO<sub>2</sub> reduced"
+    },
+    {
+      "name": "Rusting of iron",
+      "expr": "4Fe(s) + 3O<sub>2</sub>(g) + 2xH<sub>2</sub>O(l) → 2Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O(s)",
+      "note": "Corrosion; needs both air and moisture; rust is hydrated iron(III) oxide"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Electrolysis of water (Activity 1.7)",
+      "how_to_draw": "Draw a plastic mug holding water with a little dilute sulphuric acid. Fit two carbon electrodes (graphite rods) through the base, each connected by a wire to a 6 V battery; label the rod joined to the negative terminal cathode and the other anode. Invert a water-filled test tube over each electrode. Show the tube over the cathode with about twice as much gas as the one over the anode and label them hydrogen (2 volumes) and oxygen (1 volume). Mark the switch and the direction of current."
+    },
+    {
+      "title": "Burning of magnesium ribbon (Activity 1.1)",
+      "how_to_draw": "Draw a pair of tongs holding a strip labelled magnesium ribbon (cleaned with sandpaper) over a burner flame, with a watch-glass below it. Show a bright flame at the tip labelled dazzling white flame and white powder collecting on the watch-glass labelled magnesium oxide (MgO). Write the equation 2Mg + O<sub>2</sub> → 2MgO beside it."
+    },
+    {
+      "title": "Iron nail in copper sulphate solution (Activity 1.9)",
+      "how_to_draw": "Draw two test tubes in a stand. Tube A holds blue copper sulphate solution with an iron nail suspended by a thread tied to the rim. Tube B holds the same solution with no nail, as the control. In a second sketch of tube A after 20 minutes, shade the solution light green and show a brownish coating on the nail; label the change of colour and the deposited copper. Write Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu below."
+    },
+    {
+      "title": "Heating ferrous sulphate or lead nitrate in a boiling tube (Activities 1.5 and 1.6)",
+      "how_to_draw": "Draw a boiling tube held in a test-tube holder, tilted so its mouth points away from you, over a burner. Label the contents (green ferrous sulphate crystals, or lead nitrate). For ferrous sulphate, show fumes at the mouth labelled SO<sub>2</sub> and SO<sub>3</sub> (smell of burning sulphur) and reddish-brown residue Fe<sub>2</sub>O<sub>3</sub>. For lead nitrate, show brown fumes labelled NO<sub>2</sub> and a yellow residue labelled PbO."
+    },
+    {
+      "title": "Passing hydrogen over heated copper oxide",
+      "how_to_draw": "Draw a china dish or a boat inside a horizontal glass tube containing black copper(II) oxide, heated from below by a burner. Show hydrogen gas entering from one end through a delivery tube and water vapour leaving at the other end. Label the solid before heating as black CuO and after the reaction as brown copper, and write CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O, marking CuO as reduced and H<sub>2</sub> as oxidised."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "in-text",
+      "number": "p. 6, Q1",
+      "q": "Why should a magnesium ribbon be cleaned before burning in air?",
+      "a": "<p>Magnesium is a reactive metal. On standing in air it slowly reacts with oxygen (and moisture and carbon dioxide) to form a dull, protective layer of magnesium oxide and basic magnesium carbonate on its surface. This layer does not burn and stops the metal beneath it from coming in contact with oxygen. Rubbing the ribbon with sandpaper removes the layer, exposes pure magnesium and lets it burn readily with a dazzling white flame: 2Mg(s) + O<sub>2</sub>(g) → 2MgO(s).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "in-text",
+      "number": "p. 6, Q2",
+      "q": "Write the balanced equation for the following chemical reactions: (i) Hydrogen + Chlorine → Hydrogen chloride (ii) Barium chloride + Aluminium sulphate → Barium sulphate + Aluminium chloride (iii) Sodium + Water → Sodium hydroxide + Hydrogen",
+      "a": "<p>(i) H<sub>2</sub>(g) + Cl<sub>2</sub>(g) → 2HCl(g)</p><p>(ii) 3BaCl<sub>2</sub>(aq) + Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>(aq) → 3BaSO<sub>4</sub>(s) + 2AlCl<sub>3</sub>(aq). Check: Ba 3 = 3, Cl 6 = 6, Al 2 = 2, SO<sub>4</sub> 3 = 3.</p><p>(iii) 2Na(s) + 2H<sub>2</sub>O(l) → 2NaOH(aq) + H<sub>2</sub>(g). Check: Na 2 = 2, H 4 = 2 + 2, O 2 = 2.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "in-text",
+      "number": "p. 6, Q3",
+      "q": "Write a balanced chemical equation with state symbols for the following reactions: (i) Solutions of barium chloride and sodium sulphate in water react to give insoluble barium sulphate and the solution of sodium chloride. (ii) Sodium hydroxide solution (in water) reacts with hydrochloric acid solution (in water) to produce sodium chloride solution and water.",
+      "a": "<p>(i) BaCl<sub>2</sub>(aq) + Na<sub>2</sub>SO<sub>4</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq)</p><p>(ii) NaOH(aq) + HCl(aq) → NaCl(aq) + H<sub>2</sub>O(l)</p><p>Insoluble barium sulphate is written (s) because it is a precipitate; water formed in neutralisation is written (l).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "in-text",
+      "number": "p. 10, Q1",
+      "q": "A solution of a substance X is used for whitewashing. (i) Name the substance X and write its formula. (ii) Write the reaction of the substance X named in (i) above with water.",
+      "a": "<p>(i) X is calcium oxide (quicklime), CaO.</p><p>(ii) CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) + heat. Calcium oxide reacts vigorously with water to form calcium hydroxide (slaked lime), releasing a large amount of heat. It is a combination reaction and exothermic. The slaked lime solution is applied to walls; it reacts slowly with CO<sub>2</sub> of the air to form a shiny layer of calcium carbonate: Ca(OH)<sub>2</sub>(aq) + CO<sub>2</sub>(g) → CaCO<sub>3</sub>(s) + H<sub>2</sub>O(l).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "in-text",
+      "number": "p. 10, Q2",
+      "q": "Why is the amount of gas collected in one of the test tubes in Activity 1.7 double of the amount collected in the other? Name this gas.",
+      "a": "<p>Activity 1.7 is the electrolysis of water: 2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g). Water contains hydrogen and oxygen in the ratio 2:1 by number of atoms, so decomposition releases two volumes of hydrogen for every one volume of oxygen. The gas collected in double amount is hydrogen; it collects over the cathode. The other gas, oxygen, collects over the anode.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "in-text",
+      "number": "p. 13, Q1",
+      "q": "Why does the colour of copper sulphate solution change when an iron nail is dipped in it?",
+      "a": "<p>Iron is more reactive than copper, so it displaces copper from copper sulphate solution: Fe(s) + CuSO<sub>4</sub>(aq) → FeSO<sub>4</sub>(aq) + Cu(s). The blue colour of copper sulphate fades and the solution becomes light green because of the ferrous sulphate formed, while a brownish deposit of copper appears on the nail. It is a displacement reaction.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "in-text",
+      "number": "p. 13, Q3",
+      "q": "Identify the substances that are oxidised and the substances that are reduced in the following reactions: (i) 4Na(s) + O<sub>2</sub>(g) → 2Na<sub>2</sub>O(s) (ii) CuO(s) + H<sub>2</sub>(g) → Cu(s) + H<sub>2</sub>O(l)",
+      "a": "<p>(i) Sodium gains oxygen to form Na<sub>2</sub>O, so sodium is oxidised; oxygen is reduced (it is the oxidising agent, sodium the reducing agent).</p><p>(ii) Copper oxide loses oxygen to form copper, so CuO is reduced; hydrogen gains oxygen to form water, so H<sub>2</sub> is oxidised. CuO is the oxidising agent and H<sub>2</sub> the reducing agent.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1",
+      "q": "Which of the statements about the reaction below are incorrect? 2PbO(s) + C(s) → 2Pb(s) + CO<sub>2</sub>(g). (a) Lead is getting reduced. (b) Carbon dioxide is getting oxidised. (c) Carbon is getting oxidised. (d) Lead oxide is getting reduced. Choose: (i) (a) and (b) (ii) (a) and (c) (iii) (a), (b) and (c) (iv) all.",
+      "a": "<p>Answer (i): (a) and (b) are incorrect. Lead oxide loses oxygen, so it is lead oxide (not lead) that is reduced; carbon gains oxygen to form CO<sub>2</sub>, so carbon (not carbon dioxide) is oxidised. Statements (c) and (d) are correct.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "2",
+      "q": "Fe<sub>2</sub>O<sub>3</sub> + 2Al → Al<sub>2</sub>O<sub>3</sub> + 2Fe. The above reaction is an example of a (a) combination reaction (b) double displacement reaction (c) decomposition reaction (d) displacement reaction.",
+      "a": "<p>Answer (d), displacement reaction. Aluminium is more reactive than iron and displaces it from iron(III) oxide. It is also a redox reaction: Al is oxidised to Al<sub>2</sub>O<sub>3</sub> and Fe<sub>2</sub>O<sub>3</sub> is reduced to Fe. It is highly exothermic (the thermite reaction, used to weld railway tracks).</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "3",
+      "q": "What happens when dilute hydrochloric acid is added to iron filings? Tick the correct answer: (a) Hydrogen gas and iron chloride are produced. (b) Chlorine gas and iron hydroxide are produced. (c) No reaction takes place. (d) Iron salt and water are produced.",
+      "a": "<p>Answer (a). Iron displaces hydrogen from the acid: Fe(s) + 2HCl(aq) → FeCl<sub>2</sub>(aq) + H<sub>2</sub>(g). Bubbles of hydrogen gas are seen and iron(II) chloride is formed in solution.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "4",
+      "q": "What is a balanced chemical equation? Why should chemical equations be balanced?",
+      "a": "<p>A balanced chemical equation is one in which the number of atoms of each element is equal on the reactant side and the product side, for example 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O (H 4 = 4, O 2 = 2).</p><p>Equations must be balanced to satisfy the law of conservation of mass: mass can neither be created nor destroyed in a chemical reaction. Atoms are only rearranged, so the same number of atoms of every element must appear on both sides. An unbalanced equation would imply atoms appearing or vanishing, which never happens.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "5",
+      "q": "Translate the following statements into chemical equations and then balance them. (a) Hydrogen gas combines with nitrogen to form ammonia. (b) Hydrogen sulphide gas burns in air to give water and sulphur dioxide. (c) Barium chloride reacts with aluminium sulphate to give barium sulphate and a solution of aluminium chloride. (d) Potassium metal reacts with water to give potassium hydroxide and hydrogen gas.",
+      "a": "<p>(a) 3H<sub>2</sub>(g) + N<sub>2</sub>(g) → 2NH<sub>3</sub>(g)</p><p>(b) 2H<sub>2</sub>S(g) + 3O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) + 2SO<sub>2</sub>(g)</p><p>(c) 3BaCl<sub>2</sub>(aq) + Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>(aq) → 3BaSO<sub>4</sub>(s) + 2AlCl<sub>3</sub>(aq)</p><p>(d) 2K(s) + 2H<sub>2</sub>O(l) → 2KOH(aq) + H<sub>2</sub>(g)</p><p>Check (b): H 4 = 4, S 2 = 2, O 6 = 2 + 4.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6",
+      "q": "Balance the following chemical equations. (a) HNO<sub>3</sub> + Ca(OH)<sub>2</sub> → Ca(NO<sub>3</sub>)<sub>2</sub> + H<sub>2</sub>O (b) NaOH + H<sub>2</sub>SO<sub>4</sub> → Na<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O (c) NaCl + AgNO<sub>3</sub> → AgCl + NaNO<sub>3</sub> (d) BaCl<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + HCl",
+      "a": "<p>(a) 2HNO<sub>3</sub> + Ca(OH)<sub>2</sub> → Ca(NO<sub>3</sub>)<sub>2</sub> + 2H<sub>2</sub>O</p><p>(b) 2NaOH + H<sub>2</sub>SO<sub>4</sub> → Na<sub>2</sub>SO<sub>4</sub> + 2H<sub>2</sub>O</p><p>(c) NaCl + AgNO<sub>3</sub> → AgCl + NaNO<sub>3</sub> (already balanced)</p><p>(d) BaCl<sub>2</sub> + H<sub>2</sub>SO<sub>4</sub> → BaSO<sub>4</sub> + 2HCl</p><p>(a) and (b) are neutralisation, (c) and (d) are precipitation; all four are double displacement reactions.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8",
+      "q": "Write the balanced chemical equation for the following and identify the type of reaction in each case. (a) Potassium bromide(aq) + Barium iodide(aq) → Potassium iodide(aq) + Barium bromide(aq) (b) Zinc carbonate(s) → Zinc oxide(s) + Carbon dioxide(g) (c) Hydrogen(g) + Chlorine(g) → Hydrogen chloride(g) (d) Magnesium(s) + Hydrochloric acid(aq) → Magnesium chloride(aq) + Hydrogen(g)",
+      "a": "<p>(a) 2KBr(aq) + BaI<sub>2</sub>(aq) → 2KI(aq) + BaBr<sub>2</sub>(aq): double displacement.</p><p>(b) ZnCO<sub>3</sub>(s) → ZnO(s) + CO<sub>2</sub>(g): decomposition (thermal).</p><p>(c) H<sub>2</sub>(g) + Cl<sub>2</sub>(g) → 2HCl(g): combination.</p><p>(d) Mg(s) + 2HCl(aq) → MgCl<sub>2</sub>(aq) + H<sub>2</sub>(g): displacement.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9 and 10",
+      "q": "What does one mean by exothermic and endothermic reactions? Give examples. Why is respiration considered an exothermic reaction? Explain.",
+      "a": "<p>Exothermic reactions release heat, for example burning of natural gas, CH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O + heat, and quicklime with water, CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub> + heat. Endothermic reactions absorb energy, for example decomposition of calcium carbonate on heating, CaCO<sub>3</sub> → CaO + CO<sub>2</sub>, and photosynthesis.</p><p>During respiration the glucose from digested food combines with the oxygen we breathe in, inside the cells, and is broken down to carbon dioxide and water with the release of energy: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>(aq) + 6O<sub>2</sub>(aq) → 6CO<sub>2</sub>(aq) + 6H<sub>2</sub>O(l) + energy. Since energy is released, respiration is exothermic.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11 and 12",
+      "q": "Why are decomposition reactions called the opposite of combination reactions? Write equations for these reactions. Write one equation each for decomposition reactions where energy is supplied in the form of heat, light or electricity.",
+      "a": "<p>In a combination reaction two or more substances combine to form a single product, for example CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub>. In a decomposition reaction a single compound breaks down into two or more simpler substances, for example CaCO<sub>3</sub> → CaO + CO<sub>2</sub>. One joins, the other splits, so decomposition is the opposite of combination. Combination reactions generally release energy, decomposition reactions generally need it.</p><p>Heat: 2Pb(NO<sub>3</sub>)<sub>2</sub>(s) → 2PbO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g).<br>Light: 2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g).<br>Electricity: 2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "13, 14 and 15",
+      "q": "What is the difference between displacement and double displacement reactions? Write equations. In the refining of silver, the recovery of silver from silver nitrate solution involved displacement by copper metal; write the reaction. What do you mean by a precipitation reaction? Explain with examples.",
+      "a": "<p>In a displacement reaction a more reactive element displaces a less reactive element from its compound, and an element is one of the reactants: Zn(s) + CuSO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + Cu(s). In a double displacement reaction two compounds exchange ions and no free element takes part: Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq).</p><p>Refining of silver: Cu(s) + 2AgNO<sub>3</sub>(aq) → Cu(NO<sub>3</sub>)<sub>2</sub>(aq) + 2Ag(s).</p><p>A precipitation reaction is one in which an insoluble solid, the precipitate, is formed when two solutions are mixed. Examples: Pb(NO<sub>3</sub>)<sub>2</sub>(aq) + 2KI(aq) → PbI<sub>2</sub>(s) + 2KNO<sub>3</sub>(aq), yellow lead iodide; AgNO<sub>3</sub>(aq) + NaCl(aq) → AgCl(s) + NaNO<sub>3</sub>(aq), white silver chloride.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "16 and 17",
+      "q": "Explain the following in terms of gain or loss of oxygen with two examples each: (a) Oxidation (b) Reduction. A shiny brown coloured element X on heating in air becomes black in colour. Name the element X and the black coloured compound formed.",
+      "a": "<p>(a) Oxidation is the gain of oxygen. Examples: 2Cu + O<sub>2</sub> → 2CuO, copper is oxidised; 2Mg + O<sub>2</sub> → 2MgO, magnesium is oxidised.</p><p>(b) Reduction is the loss of oxygen. Examples: CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O, copper oxide is reduced; ZnO + C → Zn + CO, zinc oxide is reduced.</p><p>X is copper. On heating in air it forms black copper(II) oxide: 2Cu(s) + O<sub>2</sub>(g) → 2CuO(s).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "18, 19 and 20",
+      "q": "Why do we apply paint on iron articles? Oil and fat containing food items are flushed with nitrogen. Why? Explain the following terms with one example each: (a) Corrosion (b) Rancidity.",
+      "a": "<p>Paint forms a layer that keeps air and moisture away from the iron surface, so the iron cannot be oxidised and rusting is prevented.</p><p>Nitrogen is an unreactive gas. Flushing the packet with nitrogen replaces the oxygen inside it, so the fats and oils in the food are not oxidised and the food does not turn rancid.</p><p>(a) Corrosion is the slow attack on a metal by moisture, acids and gases in its surroundings. Example: iron exposed to moist air forms reddish-brown rust, hydrated iron(III) oxide, Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O.</p><p>(b) Rancidity is the oxidation of fats and oils in food kept for a long time, which spoils its smell and taste. Example: butter or a packet of fried chips left open develops an unpleasant smell. It is prevented by antioxidants, airtight containers, refrigeration and nitrogen flushing.</p>",
+      "marks": 5
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "Which of the following processes involves a combination reaction?",
+      "options": [
+        "Heating of limestone",
+        "Burning of coal",
+        "Electrolysis of water",
+        "Dipping an iron nail in copper sulphate solution"
+      ],
+      "answer": "b",
+      "solution": "C + O<sub>2</sub> → CO<sub>2</sub>: two substances form a single product. Heating limestone and electrolysis are decomposition; the nail in copper sulphate is displacement."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "The values of the coefficients that balance the equation Al<sub>2</sub>O<sub>3</sub> + HCl → AlCl<sub>3</sub> + H<sub>2</sub>O are:",
+      "options": [
+        "1, 6, 2, 3",
+        "2, 3, 2, 3",
+        "1, 3, 1, 3",
+        "2, 6, 4, 3"
+      ],
+      "answer": "a",
+      "solution": "Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O. Count: Al 2 = 2, O 3 = 3, H 6 = 6, Cl 6 = 6."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2022",
+      "marks": 1,
+      "q": "On heating lead nitrate in a boiling tube, the fumes evolved are:",
+      "options": [
+        "Brown fumes of nitrogen dioxide",
+        "Yellow fumes of lead oxide",
+        "Colourless fumes of oxygen",
+        "White fumes of nitric acid"
+      ],
+      "answer": "a",
+      "solution": "2Pb(NO<sub>3</sub>)<sub>2</sub> → 2PbO + 4NO<sub>2</sub> + O<sub>2</sub>. Nitrogen dioxide is the brown gas; lead oxide stays behind as a yellow solid and oxygen is colourless."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2020",
+      "marks": 1,
+      "q": "The reaction H<sub>2</sub>S(g) + CuSO<sub>4</sub>(aq) → CuS(s) + H<sub>2</sub>SO<sub>4</sub>(aq) is an example of a:",
+      "options": [
+        "Combination reaction",
+        "Decomposition reaction",
+        "Displacement reaction",
+        "Double displacement reaction"
+      ],
+      "answer": "d",
+      "solution": "Two compounds exchange ions (Cu<sup>2+</sup> pairs with S<sup>2−</sup>, H<sup>+</sup> with SO<sub>4</sub><sup>2−</sup>) and an insoluble solid, CuS, precipitates."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2020",
+      "marks": 1,
+      "q": "A copper vessel kept in moist air for a long time develops a green coating. The coating is of:",
+      "options": [
+        "Copper oxide",
+        "Copper carbonate",
+        "Copper sulphate",
+        "Copper chloride"
+      ],
+      "answer": "b",
+      "solution": "Copper reacts slowly with moist air containing carbon dioxide to form green basic copper carbonate; this is corrosion of copper."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "The ratio of the masses of hydrogen and oxygen liberated during the electrolysis of water is:",
+      "options": [
+        "2 : 1",
+        "1 : 2",
+        "8 : 1",
+        "1 : 8"
+      ],
+      "answer": "d",
+      "solution": "2H<sub>2</sub>O → 2H<sub>2</sub> + O<sub>2</sub>: mass of 2H<sub>2</sub> = 4 g, mass of O<sub>2</sub> = 32 g, so 4 : 32 = 1 : 8. The volume ratio is 2 : 1, which is the trap."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "The values of p, q, r and s in the balanced equation pAl + qH<sub>2</sub>O → rAl<sub>2</sub>O<sub>3</sub> + sH<sub>2</sub> are:",
+      "options": [
+        "2, 3, 2, 3",
+        "1, 3, 1, 3",
+        "2, 3, 1, 3",
+        "4, 3, 2, 3"
+      ],
+      "answer": "c",
+      "solution": "2Al + 3H<sub>2</sub>O → Al<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub>. Count: Al 2 = 2, O 3 = 3, H 6 = 6."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2023",
+      "marks": 1,
+      "q": "Which of the following is the correctly balanced equation for the reaction of potassium iodide with lead nitrate?",
+      "options": [
+        "KI + Pb(NO<sub>3</sub>)<sub>2</sub> → PbI<sub>2</sub> + KNO<sub>3</sub>",
+        "2KI + Pb(NO<sub>3</sub>)<sub>2</sub> → PbI<sub>2</sub> + 2KNO<sub>3</sub>",
+        "KI + Pb(NO<sub>3</sub>)<sub>2</sub> → PbI + KNO<sub>3</sub>",
+        "2KI + Pb(NO<sub>3</sub>)<sub>2</sub> → PbI<sub>2</sub> + KNO<sub>3</sub>"
+      ],
+      "answer": "b",
+      "solution": "Lead iodide is PbI<sub>2</sub>, so two KI are needed, which gives two KNO<sub>3</sub>. Count: K 2 = 2, I 2 = 2, Pb 1 = 1, NO<sub>3</sub> 2 = 2."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The gases evolved when lead(II) nitrate crystals are heated strongly are:",
+      "options": [
+        "NO<sub>2</sub> and N<sub>2</sub>",
+        "O<sub>2</sub> and N<sub>2</sub>O",
+        "NO and O<sub>2</sub>",
+        "NO<sub>2</sub> and O<sub>2</sub>"
+      ],
+      "answer": "d",
+      "solution": "2Pb(NO<sub>3</sub>)<sub>2</sub>(s) → 2PbO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g); brown nitrogen dioxide together with colourless oxygen."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2023",
+      "marks": 1,
+      "q": "Assertion (A): Quicklime reacts vigorously with water, releasing a large amount of heat. Reason (R): The reaction of calcium oxide with water is a combination reaction and is exothermic.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "CaO + H<sub>2</sub>O → Ca(OH)<sub>2</sub> + heat: a single product forms and heat is released, which is exactly why the beaker becomes hot."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2023",
+      "marks": 1,
+      "q": "Assertion (A): In the reaction ZnO + C → Zn + CO, zinc oxide is reduced. Reason (R): Zinc oxide loses oxygen and carbon acts as the reducing agent.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Loss of oxygen is reduction; carbon removes the oxygen and is itself oxidised to CO, so carbon is the reducing agent and R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2022",
+      "marks": 1,
+      "q": "Assertion (A): Burning of natural gas is an endothermic process. Reason (R): Methane gas combines with oxygen with the evolution of heat.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "CH<sub>4</sub> + 2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O + heat releases heat, so burning is exothermic; A is false and R is true."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "Assertion (A): White silver chloride turns grey when kept in sunlight. Reason (R): Silver chloride decomposes into silver and chlorine in the presence of light.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "2AgCl → 2Ag + Cl<sub>2</sub> is a photolytic decomposition; the grey colour is the silver metal formed, so R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2020",
+      "marks": 1,
+      "q": "Assertion (A): A chemical equation must be balanced. Reason (R): A balanced equation has the same number of atoms of each element on both sides, in accordance with the law of conservation of mass.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Mass is conserved because atoms are neither created nor destroyed, which is precisely why an equation must show equal atoms on both sides."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2025",
+      "marks": 2,
+      "q": "Zinc granules are added to dilute sulphuric acid in a test tube. State two observations which show that a chemical reaction has taken place. Write the balanced chemical equation.",
+      "answer": "<p>Observations: (i) bubbles of a colourless gas (hydrogen) are seen rising from the zinc granules, that is, a gas is evolved; (ii) the test tube becomes warm on touching, that is, there is a change in temperature (the reaction is exothermic).</p><p>Equation: Zn(s) + H<sub>2</sub>SO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + H<sub>2</sub>(g). It is a displacement reaction; zinc displaces hydrogen from the acid.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2020",
+      "marks": 2,
+      "q": "What is rancidity? What changes would you observe in a rancid food item? Mention two ways to prevent rancidity.",
+      "answer": "<p>Rancidity is the slow oxidation of the fats and oils present in food kept for a long time. The food develops an unpleasant smell and a bad taste (and sometimes a changed colour), so it is unfit to eat.</p><p>Prevention (any two): (i) add antioxidants to foods containing fats and oils; (ii) store food in airtight containers so that air cannot reach it; (iii) flush packets of chips with nitrogen, an unreactive gas that replaces oxygen; (iv) keep food in a refrigerator, since oxidation is slow at low temperature.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2019",
+      "marks": 2,
+      "q": "Translate the following statement into a chemical equation and balance it: Barium chloride reacts with aluminium sulphate to give barium sulphate and aluminium chloride.",
+      "answer": "<p>Skeletal: BaCl<sub>2</sub> + Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub> → BaSO<sub>4</sub> + AlCl<sub>3</sub></p><p>Balanced: 3BaCl<sub>2</sub>(aq) + Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>(aq) → 3BaSO<sub>4</sub>(s) + 2AlCl<sub>3</sub>(aq)</p><p>Check: Ba 3 = 3, Cl 6 = 6, Al 2 = 2, SO<sub>4</sub> 3 = 3. It is a double displacement (precipitation) reaction; barium sulphate is a white precipitate.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2019",
+      "marks": 2,
+      "q": "State two precautions to be taken while performing the experiment on the decomposition of ferrous sulphate crystals by heating.",
+      "answer": "<p>(i) Hold the boiling tube with a test-tube holder and keep its mouth pointed away from yourself and your classmates, because the oxides of sulphur evolved are harmful and hot contents can spurt out.</p><p>(ii) Heat the tube gently and uniformly, moving it over the flame, and do not smell the gas directly; waft it towards the nose with the hand. (Also acceptable: use a dry boiling tube and only a small amount, about 2 g, of the crystals.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2020",
+      "marks": 2,
+      "q": "Write the chemical equations for the following and state the type of reaction in each case: (a) White silver chloride turns grey in sunlight. (b) Copper powder is heated in air.",
+      "answer": "<p>(a) 2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g), in sunlight. Photolytic (photochemical) decomposition; the grey colour is silver metal.</p><p>(b) 2Cu(s) + O<sub>2</sub>(g) → 2CuO(s), on heating. Combination reaction, and an oxidation of copper; the brown powder turns black because of copper(II) oxide.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2025",
+      "marks": 2,
+      "q": "Write the balanced chemical equation for the reaction between sodium sulphate solution and barium chloride solution. Identify the type of reaction and justify.",
+      "answer": "<p>Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq)</p><p>It is a double displacement reaction because the two compounds exchange their ions: Ba<sup>2+</sup> pairs with SO<sub>4</sub><sup>2−</sup> and Na<sup>+</sup> with Cl<sup>−</sup>. It is also a precipitation reaction because barium sulphate is insoluble and separates as a white precipitate.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2023",
+      "marks": 3,
+      "q": "In the electrolysis of water: (a) Why is a few drops of dilute sulphuric acid added to the water? (b) Name the gas collected at the cathode and at the anode. (c) Why is the volume of one gas double that of the other? Write the balanced equation.",
+      "answer": "<p>(a) Pure water is a very poor conductor of electricity. A few drops of dilute sulphuric acid make it conducting so that electrolysis can take place.</p><p>(b) Hydrogen is collected at the cathode (the electrode joined to the negative terminal) and oxygen at the anode.</p><p>(c) 2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g). Water contains two hydrogen atoms for every oxygen atom, so decomposition gives two molecules (two volumes) of hydrogen for every one of oxygen. The volume of hydrogen is therefore double that of oxygen. It is an electrolytic decomposition reaction.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2022",
+      "marks": 3,
+      "q": "Give reasons for the colour change in each of the following, with the chemical equation: (a) Silver chloride kept in sunlight. (b) Copper powder heated in a china dish. (c) A zinc strip dipped in copper sulphate solution.",
+      "answer": "<p>(a) White silver chloride turns grey because sunlight decomposes it to silver metal, which is grey, and chlorine: 2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g).</p><p>(b) The brown copper powder turns black because copper combines with the oxygen of air to form black copper(II) oxide: 2Cu(s) + O<sub>2</sub>(g) → 2CuO(s).</p><p>(c) The blue colour of copper sulphate solution fades and becomes colourless, while a reddish-brown deposit of copper forms on the strip, because zinc is more reactive than copper and displaces it: Zn(s) + CuSO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + Cu(s). Zinc sulphate solution is colourless.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2024",
+      "marks": 3,
+      "q": "An iron nail is kept dipped in copper sulphate solution. (a) Write the balanced chemical equation for the reaction and state what is observed. (b) Name two other metals that can bring about the same change. (c) Define the type of reaction involved.",
+      "answer": "<p>(a) Fe(s) + CuSO<sub>4</sub>(aq) → FeSO<sub>4</sub>(aq) + Cu(s). The blue colour of the solution changes to light green (ferrous sulphate) and a brownish coating of copper is deposited on the nail.</p><p>(b) Zinc and aluminium (or magnesium): any metal more reactive than copper, for example Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu.</p><p>(c) It is a displacement reaction: a reaction in which a more reactive element displaces a less reactive element from its compound. Iron, being more reactive than copper, displaces it from copper sulphate.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2020",
+      "marks": 3,
+      "q": "Copper powder is heated in a china dish. (a) Name the product formed and state its colour. (b) Write the balanced chemical equation. (c) How can this product be changed back to copper? Write the equation and identify the substance oxidised and the substance reduced.",
+      "answer": "<p>(a) Copper(II) oxide, which is black, forms on the surface of the copper powder.</p><p>(b) 2Cu(s) + O<sub>2</sub>(g) → 2CuO(s), on heating.</p><p>(c) By passing hydrogen gas over the heated copper oxide, the black colour turns brown as copper is regenerated: CuO(s) + H<sub>2</sub>(g) → Cu(s) + H<sub>2</sub>O(l). Copper oxide loses oxygen, so CuO is reduced (it is the oxidising agent); hydrogen gains oxygen to form water, so H<sub>2</sub> is oxidised (it is the reducing agent). This makes it a redox reaction.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2025",
+      "marks": 3,
+      "q": "(a) Why should a chemical equation be balanced? State the law on which balancing is based. (b) Balance the equation: Zn + H<sub>3</sub>PO<sub>4</sub> → Zn<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> + H<sub>2</sub>",
+      "answer": "<p>(a) A chemical equation must be balanced so that the number of atoms of each element is the same on both sides. This follows from the law of conservation of mass: mass can neither be created nor destroyed in a chemical reaction, because atoms are only rearranged, so the total mass of products equals the total mass of reactants.</p><p>(b) Treat PO<sub>4</sub> as one unit. There are two PO<sub>4</sub> on the right, so write 2H<sub>3</sub>PO<sub>4</sub>; there are three Zn on the right, so write 3Zn; hydrogen is now 6 on the left, so write 3H<sub>2</sub>. Balanced: 3Zn + 2H<sub>3</sub>PO<sub>4</sub> → Zn<sub>3</sub>(PO<sub>4</sub>)<sub>2</sub> + 3H<sub>2</sub>. Check: Zn 3 = 3, H 6 = 6, PO<sub>4</sub> 2 = 2.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2019",
+      "marks": 3,
+      "q": "A strip of copper and a strip of aluminium are placed separately in two test tubes containing ferrous sulphate solution. (a) What is observed in each case? (b) Name the type of reaction in the case where a colour change occurs. (c) Write the balanced equation for the reaction of aluminium.",
+      "answer": "<p>(a) Copper strip: no change, because copper is less reactive than iron and cannot displace it. Aluminium strip: the green colour of ferrous sulphate solution fades and a greyish deposit of iron forms on the strip, because aluminium is more reactive than iron.</p><p>(b) Displacement reaction.</p><p>(c) 2Al(s) + 3FeSO<sub>4</sub>(aq) → Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>(aq) + 3Fe(s). Check: Al 2 = 2, Fe 3 = 3, SO<sub>4</sub> 3 = 3.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2025",
+      "marks": 3,
+      "q": "Distinguish between a displacement reaction and a double displacement reaction. Write one balanced chemical equation for each.",
+      "answer": "<p>Displacement: a more reactive element displaces a less reactive element from its compound. An element is one of the reactants and another element is a product. Example: Zn(s) + CuSO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + Cu(s).</p><p>Double displacement: two compounds exchange their ions to form two new compounds. No free element appears on either side. Example: Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq), with a white precipitate of barium sulphate.</p><p>In short, displacement involves one exchange (an element replaces another); double displacement involves two, an exchange of ions between compounds, and often gives a precipitate or, in neutralisation, a salt and water.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2017",
+      "marks": 5,
+      "q": "(a) What is a balanced chemical equation? Why should chemical equations be balanced? (b) Translate the following statements into chemical equations and balance them: (i) Hydrogen gas combines with nitrogen to form ammonia. (ii) Hydrogen sulphide gas burns in air to give water and sulphur dioxide. (iii) Barium chloride reacts with aluminium sulphate to give barium sulphate and aluminium chloride.",
+      "answer": "<p>(a) A balanced chemical equation is one in which the number of atoms of each element on the reactant side equals that on the product side; for example 2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O has 4 H and 2 O on each side. Equations are balanced because of the law of conservation of mass: mass can neither be created nor destroyed in a chemical reaction. Atoms are only rearranged into new substances, so every atom present before the reaction must be accounted for after it. An unbalanced equation would imply that atoms have appeared or disappeared.</p><p>(b) (i) 3H<sub>2</sub>(g) + N<sub>2</sub>(g) → 2NH<sub>3</sub>(g). Check: H 6 = 6, N 2 = 2.</p><p>(ii) 2H<sub>2</sub>S(g) + 3O<sub>2</sub>(g) → 2H<sub>2</sub>O(l) + 2SO<sub>2</sub>(g). Check: H 4 = 4, S 2 = 2, O 6 = 2 + 4.</p><p>(iii) 3BaCl<sub>2</sub>(aq) + Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>(aq) → 3BaSO<sub>4</sub>(s) + 2AlCl<sub>3</sub>(aq). Check: Ba 3 = 3, Cl 6 = 6, Al 2 = 2, SO<sub>4</sub> 3 = 3.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) What is a decomposition reaction? Why are decomposition reactions called the opposite of combination reactions? (b) Decomposition reactions require energy in the form of heat, light or electricity. Write one balanced chemical equation for each, naming the type. (c) Which of these reactions are endothermic? Is the decomposition of vegetable matter into compost also endothermic? Explain.",
+      "answer": "<p>(a) A decomposition reaction is one in which a single compound breaks down into two or more simpler substances, for example CaCO<sub>3</sub>(s) → CaO(s) + CO<sub>2</sub>(g). In a combination reaction two or more substances join to form a single product, for example CaO(s) + H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq). One reaction splits a compound, the other builds one, so decomposition is the opposite of combination.</p><p>(b) Heat, thermal decomposition: 2Pb(NO<sub>3</sub>)<sub>2</sub>(s) → 2PbO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g). Light, photolytic decomposition: 2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g). Electricity, electrolytic decomposition: 2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g).</p><p>(c) All three absorb energy from the surroundings (heat, light or electrical energy) to break the compound, so all three are endothermic. The decomposition of vegetable matter into compost is different: it releases heat, so it is exothermic; a compost heap feels warm. This shows that not every decomposition is endothermic, only those that need an outside supply of energy.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Can a silver nitrate solution be stirred with a copper spoon? Give a reason and write the equation. (b) Account for the following with equations: (i) White silver chloride turns grey in sunlight. (ii) Brown copper powder turns black on heating. (iii) The blue colour of copper sulphate solution fades when zinc is added.",
+      "answer": "<p>(a) No. Copper is more reactive than silver, so it displaces silver from silver nitrate solution. The spoon would slowly dissolve, grey silver would deposit on it and the solution would turn blue due to copper nitrate: Cu(s) + 2AgNO<sub>3</sub>(aq) → Cu(NO<sub>3</sub>)<sub>2</sub>(aq) + 2Ag(s). This is a displacement reaction.</p><p>(b) (i) Sunlight decomposes silver chloride into silver, which is grey, and chlorine: 2AgCl(s) → 2Ag(s) + Cl<sub>2</sub>(g). Photolytic decomposition.</p><p>(ii) Copper combines with oxygen of the air to form black copper(II) oxide: 2Cu(s) + O<sub>2</sub>(g) → 2CuO(s). Oxidation of copper (a combination reaction).</p><p>(iii) Zinc, being more reactive than copper, displaces it from copper sulphate; the blue Cu<sup>2+</sup> solution is replaced by colourless zinc sulphate and reddish-brown copper deposits: Zn(s) + CuSO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + Cu(s). Displacement reaction.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": "CBSE 2020",
+      "marks": 4,
+      "q": "A student sets up the apparatus shown in NCERT Activity 1.7: a plastic mug with two carbon electrodes fixed through its base, filled with water containing a few drops of dilute sulphuric acid, with a water-filled test tube inverted over each electrode. The electrodes are connected to a 6 V battery and the current is switched on. Bubbles appear at both electrodes and the two tubes fill with gas at different rates.<br>(i) Name the process taking place and the type of reaction.<br>(ii) Which gas collects in each test tube, and why is the volume in one tube double that in the other?<br>(iii) Write the balanced chemical equation.<br>(iv) Why is dilute sulphuric acid added to the water?",
+      "answer": "<p>(i) Electrolysis of water; it is an electrolytic decomposition reaction (endothermic, since electrical energy is absorbed).</p><p>(ii) Hydrogen collects in the tube over the cathode and oxygen in the tube over the anode. Water has two hydrogen atoms for every oxygen atom, so two volumes of hydrogen are produced for every volume of oxygen; the hydrogen tube fills twice as fast.</p><p>(iii) 2H<sub>2</sub>O(l) → 2H<sub>2</sub>(g) + O<sub>2</sub>(g), with electricity written over the arrow.</p><p>(iv) Pure water hardly conducts electricity. A few drops of dilute sulphuric acid make the water a good conductor so that the current can pass and the reaction can occur. (A burning candle brought near the hydrogen tube burns with a pop; near the oxygen tube it burns more brightly.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "In the laboratory, a student performs three activities. In the first, an iron nail is left in blue copper sulphate solution for twenty minutes. In the second, sodium sulphate solution is added to barium chloride solution. In the third, lead nitrate powder is heated in a boiling tube.<br>(i) State the observation in the first activity and write the equation.<br>(ii) Name the white solid formed in the second activity and give two names for the type of reaction.<br>(iii) What is the brown gas in the third activity, and what type of reaction is it?<br>(iv) Which of the three reactions is an example of a more reactive element replacing a less reactive one? Give the reason.",
+      "answer": "<p>(i) The blue solution turns light green and a brownish coating of copper forms on the nail: Fe(s) + CuSO<sub>4</sub>(aq) → FeSO<sub>4</sub>(aq) + Cu(s).</p><p>(ii) Barium sulphate, BaSO<sub>4</sub>, a white precipitate: Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq). It is a double displacement reaction and a precipitation reaction.</p><p>(iii) Nitrogen dioxide, NO<sub>2</sub>; the reaction 2Pb(NO<sub>3</sub>)<sub>2</sub>(s) → 2PbO(s) + 4NO<sub>2</sub>(g) + O<sub>2</sub>(g) is a thermal decomposition reaction, and a yellow residue of lead oxide is left.</p><p>(iv) The first activity. Iron is more reactive than copper, so it displaces copper from copper sulphate solution; this is a displacement reaction.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of the following is a physical change and not a chemical reaction?",
+      "options": [
+        "Rusting of an iron gate",
+        "Melting of ice on a mountain",
+        "Burning of a magnesium ribbon",
+        "Milk turning into curd"
+      ],
+      "answer_index": 1,
+      "explanation": "Melting only changes the state of water; no new substance forms. The other three produce new substances."
+    },
+    {
+      "q": "The coefficients that balance the equation Al<sub>2</sub>O<sub>3</sub> + HCl → AlCl<sub>3</sub> + H<sub>2</sub>O are, in order:",
+      "options": [
+        "1, 6, 2, 3",
+        "2, 3, 2, 3",
+        "1, 3, 1, 3",
+        "2, 6, 4, 3"
+      ],
+      "answer_index": 0,
+      "explanation": "Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O: Al 2 = 2, O 3 = 3, H 6 = 6, Cl 6 = 6."
+    },
+    {
+      "q": "When lead nitrate is heated in a boiling tube, the brown fumes given out are of:",
+      "options": [
+        "Oxygen",
+        "Nitrogen dioxide",
+        "Lead oxide",
+        "Nitric acid vapour"
+      ],
+      "answer_index": 1,
+      "explanation": "2Pb(NO<sub>3</sub>)<sub>2</sub> → 2PbO + 4NO<sub>2</sub> + O<sub>2</sub>; nitrogen dioxide is the brown gas, lead oxide is the yellow solid residue."
+    },
+    {
+      "q": "In the electrolysis of water, the ratio of the volume of hydrogen to the volume of oxygen collected is:",
+      "options": [
+        "1 : 1",
+        "1 : 2",
+        "2 : 1",
+        "1 : 8"
+      ],
+      "answer_index": 2,
+      "explanation": "2H<sub>2</sub>O → 2H<sub>2</sub> + O<sub>2</sub>, so two volumes of hydrogen form for every one of oxygen; 1:8 is the mass ratio, not the volume ratio."
+    },
+    {
+      "q": "Which of the following is a combination reaction?",
+      "options": [
+        "CaCO<sub>3</sub> → CaO + CO<sub>2</sub>",
+        "Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu",
+        "C + O<sub>2</sub> → CO<sub>2</sub>",
+        "NaOH + HCl → NaCl + H<sub>2</sub>O"
+      ],
+      "answer_index": 2,
+      "explanation": "Two reactants form a single product; the others are decomposition, displacement and double displacement in that order."
+    },
+    {
+      "q": "An iron nail dipped in copper sulphate solution for twenty minutes:",
+      "options": [
+        "Turns the solution dark blue",
+        "Gets a brownish coating and the solution turns light green",
+        "Dissolves completely without any colour change",
+        "Turns black and the solution stays blue"
+      ],
+      "answer_index": 1,
+      "explanation": "Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu; copper deposits on the nail and the green colour is due to ferrous sulphate."
+    },
+    {
+      "q": "The reaction Na<sub>2</sub>SO<sub>4</sub>(aq) + BaCl<sub>2</sub>(aq) → BaSO<sub>4</sub>(s) + 2NaCl(aq) is best described as:",
+      "options": [
+        "Combination and exothermic",
+        "Displacement and precipitation",
+        "Double displacement and precipitation",
+        "Decomposition and endothermic"
+      ],
+      "answer_index": 2,
+      "explanation": "The two compounds exchange ions and an insoluble white solid, barium sulphate, is formed."
+    },
+    {
+      "q": "In the reaction ZnO + C → Zn + CO, the reducing agent is:",
+      "options": [
+        "ZnO",
+        "C",
+        "Zn",
+        "CO"
+      ],
+      "answer_index": 1,
+      "explanation": "Carbon removes oxygen from zinc oxide and is itself oxidised to CO, which makes carbon the reducing agent; ZnO is the oxidising agent."
+    },
+    {
+      "q": "In MnO<sub>2</sub> + 4HCl → MnCl<sub>2</sub> + 2H<sub>2</sub>O + Cl<sub>2</sub>, the substance oxidised is:",
+      "options": [
+        "MnO<sub>2</sub>",
+        "HCl",
+        "MnCl<sub>2</sub>",
+        "H<sub>2</sub>O"
+      ],
+      "answer_index": 1,
+      "explanation": "HCl loses hydrogen and becomes chlorine, so it is oxidised; MnO<sub>2</sub> loses oxygen and is reduced."
+    },
+    {
+      "q": "Silver chloride kept in sunlight turns grey because:",
+      "options": [
+        "It absorbs moisture from the air",
+        "It decomposes to silver and chlorine",
+        "It combines with oxygen to form silver oxide",
+        "It melts in the heat of the sun"
+      ],
+      "answer_index": 1,
+      "explanation": "2AgCl → 2Ag + Cl<sub>2</sub> is a photolytic decomposition; the grey colour is finely divided silver metal."
+    },
+    {
+      "q": "Which of the following is an endothermic process?",
+      "options": [
+        "Burning of natural gas",
+        "Respiration in cells",
+        "Decomposition of calcium carbonate on heating",
+        "Reaction of quicklime with water"
+      ],
+      "answer_index": 2,
+      "explanation": "Heating limestone absorbs heat; the other three release heat and are exothermic."
+    },
+    {
+      "q": "The green coating that forms on a copper vessel left in moist air is:",
+      "options": [
+        "Copper oxide",
+        "Copper sulphate",
+        "Basic copper carbonate",
+        "Copper chloride"
+      ],
+      "answer_index": 2,
+      "explanation": "Copper reacts slowly with moist air containing carbon dioxide to form green basic copper carbonate, CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>."
+    },
+    {
+      "q": "Which pair of conditions is necessary for iron to rust?",
+      "options": [
+        "Oxygen and moisture",
+        "Oxygen only",
+        "Moisture only",
+        "Carbon dioxide and heat"
+      ],
+      "answer_index": 0,
+      "explanation": "Rust is hydrated iron(III) oxide; iron in dry air or in air-free water does not rust."
+    },
+    {
+      "q": "Chips packets are flushed with nitrogen because nitrogen:",
+      "options": [
+        "Is heavier than air and keeps the chips crisp",
+        "Is unreactive and prevents oxidation of the oil",
+        "Adds flavour to the chips",
+        "Kills bacteria in the packet"
+      ],
+      "answer_index": 1,
+      "explanation": "Nitrogen replaces oxygen inside the packet, so the fats and oils are not oxidised and the chips do not turn rancid."
+    },
+    {
+      "q": "Heating green ferrous sulphate crystals gives:",
+      "options": [
+        "A yellow residue and brown fumes",
+        "A reddish-brown residue and a smell of burning sulphur",
+        "A white residue and a colourless odourless gas",
+        "No change, because ferrous sulphate is stable to heat"
+      ],
+      "answer_index": 1,
+      "explanation": "2FeSO<sub>4</sub> → Fe<sub>2</sub>O<sub>3</sub> + SO<sub>2</sub> + SO<sub>3</sub>; ferric oxide is reddish brown and the oxides of sulphur smell of burning sulphur."
+    },
+    {
+      "q": "Which of the following is a displacement reaction?",
+      "options": [
+        "2H<sub>2</sub> + O<sub>2</sub> → 2H<sub>2</sub>O",
+        "2AgBr → 2Ag + Br<sub>2</sub>",
+        "Pb + CuCl<sub>2</sub> → PbCl<sub>2</sub> + Cu",
+        "AgNO<sub>3</sub> + NaCl → AgCl + NaNO<sub>3</sub>"
+      ],
+      "answer_index": 2,
+      "explanation": "Lead, the more reactive metal, displaces copper from copper chloride; the others are combination, decomposition and double displacement."
+    },
+    {
+      "q": "The reaction CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O is a redox reaction because:",
+      "options": [
+        "Copper is oxidised and hydrogen is reduced",
+        "Copper oxide is reduced and hydrogen is oxidised",
+        "Both copper oxide and hydrogen are reduced",
+        "Only copper oxide changes"
+      ],
+      "answer_index": 1,
+      "explanation": "CuO loses oxygen (reduction) while H<sub>2</sub> gains oxygen to form water (oxidation); both happen in the same reaction."
+    }
+  ],
+  "common_mistakes": [
+    "Balancing an equation by changing a subscript (writing H<sub>2</sub>O<sub>2</sub> for water or O<sub>3</sub> for oxygen). Only coefficients may change; a changed formula gets zero for the whole equation.",
+    "Writing a word equation, or an unbalanced skeletal equation, when a chemical equation is asked for. The examiner expects formulae, balancing and, where the question says so, state symbols and conditions.",
+    "Mixing up the oxidising and reducing agents. The substance that is oxidised is the reducing agent; the substance that is reduced is the oxidising agent. Name all four in every redox answer.",
+    "Giving only one name for the Na<sub>2</sub>SO<sub>4</sub> + BaCl<sub>2</sub> or Pb(NO<sub>3</sub>)<sub>2</sub> + KI reaction. It is both a double displacement and a precipitation reaction, and the colour of the precipitate is part of the observation mark.",
+    "Calling every decomposition reaction endothermic and every combination exothermic without exception. Composting is a decomposition that releases heat, and a 2025 Assertion-Reason item was set on exactly this.",
+    "Saying that the grey colour of silver chloride in sunlight, or the black colour of heated copper, is due to dirt or burning. Write the equation: 2AgCl → 2Ag + Cl<sub>2</sub> (silver is grey), 2Cu + O<sub>2</sub> → 2CuO (copper oxide is black).",
+    "Confusing the 2:1 volume ratio with the 1:8 mass ratio in the electrolysis of water, and forgetting that hydrogen collects at the cathode and oxygen at the anode.",
+    "Writing that rust is iron oxide and that iron rusts in dry air. Rust is hydrated iron(III) oxide and needs both oxygen and moisture.",
+    "Explaining nitrogen flushing as nitrogen being heavier or a preservative. The reason is that nitrogen is unreactive and replaces the oxygen that would oxidise the fat."
+  ],
+  "strategy": "<p>This is a short chapter with a fixed set of questions, so prepare it as a set of activities rather than as theory. Sit with the eleven NCERT activities and, for each one, write four lines: what is done, what is seen (colour, gas, precipitate, temperature), the balanced equation with states, and the type of reaction. That table covers almost every 2- and 3-mark question the board has set from this chapter, and it takes one evening.</p><p>Then memorise the equations in the formula sheet above. Test yourself by writing them from the name alone: heating lead nitrate, silver chloride in sunlight, iron nail in copper sulphate, and so on. For balancing, practise ten equations by the hit-and-trial method, and always start with the compound that has the most atoms, balance polyatomic ions as one unit, and recount at the end.</p><p>For the redox section, write a two-column table for the five NCERT reactions (CuO + H<sub>2</sub>, ZnO + C, MnO<sub>2</sub> + HCl, 4Na + O<sub>2</sub>, Fe<sub>2</sub>O<sub>3</sub> + Al) and fill in oxidised, reduced, oxidising agent, reducing agent. Say the rule aloud until it sticks: oxidised means reducing agent.</p><p>Finish with corrosion and rancidity, which are 2-mark questions with predictable answers: definition, one example, two preventions with the reason.</p><p>In the exam, give this chapter about 15 minutes. Write equations in a separate line, balanced, with states when asked, and underline the type of reaction. In MCQs on balancing, substitute the option into the equation and count atoms rather than guessing. Do not spend time on long explanations; the marking scheme rewards the equation, the observation and the correct name.</p>",
+  "revision_checklist": [
+    "I can list the four observations that show a chemical reaction has occurred, with one example each.",
+    "I can write and balance the iron-plus-steam equation by hit and trial and explain why balancing is needed (law of conservation of mass).",
+    "I know the four state symbols and how to write heat, light, electricity, pressure and catalyst as conditions over the arrow.",
+    "I can write the equations for quicklime with water and for the whitewash shine, and name both as combination reactions.",
+    "I can explain why respiration is exothermic, with the equation.",
+    "I can write one decomposition equation each for heat (lead nitrate or ferrous sulphate or limestone), light (silver chloride) and electricity (water).",
+    "I can describe the electrolysis of water: role of dilute acid, gas at each electrode, 2:1 volume ratio, and the candle test.",
+    "I can describe the iron nail in copper sulphate activity with colour changes, the equation and the reason (iron is more reactive).",
+    "I can write Na2SO4 + BaCl2 and Pb(NO3)2 + KI with the precipitate colours and give both names: double displacement and precipitation.",
+    "I can give one neutralisation example of double displacement and state the difference between displacement and double displacement.",
+    "I can define oxidation and reduction in terms of oxygen and hydrogen, and identify oxidised, reduced, oxidising agent and reducing agent in CuO + H2, ZnO + C and MnO2 + HCl.",
+    "I know that copper turns black on heating (CuO) and brown again with hydrogen, and what colour each of AgCl, PbI2, BaSO4, Fe2O3 and PbO is.",
+    "I can define corrosion, give the three NCERT examples (silver, copper, iron), state that rusting needs air and moisture, and list two preventions.",
+    "I can define rancidity and give two ways to prevent it, including why nitrogen is used for flushing chip packets."
+  ],
+  "videos": [
+    {
+      "id": "WjGWoA9mEr4",
+      "title": "Chemical Reactions and Equations · full chapter"
+    }
+  ]
+}

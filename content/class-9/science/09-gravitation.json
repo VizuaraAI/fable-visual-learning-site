@@ -1,0 +1,991 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 9,
+  "slug": "gravitation",
+  "title": "Gravitation",
+  "summary": "This chapter builds the universal law of gravitation from Kepler's laws, explains why things fall and why the Moon does not, and applies it to mass, weight, free fall, thrust, pressure, buoyancy and Archimedes' principle.",
+  "exam_profile": {
+    "weightage": "Class 9 has no board exam, so there is no official weightage. In school tests it is a heavier physics chapter, typically 10-14 marks across MCQ, numericals and short/long answers.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Units of G and g, mass vs weight, value of g on Moon, direction of buoyant force, floating condition, free-fall weight."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Pairs a fact (astronauts weightless, a ship floats, g decreases with height) with its correct reason."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define a term, state a law, or a one-line numerical using F = GMm/r² or W = mg."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Derive a simple relation (g and G), explain why g differs at equator/poles, or a two-step numerical."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full derivation (third equation of motion under gravity, g = GM/R²), or a multi-part numerical mixing mass, weight and free fall."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage on floating/sinking or planetary motion, followed by 3-4 sub-questions mixing concept and calculation."
+      }
+    ],
+    "hot_topics": [
+      "Universal law of gravitation — statement, formula, and why it is 'universal'",
+      "Relation between g and G: g = GM/R², and why g is nearly constant near Earth's surface",
+      "Free fall and the three equations of motion applied with g instead of a",
+      "Mass vs weight — definitions, units, and why weight changes but mass does not",
+      "Weightlessness in free fall and in an orbiting satellite",
+      "Thrust and pressure — definitions, SI units, and pressure in fluids increasing with depth",
+      "Archimedes' principle and why objects float or sink (density comparison with the fluid)",
+      "Numericals: force between two masses, g on Moon vs Earth, time/height of a freely falling or thrown-up object"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "9.1 Gravitation",
+      "pyq_years": [],
+      "body": "<p>Every object in the universe pulls every other object towards itself; this attractive force is called <b>gravitation</b>. The Earth's pull on nearby objects is specifically called <b>gravity</b>.</p><p>The idea builds historically from planetary motion. Nicolaus Copernicus proposed that planets, including Earth, revolve around the Sun. <b>Johannes Kepler</b>, using Tycho Brahe's observations, worked out three laws of planetary motion:</p><ul><li><b>Law of orbits:</b> every planet moves in an elliptical orbit with the Sun at one focus.</li><li><b>Law of areas:</b> the line joining the planet to the Sun sweeps out equal areas in equal intervals of time (so a planet moves faster when nearer the Sun).</li><li><b>Law of periods:</b> the square of the time period of revolution of a planet is proportional to the cube of the semi-major axis of its orbit, T<sup>2</sup> ∝ r<sup>3</sup>.</li></ul><p>Isaac Newton used Kepler's laws to reason that a force must be pulling the planets towards the Sun, and that the same force makes an apple fall to the ground — the starting point of the universal law of gravitation.</p>",
+      "formulas": [
+        {
+          "expr": "T<sup>2</sup> ∝ r<sup>3</sup>",
+          "where": [
+            [
+              "T",
+              "time period of revolution of the planet"
+            ],
+            [
+              "r",
+              "average distance of the planet from the Sun (semi-major axis)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Examiners like to ask 'which of Kepler's laws' for a given statement — learn orbits/areas/periods by the keyword: ellipse, equal areas, T²∝r³."
+    },
+    {
+      "heading": "9.2 Universal Law of Gravitation",
+      "pyq_years": [],
+      "body": "<p>Newton's universal law of gravitation states: every object in the universe attracts every other object with a force that is <b>directly proportional to the product of their masses</b> and <b>inversely proportional to the square of the distance between their centres</b>. The direction of this force is along the line joining the two objects.</p><p>For masses m<sub>1</sub>, m<sub>2</sub> separated by distance d: F ∝ m<sub>1</sub>m<sub>2</sub> and F ∝ 1/d<sup>2</sup>, so F ∝ m<sub>1</sub>m<sub>2</sub>/d<sup>2</sup>, giving F = G·m<sub>1</sub>m<sub>2</sub>/d<sup>2</sup>, where G is the <b>universal gravitational constant</b>.</p><p>G = 6.673 × 10<sup>−11</sup> N m<sup>2</sup> kg<sup>−2</sup>, the same everywhere — independent of the medium or the nature of the objects, which is why the law is <b>universal</b>. G was first measured experimentally by Henry Cavendish.</p><p>This one law explains many facts together: why a dropped object falls to Earth, why the Moon orbits the Earth, why planets orbit the Sun, why tides occur, and why our atmosphere stays close to the Earth instead of drifting into space.</p>",
+      "formulas": [
+        {
+          "expr": "F = G · m<sub>1</sub>m<sub>2</sub>/d<sup>2</sup>",
+          "where": [
+            [
+              "F",
+              "gravitational force between the two masses (N)"
+            ],
+            [
+              "m<sub>1</sub>, m<sub>2</sub>",
+              "the two masses (kg)"
+            ],
+            [
+              "d",
+              "distance between their centres (m)"
+            ],
+            [
+              "G",
+              "universal gravitational constant = 6.673 × 10<sup>−11</sup> N m<sup>2</sup> kg<sup>−2</sup>"
+            ]
+          ]
+        }
+      ],
+      "tip": "If d is doubled, F becomes 1/4th; if either mass is doubled, F doubles — questions often test this proportionality without asking for a full numerical."
+    },
+    {
+      "heading": "9.2.1 Importance of the Universal Law of Gravitation",
+      "pyq_years": [],
+      "body": "<p>NCERT lists everyday phenomena this single law explains — a favourite source of short-answer questions:</p><ul><li>The force that binds us to the Earth.</li><li>The motion of the Moon around the Earth.</li><li>The motion of planets around the Sun.</li><li>The tides caused by the Moon and the Sun.</li></ul><p>Before Newton, these were thought to be separate, unrelated phenomena; his insight was that one universal force of attraction between any two masses explains all of them.</p> <p>These four points are worth memorising as a list, since a 2-mark question often asks you to name any two phenomena explained by the universal law of gravitation.</p>",
+      "formulas": [],
+      "tip": "A 2-mark question often just asks you to list 2 phenomena explained by this law — the tides and the Moon's orbit are the two most commonly expected answers."
+    },
+    {
+      "heading": "9.3 Free Fall",
+      "pyq_years": [],
+      "body": "<p>Whenever an object falls towards the Earth under the effect of gravitational force alone (no other force acting on it), it is said to be in <b>free fall</b>. The Earth's gravitational pull produces an acceleration in the falling object, called the <b>acceleration due to gravity</b>, denoted g. It has the same units as acceleration, m s<sup>−2</sup>.</p><p>Since F = GMm/R<sup>2</sup> (using Earth's mass M, an object's mass m, and R as the distance from the Earth's centre to the object) and, by Newton's second law, F = mg, equating the two gives the relation between g and G:</p><p>mg = GMm/R<sup>2</sup> ⇒ <b>g = GM/R<sup>2</sup></b></p><p>Near Earth's surface R is essentially constant, so g works out to about 9.8 m s<sup>−2</sup>. Since m cancels out of the derivation, g does not depend on the falling object's mass — all objects, light or heavy, fall with the same acceleration in the absence of air resistance (famously demonstrated on the airless Moon).</p><p>g varies slightly over the Earth: it is greater at the poles and smaller at the equator, because the Earth is not a perfect sphere (it is flattened at the poles, so the poles are closer to the centre) and because R increases as one moves from the poles to the equator. g also decreases with altitude and with depth below the surface.</p>",
+      "formulas": [
+        {
+          "expr": "g = GM/R<sup>2</sup>",
+          "where": [
+            [
+              "g",
+              "acceleration due to gravity (m s<sup>−2</sup>)"
+            ],
+            [
+              "G",
+              "universal gravitational constant"
+            ],
+            [
+              "M",
+              "mass of the Earth, 6 × 10<sup>24</sup> kg"
+            ],
+            [
+              "R",
+              "radius of the Earth, 6.4 × 10<sup>6</sup> m"
+            ]
+          ]
+        }
+      ],
+      "tip": "Board answers must show the derivation g = GM/R² from F = GMm/R² and F = mg — do not just quote the formula."
+    },
+    {
+      "heading": "9.3.1 To Calculate the Value of g",
+      "pyq_years": [],
+      "body": "<p>Substituting M = 6 × 10<sup>24</sup> kg, R = 6.4 × 10<sup>6</sup> m, and G = 6.7 × 10<sup>−11</sup> N m<sup>2</sup> kg<sup>−2</sup> into g = GM/R<sup>2</sup> gives g ≈ 9.8 m s<sup>−2</sup>, the standard value used throughout this chapter (numericals sometimes round it to 10 m s<sup>−2</sup> — always use the value the question specifies).</p> <p>Note that G is extremely small while M is extremely large, and R is squared in the denominator — it is the combination of a very large mass with a comparatively small radius that gives Earth's surface a measurable, everyday value of g.</p>",
+      "formulas": [],
+      "tip": "Unless the question says 'take g = 10 m s⁻²', use 9.8 m s⁻² — state which value you used."
+    },
+    {
+      "heading": "9.3.2 Motion of Objects Under the Influence of Gravitational Force of the Earth",
+      "pyq_years": [],
+      "body": "<p>Because free fall is uniformly accelerated motion (acceleration = g, constant), the three equations of motion apply directly, with a replaced by g (taken positive for falling motion, negative for upward motion since gravity then decelerates the object):</p><p>v = u + gt; s = ut + ½gt<sup>2</sup>; v<sup>2</sup> = u<sup>2</sup> + 2gs</p><p>For an object <b>dropped</b> from rest (u = 0): v = gt, h = ½gt<sup>2</sup>, v<sup>2</sup> = 2gh. For an object <b>thrown upward</b> with speed u, g opposes the motion, so the object decelerates, momentarily stops at the top (v = 0), then falls back with the same launch speed; time up = time down, total flight time = 2u/g. These equations are the basis of nearly every numerical in this chapter.</p>",
+      "formulas": [
+        {
+          "expr": "v = u + gt",
+          "where": [
+            [
+              "v",
+              "final velocity"
+            ],
+            [
+              "u",
+              "initial velocity"
+            ],
+            [
+              "g",
+              "acceleration due to gravity (+ falling, − rising)"
+            ],
+            [
+              "t",
+              "time"
+            ]
+          ]
+        },
+        {
+          "expr": "h = ut + ½gt<sup>2</sup>",
+          "where": [
+            [
+              "h",
+              "distance/height covered"
+            ]
+          ]
+        },
+        {
+          "expr": "v<sup>2</sup> = u<sup>2</sup> + 2gh",
+          "where": []
+        }
+      ],
+      "tip": "Sign convention decides half these marks: take downward as positive when an object falls, and g as negative when an object is thrown upward, and stay consistent through the whole numerical."
+    },
+    {
+      "heading": "9.4 Mass",
+      "pyq_years": [],
+      "body": "<p>The <b>mass</b> of a body is the quantity of matter contained in it. Mass is a scalar quantity, its SI unit is the kilogram (kg), and it does not change with location — the mass of an object is the same on the Earth, the Moon, or in outer space, because the amount of matter in it does not change.</p><p>Mass is also a measure of a body's inertia — its resistance to a change in motion, met in the previous chapter. A larger mass is harder to accelerate for a given force. Mass can never be zero or negative for a physical object, and simply adds up when objects are combined.</p>",
+      "formulas": [],
+      "tip": null
+    },
+    {
+      "heading": "9.5 Weight",
+      "pyq_years": [],
+      "body": "<p>The <b>weight</b> of an object is the force with which the Earth (or any other body) attracts it, i.e. W = mg. Weight is a vector quantity, always directed towards the centre of the attracting body, and its SI unit is the newton (N), the same unit as force. Since g varies from place to place, the weight of a given object also varies from place to place, even though its mass stays constant.</p><p>Everyday spring balances actually measure weight but are calibrated to show 'mass' in kg assuming g is constant — strictly, a person doesn't 'weigh 60 kg'; 60 kg is the mass, and the weight is 60 × 9.8 = 588 N.</p><p><b>9.5.1 Weight on the Moon.</b> The Moon's mass and radius are both much smaller than Earth's, and g<sub>moon</sub> = GM<sub>moon</sub>/R<sub>moon</sub><sup>2</sup> works out to about 1/6th of g on Earth (≈1.63 m s<sup>−2</sup>). Since W = mg, an object's weight on the Moon is about 1/6th its weight on Earth even though its mass is unchanged — why astronauts jump higher and carry heavier loads there.</p>",
+      "formulas": [
+        {
+          "expr": "W = mg",
+          "where": [
+            [
+              "W",
+              "weight (N)"
+            ],
+            [
+              "m",
+              "mass (kg)"
+            ],
+            [
+              "g",
+              "acceleration due to gravity at that location (m s<sup>−2</sup>)"
+            ]
+          ]
+        },
+        {
+          "expr": "W<sub>moon</sub>/W<sub>earth</sub> = g<sub>moon</sub>/g<sub>earth</sub> ≈ 1/6",
+          "where": []
+        }
+      ],
+      "tip": "A very common numerical: 'weight of an object is 60 N on Earth, find its weight on the Moon' — just divide by 6 (or multiply by g_moon/g_earth if given exactly)."
+    },
+    {
+      "heading": "9.6 The Universal Law of Gravitation and the Weight of Objects — Weightlessness",
+      "pyq_years": [],
+      "body": "<p>When a body is in <b>free fall</b> — e.g. inside a lift whose cable has snapped, or an astronaut inside an orbiting spacecraft — it feels no support/reaction force, so it appears to have no weight, even though gravity still acts on it, giving it acceleration g. This is <b>weightlessness</b>. An orbiting satellite is technically in continuous free fall around the Earth — gravity supplies exactly the centripetal force needed for the orbit, which is why astronauts float inside it.</p>",
+      "formulas": [],
+      "tip": "Explain weightlessness as 'no support/reaction force', not as 'gravity is absent' — gravity is very much present and is what keeps the satellite in orbit."
+    },
+    {
+      "heading": "9.7 Thrust and Pressure",
+      "pyq_years": [],
+      "body": "<p><b>Thrust</b> is the force acting perpendicular to a surface; SI unit newton (N). <b>Pressure</b> is thrust per unit area: P = F/A; SI unit pascal (Pa), 1 Pa = 1 N/m<sup>2</sup>.</p><p>For the same thrust, a smaller contact area gives more pressure, a larger area gives less — why a sharp knife cuts more easily than a blunt one, why camels have broad feet to avoid sinking in sand, and why a nail has a pointed tip and a wide flat head.</p>",
+      "formulas": [
+        {
+          "expr": "P = F/A",
+          "where": [
+            [
+              "P",
+              "pressure (Pa or N m<sup>−2</sup>)"
+            ],
+            [
+              "F",
+              "thrust, i.e. the force acting perpendicular to the surface (N)"
+            ],
+            [
+              "A",
+              "area of contact (m<sup>2</sup>)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Distinguish thrust (a force, vector, N) from pressure (thrust per area, scalar, Pa) — a common 1-mark trap."
+    },
+    {
+      "heading": "9.7.1 Pressure in Fluids",
+      "pyq_years": [],
+      "body": "<p>Fluids (liquids and gases) also exert pressure on their container walls and on any immersed object. Unlike a solid on a surface, fluid pressure at a point acts equally in all directions, not just downward. It increases with depth, since a deeper layer has more fluid above pressing down, and it depends on the fluid's density too — denser fluids exert more pressure at the same depth.</p><p>This is why a dam is built much thicker at its base than at the top: the water pressure is greatest at the bottom, so the wall there must be strong enough to withstand the largest force. It is also why deep-sea divers must wear pressure-resistant suits, since the pressure of water increases rapidly with depth and would otherwise crush an unprotected body.</p>",
+      "formulas": [],
+      "tip": null
+    },
+    {
+      "heading": "9.7.2 Buoyancy",
+      "pyq_years": [],
+      "body": "<p>When an object is immersed in a fluid, the fluid exerts an upward force on it that opposes the object's weight; this upward force is called <b>buoyant force</b> (or upthrust), and the phenomenon is called <b>buoyancy</b>. It happens because pressure in a fluid increases with depth, so the upward pressure pushing on the bottom face of the object is greater than the downward pressure pushing on its top face, giving a net upward push.</p><p>You can feel this yourself: it takes more effort to push an empty bottle down into water than to lift it in air, because the water pushes back up. The buoyant force's size depends on how much fluid is displaced and its density — the exact relationship Archimedes' principle states precisely.</p>",
+      "formulas": [],
+      "tip": "Buoyant force always acts upward, whatever the shape or orientation of the object."
+    },
+    {
+      "heading": "9.7.3 Why Objects Float or Sink When Placed on the Surface of Water",
+      "pyq_years": [],
+      "body": "<p>Whether an object floats or sinks depends on comparing its density with the fluid's density:</p><ul><li>Density <b>less than</b> the fluid: the object floats, rising until just enough of it is submerged for the buoyant force to balance its weight (wood, ice, cork).</li><li>Density <b>equal to</b> the fluid: it stays suspended anywhere within it (neutral buoyancy).</li><li>Density <b>greater than</b> the fluid: it sinks (a stone, or solid iron).</li></ul><p>This is why a solid iron ball sinks but a hollow iron ship floats: the ship's shape displaces a large volume of water, so its average density (mass ÷ total volume including its air-filled hollows) is less than water's, even though solid iron itself is denser than water.</p>",
+      "formulas": [],
+      "tip": "Always compare average density of the object with the density of the fluid — not just 'is it heavy' — this is the reasoning examiners want in the answer."
+    },
+    {
+      "heading": "9.8 Archimedes' Principle",
+      "pyq_years": [],
+      "body": "<p><b>Archimedes' principle:</b> when a body is immersed fully or partially in a fluid, it experiences an upward buoyant force equal to the weight of the fluid displaced by it.</p><p>Applications examiners test directly: design of ships and submarines (a submarine changes its average density using ballast tanks to sink, float, or hover); hydrometers/lactometers, which measure a liquid's density from how deep they sink; and why we feel lighter standing in water, since part of our weight is supported by the buoyant force.</p><p><b>Relative density</b> = density of substance / density of water — a ratio, so it has no unit.</p>",
+      "formulas": [
+        {
+          "expr": "Buoyant force = weight of fluid displaced",
+          "where": []
+        },
+        {
+          "expr": "Relative density = density of substance / density of water",
+          "where": []
+        }
+      ],
+      "tip": "State the principle exactly as 'buoyant force equals the weight of fluid displaced' — 'equal to the volume displaced' is a common wrong version that loses the mark."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Gravitation",
+      "definition": "The force of attraction between any two objects in the universe, acting along the line joining their centres."
+    },
+    {
+      "term": "Gravity",
+      "definition": "The special case of gravitation: Earth's attraction on objects near it."
+    },
+    {
+      "term": "Universal gravitational constant (G)",
+      "definition": "The constant in F = Gm₁m₂/d², equal to 6.673 × 10⁻¹¹ N m² kg⁻², the same everywhere in the universe."
+    },
+    {
+      "term": "Free fall",
+      "definition": "Motion of an object falling towards Earth under gravity alone, with no other force acting on it."
+    },
+    {
+      "term": "Acceleration due to gravity (g)",
+      "definition": "The uniform acceleration produced in a freely falling object by Earth's pull; near the surface, g ≈ 9.8 m s⁻²."
+    },
+    {
+      "term": "Mass",
+      "definition": "The quantity of matter in a body; a scalar, measured in kg, the same everywhere in the universe."
+    },
+    {
+      "term": "Weight",
+      "definition": "The force with which a body is attracted towards the Earth's centre, W = mg; a vector in newtons, varying with location."
+    },
+    {
+      "term": "Weightlessness",
+      "definition": "The condition of a body in free fall (e.g. inside an orbiting satellite) that feels no support force, so it appears to have no weight."
+    },
+    {
+      "term": "Thrust",
+      "definition": "The force acting on an object perpendicular to its surface, in newtons."
+    },
+    {
+      "term": "Pressure",
+      "definition": "Thrust per unit area, P = F/A, in pascals (Pa)."
+    },
+    {
+      "term": "Buoyancy / buoyant force",
+      "definition": "The upward force a fluid exerts on an object immersed in it, since fluid pressure increases with depth."
+    },
+    {
+      "term": "Archimedes' principle",
+      "definition": "A body immersed fully or partially in a fluid experiences an upward buoyant force equal to the weight of fluid displaced."
+    },
+    {
+      "term": "Relative density",
+      "definition": "The ratio of a substance's density to water's density; a pure number, no unit."
+    },
+    {
+      "term": "Kepler's law of periods",
+      "definition": "T² ∝ r³ — the square of a planet's orbital period is proportional to the cube of its average distance from the Sun."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Kepler's third law",
+      "expr": "T<sup>2</sup> ∝ r<sup>3</sup>",
+      "note": "period T vs orbital radius r for planets"
+    },
+    {
+      "name": "Universal law of gravitation",
+      "expr": "F = G·m<sub>1</sub>m<sub>2</sub>/d<sup>2</sup>",
+      "note": "G = 6.673 × 10<sup>−11</sup> N m<sup>2</sup> kg<sup>−2</sup>"
+    },
+    {
+      "name": "Relation between g and G",
+      "expr": "g = GM/R<sup>2</sup>",
+      "note": "gives g ≈ 9.8 m s<sup>−2</sup>"
+    },
+    {
+      "name": "Weight",
+      "expr": "W = mg",
+      "note": "N, kg, m s<sup>−2</sup>"
+    },
+    {
+      "name": "Equations of motion under gravity",
+      "expr": "v = u + gt;  h = ut + ½gt<sup>2</sup>;  v<sup>2</sup> = u<sup>2</sup> + 2gh",
+      "note": "+g falling, −g rising; u = 0 when dropped"
+    },
+    {
+      "name": "Pressure",
+      "expr": "P = F/A",
+      "note": "pascal (Pa) = N m<sup>−2</sup>"
+    },
+    {
+      "name": "Archimedes' principle",
+      "expr": "Buoyant force = weight of fluid displaced",
+      "note": "for any body fully/partially immersed"
+    },
+    {
+      "name": "Relative density",
+      "expr": "Relative density = density of substance / density of water",
+      "note": "no unit"
+    },
+    {
+      "name": "g on the Moon",
+      "expr": "g<sub>moon</sub> ≈ g<sub>earth</sub>/6 ≈ 1.63 m s<sup>−2</sup>",
+      "note": "scales weight on the Moon from weight on Earth"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Elliptical orbit of a planet around the Sun (Kepler's law of areas)",
+      "how_to_draw": "Draw an ellipse with the Sun at one focus. Mark two planet positions near the Sun and two far from it, joining each pair to the Sun to form two equal-area 'pie slices' swept in the same time t. Label the near arc as faster motion, showing the planet speeds up closer to the Sun."
+    },
+    {
+      "title": "Direction of gravitational force between two masses",
+      "how_to_draw": "Draw two dots labelled m₁ and m₂ separated by distance d. Draw arrows along the line joining their centres, pointing towards each other and labelled F, with d marked between them and F = Gm₁m₂/d² noted beside it."
+    },
+    {
+      "title": "Freely falling object — velocity increasing under gravity",
+      "how_to_draw": "Draw a vertical line with an object released from rest (u = 0) at the top. Mark 3-4 positions at equal time intervals going down, with the velocity arrow growing longer at each, showing uniform downward acceleration g."
+    },
+    {
+      "title": "Buoyant force on an object immersed in a fluid",
+      "how_to_draw": "Draw a liquid-filled container with a cuboid fully submerged. Draw a short downward arrow on top labelled 'pressure from above' and a longer upward arrow at the bottom labelled 'pressure from below (greater, more depth)'. Label the net upward arrow buoyant force F_b, and the object's weight W acting down from its centre."
+    },
+    {
+      "title": "Floating vs sinking based on density comparison",
+      "how_to_draw": "Draw three beakers: one with a block floating partly above the surface ('density of block < water'), one suspended mid-liquid ('density = water'), one resting at the bottom ('density > water')."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1",
+      "q": "State the universal law of gravitation.",
+      "a": "<p>Every object attracts every other object with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres, acting along the line joining them: F = Gm<sub>1</sub>m<sub>2</sub>/d<sup>2</sup>, G = 6.673 × 10<sup>−11</sup> N m<sup>2</sup> kg<sup>−2</sup>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2",
+      "q": "Write the formula to find the magnitude of the gravitational force between the Earth and an object on the surface of the Earth.",
+      "a": "<p>F = GMm/R², where M is Earth's mass, m the object's mass, R Earth's radius, G the gravitational constant.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3",
+      "q": "What do you mean by free fall?",
+      "a": "<p>Whenever an object falls towards the Earth under gravity alone, with no other force acting, this motion is called free fall. The acceleration g depends on the attracting body's mass and radius, not on the falling object's mass.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "4",
+      "q": "Why is the weight of an object on the Moon 1/6th of its weight on the Earth?",
+      "a": "<p>W = mg, and g = GM/R². The Moon's mass and radius are both much smaller than Earth's, and g_moon = GM_moon/R_moon² works out to about 1/6th of g on Earth. Since m is unchanged, the weight (mg) on the Moon also becomes about 1/6th of the weight on Earth.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "5",
+      "q": "Why is it difficult to hold a school bag having a strap made of a thin and strong string?",
+      "a": "<p>A thin strap has a very small contact area with the shoulder. Pressure = force/area, so for the same bag weight, the smaller area produces much greater pressure on the shoulder, causing pain. Wider straps spread the same weight over more area, lowering the pressure.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "6",
+      "q": "A ball is thrown vertically upwards with a velocity of 49 m/s. Calculate (i) the maximum height to which it rises, (ii) the total time it takes to return to the surface of the earth.",
+      "a": "<p>u = 49 m/s, g = 9.8 m s⁻² downward (a = −9.8 rising).</p><p>(i) 0 = 49² − 19.6h ⇒ h = <b>122.5 m</b>.</p><p>(ii) 0 = 49 − 9.8t ⇒ t = 5 s up; by symmetry 5 s down; total = <b>10 s</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7",
+      "q": "A stone is released from the top of a tower of height 19.6 m. Calculate its final velocity just before touching the ground.",
+      "a": "<p>u=0, h=19.6 m, g=9.8 m s⁻². v² = 2gh = 384.16 ⇒ v = <b>19.6 m/s</b>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8",
+      "q": "A stone is thrown vertically upward with an initial velocity of 40 m/s. Taking g = 10 m/s², find the maximum height reached by the stone. What is the net displacement and the total distance covered by the stone?",
+      "a": "<p>u = 40 m/s, g = 10 m s⁻² (a = −10 m s⁻² going up).</p><p>Max height: 0 = 40² − 20h ⇒ h = <b>80 m</b>.</p><p>The stone returns to the launch point, so net displacement = <b>0 m</b>; total distance = 80 up + 80 down = <b>160 m</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9",
+      "q": "Calculate the force of gravitation between the earth and the Sun, given that the mass of the earth = 6 × 10²⁴ kg and of the Sun = 2 × 10³⁰ kg. The average distance between the two is 1.5 × 10¹¹ m.",
+      "a": "<p>F = GM_sun·M_earth/d² = (6.7×10⁻¹¹ × 2×10³⁰ × 6×10²⁴)/(1.5×10¹¹)² = 80.4×10⁴³/2.25×10²² ≈ <b>3.57 × 10²² N</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10",
+      "q": "A stone is allowed to fall from the top of a tower of height 100 m and at the same time another stone is projected vertically upward from the ground with a velocity of 25 m/s. Calculate when and where the two stones will meet.",
+      "a": "<p>Take downward as positive from the tower top. Let the stones meet after time t at distance x from the top.</p><p>Falling stone: x = ½gt² = 4.9t² ...(i)</p><p>Rising stone (up positive, distance y): y = 25t − 4.9t² ...(ii)</p><p>Since x + y = 100: 4.9t² + 25t − 4.9t² = 100 ⇒ t = 4 s.</p><p>x = 4.9 × 16 = 78.4 m. So the stones meet <b>4 s after release, 78.4 m below the top</b> (21.6 m above the ground).</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "11",
+      "q": "A ball thrown up vertically returns to the thrower after 6 s. Find (a) the velocity with which it was thrown up, (b) the maximum height it reaches, (c) its position after 4 s.",
+      "a": "<p>Total flight = 6 s, so time to the top = 3 s. g = 9.8 m s⁻², v = 0 at top.</p><p>(a) 0 = u − 9.8×3 ⇒ <b>u = 29.4 m/s</b>.</p><p>(b) h = ut − ½gt² = 88.2 − 44.1 = <b>44.1 m</b>.</p><p>(c) At t = 4 s (1 s past the top, falling from rest): fall = ½×9.8×1² = 4.9 m. Height = 44.1 − 4.9 = <b>39.2 m</b>.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "12",
+      "q": "In what direction does the buoyant force on an object immersed in a liquid act?",
+      "a": "<p>The buoyant force acts vertically upward on any object immersed fully or partially in a fluid, regardless of shape or orientation.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "13",
+      "q": "Why does a block of plastic released under water come up to the surface of water?",
+      "a": "<p>Plastic's density is less than water's. So the buoyant force on the fully submerged block (equal to the weight of water displaced) exceeds the block's weight, pushing it up until only part remains submerged, at which point the reduced buoyant force balances its weight and it floats.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "14",
+      "q": "The volume of 50 g of a substance is 20 cm³. If the density of water is 1 g cm⁻³, will the substance float or sink?",
+      "a": "<p>Density = 50/20 = <b>2.5 g cm<sup>−3</sup></b>. Since this exceeds water's density (1 g cm<sup>−3</sup>), the substance <b>sinks</b>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "15",
+      "q": "The volume of a 500 g sealed packet is 350 cm³. Will the packet float or sink in water if the density of water is 1 g cm⁻³? What will be the mass of the water displaced by this packet?",
+      "a": "<p>Density = 500 g/350 cm³ ≈ 1.43 g/cm³, greater than water's 1 g/cm³, so the packet <b>sinks</b>.</p><p>Since it sinks fully, it displaces water equal to its own volume, 350 cm³. Mass of water displaced = 350 × 1 = <b>350 g</b>.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The value of the universal gravitational constant G is:",
+      "options": [
+        "6.673 × 10⁻¹¹ N m² kg⁻²",
+        "9.8 m s⁻²",
+        "6.673 × 10¹¹ N m² kg⁻²",
+        "1.6 × 10⁻¹⁹ N m² kg⁻²"
+      ],
+      "answer": "a",
+      "solution": "G = 6.673 × 10⁻¹¹ N m² kg⁻², the constant of proportionality in Newton's law of gravitation; it is the same everywhere in the universe."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "If the distance between two masses is doubled, the gravitational force between them becomes:",
+      "options": [
+        "Double",
+        "Half",
+        "One-fourth",
+        "Four times"
+      ],
+      "answer": "c",
+      "solution": "F ∝ 1/d²; doubling d makes F fall to 1/2² = 1/4th of its original value."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The mass of an object on the Moon compared to its mass on the Earth is:",
+      "options": [
+        "1/6th",
+        "6 times",
+        "The same",
+        "Zero"
+      ],
+      "answer": "c",
+      "solution": "Mass is the quantity of matter in a body and does not change with location; only weight changes because g is different on the Moon."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A body of mass 1 kg has a weight of approximately (take g = 9.8 m s⁻²):",
+      "options": [
+        "1 N",
+        "9.8 N",
+        "9.8 kg",
+        "0.98 N"
+      ],
+      "answer": "b",
+      "solution": "W = mg = 1 × 9.8 = 9.8 N. Weight is measured in newtons, not kg."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of these has the same value everywhere in the universe?",
+      "options": [
+        "Acceleration due to gravity, g",
+        "Weight",
+        "Universal gravitational constant, G",
+        "Weight and g together"
+      ],
+      "answer": "c",
+      "solution": "G is a universal constant, 6.673 × 10⁻¹¹ N m² kg⁻², independent of location; both g and weight vary from place to place."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The SI unit of pressure is:",
+      "options": [
+        "Newton",
+        "Pascal",
+        "Newton per metre",
+        "Joule"
+      ],
+      "answer": "b",
+      "solution": "Pressure = force/area, and its SI unit is the pascal (Pa), equal to 1 N/m²."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "An astronaut inside an orbiting satellite feels weightless because:",
+      "options": [
+        "There is no gravity in space",
+        "The satellite and astronaut are both in continuous free fall, so there is no reaction/support force",
+        "The astronaut's mass becomes zero in space",
+        "The Earth stops attracting the astronaut once in orbit"
+      ],
+      "answer": "b",
+      "solution": "Gravity is still acting (it supplies the centripetal force for the orbit); weightlessness arises because there is no support/normal force acting on the astronaut, not because gravity is absent."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A block of wood floats in water. Reason (R): The density of wood is less than the density of water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Wood floats because its density is less than water's; the buoyant force it needs to balance its weight is achieved while it is only partly submerged, so R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): All objects, whether light or heavy, fall towards the Earth with the same acceleration in the absence of air resistance. Reason (R): The acceleration due to gravity, g = GM/R², does not depend on the mass of the falling object.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "g depends only on the mass and radius of the attracting body (Earth), not on the mass of the object falling, so all objects accelerate equally, and R correctly explains why."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The weight of a person is less at the equator than at the poles. Reason (R): The value of g is slightly greater at the poles than at the equator.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Earth is flattened at the poles and bulges at the equator, so R (poles are closer to Earth's centre, giving slightly higher g) is true and correctly explains why weight (W = mg) is less at the equator."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State two applications of Archimedes' principle.",
+      "answer": "<p>(i) Ships and submarines — a ship's shape gives it an average density less than water so it floats; a submarine uses ballast tanks to change its average density to sink, float, or hover.</p><p>(ii) Hydrometers/lactometers, which use the depth to which they sink in a liquid to find its density (e.g. testing milk purity).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is a sharp knife more effective in cutting objects than a blunt knife?",
+      "answer": "<p>A sharp knife has a much smaller contact area (a fine edge) than a blunt one. Since pressure = force/area, the same applied force produces far greater pressure at the sharp edge, so it cuts more easily.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State Kepler's law of areas and law of periods.",
+      "answer": "<p><b>Law of areas:</b> the line joining a planet to the Sun sweeps equal areas in equal times, so the planet moves faster when nearer the Sun.</p><p><b>Law of periods:</b> T² ∝ r³ — the square of a planet's orbital period is proportional to the cube of its average distance from the Sun.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Two objects of masses m and 4m are placed at a distance r apart. Find the distance of a third object placed on the line joining them from mass m so that the net gravitational force on it is zero.",
+      "answer": "<p>Let the third object sit at distance x from mass m. For zero net force: Gm·M/x² = G(4m)·M/(r−x)² ⇒ (r−x)² = 4x² ⇒ r−x = 2x ⇒ r = 3x ⇒ <b>x = r/3</b> from mass m (and 2r/3 from mass 4m).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why does a needle sink in water while a ship, which is much heavier, floats?",
+      "answer": "<p>Floating or sinking depends on average density compared with water, not total weight. A needle is solid steel with almost no hollow volume, so its density exceeds water's and it sinks. A ship's hull encloses a huge volume of air, giving it an average density less than water, so it floats.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Derive the relation between g and G, i.e. g = GM/R².",
+      "answer": "<p>Consider an object of mass m on Earth's surface (Earth mass M, radius R). By the universal law of gravitation, F = GMm/R². By Newton's second law, this force also equals the object's weight, F = mg.</p><p>Equating: mg = GMm/R². Cancelling m (why g doesn't depend on the object's own mass): <b>g = GM/R²</b>. Substituting M = 6 × 10²⁴ kg, R = 6.4 × 10⁶ m, G = 6.7 × 10⁻¹¹ N m² kg⁻² gives g ≈ 9.8 m s⁻².</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A stone is dropped from a cliff and hits the ground after 4 s. Find (i) the height of the cliff, (ii) the velocity with which it strikes the ground. Take g = 10 m/s².",
+      "answer": "<p>u = 0, t = 4 s, g = 10 m s⁻² (downward, positive).</p><p>(i) h = ut + ½gt² = 0 + ½ × 10 × 16 = <b>80 m</b>.</p><p>(ii) v = u + gt = 0 + 40 = <b>40 m/s</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain why g decreases (i) with altitude (height above Earth's surface), and (ii) with depth below Earth's surface.",
+      "answer": "<p>Since g = GM/R², g depends inversely on the square of the distance from Earth's centre.</p><p>(i) <b>With altitude:</b> R increases as an object moves higher, so g decreases — smaller at a mountain-top or in an aircraft than at sea level.</p><p>(ii) <b>With depth:</b> below the surface, only the mass enclosed within that smaller radius pulls on the object, so effective M falls faster than R, and g decreases, reaching zero at Earth's centre.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Two objects of mass 100 kg each are placed 1 m apart. Calculate the force of gravitation between them, given G = 6.7 × 10⁻¹¹ N m² kg⁻².",
+      "answer": "<p>F = Gm₁m₂/d² = (6.7 × 10⁻¹¹ × 100 × 100)/1² = <b>6.7 × 10⁻⁷ N</b>. This tiny value shows why gravitational force between everyday objects is unnoticeable — it only becomes significant when at least one mass is astronomically large.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) State the universal law of gravitation and express it as an equation, defining each symbol. (b) Two objects attract with force F. If each mass is doubled and the distance is also doubled, what is the new force?",
+      "answer": "<p>(a) Every object in the universe attracts every other object with a force directly proportional to the product of their masses and inversely proportional to the square of the distance between their centres: F = G·m₁m₂/d², where F is the force (N), m₁, m₂ the masses (kg), d the distance between centres (m), and G the universal gravitational constant (6.673 × 10⁻¹¹ N m² kg⁻²).</p><p>(b) New force F′ = G(2m₁)(2m₂)/(2d)² = 4Gm₁m₂/4d² = Gm₁m₂/d² = <b>F</b>. The force remains <b>unchanged</b> — the 4× from doubling both masses cancels the 4× drop from doubling the distance.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the three equations of motion for free fall (starting from v = u + at) and use them: a ball is dropped from a height of 45 m. Taking g = 10 m/s², find the time to reach the ground and its speed on hitting it.",
+      "answer": "<p><b>Derivation:</b> for initial velocity u, acceleration g, final velocity v after time t:</p><p>(i) g = (v−u)/t ⇒ <b>v = u + gt</b>.</p><p>(ii) distance = average velocity × time = [(u+v)/2]t; substituting v = u+gt gives <b>h = ut + ½gt²</b>.</p><p>(iii) t = (v−u)/g substituted into h = [(u+v)/2]t gives <b>v² = u² + 2gh</b>.</p><p><b>Numerical:</b> u=0, h=45 m, g=10 m s⁻².</p><p>45 = ½×10×t² ⇒ t² = 9 ⇒ <b>t = 3 s</b>. v = gt = 10×3 = <b>30 m/s</b> (check: v² = 2gh = 900 ⇒ v = 30 m/s ✓).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "What is meant by buoyancy? State Archimedes' principle and describe an activity to show how it can be verified in the laboratory.",
+      "answer": "<p><b>Buoyancy</b> is the upward force a fluid exerts on an object immersed fully or partially in it, since fluid pressure increases with depth, so the upward push on the object's lower face exceeds the downward push on its upper face.</p><p><b>Archimedes' principle:</b> a body immersed fully or partially in a fluid experiences an upward buoyant force equal to the weight of fluid displaced by it.</p><p><b>Activity:</b> Suspend a stone from a spring balance in air; note its weight W₁. Lower it fully into an overflow can filled to the spout, collecting the overflow in a beaker; note the reduced reading W₂. Loss of weight (W₁ − W₂) is the buoyant force. Weigh the collected water — it equals (W₁ − W₂), confirming buoyant force = weight of fluid displaced.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "The mass of the Earth is 6 × 10²⁴ kg and that of the Moon is 7.4 × 10²² kg. If the distance between the Earth and the Moon is 3.84 × 10⁵ km, calculate the force exerted by the Earth on the Moon. (Take G = 6.7 × 10⁻¹¹ N m² kg⁻²)",
+      "answer": "<p>d = 3.84 × 10⁵ km = 3.84 × 10⁸ m.</p><p>F = GM<sub>earth</sub>M<sub>moon</sub>/d² = (6.7×10⁻¹¹ × 6×10²⁴ × 7.4×10²²) / (3.84×10⁸)²</p><p>Numerator = 6.7 × 6 × 7.4 × 10³⁵ = 297.48 × 10³⁵ = 2.9748 × 10³⁷.</p><p>Denominator = 14.7456 × 10¹⁶ = 1.47456 × 10¹⁷.</p><p>F ≈ <b>2.02 × 10²⁰ N</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage: an egg breaks when dropped on cement but not when dropped from the same height onto sand, because a soft surface changes how the impact force spreads over the contact area.<br>(i) Define thrust and pressure with SI units.<br>(ii) Why doesn't the egg break as easily on sand, in terms of contact area?<br>(iii) Why does a woman in heels exert more pressure than in flat shoes, for the same weight?<br>(iv) A 150 N box rests on a table of base area 0.5 m². Find the pressure on the table.",
+      "answer": "<p>(i) <b>Thrust</b> is the force acting perpendicular to a surface; SI unit newton (N). <b>Pressure</b> is thrust per unit area, P = F/A; SI unit pascal (Pa).</p><p>(ii) Sand yields and moulds around the egg, spreading the same force over a larger area, so pressure is lower and damage is reduced; rigid cement gives a small contact area and high, damaging pressure.</p><p>(iii) A heel has a much smaller contact area than a flat sole, so the same weight (force) produces far greater pressure through the heel.</p><p>(iv) P = F/A = 150/0.5 = <b>300 Pa</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage: a student places a cork, an iron nail, and a sealed half-water-filled bottle in a water tub. The cork floats mostly above the surface, the nail sinks to the bottom, and the bottle floats about half submerged.<br>(i) State Archimedes' principle.<br>(ii) Why does the nail sink while the cork floats, in terms of density?<br>(iii) Cork's density ≈0.24 g/cm³, water's is 1 g/cm³. Compare the buoyant force on the floating cork to its weight.<br>(iv) The bottle displaces 200 cm³ of water while floating. Find the mass of water displaced, and say what this equals by Archimedes' principle.",
+      "answer": "<p>(i) A body immersed fully or partially in a fluid experiences an upward buoyant force equal to the weight of fluid displaced.</p><p>(ii) Iron's density is much greater than water's, so it sinks; cork's density is much less, so it floats with most of its volume above the surface.</p><p>(iii) The buoyant force on the floating cork exactly equals its own weight.</p><p>(iv) Mass of water displaced = 200 cm³ × 1 g/cm³ = <b>200 g</b>, which by Archimedes' principle equals the weight of water displaced — the buoyant force on the bottle, and (since it floats) its own weight too.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Who among the following gave the three laws of planetary motion?",
+      "options": [
+        "Isaac Newton",
+        "Johannes Kepler",
+        "Nicolaus Copernicus",
+        "Henry Cavendish"
+      ],
+      "answer_index": 1,
+      "explanation": "Kepler derived the laws of orbits, areas and periods from Tycho Brahe's observations."
+    },
+    {
+      "q": "The force of gravitation between two objects is directly proportional to:",
+      "options": [
+        "The sum of their masses",
+        "The product of their masses",
+        "The square of the distance between them",
+        "The difference of their masses"
+      ],
+      "answer_index": 1,
+      "explanation": "F ∝ m₁m₂ — directly proportional to the product of the two masses, and inversely proportional to the square of the distance."
+    },
+    {
+      "q": "Who first experimentally determined the value of the universal gravitational constant G?",
+      "options": [
+        "Isaac Newton",
+        "Galileo Galilei",
+        "Henry Cavendish",
+        "Johannes Kepler"
+      ],
+      "answer_index": 2,
+      "explanation": "Cavendish measured G experimentally, letting Earth's mass be calculated for the first time."
+    },
+    {
+      "q": "The value of g on the surface of the Earth is approximately:",
+      "options": [
+        "6.7 × 10⁻¹¹ m s⁻²",
+        "9.8 m s⁻²",
+        "1.63 m s⁻²",
+        "10⁻¹¹ m s⁻²"
+      ],
+      "answer_index": 1,
+      "explanation": "g ≈ 9.8 m s⁻² near Earth's surface, from g = GM/R²."
+    },
+    {
+      "q": "A body thrown vertically upward, at the highest point, has:",
+      "options": [
+        "Velocity is zero but acceleration is zero too",
+        "Velocity is zero but acceleration is g, directed downward",
+        "Velocity is maximum and acceleration is zero",
+        "Both velocity and acceleration are maximum"
+      ],
+      "answer_index": 1,
+      "explanation": "At the top v = 0, but gravity still acts, giving acceleration g downward throughout the flight."
+    },
+    {
+      "q": "Which of these stays constant for an object anywhere in the universe?",
+      "options": [
+        "Weight",
+        "Acceleration due to gravity",
+        "Mass",
+        "Buoyant force"
+      ],
+      "answer_index": 2,
+      "explanation": "Mass doesn't change with location; weight = mg does, because g changes."
+    },
+    {
+      "q": "The unit newton per square metre (N/m²) is the same as:",
+      "options": [
+        "Joule",
+        "Watt",
+        "Pascal",
+        "Newton-metre"
+      ],
+      "answer_index": 2,
+      "explanation": "1 Pa = 1 N/m², the SI unit of pressure."
+    },
+    {
+      "q": "A solid weighs 5 N in air, 3 N in water. The buoyant force is:",
+      "options": [
+        "8 N",
+        "5 N",
+        "3 N",
+        "2 N"
+      ],
+      "answer_index": 3,
+      "explanation": "Buoyant force = loss of weight in water = 5 − 3 = 2 N."
+    },
+    {
+      "q": "Two equal masses are 2 m apart in one case, 4 m apart in another. The force in the second case, vs the first, is:",
+      "options": [
+        "The same",
+        "Twice as much",
+        "1/4th as much",
+        "4 times as much"
+      ],
+      "answer_index": 2,
+      "explanation": "F ∝ 1/d². Going from d = 2 m to d = 4 m doubles the distance, so the force in the second case is 1/2² = 1/4th of the force in the first case."
+    },
+    {
+      "q": "A hydrometer works on:",
+      "options": [
+        "Pascal's law",
+        "Archimedes' principle",
+        "Newton's third law",
+        "Kepler's law of areas"
+      ],
+      "answer_index": 1,
+      "explanation": "A hydrometer's floating depth depends on the liquid's density, via Archimedes' principle."
+    },
+    {
+      "q": "A planet has 4 times Earth's mass and 2 times Earth's radius. Its surface g compared to Earth's is:",
+      "options": [
+        "Same as Earth",
+        "2 times Earth's",
+        "4 times Earth's",
+        "1/2 of Earth's"
+      ],
+      "answer_index": 0,
+      "explanation": "g = GM/R²; (4M)/(2R)² ÷ (M/R²) = 4/4 = 1, so g is unchanged."
+    },
+    {
+      "q": "A person feels lighter while swimming because:",
+      "options": [
+        "Their mass decreases in water",
+        "The buoyant force of water partly supports their weight",
+        "Gravity is weaker near water",
+        "Water reduces the value of G"
+      ],
+      "answer_index": 1,
+      "explanation": "The buoyant force from displaced water partly balances the person's weight, lowering the perceived weight."
+    },
+    {
+      "q": "An object dropped from a height takes 2 s to reach the ground. Taking g = 10 m/s², the height is:",
+      "options": [
+        "10 m",
+        "20 m",
+        "40 m",
+        "5 m"
+      ],
+      "answer_index": 1,
+      "explanation": "h = ½gt² = ½ × 10 × 4 = 20 m."
+    },
+    {
+      "q": "Which statement correctly relates thrust and pressure?",
+      "options": [
+        "Pressure and thrust are the same physical quantity",
+        "Pressure is thrust multiplied by area",
+        "Pressure is thrust divided by area",
+        "Thrust always increases when pressure increases, regardless of area"
+      ],
+      "answer_index": 2,
+      "explanation": "P = F/A: pressure is thrust divided by the area it acts over."
+    },
+    {
+      "q": "If Earth's mass suddenly doubled with radius unchanged, an object's weight would:",
+      "options": [
+        "Stay the same",
+        "Double",
+        "Become half",
+        "Become four times"
+      ],
+      "answer_index": 1,
+      "explanation": "g = GM/R²; doubling M (R fixed) doubles g, so W = mg also doubles."
+    }
+  ],
+  "common_mistakes": [
+    "Writing weight in kilograms instead of newtons — weight is a force (W = mg), and its SI unit is the newton, not kg.",
+    "Confusing mass and weight — 'my weight is 60 kg' when 60 kg is the mass; weight would be 588 N and changes with location, unlike mass.",
+    "Forgetting the sign convention in free-fall numericals — mixing up + and − for g between a thrown-up and a dropped object, flipping the answer.",
+    "Quoting Archimedes' principle as 'buoyant force equals the volume of fluid displaced' instead of the weight of fluid displaced.",
+    "Believing gravity is zero in space/orbit — an astronaut is weightless due to no support force, while gravity is still acting and supplies the centripetal force.",
+    "Treating G and g as the same thing — G is a universal constant (N m² kg⁻²), g is an acceleration (m s⁻²) that varies with location.",
+    "Losing track of powers of ten in F = Gm₁m₂/d² — write powers of 10 separately before combining.",
+    "Assuming heavier objects fall faster — in the absence of air resistance, all objects share the same acceleration g."
+  ],
+  "strategy": "<p>Start with the two derivations that show up almost every year: g = GM/R² from F = GMm/R² and F = mg, and the three equations of motion adapted for free fall, with correct sign convention for objects thrown upward.</p><p>Drill numericals in three families: force between two masses using F = Gm₁m₂/d² (watch your powers of ten); free-fall problems using v = u+gt, h = ut+½gt², v² = u²+2gh; and weight-on-Moon problems using the 1/6th ratio. These cover almost all LA and SA numericals.</p><p>Memorise definitions exactly as NCERT states them — gravitation, free fall, thrust, pressure, buoyancy, Archimedes' principle, relative density — one wrong word (e.g. 'volume' instead of 'weight' in Archimedes' principle) costs the mark. Learn float/sink as a density comparison, and be ready to explain why a ship of iron still floats.</p><p>Finally revise the applications this chapter always tests: sharp knife vs blunt knife, camel's feet, hydrometers, ships and submarines, and weightlessness for astronauts — common in VSA/SA and case-based questions.</p>",
+  "revision_checklist": [
+    "Can state Kepler's three laws (orbits, areas, periods) and identify which is which.",
+    "Can state the universal law of gravitation and write F = Gm₁m₂/d², defining every symbol.",
+    "Know G's value and unit (6.673 × 10⁻¹¹ N m² kg⁻²) and that it is the same everywhere.",
+    "Can derive g = GM/R² from F = GMm/R² and F = mg.",
+    "Know g near Earth's surface (≈9.8 m s⁻²) and that it doesn't depend on the falling object's mass.",
+    "Can explain why g is greater at the poles than the equator, and decreases with altitude and depth.",
+    "Can distinguish mass (scalar, kg, constant) from weight (vector, N, W = mg, location-dependent).",
+    "Know weight on the Moon is about 1/6th of weight on Earth and can solve the related numerical.",
+    "Can apply v = u+gt, h = ut+½gt², v² = u²+2gh with correct signs for rising/falling.",
+    "Can explain weightlessness correctly — no support force in free fall, not 'no gravity'.",
+    "Know thrust (N) vs pressure (Pa) and real examples — knife, camel's feet, nails.",
+    "Can state Archimedes' principle exactly — buoyant force equals the weight of fluid displaced.",
+    "Can explain float/sink using density comparison, including the ship-vs-solid-iron example.",
+    "Know relative density = density of substance / density of water, with no unit."
+  ],
+  "videos": [
+    {
+      "id": "04PLOCCnJjo",
+      "title": "Gravitation · full chapter"
+    }
+  ]
+}

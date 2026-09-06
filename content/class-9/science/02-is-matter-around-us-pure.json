@@ -1,0 +1,851 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 2,
+  "slug": "is-matter-around-us-pure",
+  "title": "Is Matter Around Us Pure?",
+  "summary": "This chapter separates the everyday idea of 'pure' from the chemist's idea: it classifies matter into pure substances (elements and compounds) and mixtures (solutions, suspensions, colloids), gives the formulas used to state how concentrated a solution is, and works through every physical method used to separate a mixture into its components.",
+  "exam_profile": {
+    "weightage": "About 4-6 marks in the Class 9 Science paper; it feeds directly into Chapter 3 (Atoms and Molecules), so questions on elements/compounds/mixtures often bridge the two chapters.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Identify whether a given example is a solution/suspension/colloid, or an element/compound/mixture; pick the correct separation technique for a stated pair."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Tests whether a property (Tyndall effect, sublimation, boiling point of a solution) is correctly linked to the reason behind it."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define a term (colloid, solute, tincture) or state one difference (true solution vs colloid, mixture vs compound)."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Explain a separation technique with its principle, or work out a concentration numerical."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Draw and label the fractional distillation / distillation apparatus and explain how it separates a given mixture, or classify a list of substances with reasons."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage about a real mixture (seawater, air, ink, milk, crude oil) followed by 3-4 sub-questions on classification and separation."
+      }
+    ],
+    "hot_topics": [
+      "Difference between true solution, suspension and colloid",
+      "Concentration of a solution (mass by mass %, mass by volume %)",
+      "Separation of mixtures: which method for which pair, and why",
+      "Fractional distillation apparatus, labelled diagram",
+      "Chromatography principle",
+      "Tyndall effect",
+      "Difference between mixture and compound",
+      "Elements: metals, non-metals, metalloids"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "2.1 What is a Mixture?",
+      "pyq_years": [],
+      "body": "<p>Almost everything we see around us — sea water, air, soil, milk, most rocks — is a mixture, not a pure substance. A <b>mixture</b> is matter made up of two or more substances (elements or compounds) that are mixed together in <i>any</i> proportion and are not chemically combined, so each one keeps its own properties.</p><p>Mixtures are of two kinds. In a <b>homogeneous mixture</b> the composition is uniform throughout and there is only one phase visible — for example salt dissolved in water, or air. In a <b>heterogeneous mixture</b> the composition is not uniform; you can see the different components, or there is more than one phase — for example a mixture of salt and iron filings, or oil and water. Whether a mixture is homogeneous or heterogeneous depends on how well the particles of one substance are distributed in the other, which in turn depends on the size of the particles — this is exactly what separates solutions, suspensions and colloids from each other in the next three sections.</p>",
+      "formulas": [],
+      "tip": "If the examiner gives you an everyday example and asks 'homogeneous or heterogeneous', check mentally whether you could physically point to two different regions in it. If yes, it's heterogeneous."
+    },
+    {
+      "heading": "2.2 What is a Solution?",
+      "pyq_years": [],
+      "body": "<p>A <b>solution</b> is a homogeneous mixture of two or more substances. The substance present in the larger amount is the <b>solvent</b>, and the substance present in the smaller amount, which gets dissolved, is the <b>solute</b> — in a sugar solution, sugar is the solute and water is the solvent. A solution can involve any state of matter: solid in liquid (sugar in water), gas in liquid (soda water), gas in gas (air), liquid in liquid (alcohol and water) or solid in solid (alloys such as brass, zinc dissolved in copper).</p><p>Solutions have three properties that come up repeatedly in exams: (i) a solution is homogeneous — a spoon of it taken from anywhere has the same composition; (ii) its particles are too small to be seen even under a microscope, and never settle on standing; (iii) they cannot be separated by filtration, and a beam of light passing through does not scatter — the path of light is not visible. A solution in which no more solute can dissolve at a given temperature is a <b>saturated solution</b>; if more can still dissolve, it is <b>unsaturated</b>. The mass of solute that can dissolve in 100 g of a solvent at a given temperature to form a saturated solution is its <b>solubility</b>, and it changes with temperature.</p>",
+      "formulas": [
+        {
+          "expr": "Mass by mass % = (Mass of solute / Mass of solution) × 100",
+          "where": [
+            [
+              "Mass of solution",
+              "mass of solute + mass of solvent"
+            ]
+          ]
+        },
+        {
+          "expr": "Mass by volume % = (Mass of solute / Volume of solution) × 100",
+          "where": [
+            [
+              "Volume of solution",
+              "in mL or L, matching the unit used for the solute's mass"
+            ]
+          ]
+        }
+      ],
+      "tip": "In a concentration numerical, always find the mass (or volume) of the SOLUTION first — solute + solvent — before putting numbers into the formula. This is the step most students skip and lose marks on."
+    },
+    {
+      "heading": "2.3 What is a Suspension?",
+      "pyq_years": [],
+      "body": "<p>A <b>suspension</b> is a heterogeneous mixture in which the solute particles do not dissolve but remain suspended throughout the medium — chalk powder in water, or muddy river water, are common examples. Because the particles are large enough to be seen with the naked eye, a suspension has properties opposite to a true solution: the particles settle down under gravity when the suspension is left undisturbed, and they scatter a beam of light passing through the mixture, so the path of light becomes visible. The particles of a suspension can be separated from the mixture by the ordinary process of filtration.</p>",
+      "formulas": [],
+      "tip": "Three quick tests decide 'solution or suspension' in an MCQ: does it settle on standing, does it scatter light, can filter paper separate it? A suspension answers yes to all three."
+    },
+    {
+      "heading": "2.4 What is a Colloidal Solution?",
+      "pyq_years": [],
+      "body": "<p>A <b>colloid</b> (or colloidal solution) is a heterogeneous mixture whose particle size lies between that of a true solution and a suspension, so it behaves in a mixed way. Milk, ink, blood, shaving cream, smoke and fog are all colloids. Because the particle size is small (too small to be seen with the naked eye, but large enough to scatter light), a colloid appears homogeneous to the eye but is heterogeneous on close inspection; the particles do not settle down on standing, and they cannot be separated by ordinary filtration — separation needs a technique called centrifugation.</p><p>The most important named effect here is the <b>Tyndall effect</b>: when a beam of light is passed through a colloid, the path of the light becomes visible because the colloidal particles scatter the light. You see this when sunlight passing through a canopy of trees is scattered by tiny dust or water particles in the air, or when a beam of light shone into a dark room reveals dust particles floating in it.</p><p>Every colloid has two phases. The <b>dispersed phase</b> is the solute-like component present in a smaller amount (the particles that are spread through the medium), and the <b>dispersion medium</b> is the component in which the dispersed phase is suspended, playing the role of the solvent. In milk, tiny fat globules (dispersed phase) are spread through water (dispersion medium).</p>",
+      "formulas": [],
+      "tip": "Assertion-Reason favourite: A — 'The sky appears blue.' R — 'This is due to scattering of sunlight by colloidal dust and gas molecules in the atmosphere (Tyndall effect).' Both true and R correctly explains A."
+    },
+    {
+      "heading": "2.5 How can Mixtures be Separated? — Evaporation and Centrifugation",
+      "pyq_years": [],
+      "body": "<p>Since the components of a mixture keep their own physical properties, a mixture can always be separated back into its components by physical methods that exploit those differences. NCERT lists several methods, one at a time, and exams routinely ask 'name the method and give one use'.</p><p><b>Evaporation</b> separates a solid dissolved in a liquid, when we want the dissolved solid and are willing to lose the liquid as vapour — for example, recovering common salt from sea water, or dye from an ink sample (the solid colour left behind after the liquid part of ink evaporates). The solution is heated until all the solvent turns to vapour and escapes, leaving the solid solute behind.</p><p><b>Centrifugation</b> is used when the particles of a mixture are so fine that they pass through a filter paper — for instance, separating the fat (cream) from milk, or separating fine clay particles from water, or separating blood components in the diagnostic lab. The mixture is spun at very high speed in a centrifuge; the denser component experiences a stronger outward force and settles at the bottom (or moves outward), while the lighter component stays near the centre/top, so the two can be drawn off separately. The principle is: denser particles are forced to the bottom and lighter particles remain at the top when spun rapidly.</p>",
+      "formulas": [],
+      "tip": "Centrifugation is the standard answer whenever a mixture 'cannot be filtered' because the particles are colloidal — cream from milk is the NCERT example examiners like best."
+    },
+    {
+      "heading": "2.5 (contd.) — Separating Funnel, Sublimation and Chromatography",
+      "pyq_years": [],
+      "body": "<p>A <b>separating funnel</b> is used to separate two immiscible liquids (liquids that do not mix and form two visible layers), such as kerosene and water — the denser liquid settles below the lighter one, the stopcock is opened to run off the lower liquid, and it is closed the instant the upper liquid reaches the stopcock. This method is also used industrially, in the extraction of iron, to separate lighter molten slag from heavier molten iron.</p><p><b>Sublimation</b> separates a component that sublimes (changes directly from solid to gas on heating, without passing through the liquid state) from one that does not — for example, separating ammonium chloride, camphor, naphthalene or iodine from sand. On heating, the sublimable solid turns to vapour and is cooled and collected back as a solid on a cold surface, leaving the non-sublimable solid behind.</p><p><b>Chromatography</b> (Greek for 'colour writing') separates components of a mixture that dissolve in the same solvent but to different extents, so it is the method of choice for dyes, pigments and drugs extracted from a biological fluid. In paper chromatography, a spot of the mixture is placed near the bottom edge of a filter-paper strip, dipped (below the spot) into a solvent; the solvent rises by capillary action, carrying components at different speeds because each has a different solubility in it — the fastest, farthest-travelling component is the most soluble, so the mixture separates into distinct spots as the solvent front moves up.</p>",
+      "formulas": [],
+      "tip": "For chromatography, always mention capillary action as the reason the solvent rises, and 'different solubility of components in the same solvent' as the reason they separate — both phrases are marking-scheme keywords."
+    },
+    {
+      "heading": "2.5 (contd.) — Distillation and Fractional Distillation",
+      "pyq_years": [],
+      "body": "<p><b>Distillation</b> is used to separate a solvent and a dissolved solid, or two miscible liquids, whose boiling points are sufficiently different (a difference of more than about 25 K is preferred for simple distillation) — for example, separating acetone from a solution, or separating a pure sample of water from sea water. In simple distillation the mixture is heated in a distillation flask; the liquid with the lower boiling point vaporises first, the vapour passes through a delivery tube into a condenser where it is cooled back into a liquid (the <b>distillate</b>), which is collected in a separate receiver, while the higher-boiling (or non-volatile) component stays behind in the flask.</p><p><b>Fractional distillation</b> is used to separate two or more miscible liquids whose boiling points are close to each other (less than about 25 K apart) — the industrial example examiners love is separating the different fractions (petrol, kerosene, diesel and so on) of petroleum, and separating the different gases of air after it has been liquefied. The apparatus is the same as for simple distillation but with a <b>fractionating column</b> fitted between the flask and the condenser. The column is usually packed with glass beads, which offer a large surface area, so that as the mixed vapour rises up the column, the component with the higher boiling point condenses on the beads first (and drips back into the flask to be re-vaporised), while the component with the lower boiling point passes through and reaches the condenser first — the repeated condensation-and-vaporisation along the column sharpens the separation far better than a single distillation could.</p>",
+      "formulas": [],
+      "tip": "Label answer for fractional distillation diagram must show: distillation flask, thermometer, fractionating column packed with glass beads, condenser (water in at the bottom, out at the top — counter-current), delivery tube, and receiver flask. This is a favourite 5-mark 'draw and label' question."
+    },
+    {
+      "heading": "2.5 (contd.) — Crystallisation",
+      "pyq_years": [],
+      "body": "<p><b>Crystallisation</b> is a technique used to purify a solid that has small amounts of impurity mixed in it, and it is better than simple evaporation whenever the solute (i) decomposes, or (ii) picks up impurities from the air, on strong or continued heating, or when we specifically want well-formed crystals rather than a shapeless solid residue — for example, purifying copper sulphate crystals that contain sodium chloride and other insoluble impurities, or obtaining pure alum crystals from an impure sample, or purifying the salt obtained from sea water (which contains sodium chloride mixed with other salts).</p><p>The impure solid is dissolved in a minimum quantity of water to make a nearly saturated solution at a warm temperature; the hot solution is filtered to remove any insoluble impurity; the filtrate is then allowed to cool slowly and undisturbed. As it cools, the solubility of the solute drops and it separates out as crystals, leaving the more soluble impurities dissolved behind in the remaining liquid (the mother liquor), which is drained off. This gives a purer, better-formed solid than evaporating the solution all the way to dryness would.</p>",
+      "formulas": [],
+      "tip": "Common trap: examiners give 'why is crystallisation preferred over evaporation for purifying salt from sea water' — the correct reason is that continued heating during evaporation can decompose the salt or let it pick up impurities from the air, not simply 'evaporation is slower'."
+    },
+    {
+      "heading": "2.6 Physical and Chemical Changes",
+      "pyq_years": [],
+      "body": "<p>Matter can undergo two broad kinds of change. In a <b>physical change</b>, no new substance is formed — only physical properties like state, shape or size change, and the change is generally reversible; melting ice, dissolving sugar in water, and the separation techniques above are all physical changes, because the substances involved can be recovered chemically unchanged. In a <b>chemical change</b>, one or more new substances with different properties are formed, and the change is generally not reversible by simple physical means; rusting of iron, burning of magnesium ribbon, and digestion of food are chemical changes.</p><p>This distinction matters directly for this chapter: a mixture is defined as a physical combination of substances (formed by a physical change, so it can be separated by physical methods), while a compound is formed by a chemical change (a chemical combination), so it cannot be broken back into its elements by ordinary physical methods — only by a further chemical process.</p>",
+      "formulas": [],
+      "tip": "If a question asks 'is separating iron from a mixture of iron filings and sulphur a physical or chemical change', answer physical — but 'is separating iron from iron sulphide (the compound formed after heating the same mixture)' is not possible by physical means at all, only chemically, because a compound is not a mixture."
+    },
+    {
+      "heading": "2.7 What are the Types of Pure Substances? — Elements",
+      "pyq_years": [],
+      "body": "<p>A <b>pure substance</b> is matter that has a fixed, definite composition throughout, made up of only one kind of particle — unlike a mixture, all the constituent particles of a pure substance have the same chemical nature, so it shows a fixed set of properties such as a sharp melting or boiling point. There are two types of pure substances: elements and compounds.</p><p>An <b>element</b> is a basic form of matter that cannot be broken down into simpler substances by any chemical reaction; it is made of only one kind of atom. Elements are classified into three groups. <b>Metals</b> are lustrous (shiny), malleable (can be hammered into sheets), ductile (can be drawn into wires), sonorous, and are generally good conductors of heat and electricity — examples are gold, silver, copper, iron. <b>Non-metals</b> are generally non-lustrous (with the exception of iodine, which is lustrous, and graphite, which conducts electricity — both are important exceptions to remember), brittle if solid, and poor conductors of heat and electricity — examples are hydrogen, oxygen, carbon, sulphur, iodine. <b>Metalloids</b> (such as boron, silicon, germanium, arsenic) show intermediate or mixed properties of metals and non-metals — for example, silicon looks metallic (lustrous) but is a poor conductor, closer to a non-metal in that respect.</p>",
+      "formulas": [],
+      "tip": "The two exceptions — iodine (lustrous non-metal) and graphite (a non-metal that conducts electricity) — are asked almost every year in some form. Learn them by name."
+    },
+    {
+      "heading": "2.7.2 Compounds",
+      "pyq_years": [],
+      "body": "<p>A <b>compound</b> is a substance made up of two or more elements, chemically combined with one another in a <b>fixed proportion by mass</b>. Because the combination is chemical, not physical, the properties of a compound are entirely different from the properties of its constituent elements — for example, hydrogen is a highly combustible gas and oxygen supports combustion, but water (H<sub>2</sub>O), the compound they form, is used to put out fires. Similarly, iron is attracted to a magnet and sulphur is not, but iron sulphide (FeS), the compound formed when they are heated together, shows neither property.</p><p>A compound cannot be separated into its constituent elements by any physical method — only a chemical reaction can decompose it. This is the sharpest exam-tested distinction between a compound and a mixture, summarised in the table below and worth memorising word for word, since 'difference between mixture and compound' is one of the most repeated short-answer questions in this chapter.</p><ul><li>A mixture has a variable composition; a compound has a fixed composition by mass.</li><li>A mixture's components keep their individual properties; a compound has properties different from its constituent elements.</li><li>A mixture can be separated into its components by physical methods; a compound needs a chemical method to be broken down.</li><li>A mixture may or may not involve energy change on formation; forming a compound usually involves energy change (heat, light, and so on).</li><li>A mixture can be homogeneous or heterogeneous; a compound is always homogeneous.</li></ul>",
+      "formulas": [],
+      "tip": "When asked to classify a list (say: air, water, soil, sugar, iron sulphide, brass, distilled water, oxygen), work through it as: element / compound / mixture, and inside mixture further say homogeneous or heterogeneous — this layered answer earns full marks even if the question only asked for one label."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Pure substance",
+      "definition": "Matter having a definite, fixed composition throughout, made of only one kind of particle."
+    },
+    {
+      "term": "Mixture",
+      "definition": "Matter containing two or more substances mixed in any proportion, not chemically combined, so each keeps its own properties."
+    },
+    {
+      "term": "Homogeneous mixture",
+      "definition": "A mixture with uniform composition throughout, showing only one visible phase, e.g. salt solution."
+    },
+    {
+      "term": "Heterogeneous mixture",
+      "definition": "A mixture with non-uniform composition, showing visibly distinct components or more than one phase."
+    },
+    {
+      "term": "Solution",
+      "definition": "A homogeneous mixture of a solute dissolved in a solvent, with particles too small to be seen or filtered out."
+    },
+    {
+      "term": "Solute and solvent",
+      "definition": "The solute is the substance present in the smaller amount and dissolved; the solvent is the substance present in the larger amount, in which the solute dissolves."
+    },
+    {
+      "term": "Saturated solution",
+      "definition": "A solution in which no more solute can dissolve at that temperature, the dissolved and undissolved solute being in equilibrium."
+    },
+    {
+      "term": "Solubility",
+      "definition": "The maximum mass of a solute that dissolves in 100 g of solvent at a given temperature to form a saturated solution."
+    },
+    {
+      "term": "Suspension",
+      "definition": "A heterogeneous mixture in which solid particles remain spread through a liquid without dissolving; particles are visible, settle on standing, scatter light and can be filtered out."
+    },
+    {
+      "term": "Colloid",
+      "definition": "A heterogeneous mixture with particle size between that of a solution and a suspension; particles do not settle, scatter light (Tyndall effect) and cannot be separated by ordinary filtration."
+    },
+    {
+      "term": "Tyndall effect",
+      "definition": "The scattering of a beam of light by the particles of a colloid, making the path of light visible through the mixture."
+    },
+    {
+      "term": "Dispersed phase and dispersion medium",
+      "definition": "In a colloid, the dispersed phase is the component present in smaller amount (like a solute); the dispersion medium is the component it is spread through (like a solvent)."
+    },
+    {
+      "term": "Sublimation",
+      "definition": "The direct change of a solid to the gaseous state on heating (and gas back to solid on cooling) without passing through the liquid state, used to separate substances like camphor or ammonium chloride from a mixture."
+    },
+    {
+      "term": "Chromatography",
+      "definition": "A technique that separates components of a mixture which dissolve in the same solvent but to different extents, commonly using capillary rise through paper."
+    },
+    {
+      "term": "Miscible and immiscible liquids",
+      "definition": "Miscible liquids mix completely to form a single phase (e.g. alcohol and water); immiscible liquids do not mix and form separate layers (e.g. oil and water)."
+    },
+    {
+      "term": "Distillate",
+      "definition": "The liquid collected after a vapour is condensed back to liquid form during distillation."
+    },
+    {
+      "term": "Fractionating column",
+      "definition": "A column packed with glass beads, fitted between the flask and condenser in fractional distillation, that lets vapours of close boiling points separate through repeated condensation and re-vaporisation."
+    },
+    {
+      "term": "Crystallisation",
+      "definition": "A technique to obtain a pure solid in crystal form from an impure sample, by dissolving, filtering, and then cooling a hot saturated solution slowly."
+    },
+    {
+      "term": "Physical change",
+      "definition": "A change in which no new substance is formed and only physical properties alter; generally reversible."
+    },
+    {
+      "term": "Chemical change",
+      "definition": "A change in which one or more new substances with different properties are formed; generally not reversible by physical means."
+    },
+    {
+      "term": "Element",
+      "definition": "A basic form of matter made of only one kind of atom, which cannot be broken into simpler substances by a chemical reaction."
+    },
+    {
+      "term": "Compound",
+      "definition": "A substance made of two or more elements chemically combined in a fixed proportion by mass, with properties different from its constituent elements."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Mass by mass percentage",
+      "expr": "(Mass of solute / Mass of solution) × 100",
+      "note": "Mass of solution = mass of solute + mass of solvent; used for solid-in-liquid solutions."
+    },
+    {
+      "name": "Mass by volume percentage",
+      "expr": "(Mass of solute / Volume of solution) × 100",
+      "note": "Used when the solute's amount is given in grams and the solution's amount is measured in mL/L."
+    },
+    {
+      "name": "Volume by volume percentage",
+      "expr": "(Volume of solute / Volume of solution) × 100",
+      "note": "Used for liquid-in-liquid solutions, e.g. alcohol in water."
+    },
+    {
+      "name": "Solubility",
+      "expr": "Solubility = mass of solute dissolved in 100 g of solvent (at saturation, fixed temperature)",
+      "note": "Depends on the nature of solute and solvent and rises with temperature for most solids in liquids."
+    },
+    {
+      "name": "Solution particle size",
+      "expr": "less than 1 nm (1 × 10⁻⁹ m)",
+      "note": "Too small to be seen even under a microscope; cannot be filtered; does not scatter light."
+    },
+    {
+      "name": "Colloid particle size",
+      "expr": "between 1 nm and 1000 nm (1 × 10⁻⁹ m to 1 × 10⁻⁶ m)",
+      "note": "Small enough to stay suspended, large enough to scatter light (Tyndall effect)."
+    },
+    {
+      "name": "Suspension particle size",
+      "expr": "greater than 1000 nm (1 × 10⁻⁶ m)",
+      "note": "Visible to the naked eye, settles under gravity, can be filtered."
+    },
+    {
+      "name": "Boiling-point gap rule for distillation",
+      "expr": "Simple distillation: gap > 25 K. Fractional distillation: gap < 25 K",
+      "note": "A rough working rule NCERT uses to decide which distillation method separates a given pair of miscible liquids."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Fractional distillation apparatus (used for separating petroleum fractions or liquid air)",
+      "how_to_draw": "Draw a round-bottomed distillation flask on a stand over a heat source, with a thermometer fitted through the neck with its bulb at the side-arm opening. On top of the flask, draw a tall fractionating column packed with small circles (glass beads). From the top of the column, a delivery tube leads into a condenser drawn as a tube within a tube (water jacket), with water entering at the lower end and leaving at the upper end (counter-current flow) — label this. The condenser's outlet leads into a receiver flask that collects the distillate. Label every part: flask, thermometer, fractionating column with glass beads, condenser, water in/water out, delivery tube, receiver."
+    },
+    {
+      "title": "Separating funnel used for two immiscible liquids",
+      "how_to_draw": "Draw a pear-shaped funnel with a stopcock at its narrow lower end, clamped on a stand, with a beaker placed below the stopcock. Inside the funnel, draw two distinct horizontal layers of liquid, labelling the upper (lighter, e.g. oil) and lower (denser, e.g. water) layers, and mark the stopcock. Add a short note that the stopcock is opened to drain the lower layer first, then closed the instant the interface reaches it."
+    },
+    {
+      "title": "Paper chromatography set-up for separating dyes",
+      "how_to_draw": "Draw a beaker with a shallow layer of solvent at the bottom. A strip of chromatography (filter) paper hangs into the beaker with its lower edge dipped in the solvent, held in place by a cork or clip at the top so it does not touch the sides. Mark a small pencil dot near the bottom of the strip, above the solvent level, as the 'origin' where the mixture is spotted. Draw the solvent front as a dashed line rising up the paper, with two or three separated coloured spots at different heights above the origin, labelling the fastest-rising spot as the most soluble component."
+    },
+    {
+      "title": "Tyndall effect demonstration",
+      "how_to_draw": "Draw a glass beaker or jar containing a colloidal liquid (e.g. milk diluted in water), with a narrow beam of light entering from one side through a small hole or slit in a card. Inside the beaker, draw the path of the light beam as a visible bright, slightly widening cone or line (scattered light), and label 'path of light becomes visible due to scattering by colloidal particles'. For contrast, sketch a second beaker with a true solution alongside, showing the light beam passing straight through with no visible path, and label the difference."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "2.1",
+      "q": "Which separation techniques will you apply for the separation of the following? (a) Sodium chloride from its solution in water. (b) Ammonium chloride from a mixture containing sodium chloride and ammonium chloride. (c) Small pieces of metal in the engine oil of a car. (d) Different pigments from an extract of flower petals. (e) Butter from curd. (f) Oil from water. (g) Tea leaves from tea. (h) Iron pins from sand. (i) Wheat grains from husk. (j) Fine mud particles suspended in water.",
+      "a": "<p>(a) Evaporation — heat the solution until all the water evaporates, leaving sodium chloride behind.<br>(b) Sublimation — on heating, ammonium chloride sublimes and can be collected as vapour on a cold surface, leaving sodium chloride behind.<br>(c) Filtration — the oil is filtered through filter paper; the solid metal pieces are retained on the paper.<br>(d) Chromatography — the pigments dissolve in a solvent to different extents and separate into bands as the solvent rises up the paper.<br>(e) Centrifugation — churning/centrifuging separates the lighter fat (butter) from the denser curd.<br>(f) Using a separating funnel — oil and water are immiscible and form two layers, which are run off separately through the stopcock.<br>(g) Filtration — tea leaves are retained on a strainer/filter while the liquid tea passes through.<br>(h) Using a magnet — iron pins are magnetic and are attracted out of the sand, which is not.<br>(i) Winnowing — the lighter husk is blown away by wind or air current, leaving the heavier wheat grains behind.<br>(j) Centrifugation — the fine mud particles are too small to settle or be filtered easily, so a centrifuge is used.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "2.2",
+      "q": "Write the steps you would use for making tea. Use the words solution, solvent, solute, dissolve, soluble, insoluble, filtrate and residue.",
+      "a": "<p>Water is taken as the <b>solvent</b> and heated. Sugar, a <b>soluble solute</b>, is added and it <b>dissolves</b> completely in the hot water to form a sugar <b>solution</b>. Tea leaves and milk are then added and the mixture is boiled — tea leaves are <b>insoluble</b>, so their colour and flavour pass into the liquid but the solid leaf particles do not dissolve. The boiled tea is passed through a strainer (filter); the clear liquid tea that passes through is the <b>filtrate</b>, and the tea leaves left behind on the strainer are the <b>residue</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.3",
+      "q": "What is the concentration of a solution which contains 40 g of common salt in 320 g of water?",
+      "a": "<p>Mass of solute (salt) = 40 g. Mass of solvent (water) = 320 g.<br>Mass of solution = 40 + 320 = 360 g.<br>Concentration (mass by mass %) = (Mass of solute / Mass of solution) × 100 = (40 / 360) × 100 = 11.11%.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.4",
+      "q": "How would you confirm that a colourless liquid given to you is pure water?",
+      "a": "<p>Pure water has a fixed, sharp boiling point of 100°C and a fixed melting/freezing point of 0°C at standard atmospheric pressure (1 atm). Heat the liquid and record the temperature at which it boils; if it boils exactly at 100°C and the temperature does not rise further while boiling continues, and separately its freezing point is exactly 0°C, the liquid is pure water. An impure sample (water with something dissolved in it) would boil above 100°C or freeze below 0°C.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.5",
+      "q": "Which of the following materials fall in the category of a 'pure substance'? (a) Ice (b) Milk (c) Iron (d) Hydrochloric acid (e) Calcium oxide (f) Mercury (g) Brick (h) Wood (i) Air",
+      "a": "<p>Pure substances: (a) Ice, (c) Iron, (d) Hydrochloric acid, (e) Calcium oxide, (f) Mercury.<br>Not pure substances (mixtures): (b) Milk, (g) Brick, (h) Wood, (i) Air.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.6",
+      "q": "Identify the solutions among the following mixtures: (a) Soil (b) Sea water (c) Air (d) Coal (e) Soda water",
+      "a": "<p>Solutions: (b) Sea water, (c) Air, (e) Soda water.<br>Not solutions (heterogeneous mixtures): (a) Soil, (d) Coal.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.7",
+      "q": "Which of the following will show the 'Tyndall effect'? (a) Salt solution (b) Milk (c) Copper sulphate solution (d) Starch solution",
+      "a": "<p>The Tyndall effect is shown by colloids only: (b) Milk and (d) Starch solution.<br>Salt solution and copper sulphate solution are true solutions (particles are too small to scatter light), so they do not show the Tyndall effect.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.8",
+      "q": "Classify the following into elements, compounds and mixtures: (a) Sodium (b) Soil (c) Sugar solution (d) Silver (e) Calcium carbonate (f) Tin (g) Silicon (h) Coal (i) Air (j) Soap (k) Methane (l) Carbon dioxide (m) Blood",
+      "a": "<p><b>Elements:</b> (a) Sodium, (d) Silver, (f) Tin, (g) Silicon.<br><b>Compounds:</b> (e) Calcium carbonate, (k) Methane, (l) Carbon dioxide.<br><b>Mixtures:</b> (b) Soil, (c) Sugar solution, (h) Coal, (i) Air, (j) Soap, (m) Blood.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "2.9",
+      "q": "Which of the following are chemical changes? (a) Growth of a plant (b) Rusting of iron (c) Mixing of iron filings and sand (d) Cooking of food (e) Digestion of food (f) Freezing of water (g) Burning of a candle",
+      "a": "<p>Chemical changes: (a) Growth of a plant, (b) Rusting of iron, (d) Cooking of food, (e) Digestion of food, (g) Burning of a candle.<br>Physical changes: (c) Mixing of iron filings and sand, (f) Freezing of water.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.10",
+      "q": "Try segregating the things around you as pure substances or mixtures.",
+      "a": "<p><b>Pure substances</b> (fixed composition): distilled water, iron nails, aluminium foil, copper wire, table salt (sodium chloride), sugar (sucrose), oxygen in a cylinder.<br><b>Mixtures</b> (variable composition, more than one substance): tap water, milk, tea, air, soil, wood, ink, brass utensils, toothpaste.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "E.1",
+      "q": "What is the difference between a true solution and a colloid on the basis of particle size, filtrability and the Tyndall effect?",
+      "a": "<p>A true solution has particle size less than 1 nm; its particles cannot be seen, cannot be filtered, and do not scatter light, so the path of light is not visible. A colloid has particle size between 1 nm and 1000 nm; its particles are too small to be seen individually but cannot be separated by ordinary filtration (only by centrifugation), and they scatter light strongly, so the Tyndall effect is shown.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "E.2",
+      "q": "A student takes a mixture of kerosene oil and water in a beaker. He adds a pinch of common salt to it and stirs it well, and then leaves the mixture undisturbed for some time. He observes that the mixture has separated into two layers. Identify the layers.",
+      "a": "<p>The mixture separates into two immiscible layers: the upper layer is kerosene oil (lower density, does not mix with water), and the lower layer is salt water (common salt dissolves in water, forming a slightly denser aqueous layer). Adding salt does not change the fact that oil and water remain immiscible; it only dissolves in the water layer. The two layers could then be separated using a separating funnel.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "E.3",
+      "q": "Suggest a separation technique to separate two miscible liquids, X and Y, whose boiling points are very close to each other (differ by less than 25 K).",
+      "a": "<p>Fractional distillation is used, because the boiling points of X and Y are too close for simple distillation to separate them cleanly. The mixture is heated in a flask fitted with a fractionating column packed with glass beads; as mixed vapour rises through the column, the higher-boiling liquid condenses repeatedly on the beads and drips back, while the lower-boiling liquid passes through first and is condensed and collected, giving a much sharper separation than simple distillation.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is a homogeneous mixture?",
+      "options": [
+        "Soil",
+        "Sugar solution",
+        "Muddy water",
+        "Sand and salt"
+      ],
+      "answer": "b",
+      "solution": "Sugar solution has a uniform composition throughout with no visible separate phase, so it is homogeneous; the others are heterogeneous mixtures."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The particles of which of the following mixtures cannot be seen even under a microscope and cannot be separated by filtration?",
+      "options": [
+        "Suspension",
+        "Colloid",
+        "True solution",
+        "Emulsion"
+      ],
+      "answer": "c",
+      "solution": "A true solution has particle size less than 1 nm, too small to be seen or filtered; colloids and suspensions have larger particles."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Milk shows the Tyndall effect because it is a",
+      "options": [
+        "true solution",
+        "suspension",
+        "colloid",
+        "compound"
+      ],
+      "answer": "c",
+      "solution": "Milk is a colloid; its particle size (1 nm to 1000 nm) is large enough to scatter light, producing the Tyndall effect, but not so large that it settles or can be filtered."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which technique is used to separate a mixture of camphor and salt?",
+      "options": [
+        "Filtration",
+        "Sublimation",
+        "Distillation",
+        "Chromatography"
+      ],
+      "answer": "b",
+      "solution": "Camphor sublimes on heating (changes directly to vapour) while salt does not, so heating and cooling the vapour on a cold surface separates the two — this is sublimation."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Fractional distillation is preferred over simple distillation when the two miscible liquids to be separated have",
+      "options": [
+        "very different densities",
+        "boiling points differing by more than 25 K",
+        "boiling points differing by less than 25 K",
+        "the same boiling point"
+      ],
+      "answer": "c",
+      "solution": "When boiling points are close together (less than about 25 K apart), a single vaporisation-condensation step (simple distillation) cannot separate them cleanly, so a fractionating column is added to get repeated separation."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of these is an example of a compound?",
+      "options": [
+        "Brass",
+        "Air",
+        "Iron sulphide",
+        "Milk"
+      ],
+      "answer": "c",
+      "solution": "Iron sulphide (FeS) is formed by the chemical combination of iron and sulphur in a fixed ratio and has properties different from both; the other three are mixtures."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following elements is a non-metal but conducts electricity?",
+      "options": [
+        "Iodine",
+        "Graphite (carbon)",
+        "Silicon",
+        "Sulphur"
+      ],
+      "answer": "b",
+      "solution": "Graphite is a well-known exception among non-metals: it is a good conductor of electricity, unlike most non-metals which are poor conductors."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The sky appears blue during the day. Reason (R): Sunlight is scattered by colloidal dust and gas molecules present in the atmosphere.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "This is a real-life application of the Tyndall effect: fine particles in the atmosphere scatter blue light more than other colours, and R correctly explains why A is observed."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A solution of sugar in water cannot be separated by filtration. Reason (R): The particles of a true solution are smaller than the pores of filter paper.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Sugar solution particles are less than 1 nm in size, far smaller than the pores of filter paper, so they pass straight through and cannot be retained by filtration."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Iron filings can be separated from a mixture of iron filings and sulphur powder using a magnet. Reason (R): Iron sulphide, formed when the mixture is heated, is also attracted by a magnet.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true — a magnet does separate iron from the unheated mixture, since iron is magnetic and sulphur is not. But R is false: iron sulphide, the compound formed after heating, is not attracted to a magnet at all, unlike its constituent iron."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define solubility. On what factors does it depend?",
+      "answer": "Solubility is the maximum mass of a solute that can dissolve in 100 g of a solvent at a given temperature to form a saturated solution. It depends on the nature of the solute, the nature of the solvent, and the temperature — for most solid solutes dissolving in a liquid, solubility increases as temperature rises.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Give one example each of a solid-in-liquid solution, a gas-in-liquid solution and a solid-in-solid solution.",
+      "answer": "Solid-in-liquid: sugar dissolved in water. Gas-in-liquid: carbon dioxide dissolved in soda water. Solid-in-solid: brass, a solid solution of zinc in copper (an alloy).",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the two components of a colloidal solution and define each.",
+      "answer": "The two components are the dispersed phase and the dispersion medium. The dispersed phase is the solute-like component present in a smaller amount, spread through the mixture as tiny particles. The dispersion medium is the component in which the dispersed phase is spread, playing the role of the solvent — for example, in milk the fat globules are the dispersed phase and water is the dispersion medium.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why can sublimation be used to separate a mixture of naphthalene balls and sand, but not a mixture of sugar and sand?",
+      "answer": "Naphthalene is a sublimable solid — it changes directly to vapour on heating and can be cooled back to a solid on a cold surface, leaving sand behind. Sugar does not sublime; on heating it melts and then decomposes/chars instead of turning to vapour, so sublimation will not separate a sugar-sand mixture — evaporation-based or dissolution-based methods would be needed instead.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Differentiate between a mixture and a compound (any three points).",
+      "answer": "<p>(i) A mixture has a variable composition; a compound has a fixed composition by mass.<br>(ii) The constituents of a mixture retain their individual properties; a compound has properties completely different from its constituent elements.<br>(iii) A mixture can be separated into its components by simple physical methods; a compound can be broken down into its elements only by a chemical method.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "10 g of sugar is dissolved in 90 g of water to make a solution. Calculate the concentration of the solution in terms of mass by mass percentage.",
+      "answer": "<p>Mass of solute (sugar) = 10 g. Mass of solvent (water) = 90 g.<br>Mass of solution = 10 + 90 = 100 g.<br>Concentration (mass by mass %) = (Mass of solute / Mass of solution) × 100 = (10/100) × 100 = 10%.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain, with reason, why crystallisation is a better technique than simple evaporation to obtain pure copper sulphate crystals from an impure sample.",
+      "answer": "<p>On plain evaporation, continued strong heating can decompose copper sulphate, or the residue can pick up impurities from the surrounding air as it dries all the way down; also, evaporation gives a shapeless solid rather than well-formed crystals. In crystallisation, the impure solid is dissolved in the minimum amount of hot water, the hot solution is filtered to remove insoluble impurities, and the clear filtrate is then cooled slowly — as it cools, the solubility of copper sulphate falls and it separates out gradually as pure, well-shaped crystals, while the more soluble impurities stay dissolved in the remaining liquid and are drained away.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Give three points of difference between a true solution and a suspension.",
+      "answer": "<p>(i) A true solution has particle size less than 1 nm; a suspension has particle size greater than 1000 nm.<br>(ii) A true solution does not scatter light (no Tyndall effect); a suspension scatters light and its path becomes visible.<br>(iii) A true solution's particles never settle on standing and cannot be filtered; a suspension's particles settle under gravity and can be separated by ordinary filtration.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "With the help of a labelled diagram, describe the fractional distillation apparatus and explain how it is used to separate the components of air (nitrogen, oxygen and argon) after liquefaction.",
+      "answer": "<p>The apparatus: a distillation flask fitted with a thermometer, connected to a tall fractionating column packed with glass beads, which connects through a delivery tube to a water-cooled condenser and a receiver flask (draw and label all these parts, showing counter-current water flow in the condenser).</p><p>Air is first cooled and compressed until it liquefies. The liquid air (mainly liquid nitrogen, boiling point about −196°C, and liquid oxygen, boiling point about −183°C, plus a little argon) is fed into the fractionating column and allowed to warm slowly. Nitrogen, with the lower boiling point, vaporises first and is collected; oxygen (and then argon) vaporises in turn as the temperature is raised further and is collected separately. Repeated condensation and re-vaporisation on the glass beads sharpens the separation, since nitrogen and oxygen boil close together.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "What are the characteristic properties of solutions, suspensions and colloids that let you tell them apart? Discuss under the headings: particle size, appearance, filtrability, and behaviour towards light and on standing.",
+      "answer": "<p><b>Solution:</b> particle size less than 1 nm; appears completely homogeneous, particles cannot be seen; cannot be separated by filtration; does not scatter light (no Tyndall effect); particles never settle on standing.<br><b>Suspension:</b> particle size greater than 1000 nm; appears heterogeneous, particles often visible to the naked eye; can be separated by ordinary filtration; scatters light strongly and the path of light is visible; particles settle down under gravity on standing.<br><b>Colloid:</b> particle size between 1 nm and 1000 nm; appears homogeneous to the naked eye but is heterogeneous; cannot be separated by ordinary filtration (needs centrifugation); scatters light and shows the Tyndall effect; particles do not settle on standing.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Classify the following into elements, compounds and mixtures, giving one reason for each: sea water, sugar, silver, calcium oxide, brass, oxygen gas, iron sulphide, soil.",
+      "answer": "<p><b>Sea water</b> — mixture; it contains water with several dissolved salts in variable proportion.<br><b>Sugar (sucrose)</b> — compound; it is made of carbon, hydrogen and oxygen chemically combined in a fixed ratio, with properties different from any of these elements.<br><b>Silver</b> — element; it is made of only one kind of atom and cannot be broken into simpler substances chemically.<br><b>Calcium oxide</b> — compound; calcium and oxygen are chemically combined in a fixed ratio (CaO), with properties unlike either calcium metal or oxygen gas.<br><b>Brass</b> — mixture; it is a solid solution (alloy) of copper and zinc in a proportion that can be varied.<br><b>Oxygen gas</b> — element; it consists of only oxygen atoms (as O<sub>2</sub> molecules), one kind of atom.<br><b>Iron sulphide</b> — compound; formed by heating iron and sulphur together, it has a fixed composition and properties (not magnetic, does not react with dilute acid the way free sulphur does) different from either starting element.<br><b>Soil</b> — mixture; it is a variable, heterogeneous combination of minerals, organic matter, water and air.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>Sea water is a well-known example of a mixture. Apart from dissolved common salt (sodium chloride), it contains several other salts, dissolved gases, and fine suspended silt in some coastal regions. A student wants to obtain pure drinking water from a sample of sea water in the laboratory, and separately wants to recover pure, well-formed crystals of the salt for further use.<br>(i) Is sea water a homogeneous or a heterogeneous mixture? Justify briefly.<br>(ii) Name the technique the student should use to obtain pure water from sea water, and explain the basic principle behind it in one line.<br>(iii) Name the technique the student should use to obtain pure, well-formed salt crystals from sea water, rather than a shapeless solid.<br>(iv) If the sea water sample also contains some fine suspended mud, which method should be used first, before either of the above, to remove it, and why?",
+      "answer": "<p>(i) Sea water is a homogeneous mixture in terms of its dissolved salts (they form a true solution with water), but if fine suspended silt is present, that part makes the overall sample heterogeneous; taken purely as the salt solution, it is homogeneous.<br>(ii) Distillation. The water is heated to boiling; water vapour rises, passes through a condenser and is cooled back into liquid (distillate) and collected, while the dissolved salts, having no significant vapour pressure at that temperature, stay behind in the flask.<br>(iii) Crystallisation. The salt solution is concentrated by evaporating some water, filtered while hot to remove insoluble impurities, and then cooled slowly, so that the salt separates out as clear, well-shaped crystals rather than the shapeless residue that plain evaporation to dryness would give.<br>(iv) Filtration should be used first to remove the suspended mud particles, because mud forms a suspension with visible, large particles that settle and can be trapped by filter paper — removing this heterogeneous solid first gives a clear salt solution to work with in the later steps.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>A student is given four unlabelled samples in the laboratory: (1) a clear salt solution, (2) milk, (3) muddy water, (4) starch solution. She is asked to identify each as a solution, a suspension or a colloid using only three simple tests — standing the sample undisturbed for some time, passing a beam of light through it, and trying to filter it through filter paper.<br>(i) Which of the four samples will show the Tyndall effect?<br>(ii) Which sample(s) will leave a visible residue on the filter paper?<br>(iii) Which sample will show no change at all in the three tests — no settling, no visible light path, and passes completely through the filter paper?<br>(iv) Name the physical property (in terms of particle size) that ultimately decides the outcome of all three tests for a given sample.",
+      "answer": "<p>(i) Milk and starch solution will show the Tyndall effect, since both are colloids with particle sizes large enough to scatter light.<br>(ii) Muddy water will leave a visible residue on the filter paper, since it is a suspension with large particles that cannot pass through the filter.<br>(iii) The clear salt solution will show no change in any of the three tests: it will not settle, will not scatter light visibly, and will pass completely through the filter paper, because it is a true solution.<br>(iv) The size of the dispersed particles in the mixture — this single property (below 1 nm for a solution, 1 nm to 1000 nm for a colloid, above 1000 nm for a suspension) governs whether the sample settles, scatters light, or is retained by a filter.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of the following is used to separate cream from milk?",
+      "options": [
+        "Filtration",
+        "Sublimation",
+        "Centrifugation",
+        "Distillation"
+      ],
+      "answer_index": 2,
+      "explanation": "The fat globules in milk are too fine to filter; spinning the milk at high speed in a centrifuge separates the lighter cream from the denser milk."
+    },
+    {
+      "q": "A mixture of two immiscible liquids is best separated using a",
+      "options": [
+        "fractionating column",
+        "separating funnel",
+        "chromatography strip",
+        "sublimation set-up"
+      ],
+      "answer_index": 1,
+      "explanation": "Immiscible liquids form two distinct layers by density; a separating funnel lets the denser lower layer be drained off through its stopcock."
+    },
+    {
+      "q": "The boiling point of pure water at standard atmospheric pressure is",
+      "options": [
+        "0°C",
+        "100°C",
+        "212°C",
+        "50°C"
+      ],
+      "answer_index": 1,
+      "explanation": "Pure water boils at exactly 100°C at 1 atm pressure; a sharp, fixed boiling point is itself a test for the purity of a substance."
+    },
+    {
+      "q": "Which of these mixtures would you separate by evaporation to recover the dissolved solid?",
+      "options": [
+        "Sand and water",
+        "Common salt and water",
+        "Oil and water",
+        "Iron filings and sulphur"
+      ],
+      "answer_index": 1,
+      "explanation": "Common salt is dissolved in water, forming a true solution; heating drives off the water as vapour, leaving the salt behind."
+    },
+    {
+      "q": "The size of colloidal particles lies in the range",
+      "options": [
+        "less than 1 nm",
+        "1 nm to 1000 nm",
+        "more than 1000 nm",
+        "exactly 1 nm"
+      ],
+      "answer_index": 1,
+      "explanation": "This intermediate size range is exactly why colloids don't settle like suspensions but still scatter light unlike true solutions."
+    },
+    {
+      "q": "Which pair of elements combine to form the compound iron sulphide?",
+      "options": [
+        "Iron and oxygen",
+        "Iron and sulphur",
+        "Iron and carbon",
+        "Iron and sodium"
+      ],
+      "answer_index": 1,
+      "explanation": "Heating iron filings with sulphur powder produces iron sulphide (FeS), a compound with properties different from both elements."
+    },
+    {
+      "q": "Which technique separates dyes in ink based on differing solubility in a solvent?",
+      "options": [
+        "Centrifugation",
+        "Chromatography",
+        "Sublimation",
+        "Crystallisation"
+      ],
+      "answer_index": 1,
+      "explanation": "In chromatography, the solvent rises up the paper by capillary action, carrying the more soluble dye components farther than the less soluble ones."
+    },
+    {
+      "q": "Which of the following is an example of a heterogeneous mixture?",
+      "options": [
+        "Air",
+        "Sugar solution",
+        "Soil",
+        "Vinegar"
+      ],
+      "answer_index": 2,
+      "explanation": "Soil is a variable, non-uniform mixture of mineral grains, organic matter and other components, visibly different from point to point."
+    },
+    {
+      "q": "Alloys such as brass are examples of a",
+      "options": [
+        "compound",
+        "solid-in-solid solution",
+        "suspension",
+        "colloid"
+      ],
+      "answer_index": 1,
+      "explanation": "Brass is a homogeneous solid solution of zinc dissolved in copper, so it counts as a solid-in-solid solution, not a compound."
+    },
+    {
+      "q": "Which of the following changes is a physical change?",
+      "options": [
+        "Rusting of an iron nail",
+        "Burning of paper",
+        "Melting of wax",
+        "Digestion of food"
+      ],
+      "answer_index": 2,
+      "explanation": "Melting only changes the state of wax from solid to liquid; no new substance is formed, and it is reversible on cooling."
+    },
+    {
+      "q": "A saturated solution is one in which",
+      "options": [
+        "all the solute has evaporated",
+        "no more solute can dissolve at that temperature",
+        "the solvent has completely dissolved",
+        "the solution is coloured"
+      ],
+      "answer_index": 1,
+      "explanation": "At saturation, the solution holds the maximum solute possible at that temperature; any extra solute added will remain undissolved."
+    },
+    {
+      "q": "Graphite is an important exception among non-metals because it",
+      "options": [
+        "is a liquid at room temperature",
+        "conducts electricity",
+        "reacts violently with water",
+        "is magnetic"
+      ],
+      "answer_index": 1,
+      "explanation": "Unlike most non-metals, graphite (a form of carbon) is a good conductor of electricity, which is why it is used in electrodes and pencil leads."
+    },
+    {
+      "q": "The mass by mass percentage of a solution made by dissolving 20 g of salt in 180 g of water is",
+      "options": [
+        "10%",
+        "20%",
+        "11.1%",
+        "18%"
+      ],
+      "answer_index": 0,
+      "explanation": "Mass of solution = 20 + 180 = 200 g. Percentage = (20/200) × 100 = 10%."
+    },
+    {
+      "q": "Which of the following would NOT show the Tyndall effect?",
+      "options": [
+        "Milk diluted with water",
+        "A beam of light through fog",
+        "A dilute copper sulphate solution",
+        "Starch solution in water"
+      ],
+      "answer_index": 2,
+      "explanation": "Copper sulphate solution is a true solution with particles too small to scatter light, so it does not show the Tyndall effect; the other three are colloidal in nature."
+    },
+    {
+      "q": "Petrol, kerosene and diesel are separated from crude petroleum by",
+      "options": [
+        "simple distillation",
+        "fractional distillation",
+        "chromatography",
+        "sublimation"
+      ],
+      "answer_index": 1,
+      "explanation": "Petroleum is a mixture of many liquid hydrocarbons with closely spaced boiling points, so a fractionating column is needed to separate them cleanly."
+    },
+    {
+      "q": "Which statement correctly distinguishes a compound from a mixture?",
+      "options": [
+        "A compound has variable composition; a mixture has fixed composition",
+        "A compound can be separated by physical methods; a mixture cannot",
+        "A compound has a fixed composition and properties different from its elements; a mixture does not",
+        "There is no real difference between the two"
+      ],
+      "answer_index": 2,
+      "explanation": "A compound's elements combine chemically in a fixed ratio, giving new properties, and can only be separated chemically — the opposite of a mixture."
+    }
+  ],
+  "common_mistakes": [
+    "Calling every 'liquid mixed with liquid' a solution — students forget to check whether the two liquids are actually miscible; oil and water don't form a solution.",
+    "Forgetting to add solute and solvent mass before applying the concentration formula, and dividing by the solvent's mass instead of the solution's mass.",
+    "Mixing up the Tyndall effect with simple light passing through a clear liquid — the effect specifically means the path of light becomes visible due to scattering, and it happens only in colloids, not in true solutions.",
+    "Writing 'filtration' as the answer for separating a colloid — colloidal particles pass through ordinary filter paper; only centrifugation separates them.",
+    "Confusing simple distillation with fractional distillation — students draw the fractionating column but describe it as if it were plain distillation, or use fractional distillation for a solid dissolved in a liquid where simple distillation is enough.",
+    "Treating iron sulphide (the compound) and a mixture of iron filings and sulphur as if they behave the same way — losing marks by saying iron sulphide is attracted to a magnet or reacts with dilute acid to give the smell of rotten eggs the way free sulphur-iron mixtures might be described loosely.",
+    "Saying graphite and iodine are 'metals' because they conduct electricity or look shiny — both are important non-metal exceptions, not metals."
+  ],
+  "strategy": "<p>This chapter rewards careful classification more than heavy calculation. For any substance given in a question, run through solution/suspension/colloid, then element/compound/mixture, before answering. Memorise the comparison table (particle size, filtrability, Tyndall effect, settling) for solutions, suspensions and colloids — it answers most VSA and MCQ questions directly, and reappears inside case-based questions.</p><p>For separation techniques, learn 'which property makes this method work' (boiling-point gap for distillation, differing solubility for chromatography, sublimation behaviour, density difference for centrifugation and the separating funnel). Practise drawing and labelling the fractional distillation set-up and the paper-chromatography set-up from memory — a missing label (thermometer position, direction of water flow) is where marks are usually lost.</p><p>For a concentration numerical, always compute the mass of the solution first (solute + solvent) before applying the percentage formula. Finally, learn the mixture-versus-compound table word for word; it is one of the most repeated 3-mark questions here and in the next chapter (Atoms and Molecules).</p>",
+  "revision_checklist": [
+    "Can state the difference between homogeneous and heterogeneous mixtures with one example each",
+    "Can define solute, solvent, solution and solubility",
+    "Can apply mass by mass % and mass by volume % formulas correctly, using mass of solution not solvent",
+    "Can list the three defining properties of a suspension (settles, scatters light, filterable)",
+    "Can list the three defining properties of a colloid (does not settle, scatters light, not filterable)",
+    "Can define the Tyndall effect and give two real-life examples",
+    "Can name the dispersed phase and dispersion medium in a given colloid",
+    "Can match each separation technique (evaporation, centrifugation, separating funnel, sublimation, chromatography, distillation, fractional distillation, crystallisation) to the property it depends on",
+    "Can draw and fully label the fractional distillation apparatus",
+    "Can draw and fully label a paper chromatography set-up",
+    "Can explain why crystallisation is preferred over evaporation for purifying a solid",
+    "Can distinguish a physical change from a chemical change with examples",
+    "Can classify a given substance as an element, compound or mixture with a reason",
+    "Can state the difference between a mixture and a compound in at least three points",
+    "Knows the two exceptions among non-metals: iodine (lustrous) and graphite (conducts electricity)"
+  ],
+  "videos": [
+    {
+      "id": "uZjAdodCefo",
+      "title": "Is Matter Around Us Pure? · full chapter"
+    }
+  ]
+}

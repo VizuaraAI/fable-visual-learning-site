@@ -1,0 +1,11 @@
+# generated output (rebuild with python3 build_site.py)
+site/
+dist/
+visuallearning-concept/
+.vercel/
+# local notes and scratch
+RESUME.md
+remaining.json
+__pycache__/
+*.pyc
+.DS_Store

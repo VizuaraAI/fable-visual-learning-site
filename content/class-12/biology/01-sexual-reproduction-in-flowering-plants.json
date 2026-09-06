@@ -1,0 +1,892 @@
+{
+  "class": 12,
+  "subject": "Biology",
+  "chapter_no": 1,
+  "slug": "sexual-reproduction-in-flowering-plants",
+  "title": "Sexual Reproduction in Flowering Plants",
+  "summary": "The chapter follows a flower from anther and ovule, through pollination and double fertilisation, to seed and fruit, and ends with apomixis and polyembryony. The board tests it almost entirely through labelled diagrams, exact NCERT terms and small counting problems, which makes it one of the most predictable places in the Class 12 paper to score full marks.",
+  "exam_profile": {
+    "weightage": "Class 12 Biology is a 70-mark theory paper. This chapter belongs to Unit VI, Reproduction (with Human Reproduction and Reproductive Health), which carries 16 marks. From this chapter alone expect one or two 1-mark items, a 2- or 3-mark question and usually a 5-mark question or one option of an internal-choice 5-marker: roughly 5–8 marks.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Endosperm chromosome number from a meiocyte; ploidy of a named cell; filiform apparatus; Parthenium; water-pollinated plant; labelled parts."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Sporopollenin and fossils; endosperm before embryo; geitonogamy as genetic autogamy; cleistogamy; apomictic seeds."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Functions of tapetum, filiform apparatus, germ pore, coleorrhiza, scutellum; geitonogamy versus xenogamy; cleistogamy; banana and apple; coconut water versus kernel."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Micro- or megasporogenesis with diagram; embryo sac; Vallisneria; wind-pollinated flowers; outbreeding devices; emasculation and bagging; apomixis."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "T.S. anther or ovule plus gametophyte development; L.S. pistil plus post-pollination events; double fertilisation and post-fertilisation events; the brinjal count."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A figure or passage (anther, ovule, embryo sac, pollen germination, a fruit with N seeds) with four short parts."
+      }
+    ],
+    "hot_topics": [
+      "Mature embryo sac: 7 cells, 8 nuclei, filiform apparatus, polar nuclei, antipodals, with the diagram",
+      "T.S. of anther: four wall layers, tapetum, microsporogenesis, 2- and 3-celled pollen",
+      "Double fertilisation: syngamy, triple fusion, ploidy of zygote and PEN",
+      "Post-fertilisation events: endosperm before embryo, albuminous and non-albuminous seeds, perisperm, embryos, fruit types",
+      "Counting problems: seeds to ovules, pollen grains, male gametes, microspore mother cells; meiocyte to endosperm",
+      "Pollination: autogamy, geitonogamy, xenogamy, cleistogamy, Vallisneria, Zostera, wind and insect adaptations",
+      "Outbreeding devices, pollen–pistil interaction, emasculation and bagging",
+      "Apomixis and polyembryony: modes, Citrus and mango, value to farmers"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1.1 Flower – A Fascinating Organ of Angiosperms",
+      "pyq_years": [
+        2016,
+        2015
+      ],
+      "body": "<p>In angiosperms the flower is the organ of sexual reproduction. Hormonal and structural changes make the shoot apex differentiate into a floral primordium; inflorescences then bear floral buds that open into flowers.</p><p>Sepals and petals are accessory whorls; the essential whorls are the <b>androecium</b> (stamens, male) and the <b>gynoecium</b> (pistils or carpels, female). A flower with both is <b>bisexual</b>; with one, <b>unisexual</b>. Male and female flowers on the same plant make it <b>monoecious</b> (cucurbits, coconut, maize, castor); on different plants, <b>dioecious</b> (papaya, date palm). A gynoecium is <b>monocarpellary</b> or <b>multicarpellary</b>; several pistils may be fused (<b>syncarpous</b>, <i>Papaver</i>) or free (<b>apocarpous</b>, <i>Michelia</i>).</p><p>Long answers are marked in NCERT order: pre-fertilisation structures and events (stamen and pollen, ovule and embryo sac, pollination), double fertilisation, post-fertilisation events (endosperm, embryo, seed, fruit).</p>",
+      "formulas": [
+        {
+          "expr": "Androecium (stamens) = male · Gynoecium (pistils) = female · Monoecious: maize, castor · Dioecious: papaya",
+          "where": []
+        }
+      ],
+      "tip": "Monoecious versus dioecious: definition plus one NCERT example each."
+    },
+    {
+      "heading": "1.2.1 Stamen, Microsporangium and Pollen Grain: the anther",
+      "pyq_years": [
+        2019,
+        2016,
+        2014,
+        2013
+      ],
+      "body": "<p>A stamen has a slender <b>filament</b>, attached at its proximal end to the thalamus or a petal, and a terminal, generally bilobed <b>anther</b>. Each lobe has two theca, so the anther is <b>dithecous</b>; a longitudinal groove often separates the theca. In transverse section the anther is four-sided with four <b>microsporangia</b> at the corners, two in each lobe; they develop into <b>pollen sacs</b> packed with pollen at maturity.</p><p>One microsporangium in T.S. is nearly circular with four wall layers, outside in: <b>epidermis</b>, <b>endothecium</b>, <b>middle layers</b> and <b>tapetum</b>. The outer three protect the sporangium and help the anther dehisce. The tapetum <b>nourishes the developing pollen grains</b>; its cells have dense cytoplasm and generally more than one nucleus, and an anther with a malfunctioning tapetum makes no viable pollen. In a young anther the centre of each microsporangium holds compactly arranged, homogeneous cells, the <b>sporogenous tissue</b>.</p>",
+      "formulas": [
+        {
+          "expr": "Anther = 2 lobes × 2 theca = 4 microsporangia · Wall, outside in: epidermis → endothecium → middle layers → tapetum",
+          "where": []
+        }
+      ],
+      "tip": "Wall layers in order plus the tapetum's function are marking points."
+    },
+    {
+      "heading": "1.2.1 Microsporogenesis and the pollen grain (male gametophyte)",
+      "pyq_years": [
+        2017,
+        2015,
+        2014,
+        2012
+      ],
+      "body": "<p>Each cell of the sporogenous tissue is a potential <b>pollen mother cell</b> (PMC). Its <b>meiosis</b> forms a <b>microspore tetrad</b> of four haploid microspores: <b>microsporogenesis</b>. As the anther matures and dehydrates the microspores dissociate and develop into pollen grains. Sequence: sporogenous tissue → PMC → microspore tetrad → pollen grain → male gametes.</p><p>The <b>pollen grain</b>, the male gametophyte, is generally spherical, 25–50 μm, with a two-layered wall. The hard outer <b>exine</b> is <b>sporopollenin</b>, one of the most resistant organic materials known: it withstands high temperature, strong acids and alkalis, no enzyme degrades it, so pollen fossilises well. Its apertures, the <b>germ pores</b>, lack sporopollenin. The inner <b>intine</b> is thin and continuous, of cellulose and pectin.</p><p>A mature grain has a large <b>vegetative cell</b> with abundant food reserve and a large irregular nucleus, and a small spindle-shaped <b>generative cell</b> floating in its cytoplasm. Over 60 per cent of angiosperms shed pollen at this <b>2-celled</b> stage; in the rest the generative cell divides mitotically first (<b>3-celled</b>).</p><p>Box facts: <i>Parthenium</i> (carrot grass) came to India as a contaminant with imported wheat and causes pollen allergy; viability ranges from about 30 minutes (rice, wheat) to months (some Rosaceae, Leguminosae, Solanaceae); pollen stored in liquid nitrogen (−196 °C) forms <b>pollen banks</b>.</p>",
+      "formulas": [
+        {
+          "expr": "1 PMC —meiosis→ 4 microspores → 4 pollen grains · Exine = sporopollenin (absent at germ pores); intine = cellulose + pectin",
+          "where": []
+        }
+      ],
+      "tip": "100 PMCs per microsporangium: 4 × 100 × 4 = 1600 male gametophytes. Show the working."
+    },
+    {
+      "heading": "1.2.2 The Pistil, Megasporangium (Ovule) and Embryo Sac: pistil and ovule",
+      "pyq_years": [
+        2016,
+        2015
+      ],
+      "body": "<p>Each pistil has a <b>stigma</b> (landing platform for pollen), a slender <b>style</b> and a bulged basal <b>ovary</b>. Inside the ovary is the ovarian cavity or <b>locule</b>, holding the <b>placenta</b>, from which arise the megasporangia, the <b>ovules</b>: one per ovary in wheat, paddy and mango, many in papaya, water melon and orchids.</p><p>An ovule is attached to the placenta by a stalk, the <b>funicle</b>; the junction of ovule body and funicle is the <b>hilum</b>. One or two <b>integuments</b> encircle the nucellus except at the tip, where a small opening, the <b>micropyle</b>, is left; opposite it is the <b>chalaza</b>, the basal part. The <b>nucellus</b>, rich in reserve food, fills the integuments, and located in it is the <b>embryo sac</b> (female gametophyte), generally one per ovule, formed from a megaspore by reduction division. In the common <b>anatropous</b> ovule the body is inverted, so the micropyle lies close to the hilum.</p>",
+      "formulas": [
+        {
+          "expr": "Pistil = stigma + style + ovary · Ovule: funicle, hilum, integuments, micropyle, chalaza, nucellus, embryo sac",
+          "where": []
+        }
+      ],
+      "tip": "Hilum is the junction with the funicle; micropyle is the opening in the integuments."
+    },
+    {
+      "heading": "1.2.2 Megasporogenesis and the female gametophyte (embryo sac)",
+      "pyq_years": [
+        2019,
+        2017,
+        2014,
+        2013,
+        2012
+      ],
+      "body": "<p><b>Megasporogenesis</b> is the formation of megaspores from the megaspore mother cell. An ovule generally differentiates a single <b>megaspore mother cell</b> (MMC) in the micropylar region of the nucellus. Its <b>meiosis</b> gives four haploid megaspores; in most flowering plants one is functional and three degenerate. An embryo sac formed from a single megaspore is <b>monosporic development</b>, which is why one MMC gives one female gametophyte while one PMC gives four male gametophytes.</p><p>The functional megaspore's nucleus divides by <b>mitosis</b> into two nuclei that move to opposite poles; two more divisions give the 4- and 8-nucleate stages. These divisions are strictly <b>free nuclear</b>; walls are laid down only after the 8-nucleate stage. Six nuclei become cells; the remaining two, the <b>polar nuclei</b>, sit below the egg apparatus in the large <b>central cell</b>.</p><p>At the micropylar end the <b>egg apparatus</b> has two <b>synergids</b> and one <b>egg cell</b>; the synergids carry cellular thickenings at their micropylar tip, the <b>filiform apparatus</b>, which guides the pollen tube into a synergid. Three <b>antipodals</b> sit at the chalazal end. So the mature embryo sac is <b>8-nucleate but 7-celled</b>: 3 + 3 + 1, all haploid.</p>",
+      "formulas": [
+        {
+          "expr": "MMC (2n) —meiosis→ 4 megaspores (n); 1 functional —3 mitoses→ 8 nuclei, 7 cells: egg + 2 synergids, 3 antipodals, central cell with 2 polar nuclei",
+          "where": []
+        }
+      ],
+      "tip": "Write 7 cells, 8 nuclei on the diagram; both polar nuclei in one cell."
+    },
+    {
+      "heading": "1.3.1 Pollination: Kinds of Pollination",
+      "pyq_years": [
+        2019,
+        2016,
+        2014,
+        2012
+      ],
+      "body": "<p><b>Pollination</b> is the transfer of pollen grains from the anther to the stigma of a pistil, classified by the source of the pollen.</p><p><b>Autogamy</b>: within the same flower. In a normal flower that opens, complete autogamy is rare; it needs synchrony of pollen release and stigma receptivity. <i>Viola</i>, <i>Oxalis</i> and <i>Commelina</i> produce two kinds of flowers: <b>chasmogamous</b> flowers open and expose anthers and stigma; <b>cleistogamous</b> flowers never open, so when the anthers dehisce inside the bud the pollen lands on the stigma. Cleistogamous flowers are invariably autogamous: assured seed-set even without pollinators, but no genetic variation.</p><p><b>Geitonogamy</b>: from one flower to another flower of the same plant; functionally cross-pollination since it needs an agent, but genetically similar to autogamy since the pollen comes from the same plant. <b>Xenogamy</b>: from one plant to a different plant, the only kind that brings genetically different pollen to the stigma.</p><p>A single pea plant sets seed because its bisexual flower self-pollinates; a single papaya plant, being dioecious, cannot.</p>",
+      "formulas": [
+        {
+          "expr": "Autogamy (same flower) · Geitonogamy (same plant) · Xenogamy (different plant) · Cleistogamy: Viola, Oxalis, Commelina",
+          "where": []
+        }
+      ],
+      "tip": "Cleistogamy: one advantage (assured seed-set) and one disadvantage (no variation)."
+    },
+    {
+      "heading": "1.3.2 Pollinating Agents",
+      "pyq_years": [
+        2014,
+        2012,
+        2010
+      ],
+      "body": "<p>Agents are <b>abiotic</b> (wind, water) or <b>biotic</b> (animals); most plants use biotic agents. With wind and water the landing of pollen on a stigma is a chance factor, so such plants make enormous amounts of pollen relative to the ovules, and their flowers are not colourful and produce no nectar.</p><p><b>Wind pollination</b>, the commoner abiotic type, needs light, non-sticky pollen, well-exposed stamens and a large, often feathery stigma; the flowers often have a single ovule per ovary and are packed in numbers into an inflorescence. The tassels of a corn cob are stigmas and styles waving in the wind to trap pollen.</p><p><b>Water pollination</b> is rare, limited to about 30 genera, mostly monocots: freshwater <i>Vallisneria</i> and <i>Hydrilla</i>, and marine sea-grasses such as <i>Zostera</i>. In <i>Vallisneria</i> the female flower reaches the surface on a long stalk, the male flowers or pollen grains are released on to the surface, and currents carry them passively to the stigma. In sea-grasses female flowers stay submerged and long, ribbon-like pollen travels inside the water. A <b>mucilaginous covering</b> protects the pollen from wetting.</p><p><b>Animal pollination</b>: bees (dominant), butterflies, flies, beetles, wasps, ants, moths, birds and bats. Such flowers are large, colourful, fragrant and nectar-rich; fly- and beetle-pollinated flowers secrete foul odours. Rewards are nectar and pollen, or in <i>Amorphophallus</i> and <i>Yucca</i> a safe place to lay eggs: the moth lays eggs in the locule of the ovary and pollinates the flower, and neither completes its life cycle without the other.</p>",
+      "formulas": [
+        {
+          "expr": "Wind: light non-sticky pollen, exposed stamens, feathery stigma, one ovule per ovary · Water: Vallisneria, Hydrilla, Zostera · Egg-laying reward: Yucca, Amorphophallus",
+          "where": []
+        }
+      ],
+      "tip": "Vallisneria needs all three steps: long stalk, release on the surface, currents."
+    },
+    {
+      "heading": "1.3.3–1.4 Outbreeding Devices, Pollen–Pistil Interaction and Artificial Hybridisation",
+      "pyq_years": [
+        2019,
+        2016,
+        2015,
+        2014
+      ],
+      "body": "<p>Continued self-pollination causes <b>inbreeding depression</b>, so flowers have devices to discourage it. Four <b>outbreeding devices</b>: (1) pollen release and stigma receptivity are not synchronised; (2) anther and stigma are placed at different positions; (3) <b>self-incompatibility</b>, a genetic mechanism that prevents self-pollen from fertilising the ovules by inhibiting pollen germination or pollen-tube growth in the pistil; (4) unisexual flowers, which on a monoecious plant (castor, maize) prevent autogamy but not geitonogamy, and in a dioecious species (papaya) prevent both.</p><p>The pistil <b>recognises</b> compatible pollen and promotes post-pollination events, or rejects incompatible pollen by preventing germination on the stigma or tube growth in the style. After compatible pollination a <b>pollen tube</b> grows out through one germ pore; in 2-celled pollen the generative cell divides into two male gametes during tube growth. The tube grows through stigma and style, enters the ovule through the <b>micropyle</b> and one synergid through the <b>filiform apparatus</b>. All events from pollen deposition to tube entry into the ovule are <b>pollen–pistil interaction</b>.</p><p><b>Artificial hybridisation</b>: if the female parent is bisexual, anthers are removed with forceps from the bud <b>before the anther dehisces</b> (<b>emasculation</b>) and the flower is covered with a butter-paper bag (<b>bagging</b>). When the stigma is receptive, pollen of the chosen male parent is dusted on, the flower is <b>rebagged</b>. A unisexual female flower needs only bagging before it opens.</p>",
+      "formulas": [
+        {
+          "expr": "Bisexual female parent: emasculate before dehiscence → bag → pollinate at receptivity → rebag · Prevent autogamy and geitonogamy: self-incompatibility, dioecy",
+          "where": []
+        }
+      ],
+      "tip": "Two timings: emasculate before anther dehiscence, pollinate when the stigma is receptive."
+    },
+    {
+      "heading": "1.5 Double Fertilisation",
+      "pyq_years": [
+        2015,
+        2014,
+        2013,
+        2012,
+        2010
+      ],
+      "body": "<p>After entering a synergid the pollen tube releases its two male gametes into its cytoplasm. One fuses with the nucleus of the egg cell: <b>syngamy</b>, forming the diploid <b>zygote</b>. The other moves to the two polar nuclei in the central cell and fuses with them, producing the triploid <b>primary endosperm nucleus</b> (PEN); as three haploid nuclei fuse, this is <b>triple fusion</b>. Two fusions in one embryo sac make the phenomenon <b>double fertilisation</b>, unique to flowering plants.</p><p>The central cell is now the <b>primary endosperm cell</b> (PEC) and develops into endosperm; the zygote develops into the embryo; the synergid that received the tube and the antipodals degenerate.</p><p>Ploidy, as the examiner wants it: egg (n) + male gamete (n) → zygote 2n; polar nuclei (n + n) + male gamete (n) → PEN 3n. Rice meiocyte 24 chromosomes → gametes and polar nuclei 12 → endosperm 36, embryo 24.</p>",
+      "formulas": [
+        {
+          "expr": "Syngamy: egg (n) + male gamete (n) → zygote (2n) · Triple fusion: 2 polar nuclei + male gamete → PEN (3n) · Meiocyte X → endosperm 3X/2",
+          "where": []
+        }
+      ],
+      "tip": "Name every nucleus in triple fusion: one male gamete and two polar nuclei."
+    },
+    {
+      "heading": "1.6.1 Endosperm",
+      "pyq_years": [
+        2015,
+        2014,
+        2013,
+        2012
+      ],
+      "body": "<p>Endosperm and embryo development, the maturing of ovules into seeds and of the ovary into a fruit are together the <b>post-fertilisation events</b>.</p><p><b>Endosperm development precedes embryo development.</b> The primary endosperm cell divides repeatedly into triploid endosperm tissue whose cells are filled with reserve food for the nutrition of the developing embryo. In the most common type the PEN first undergoes successive nuclear divisions without wall formation, the <b>free-nuclear endosperm</b>; later cell walls form and it becomes <b>cellular</b>. Coconut is the example: tender coconut <b>water</b> is free-nuclear endosperm with thousands of nuclei, and the white <b>kernel</b> is cellular endosperm; both are triploid.</p><p>The endosperm may be completely consumed by the developing embryo before seed maturation (pea, groundnut, beans) or persist in the mature seed and be used up during germination (castor, coconut). That is the castor-versus-groundnut question: both form endosperm; groundnut's embryo uses it all and stores food in its cotyledons (non-albuminous seed), castor's leaves part of it (albuminous seed).</p>",
+      "formulas": [
+        {
+          "expr": "PEN (3n) → free-nuclear endosperm (coconut water) → cellular endosperm (kernel)",
+          "where": []
+        }
+      ],
+      "tip": "Endosperm first, so the embryo has assured nutrition: the marking phrase."
+    },
+    {
+      "heading": "1.6.2 Embryo",
+      "pyq_years": [
+        2015,
+        2012
+      ],
+      "body": "<p>The embryo develops at the <b>micropylar end</b> of the embryo sac, where the zygote lies. Embryogeny is similar in monocots and dicots: zygote → <b>proembryo</b> → <b>globular</b> → <b>heart-shaped</b> → <b>mature embryo</b>.</p><p>A typical <b>dicot embryo</b> has an embryonal axis and two <b>cotyledons</b>. The axis above the level of the cotyledons is the <b>epicotyl</b>, ending in the <b>plumule</b> (stem tip); the cylindrical part below is the <b>hypocotyl</b>, ending in the <b>radicle</b> (root tip) covered by a <b>root cap</b>.</p><p>A <b>monocot embryo</b> has one cotyledon; in the grass family it is the <b>scutellum</b>, placed laterally on the embryonal axis. At the lower end the radicle and root cap are enclosed in an undifferentiated sheath, the <b>coleorrhiza</b>. Above the attachment of the scutellum is the epicotyl, whose shoot apex and leaf primordia are enclosed in a hollow foliar structure, the <b>coleoptile</b>. One-mark functions: the scutellum absorbs food from the endosperm, the coleoptile protects the plumule as it pushes through soil, the coleorrhiza protects the radicle.</p>",
+      "formulas": [
+        {
+          "expr": "Dicot: epicotyl, plumule, 2 cotyledons, hypocotyl, radicle, root cap · Grass: scutellum, coleoptile, epicotyl, radicle, coleorrhiza",
+          "where": []
+        }
+      ],
+      "tip": "Coleoptile covers the plumule, coleorrhiza the radicle; NCERT spells it coleorrhiza."
+    },
+    {
+      "heading": "1.7 Seed and 1.8 Fruit",
+      "pyq_years": [
+        2016,
+        2015,
+        2013,
+        2011,
+        2010
+      ],
+      "body": "<p>The <b>seed</b>, the final product of sexual reproduction, is often described as a fertilised ovule. It typically has seed coat(s), cotyledon(s) and an embryo axis. The integuments harden into protective <b>seed coats</b>, and the <b>micropyle</b> remains as a small pore that lets oxygen and water in during germination.</p><p><b>Non-albuminous</b> seeds have no residual endosperm, since it is completely consumed during embryo development (pea, groundnut). <b>Albuminous</b> seeds retain a part of it (wheat, maize, barley, castor, sunflower). In black pepper and beet remnants of the nucellus persist as the <b>perisperm</b>, which is diploid, unlike the triploid endosperm.</p><p>A maturing seed dries to 10–15 per cent moisture by mass, metabolism slows, and the embryo may enter <b>dormancy</b> until moisture, oxygen and a suitable temperature return; dehydration and dormancy make seeds storable, the basis of agriculture.</p><p>As ovules mature into seeds the ovary develops into the <b>fruit</b>; the ovary wall becomes the <b>pericarp</b>. In apple, strawberry and cashew the <b>thalamus</b> also contributes: <b>false fruits</b>; fruits from the ovary alone are <b>true fruits</b>. Fruits formed without fertilisation are <b>parthenocarpic</b> and seedless (banana); parthenocarpy can be induced with growth hormones.</p>",
+      "formulas": [
+        {
+          "expr": "Ovule → seed; integuments → seed coat; ovary → fruit; ovary wall → pericarp · Perisperm (2n): black pepper, beet · False fruit: apple, strawberry, cashew",
+          "where": []
+        }
+      ],
+      "tip": "Perisperm is nucellus (2n), endosperm is 3n, pericarp is ovary wall."
+    },
+    {
+      "heading": "1.9 Apomixis and Polyembryony",
+      "pyq_years": [
+        2019,
+        2018,
+        2017,
+        2015,
+        2014
+      ],
+      "body": "<p>A few flowering plants, such as some species of Asteraceae and grasses, produce seeds without fertilisation: <b>apomixis</b>, a form of asexual reproduction that mimics sexual reproduction, so the progeny are genetically identical to the parent.</p><p>Apomictic seeds develop in several ways. In some species a <b>diploid egg cell</b> forms without reduction division and develops into an embryo without fertilisation. More often, as in many <i>Citrus</i> and mango varieties, some <b>nucellar cells</b> around the embryo sac start dividing, protrude into it and develop into embryos, so each ovule contains many embryos: <b>polyembryony</b>. A squeezed orange seed shows several embryos, the nucellar ones identical to the mother plant.</p><p>Why it matters: seed collected from a hybrid crop <b>segregates</b> and does not maintain the hybrid characters, so costly hybrid seed must be bought every year. If hybrids are made into apomicts there is no segregation and the farmer can keep using seed from his own crop year after year.</p>",
+      "formulas": [
+        {
+          "expr": "Apomixis = seed without fertilisation (Asteraceae, grasses) · nucellar embryos → polyembryony (Citrus, mango) · no segregation, so hybrid seed need not be bought yearly",
+          "where": []
+        }
+      ],
+      "tip": "Apomixis makes a seed, parthenocarpy a seedless fruit; never write apomictic banana."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Tapetum",
+      "definition": "Innermost wall layer of the microsporangium, with dense cytoplasm and generally more than one nucleus per cell; nourishes the developing pollen grains."
+    },
+    {
+      "term": "Sporopollenin",
+      "definition": "Material of the exine; one of the most resistant organic materials known, withstands high temperature, strong acids and alkalis, and no enzyme is known to degrade it."
+    },
+    {
+      "term": "Monosporic development",
+      "definition": "Formation of the embryo sac from a single functional megaspore, the other three degenerating."
+    },
+    {
+      "term": "Filiform apparatus",
+      "definition": "Special cellular thickenings at the micropylar tip of the synergids that guide the pollen tube into a synergid."
+    },
+    {
+      "term": "Cleistogamy",
+      "definition": "Production of flowers that never open, so pollination is invariably autogamous; Viola, Oxalis, Commelina."
+    },
+    {
+      "term": "Geitonogamy",
+      "definition": "Pollen transfer from one flower to the stigma of another flower of the same plant; functionally cross-pollination, genetically similar to autogamy."
+    },
+    {
+      "term": "Self-incompatibility",
+      "definition": "A genetic mechanism that prevents self-pollen from fertilising the ovules by inhibiting pollen germination or pollen-tube growth in the pistil."
+    },
+    {
+      "term": "Triple fusion",
+      "definition": "Fusion of the second male gamete with the two polar nuclei of the central cell to form the triploid primary endosperm nucleus."
+    },
+    {
+      "term": "Perisperm",
+      "definition": "Residual, persistent diploid nucellus in a mature seed, as in black pepper and beet."
+    },
+    {
+      "term": "Parthenocarpy",
+      "definition": "Development of fruit without fertilisation, giving a seedless fruit such as banana; inducible with growth hormones."
+    },
+    {
+      "term": "Apomixis",
+      "definition": "Formation of seeds without fertilisation, as in some Asteraceae and grasses; asexual reproduction that mimics sexual reproduction."
+    },
+    {
+      "term": "Polyembryony",
+      "definition": "Occurrence of more than one embryo in a seed, as in Citrus and mango, from nucellar cells growing into the embryo sac."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Ploidy of every structure",
+      "expr": "2n: PMC, MMC, nucellus, integuments, perisperm, pericarp, zygote, embryo · n: microspore, pollen grain, vegetative and generative cells, male gametes, megaspore, egg, synergids, antipodals, polar nuclei · 3n: PEN, endosperm",
+      "note": "Perisperm 2n versus endosperm 3n is a favourite MCQ"
+    },
+    {
+      "name": "Numbers in the embryo sac",
+      "expr": "1 MMC → 4 megaspores, 1 functional → 3 mitoses → 8 nuclei, 7 cells: egg + 2 synergids, 3 antipodals, central cell with 2 polar nuclei",
+      "note": "All haploid; monosporic development"
+    },
+    {
+      "name": "Counting rule for seeds",
+      "expr": "N seeds need N ovules, N MMCs, N pollen grains, 2N male gametes, N/4 microspore mother cells",
+      "note": "Brinjal, 360 seeds: 360, 360, 360, 720, 90"
+    },
+    {
+      "name": "Chromosome rule",
+      "expr": "Meiocyte 2n = X → gametes and polar nuclei X/2 → embryo X → endosperm 3X/2",
+      "note": "Rice 24 → endosperm 36; maize 20 → endosperm 30, embryo 20"
+    },
+    {
+      "name": "Pollen grain",
+      "expr": "Exine = sporopollenin (absent at germ pores); intine = cellulose + pectin; vegetative cell + generative cell",
+      "note": "Shed 2-celled in over 60 per cent of angiosperms; 25–50 μm; viable 30 min in rice and wheat"
+    },
+    {
+      "name": "Pollination examples",
+      "expr": "Cleistogamy: Viola, Oxalis, Commelina · Water (about 30 genera): Vallisneria, Hydrilla, Zostera · Egg-laying reward: Amorphophallus, Yucca · Allergy: Parthenium",
+      "note": "Only xenogamy gives variation"
+    },
+    {
+      "name": "Double fertilisation",
+      "expr": "Egg + male gamete → zygote (2n); 2 polar nuclei + male gamete → PEN (3n)",
+      "note": "Unique to flowering plants; tube enters the ovule by the micropyle and a synergid by the filiform apparatus"
+    },
+    {
+      "name": "Seed and fruit examples",
+      "expr": "Non-albuminous: pea, groundnut, beans · Albuminous: wheat, maize, barley, castor, sunflower · Perisperm: black pepper, beet · False fruit: apple, strawberry, cashew · Parthenocarpic: banana",
+      "note": "Coconut water = free-nuclear endosperm, kernel = cellular; seed moisture 10–15 per cent"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "T.S. of a mature anther",
+      "how_to_draw": "A four-lobed outline: two lobes joined by the connective with a vascular bundle, and one near-circular pollen sac in each corner dotted with pollen. Around one sac label the wall layers outside in: epidermis, endothecium, middle layers, tapetum. Mark the line of dehiscence between the two sacs of a lobe and write 'dithecous, 4 microsporangia'."
+    },
+    {
+      "title": "Mature 2-celled pollen grain",
+      "how_to_draw": "A circle with a thick sculptured exine and a thin smooth intine, with one or two gaps in the exine labelled germ pores. Inside, a large vegetative cell with a big irregular nucleus and a small spindle-shaped generative cell floating in its cytoplasm. Label all five."
+    },
+    {
+      "title": "L.S. of an anatropous ovule",
+      "how_to_draw": "An inverted egg shape on a short funicle running up one side. Label the hilum where funicle meets body, the chalaza at the top and the micropyle as a narrow opening at the bottom beside the funicle. Draw two integuments as concentric lines stopping at the micropyle, the nucellus inside them, and an oval embryo sac with its egg apparatus towards the micropyle."
+    },
+    {
+      "title": "Mature embryo sac",
+      "how_to_draw": "A large oval, micropylar end at the bottom: two synergids with finger-like filiform apparatus at their tips and the egg cell between them; in the middle the large central cell with two polar nuclei together; at the chalazal end three antipodal cells. Label every cell and write '7 cells, 8 nuclei'."
+    },
+    {
+      "title": "L.S. of pistil with pollen tube entering the ovule",
+      "how_to_draw": "Stigma with pollen grains, a long style, and an ovary holding one anatropous ovule on the placenta. From one grain draw a pollen tube down the style, through the micropyle and into one synergid, with two male gametes near the tip. Label stigma, pollen grain, pollen tube, style, ovary, integuments, micropyle, embryo sac, synergids, egg, polar nuclei."
+    },
+    {
+      "title": "Fertilised embryo sac after double fertilisation",
+      "how_to_draw": "The same oval, now with the zygote at the micropylar end (label 'zygote → embryo'), the primary endosperm nucleus in the central cell (label 'PEN, 3n → endosperm'), a degenerating synergid beside the zygote and degenerating antipodals at the chalazal end. Write syngamy and triple fusion against the two fusions."
+    },
+    {
+      "title": "Dicot embryo stages and the grass embryo",
+      "how_to_draw": "Three sketches: a globular embryo on a suspensor, a heart-shaped embryo whose lobes are the developing cotyledons, and a mature embryo labelled plumule, epicotyl, two cotyledons, hypocotyl, radicle, root cap. For the grass embryo draw the shield-shaped scutellum to one side of the axis, the coleoptile around the shoot apex above and the coleorrhiza around the radicle below."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1.2",
+      "q": "Differentiate between microsporogenesis and megasporogenesis. Which type of cell division occurs during these events? Name the structures formed at the end of these two events.",
+      "a": "<p>Microsporogenesis forms microspores from a pollen mother cell in the microsporangium of the anther; megasporogenesis forms megaspores from a megaspore mother cell in the nucellus of the ovule. Both occur by <b>meiosis</b>. Microsporogenesis gives a tetrad of four microspores, all of which become pollen grains; megasporogenesis gives four megaspores, of which only one is functional and forms the embryo sac.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "1.6",
+      "q": "With a neat diagram explain the 7-celled, 8-nucleate nature of the female gametophyte.",
+      "a": "<p>(Draw the mature embryo sac.) The functional megaspore nucleus divides mitotically three times, giving 2-, 4- and 8-nucleate stages without wall formation; walls are laid down after the 8-nucleate stage. Six nuclei are enclosed in cells: the <b>egg apparatus</b> (one egg and two synergids with filiform apparatus) at the micropylar end and three <b>antipodals</b> at the chalazal end. The two <b>polar nuclei</b> lie together in the single large <b>central cell</b>: 3 + 3 + 1 = 7 cells, 8 nuclei.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "1.7",
+      "q": "What are chasmogamous flowers? Can cross-pollination occur in cleistogamous flowers? Give reasons for your answer.",
+      "a": "<p>Chasmogamous flowers open and expose their anthers and stigma, so they can be cross-pollinated. Cleistogamous flowers never open; the anthers dehisce inside the closed bud and the pollen lands on the stigma of the same flower. Cross-pollination cannot occur because foreign pollen has no way of reaching the enclosed stigma; they are invariably autogamous.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.9",
+      "q": "What is self-incompatibility? Why does self-pollination not lead to seed formation in self-incompatible species?",
+      "a": "<p>Self-incompatibility is a genetic mechanism that prevents self-pollen, from the same flower or other flowers of the same plant, from fertilising the ovules. The pistil rejects self-pollen by inhibiting its germination on the stigma or its tube growth in the style, so the tube never reaches the embryo sac: no fertilisation, no seed.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.11",
+      "q": "What is triple fusion? Where and how does it take place? Name the nuclei involved in triple fusion.",
+      "a": "<p>Triple fusion is the fusion of the second male gamete with the two polar nuclei to form the triploid primary endosperm nucleus. It takes place in the central cell of the embryo sac: after the pollen tube discharges two male gametes into a synergid, one fuses with the egg (syngamy) and the other moves to the central cell and fuses with both polar nuclei. Nuclei involved: one male gamete (n) and two polar nuclei (n each), giving 3n.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "1.12",
+      "q": "Why do you think the zygote is dormant for some time in a fertilised ovule?",
+      "a": "<p>The zygote stays dormant until a certain amount of endosperm, a triploid tissue filled with reserve food, has formed. The embryo that develops from the zygote is then assured of nutrition. This is why endosperm development precedes embryo development.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.13",
+      "q": "Differentiate between: (a) hypocotyl and epicotyl; (b) coleoptile and coleorrhiza; (c) integument and testa; (d) perisperm and pericarp.",
+      "a": "<p>(a) Epicotyl is the embryonal axis above the cotyledons, ending in the plumule; hypocotyl is the part below them, ending in the radicle.</p><p>(b) Coleoptile is the hollow foliar sheath around the shoot apex of a grass embryo; coleorrhiza is the sheath around the radicle and root cap.</p><p>(c) Integument is the protective envelope of the ovule; testa is the hard seed coat formed from the outer integument after fertilisation.</p><p>(d) Perisperm is residual diploid nucellus in seeds such as black pepper and beet; pericarp is the fruit wall formed from the ovary wall.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "1.14",
+      "q": "Why is apple called a false fruit? Which part(s) of the flower forms the fruit?",
+      "a": "<p>A true fruit develops from the ovary alone. In apple the thalamus also contributes to fruit formation, and the fleshy edible part develops mainly from it, so apple is a false fruit. Thalamus and ovary together form the apple; strawberry and cashew are other false fruits.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.15",
+      "q": "What is meant by emasculation? When and why does a plant breeder employ this technique?",
+      "a": "<p>Emasculation is the removal of anthers from a bisexual flower bud with forceps before the anthers dehisce. A breeder uses it in artificial hybridisation when the female parent has bisexual flowers, so that the flower cannot self-pollinate and only the desired pollen, dusted later on the receptive stigma, fertilises it. The flower is bagged at once to keep out unwanted pollen.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "1.18",
+      "q": "What is apomixis and what is its importance?",
+      "a": "<p>Apomixis is the formation of seeds without fertilisation, seen in some Asteraceae and grasses; it is asexual reproduction that mimics sexual reproduction, so the progeny are identical to the parent. Importance: seed collected from a hybrid crop segregates and loses the hybrid characters, so farmers must buy costly hybrid seed every year. Apomictic hybrids would not segregate, so the farmer could keep using seed from his own crop; research aims to transfer apomictic genes into hybrids.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The meiocyte of a flowering plant has 40 chromosomes. The number of chromosomes in its endosperm will be",
+      "options": [
+        "20",
+        "40",
+        "60",
+        "80"
+      ],
+      "answer": "c",
+      "solution": "Gametes and polar nuclei carry 20 each; endosperm = 3 × 20 = 60."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is a triploid tissue in a flowering plant?",
+      "options": [
+        "Synergid",
+        "Perisperm",
+        "Endosperm",
+        "Nucellus"
+      ],
+      "answer": "c",
+      "solution": "Endosperm forms by triple fusion; synergids are haploid, perisperm and nucellus diploid."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The filiform apparatus is present in the",
+      "options": [
+        "egg cell",
+        "synergids",
+        "antipodal cells",
+        "central cell"
+      ],
+      "answer": "b",
+      "solution": "Synergids bear the filiform apparatus at their micropylar tip."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The plant that came into India as a contaminant with imported wheat and causes pollen allergy is",
+      "options": [
+        "Vallisneria",
+        "Amorphophallus",
+        "Parthenium",
+        "Commelina"
+      ],
+      "answer": "c",
+      "solution": "Parthenium (carrot grass) arrived with imported wheat."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following plants is pollinated by water?",
+      "options": [
+        "Water lily",
+        "Water hyacinth",
+        "Vallisneria",
+        "Maize"
+      ],
+      "answer": "c",
+      "solution": "Water lily and water hyacinth raise their flowers above water (insect or wind); maize is wind-pollinated."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In over 60 per cent of angiosperms, pollen grains are shed at the",
+      "options": [
+        "1-celled stage",
+        "2-celled stage",
+        "3-celled stage",
+        "4-celled stage"
+      ],
+      "answer": "b",
+      "solution": "Pollen is usually shed with a vegetative and a generative cell; the generative cell divides later."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Pollen grains are well preserved as fossils. Reason (R): The exine is made of sporopollenin, which withstands high temperature, strong acids and alkalis and is degraded by no known enzyme.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Fossil preservation follows directly from the resistance of sporopollenin."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Geitonogamy is genetically similar to autogamy. Reason (R): In geitonogamy the pollen grains come from another flower of the same plant.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Same plant, same genotype; a pollinating agent is needed but the result is genetically self-pollination."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): In angiosperms endosperm development precedes embryo development. Reason (R): The endosperm is a haploid tissue formed from the fertilised egg.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is correct. R is false: endosperm is triploid and forms from the primary endosperm nucleus, not the egg."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2010",
+      "marks": 2,
+      "q": "A bilobed, dithecous anther has 100 microspore mother cells per microsporangium. How many male gametophytes can this anther produce?",
+      "answer": "<p>A dithecous anther has 4 microsporangia; each microspore mother cell gives 4 microspores by meiosis, and each becomes one pollen grain (male gametophyte).</p><p>4 × 100 × 4 = <b>1600 male gametophytes</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2013",
+      "marks": 2,
+      "q": "Name all the haploid cells present in an unfertilised mature embryo sac of a flowering plant. Write the total number of cells in it.",
+      "answer": "<p>One egg cell, two synergids, three antipodal cells and the central cell (with two haploid polar nuclei), all formed from one haploid megaspore by mitosis. Total: <b>7 cells</b>, with 8 nuclei.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is cleistogamy? Write one advantage and one disadvantage of it to the plant.",
+      "answer": "<p>Cleistogamy is the production of flowers that never open; anthers and stigma lie close together and pollen falls on the stigma inside the bud (Viola, Oxalis, Commelina).</p><p>Advantage: assured seed-set even without pollinators. Disadvantage: no genetic variation.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Differentiate between the tender coconut water and the thick white kernel of a mature coconut, and state their ploidy.",
+      "answer": "<p>Coconut water is <b>free-nuclear endosperm</b>: the primary endosperm nucleus divided repeatedly without wall formation, leaving thousands of free nuclei. The kernel is <b>cellular endosperm</b>, formed after walls were laid down. Both are products of triple fusion and <b>triploid</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2017",
+      "marks": 3,
+      "q": "In a flowering plant, a microspore mother cell produces four male gametophytes while a megaspore mother cell forms only one female gametophyte. Explain.",
+      "answer": "<p>A microspore mother cell undergoes meiosis to form four haploid microspores; all four develop into pollen grains, the male gametophytes, so one cell gives four.</p><p>A megaspore mother cell also undergoes meiosis to form four megaspores, but only one is functional and the other three degenerate. Only the functional megaspore divides mitotically to form the embryo sac (monosporic development), so one cell gives one female gametophyte.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the process of pollination in Vallisneria.",
+      "answer": "<p>Vallisneria is a freshwater plant pollinated by water. (i) The female flower reaches the surface of the water by its long stalk. (ii) The male flowers or pollen grains are released on to the surface. (iii) Water currents carry them passively, and some reach the female flower and its stigma. A mucilaginous covering protects the pollen from wetting, and pollen is produced in large amounts because reaching the stigma is a matter of chance.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2019",
+      "marks": 3,
+      "q": "You are conducting artificial hybridisation on papaya and potato. Which one of them would require the step of emasculation and why? However, for both you will use the process of bagging. Justify giving one reason.",
+      "answer": "<p><b>Potato</b> needs emasculation: its flowers are bisexual, so the anthers must be removed from the bud before dehiscence or the flower would self-pollinate.</p><p><b>Papaya</b> is dioecious; its female flowers have no anthers, so there is no self-pollen to remove.</p><p>Both need bagging to protect the stigma from unwanted pollen until the desired pollen is dusted on it; the flower is then rebagged.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2015",
+      "marks": 3,
+      "q": "Double fertilisation is reported in plants of both castor and groundnut. However, the mature seeds of groundnut are non-albuminous and those of castor are albuminous. Explain the post-fertilisation events responsible for it.",
+      "answer": "<p>In both plants triple fusion forms a triploid primary endosperm nucleus that divides into endosperm, the food-storing tissue that nourishes the embryo; the difference lies in its fate.</p><p>In <b>groundnut</b> the embryo consumes the endosperm completely before the seed matures and stores food in its two thick cotyledons: non-albuminous.</p><p>In <b>castor</b> part of the endosperm persists in the mature seed and is used during germination: albuminous.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2015",
+      "marks": 5,
+      "q": "A flower of a brinjal plant produces 360 viable seeds after sexual reproduction. Giving reasons, state the minimum number of (i) pollen grains involved in pollinating its pistil, (ii) ovules in the ovary, (iii) megaspore mother cells, (iv) microspore mother cells and (v) male gametes involved.",
+      "answer": "<p>(i) <b>360 pollen grains</b>: one pollen tube fertilises one ovule.</p><p>(ii) <b>360 ovules</b>: each viable seed is one fertilised ovule.</p><p>(iii) <b>360 megaspore mother cells</b>: each ovule has a single MMC, which gives one embryo sac with one egg (monosporic development).</p><p>(iv) <b>90 microspore mother cells</b>: each gives four pollen grains by meiosis; 360 ÷ 4 = 90.</p><p>(v) <b>720 male gametes</b>: each pollen grain carries two, both used in double fertilisation (syngamy and triple fusion); 360 × 2 = 720.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2014",
+      "marks": 5,
+      "q": "(i) Draw a longitudinal section of a pistil showing the growth of the pollen tube up to the micropyle of the ovule; label stigma, embryo sac, pollen tube and micropyle. (ii) Explain the events up to fertilisation after a compatible pollen grain lands on the stigma.",
+      "answer": "<p>(i) Draw the pistil as in the diagrams section: pollen grains on the stigma, the style, the ovary with one anatropous ovule, and a pollen tube growing from a grain down the style and through the micropyle into the embryo sac. Label stigma, pollen tube, micropyle, embryo sac.</p><p>(ii) The pistil recognises the pollen as compatible and accepts it. The grain germinates on the stigma: a pollen tube emerges through a germ pore and the grain's contents move into it. In 2-celled pollen the generative cell divides during tube growth to form two male gametes; 3-celled pollen already carries them. The tube grows through stigma and style, enters the ovule through the micropyle and one synergid through the filiform apparatus, and discharges the two male gametes there. One fuses with the egg (syngamy, diploid zygote), the other with the two polar nuclei (triple fusion, triploid primary endosperm nucleus): double fertilisation.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain double fertilisation and trace the post-fertilisation events in sequential order leading to seed formation in a typical dicotyledonous plant.",
+      "answer": "<p><b>Double fertilisation.</b> The pollen tube enters a synergid and releases two male gametes. One fuses with the egg (syngamy) to form the diploid zygote; the other fuses with the two polar nuclei (triple fusion) to form the triploid primary endosperm nucleus. Two fusions in one embryo sac: double fertilisation, unique to flowering plants.</p><p><b>Post-fertilisation events.</b> (1) <b>Endosperm</b>: the primary endosperm cell divides repeatedly, first as free nuclei and then with walls, into triploid food-storing endosperm, before the embryo forms. (2) <b>Embryo</b>: the zygote at the micropylar end then passes through proembryo, globular, heart-shaped and mature stages; the dicot embryo has two cotyledons, an epicotyl ending in the plumule and a hypocotyl ending in the radicle. (3) <b>Seed</b>: the ovule matures into the seed; integuments harden into the seed coat with the micropyle left as a pore; endosperm is used up (pea, groundnut) or persists (castor); the seed dries to 10–15 per cent moisture and may become dormant. (4) <b>Fruit</b>: the ovary becomes the fruit and its wall the pericarp.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A student dusted balsam pollen on to a slide carrying a drop of about 10 per cent sugar solution. Soon a slender tube emerged from each grain through a gap in its thick sculptured outer wall, the thin inner wall stretching out to form the tube, and in some tubes two small elongated bodies moved towards the tip.<br>(i) Name the two wall layers and the material of each.<br>(ii) Name the gap the tube emerged through and say why the wall is absent there.<br>(iii) What are the two bodies? Which cell produced them and by which division?<br>(iv) Name two other plants whose pollen NCERT suggests for this experiment.",
+      "answer": "<p>(i) Outer <b>exine</b> of sporopollenin; inner <b>intine</b> of cellulose and pectin.</p><p>(ii) A <b>germ pore</b>, where sporopollenin is not deposited, so the intine can grow out as the pollen tube.</p><p>(iii) The two <b>male gametes</b>, formed by <b>mitotic</b> division of the generative cell, before shedding (3-celled pollen) or during tube growth (2-celled pollen).</p><p>(iv) Pea, chickpea, <i>Crotalaria</i> or <i>Vinca</i> (any two).</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A farmer grows a high-yielding hybrid maize, but seed saved from his own crop gives uneven plants and lower yield, so he buys fresh seed every season. His neighbour says some grasses and Citrus trees make seeds that come true year after year, and shows him an orange seed that releases several small embryos when squeezed.<br>(i) Why does seed saved from the hybrid give uneven plants?<br>(ii) Name and define the phenomenon by which the grasses produce seeds that come true.<br>(iii) What does the orange seed show? From which cells do the extra embryos arise, and are they genetically like the mother plant?<br>(iv) How would the farmer benefit if his hybrid reproduced like the grasses?",
+      "answer": "<p>(i) The hybrid is heterozygous; its sexually produced seed <b>segregates</b>, so the progeny do not maintain the hybrid characters.</p><p>(ii) <b>Apomixis</b>: formation of seeds without fertilisation, asexual reproduction that mimics sexual reproduction and gives progeny identical to the parent.</p><p>(iii) <b>Polyembryony</b>, more than one embryo in a seed. In Citrus, <b>nucellar cells</b> around the embryo sac divide, protrude into it and form embryos; being diploid cells of the mother plant, they are genetically identical to it.</p><p>(iv) An apomictic hybrid does not segregate, so he could keep seed from his own crop and raise the same hybrid every year without buying costly seed.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The number of microsporangia in a typical dithecous anther is",
+      "options": [
+        "2",
+        "4",
+        "6",
+        "8"
+      ],
+      "answer_index": 1,
+      "explanation": "Two lobes with two theca each: four microsporangia at the corners of the T.S."
+    },
+    {
+      "q": "Which wall layer of the microsporangium is innermost and nourishes the developing pollen?",
+      "options": [
+        "Epidermis",
+        "Endothecium",
+        "Middle layers",
+        "Tapetum"
+      ],
+      "answer_index": 3,
+      "explanation": "The tapetum is innermost and nourishes pollen; the outer three layers protect and aid dehiscence."
+    },
+    {
+      "q": "The intine of a pollen grain is made of",
+      "options": [
+        "sporopollenin",
+        "cellulose and pectin",
+        "lignin",
+        "cutin"
+      ],
+      "answer_index": 1,
+      "explanation": "Intine is cellulose and pectin; sporopollenin forms the exine."
+    },
+    {
+      "q": "The megaspore mother cell differentiates in the",
+      "options": [
+        "chalazal region of the nucellus",
+        "micropylar region of the nucellus",
+        "inner integument",
+        "funicle"
+      ],
+      "answer_index": 1,
+      "explanation": "A single MMC forms in the micropylar region of the nucellus."
+    },
+    {
+      "q": "The number of mitotic divisions by which the functional megaspore becomes an 8-nucleate embryo sac is",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer_index": 2,
+      "explanation": "One nucleus becomes 2, 4, then 8 by three free-nuclear mitoses."
+    },
+    {
+      "q": "The egg apparatus of a mature embryo sac consists of",
+      "options": [
+        "one egg and two antipodals",
+        "one egg and two synergids",
+        "two polar nuclei and one egg",
+        "three antipodal cells"
+      ],
+      "answer_index": 1,
+      "explanation": "Egg apparatus = egg + two synergids at the micropylar end."
+    },
+    {
+      "q": "Which of these plants produces both chasmogamous and cleistogamous flowers?",
+      "options": [
+        "Viola",
+        "Maize",
+        "Papaya",
+        "Vallisneria"
+      ],
+      "answer_index": 0,
+      "explanation": "Viola, Oxalis and Commelina bear both chasmogamous and cleistogamous flowers."
+    },
+    {
+      "q": "In most water-pollinated plants the pollen grains are protected from wetting by",
+      "options": [
+        "a thicker exine",
+        "a mucilaginous covering",
+        "a waxy cuticle",
+        "a hairy surface"
+      ],
+      "answer_index": 1,
+      "explanation": "A mucilaginous covering protects pollen in Vallisneria and Zostera."
+    },
+    {
+      "q": "The floral reward that Yucca offers its pollinating moth is",
+      "options": [
+        "nectar",
+        "pollen",
+        "a safe place to lay eggs",
+        "shelter from rain"
+      ],
+      "answer_index": 2,
+      "explanation": "The moth lays eggs in the locule of the ovary and pollinates the flower."
+    },
+    {
+      "q": "A dioecious plant such as papaya prevents",
+      "options": [
+        "autogamy only",
+        "geitonogamy only",
+        "both autogamy and geitonogamy",
+        "neither autogamy nor geitonogamy"
+      ],
+      "answer_index": 2,
+      "explanation": "Each papaya plant bears flowers of one sex; a monoecious plant prevents autogamy only."
+    },
+    {
+      "q": "A plant whose meiocyte has 30 chromosomes will have an endosperm with",
+      "options": [
+        "15 chromosomes",
+        "30 chromosomes",
+        "45 chromosomes",
+        "60 chromosomes"
+      ],
+      "answer_index": 2,
+      "explanation": "2n = 30 gives gametes and polar nuclei of 15; endosperm = 3 × 15 = 45."
+    },
+    {
+      "q": "In a grass embryo the coleorrhiza encloses the",
+      "options": [
+        "plumule",
+        "radicle",
+        "scutellum",
+        "epicotyl"
+      ],
+      "answer_index": 1,
+      "explanation": "Coleorrhiza sheathes the radicle and root cap; coleoptile the shoot apex."
+    },
+    {
+      "q": "Which of the following seeds retains a perisperm?",
+      "options": [
+        "Pea",
+        "Castor",
+        "Black pepper",
+        "Wheat"
+      ],
+      "answer_index": 2,
+      "explanation": "Black pepper and beet retain nucellus as perisperm."
+    },
+    {
+      "q": "Banana is best described as a",
+      "options": [
+        "false fruit with seeds",
+        "true fruit that is parthenocarpic",
+        "false fruit that is parthenocarpic",
+        "true fruit that is apomictic"
+      ],
+      "answer_index": 1,
+      "explanation": "Banana forms from the ovary alone, without fertilisation, so it is seedless."
+    },
+    {
+      "q": "The extra embryos that cause polyembryony in Citrus arise from",
+      "options": [
+        "synergids",
+        "nucellar cells",
+        "antipodal cells",
+        "integument cells"
+      ],
+      "answer_index": 1,
+      "explanation": "Nucellar cells divide, protrude into the embryo sac and form embryos."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that the embryo sac is 8-celled. It is 7-celled and 8-nucleate; the two polar nuclei share one central cell.",
+    "Getting ploidy wrong: endosperm is triploid, perisperm and nucellus diploid, every embryo-sac cell haploid. 'Diploid endosperm' loses the mark.",
+    "Swapping hilum and micropyle on the ovule diagram. In an anatropous ovule the micropyle lies near the funicle, the chalaza opposite.",
+    "Saying the pollen tube enters through the chalaza or straight into the egg. It enters the ovule by the micropyle and a synergid by the filiform apparatus.",
+    "Treating geitonogamy as a source of variation. It is functionally cross but genetically self; only xenogamy brings different pollen.",
+    "Mixing up apomixis (seed without fertilisation), parthenocarpy (fruit without fertilisation) and parthenogenesis (organism from an unfertilised egg).",
+    "Counting problems without working: two male gametes per pollen grain, four pollen grains per microspore mother cell. A bare number earns half."
+  ],
+  "strategy": "<p>This is a diagram chapter, so prepare it with a pencil, in three sittings.</p><p>Sitting one, the male side: T.S. of anther with its four wall layers, microsporogenesis and the 2-celled pollen grain. Draw each twice from memory; a labelled T.S. should take under three minutes. Learn the sporopollenin, germ pore, viability and pollen-bank facts as a list.</p><p>Sitting two, the female side and pollination: anatropous ovule, megasporogenesis, the 7-celled 8-nucleate embryo sac, the three kinds of pollination, wind, water and insect adaptations with NCERT examples, the four outbreeding devices, and emasculation and bagging with their two timings.</p><p>Sitting three, fertilisation onwards: double fertilisation with the ploidy of every nucleus, endosperm before embryo, dicot and grass embryos, seed and fruit types, apomixis and polyembryony with the farmer's reason.</p><p>Finish with the two counting problems (brinjal 360 seeds; meiocyte with X chromosomes) until the rules are automatic. In the paper, take this chapter's 5-marker first if there is a choice: it is almost always a rehearsed diagram plus description.</p>",
+  "revision_checklist": [
+    "I can draw a labelled T.S. of a dithecous anther with the four wall layers in order",
+    "I can state the function of the tapetum and what happens if it malfunctions",
+    "I know exine (sporopollenin, germ pores), intine (cellulose, pectin) and the vegetative and generative cells",
+    "I can draw an anatropous ovule with funicle, hilum, integuments, micropyle, chalaza, nucellus and embryo sac",
+    "I can explain monosporic development and draw the 7-celled, 8-nucleate embryo sac with the filiform apparatus",
+    "I can define autogamy, geitonogamy, xenogamy and cleistogamy with examples and say which gives variation",
+    "I can name four outbreeding devices and say which also prevent geitonogamy",
+    "I can describe emasculation and bagging with the correct timing of each step",
+    "I can explain double fertilisation, name the nuclei in triple fusion and give the ploidy of zygote and PEN",
+    "I can label the dicot embryo and the grass embryo (scutellum, coleoptile, coleorrhiza)",
+    "I can classify seeds (albuminous, non-albuminous, perisperm) and fruits (true, false, parthenocarpic) with examples",
+    "I can solve the seed-counting and meiocyte-to-endosperm problems with working",
+    "I can define apomixis and polyembryony, give Citrus and mango, and explain why apomictic hybrids help farmers"
+  ],
+  "videos": []
+}

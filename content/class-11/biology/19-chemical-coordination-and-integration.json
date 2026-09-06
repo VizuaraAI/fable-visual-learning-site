@@ -1,0 +1,1002 @@
+{
+  "class": 11,
+  "subject": "Biology",
+  "chapter_no": 19,
+  "slug": "chemical-coordination-and-integration",
+  "title": "Chemical Coordination and Integration",
+  "summary": "How the body coordinates itself with chemicals rather than nerves: what a hormone is, every endocrine gland of the human body from the hypothalamus to the ovary with its hormones, targets and disorders, the hormones made by the heart, kidney and gut, and the two mechanisms by which a hormone changes what a cell does. It is the last chapter of Human Physiology, the most memory-heavy chapter of Class 11, and the source of two to four NEET questions every year.",
+  "exam_profile": {
+    "weightage": "Class 11 Biology is a 70-mark theory paper set by the school on the CBSE pattern. Chemical Coordination and Integration is the closing chapter of Unit V, Human Physiology, which carries about 18 marks shared among Breathing and Exchange of Gases, Body Fluids and Circulation, Excretory Products, Locomotion and Movement, Neural Control and this chapter. In a typical school final this chapter alone gives 5 to 8 marks: two or three 1-mark items (an MCQ on which gland makes which hormone, which hormone is hyperglycemic or hypercalcemic, the second messenger of protein hormones, or the gland absent in one sex; and an Assertion-Reason on the posterior pituitary storing but not making oxytocin, or on adrenaline as the emergency hormone), a 2-mark or 3-mark question on a gland and its disorders, on insulin versus glucagon, or on PTH versus calcitonin, and every second year a 5-mark question on the hypothalamus-pituitary relationship, the adrenal gland with its layers, or the mechanism of hormone action with a diagram. NEET reliably takes two to four questions from this chapter, nearly all from NCERT tables and one-liners.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Gland-hormone matching (pineal-melatonin, thymus-thymosin, corpus luteum-progesterone, Leydig cells-androgens, juxtaglomerular cells-erythropoietin, atrial wall-ANF); hormone-effect matching (glucagon hyperglycemic, insulin hypoglycemic, PTH hypercalcemic, ANF lowers blood pressure, aldosterone retains Na<sup>+</sup>); the hormone not from the anterior pituitary (oxytocin, vasopressin); the second messenger (cyclic AMP, IP<sub>3</sub>, Ca<sup>2+</sup>); which receptor is on the membrane and which is intracellular; the organ without cortex and medulla (liver); the disorder not due to thyroid deficiency (exophthalmic goitre); the chemical nature of a hormone (oxytocin peptide, epinephrine amino-acid derivative, cortisol steroid, thyroxine iodothyronine); zona glomerulosa as the outermost layer; the number of parathyroid glands (four); the islets as 1 to 2 per cent of the pancreas."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Posterior pituitary is not a true endocrine gland because oxytocin and vasopressin are synthesised in the hypothalamus and only stored there; adrenaline is called the emergency hormone because it prepares the body for fight or flight; hypothalamic hormones reach the anterior pituitary by the portal circulation and not by general blood; goitre results from iodine deficiency because iodine is needed to synthesise thyroxine; steroid hormones have intracellular receptors because they are lipid-soluble and cross the membrane; insulin and glucagon are antagonistic; PTH and calcitonin are antagonistic; thymus degenerates in old age so immunity weakens; diabetes insipidus is due to ADH deficiency and not insulin deficiency."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define hormone, endocrine gland, exocrine gland; why is the pancreas a composite (heterocrine) gland; why is the hypothalamus called the supreme commander or super master gland; name the hormones of the neurohypophysis and where they are made; name the two catecholamines; name the three layers of the adrenal cortex from outside in; what is a second messenger; name the hormones of the GI tract with one function each; name the hormone that lowers blood pressure and the one that raises blood calcium; distinguish diabetes mellitus from diabetes insipidus; what is cretinism and what causes it; name the gland absent in males and the one absent in females."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Hormones of the pars distalis with one function each; functions of thyroid hormones and effects of iodine deficiency; the role of PTH and calcitonin in calcium homeostasis; insulin versus glucagon in blood glucose regulation; functions of glucocorticoids and mineralocorticoids; the effects of adrenaline in an emergency; functions of testosterone or estrogen and progesterone; hormones of the heart, kidney and GI tract; the mechanism of action of FSH; the four chemical classes of hormones with an example each; differences between hypothyroidism and hyperthyroidism; why the elderly have weak immunity; a pregnant woman with a swollen neck (goitre, iodine, cretinism in the child)."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "The hypothalamus-pituitary axis with a labelled diagram: neurosecretory cells, portal circulation, adenohypophysis and neurohypophysis, releasing and inhibiting hormones, the six hormones of the pars distalis and the two of the pars nervosa; the adrenal gland with a labelled section and the hormones of the medulla and each cortical layer; the mechanism of hormone action comparing protein and steroid hormones with the two NCERT flow diagrams; the pancreas and diabetes mellitus (islets, insulin, glucagon, hyperglycemia, glycosuria, ketone bodies, insulin therapy); a labelled diagram of the location of endocrine glands with one hormone each; the thyroid gland: structure, hormones, functions and every disorder."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on a patient passing large volumes of dilute urine (diabetes insipidus versus diabetes mellitus, ADH, the distal tubule), a passage on a woman from a hilly iodine-deficient region with a neck swelling and a pregnancy (goitre, thyroxine, BMR, cretinism), a passage on a student before an interview with sweating and a racing heart (adrenal medulla, catecholamines, fight or flight), a passage on a milk-ejection or jet-lag situation (neuroendocrine reflex, oxytocin; melatonin and the sleep-wake rhythm), or a passage on two women with different LH and estrogen readings (feedback loop defect versus ovary defect, straight from the exemplar)."
+      }
+    ],
+    "hot_topics": [
+      "Hypothalamus-pituitary relationship: neurosecretory cells, releasing and inhibiting hormones, portal circulation, and why the posterior pituitary only stores oxytocin and vasopressin",
+      "The six hormones of the pars distalis with their targets, plus MSH, oxytocin and vasopressin; gigantism, dwarfism, acromegaly, diabetes insipidus",
+      "Thyroid: T3, T4, calcitonin, iodine, and the disorders (goitre, cretinism, myxoedema, exophthalmic goitre) plus PTH and calcium homeostasis",
+      "Adrenal gland: medulla (catecholamines, fight or flight effects) and cortex (zona glomerulosa, fasciculata, reticularis; cortisol, aldosterone, small androgens)",
+      "Pancreas: islets of Langerhans, alpha and beta cells, glucagon versus insulin, diabetes mellitus and ketone bodies",
+      "Mechanism of hormone action: membrane receptors and second messengers for protein hormones versus intracellular receptors and gene expression for steroids and iodothyronines",
+      "Gonads: Leydig cells and testosterone, follicles and estrogen, corpus luteum and progesterone; the roles of LH and FSH in each sex",
+      "Hormones of non-endocrine organs: ANF (heart), erythropoietin (kidney), gastrin, secretin, CCK and GIP (gut), thymosins (thymus), melatonin (pineal)"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Introduction: why chemical coordination is needed",
+      "pyq_years": [],
+      "body": "<p>You have just studied, in the previous chapter, how the nervous system coordinates the body. Nerves are fast and precise, but they have two limits that NCERT states plainly in the opening lines of this chapter. First, the neural system does not reach every cell of the body: nerve fibres innervate muscles, glands and organs, but a hepatocyte deep inside the liver or a bone cell inside its matrix has no nerve ending sitting on it. Second, cellular functions need to be regulated continuously, for hours and days, and a nerve impulse is a momentary event. So the body has a second, slower, chemical system that works through the blood. The endocrine system provides this chemical coordination, and the two systems together, neural and endocrine, coordinate and integrate the physiological functions of the body. That sentence is the answer to the 1-mark question 'why do we need chemical coordination in addition to neural coordination'.</p><p>The chapter is organised in four parts and you should keep the map in your head while revising. Part one defines endocrine glands and hormones. Part two, the bulk of the chapter, walks through the human endocrine system gland by gland: hypothalamus, pituitary, pineal, thyroid, parathyroid, thymus, adrenal, pancreas, testis and ovary. Part three lists hormones made by organs that are not primarily endocrine, the heart, kidney and gastrointestinal tract. Part four explains the mechanism of hormone action, the only part of the chapter that asks you to understand a process rather than remember a list. Examiners take 1-mark and 2-mark questions from parts one to three, and the diagram-based 5-mark questions from the pituitary, the adrenal and part four.</p>",
+      "formulas": [],
+      "tip": "Learn the chapter as a table of gland, location, hormone, chemical nature, target, effect and disorder. Nearly every objective question is a cell of that table."
+    },
+    {
+      "heading": "19.1 Endocrine Glands and Hormones",
+      "pyq_years": [],
+      "body": "<p>Glands are of two kinds. An <b>exocrine gland</b> has a duct and pours its secretion through it onto a surface or into a cavity: salivary glands, sweat glands, the gastric glands and the exocrine part of the pancreas are examples. An <b>endocrine gland</b> lacks ducts, which is why NCERT calls endocrine glands <b>ductless glands</b>; its secretions, the hormones, are released directly into the blood and carried to distant target organs. The classical definition of a hormone was 'a chemical produced by an endocrine gland and released into the blood'. The current NCERT definition is broader and you should reproduce it word for word: <b>hormones are non-nutrient chemicals which act as intercellular messengers and are produced in trace amounts</b>. The three phrases are the three marking points. 'Non-nutrient' separates hormones from glucose and amino acids that also travel in blood. 'Intercellular messengers' says they carry information from one cell to another. 'Trace amounts' says they work at very low concentration, which is why a small deficiency or excess produces a disease.</p><p>Why did the definition change? Because it is now known that many organs that are not endocrine glands also make hormones. The gastrointestinal tract, the liver, the kidney and the heart all produce hormones (gastrin, erythropoietin, atrial natriuretic factor), and so do non-endocrine tissues in the form of growth factors. The new definition covers all of these. Together, the endocrine glands and the hormone-producing diffused tissues and cells located in different parts of the body constitute the <b>endocrine system</b>.</p><p>The <b>organised endocrine glands</b> of the human body, in the order NCERT lists them, are the pituitary, pineal, thyroid, parathyroid, adrenal, pancreas and the gonads (testis in males, ovary in females). The hypothalamus, though it is a part of the brain, is included because it makes hormones; and the thymus is included with the glands. Learn the locations from NCERT Fig. 19.1, because the exercise asks you to indicate them on a diagram: the pineal at the top of the brain stem on the dorsal side of the forebrain, the hypothalamus and pituitary at the base of the brain, the thyroid and parathyroids in the neck, the thymus behind the sternum, the adrenals on top of each kidney, the pancreas below the stomach, and the gonads in the scrotum or the pelvis.</p>",
+      "formulas": [],
+      "tip": "Two-mark question: define exocrine gland, endocrine gland and hormone. Give the ductless / ducted contrast and the three-phrase NCERT definition of a hormone; each phrase is a mark."
+    },
+    {
+      "heading": "19.2.1 The Hypothalamus",
+      "pyq_years": [],
+      "body": "<p>The hypothalamus is the basal part of the diencephalon, the forebrain. Apart from regulating body temperature, hunger, thirst and other functions studied in the neural chapter, it is the master of the endocrine system, because it controls the pituitary, which in turn controls most of the other glands. That is why the pituitary is called the master gland and the hypothalamus the <b>super master gland</b> or supreme commander.</p><p>The hypothalamus contains several groups of <b>neurosecretory cells</b> called nuclei. These are neurons that behave like gland cells: they produce hormones. The hormones are of two kinds. <b>Releasing hormones</b> stimulate the secretion of pituitary hormones, and <b>inhibiting hormones</b> inhibit it. NCERT gives one example of each and both are asked. The <b>gonadotrophin releasing hormone (GnRH)</b> stimulates the pituitary to synthesise and release gonadotrophins (LH and FSH). <b>Somatostatin</b> inhibits the release of growth hormone from the pituitary. Other hypothalamic hormones you meet in the exemplar are thyrotrophin releasing hormone (TRH), corticotrophin releasing hormone (CRH), growth hormone releasing hormone (GHRH), prolactin releasing and inhibiting hormones and MSH releasing and inhibiting hormones. You do not need all of them for the school exam, but GnRH and somatostatin must be known with their effects.</p><p>How do these hormones reach the pituitary? The hypothalamic hormones originate in the neurons of the hypothalamus, travel down the axons and are released from the nerve endings, from where they reach the pituitary gland through a <b>portal circulatory system</b>. A portal system is one in which blood collected from one capillary bed is carried by a vein to a second capillary bed instead of returning to the heart. The hypophysial portal vessels collect the releasing and inhibiting hormones from the capillaries in the hypothalamus and deliver them straight to the capillaries of the anterior pituitary, so the hormones reach their target in high concentration without being diluted in the whole blood volume. This is the route for the anterior pituitary only. The posterior pituitary is regulated by the hypothalamus directly through <b>neural connections</b>: the axons of hypothalamic neurons run down into the posterior pituitary and release oxytocin and vasopressin there. So the hypothalamus controls the two lobes of the pituitary by two different routes, portal blood for the anterior lobe and axons for the posterior lobe, and this two-route contrast is a favourite 3-mark question.</p>",
+      "formulas": [],
+      "tip": "Write 'portal circulation' for the anterior pituitary and 'neural (axonal) connection' for the posterior pituitary. Students who say the hypothalamic hormones travel through 'the blood' lose the mark; the examiner wants the word portal."
+    },
+    {
+      "heading": "19.2.2 The Pituitary Gland",
+      "pyq_years": [],
+      "body": "<p>The pituitary gland is located in a bony cavity called the <b>sella turcica</b> and is attached to the hypothalamus by a stalk. It is divided anatomically into an <b>adenohypophysis</b> and a <b>neurohypophysis</b>. The adenohypophysis has two portions, the <b>pars distalis</b> and the <b>pars intermedia</b>. The pars distalis, commonly called the anterior pituitary, produces six hormones: <b>growth hormone (GH)</b>, <b>prolactin (PRL)</b>, <b>thyroid stimulating hormone (TSH)</b>, <b>adrenocorticotrophic hormone (ACTH)</b>, <b>luteinising hormone (LH)</b> and <b>follicle stimulating hormone (FSH)</b>. The pars intermedia secretes only one hormone, <b>melanocyte stimulating hormone (MSH)</b>; in humans the pars intermedia is almost merged with the pars distalis. The neurohypophysis, or pars nervosa, is the posterior pituitary. It stores and releases two hormones, <b>oxytocin</b> and <b>vasopressin</b>, which are actually synthesised by the hypothalamus and are transported axonally to the neurohypophysis. This is the single most examined fact in the chapter: the posterior pituitary releases two hormones but makes neither.</p><p>Now the functions, in NCERT order, with the disorder attached to each where there is one. <b>Growth hormone</b> regulates the growth of the body. Its over-secretion stimulates abnormal growth of the body, leading to <b>gigantism</b>; low secretion results in stunted growth, <b>pituitary dwarfism</b>. Excess secretion of GH in adults, especially in middle age, cannot lengthen bones whose growth plates have closed, so it produces severe disfigurement, especially of the face, called <b>acromegaly</b>, which may lead to serious complications and even death if unchecked. <b>Prolactin</b> regulates the growth of the mammary glands and the formation of milk in them. <b>TSH</b> stimulates the synthesis and secretion of thyroid hormones from the thyroid gland. <b>ACTH</b> stimulates the synthesis and secretion of steroid hormones called glucocorticoids from the adrenal cortex. <b>LH and FSH</b> stimulate gonadal activity and are therefore called <b>gonadotrophins</b>. In males, LH stimulates the synthesis and secretion of androgens from the testis, and FSH together with the androgens regulates spermatogenesis. In females, LH induces ovulation of the fully mature follicle (the Graafian follicle) and maintains the corpus luteum formed from the remnants of the follicle after ovulation; FSH stimulates the growth and development of the ovarian follicles. <b>MSH</b> acts on the melanocytes and regulates the pigmentation of the skin.</p><p><b>Oxytocin</b> acts on smooth muscles and stimulates their contraction. In females it stimulates a vigorous contraction of the uterus at the time of child birth and milk ejection from the mammary gland. <b>Vasopressin</b> acts mainly on the kidney and stimulates the reabsorption of water and electrolytes by the distal tubules, thereby reducing the loss of water through urine (diuresis); hence it is also called the <b>anti-diuretic hormone (ADH)</b>. Its deficiency reduces water reabsorption, so a large volume of dilute urine is produced (diuresis) and the patient is always thirsty: this is <b>diabetes insipidus</b>. Note that it has nothing to do with insulin or glucose, and the urine contains no sugar, which is the distinction from diabetes mellitus that the examiner tests.</p>",
+      "formulas": [],
+      "tip": "Exercise question 4 is a fill-in-the-blanks on targets: hypothalamic hormones act on the pituitary, TSH on the thyroid, ACTH on the adrenal cortex, gonadotrophins on the gonads (testis / ovary), MSH on the melanocytes of the skin. Learn this as a set."
+    },
+    {
+      "heading": "19.2.3 The Pineal Gland",
+      "pyq_years": [],
+      "body": "<p>The pineal gland is located on the dorsal side of the forebrain. It secretes a hormone called <b>melatonin</b>. Melatonin plays a very important role in the regulation of the <b>24-hour (diurnal) rhythm</b> of our body. NCERT gives two examples of that rhythm and you should quote both: it helps in maintaining the normal rhythms of the sleep-wake cycle and of body temperature. In addition, melatonin also influences metabolism, pigmentation, the menstrual cycle and our defence capability. That is the whole NCERT paragraph, and it is enough for the 2-mark question 'name the hormone of the pineal gland and state two of its functions'.</p><p>The pineal appears in two exemplar questions that schools like to copy. The first asks which hormone regulates the sleep-wake cycle; the answer is melatonin, and the three distractors offered are usually thyroxine, insulin and adrenaline. The second is the jet-lag question. When you fly across several time zones, the light-dark cycle of the new place is out of step with the body's internal clock. Melatonin secretion, which rises in darkness and falls in light, is still timed to the old place, so you feel sleepy in the day and awake at night. The body clock (the suprachiasmatic nucleus of the hypothalamus, which controls the pineal) adjusts slowly over a few days, and the temporary sleep disturbance during this adjustment is jet lag. The exam answer is: jet lag is a temporary disturbance of the sleep-wake rhythm caused by rapid travel across time zones, because the melatonin rhythm set by the pineal gland is out of phase with the local light-dark cycle until it re-adjusts.</p><p>One more fact worth a mark: the pineal is the only endocrine gland whose secretion is directly governed by light, through the eyes and the hypothalamus, which is why it is sometimes called the biological clock of the body.</p>",
+      "formulas": [],
+      "tip": "Do not write 'melanin' for the pineal hormone. Melanin is the skin pigment; melatonin is the pineal hormone; MSH is the pituitary hormone that stimulates melanocytes. Examiners see the three confused every year."
+    },
+    {
+      "heading": "19.2.4 Thyroid Gland",
+      "pyq_years": [],
+      "body": "<p>The thyroid gland is composed of two lobes located on either side of the trachea, interconnected by a thin flap of connective tissue called the <b>isthmus</b>. It is the largest endocrine gland. Under the microscope it is composed of <b>follicles</b> and <b>stromal tissues</b>. Each thyroid follicle is composed of follicular cells enclosing a cavity, and these follicular cells synthesise two hormones, <b>tetraiodothyronine or thyroxine (T<sub>4</sub>)</b> and <b>triiodothyronine (T<sub>3</sub>)</b>. The numbers tell you the iodine content: four atoms in T<sub>4</sub>, three in T<sub>3</sub>. <b>Iodine is essential for the normal rate of hormone synthesis in the thyroid.</b> Deficiency of iodine in the diet results in <b>hypothyroidism</b> and enlargement of the thyroid gland, commonly called <b>goitre</b>. The gland enlarges because low thyroxine removes the negative feedback on the pituitary, TSH rises, and the over-stimulated follicles multiply and swell even though they cannot make enough hormone.</p><p>The disorders form a compact list that every paper draws on. Hypothyroidism during pregnancy causes defective development and maturation of the growing baby, leading to stunted growth (<b>cretinism</b>), mental retardation, low intelligence quotient, abnormal skin and deaf-mutism. In adult women hypothyroidism may cause an irregular menstrual cycle; in adults generally it produces <b>myxoedema</b>, with low BMR, weight gain, lethargy and puffy skin. Due to cancer of the thyroid gland or the development of nodules of the thyroid, the rate of synthesis and secretion of thyroid hormones is increased to abnormal levels, leading to <b>hyperthyroidism</b>, which adversely affects the body physiology. <b>Exophthalmic goitre</b> is a form of hyperthyroidism characterised by enlargement of the thyroid gland, protrusion of the eyeballs, increased basal metabolic rate and weight loss; it is also called <b>Graves' disease</b>. Note the exemplar trap: exophthalmos is the one condition in the list that is not due to thyroid deficiency.</p><p>Functions of thyroid hormones, as NCERT lists them: they play an important role in the regulation of the <b>basal metabolic rate</b>; they support the process of <b>red blood cell formation</b>; they control the metabolism of carbohydrates, proteins and fats; and they help maintain <b>water and electrolyte balance</b>. The thyroid also secretes a protein hormone, <b>thyrocalcitonin (TCT)</b> or calcitonin, which regulates the blood calcium level by lowering it. Calcitonin is made by the parafollicular (C) cells between the follicles, not by the follicular cells, and it is a peptide, not an iodothyronine; both distinctions are used in MCQs.</p><p>Regulation is a simple negative feedback that examiners like as a flow chart: low T<sub>3</sub>/T<sub>4</sub> in blood → hypothalamus releases TRH → anterior pituitary releases TSH → thyroid follicles synthesise and release T<sub>3</sub>/T<sub>4</sub> → raised T<sub>3</sub>/T<sub>4</sub> inhibits TRH and TSH release.</p>",
+      "formulas": [],
+      "tip": "Cretinism is the childhood (or foetal) form of hypothyroidism; myxoedema the adult form; goitre is the swelling from iodine deficiency; Graves' disease is hyperthyroidism. A 2-mark question usually asks you to place two of these correctly."
+    },
+    {
+      "heading": "19.2.5 Parathyroid Gland",
+      "pyq_years": [],
+      "body": "<p>In humans, <b>four parathyroid glands</b> are present on the back side of the thyroid gland, one pair each in the two lobes of the thyroid gland. They secrete a peptide hormone called <b>parathyroid hormone (PTH)</b>, also called parathormone. The secretion of PTH is regulated by the circulating levels of calcium ions: a fall in blood Ca<sup>2+</sup> stimulates PTH release, a rise suppresses it. There is no pituitary trophic hormone controlling the parathyroid; it senses calcium directly, which is why it is called an independent gland in some questions.</p><p>PTH increases the Ca<sup>2+</sup> level in the blood, and NCERT gives three routes, all three of which are needed for full marks. First, PTH acts on bones and stimulates the process of <b>bone resorption</b> (dissolution or demineralisation), releasing calcium from the skeleton into the blood. Second, PTH stimulates the <b>reabsorption of Ca<sup>2+</sup> by the renal tubules</b>, so less is lost in urine. Third, it <b>increases Ca<sup>2+</sup> absorption from the digested food</b> in the intestine (it does this through the activation of vitamin D, which the exemplar mentions). It is thus clear that PTH is a <b>hypercalcemic hormone</b>, that is, it increases the blood Ca<sup>2+</sup> level. Along with TCT, it plays a significant role in calcium balance in the body.</p><p>The pairing with calcitonin is the classic 3-mark or 5-mark question on calcium homeostasis. When blood calcium is high, the thyroid releases calcitonin, which suppresses the release of calcium from bone and lowers blood calcium. When blood calcium is low, the parathyroids release PTH, which raises it by the three routes above. The two hormones are antagonistic and together they hold blood calcium within a narrow range. Why does the body care so much? Because calcium is needed for muscle contraction, nerve impulse transmission, blood clotting and as a second messenger. A fall in blood calcium causes the sustained muscle spasms of tetany that you met in the previous chapter; an excess weakens bones and produces kidney stones.</p><p>Hyposecretion of PTH (for instance after accidental removal of the parathyroids in thyroid surgery) causes hypocalcemia and tetany; hypersecretion causes demineralisation of bone and kidney stones. These clinical lines are not in NCERT but appear in school papers as a 1-mark extension.</p>",
+      "formulas": [],
+      "tip": "Write all three targets of PTH: bone (resorption), kidney (reabsorption), intestine (absorption). The three verbs differ; the examiner looks for each."
+    },
+    {
+      "heading": "19.2.6 Thymus",
+      "pyq_years": [],
+      "body": "<p>The thymus gland is a <b>lobular structure</b> located on the dorsal side of the heart and the aorta, behind the sternum. It plays a major role in the development of the immune system. The thymus secretes peptide hormones called <b>thymosins</b>. Thymosins play a major role in the <b>differentiation of T-lymphocytes</b>, which provide <b>cell-mediated immunity</b>. In addition, thymosins also promote the production of antibodies to provide <b>humoral immunity</b>. Both halves of that sentence are marking points; a student who writes only 'T-cells' has given half the answer.</p><p>The point examiners like most is the age effect. The thymus is degenerated in old individuals, resulting in a decreased production of thymosins. As a result the immune responses of old persons become weak. This is the NCERT explanation for the exemplar question 'why do old people have a weak immune system', and it also appears as an Assertion-Reason item: Assertion, the immune response in old people is weak; Reason, the thymus degenerates with age and thymosin production falls; both true and R explains A.</p><p>Two facts tie this section to the rest of the syllabus. The thymus is a primary lymphoid organ (you will meet that phrase in Class 12, Human Health and Disease), where immature lymphocytes from the bone marrow mature into T-cells. And the exemplar contains a true-or-false statement that B-lymphocytes provide cell-mediated immunity: that statement is false, because B-cells produce antibodies for humoral immunity while T-cells are responsible for cell-mediated immunity. Also note from the exemplar MCQ on calcium: thymosin is the hormone not involved in calcium balance; vitamin D, PTH and thyrocalcitonin are.</p>",
+      "formulas": [],
+      "tip": "Thymus makes thymosins (plural, peptides). Location: dorsal side of heart and aorta. Function: T-cell differentiation plus antibody production. Age: degenerates, so immunity falls. Four lines cover every question asked from this section."
+    },
+    {
+      "heading": "19.2.7 Adrenal Gland",
+      "pyq_years": [],
+      "body": "<p>Our body has one pair of adrenal glands, one at the anterior part of each kidney (the name means 'upon the kidney', hence suprarenal). The gland is composed of two types of tissues. The centrally located tissue is called the <b>adrenal medulla</b>, and outside this lies the <b>adrenal cortex</b>. The two parts have different origins, different hormones and different chemical classes of hormone, and a 5-mark question expects you to keep them apart.</p><p><b>Adrenal medulla.</b> It secretes two hormones, <b>adrenaline (epinephrine)</b> and <b>noradrenaline (norepinephrine)</b>, which are commonly called <b>catecholamines</b>; they are amino-acid derivatives. Adrenaline and noradrenaline are rapidly secreted in response to stress of any kind and during emergency situations, and are called <b>emergency hormones</b> or <b>hormones of fight or flight</b>. NCERT lists their effects and the list is a 3-mark question on its own: they increase alertness, dilate the pupils (pupillary dilation), cause piloerection (raising of hairs), sweating, an increase in heart beat and in the strength of heart contraction, and an increase in the rate of respiration. Catecholamines also stimulate the breakdown of glycogen (<b>glycogenolysis</b>), resulting in an increased concentration of glucose in the blood, and they stimulate the breakdown of lipids and proteins (lipolysis and proteolysis). The picture is of a body being readied for a burst of physical effort: more oxygen, more fuel, more blood flow.</p><p><b>Adrenal cortex.</b> It can be divided into three layers, and NCERT names them from inside out, so be careful when a question asks for the outermost: the <b>zona reticularis</b> (inner layer), the <b>zona fasciculata</b> (middle layer) and the <b>zona glomerulosa</b> (outer layer). The cortex secretes many steroid hormones, commonly called <b>corticoids</b>. The corticoids involved in carbohydrate metabolism are <b>glucocorticoids</b>, and cortisol is the main one in our body. The corticoids that regulate the balance of water and electrolytes are <b>mineralocorticoids</b>, and aldosterone is the main one. Glucocorticoids stimulate <b>gluconeogenesis</b>, lipolysis and proteolysis, and inhibit the cellular uptake and utilisation of amino acids. Cortisol is also involved in maintaining cardio-vascular system and kidney functions, produces <b>anti-inflammatory reactions</b>, suppresses the immune response, and stimulates the production of RBCs. This is why cortisol-like drugs are used for allergies and after transplants. Aldosterone acts mainly on the renal tubules and stimulates the reabsorption of Na<sup>+</sup> and water and the excretion of K<sup>+</sup> and phosphate ions; it thus helps maintain electrolytes, body fluid volume, osmotic pressure and blood pressure. Small amounts of <b>androgenic steroids</b> are also secreted by the adrenal cortex, and these play a role in the growth of axial hair, pubic hair and facial hair during puberty.</p>",
+      "formulas": [],
+      "tip": "Outermost layer of the cortex is the zona glomerulosa; NCERT's own list runs reticularis, fasciculata, glomerulosa from the inside. The exemplar VSA asks specifically for the outer layer."
+    },
+    {
+      "heading": "19.2.8 Pancreas",
+      "pyq_years": [],
+      "body": "<p>The pancreas is a <b>composite gland</b> (a heterocrine gland), which acts as both an exocrine and an endocrine gland. The exocrine part, the acini, pours pancreatic juice into the duodenum through a duct, as you studied in digestion. The endocrine pancreas consists of the <b>islets of Langerhans</b>. About 1 to 2 million islets are present in a normal human pancreas, yet they represent only 1 to 2 per cent of the pancreatic tissue. The two main types of cells in the islets are the <b>α-cells</b>, which secrete <b>glucagon</b>, and the <b>β-cells</b>, which secrete <b>insulin</b>. Both hormones are peptides.</p><p><b>Glucagon</b> plays an important role in maintaining the normal blood glucose level. It acts mainly on liver cells (hepatocytes) and stimulates <b>glycogenolysis</b>, the breakdown of glycogen, resulting in an increased blood sugar (hyperglycemia). In addition, it stimulates <b>gluconeogenesis</b>, the synthesis of glucose from non-carbohydrate sources, which also contributes to hyperglycemia. Glucagon reduces the cellular glucose uptake and utilisation. Thus glucagon is a <b>hyperglycemic hormone</b>.</p><p><b>Insulin</b> is a peptide hormone that also regulates glucose homeostasis. It acts mainly on hepatocytes and adipocytes (cells of adipose tissue) and enhances the cellular glucose uptake and utilisation. As a result there is a rapid movement of glucose from blood to the hepatocytes and adipocytes, causing a decrease in blood glucose (hypoglycemia). Insulin also stimulates the conversion of glucose to glycogen (<b>glycogenesis</b>) in the target cells. Insulin is therefore a <b>hypoglycemic hormone</b>. The glucose homeostasis of blood is thus maintained by the joint, antagonistic action of insulin and glucagon: when blood glucose rises after a meal, β-cells release insulin and glucose is stored; when it falls between meals, α-cells release glucagon and the stores are broken down.</p><p>Prolonged hyperglycemia leads to a complex disorder called <b>diabetes mellitus</b>, which is associated with the loss of glucose through urine and the formation of harmful compounds known as <b>ketone bodies</b>. Glucose spills into urine because it exceeds the reabsorption capacity of the renal tubules (the renal threshold); ketone bodies form because cells starved of glucose burn fats instead. Diabetic patients are successfully treated with <b>insulin therapy</b>. The exemplar adds a nuance worth knowing: diabetes can result either from an insulin deficiency or from insulin resistance, in which the cells fail to respond to insulin that is present.</p>",
+      "formulas": [],
+      "tip": "Glucagon: glycogenolysis + gluconeogenesis, hyperglycemic, α-cells. Insulin: glucose uptake + glycogenesis, hypoglycemic, β-cells. Keep the three 'glyco' words apart; writing glycogenolysis for insulin is a common mark-losing slip."
+    },
+    {
+      "heading": "19.2.9 Testis",
+      "pyq_years": [],
+      "body": "<p>A pair of testes is present in the scrotal sac outside the abdomen of male individuals; the scrotum keeps them 2 to 2.5 °C below body temperature, which spermatogenesis needs. The testis performs a dual function: it is a primary sex organ that makes sperms and it is an endocrine gland. It is composed of <b>seminiferous tubules</b> and <b>stromal or interstitial tissue</b>. The <b>Leydig cells</b> or <b>interstitial cells</b>, which are present in the intertubular spaces, produce a group of hormones called <b>androgens</b>, mainly <b>testosterone</b>. Androgens are steroids.</p><p>NCERT gives the functions of androgens in one long sentence that you should split into points for a 3-mark answer. Androgens regulate the development, maturation and functions of the <b>male accessory sex organs</b>: the epididymis, vas deferens, seminal vesicles, prostate gland and urethra. They stimulate muscular growth, the growth of facial and axillary hair, aggressiveness and a low pitch of voice, that is, the male <b>secondary sexual characters</b>. They play a major stimulatory role in the process of <b>spermatogenesis</b>. They act on the central neural system and influence male sexual behaviour (libido). And they produce <b>anabolic</b> (synthetic) effects on protein and carbohydrate metabolism, which is the reason they are misused as performance-enhancing drugs, a point Class 12 returns to.</p><p>Control of the testis is by the pituitary gonadotrophins, and the exemplar asks the roles of LH in both sexes. In males, LH acts on the Leydig cells and stimulates the synthesis and secretion of androgens; FSH acts on the seminiferous tubules and, together with androgens, regulates spermatogenesis. The hypothalamus starts the chain with GnRH, and testosterone in turn inhibits GnRH and LH by negative feedback. The exercise question on the mechanism of action of FSH fits here: FSH is a protein (glycoprotein) hormone, so it binds to membrane receptors on its target cells, the Sertoli cells of the seminiferous tubules in males and the follicle cells of the ovary in females, generates a second messenger (cyclic AMP) inside the cell, and the second messenger activates the enzymes that carry out the cell's response, spermatogenesis in the testis and growth of the follicle in the ovary.</p>",
+      "formulas": [],
+      "tip": "Leydig cells make testosterone; Sertoli cells (inside the tubules, from Class 12) nourish sperms. Only the Leydig-testosterone link is in this chapter, and it is what the MCQ 'Leydig cells produce' tests."
+    },
+    {
+      "heading": "19.2.10 Ovary",
+      "pyq_years": [],
+      "body": "<p>Females have a pair of ovaries located in the abdomen (the pelvic cavity). The ovary is the primary female sex organ, which produces one ovum during each menstrual cycle, and it is an endocrine gland. The ovary is composed of <b>ovarian follicles</b> and <b>stromal tissues</b>. It produces two groups of steroid hormones, <b>estrogen</b> and <b>progesterone</b>, and the timing of their secretion is what the examiner wants. Estrogen is synthesised and secreted mainly by the <b>growing ovarian follicles</b>. After ovulation, the ruptured follicle is converted to a structure called the <b>corpus luteum</b>, which secretes mainly <b>progesterone</b>. So follicle means estrogen and corpus luteum means progesterone; the exemplar MCQ 'the corpus luteum secretes' has progesterone as its answer.</p><p><b>Estrogens</b> produce wide-ranging actions such as the stimulation of growth and activities of the <b>female secondary sex organs</b> (uterus, fallopian tubes, vagina), the development of growing ovarian follicles, the appearance of <b>female secondary sex characters</b> (for example a high pitch of voice, breast development, the pattern of fat and hair), and the development of mammary glands. Estrogens also regulate female sexual behaviour. <b>Progesterone</b> supports pregnancy: it prepares and maintains the uterine endometrium for the implanted embryo and suppresses uterine contractions. Progesterone also acts on the mammary glands and stimulates the formation of alveoli (sac-like structures which store milk) and milk secretion. NCERT calls it the progestational hormone in exercise 6, and that is the term the answer wants.</p><p>Control is again by the gonadotrophins, and the exemplar's feedback question is the cleverest thing set from this section. FSH stimulates the growth and development of ovarian follicles; the growing follicles secrete estrogen; LH induces ovulation of the fully mature Graafian follicle and maintains the corpus luteum. Rising estrogen normally feeds back to reduce LH secretion. Now the two clinical cases: an old woman whose blood shows high LH but low estrogen has ovaries (the gland X) that no longer respond to LH, as happens after menopause when the follicles are exhausted, so the pituitary keeps pushing without result. A woman with high LH and high estrogen has a defect in the negative feedback loop, because her high estrogen is failing to switch LH off.</p>",
+      "formulas": [],
+      "tip": "Exercise 6 asks for the progestational hormone (progesterone), the gonadotrophic hormones (LH and FSH), and 'androgens and estrogens' (testosterone; estradiol). Have the one-word answers ready."
+    },
+    {
+      "heading": "19.3 Hormones of Heart, Kidney and Gastrointestinal Tract",
+      "pyq_years": [],
+      "body": "<p>As mentioned earlier, hormones are also secreted by some tissues which are not endocrine glands. This short section produces a surprising number of 1-mark questions, because each organ has one hormone with one crisp function.</p><p><b>Heart.</b> The atrial wall of our heart secretes a very important peptide hormone called <b>atrial natriuretic factor (ANF)</b>, which decreases blood pressure. When blood pressure is increased, ANF is secreted, which causes dilation of the blood vessels; this reduces the blood pressure. 'Natriuretic' means it also promotes the excretion of sodium in urine, which lowers blood volume. ANF is the 'blood pressure lowering hormone' of exercise 6(e) and it works in the opposite direction to aldosterone and vasopressin.</p><p><b>Kidney.</b> The <b>juxtaglomerular cells</b> of the kidney produce a peptide hormone called <b>erythropoietin</b>, which stimulates <b>erythropoiesis</b>, the formation of RBCs, in the bone marrow. It is released when the oxygen supply to the kidney falls, which is why people living at high altitude have more red cells and why kidney failure causes anaemia. Keep erythropoietin distinct from renin, an enzyme from the same cells that you met in the excretion chapter.</p><p><b>Gastrointestinal tract.</b> Endocrine cells present in different parts of the GI tract secrete four major peptide hormones. <b>Gastrin</b> acts on the gastric glands and stimulates the secretion of hydrochloric acid and pepsinogen. <b>Secretin</b> acts on the exocrine pancreas and stimulates the secretion of water and bicarbonate ions, which neutralise the acid chyme entering the duodenum. <b>Cholecystokinin (CCK)</b> acts on both the pancreas and the gall bladder and stimulates the secretion of pancreatic enzymes and bile juice respectively. <b>Gastric inhibitory peptide (GIP)</b> inhibits gastric secretion and motility. Read the names as instructions: gastr-in stimulates the gastric glands, secret-in makes the pancreas secrete, chole-cysto-kinin moves the bile bladder, and gastric inhibitory peptide inhibits the stomach.</p><p>Finally NCERT notes that several non-endocrine tissues secrete hormones called <b>growth factors</b>, which are essential for the normal growth of tissues and their repair or regeneration. This is the reason the definition of a hormone was widened in section 19.1.</p>",
+      "formulas": [],
+      "tip": "Exercise 3 asks the hormones of atrium, kidney and GI tract: ANF; erythropoietin; gastrin, secretin, CCK, GIP. Write the full name of each abbreviation at least once in the answer."
+    },
+    {
+      "heading": "19.4 Mechanism of Hormone Action",
+      "pyq_years": [],
+      "body": "<p>Hormones produce their effects on target tissues by binding to specific proteins called <b>hormone receptors</b> located in the target tissues only. Receptors are of two kinds. <b>Membrane-bound receptors</b> are present on the cell membrane of the target cells. <b>Intracellular receptors</b> are present inside the target cell, mostly in the nucleus, and are therefore also called <b>nuclear receptors</b>. The binding of a hormone to its receptor leads to the formation of a <b>hormone-receptor complex</b>. Each receptor is specific to one hormone only, and hence receptors are said to be <b>specific</b>. That specificity is the reason a hormone circulating in the whole blood acts only on its target cells: only they carry the receptor. The formation of the hormone-receptor complex leads to certain biochemical changes in the target tissue, and target tissue metabolism and hence physiological functions are regulated by hormones.</p><p>On the basis of their chemical nature, hormones can be divided into four groups, and this classification decides which kind of receptor a hormone uses. (i) <b>Peptide, polypeptide and protein hormones</b>: insulin, glucagon, the pituitary hormones, the hypothalamic hormones (and also PTH, calcitonin, thymosins, ANF, erythropoietin and the gut hormones). (ii) <b>Steroids</b>: cortisol, aldosterone, testosterone, estradiol and progesterone. (iii) <b>Iodothyronines</b>: the thyroid hormones T<sub>3</sub> and T<sub>4</sub>. (iv) <b>Amino-acid derivatives</b>: epinephrine and norepinephrine (and melatonin).</p><p><b>Protein and peptide hormones</b> are water-soluble and cannot cross the lipid bilayer, so they act through membrane-bound receptors. The hormone (the <i>first messenger</i>) binds to the receptor on the outer surface; the complex activates an enzyme inside the membrane (adenylate cyclase for the cAMP pathway), which generates a <b>second messenger</b> inside the cell. NCERT names three second messengers: <b>cyclic AMP</b>, <b>IP<sub>3</sub></b> (inositol trisphosphate) and <b>Ca<sup>2+</sup></b>. The second messenger activates a cascade of enzymes (protein kinases), which in turn regulate cellular metabolism, so the hormone's message is amplified and delivered without the hormone ever entering the cell. This is NCERT Fig. 19.5(a) and it must be drawn as: hormone → membrane receptor → second messenger (cAMP) → biochemical responses (enzyme activation) → physiological response.</p><p><b>Steroid hormones and iodothyronines</b> are lipid-soluble and pass through the plasma membrane. Inside the cell they bind to intracellular receptors, and the hormone-receptor complex enters the nucleus and interacts with the genome (DNA). This interaction regulates <b>gene expression</b> or chromosome function, switching particular genes on or off. Cumulative biochemical actions, the synthesis of new proteins directed by the switched-on genes, result in physiological and developmental effects. This is Fig. 19.5(b): hormone → intracellular receptor → hormone-receptor complex → genome interaction → gene expression (protein synthesis) → physiological and developmental effects. The two mechanisms differ in speed too: second-messenger responses are fast (adrenaline acts within seconds), gene-expression responses are slow but long lasting (thyroxine and testosterone act over days).</p>",
+      "formulas": [],
+      "tip": "The 5-mark question is 'compare the mechanism of action of a protein hormone and a steroid hormone with diagrams'. Four contrasts earn it: solubility, receptor location, second messenger versus gene expression, speed. Then the two flow diagrams."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Hormone",
+      "definition": "A non-nutrient chemical which acts as an intercellular messenger and is produced in trace amounts (NCERT). Released into blood and acting on distant target cells that carry its specific receptor."
+    },
+    {
+      "term": "Endocrine gland",
+      "definition": "A ductless gland whose secretions (hormones) are released directly into the blood, e.g. thyroid, pituitary. Contrast with an exocrine gland, which has a duct, e.g. salivary gland."
+    },
+    {
+      "term": "Neurosecretory cells",
+      "definition": "Neurons of the hypothalamic nuclei that synthesise and release hormones (releasing and inhibiting hormones, oxytocin and vasopressin) instead of neurotransmitters alone."
+    },
+    {
+      "term": "Releasing and inhibiting hormones",
+      "definition": "Hypothalamic hormones that respectively stimulate (e.g. GnRH) or inhibit (e.g. somatostatin) the secretion of hormones by the anterior pituitary; they reach it through the hypophysial portal circulation."
+    },
+    {
+      "term": "Portal circulation",
+      "definition": "A vascular arrangement in which blood from the capillaries of the hypothalamus is carried by portal veins to a second capillary bed in the anterior pituitary, delivering hypothalamic hormones directly to their target."
+    },
+    {
+      "term": "Adenohypophysis and neurohypophysis",
+      "definition": "The two parts of the pituitary. Adenohypophysis = pars distalis (six hormones) + pars intermedia (MSH); neurohypophysis or pars nervosa = posterior pituitary, which stores and releases oxytocin and vasopressin made in the hypothalamus."
+    },
+    {
+      "term": "Gonadotrophins",
+      "definition": "LH and FSH of the anterior pituitary, which stimulate the activity of the gonads: LH induces ovulation and androgen secretion; FSH stimulates follicle growth and, with androgens, spermatogenesis."
+    },
+    {
+      "term": "Anti-diuretic hormone (ADH, vasopressin)",
+      "definition": "Posterior pituitary hormone that stimulates reabsorption of water and electrolytes by the distal tubules of the kidney, reducing water loss in urine (diuresis). Its deficiency causes diabetes insipidus."
+    },
+    {
+      "term": "Goitre",
+      "definition": "Enlargement of the thyroid gland, commonly due to iodine deficiency in the diet, which reduces thyroxine synthesis (hypothyroidism)."
+    },
+    {
+      "term": "Cretinism",
+      "definition": "Stunted growth with mental retardation, low IQ, abnormal skin and deaf-mutism in a child, caused by hypothyroidism during pregnancy and infancy."
+    },
+    {
+      "term": "Exophthalmic goitre (Graves' disease)",
+      "definition": "A form of hyperthyroidism with enlargement of the thyroid, protrusion of the eyeballs, increased BMR and weight loss."
+    },
+    {
+      "term": "Hypercalcemic hormone",
+      "definition": "A hormone that raises blood Ca<sup>2+</sup>: parathyroid hormone, acting by bone resorption, renal reabsorption and intestinal absorption of calcium. Calcitonin is its antagonist."
+    },
+    {
+      "term": "Thymosins",
+      "definition": "Peptide hormones of the thymus that promote differentiation of T-lymphocytes (cell-mediated immunity) and antibody production (humoral immunity); their fall with thymus degeneration weakens immunity in old age."
+    },
+    {
+      "term": "Catecholamines",
+      "definition": "Adrenaline (epinephrine) and noradrenaline (norepinephrine), amino-acid-derivative hormones of the adrenal medulla; the emergency or fight-or-flight hormones."
+    },
+    {
+      "term": "Glucocorticoids and mineralocorticoids",
+      "definition": "Steroid corticoids of the adrenal cortex. Glucocorticoids (mainly cortisol) act on carbohydrate metabolism, are anti-inflammatory and immunosuppressive; mineralocorticoids (mainly aldosterone) regulate Na<sup>+</sup>, K<sup>+</sup>, water balance and blood pressure."
+    },
+    {
+      "term": "Islets of Langerhans",
+      "definition": "The endocrine tissue of the pancreas: 1 to 2 million islets forming 1 to 2 per cent of the gland; α-cells secrete glucagon and β-cells secrete insulin."
+    },
+    {
+      "term": "Hyperglycemic and hypoglycemic hormones",
+      "definition": "Glucagon raises blood glucose by glycogenolysis and gluconeogenesis; insulin lowers it by promoting glucose uptake and glycogenesis in hepatocytes and adipocytes."
+    },
+    {
+      "term": "Diabetes mellitus",
+      "definition": "Prolonged hyperglycemia due to insulin deficiency or resistance, with loss of glucose in urine and formation of ketone bodies; treated with insulin therapy. Distinct from diabetes insipidus (ADH deficiency, no glycosuria)."
+    },
+    {
+      "term": "Leydig (interstitial) cells",
+      "definition": "Cells in the intertubular spaces of the testis that secrete androgens, mainly testosterone, under the stimulation of LH."
+    },
+    {
+      "term": "Corpus luteum",
+      "definition": "The yellow body formed from the ruptured ovarian follicle after ovulation; it secretes mainly progesterone and is maintained by LH."
+    },
+    {
+      "term": "Atrial natriuretic factor (ANF)",
+      "definition": "Peptide hormone of the atrial wall released when blood pressure rises; it dilates blood vessels and lowers blood pressure."
+    },
+    {
+      "term": "Erythropoietin",
+      "definition": "Peptide hormone of the juxtaglomerular cells of the kidney that stimulates erythropoiesis (RBC formation) in the bone marrow."
+    },
+    {
+      "term": "Second messenger",
+      "definition": "An intracellular molecule (cyclic AMP, IP<sub>3</sub> or Ca<sup>2+</sup>) generated when a protein hormone binds its membrane receptor; it activates enzyme cascades that produce the cell's response."
+    },
+    {
+      "term": "Intracellular (nuclear) receptor",
+      "definition": "A receptor inside the target cell, mostly in the nucleus, used by lipid-soluble steroid hormones and iodothyronines; the hormone-receptor complex interacts with the genome and regulates gene expression."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Definition of a hormone (NCERT)",
+      "expr": "Non-nutrient chemicals which act as intercellular messengers and are produced in trace amounts",
+      "note": "Endocrine glands are ductless; secretions go directly into blood. Exocrine glands have ducts."
+    },
+    {
+      "name": "Hypothalamus",
+      "expr": "Neurosecretory cells (nuclei) → releasing hormones (GnRH stimulates LH/FSH release) and inhibiting hormones (somatostatin inhibits GH). Reach anterior pituitary by portal circulation; posterior pituitary by neural (axonal) connection",
+      "note": "Also synthesises oxytocin and vasopressin, which are stored in the neurohypophysis."
+    },
+    {
+      "name": "Pituitary: parts and hormones",
+      "expr": "Sella turcica. Adenohypophysis = pars distalis (GH, PRL, TSH, ACTH, LH, FSH) + pars intermedia (MSH). Neurohypophysis / pars nervosa = oxytocin, vasopressin (ADH)",
+      "note": "Disorders: GH excess in childhood gigantism, GH deficiency dwarfism, GH excess in adults acromegaly; ADH deficiency diabetes insipidus."
+    },
+    {
+      "name": "Targets of the pituitary trophic hormones",
+      "expr": "TSH → thyroid; ACTH → adrenal cortex (glucocorticoids); LH, FSH → gonads; PRL → mammary glands; MSH → melanocytes; GH → whole body; oxytocin → uterus, mammary gland; ADH → distal tubules of kidney",
+      "note": "Exercise 4 fill-in-the-blanks."
+    },
+    {
+      "name": "Pineal gland",
+      "expr": "Dorsal side of forebrain; melatonin; 24-hour (diurnal) rhythm: sleep-wake cycle and body temperature; also metabolism, pigmentation, menstrual cycle, defence capability",
+      "note": "Jet lag = melatonin rhythm out of phase with the new light-dark cycle."
+    },
+    {
+      "name": "Thyroid",
+      "expr": "Two lobes + isthmus; follicles (follicular cells) make T<sub>4</sub> (thyroxine) and T<sub>3</sub>; iodine essential. TCT (calcitonin, protein) lowers blood Ca<sup>2+</sup>. Functions: BMR, RBC formation, metabolism of carbohydrate/protein/fat, water and electrolyte balance",
+      "note": "Hypo: goitre (iodine deficiency), cretinism (child), myxoedema (adult), irregular menses. Hyper: nodules/cancer; exophthalmic goitre = Graves' disease."
+    },
+    {
+      "name": "Parathyroid",
+      "expr": "Four glands on the back of the thyroid; PTH (peptide) regulated by blood Ca<sup>2+</sup>; raises Ca<sup>2+</sup> by bone resorption, renal tubular reabsorption and intestinal absorption",
+      "note": "Hypercalcemic hormone; antagonist of calcitonin; together maintain calcium balance."
+    },
+    {
+      "name": "Thymus",
+      "expr": "Lobular; dorsal side of heart and aorta; thymosins (peptide) → differentiation of T-lymphocytes (cell-mediated immunity) + antibody production (humoral immunity)",
+      "note": "Degenerates in old age → low thymosin → weak immunity."
+    },
+    {
+      "name": "Adrenal gland",
+      "expr": "Medulla: adrenaline + noradrenaline (catecholamines, emergency / fight-or-flight): alertness, pupil dilation, piloerection, sweating, heart rate and force, respiration, glycogenolysis, lipolysis, proteolysis. Cortex (outer → inner): zona glomerulosa, zona fasciculata, zona reticularis; corticoids = glucocorticoids (cortisol: gluconeogenesis, anti-inflammatory, immunosuppressive, RBC production) + mineralocorticoids (aldosterone: Na<sup>+</sup> and water reabsorption, K<sup>+</sup> and phosphate excretion) + small androgens (axial, pubic, facial hair)",
+      "note": "Located at the anterior (superior) part of each kidney."
+    },
+    {
+      "name": "Pancreas",
+      "expr": "Composite gland; islets of Langerhans 1 to 2 million, 1 to 2 per cent of tissue; α-cells glucagon (glycogenolysis + gluconeogenesis, hyperglycemic); β-cells insulin (glucose uptake by hepatocytes and adipocytes + glycogenesis, hypoglycemic)",
+      "note": "Diabetes mellitus: prolonged hyperglycemia, glucose in urine, ketone bodies; insulin therapy."
+    },
+    {
+      "name": "Gonads",
+      "expr": "Testis: Leydig (interstitial) cells → androgens (testosterone): accessory sex organs, secondary sexual characters, spermatogenesis, anabolic. Ovary: growing follicles → estrogen (secondary sex organs and characters, follicle development, mammary glands); corpus luteum → progesterone (pregnancy, alveoli and milk secretion)",
+      "note": "LH: androgen secretion in males; ovulation + corpus luteum in females. FSH: spermatogenesis with androgens; follicle growth."
+    },
+    {
+      "name": "Hormones of non-endocrine organs",
+      "expr": "Atrial wall → ANF (lowers BP by vasodilation). Kidney juxtaglomerular cells → erythropoietin (erythropoiesis). GI tract → gastrin (HCl + pepsinogen), secretin (water + HCO<sub>3</sub><sup>−</sup> from pancreas), CCK (pancreatic enzymes + bile), GIP (inhibits gastric secretion and motility)",
+      "note": "All peptides. Non-endocrine tissues also make growth factors."
+    },
+    {
+      "name": "Chemical classes of hormones",
+      "expr": "(i) Peptide/protein: insulin, glucagon, pituitary and hypothalamic hormones; (ii) steroids: cortisol, testosterone, estradiol, progesterone; (iii) iodothyronines: T<sub>3</sub>, T<sub>4</sub>; (iv) amino-acid derivatives: epinephrine",
+      "note": "Classes (i) and (iv) use membrane receptors; (ii) and (iii) use intracellular receptors."
+    },
+    {
+      "name": "Mechanism of hormone action",
+      "expr": "Protein hormone → membrane-bound receptor → second messenger (cyclic AMP, IP<sub>3</sub>, Ca<sup>2+</sup>) → enzyme activation → regulation of metabolism. Steroid / iodothyronine → enters cell → intracellular (nuclear) receptor → hormone-receptor complex → genome → gene expression → physiological and developmental effects",
+      "note": "Receptors are specific to one hormone; that is why hormones act only on target cells."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Location of endocrine glands in the human body (NCERT Fig. 19.1)",
+      "how_to_draw": "Draw a simple outline of the human body, front view. In the head draw the brain and mark the pineal gland as a small dot on the dorsal upper part of the brain stem, and the hypothalamus with the pituitary hanging below it at the base of the brain. In the neck draw the butterfly-shaped thyroid across the trachea and mark the parathyroids as four dots on its back. Behind the sternum, above the heart, draw the lobular thymus. Below the diaphragm draw the two kidneys with an adrenal gland capping the top of each, and the pancreas lying horizontally below the stomach. In the pelvis draw the ovaries (female) or, below the trunk, the testes in the scrotum (male). Label all nine: pineal, hypothalamus, pituitary, thyroid, parathyroid, thymus, adrenal, pancreas, testis/ovary. Examiners award the mark per correct label and position; a female figure should show ovaries and a male one testes, never both."
+    },
+    {
+      "title": "Hypothalamus-pituitary relationship (NCERT Fig. 19.2)",
+      "how_to_draw": "Draw the hypothalamus as a rounded region at the top with two or three neurosecretory cells drawn as neurons with cell bodies in the hypothalamus. Show a stalk leading down to the pituitary, drawn as two lobes side by side: the anterior pituitary (adenohypophysis, pars distalis) on the left and the posterior pituitary (neurohypophysis, pars nervosa) on the right. From the first group of neurosecretory cells draw short axons ending on a capillary network in the stalk (median eminence); from this capillary bed draw the portal vein running down into a second capillary network in the anterior pituitary, and label it hypophysial portal vessel. From the second group of neurosecretory cells draw long axons passing straight down through the stalk into the posterior pituitary, ending near capillaries; label them and write oxytocin and vasopressin. Label: hypothalamus, neurosecretory cells, portal circulation, anterior pituitary, posterior pituitary, releasing/inhibiting hormones entering the portal blood, and the six anterior hormones leaving. The diagram must make the two routes visible: blood to the anterior lobe, axons to the posterior lobe."
+    },
+    {
+      "title": "Thyroid and parathyroid glands with the isthmus (NCERT Fig. 19.3)",
+      "how_to_draw": "Draw the trachea as a vertical tube with cartilage rings, with the larynx at the top. Draw the two lobes of the thyroid as elongated ovals on either side of the upper trachea, joined across the front by a narrow bridge below the larynx; label this bridge the isthmus. For the back view draw the two lobes again and place four small ovals, two on each lobe (one upper, one lower), and label them parathyroid glands. Label: larynx, trachea, thyroid lobes (right and left), isthmus, parathyroid glands. If asked, add a small inset circle of thyroid histology showing follicles as rings of follicular cells around a colloid-filled cavity, with stromal tissue between, and label follicle, follicular cell and colloid."
+    },
+    {
+      "title": "Section of the adrenal gland (NCERT Fig. 19.4)",
+      "how_to_draw": "Draw a kidney and cap its upper pole with a triangular adrenal gland. Beside it draw an enlarged vertical section of the adrenal as a broad band: the outer thick cortex and the inner medulla. Divide the cortex into three layers with horizontal lines and label them from the outside in: zona glomerulosa (outer, cells in clusters), zona fasciculata (middle, widest, cells in columns), zona reticularis (inner, cells in a net). Label the medulla at the centre and show a capsule on the outside. Write the hormones beside each region: glomerulosa - mineralocorticoids (aldosterone); fasciculata - glucocorticoids (cortisol); reticularis - androgens; medulla - adrenaline and noradrenaline. Eight labels: capsule, cortex, medulla, the three zonae, kidney, adrenal gland."
+    },
+    {
+      "title": "Mechanism of action of a protein hormone (NCERT Fig. 19.5a)",
+      "how_to_draw": "Draw a rectangle for the target cell with a thick boundary for the plasma membrane and an oval nucleus inside. Outside the membrane draw the hormone as a small shape approaching a receptor drawn as a matching notch embedded in the membrane; label hormone (first messenger) and membrane-bound receptor. Draw an arrow from the receptor into the cytoplasm to a labelled box 'second messenger (cyclic AMP, IP<sub>3</sub>, Ca<sup>2+</sup>)'. From the second messenger draw an arrow to 'biochemical responses (enzyme activation, cascade)' and then to 'physiological responses'. The hormone must stay outside the cell; drawing it inside is the error that loses the mark. Labels: hormone, receptor, plasma membrane, second messenger, enzyme activation, physiological response, nucleus."
+    },
+    {
+      "title": "Mechanism of action of a steroid hormone (NCERT Fig. 19.5b)",
+      "how_to_draw": "Draw the same target cell. This time draw the hormone passing through the plasma membrane into the cytoplasm (arrow crossing the membrane) and binding to an intracellular receptor drawn as a shape in the cytoplasm or inside the nucleus; label the hormone-receptor complex. Draw the complex moving into the nucleus and touching a wavy line labelled DNA or genome. From there draw an arrow labelled gene expression to mRNA and then to protein synthesis in the cytoplasm, ending in a box 'physiological and developmental effects'. Labels: steroid hormone, plasma membrane, intracellular (nuclear) receptor, hormone-receptor complex, genome/DNA, gene expression, protein synthesis, physiological and developmental effects. Draw 19.5(a) and 19.5(b) side by side when asked to compare."
+    },
+    {
+      "title": "Feedback regulation of the thyroid (TRH-TSH-thyroxine axis)",
+      "how_to_draw": "Draw three boxes vertically: hypothalamus at the top, anterior pituitary in the middle, thyroid gland at the bottom, and a fourth box to the side labelled target cells (BMR). Draw a downward arrow from hypothalamus to pituitary labelled TRH, from pituitary to thyroid labelled TSH, and from thyroid to target cells labelled T<sub>3</sub> and T<sub>4</sub>. Then draw two curved arrows from the thyroid hormone back up to the pituitary and to the hypothalamus with a minus sign, labelled negative feedback. Add a note that low iodine keeps T<sub>3</sub>/T<sub>4</sub> low, feedback fails, TSH rises and the gland enlarges into a goitre. The same skeleton, with CRH, ACTH and cortisol, gives the adrenal axis, and with GnRH, LH/FSH and sex steroids gives the gonadal axis."
+    },
+    {
+      "title": "Regulation of blood glucose by insulin and glucagon",
+      "how_to_draw": "Draw a horizontal line labelled normal blood glucose. Above it write 'blood glucose rises (after a meal)' with an arrow to a box 'β-cells of islets of Langerhans → insulin'. From insulin draw arrows to 'glucose uptake by hepatocytes and adipocytes' and 'glycogenesis (glucose → glycogen)', and a final arrow back down to the line labelled blood glucose falls. Below the line write 'blood glucose falls (between meals)' with an arrow to 'α-cells → glucagon', then arrows to 'glycogenolysis (glycogen → glucose) in liver' and 'gluconeogenesis', and an arrow back up labelled blood glucose rises. Mark insulin hypoglycemic and glucagon hyperglycemic, and add a side note: insulin deficiency → prolonged hyperglycemia → diabetes mellitus (glycosuria, ketone bodies). The same two-sided layout with PTH (raises Ca<sup>2+</sup>: bone resorption, renal reabsorption, intestinal absorption) and calcitonin (lowers Ca<sup>2+</sup>) gives the calcium homeostasis chart."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1",
+      "q": "Define the following: (a) Exocrine gland (b) Endocrine gland (c) Hormone",
+      "a": "<p><b>(a) Exocrine gland:</b> A gland that has a duct and releases its secretion through the duct onto a surface or into a cavity, e.g. salivary glands, sweat glands, gastric glands, the exocrine part of the pancreas.</p><p><b>(b) Endocrine gland:</b> A ductless gland whose secretions, the hormones, are released directly into the blood and carried to distant target organs, e.g. thyroid, pituitary, adrenal.</p><p><b>(c) Hormone:</b> Non-nutrient chemicals which act as intercellular messengers and are produced in trace amounts. They are secreted into the blood and act on specific target cells that possess receptors for them, e.g. insulin, thyroxine.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2",
+      "q": "Diagrammatically indicate the location of the various endocrine glands in our body.",
+      "a": "<p>Draw the outline of the human body and mark: <b>pineal gland</b> on the dorsal side of the forebrain; <b>hypothalamus</b> at the base of the brain (diencephalon) with the <b>pituitary gland</b> below it in the sella turcica; <b>thyroid gland</b> in the neck on either side of the trachea with the four <b>parathyroid glands</b> on its back; <b>thymus</b> behind the sternum on the dorsal side of the heart and aorta; one <b>adrenal gland</b> on the anterior (upper) part of each kidney; the <b>pancreas</b> below the stomach; <b>testes</b> in the scrotum (male) or <b>ovaries</b> in the pelvic cavity (female). Nine labels in all; use NCERT Fig. 19.1 as the model.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3",
+      "q": "List the hormones secreted by the following: (a) Hypothalamus (b) Pituitary (c) Thyroid (d) Parathyroid (e) Adrenal (f) Pancreas (g) Testis (h) Ovary (i) Thymus (j) Atrium (k) Kidney (l) G-I Tract",
+      "a": "<p><b>(a) Hypothalamus:</b> releasing hormones (e.g. GnRH, TRH, CRH, GHRH) and inhibiting hormones (e.g. somatostatin); also synthesises oxytocin and vasopressin.</p><p><b>(b) Pituitary:</b> pars distalis: GH, prolactin, TSH, ACTH, LH, FSH; pars intermedia: MSH; neurohypophysis releases oxytocin and vasopressin (ADH).</p><p><b>(c) Thyroid:</b> thyroxine (T<sub>4</sub>), triiodothyronine (T<sub>3</sub>) and thyrocalcitonin (calcitonin).</p><p><b>(d) Parathyroid:</b> parathyroid hormone (PTH, parathormone).</p><p><b>(e) Adrenal:</b> medulla: adrenaline (epinephrine) and noradrenaline (norepinephrine); cortex: glucocorticoids (cortisol), mineralocorticoids (aldosterone) and small amounts of androgens.</p><p><b>(f) Pancreas:</b> glucagon (α-cells) and insulin (β-cells).</p><p><b>(g) Testis:</b> androgens, mainly testosterone.</p><p><b>(h) Ovary:</b> estrogen (growing follicles) and progesterone (corpus luteum).</p><p><b>(i) Thymus:</b> thymosins.</p><p><b>(j) Atrium:</b> atrial natriuretic factor (ANF).</p><p><b>(k) Kidney:</b> erythropoietin.</p><p><b>(l) G-I tract:</b> gastrin, secretin, cholecystokinin (CCK), gastric inhibitory peptide (GIP).</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "4",
+      "q": "Fill in the blanks: Hormones — Target gland. (a) Hypothalamic hormones → ______ (b) Thyrotrophin (TSH) → ______ (c) Corticotrophin (ACTH) → ______ (d) Gonadotrophins (LH, FSH) → ______ (e) Melanotrophin (MSH) → ______",
+      "a": "<p>(a) Hypothalamic hormones → <b>pituitary gland</b> (anterior pituitary). (b) TSH → <b>thyroid gland</b>. (c) ACTH → <b>adrenal cortex</b>. (d) LH, FSH → <b>gonads</b> (testis in males, ovary in females). (e) MSH → <b>melanocytes</b> of the skin.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "5",
+      "q": "Write short notes on the functions of the following hormones: (a) Parathyroid hormone (PTH) (b) Thyroid hormones (c) Thymosins (d) Androgens (e) Estrogens (f) Insulin and Glucagon",
+      "a": "<p><b>(a) PTH:</b> A peptide hormone of the four parathyroid glands, secreted when blood Ca<sup>2+</sup> falls. It raises blood calcium by stimulating bone resorption (demineralisation), reabsorption of Ca<sup>2+</sup> by the renal tubules and absorption of Ca<sup>2+</sup> from digested food. It is a hypercalcemic hormone and, with calcitonin, maintains calcium balance.</p><p><b>(b) Thyroid hormones (T<sub>3</sub>, T<sub>4</sub>):</b> Regulate the basal metabolic rate; support RBC formation; control the metabolism of carbohydrates, proteins and fats; maintain water and electrolyte balance; needed for normal growth and development of the brain in the foetus and infant. Calcitonin from the thyroid lowers blood calcium.</p><p><b>(c) Thymosins:</b> Peptide hormones of the thymus that bring about differentiation of T-lymphocytes for cell-mediated immunity and promote antibody production for humoral immunity. Their decline with age weakens immunity.</p><p><b>(d) Androgens (testosterone):</b> Regulate the development, maturation and functions of the male accessory sex organs (epididymis, vas deferens, seminal vesicles, prostate, urethra); produce male secondary sexual characters (muscular growth, facial and axillary hair, aggressiveness, low-pitched voice); stimulate spermatogenesis; influence male sexual behaviour; have anabolic effects on protein and carbohydrate metabolism.</p><p><b>(e) Estrogens:</b> Stimulate growth and activity of the female secondary sex organs, the development of the ovarian follicles, the appearance of female secondary sexual characters (high-pitched voice, breast development) and the development of the mammary glands; regulate female sexual behaviour.</p><p><b>(f) Insulin and glucagon:</b> Both from the islets of Langerhans. Insulin (β-cells) lowers blood glucose by increasing glucose uptake and utilisation by hepatocytes and adipocytes and by stimulating glycogenesis (hypoglycemic). Glucagon (α-cells) raises blood glucose by stimulating glycogenolysis and gluconeogenesis in the liver and reducing cellular glucose uptake (hyperglycemic). Together they maintain glucose homeostasis.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "6",
+      "q": "Give example(s) of: (a) Hyperglycemic hormone and hypoglycemic hormone (b) Hypercalcemic hormone (c) Gonadotrophic hormones (d) Progestational hormone (e) Blood pressure lowering hormone (f) Androgens and estrogens",
+      "a": "<p>(a) Hyperglycemic hormone: <b>glucagon</b> (also adrenaline and cortisol); hypoglycemic hormone: <b>insulin</b>. (b) Hypercalcemic hormone: <b>parathyroid hormone (PTH)</b>. (c) Gonadotrophic hormones: <b>LH and FSH</b>. (d) Progestational hormone: <b>progesterone</b>. (e) Blood pressure lowering hormone: <b>atrial natriuretic factor (ANF)</b>. (f) Androgen: <b>testosterone</b>; estrogen: <b>estradiol</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7",
+      "q": "Which hormonal deficiency is responsible for the following: (a) Diabetes mellitus (b) Goitre (c) Cretinism",
+      "a": "<p>(a) Diabetes mellitus: deficiency of <b>insulin</b> (from the β-cells of the islets of Langerhans), or failure of cells to respond to it. (b) Goitre: deficiency of <b>thyroxine</b> (thyroid hormones) usually because of iodine deficiency in the diet; the low thyroxine raises TSH, which enlarges the gland. (c) Cretinism: deficiency of <b>thyroid hormones</b> (hypothyroidism) during pregnancy and infancy.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8",
+      "q": "Briefly mention the mechanism of action of FSH.",
+      "a": "<p>FSH is a protein (glycoprotein) hormone, so it acts through a membrane-bound receptor. (i) FSH binds to its specific receptor on the plasma membrane of the target cells (Sertoli cells of the seminiferous tubules in the testis; follicular cells of the ovary). (ii) The hormone-receptor complex activates an enzyme in the membrane that generates a second messenger, cyclic AMP, inside the cell. (iii) The second messenger activates a cascade of enzymes that alter the metabolism of the cell. (iv) The result is the physiological response: in males, FSH with androgens stimulates spermatogenesis; in females it stimulates the growth and development of the ovarian follicles and their secretion of estrogen. FSH does not enter the cell and does not act on the genome directly.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9",
+      "q": "Match the following: Column I: (a) T<sub>4</sub> (b) PTH (c) GnRH (d) LH. Column II: (i) Hypothalamus (ii) Thyroid (iii) Pituitary (iv) Parathyroid",
+      "a": "<p>(a) T<sub>4</sub> → (ii) Thyroid. (b) PTH → (iv) Parathyroid. (c) GnRH → (i) Hypothalamus. (d) LH → (iii) Pituitary.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exemplar",
+      "number": "SA 3",
+      "q": "A pregnant woman from a hilly region shows a swelling in the front of the neck. Name the disorder, give its cause, and state how it can affect her baby.",
+      "a": "<p><b>Disorder:</b> goitre, an enlargement of the thyroid gland. <b>Cause:</b> deficiency of iodine in the diet, common in hilly regions where the soil and water are poor in iodine. Iodine is essential for the synthesis of thyroxine; low thyroxine removes the feedback inhibition on the pituitary, TSH rises and over-stimulates the thyroid, which enlarges (hypothyroidism with goitre). <b>Effect on the baby:</b> hypothyroidism during pregnancy causes defective development and maturation of the growing foetus, leading to cretinism: stunted growth, mental retardation, low IQ, abnormal skin and deaf-mutism. Prevention is iodised salt.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "LA 1",
+      "q": "A milkman is very upset one morning as his cow refuses to give any milk. The milkman's wife gets the calf from the shed. On fondling by the calf, the cow gives sufficient milk. Describe the role of the endocrine gland and the pathway associated with this response.",
+      "a": "<p>The response is a <b>neuroendocrine reflex</b>. Suckling or fondling of the udder by the calf stimulates sensory nerve endings in the teat; the impulses travel to the <b>hypothalamus</b>. The neurosecretory cells of the hypothalamus synthesise <b>oxytocin</b>, which is transported along their axons and stored in the <b>posterior pituitary (neurohypophysis)</b>. The nerve impulses trigger the release of oxytocin from the posterior pituitary into the blood. Oxytocin reaches the mammary gland and causes contraction of the smooth (myoepithelial) cells around the alveoli and ducts, which ejects the stored milk. Pathway: udder stimulus by calf → sensory nerves → hypothalamus → posterior pituitary → oxytocin in blood → contraction of smooth muscle of mammary gland → milk let-down. The milkman's cow had milk in the gland but no oxytocin release until the calf provided the stimulus.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exemplar",
+      "number": "LA 2",
+      "q": "A sample of urine was diagnosed to contain high content of glucose and ketone bodies. Based on this observation, answer the following: (a) Which endocrine gland and hormone is related to this condition? (b) Name the cells on which this hormone acts. (c) What is the condition called and how can it be rectified?",
+      "a": "<p>(a) The <b>pancreas</b> (its endocrine part, the islets of Langerhans, specifically the β-cells) and the hormone <b>insulin</b>. (b) Insulin acts mainly on <b>hepatocytes (liver cells) and adipocytes (fat cells)</b>, increasing their uptake of glucose and stimulating glycogenesis. (c) The condition is <b>diabetes mellitus</b>. Insulin deficiency (or resistance) causes prolonged hyperglycemia; the glucose exceeds the renal threshold and is lost in urine, and cells that cannot use glucose break down fats, forming ketone bodies. It is rectified by <b>insulin therapy</b> (injection of insulin), along with diet control.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "LA 4",
+      "q": "Illustrate the differences between the mechanisms of action of a protein hormone and a steroid hormone.",
+      "a": "<p><b>Protein (peptide) hormone, e.g. insulin, glucagon, FSH:</b> (i) water-soluble, cannot cross the plasma membrane; (ii) binds to a <b>membrane-bound receptor</b> on the target cell surface; (iii) the hormone-receptor complex generates a <b>second messenger</b> inside the cell (cyclic AMP, IP<sub>3</sub> or Ca<sup>2+</sup>); (iv) the second messenger activates enzyme cascades that regulate cellular metabolism; (v) the response is rapid and does not involve new gene expression directly. Flow: hormone → membrane receptor → second messenger → enzyme activation → physiological response (Fig. 19.5a).</p><p><b>Steroid hormone, e.g. cortisol, testosterone, estradiol (and iodothyronines):</b> (i) lipid-soluble, passes through the plasma membrane; (ii) binds to an <b>intracellular (nuclear) receptor</b>; (iii) the hormone-receptor complex enters the nucleus and interacts with the <b>genome</b>; (iv) regulates <b>gene expression</b> or chromosome function, leading to synthesis of new proteins; (v) the cumulative biochemical actions produce physiological and developmental effects, slower but long lasting. Flow: hormone → intracellular receptor → hormone-receptor complex → genome → gene expression → physiological and developmental effects (Fig. 19.5b).</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exemplar",
+      "number": "LA 5",
+      "q": "Hypothalamus is a super master endocrine gland. Elaborate.",
+      "a": "<p>The pituitary is called the master gland because its trophic hormones (TSH, ACTH, LH, FSH, GH, prolactin) control the thyroid, adrenal cortex, gonads and other tissues. But the pituitary itself is controlled by the hypothalamus, which is why the hypothalamus is called the super master gland. (i) The hypothalamus contains groups of neurosecretory cells (nuclei) that produce <b>releasing hormones</b>, which stimulate the secretion of anterior pituitary hormones (e.g. GnRH → LH and FSH; TRH → TSH; CRH → ACTH; GHRH → GH), and <b>inhibiting hormones</b>, which inhibit them (e.g. somatostatin → inhibits GH; PIH → inhibits prolactin). (ii) These hormones travel down the axons, are released at the nerve endings and reach the anterior pituitary through the <b>hypophysial portal circulation</b>. (iii) The hypothalamus also synthesises <b>oxytocin and vasopressin</b>, which are transported axonally to and stored in the posterior pituitary, and it controls their release through direct neural connections. (iv) Thus every pituitary hormone, and through them every pituitary-dependent gland, is under hypothalamic control; and the hypothalamus in turn links the endocrine system to the nervous system, receiving neural inputs and feedback from circulating hormones. Hence it is the super master gland.</p>",
+      "marks": 5
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following hormones is not secreted by the anterior pituitary (pars distalis)?",
+      "options": [
+        "Growth hormone",
+        "Prolactin",
+        "Oxytocin",
+        "Follicle stimulating hormone"
+      ],
+      "answer": "c",
+      "solution": "Oxytocin is synthesised in the hypothalamus and released from the posterior pituitary (neurohypophysis). GH, prolactin, TSH, ACTH, LH and FSH are the six hormones of the pars distalis."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Leydig cells of the testis produce a group of hormones called",
+      "options": [
+        "Androgens",
+        "Estrogens",
+        "Gonadotrophins",
+        "Aldosterone"
+      ],
+      "answer": "a",
+      "solution": "The interstitial (Leydig) cells in the intertubular spaces of the testis secrete androgens, mainly testosterone. Gonadotrophins come from the pituitary, estrogens from the ovarian follicles."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is the correct matching of hormone and effect?",
+      "options": [
+        "Glucagon – decreases blood glucose",
+        "Atrial natriuretic factor – increases blood pressure",
+        "Parathyroid hormone – increases blood calcium",
+        "Insulin – stimulates glycogenolysis"
+      ],
+      "answer": "c",
+      "solution": "PTH is the hypercalcemic hormone. Glucagon raises blood glucose, ANF lowers blood pressure, and insulin stimulates glycogenesis (not glycogenolysis)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The second messenger in the action of a peptide hormone such as glucagon is",
+      "options": [
+        "Cyclic AMP",
+        "Adenylate cyclase",
+        "The hormone-receptor complex on the nucleus",
+        "Thyroxine"
+      ],
+      "answer": "a",
+      "solution": "Peptide hormones bind membrane receptors and generate second messengers such as cyclic AMP, IP<sub>3</sub> or Ca<sup>2+</sup>. Adenylate cyclase is the enzyme that makes cAMP, not the messenger."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which one of the following is a steroid hormone that regulates water and electrolyte balance?",
+      "options": [
+        "Insulin",
+        "Vasopressin",
+        "Melatonin",
+        "Aldosterone"
+      ],
+      "answer": "d",
+      "solution": "Aldosterone, the mineralocorticoid of the adrenal cortex, is a steroid that promotes Na<sup>+</sup> and water reabsorption and K<sup>+</sup> excretion. Vasopressin also regulates water but is a peptide."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The outermost layer of the adrenal cortex is the",
+      "options": [
+        "Zona reticularis",
+        "Zona fasciculata",
+        "Zona glomerulosa",
+        "Adrenal medulla"
+      ],
+      "answer": "c",
+      "solution": "From outside inward the cortex has the zona glomerulosa, zona fasciculata and zona reticularis; the medulla is the central tissue, not part of the cortex."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following conditions is NOT a result of thyroid hormone deficiency?",
+      "options": [
+        "Cretinism",
+        "Goitre",
+        "Myxoedema",
+        "Exophthalmic goitre"
+      ],
+      "answer": "d",
+      "solution": "Exophthalmic goitre (Graves' disease) is a form of hyperthyroidism, an excess of thyroid hormones. Cretinism, iodine-deficiency goitre and myxoedema are due to hypothyroidism."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Erythropoietin, the hormone that stimulates RBC formation, is secreted by",
+      "options": [
+        "The atrial wall of the heart",
+        "The juxtaglomerular cells of the kidney",
+        "The α-cells of the pancreas",
+        "The bone marrow"
+      ],
+      "answer": "b",
+      "solution": "The juxtaglomerular cells of the kidney secrete erythropoietin, which acts on the bone marrow to stimulate erythropoiesis. The atrial wall secretes ANF."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The posterior pituitary is not a true endocrine gland. Reason (R): Oxytocin and vasopressin are synthesised in the hypothalamus and only stored in and released from the posterior pituitary.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The neurohypophysis does not synthesise any hormone; the two hormones it releases are made by hypothalamic neurosecretory cells and transported axonally to it. R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Adrenaline is called the emergency hormone. Reason (R): Adrenaline is a steroid hormone secreted by the adrenal cortex.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "Adrenaline is indeed the emergency (fight or flight) hormone, but it is an amino-acid derivative (catecholamine) secreted by the adrenal medulla, not a steroid of the cortex. A is true, R is false."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Steroid hormones act by regulating gene expression in the target cell. Reason (R): Steroid hormones are lipid-soluble, cross the plasma membrane and bind to intracellular receptors.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Because they enter the cell and form a hormone-receptor complex that interacts with the genome, steroids regulate gene expression. R is the reason for A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Diabetes insipidus is treated by insulin injection. Reason (R): Diabetes insipidus is caused by the deficiency of vasopressin (ADH).",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "Diabetes insipidus results from ADH deficiency, so R is true; it has nothing to do with insulin, which treats diabetes mellitus, so A is false."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is the pancreas called a composite (heterocrine) gland? Name the two types of cells of its endocrine part and the hormone each secretes.",
+      "answer": "<p>The pancreas acts as both an exocrine gland (the acini secrete pancreatic juice into the duodenum through the pancreatic duct) and an endocrine gland (the islets of Langerhans secrete hormones into the blood), so it is a composite or heterocrine gland. In the islets, the α-cells secrete glucagon and the β-cells secrete insulin.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the hormone secreted by the pineal gland and state two functions of it.",
+      "answer": "<p>The pineal gland secretes melatonin. Functions: (i) it regulates the 24-hour (diurnal) rhythm of the body, maintaining the normal rhythms of the sleep-wake cycle and of body temperature; (ii) it also influences metabolism, pigmentation, the menstrual cycle and the body's defence capability.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "How do hypothalamic hormones reach the anterior pituitary? How does the hypothalamus control the posterior pituitary?",
+      "answer": "<p>Hypothalamic releasing and inhibiting hormones are released from the axon endings of the neurosecretory cells and are carried to the anterior pituitary (pars distalis) through the hypophysial portal circulation, a system of blood vessels connecting the two. The posterior pituitary (neurohypophysis) is under the direct neural regulation of the hypothalamus: the axons of hypothalamic neurons run into it and release oxytocin and vasopressin there.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Distinguish between diabetes mellitus and diabetes insipidus.",
+      "answer": "<p>Diabetes mellitus is caused by deficiency of insulin (or insulin resistance); blood glucose stays high, glucose appears in urine and ketone bodies form; treated by insulin therapy. Diabetes insipidus is caused by deficiency of vasopressin (ADH); water reabsorption in the distal tubules falls, so a large volume of dilute urine is passed (diuresis) with intense thirst, but urine contains no glucose and blood sugar is normal.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the four hormones of the gastrointestinal tract and give the function of any two.",
+      "answer": "<p>Gastrin, secretin, cholecystokinin (CCK) and gastric inhibitory peptide (GIP). Gastrin acts on the gastric glands and stimulates secretion of HCl and pepsinogen. Secretin acts on the exocrine pancreas and stimulates secretion of water and bicarbonate ions. (CCK stimulates pancreatic enzymes and bile release; GIP inhibits gastric secretion and motility.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Describe the role of parathyroid hormone and calcitonin in maintaining the blood calcium level.",
+      "answer": "<p>Blood calcium is held within a narrow range by two antagonistic hormones. (i) When blood Ca<sup>2+</sup> falls, the four parathyroid glands secrete <b>parathyroid hormone (PTH)</b>, a peptide. PTH raises blood calcium by three routes: it stimulates bone resorption (dissolution, demineralisation) releasing Ca<sup>2+</sup> into blood; it increases reabsorption of Ca<sup>2+</sup> by the renal tubules; and it increases absorption of Ca<sup>2+</sup> from digested food in the intestine. PTH is therefore a hypercalcemic hormone. (ii) When blood Ca<sup>2+</sup> rises, the thyroid gland secretes <b>thyrocalcitonin (calcitonin)</b>, a protein hormone, which suppresses the release of calcium from bone and lowers blood calcium. (iii) The two act in opposite directions, and the secretion of each is regulated directly by the circulating level of Ca<sup>2+</sup>, so together they maintain calcium homeostasis needed for muscle contraction, nerve conduction and blood clotting.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain how insulin and glucagon together maintain the blood glucose level. What happens when insulin is deficient?",
+      "answer": "<p>After a meal blood glucose rises; the β-cells of the islets of Langerhans secrete <b>insulin</b>, a peptide hormone, which acts on hepatocytes and adipocytes, increasing their uptake and utilisation of glucose and stimulating glycogenesis (glucose → glycogen). Blood glucose falls, so insulin is hypoglycemic. Between meals blood glucose falls; the α-cells secrete <b>glucagon</b>, which acts on the liver, stimulating glycogenolysis (glycogen → glucose) and gluconeogenesis (glucose from non-carbohydrate sources) and reducing cellular glucose uptake. Blood glucose rises, so glucagon is hyperglycemic. The two antagonistic hormones thus keep blood glucose steady. When insulin is deficient, prolonged hyperglycemia results, glucose is lost in urine and harmful ketone bodies are formed; this is diabetes mellitus, treated by insulin therapy.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A student is about to appear for an interview and notices sweating, a racing heart and rapid breathing. Name the hormones responsible, the gland that secretes them, and list four other effects they produce.",
+      "answer": "<p>The hormones are adrenaline (epinephrine) and noradrenaline (norepinephrine), the catecholamines secreted by the adrenal medulla in response to stress; they are called emergency hormones or hormones of fight or flight. Besides sweating, increased heart beat and increased rate of respiration, they (i) increase alertness, (ii) dilate the pupils, (iii) cause piloerection, (iv) increase the strength of heart contraction, and (v) stimulate glycogenolysis, lipolysis and proteolysis, raising the blood glucose available for a quick response.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State the functions of the two groups of corticoids secreted by the adrenal cortex.",
+      "answer": "<p>The adrenal cortex secretes steroid hormones called corticoids. <b>Glucocorticoids</b> (mainly cortisol) are involved in carbohydrate metabolism: they stimulate gluconeogenesis, lipolysis and proteolysis and inhibit cellular uptake and utilisation of amino acids; cortisol also maintains cardiovascular and kidney functions, produces anti-inflammatory reactions, suppresses the immune response and stimulates RBC production. <b>Mineralocorticoids</b> (mainly aldosterone) regulate water and electrolyte balance: aldosterone acts on the renal tubules to stimulate reabsorption of Na<sup>+</sup> and water and excretion of K<sup>+</sup> and phosphate ions, thereby maintaining electrolytes, body fluid volume, osmotic pressure and blood pressure. The cortex also secretes small amounts of androgens that promote growth of axial, pubic and facial hair at puberty.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Differentiate between hypothyroidism and hyperthyroidism, naming one disorder of each.",
+      "answer": "<p><b>Hypothyroidism</b> is the under-secretion of thyroid hormones (T<sub>3</sub>, T<sub>4</sub>), most often from dietary iodine deficiency. Effects: goitre (enlarged thyroid), low BMR, and in a foetus or child cretinism (stunted growth, mental retardation, low IQ, abnormal skin, deaf-mutism); in adults myxoedema and, in women, irregular menstrual cycles. <b>Hyperthyroidism</b> is the over-secretion of thyroid hormones, due to thyroid cancer or nodules of the thyroid. Effects: raised BMR, weight loss, and exophthalmic goitre (Graves' disease) with enlarged thyroid and protruding eyeballs. Hypothyroidism is prevented by iodised salt; hyperthyroidism needs medical treatment of the gland.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the structure of the pituitary gland and the hormones secreted by each of its parts, with their functions. Explain the relationship of the pituitary with the hypothalamus.",
+      "answer": "<p><b>Structure.</b> The pituitary lies in the sella turcica, a bony cavity, attached to the hypothalamus by a stalk. It has an <b>adenohypophysis</b>, made of the pars distalis (anterior pituitary) and pars intermedia, and a <b>neurohypophysis</b> (pars nervosa, posterior pituitary).</p><p><b>Pars distalis</b> secretes six hormones: growth hormone (body growth; excess gives gigantism in children and acromegaly in adults, deficiency gives pituitary dwarfism); prolactin (growth of mammary glands and milk formation); TSH (synthesis and secretion of thyroid hormones); ACTH (secretion of glucocorticoids from the adrenal cortex); LH and FSH, the gonadotrophins (LH: androgen secretion in males, ovulation and corpus luteum maintenance in females; FSH: spermatogenesis with androgens in males, growth of ovarian follicles in females). <b>Pars intermedia</b> secretes MSH, which acts on melanocytes and regulates skin pigmentation.</p><p><b>Neurohypophysis</b> stores and releases oxytocin (contraction of uterine smooth muscle at child birth and milk ejection) and vasopressin/ADH (reabsorption of water and electrolytes by the distal tubules, reducing diuresis; deficiency causes diabetes insipidus). These two are synthesised in the hypothalamus and transported axonally.</p><p><b>Relationship with the hypothalamus.</b> Neurosecretory cells of the hypothalamus produce releasing hormones (e.g. GnRH) and inhibiting hormones (e.g. somatostatin) which reach the anterior pituitary by the hypophysial portal circulation and control its secretion. The posterior pituitary is controlled by direct neural connections. Hence the pituitary is the master gland and the hypothalamus the super master gland. Draw NCERT Fig. 19.2 showing the neurosecretory cells, the portal vessels to the anterior lobe and the axons to the posterior lobe.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "With a labelled diagram describe the structure of the adrenal gland and the hormones secreted by its two parts.",
+      "answer": "<p><b>Structure.</b> A pair of adrenal glands lies at the anterior (upper) part of each kidney. Each has a central <b>adrenal medulla</b> and an outer <b>adrenal cortex</b>. The cortex has three layers, from outside in: zona glomerulosa, zona fasciculata and zona reticularis. Draw NCERT Fig. 19.4 with the capsule, the three cortical zones and the medulla labelled.</p><p><b>Adrenal medulla</b> secretes adrenaline (epinephrine) and noradrenaline (norepinephrine), the catecholamines, rapidly in response to stress and emergency; hence they are emergency hormones or hormones of fight or flight. They increase alertness, dilate the pupils, cause piloerection and sweating, increase the heart beat and the strength of heart contraction, increase the rate of respiration, and stimulate glycogenolysis (raising blood glucose), lipolysis and proteolysis.</p><p><b>Adrenal cortex</b> secretes steroid hormones, the corticoids. Glucocorticoids (cortisol) regulate carbohydrate metabolism: gluconeogenesis, lipolysis, proteolysis, inhibition of amino-acid uptake; cortisol also maintains cardiovascular and kidney function, is anti-inflammatory, suppresses immunity and stimulates RBC production. Mineralocorticoids (aldosterone) act on the renal tubules to reabsorb Na<sup>+</sup> and water and excrete K<sup>+</sup> and phosphate, maintaining electrolytes, fluid volume, osmotic pressure and blood pressure. Small amounts of androgenic steroids promote growth of axial, pubic and facial hair at puberty. The cortex is controlled by ACTH of the pituitary; the medulla by sympathetic nerves.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain the mechanism of hormone action. Classify hormones on the basis of chemical nature and show, with diagrams, how a protein hormone and a steroid hormone act on their target cells.",
+      "answer": "<p>Hormones act by binding to specific protein <b>receptors</b> present only in target tissues. Receptors are either membrane-bound (on the plasma membrane) or intracellular (mostly in the nucleus, hence nuclear receptors). Each receptor is specific to one hormone. Binding forms a hormone-receptor complex, which triggers biochemical changes in the target tissue and so regulates its metabolism and physiological functions.</p><p><b>Chemical classes:</b> (i) peptide, polypeptide and protein hormones (insulin, glucagon, pituitary and hypothalamic hormones); (ii) steroids (cortisol, testosterone, estradiol, progesterone); (iii) iodothyronines (thyroid hormones); (iv) amino-acid derivatives (epinephrine).</p><p><b>Protein hormone (Fig. 19.5a):</b> being water-soluble it cannot enter the cell. It binds to a membrane-bound receptor; the complex generates a second messenger (cyclic AMP, IP<sub>3</sub> or Ca<sup>2+</sup>) inside the cell; the second messenger activates enzyme cascades that regulate cellular metabolism and produce the physiological response. Draw: hormone outside → receptor in membrane → second messenger → enzyme activation → response.</p><p><b>Steroid hormone (Fig. 19.5b):</b> being lipid-soluble it passes through the plasma membrane and binds to an intracellular receptor; the hormone-receptor complex enters the nucleus and interacts with the genome, regulating gene expression or chromosome function; the cumulative biochemical actions (synthesis of specific proteins) result in physiological and developmental effects. Draw: hormone crossing membrane → receptor in cytoplasm/nucleus → complex on DNA → gene expression → protein → effects. Iodothyronines act like steroids. The protein-hormone pathway is fast and short-lived; the steroid pathway is slower and long lasting.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. A 35-year-old woman from a hilly village complains of tiredness, weight gain, intolerance to cold and a visible swelling in the front of her neck. Blood tests show low thyroxine and a high level of TSH. Her family eats non-iodised rock salt. She is in the third month of pregnancy.<br>(i) Name the condition and state the cause of the neck swelling.<br>(ii) Why is TSH high when thyroxine is low?<br>(iii) Name the hormone of the thyroid that is NOT affected by iodine deficiency and state its function.<br>(iv) What risk does her condition pose to the baby? Name the disorder and two of its features.",
+      "answer": "<p>(i) Hypothyroidism with goitre; the swelling is the enlarged thyroid gland caused by deficiency of iodine in the diet, which is essential for thyroxine synthesis.<br>(ii) Thyroxine normally inhibits the release of TRH and TSH by negative feedback. When thyroxine is low the inhibition is lost, so the pituitary secretes more TSH; the excess TSH over-stimulates the thyroid, and the gland enlarges.<br>(iii) Thyrocalcitonin (calcitonin), a protein hormone that does not contain iodine; it lowers the blood calcium level.<br>(iv) Hypothyroidism during pregnancy causes defective development and maturation of the foetus, leading to cretinism: stunted growth, mental retardation, low IQ, abnormal skin, deaf-mutism (any two). Iodised salt or thyroxine supplementation prevents it.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. Two hormones from different glands act on the kidney. Hormone P is released when blood pressure rises and causes blood vessels to dilate. Hormone Q is released from the posterior pituitary when the body is dehydrated and makes the distal tubules reabsorb more water. A patient with a head injury damaging the hypothalamus begins to pass 8 to 10 litres of dilute urine a day and is constantly thirsty, though her blood sugar is normal.<br>(i) Identify hormones P and Q and the gland or tissue that secretes each.<br>(ii) Name the patient's condition and explain why the urine is dilute and copious.<br>(iii) Why did damage to the hypothalamus, and not to the posterior pituitary itself, produce this condition?<br>(iv) Name one other hormone that acts on the renal tubules and state its effect.",
+      "answer": "<p>(i) P is atrial natriuretic factor (ANF), secreted by the atrial wall of the heart. Q is vasopressin or anti-diuretic hormone (ADH), synthesised in the hypothalamus and released from the posterior pituitary (neurohypophysis).<br>(ii) Diabetes insipidus. Without ADH the distal tubules (and collecting ducts) do not reabsorb water, so most of the filtrate is lost as a large volume of dilute urine (diuresis); the water loss causes thirst. There is no glucose in the urine because insulin is normal.<br>(iii) ADH is not made by the posterior pituitary; it is synthesised by the neurosecretory cells of the hypothalamus and transported along their axons to be stored in the posterior pituitary. Damage to the hypothalamus stops its synthesis, so the store is not replenished.<br>(iv) Aldosterone (adrenal cortex) stimulates reabsorption of Na<sup>+</sup> and water and excretion of K<sup>+</sup> by the renal tubules; or parathyroid hormone increases Ca<sup>2+</sup> reabsorption by the renal tubules (either one).</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Hormones are best defined as",
+      "options": [
+        "Nutrient chemicals produced in large amounts by ducted glands",
+        "Non-nutrient chemicals acting as intercellular messengers and produced in trace amounts",
+        "Enzymes secreted into the blood",
+        "Neurotransmitters released at synapses"
+      ],
+      "answer_index": 1,
+      "explanation": "This is the NCERT definition; each phrase (non-nutrient, intercellular messenger, trace amounts) is a marking point."
+    },
+    {
+      "q": "Somatostatin secreted by the hypothalamus",
+      "options": [
+        "Stimulates release of growth hormone",
+        "Inhibits release of growth hormone",
+        "Stimulates release of gonadotrophins",
+        "Inhibits release of prolactin"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT gives somatostatin as the example of an inhibiting hormone: it inhibits the release of GH from the pituitary. GnRH is the example of a releasing hormone."
+    },
+    {
+      "q": "The pituitary gland is located in a bony cavity called the",
+      "options": [
+        "Foramen magnum",
+        "Sella turcica",
+        "Cranial fossa",
+        "Isthmus"
+      ],
+      "answer_index": 1,
+      "explanation": "The pituitary sits in the sella turcica of the sphenoid bone and is attached to the hypothalamus by a stalk."
+    },
+    {
+      "q": "Excess secretion of growth hormone in a middle-aged adult leads to",
+      "options": [
+        "Gigantism",
+        "Pituitary dwarfism",
+        "Acromegaly",
+        "Cretinism"
+      ],
+      "answer_index": 2,
+      "explanation": "After the growth plates close, excess GH cannot lengthen bones; it thickens them, especially in the face, producing acromegaly. Gigantism is GH excess in childhood."
+    },
+    {
+      "q": "Which pair of hormones is synthesised in the hypothalamus but released from the posterior pituitary?",
+      "options": [
+        "GH and prolactin",
+        "LH and FSH",
+        "Oxytocin and vasopressin",
+        "TSH and ACTH"
+      ],
+      "answer_index": 2,
+      "explanation": "The neurohypophysis stores and releases oxytocin and vasopressin, which are transported axonally from the hypothalamic neurosecretory cells."
+    },
+    {
+      "q": "Melanocyte stimulating hormone is secreted by the",
+      "options": [
+        "Pars distalis",
+        "Pars intermedia",
+        "Pars nervosa",
+        "Pineal gland"
+      ],
+      "answer_index": 1,
+      "explanation": "MSH comes from the pars intermedia of the adenohypophysis, which in humans is almost merged with the pars distalis. The pineal secretes melatonin, a different molecule."
+    },
+    {
+      "q": "Thyroid hormones are synthesised by the",
+      "options": [
+        "Parafollicular cells",
+        "Follicular cells",
+        "Stromal cells",
+        "Chief cells"
+      ],
+      "answer_index": 1,
+      "explanation": "The follicular cells of the thyroid follicles synthesise T<sub>3</sub> and T<sub>4</sub>; the parafollicular (C) cells make calcitonin; chief cells are in the parathyroid."
+    },
+    {
+      "q": "Which of the following is a protein hormone that lowers blood calcium?",
+      "options": [
+        "Parathyroid hormone",
+        "Thyroxine",
+        "Thyrocalcitonin",
+        "Aldosterone"
+      ],
+      "answer_index": 2,
+      "explanation": "Thyrocalcitonin (calcitonin) from the thyroid is a protein hormone that regulates blood calcium by lowering it; PTH raises it."
+    },
+    {
+      "q": "The number of parathyroid glands in a human and their position are",
+      "options": [
+        "Two, in front of the thyroid",
+        "Four, on the back of the thyroid",
+        "Four, in the isthmus",
+        "Two, behind the trachea"
+      ],
+      "answer_index": 1,
+      "explanation": "Four parathyroid glands lie on the back side of the thyroid, one pair in each lobe."
+    },
+    {
+      "q": "Thymosins are responsible for",
+      "options": [
+        "Differentiation of T-lymphocytes",
+        "Formation of red blood cells",
+        "Regulation of the sleep-wake cycle",
+        "Reabsorption of sodium"
+      ],
+      "answer_index": 0,
+      "explanation": "Thymosins from the thymus bring about differentiation of T-lymphocytes for cell-mediated immunity and also promote antibody production."
+    },
+    {
+      "q": "Adrenaline and noradrenaline are chemically",
+      "options": [
+        "Steroids",
+        "Peptides",
+        "Iodothyronines",
+        "Amino-acid derivatives"
+      ],
+      "answer_index": 3,
+      "explanation": "The catecholamines are derived from the amino acid tyrosine; NCERT places epinephrine in the amino-acid-derivative class."
+    },
+    {
+      "q": "Cortisol is secreted mainly by the",
+      "options": [
+        "Zona glomerulosa",
+        "Zona fasciculata",
+        "Zona reticularis",
+        "Adrenal medulla"
+      ],
+      "answer_index": 1,
+      "explanation": "The middle zona fasciculata secretes glucocorticoids such as cortisol; the outer glomerulosa secretes aldosterone and the inner reticularis small amounts of androgens."
+    },
+    {
+      "q": "Which hormone reduces the cellular uptake and utilisation of glucose?",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Calcitonin",
+        "Prolactin"
+      ],
+      "answer_index": 1,
+      "explanation": "Glucagon, besides stimulating glycogenolysis and gluconeogenesis, reduces cellular glucose uptake; insulin does the opposite."
+    },
+    {
+      "q": "The islets of Langerhans constitute about what fraction of the pancreatic tissue?",
+      "options": [
+        "10 to 20 per cent",
+        "1 to 2 per cent",
+        "50 per cent",
+        "0.01 per cent"
+      ],
+      "answer_index": 1,
+      "explanation": "About 1 to 2 million islets are present, yet they represent only 1 to 2 per cent of the pancreatic tissue."
+    },
+    {
+      "q": "In females, luteinising hormone",
+      "options": [
+        "Stimulates growth of the ovarian follicles only",
+        "Induces ovulation and maintains the corpus luteum",
+        "Stimulates milk formation",
+        "Stimulates androgen secretion"
+      ],
+      "answer_index": 1,
+      "explanation": "LH induces ovulation of the fully mature Graafian follicle and maintains the corpus luteum; FSH stimulates follicle growth; prolactin stimulates milk formation."
+    },
+    {
+      "q": "Estrogen is secreted mainly by the",
+      "options": [
+        "Corpus luteum",
+        "Growing ovarian follicles",
+        "Stromal tissue of the testis",
+        "Adrenal medulla"
+      ],
+      "answer_index": 1,
+      "explanation": "Growing ovarian follicles secrete estrogen; after ovulation the corpus luteum secretes mainly progesterone."
+    },
+    {
+      "q": "Which hormone stimulates the secretion of pancreatic enzymes and bile juice?",
+      "options": [
+        "Gastrin",
+        "Secretin",
+        "Cholecystokinin",
+        "Gastric inhibitory peptide"
+      ],
+      "answer_index": 2,
+      "explanation": "CCK acts on both the pancreas and the gall bladder. Secretin stimulates water and bicarbonate from the pancreas; gastrin stimulates HCl and pepsinogen."
+    },
+    {
+      "q": "Which of the following hormones binds to an intracellular receptor?",
+      "options": [
+        "Insulin",
+        "Glucagon",
+        "Thyroxine",
+        "Adrenaline"
+      ],
+      "answer_index": 2,
+      "explanation": "Iodothyronines and steroids are lipid-soluble and use intracellular (nuclear) receptors to regulate gene expression; insulin, glucagon and adrenaline use membrane receptors and second messengers."
+    },
+    {
+      "q": "Which of these organs does NOT show a cortex and medulla arrangement?",
+      "options": [
+        "Adrenal gland",
+        "Kidney",
+        "Ovary",
+        "Liver"
+      ],
+      "answer_index": 3,
+      "explanation": "The adrenal, kidney and ovary each have an outer cortex and an inner medulla; the liver is organised into lobules with no cortex-medulla division."
+    },
+    {
+      "q": "Atrial natriuretic factor is secreted when",
+      "options": [
+        "Blood pressure falls",
+        "Blood pressure rises",
+        "Blood glucose rises",
+        "Blood calcium falls"
+      ],
+      "answer_index": 1,
+      "explanation": "ANF from the atrial wall is released when blood pressure increases; it dilates blood vessels and brings the pressure down."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that the posterior pituitary secretes or produces oxytocin and vasopressin. It only stores and releases them; they are synthesised in the hypothalamus. The examiner deducts for 'secreted by the posterior pituitary' in a 2-mark answer.",
+    "Mixing up melanin, melatonin and MSH. Melatonin is the pineal hormone for the sleep-wake rhythm; MSH is the pituitary hormone acting on melanocytes; melanin is the pigment, not a hormone.",
+    "Attaching the three 'glyco' words to the wrong hormone. Glucagon does glycogenolysis and gluconeogenesis; insulin does glycogenesis. Reversing them turns a correct mechanism into a wrong one.",
+    "Naming the adrenal cortex layers in the wrong order or calling the zona reticularis the outer layer. From outside in it is glomerulosa, fasciculata, reticularis; NCERT lists them from the inside, which is where the confusion starts.",
+    "Confusing diabetes mellitus (insulin, glucose in urine, ketone bodies) with diabetes insipidus (ADH, large volumes of dilute urine, no sugar). Case questions are built on this contrast.",
+    "Saying that hypothalamic hormones reach the anterior pituitary 'through the blood' without the word portal, or saying the posterior pituitary is also reached by the portal system. Anterior = portal circulation; posterior = neural (axonal) connection.",
+    "Giving only one route for PTH. Full marks need all three: bone resorption, renal tubular reabsorption and intestinal absorption of Ca<sup>2+</sup>. Also, PTH raises calcium and calcitonin lowers it; students reverse them under pressure.",
+    "Placing steroid hormone receptors on the membrane or making protein hormones act on the genome. Protein hormones stay outside the cell and use second messengers; steroids and iodothyronines enter and regulate gene expression. In the diagram, drawing insulin inside the cell loses the mark.",
+    "Writing 'exophthalmic goitre' as a hypothyroid condition. It is Graves' disease, a form of hyperthyroidism; only cretinism, myxoedema and simple goitre are due to deficiency.",
+    "Assigning erythropoietin to the bone marrow or to the heart. It comes from the juxtaglomerular cells of the kidney and acts on the marrow; ANF is the heart's hormone."
+  ],
+  "strategy": "<p>This chapter is a memory chapter with one conceptual section at the end, so plan it that way. Spend the first sitting building a single table with seven columns: gland, location, hormone, chemical class, target, effect, disorder. Fill it from NCERT in NCERT order, hypothalamus to ovary and then heart, kidney and gut. Everything objective in the paper, every MCQ, every Assertion-Reason, every fill-in-the-blank, is a cell of that table, and writing it out yourself once beats reading it five times.</p><p>Second sitting: the two diagrams that carry 5-mark questions. Draw the hypothalamus-pituitary figure until you can produce the two routes (portal vessels to the anterior lobe, axons to the posterior lobe) without looking, and draw the adrenal section with its three zonae and the hormones of each written beside them. Then draw the pair of mechanism diagrams, protein hormone and steroid hormone, side by side. These three drawings plus the location figure cover every diagram the school paper has ever asked from this chapter.</p><p>Third sitting: the antagonistic pairs and the disorders. Insulin versus glucagon, PTH versus calcitonin, ANF versus aldosterone and ADH. For each disorder learn the hormone, the direction (excess or deficiency) and two symptoms: gigantism, dwarfism, acromegaly, diabetes insipidus, goitre, cretinism, myxoedema, Graves' disease, diabetes mellitus. Then work through the nine NCERT exercise questions and the exemplar long answers given above, especially the milking reflex, the glucose-and-ketone urine sample and the super master gland, because schools lift them almost unchanged.</p><p>In the exam, give 1-mark items ten seconds each; the answer is either in your table or it is not. Write 3-mark answers as three numbered points with the NCERT verb in each (stimulates, inhibits, reabsorbs). For a 5-mark diagram question, draw first, label in pencil-neat capitals, and only then write the text; a clean labelled figure earns two of the five marks on its own.</p>",
+  "revision_checklist": [
+    "NCERT definition of a hormone (non-nutrient, intercellular messenger, trace amounts) and the exocrine versus endocrine contrast",
+    "Location of all endocrine glands on the body outline: pineal, hypothalamus, pituitary, thyroid, parathyroid, thymus, adrenal, pancreas, testis or ovary",
+    "Hypothalamus: neurosecretory cells; GnRH (releasing) and somatostatin (inhibiting); portal circulation to the anterior lobe; axons to the posterior lobe",
+    "Pituitary parts: pars distalis (GH, PRL, TSH, ACTH, LH, FSH), pars intermedia (MSH), neurohypophysis (oxytocin, vasopressin made in the hypothalamus)",
+    "GH disorders: gigantism, pituitary dwarfism, acromegaly; ADH deficiency gives diabetes insipidus",
+    "Pineal: melatonin, 24-hour rhythm, sleep-wake cycle and body temperature; jet lag explanation",
+    "Thyroid: lobes and isthmus, follicular cells make T3 and T4, iodine essential; calcitonin lowers calcium; functions (BMR, RBC formation, metabolism, water-electrolyte balance)",
+    "Thyroid disorders: goitre, cretinism (five features), myxoedema, hyperthyroidism, exophthalmic goitre = Graves' disease",
+    "Parathyroid: four glands, PTH raises Ca2+ by bone resorption, renal reabsorption, intestinal absorption; antagonist of calcitonin",
+    "Thymus: dorsal to heart and aorta, thymosins, T-cell differentiation and antibody production, degenerates with age",
+    "Adrenal medulla: adrenaline and noradrenaline, all fight-or-flight effects, glycogenolysis, lipolysis, proteolysis",
+    "Adrenal cortex: glomerulosa, fasciculata, reticularis; cortisol functions; aldosterone functions; small androgens",
+    "Pancreas: composite gland, islets 1 to 2 per cent, alpha glucagon (hyperglycemic), beta insulin (hypoglycemic), diabetes mellitus with ketone bodies",
+    "Testis: Leydig cells, testosterone functions; ovary: follicles estrogen, corpus luteum progesterone; roles of LH and FSH in each sex",
+    "Non-endocrine sources: ANF (atrium), erythropoietin (kidney JG cells), gastrin, secretin, CCK, GIP; growth factors",
+    "Four chemical classes of hormones with one example each; membrane receptor plus second messenger (cAMP, IP3, Ca2+) versus intracellular receptor plus gene expression",
+    "The four labelled diagrams: gland locations, hypothalamus-pituitary, adrenal section, protein versus steroid hormone action"
+  ],
+  "videos": []
+}

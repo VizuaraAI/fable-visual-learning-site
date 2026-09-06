@@ -1,0 +1,830 @@
+{
+  "class": 12,
+  "subject": "Physics",
+  "chapter_no": 14,
+  "slug": "semiconductor-electronics",
+  "title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+  "summary": "Why Si and Ge sit between conductors and insulators, how doping makes n-type and p-type material, how a p-n junction builds its depletion region and barrier potential, how the diode behaves under bias, and how diodes turn AC into DC. It is the whole of Unit IX and its questions are among the most predictable in the paper.",
+  "exam_profile": {
+    "weightage": "Unit IX (Electronic Devices) is only this chapter and carries 7 marks in the CBSE Class 12 Physics theory paper: usually one 1-mark MCQ or assertion-reason, one 2- or 3-mark question, and a 4-mark case study or part of a 5-mark question on the diode and rectification.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Majority and minority carriers; pentavalent vs trivalent dopants; order of band gaps of C, Si, Ge; why holes diffuse; effect of bias on barrier and width; rectifier output frequency; current in a simple diode circuit."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Resistivity of a semiconductor falling with temperature; an n-type crystal being neutral; full-wave output frequency being double the input."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Energy-band distinction of the three classes; define depletion region and barrier potential; depletion width under bias; a doping numerical with n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup>."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Diffusion and drift in junction formation with barrier potential; circuit for V–I characteristics with the curves; half-wave rectifier with waveforms."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full-wave rectifier circuit, working and waveforms, usually paired with junction formation or the V–I characteristics."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on doping, the p-n junction or rectification, followed by four 1-mark parts with one short numerical."
+      }
+    ],
+    "hot_topics": [
+      "Formation of a p-n junction: diffusion, drift, depletion region and barrier potential",
+      "Diode in forward and reverse bias: barrier, depletion width, current, V–I characteristics with circuit",
+      "Full-wave rectifier: centre-tap circuit, working, waveforms, output frequency",
+      "Half-wave rectifier and the capacitor filter",
+      "n-type and p-type semiconductors; majority and minority carriers; n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup> numericals",
+      "Energy-band classification of solids; band gaps of C, Si and Ge"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "14.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>Before 1948 electronics ran on vacuum tubes: electrons boiled off a heated cathode travelled through a vacuum to the anode, so a tube needed a heater, about a hundred volts and an evacuated envelope, and was bulky, fragile and short-lived. Its useful property was that current flowed only from cathode to anode.</p><p>In the late 1940s it was found that a suitably doped semiconductor does the same job with no heater, no vacuum and a small voltage. The carriers, electrons and holes, are already inside the solid, and their flow can be controlled by light, heat or an applied voltage. Semiconductor devices are small, cheap, rugged, low-power and fast.</p><p>The chapter follows its title: the material (Si, Ge, doping), the device (the p-n junction diode) and the circuit (the rectifier). Every board question is built from five blocks: energy bands, doping, junction formation, the biased diode with its characteristics, and the rectifiers with their waveforms.</p>",
+      "formulas": [],
+      "tip": "The rationalised chapter ends at the rectifier; Zener diode, LED, photodiode, solar cell, transistor and logic gates are out of the syllabus."
+    },
+    {
+      "heading": "14.2 Classification of Metals, Conductors and Semiconductors",
+      "pyq_years": [],
+      "body": "<p>By conductivity: metals have resistivity ρ of about 10<sup>−2</sup> to 10<sup>−8</sup> Ω m, semiconductors 10<sup>−5</sup> to 10<sup>6</sup> Ω m, insulators 10<sup>11</sup> to 10<sup>19</sup> Ω m. Semiconductors may be elemental (Si, Ge) or compound: inorganic (CdS, GaAs, CdSe, InP), organic (anthracene, doped phthalocyanines) and organic polymers (polypyrrole, polyaniline, polythiophene). The chapter deals with Si and Ge.</p><p>The physical classification uses energy bands. In an isolated atom the electron energies are sharp levels. In a crystal the outer levels of neighbouring atoms overlap and, by the Pauli principle, spread into bands of closely spaced allowed energies. The highest band filled at 0 K is the <b>valence band</b>; the next above it is the <b>conduction band</b>; their separation, from E<sub>v</sub> to E<sub>c</sub>, is the <b>energy band gap</b> E<sub>g</sub>. Electrons in the conduction band move freely and conduct; those in a full valence band cannot.</p><p><b>Metals</b>: the conduction band is partly filled or overlaps the valence band, E<sub>g</sub> = 0. <b>Insulators</b>: full valence band, empty conduction band, large gap E<sub>g</sub> > 3 eV that thermal energy cannot bridge. <b>Semiconductors</b>: the same picture with a small gap, E<sub>g</sub> < 3 eV, so at room temperature some electrons cross. Diamond has E<sub>g</sub> = 5.4 eV, Si 1.1 eV, Ge 0.7 eV; carbon with the same lattice is an insulator while Si and Ge are semiconductors.</p><p>Asked every year: heating a metal increases lattice vibrations and its resistance rises; heating a semiconductor creates more carriers and its resistance falls.</p>",
+      "formulas": [
+        {
+          "expr": "E<sub>g</sub> = E<sub>c</sub> − E<sub>v</sub>",
+          "where": [
+            [
+              "E<sub>c</sub>, E<sub>v</sub>",
+              "bottom of conduction band, top of valence band"
+            ],
+            [
+              "E<sub>g</sub>",
+              "0 metals; < 3 eV semiconductors; > 3 eV insulators"
+            ]
+          ]
+        },
+        {
+          "expr": "(E<sub>g</sub>)<sub>C</sub> > (E<sub>g</sub>)<sub>Si</sub> > (E<sub>g</sub>)<sub>Ge</sub>  (5.4, 1.1, 0.7 eV)",
+          "where": [
+            [
+              "Reason",
+              "bonding electrons in the 2nd, 3rd and 4th shell are progressively less tightly bound"
+            ]
+          ]
+        }
+      ],
+      "tip": "Draw all three band diagrams side by side with the E<sub>g</sub> condition under each."
+    },
+    {
+      "heading": "14.3 Intrinsic Semiconductor",
+      "pyq_years": [],
+      "body": "<p>A pure semiconductor is called intrinsic. Si and Ge have four valence electrons and the diamond structure: each atom shares one electron with each of four neighbours, so all four valence electrons sit in covalent bonds. At 0 K every bond is intact, the valence band is full, the conduction band empty, and the crystal is an insulator.</p><p>At room temperature thermal energy breaks a few bonds. The freed electron goes to the conduction band. The vacancy left in the bond is short of one electron, so it carries a net positive charge, and is called a <b>hole</b>. A bound electron from a neighbouring bond can jump into it, which moves the hole to the neighbour's site; the hole therefore behaves as a free carrier of charge +e. In band language, a bond breaking lifts an electron to the conduction band and leaves a hole in the valence band.</p><p>Electrons and holes are generated in pairs, so n<sub>e</sub> = n<sub>h</sub> = n<sub>i</sub>, the intrinsic carrier concentration. Generation is balanced by <b>recombination</b>, an electron falling into a hole so that both vanish; n<sub>i</sub> is fixed at a given temperature but rises steeply with it.</p><p>Under a field electrons move against it and holes along it; both currents add, I = I<sub>e</sub> + I<sub>h</sub>, and σ = e(n<sub>e</sub>μ<sub>e</sub> + n<sub>h</sub>μ<sub>h</sub>). Intrinsic conductivity is small and strongly temperature dependent, so pure Si is of little use in devices; doping is the fix.</p>",
+      "formulas": [
+        {
+          "expr": "n<sub>e</sub> = n<sub>h</sub> = n<sub>i</sub>",
+          "where": [
+            [
+              "n<sub>i</sub>",
+              "intrinsic carrier concentration; about 1.5 × 10<sup>16</sup> m<sup>−3</sup> for Si, 2.4 × 10<sup>19</sup> m<sup>−3</sup> for Ge at 300 K"
+            ]
+          ]
+        },
+        {
+          "expr": "I = I<sub>e</sub> + I<sub>h</sub>;  σ = e(n<sub>e</sub>μ<sub>e</sub> + n<sub>h</sub>μ<sub>h</sub>)",
+          "where": [
+            [
+              "μ<sub>e</sub>, μ<sub>h</sub>",
+              "mobilities (m<sup>2</sup> V<sup>−1</sup> s<sup>−1</sup>)"
+            ]
+          ]
+        }
+      ],
+      "tip": "A hole is not a particle: a vacancy in a covalent bond that behaves as a carrier of charge +e."
+    },
+    {
+      "heading": "14.4 Extrinsic Semiconductor",
+      "pyq_years": [],
+      "body": "<p>Adding a small, controlled amount of impurity, a few parts per million, is <b>doping</b>; the result is an extrinsic semiconductor. The dopant must be nearly the same size as Si or Ge so it replaces a host atom without distorting the lattice. Two kinds are used: pentavalent (As, Sb, P) and trivalent (In, B, Al).</p><p><b>n-type.</b> A pentavalent atom uses four electrons in bonds with its four Si neighbours; the fifth is bound only weakly, with an ionisation energy of about 0.01 eV in Ge and 0.05 eV in Si, so thermal energy frees it into the conduction band. Each dopant <b>donates</b> one electron: a donor, with level E<sub>D</sub> just below the conduction band. Electrons are majority carriers, thermally generated holes minority carriers, n<sub>e</sub> >> n<sub>h</sub>. The crystal stays neutral: the extra electron is balanced by the extra proton in the dopant nucleus.</p><p><b>p-type.</b> A trivalent atom completes only three bonds; the fourth has a vacancy, a hole. An electron from a neighbouring bond can fill it, so the impurity <b>accepts</b> an electron: an acceptor, with level E<sub>A</sub> just above the valence band. Holes are majority, electrons minority, n<sub>h</sub> >> n<sub>e</sub>.</p><p>Doping raises one carrier density and, by increasing recombination, lowers the other; in equilibrium n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup>. Example: Si with 5 × 10<sup>28</sup> atoms m<sup>−3</sup> doped with 1 ppm As, n<sub>i</sub> = 1.5 × 10<sup>16</sup> m<sup>−3</sup>: n<sub>e</sub> = 5 × 10<sup>22</sup> m<sup>−3</sup>, n<sub>h</sub> = 2.25 × 10<sup>32</sup>/5 × 10<sup>22</sup> = 4.5 × 10<sup>9</sup> m<sup>−3</sup>. Conductivity is then set by the doping, not by temperature.</p>",
+      "formulas": [
+        {
+          "expr": "n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup>",
+          "where": [
+            [
+              "n-type",
+              "n<sub>e</sub> ≈ N<sub>D</sub>, n<sub>h</sub> = n<sub>i</sub><sup>2</sup>/N<sub>D</sub>"
+            ],
+            [
+              "p-type",
+              "n<sub>h</sub> ≈ N<sub>A</sub>, n<sub>e</sub> = n<sub>i</sub><sup>2</sup>/N<sub>A</sub>"
+            ]
+          ]
+        }
+      ],
+      "tip": "An n-type crystal is NOT negatively charged. And 1 ppm means × 10<sup>−6</sup>."
+    },
+    {
+      "heading": "14.5 p-n Junction",
+      "pyq_years": [],
+      "body": "<p>A p-n junction is the boundary between p-type and n-type regions inside one crystal. It cannot be made by pressing two slabs together: any surface is rough on the atomic scale, far rougher than the interatomic spacing, so continuous atomic contact is impossible. Instead a pentavalent impurity is diffused into part of a p-type wafer, converting that part to n-type.</p><p><b>Diffusion.</b> Holes are far more concentrated on the p-side and electrons on the n-side, so holes diffuse p → n and electrons n → p. A hole leaving the p-side (or an electron arriving and recombining) leaves a negative immobile acceptor ion; an electron leaving the n-side leaves a positive immobile donor ion. A layer of fixed charge, emptied of mobile carriers, forms on both sides: the <b>depletion region</b> (space-charge region), about a tenth of a micrometre thick.</p><p><b>Drift.</b> The fixed charges set up an electric field across the depletion region, from n to p. It opposes further diffusion of majority carriers but sweeps minority carriers across: electrons p → n, holes n → p. This drift current is opposite to the diffusion current.</p><p>As ions accumulate the field grows, diffusion falls and drift rises until the two are equal and opposite; net current is zero and the depletion width is fixed. The potential difference across the depletion region, produced by the loss of electrons from the n-side and their gain by the p-side, is the <b>barrier potential</b> V<sub>0</sub>, n-side higher: about 0.7 V for Si and 0.3 V for Ge. It is a barrier because it opposes the movement of majority carriers.</p>",
+      "formulas": [
+        {
+          "expr": "Equilibrium: diffusion current = drift current, net current = 0",
+          "where": [
+            [
+              "Diffusion",
+              "majority carriers: holes p → n, electrons n → p"
+            ],
+            [
+              "Drift",
+              "minority carriers by the junction field, the other way"
+            ]
+          ]
+        },
+        {
+          "expr": "V<sub>0</sub> ≈ 0.7 V (Si), 0.3 V (Ge); depletion width ≈ 0.1 μm; field from n to p",
+          "where": [
+            [
+              "V<sub>0</sub>",
+              "barrier potential of the unbiased junction"
+            ]
+          ]
+        }
+      ],
+      "tip": "Name both processes, the origin of the immobile ions, the field direction and the equilibrium condition, then define barrier potential in one line, with a labelled diagram."
+    },
+    {
+      "heading": "14.6 Semiconductor Diode",
+      "pyq_years": [],
+      "body": "<p>A p-n junction with metal contacts is a diode. Its symbol is an arrow (p-side) pointing to a bar (n-side); the arrow is the direction of conventional current in forward bias.</p><p><b>Forward bias.</b> p-side to the positive terminal. The depletion region has almost no carriers and hence very high resistance, so nearly all the applied voltage V drops across it, opposing the built-in field. The barrier becomes V<sub>0</sub> − V and the width decreases. Majority carriers cross: electrons n → p, holes p → n. On the far side they are minority carriers (minority carrier injection) and diffuse away, keeping the current flowing. The current is of the order of milliamperes and rises sharply beyond the <b>cut-in (threshold) voltage</b>, about 0.2 V for Ge and 0.7 V for Si.</p><p><b>Reverse bias.</b> n-side to the positive terminal. The applied voltage adds to the built-in field: the barrier becomes V<sub>0</sub> + V and the width increases. Majority carriers are blocked; only minority carriers are swept across. Their number is set by thermal generation, not by the voltage, so the reverse current is a few microamperes and nearly constant: the <b>reverse saturation current</b>. At the <b>breakdown voltage</b> V<sub>br</sub> the current rises suddenly; an ordinary diode is not operated there.</p><p><b>V–I characteristics.</b> Connect the diode to a battery through a potentiometer, with a milliammeter in series and a voltmeter across the diode; reverse the battery and use a microammeter for reverse bias. The forward curve stays near zero up to the cut-in voltage then rises steeply; the reverse curve is a small flat current up to V<sub>br</sub>. The diode conducts one way only, which rectification uses. Because the curve is non-linear one defines the <b>dynamic resistance</b> r<sub>d</sub> = ΔV/ΔI: for a Si diode at 0.7 V, 10 mA and 0.8 V, 20 mA, r<sub>d</sub> = 0.1 V/10 mA = 10 Ω; with 1 μA at −10 V the reverse resistance is 10<sup>7</sup> Ω.</p>",
+      "formulas": [
+        {
+          "expr": "Forward: barrier V<sub>0</sub> − V, width decreases, I ~ mA;  Reverse: barrier V<sub>0</sub> + V, width increases, I ~ μA;  r<sub>d</sub> = ΔV/ΔI",
+          "where": [
+            [
+              "Cut-in voltage",
+              "about 0.2 V (Ge), 0.7 V (Si)"
+            ],
+            [
+              "r<sub>d</sub>",
+              "dynamic resistance from the slope of the V–I curve"
+            ]
+          ]
+        }
+      ],
+      "tip": "Forward bias in the first quadrant (mA), reverse in the third (μA), with cut-in voltage and V<sub>br</sub> marked."
+    },
+    {
+      "heading": "14.7 Application of Junction Diode as a Rectifier",
+      "pyq_years": [],
+      "body": "<p>Rectification is converting alternating voltage into unidirectional voltage. A diode conducts only when forward biased, so it passes one half of each cycle and blocks the other.</p><p><b>Half-wave rectifier.</b> The AC input feeds a transformer primary; the secondary is in series with the diode and a load R<sub>L</sub>. In the positive half-cycle the end joined to the p-side is positive, the diode conducts and the voltage across R<sub>L</sub> follows the input. In the negative half-cycle the diode is reverse biased and the output is zero. One pulse per input cycle, so the output frequency equals the input: 50 Hz in, 50 Hz out.</p><p><b>Full-wave rectifier.</b> Diodes D<sub>1</sub> and D<sub>2</sub> are connected to the two ends of a centre-tapped secondary, both pointing to a common point, and R<sub>L</sub> runs from that point to the centre tap. The two ends are always at opposite polarity with respect to the tap. In the positive half-cycle the upper end is positive: D<sub>1</sub> conducts, D<sub>2</sub> is off. In the negative half-cycle the lower end is positive: D<sub>2</sub> conducts, D<sub>1</sub> is off. Current through R<sub>L</sub> is in the same direction in both halves, one pulse per half-cycle, so the output frequency is twice the input: 100 Hz for 50 Hz mains. The diodes conduct alternately, never together.</p><p><b>Filter.</b> A capacitor across R<sub>L</sub> charges to the peak while the diode conducts and discharges slowly through R<sub>L</sub> as the input falls, so the output stays near the peak; the larger R<sub>L</sub>C compared with the period, the smaller the ripple. Series inductors also serve as filters. Transformer, rectifier and filter form the DC supply in almost every electronic device.</p>",
+      "formulas": [
+        {
+          "expr": "Half-wave: f<sub>out</sub> = f<sub>in</sub>;  Full-wave: f<sub>out</sub> = 2f<sub>in</sub>",
+          "where": [
+            [
+              "f<sub>in</sub>",
+              "50 Hz for mains, giving 50 Hz and 100 Hz outputs"
+            ]
+          ]
+        },
+        {
+          "expr": "Capacitor filter: smoother when R<sub>L</sub>C >> T",
+          "where": [
+            [
+              "T",
+              "period of the rectified pulses"
+            ],
+            [
+              "Ripple",
+              "residual variation; falls as C or R<sub>L</sub> increases"
+            ]
+          ]
+        }
+      ],
+      "tip": "Full-wave circuit: centre-tapped secondary, both diodes pointing the same way, load between their common point and the tap. Draw input and output waveforms with aligned time axes and mark which diode conducts."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Energy band gap (E<sub>g</sub>)",
+      "definition": "Energy difference between the bottom of the conduction band and the top of the valence band: 0 for metals, less than 3 eV for semiconductors, more than 3 eV for insulators."
+    },
+    {
+      "term": "Intrinsic semiconductor",
+      "definition": "Pure Si or Ge in which carriers arise only from thermal breaking of covalent bonds, so n<sub>e</sub> = n<sub>h</sub> = n<sub>i</sub>."
+    },
+    {
+      "term": "Hole",
+      "definition": "A vacancy in a covalent bond left by a freed electron; it moves through the crystal and behaves as a carrier of charge +e."
+    },
+    {
+      "term": "n-type semiconductor",
+      "definition": "Doped with a pentavalent donor (As, Sb, P); electrons are majority carriers and holes minority carriers; the crystal is neutral."
+    },
+    {
+      "term": "p-type semiconductor",
+      "definition": "Doped with a trivalent acceptor (In, B, Al); holes are majority carriers and electrons minority carriers."
+    },
+    {
+      "term": "Depletion region",
+      "definition": "The thin layer, about 0.1 μm, on either side of the junction with no free carriers, containing only immobile positive ions on the n-side and negative ions on the p-side."
+    },
+    {
+      "term": "Barrier potential (V<sub>0</sub>)",
+      "definition": "The potential difference across the depletion region of an unbiased junction, n-side higher, that opposes diffusion of majority carriers; about 0.7 V for Si, 0.3 V for Ge."
+    },
+    {
+      "term": "Diffusion and drift currents",
+      "definition": "Diffusion: majority carriers moving down the concentration gradient (holes p → n, electrons n → p). Drift: minority carriers driven by the junction field the other way. Equal and opposite at equilibrium."
+    },
+    {
+      "term": "Forward and reverse bias",
+      "definition": "Forward: p-side positive, barrier V<sub>0</sub> − V, width shrinks, mA current. Reverse: n-side positive, barrier V<sub>0</sub> + V, width grows, μA current."
+    },
+    {
+      "term": "Cut-in (threshold) voltage",
+      "definition": "The forward voltage beyond which the current rises sharply: about 0.2 V for Ge, 0.7 V for Si."
+    },
+    {
+      "term": "Breakdown voltage (V<sub>br</sub>)",
+      "definition": "The reverse voltage at which the reverse current rises suddenly and sharply; an ordinary diode must not be operated beyond it."
+    },
+    {
+      "term": "Rectifier",
+      "definition": "A circuit using one or more diodes to convert alternating voltage into unidirectional pulsating voltage; half-wave uses one diode, full-wave two with a centre-tapped transformer."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Band-gap classification",
+      "expr": "Metal E<sub>g</sub> = 0; Semiconductor E<sub>g</sub> < 3 eV; Insulator E<sub>g</sub> > 3 eV",
+      "note": "Diamond 5.4 eV, Si 1.1 eV, Ge 0.7 eV"
+    },
+    {
+      "name": "Intrinsic carriers",
+      "expr": "n<sub>e</sub> = n<sub>h</sub> = n<sub>i</sub>",
+      "note": "Si ≈ 1.5 × 10<sup>16</sup>, Ge ≈ 2.4 × 10<sup>19</sup> m<sup>−3</sup> at 300 K"
+    },
+    {
+      "name": "Mass-action relation",
+      "expr": "n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup>",
+      "note": "Use to find the minority carrier density in doped material"
+    },
+    {
+      "name": "Conductivity",
+      "expr": "σ = e(n<sub>e</sub>μ<sub>e</sub> + n<sub>h</sub>μ<sub>h</sub>); I = I<sub>e</sub> + I<sub>h</sub>",
+      "note": "e = 1.6 × 10<sup>−19</sup> C"
+    },
+    {
+      "name": "Doping by ppm",
+      "expr": "N<sub>D</sub> = (atoms per m<sup>3</sup>) × ppm × 10<sup>−6</sup>",
+      "note": "1 ppm of 5 × 10<sup>28</sup> gives 5 × 10<sup>22</sup> m<sup>−3</sup>"
+    },
+    {
+      "name": "Barrier under bias",
+      "expr": "Forward V<sub>0</sub> − V; Reverse V<sub>0</sub> + V",
+      "note": "Width decreases in forward, increases in reverse bias"
+    },
+    {
+      "name": "Dynamic resistance",
+      "expr": "r<sub>d</sub> = ΔV/ΔI",
+      "note": "Forward ~ 10 Ω, reverse ~ 10<sup>7</sup> Ω for a typical Si diode"
+    },
+    {
+      "name": "Photon energy and band gap",
+      "expr": "λ = hc/E<sub>g</sub> = 1240 nm / E<sub>g</sub>(eV)",
+      "note": "Longest wavelength creating an electron-hole pair; Si → 1.13 μm"
+    },
+    {
+      "name": "Rectifier output frequency",
+      "expr": "Half-wave f<sub>out</sub> = f<sub>in</sub>; Full-wave f<sub>out</sub> = 2f<sub>in</sub>",
+      "note": "50 Hz mains: 50 Hz and 100 Hz"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Energy-band diagrams of metal, semiconductor and insulator",
+      "how_to_draw": "Three pairs of bands side by side. Metal: conduction band overlapping or partly filled, E<sub>g</sub> = 0. Semiconductor: full valence band, empty conduction band, small gap labelled E<sub>g</sub> < 3 eV, a few electrons above and holes below. Insulator: a wide gap, E<sub>g</sub> > 3 eV. Label E<sub>c</sub> and E<sub>v</sub>."
+    },
+    {
+      "title": "p-n junction with depletion region and barrier potential",
+      "how_to_draw": "A rectangle split into p (left) and n (right). At the junction a narrow band with − signs on the p-side and + signs on the n-side, labelled depletion region, about 0.1 μm; field arrow from n to p. Below, potential versus distance rising from p to n by V<sub>0</sub>. Arrows for diffusion (holes p → n, electrons n → p) and drift the other way."
+    },
+    {
+      "title": "Circuit for V–I characteristics and the curve",
+      "how_to_draw": "Forward: battery with potentiometer, diode with p-side to the positive terminal, milliammeter in series, voltmeter across the diode. Reverse: battery reversed, microammeter. Curve: first quadrant near zero up to the cut-in voltage (0.7 V Si) then steep, in mA; third quadrant a small flat current in μA up to V<sub>br</sub>, then a sharp rise."
+    },
+    {
+      "title": "Full-wave rectifier with waveforms",
+      "how_to_draw": "Transformer with centre-tapped secondary; D<sub>1</sub> and D<sub>2</sub> from the two ends, both pointing to a common point; R<sub>L</sub> from that point to the centre tap. Below: the input sine wave, then the output with a positive pulse in every half-cycle labelled 'due to D<sub>1</sub>' and 'due to D<sub>2</sub>' alternately; write output frequency = 2 × input. For half-wave use one diode in series with R<sub>L</sub> and show only the positive half-cycles."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "14.1",
+      "q": "In an n-type silicon, which of the following statements is true? (a) Electrons are majority carriers and trivalent atoms are the dopants. (b) Electrons are minority carriers and pentavalent atoms are the dopants. (c) Holes are minority carriers and pentavalent atoms are the dopants. (d) Holes are majority carriers and trivalent atoms are the dopants.",
+      "a": "<p>(c). n-type Si is doped with a pentavalent impurity; each dopant donates an electron, so electrons are majority and holes minority carriers.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "14.2",
+      "q": "Which of the statements given in Exercise 14.1 is true for p-type semiconductors?",
+      "a": "<p>(d). A trivalent dopant (In, B, Al) creates one hole per atom, so holes are majority and electrons minority carriers.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "14.3",
+      "q": "Carbon, silicon and germanium have four valence electrons each. Their valence and conduction bands are separated by band gaps (E<sub>g</sub>)<sub>C</sub>, (E<sub>g</sub>)<sub>Si</sub> and (E<sub>g</sub>)<sub>Ge</sub>. Which is true? (a) (E<sub>g</sub>)<sub>Si</sub> < (E<sub>g</sub>)<sub>Ge</sub> < (E<sub>g</sub>)<sub>C</sub> (b) (E<sub>g</sub>)<sub>C</sub> < (E<sub>g</sub>)<sub>Ge</sub> > (E<sub>g</sub>)<sub>Si</sub> (c) (E<sub>g</sub>)<sub>C</sub> > (E<sub>g</sub>)<sub>Si</sub> > (E<sub>g</sub>)<sub>Ge</sub> (d) all equal",
+      "a": "<p>(c). Band gaps: C 5.4 eV, Si 1.1 eV, Ge 0.7 eV. The bonding electrons lie in the 2nd, 3rd and 4th shell respectively, so they are held progressively less tightly.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "14.4",
+      "q": "In an unbiased p-n junction, holes diffuse from the p-region to n-region because (a) free electrons in the n-region attract them. (b) they move across the junction by the potential difference. (c) hole concentration in p-region is more as compared to n-region. (d) All the above.",
+      "a": "<p>(c). Diffusion is driven only by the concentration gradient. The potential difference across the junction opposes diffusion, so (b) is wrong, and attraction by electrons is not the cause.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "14.5",
+      "q": "When a forward bias is applied to a p-n junction, it (a) raises the potential barrier. (b) reduces the majority carrier current to zero. (c) lowers the potential barrier. (d) None of the above.",
+      "a": "<p>(c). The applied voltage opposes the built-in field, so the barrier falls to V<sub>0</sub> − V, the depletion width shrinks and the majority carrier current rises sharply.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "14.6",
+      "q": "In half-wave rectification, what is the output frequency if the input frequency is 50 Hz? What is the output frequency of a full-wave rectifier for the same input frequency?",
+      "a": "<p>Half-wave: one output pulse per input cycle, so f<sub>out</sub> = f<sub>in</sub> = <b>50 Hz</b>.</p><p>Full-wave: both half-cycles appear with the same polarity, two pulses per cycle, so f<sub>out</sub> = 2f<sub>in</sub> = <b>100 Hz</b>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "example",
+      "number": "14.1",
+      "q": "C, Si and Ge have the same lattice structure. Why is C an insulator while Si and Ge are intrinsic semiconductors?",
+      "a": "<p>The four bonding electrons of C, Si and Ge lie in the second, third and fourth orbit respectively, so the energy needed to free them, the band gap, is 5.4 eV for C, 1.1 eV for Si and 0.7 eV for Ge. Room-temperature thermal energy lifts a useful number of electrons across the small gaps of Si and Ge but practically none across the gap of C, which therefore has negligible free electrons and is an insulator.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "example",
+      "number": "14.2",
+      "q": "Suppose a pure Si crystal has 5 × 10<sup>28</sup> atoms m<sup>−3</sup>. It is doped by 1 ppm concentration of pentavalent As. Calculate the number of electrons and holes. Given that n<sub>i</sub> = 1.5 × 10<sup>16</sup> m<sup>−3</sup>.",
+      "a": "<p>1 ppm = one As atom per 10<sup>6</sup> Si atoms, each giving one electron: n<sub>e</sub> ≈ N<sub>D</sub> = 5 × 10<sup>28</sup> × 10<sup>−6</sup> = <b>5 × 10<sup>22</sup> m<sup>−3</sup></b> (thermal electrons, about 10<sup>16</sup> m<sup>−3</sup>, are negligible).</p><p>n<sub>h</sub> = n<sub>i</sub><sup>2</sup>/n<sub>e</sub> = (1.5 × 10<sup>16</sup>)<sup>2</sup>/(5 × 10<sup>22</sup>) = 2.25 × 10<sup>32</sup>/(5 × 10<sup>22</sup>) = <b>4.5 × 10<sup>9</sup> m<sup>−3</sup></b>. Electrons are majority carriers by a factor of about 10<sup>13</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "example",
+      "number": "14.3",
+      "q": "Can we take one slab of p-type semiconductor and physically join it to another slab of n-type semiconductor to get a p-n junction?",
+      "a": "<p>No. Any slab, however flat, has surface roughness far larger than the interatomic spacing (2 to 3 Å), so continuous atomic contact is impossible and the join would be a discontinuity for carriers. A junction is formed inside one crystal by diffusing a pentavalent impurity into part of a p-type wafer.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "example",
+      "number": "14.4",
+      "q": "From the V–I characteristic of a silicon diode: V = 0.7 V at I = 10 mA and 0.8 V at 20 mA in forward bias; I = 1 μA at V = −10 V in reverse bias. Calculate the resistance of the diode at (a) I<sub>D</sub> = 15 mA and (b) V<sub>D</sub> = −10 V.",
+      "a": "<p>(a) 15 mA lies on the linear rising part: r<sub>fb</sub> = ΔV/ΔI = (0.8 − 0.7) V/(20 − 10) mA = 0.1/(10 × 10<sup>−3</sup>) = <b>10 Ω</b>.</p><p>(b) In reverse bias the current is the constant saturation current: r<sub>rb</sub> = 10 V/(1 × 10<sup>−6</sup> A) = <b>1 × 10<sup>7</sup> Ω</b>.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The energy band gap is largest for",
+      "options": [
+        "Germanium",
+        "Silicon",
+        "Diamond (carbon)",
+        "Copper"
+      ],
+      "answer": "c",
+      "solution": "Diamond 5.4 eV, Si 1.1 eV, Ge 0.7 eV; copper is a metal, E<sub>g</sub> = 0."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "When the temperature of a semiconductor is raised, its resistivity",
+      "options": [
+        "increases, because lattice vibrations increase",
+        "decreases, because more electron-hole pairs are generated",
+        "stays the same, because n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup> is constant",
+        "first decreases and then becomes zero"
+      ],
+      "answer": "b",
+      "solution": "More bonds break and n<sub>i</sub> rises steeply; option (a) describes a metal."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In a p-n junction diode, the width of the depletion region",
+      "options": [
+        "increases in forward bias and decreases in reverse bias",
+        "decreases in forward bias and increases in reverse bias",
+        "is unchanged by biasing",
+        "becomes zero in reverse bias"
+      ],
+      "answer": "b",
+      "solution": "Forward bias lowers the barrier and narrows the region; reverse bias widens it."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A 50 Hz supply is rectified by a full-wave rectifier and separately by a half-wave rectifier. The ratio of output frequencies (full-wave : half-wave) is",
+      "options": [
+        "1 : 1",
+        "1 : 2",
+        "2 : 1",
+        "4 : 1"
+      ],
+      "answer": "c",
+      "solution": "Full-wave 100 Hz, half-wave 50 Hz."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In a reverse-biased p-n junction the current is small and almost independent of voltage because",
+      "options": [
+        "the barrier potential becomes zero",
+        "it is carried only by minority carriers whose number is fixed by temperature",
+        "the depletion region disappears",
+        "majority carriers cross the junction freely"
+      ],
+      "answer": "b",
+      "solution": "Only thermally generated minority carriers cross; their number does not depend on voltage."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A silicon diode (forward drop 0.7 V) in forward bias is in series with a 230 Ω resistor and a 3 V battery. The current is about",
+      "options": [
+        "13 mA",
+        "10 mA",
+        "3 mA",
+        "zero"
+      ],
+      "answer": "b",
+      "solution": "I = (3 − 0.7)/230 = 0.010 A = 10 mA."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The resistivity of a semiconductor decreases with rise in temperature. Reason (R): With rise in temperature more covalent bonds break and the number of free charge carriers increases.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both true; the rise in carrier density is exactly why resistivity falls, unlike a metal."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): An n-type semiconductor is negatively charged. Reason (R): In an n-type semiconductor electrons are the majority carriers.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "The crystal is neutral: each extra electron is balanced by the extra proton in the dopant nucleus. A is false, R is true."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The output frequency of a full-wave rectifier is twice the input frequency. Reason (R): The two diodes conduct in alternate half-cycles, so each half-cycle gives one output pulse.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Two pulses per input cycle means 2f<sub>in</sub>; R states the mechanism."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Distinguish between a conductor, a semiconductor and an insulator on the basis of energy band diagrams.",
+      "answer": "<p>Draw three band diagrams. <b>Conductor</b>: conduction band partly filled or overlapping the valence band, E<sub>g</sub> = 0. <b>Semiconductor</b>: full valence band, empty conduction band at 0 K, small gap E<sub>g</sub> < 3 eV (Si 1.1 eV, Ge 0.7 eV); at room temperature some electrons cross, giving moderate conductivity. <b>Insulator</b>: large gap E<sub>g</sub> > 3 eV (diamond 5.4 eV); thermal energy cannot lift electrons across.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Explain how the width of the depletion layer of a p-n junction changes when it is (i) forward biased, (ii) reverse biased.",
+      "answer": "<p>(i) Forward bias: the applied voltage opposes the built-in field, the barrier falls to V<sub>0</sub> − V, majority carriers enter and neutralise part of the space charge, so the <b>width decreases</b>.</p><p>(ii) Reverse bias: the applied voltage adds to the built-in field, the barrier rises to V<sub>0</sub> + V, majority carriers are pulled away exposing more immobile ions, so the <b>width increases</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A silicon sample with 5 × 10<sup>28</sup> atoms m<sup>−3</sup> and n<sub>i</sub> = 1.5 × 10<sup>16</sup> m<sup>−3</sup> is doped with 1 ppm of indium. Find the carrier concentrations and name the majority carrier.",
+      "answer": "<p>Indium is trivalent, one hole per atom: n<sub>h</sub> ≈ N<sub>A</sub> = 5 × 10<sup>28</sup> × 10<sup>−6</sup> = 5 × 10<sup>22</sup> m<sup>−3</sup>.</p><p>n<sub>e</sub> = n<sub>i</sub><sup>2</sup>/n<sub>h</sub> = 2.25 × 10<sup>32</sup>/(5 × 10<sup>22</sup>) = 4.5 × 10<sup>9</sup> m<sup>−3</sup>.</p><p>Holes are the majority carriers; the sample is p-type.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "The band gap of silicon is 1.1 eV. Find the longest wavelength of light that can create an electron-hole pair in silicon. (h = 6.63 × 10<sup>−34</sup> J s, c = 3 × 10<sup>8</sup> m s<sup>−1</sup>)",
+      "answer": "<p>λ = hc/E<sub>g</sub> = (6.63 × 10<sup>−34</sup> × 3 × 10<sup>8</sup>)/(1.1 × 1.6 × 10<sup>−19</sup>) = 1.989 × 10<sup>−25</sup>/1.76 × 10<sup>−19</sup> = 1.13 × 10<sup>−6</sup> m ≈ <b>1130 nm</b> (near infrared). Check: 1240/1.1 ≈ 1127 nm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the two processes involved in the formation of a p-n junction diode. Hence define the term 'barrier potential'.",
+      "answer": "<p><b>Diffusion.</b> Holes are far more concentrated on the p-side and electrons on the n-side, so holes diffuse p → n and electrons n → p. Each hole leaving the p-side leaves a negative immobile acceptor ion; each electron leaving the n-side leaves a positive immobile donor ion. A layer of fixed charge empty of mobile carriers forms on both sides: the depletion region.</p><p><b>Drift.</b> The fixed charges produce a field from n to p, which opposes further diffusion but sweeps minority carriers across: electrons p → n, holes n → p. Diffusion falls and drift rises until they are equal and the net current is zero.</p><p><b>Barrier potential</b> is the potential difference across the depletion region of the unbiased junction, n-side higher, set up by the loss of electrons from the n-side and their gain by the p-side; it opposes majority carriers. About 0.7 V for Si, 0.3 V for Ge.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Draw the circuit arrangement for studying the V–I characteristics of a p-n junction diode in (i) forward and (ii) reverse bias. Draw the characteristics and explain the significance of the cut-in voltage and the breakdown voltage.",
+      "answer": "<p><b>Circuits.</b> Forward: battery with potentiometer, diode with p-side to the positive terminal, milliammeter in series, voltmeter across the diode. Reverse: battery reversed, microammeter in series.</p><p><b>Curves.</b> First quadrant: negligible current until the cut-in voltage, then a steep rise (mA). Third quadrant: small, nearly constant reverse current (μA) up to V<sub>br</sub>, then a sharp rise.</p><p><b>Cut-in voltage:</b> the forward voltage (about 0.7 V Si, 0.2 V Ge) beyond which the barrier is effectively overcome and current rises rapidly.</p><p><b>Breakdown voltage:</b> the reverse voltage at which the reverse current rises suddenly; an ordinary diode must not be operated there because the large current destroys it.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Draw the circuit diagram of a half-wave rectifier and explain its working. Draw the input and output waveforms.",
+      "answer": "<p><b>Circuit.</b> AC input to a transformer primary; the secondary in series with a diode and load R<sub>L</sub>; output across R<sub>L</sub>.</p><p><b>Working.</b> In the positive half-cycle the secondary end joined to the p-side is positive, the diode is forward biased, current flows through R<sub>L</sub> and the output follows the input. In the negative half-cycle the diode is reverse biased, only a negligible current flows and the output is zero. The output is a unidirectional pulsating voltage made of the positive half-cycles only.</p><p><b>Waveforms.</b> Input: full sine wave. Output, aligned in time: positive half-cycles with gaps. One pulse per cycle, so output frequency equals input frequency.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain, with energy band diagrams, the formation of n-type and p-type semiconductors. Why does doping increase conductivity?",
+      "answer": "<p><b>n-type.</b> A pentavalent atom (As, Sb, P) replacing Si forms four bonds and has one extra electron bound by only about 0.05 eV. Its donor level E<sub>D</sub> lies just below the conduction band, so the electron is easily excited into it. Electrons majority, holes minority.</p><p><b>p-type.</b> A trivalent atom (In, B, Al) forms only three bonds; the missing bond is a hole. The acceptor level E<sub>A</sub> lies just above the valence band; valence electrons are easily excited into it, leaving holes. Holes majority, electrons minority.</p><p><b>Conductivity.</b> Each dopant atom adds one carrier, so a few ppm raises the majority density by about 10<sup>6</sup> over n<sub>i</sub>, and σ = e(n<sub>e</sub>μ<sub>e</sub> + n<sub>h</sub>μ<sub>h</sub>) rises accordingly.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Draw the circuit diagram of a full-wave rectifier using two diodes and explain its working. Draw the input and output waveforms. (b) Why is the output frequency of a full-wave rectifier double the input frequency?",
+      "answer": "<p><b>(a) Circuit.</b> AC input to the primary of a transformer with a centre-tapped secondary. D<sub>1</sub> from the upper end and D<sub>2</sub> from the lower end, both pointing to a common point X; load R<sub>L</sub> between X and the centre tap.</p><p><b>Working.</b> The two ends of the secondary are always at opposite polarity with respect to the centre tap. In the positive half-cycle the upper end is positive: D<sub>1</sub> is forward biased and conducts, D<sub>2</sub> is reverse biased; current flows through R<sub>L</sub> from X to the tap. In the negative half-cycle the lower end is positive: D<sub>2</sub> conducts, D<sub>1</sub> is off; current again flows through R<sub>L</sub> from X to the tap, in the same direction. So the load current is unidirectional in both half-cycles and the diodes conduct alternately.</p><p><b>Waveforms.</b> Input sine wave; below it, aligned in time, the output across R<sub>L</sub>: a positive pulse in every half-cycle, labelled 'due to D<sub>1</sub>' and 'due to D<sub>2</sub>' alternately. A capacitor across R<sub>L</sub> smooths the pulses to nearly steady DC.</p><p><b>(b)</b> The half-wave circuit gives one pulse per input cycle; the full-wave circuit rectifies both half-cycles and gives two pulses per cycle, so the pulse frequency is 2f<sub>in</sub>: 100 Hz for 50 Hz.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Describe, with a diagram, how a depletion region and a potential barrier form in an unbiased p-n junction. (b) Explain how a p-n junction diode behaves in forward and reverse bias, and draw its V–I characteristics.",
+      "answer": "<p><b>(a)</b> Diagram: p-region left, n-region right, a narrow layer at the junction with − ions on the p-side and + ions on the n-side, field arrow from n to p. Holes diffuse p → n and electrons n → p down the concentration gradient. Each carrier that leaves exposes an immobile ion, so a layer of fixed charge without mobile carriers forms: the depletion region, about 0.1 μm. Its field opposes diffusion but drives minority carriers across (drift). Diffusion falls and drift rises until they balance and the net current is zero. The potential difference then across the depletion region, n-side higher, is the barrier potential V<sub>0</sub> (0.7 V Si, 0.3 V Ge).</p><p><b>(b) Forward bias</b> (p to positive): the applied voltage opposes the built-in field, the barrier becomes V<sub>0</sub> − V, the width shrinks, and a mA current of majority carriers flows beyond the cut-in voltage. <b>Reverse bias</b> (n to positive): the barrier becomes V<sub>0</sub> + V, the width grows, majority carriers are blocked and only a μA minority-carrier current flows, independent of V until breakdown.</p><p><b>Characteristics:</b> forward curve in the first quadrant, flat then steep beyond the cut-in voltage (mA); reverse curve in the third quadrant, small constant current (μA) with a sharp rise at V<sub>br</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Distinguish between intrinsic and extrinsic semiconductors and show with diagrams how n-type and p-type material is obtained from silicon. (b) A Si sample with 5 × 10<sup>28</sup> atoms m<sup>−3</sup> is doped with 2 ppm of phosphorus. Taking n<sub>i</sub> = 1.5 × 10<sup>16</sup> m<sup>−3</sup>, find n<sub>e</sub> and n<sub>h</sub>.",
+      "answer": "<p><b>(a)</b> Intrinsic: pure Si or Ge; carriers only from thermal bond breaking; n<sub>e</sub> = n<sub>h</sub> = n<sub>i</sub>; small, strongly temperature-dependent conductivity. Extrinsic: doped with a few ppm of impurity; carrier density set by the dopant; n<sub>e</sub> ≠ n<sub>h</sub> but n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup>; much higher, controllable conductivity.</p><p>n-type: Si lattice with one As atom; four electrons in bonds, the fifth loosely bound and freed at room temperature; donor level E<sub>D</sub> just below the conduction band. p-type: lattice with one In atom having only three bonds; the incomplete bond is a hole; acceptor level E<sub>A</sub> just above the valence band. The crystal stays neutral in both cases.</p><p><b>(b)</b> Phosphorus is a pentavalent donor: n<sub>e</sub> ≈ N<sub>D</sub> = 5 × 10<sup>28</sup> × 2 × 10<sup>−6</sup> = <b>1 × 10<sup>23</sup> m<sup>−3</sup></b>; n<sub>h</sub> = n<sub>i</sub><sup>2</sup>/n<sub>e</sub> = 2.25 × 10<sup>32</sup>/10<sup>23</sup> = <b>2.25 × 10<sup>9</sup> m<sup>−3</sup></b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A p-n junction is formed inside a single crystal by diffusing a pentavalent impurity into part of a p-type wafer. Near the junction holes diffuse from p to n and electrons from n to p, leaving immobile ions behind. This creates a thin layer free of mobile carriers with a built-in field and a potential difference across it.<br>(i) What is this layer called, and what is its typical width?<br>(ii) In which direction is the built-in field, and which carriers does it move across the junction?<br>(iii) How do the barrier and the layer width change when the p-side is connected to the negative terminal of a battery?<br>(iv) Why can the junction not be made by pressing a p-type slab against an n-type slab?",
+      "answer": "<p>(i) The depletion (space-charge) region, about 0.1 μm wide.</p><p>(ii) From the n-side (positive donor ions) to the p-side (negative acceptor ions). It drives minority carriers: electrons p → n and holes n → p (drift).</p><p>(iii) Reverse bias: the barrier rises to V<sub>0</sub> + V and the width increases; only a tiny minority-carrier current flows.</p><p>(iv) Surface roughness is far larger than the interatomic spacing, so continuous atomic contact is impossible; the junction must be grown inside one crystal.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A student builds a power supply. The 50 Hz mains is stepped down by a transformer and fed to a rectifier. She first uses a single diode, then two diodes with a centre-tapped secondary, and finally adds a capacitor across the load resistor.<br>(i) With a single diode, what fraction of each input cycle appears at the output and what is the output frequency?<br>(ii) With two diodes and a centre-tapped secondary, what is the output frequency? Do the two diodes ever conduct together?<br>(iii) What does the capacitor do to the output?<br>(iv) If the load resistance is increased, does the ripple increase or decrease? Why?",
+      "answer": "<p>(i) Only the positive half-cycle; output frequency 50 Hz.</p><p>(ii) Two pulses per cycle: 100 Hz. No; the diodes conduct alternately.</p><p>(iii) It charges to the peak of each pulse and discharges slowly through R<sub>L</sub>, so the output stays near the peak: nearly steady DC with small ripple.</p><p>(iv) The ripple decreases: R<sub>L</sub>C is larger, so the capacitor loses less charge between pulses.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The number of holes divided by the number of conduction electrons in an intrinsic semiconductor is",
+      "options": [
+        "zero",
+        "less than 1",
+        "exactly 1",
+        "greater than 1"
+      ],
+      "answer_index": 2,
+      "explanation": "Carriers form in pairs, so n<sub>e</sub> = n<sub>h</sub>."
+    },
+    {
+      "q": "Which impurity makes silicon a p-type semiconductor?",
+      "options": [
+        "Arsenic",
+        "Phosphorus",
+        "Antimony",
+        "Boron"
+      ],
+      "answer_index": 3,
+      "explanation": "Boron is trivalent; As, P and Sb are pentavalent donors."
+    },
+    {
+      "q": "At absolute zero a pure silicon crystal behaves as",
+      "options": [
+        "a good conductor",
+        "an insulator",
+        "an n-type semiconductor",
+        "a p-type semiconductor"
+      ],
+      "answer_index": 1,
+      "explanation": "No bond is broken at 0 K, so there are no free carriers."
+    },
+    {
+      "q": "In an n-type semiconductor the donor energy level lies",
+      "options": [
+        "just above the valence band",
+        "in the middle of the band gap",
+        "just below the conduction band",
+        "above the conduction band"
+      ],
+      "answer_index": 2,
+      "explanation": "The donor electron needs only about 0.01 to 0.05 eV to reach the conduction band."
+    },
+    {
+      "q": "A semiconductor has n<sub>i</sub> = 10<sup>16</sup> m<sup>−3</sup>. After doping, n<sub>e</sub> = 10<sup>22</sup> m<sup>−3</sup>. The hole density is",
+      "options": [
+        "10<sup>10</sup> m<sup>−3</sup>",
+        "10<sup>16</sup> m<sup>−3</sup>",
+        "10<sup>22</sup> m<sup>−3</sup>",
+        "10<sup>28</sup> m<sup>−3</sup>"
+      ],
+      "answer_index": 0,
+      "explanation": "n<sub>h</sub> = n<sub>i</sub><sup>2</sup>/n<sub>e</sub> = 10<sup>32</sup>/10<sup>22</sup> = 10<sup>10</sup> m<sup>−3</sup>."
+    },
+    {
+      "q": "The immobile ions in the depletion region are",
+      "options": [
+        "positive on the p-side and negative on the n-side",
+        "negative on the p-side and positive on the n-side",
+        "positive on both sides",
+        "negative on both sides"
+      ],
+      "answer_index": 1,
+      "explanation": "Holes leaving the p-side expose negative acceptor ions; electrons leaving the n-side expose positive donor ions."
+    },
+    {
+      "q": "In an unbiased p-n junction at equilibrium",
+      "options": [
+        "only diffusion current flows",
+        "only drift current flows",
+        "diffusion and drift currents are equal and opposite",
+        "both currents are zero"
+      ],
+      "answer_index": 2,
+      "explanation": "Both currents exist but cancel, so the net current is zero."
+    },
+    {
+      "q": "The barrier potential of a silicon p-n junction is about",
+      "options": [
+        "0.1 V",
+        "0.3 V",
+        "0.7 V",
+        "3 V"
+      ],
+      "answer_index": 2,
+      "explanation": "Si has V<sub>0</sub> ≈ 0.7 V; Ge about 0.3 V."
+    },
+    {
+      "q": "To forward bias a p-n junction diode",
+      "options": [
+        "connect the p-side to the negative terminal",
+        "connect the n-side to the positive terminal",
+        "connect the p-side to the positive terminal",
+        "connect both sides to the same terminal"
+      ],
+      "answer_index": 2,
+      "explanation": "Forward bias is p to positive, n to negative."
+    },
+    {
+      "q": "The reverse current in a diode is of the order of microamperes because it is due to",
+      "options": [
+        "majority carriers only",
+        "minority carriers only",
+        "both carriers equally",
+        "ions in the depletion region"
+      ],
+      "answer_index": 1,
+      "explanation": "The raised barrier blocks majority carriers; only the few minority carriers cross."
+    },
+    {
+      "q": "For a diode, ΔV = 0.05 V produces ΔI = 5 mA on the forward characteristic. Its dynamic resistance is",
+      "options": [
+        "0.01 Ω",
+        "1 Ω",
+        "10 Ω",
+        "100 Ω"
+      ],
+      "answer_index": 2,
+      "explanation": "r<sub>d</sub> = 0.05/(5 × 10<sup>−3</sup>) = 10 Ω."
+    },
+    {
+      "q": "An ideal diode is in series with a 2 kΩ resistor and a 6 V battery, its n-side to the positive terminal. The current is",
+      "options": [
+        "3 mA",
+        "6 mA",
+        "zero",
+        "0.3 mA"
+      ],
+      "answer_index": 2,
+      "explanation": "n-side to positive is reverse bias, so an ideal diode passes nothing; forward it would be 3 mA."
+    },
+    {
+      "q": "A half-wave rectifier fed with 60 Hz AC gives an output of frequency",
+      "options": [
+        "30 Hz",
+        "60 Hz",
+        "120 Hz",
+        "240 Hz"
+      ],
+      "answer_index": 1,
+      "explanation": "One pulse per cycle, so 60 Hz; full-wave would give 120 Hz."
+    },
+    {
+      "q": "In a two-diode full-wave rectifier the load resistor is connected between",
+      "options": [
+        "the two ends of the secondary",
+        "the common point of the diodes and the centre tap",
+        "the primary and the secondary",
+        "the two diodes in parallel"
+      ],
+      "answer_index": 1,
+      "explanation": "The centre tap is the return path, so current from either diode flows through R<sub>L</sub> the same way."
+    },
+    {
+      "q": "A capacitor filter across the load gives a smoother output when",
+      "options": [
+        "R<sub>L</sub>C is small compared with the period",
+        "R<sub>L</sub>C is large compared with the period",
+        "the capacitor is in series with the load",
+        "the diode is replaced by a resistor"
+      ],
+      "answer_index": 1,
+      "explanation": "A large R<sub>L</sub>C means little discharge between pulses, so little ripple."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that an n-type semiconductor is negatively charged or p-type positively charged. Both are neutral.",
+    "Muddling the dopants: pentavalent (As, Sb, P) gives n-type, trivalent (In, B, Al) gives p-type.",
+    "Saying holes diffuse because electrons attract them or because of the potential difference. Diffusion is due to the concentration gradient only; the barrier opposes it.",
+    "Drawing the depletion region with the signs reversed. Negative acceptor ions on the p-side, positive donor ions on the n-side, field from n to p.",
+    "Reversing the bias definitions. Forward bias is p-side to the positive terminal; n-side at the higher potential is reverse bias with a microampere current.",
+    "Drawing the full-wave rectifier without a centre tap, with the load in the wrong place or the diodes pointing opposite ways. The circuit alone carries 2 of the 5 marks.",
+    "Giving the full-wave output frequency as 50 Hz. Two pulses per cycle means 100 Hz; only the half-wave output stays at 50 Hz."
+  ],
+  "strategy": "<p>Seven marks for about a day of work makes this the best-value unit in the paper. The examined content is small and stable, so prepare it as five blocks, each with its diagram.</p><p><b>Memorise:</b> the band-gap numbers (0, under 3 eV, over 3 eV; C 5.4, Si 1.1, Ge 0.7 eV), the dopant lists, the barrier and cut-in voltages (Si 0.7 V; Ge 0.3 V and 0.2 V), the depletion width (about 0.1 μm), the current scales (mA forward, μA reverse) and the rectifier frequencies (50 Hz, 100 Hz).</p><p><b>Write out from memory, twice:</b> the two-process formation of the junction with the definition of barrier potential; the effect of each bias on barrier, width and current; the V–I circuit and curve; both rectifier circuits with aligned waveforms. These four answers cover almost every 2-, 3- and 5-mark question set from this chapter.</p><p><b>Practise the numericals:</b> the ppm doping problem with n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup>, dynamic resistance from a curve, the diode circuit current with the 0.7 V drop, and λ = 1240/E<sub>g</sub>.</p><p><b>In the exam</b> answer this chapter early, label every diagram, and end each part with the one-line conclusion the examiner wants: net current zero, width decreases, frequency doubles.</p>",
+  "revision_checklist": [
+    "Three band diagrams: E<sub>g</sub> = 0, < 3 eV, > 3 eV; C 5.4, Si 1.1, Ge 0.7 eV",
+    "Hole as a vacancy in a covalent bond acting as a positive carrier; n<sub>e</sub> = n<sub>h</sub> = n<sub>i</sub>",
+    "Pentavalent donors (As, Sb, P) give n-type; trivalent acceptors (In, B, Al) give p-type; crystal neutral",
+    "n<sub>e</sub>n<sub>h</sub> = n<sub>i</sub><sup>2</sup> and the 1 ppm numerical (5 × 10<sup>22</sup> electrons, 4.5 × 10<sup>9</sup> holes per m<sup>3</sup>)",
+    "Diffusion (majority carriers) versus drift (minority carriers), equal at equilibrium",
+    "Depletion region: − ions on p-side, + ions on n-side, about 0.1 μm, field from n to p",
+    "Barrier potential: n-side higher, 0.7 V Si, 0.3 V Ge; why slabs cannot be joined",
+    "Forward bias: p to positive, barrier V<sub>0</sub> − V, width decreases, mA current above cut-in",
+    "Reverse bias: n to positive, barrier V<sub>0</sub> + V, width increases, μA saturation current, breakdown at V<sub>br</sub>",
+    "V–I circuit (potentiometer, milliammeter or microammeter, voltmeter), labelled curve, r<sub>d</sub> = ΔV/ΔI",
+    "Half-wave rectifier: circuit, working, waveforms, f<sub>out</sub> = f<sub>in</sub>",
+    "Full-wave rectifier: centre tap, diodes same direction, load to the tap, alternate conduction, f<sub>out</sub> = 2f<sub>in</sub>",
+    "Capacitor filter: charges to the peak, discharges slowly, less ripple for large R<sub>L</sub>C"
+  ],
+  "videos": []
+}

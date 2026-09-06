@@ -1,0 +1,936 @@
+{
+  "class": 11,
+  "subject": "Physics",
+  "chapter_no": 3,
+  "slug": "motion-in-a-plane",
+  "title": "Motion in a Plane",
+  "summary": "This chapter builds the vector tools you need for every mechanics chapter that follows, then uses them to describe motion in two dimensions, ending in the two set-piece problems examiners love: projectile motion and uniform circular motion.",
+  "exam_profile": {
+    "weightage": "Class 11 has no board exam, but this chapter is a favourite in the school final (Unit: Kinematics carries a good share of marks) and every idea here — vector resolution, projectile range and height, centripetal acceleration — is reused directly in Class 12 boards, JEE and NEET.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Vector addition results, direction of resultant, nature of projectile motion, centripetal acceleration direction."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Statements about relative velocity, whether speed changes in circular motion, projectile at maximum height."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "State a law, give the unit vector formula, name the vector quantity involved in a scenario."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Derive time of flight or maximum height; find magnitude and direction of resultant of two vectors."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full projectile motion derivation with trajectory equation, or triangle/parallelogram law derivation with a numerical."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage on a real projectile (ball, missile, athlete) or a river-boat crossing, with four sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Parallelogram law of vector addition and the direction formula",
+      "Resolution of a vector into rectangular components",
+      "Projectile motion: time of flight, maximum height, horizontal range, and the trajectory equation",
+      "Relative velocity in two dimensions (rain-man and boat-river problems)",
+      "Uniform circular motion and centripetal acceleration",
+      "Unit vectors and vector addition by the analytical (component) method",
+      "Difference between scalar and vector quantities with correct examples"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "3.1–3.2 Introduction, Scalars and Vectors",
+      "pyq_years": [],
+      "body": "<p>In the previous chapter you described motion along a straight line, where + or − signs were enough to fix direction. Motion in a plane needs a full direction, not just a sign, so this chapter opens by sorting physical quantities into two families.</p><p>A <b>scalar</b> quantity has only magnitude: mass, distance, speed, temperature, work. It obeys the ordinary rules of algebra — you can add, subtract, multiply and divide scalars directly, but only if they have the same physical dimensions.</p><p>A <b>vector</b> quantity has both magnitude and direction, and it obeys a special rule of addition (the triangle/parallelogram law) that you will study in this chapter: displacement, velocity, acceleration, force, momentum. A vector is written as <b>A</b> and drawn as an arrow whose length (to scale) gives the magnitude |<b>A</b>| and whose arrowhead gives the direction. Two vectors are equal only if they have the same magnitude and the same direction — position does not matter, so a vector can be freely moved parallel to itself.</p><p>NCERT is careful to distinguish a vector from anything that merely has a direction: current in a wire has a direction but is a scalar, because it does not add by the vector law. Keep this distinction in mind — it is a favourite one-mark trap.</p>",
+      "formulas": [],
+      "tip": "If a quantity 'has direction' but adds like a plain number (current, pressure of area normal aside), it is not automatically a vector — check whether it obeys vector addition."
+    },
+    {
+      "heading": "3.3 Multiplication of Vectors by Real Numbers",
+      "pyq_years": [],
+      "body": "<p>Multiplying a vector <b>A</b> by a positive real number λ gives a new vector λ<b>A</b> whose magnitude is λ|<b>A</b>| and whose direction is the same as <b>A</b>. Multiplying by a negative number λ reverses the direction while scaling the magnitude by |λ|. Multiplying by zero gives the null vector <b>0</b>, which has zero magnitude and no specified direction.</p><p>This simple rule underlies two ideas you use constantly later: (i) a unit vector, obtained by dividing a vector by its own magnitude, Â = <b>A</b>/|<b>A</b>|, which has magnitude 1 and points in the direction of <b>A</b>; and (ii) writing any vector in a plane in terms of the standard unit vectors î (along x) and ĵ (along y) as <b>A</b> = A<sub>x</sub> î + A<sub>y</sub> ĵ.</p><p>If a physical quantity like mass (a positive scalar) multiplies a vector — for example, momentum <b>p</b> = m<b>v</b> — the result is still a vector, in the same direction as <b>v</b> (since mass is always positive) but with different physical dimensions and units.</p>",
+      "formulas": [
+        {
+          "expr": "Â = <b>A</b>/|<b>A</b>|",
+          "where": [
+            [
+              "Â",
+              "unit vector along A, magnitude 1, no units"
+            ],
+            [
+              "|<b>A</b>|",
+              "magnitude of A"
+            ]
+          ]
+        }
+      ],
+      "tip": "A unit vector only fixes direction — never write it with units."
+    },
+    {
+      "heading": "3.4 Addition and Subtraction of Vectors — Graphical Method",
+      "pyq_years": [],
+      "body": "<p>Two vectors are added by the <b>triangle law</b>: draw <b>A</b>, then draw <b>B</b> starting from the head of <b>A</b>; the resultant <b>R</b> = <b>A</b> + <b>B</b> is the vector from the tail of <b>A</b> to the head of <b>B</b>. The equivalent <b>parallelogram law</b> places <b>A</b> and <b>B</b> tail to tail; <b>R</b> is the diagonal of the parallelogram they form. Both give the same resultant, and vector addition is commutative, <b>A</b> + <b>B</b> = <b>B</b> + <b>A</b>, and associative, (<b>A</b> + <b>B</b>) + <b>C</b> = <b>A</b> + (<b>B</b> + <b>C</b>).</p><p>Subtraction is addition of the negative: <b>A</b> − <b>B</b> = <b>A</b> + (−<b>B</b>), where −<b>B</b> has the same magnitude as <b>B</b> but points opposite to it. Draw −<b>B</b> and add it to <b>A</b> by the triangle law.</p><p>For n vectors in sequence, the <b>polygon law</b> applies: draw each vector head to tail in turn; the resultant is the single vector from the start point to the final head. If the polygon closes on itself, the resultant is zero — this is a common way to test whether a set of forces or displacements is balanced.</p>",
+      "formulas": [],
+      "tip": "A closed vector polygon means the resultant is the null vector — useful for 'is the body in equilibrium' questions."
+    },
+    {
+      "heading": "3.5 Resolution of Vectors",
+      "pyq_years": [],
+      "body": "<p>Resolution is the reverse of addition: splitting one vector into two (or more) component vectors along chosen directions, usually mutually perpendicular x and y axes. If a vector <b>A</b> makes angle θ with the x-axis, its rectangular components are A<sub>x</sub> = A cosθ and A<sub>y</sub> = A sinθ, and the vector is written <b>A</b> = A<sub>x</sub> î + A<sub>y</sub> ĵ. The magnitude and direction are recovered from A = √(A<sub>x</sub><sup>2</sup> + A<sub>y</sub><sup>2</sup>) and tanθ = A<sub>y</sub>/A<sub>x</sub>.</p><p>Resolution is the single most useful tool in this chapter: every projectile and circular-motion problem is solved by resolving velocity or acceleration along two convenient perpendicular directions and treating each direction as independent one-dimensional motion.</p><p>In three dimensions the idea extends with a third unit vector k̂ along z, giving <b>A</b> = A<sub>x</sub> î + A<sub>y</sub> ĵ + A<sub>z</sub> k̂ and magnitude A = √(A<sub>x</sub><sup>2</sup> + A<sub>y</sub><sup>2</sup> + A<sub>z</sub><sup>2</sup>), though Class 11 numericals mostly stay in a plane.</p>",
+      "formulas": [
+        {
+          "expr": "A<sub>x</sub> = A cosθ, A<sub>y</sub> = A sinθ",
+          "where": [
+            [
+              "θ",
+              "angle the vector makes with the x-axis"
+            ]
+          ]
+        },
+        {
+          "expr": "A = √(A<sub>x</sub><sup>2</sup> + A<sub>y</sub><sup>2</sup>), tanθ = A<sub>y</sub>/A<sub>x</sub>",
+          "where": [
+            [
+              "A",
+              "magnitude of the vector"
+            ]
+          ]
+        }
+      ],
+      "tip": "Always sketch the vector and its components before writing equations — a wrong sign for A_x or A_y is the most common resolution mistake."
+    },
+    {
+      "heading": "3.6 Vector Addition — Analytical Method",
+      "pyq_years": [],
+      "body": "<p>The analytical method gives an exact formula instead of a scale drawing. For two vectors <b>A</b> and <b>B</b> with angle θ between them, complete the parallelogram: dropping a perpendicular from the head of <b>B</b> onto the extension of <b>A</b> and applying Pythagoras gives the magnitude of the resultant, and the tangent rule gives its direction β measured from <b>A</b>.</p><p><b>Derivation (asked for 3–5 marks):</b> Let OP represent <b>A</b> and OQ represent <b>B</b>, with angle θ between them; complete the parallelogram OPSQ so OS represents <b>R</b> = <b>A</b> + <b>B</b>. Drop a perpendicular from S to meet OP extended at N. In right triangle ONS, SN = B sinθ and PN = B cosθ. Then ON = OP + PN = A + B cosθ. By Pythagoras, OS<sup>2</sup> = ON<sup>2</sup> + SN<sup>2</sup> = (A + B cosθ)<sup>2</sup> + (B sinθ)<sup>2</sup>, which expands and simplifies to R<sup>2</sup> = A<sup>2</sup> + B<sup>2</sup> + 2AB cosθ, so R = √(A<sup>2</sup> + B<sup>2</sup> + 2AB cosθ). For direction, tanβ = SN/ON = B sinθ/(A + B cosθ).</p><p>Two convenient special cases are worth memorising: when θ = 90°, R = √(A<sup>2</sup> + B<sup>2</sup>); when the vectors are equal in magnitude and θ = 120°, R = A (a favourite MCQ trap).</p>",
+      "formulas": [
+        {
+          "expr": "R = √(A<sup>2</sup> + B<sup>2</sup> + 2AB cosθ)",
+          "where": [
+            [
+              "θ",
+              "angle between A and B"
+            ]
+          ]
+        },
+        {
+          "expr": "tanβ = B sinθ/(A + B cosθ)",
+          "where": [
+            [
+              "β",
+              "angle R makes with A"
+            ]
+          ]
+        }
+      ],
+      "tip": "For subtraction R = A − B, use the same formula with θ replaced by (180° − θ), since −B is B reversed."
+    },
+    {
+      "heading": "3.7 Motion in a Plane — Position, Displacement and Velocity",
+      "pyq_years": [],
+      "body": "<p>The position of a particle in the x-y plane at time t is given by the position vector <b>r</b>(t) = x(t) î + y(t) ĵ, drawn from the chosen origin. If the particle moves from P<sub>1</sub> (position <b>r</b><sub>1</sub>) to P<sub>2</sub> (position <b>r</b><sub>2</sub>) in time Δt, the <b>displacement</b> is Δ<b>r</b> = <b>r</b><sub>2</sub> − <b>r</b><sub>1</sub>, a vector along the straight line P<sub>1</sub>P<sub>2</sub> regardless of the actual path taken.</p><p>The <b>average velocity</b> is <b>v</b><sub>avg</sub> = Δ<b>r</b>/Δt, which is parallel to the displacement. The <b>instantaneous velocity</b> is the limit as Δt → 0, <b>v</b> = d<b>r</b>/dt; it is always tangent to the actual path at that point, and its magnitude is the instantaneous speed. In component form <b>v</b> = v<sub>x</sub> î + v<sub>y</sub> ĵ, with v<sub>x</sub> = dx/dt and v<sub>y</sub> = dy/dt, so the x and y motions can be treated completely independently — this independence is what makes projectile motion tractable.</p>",
+      "formulas": [
+        {
+          "expr": "Δ<b>r</b> = <b>r</b><sub>2</sub> − <b>r</b><sub>1</sub>, <b>v</b> = d<b>r</b>/dt",
+          "where": [
+            [
+              "<b>r</b>",
+              "position vector"
+            ],
+            [
+              "<b>v</b>",
+              "instantaneous velocity, tangent to the path"
+            ]
+          ]
+        }
+      ],
+      "tip": "Instantaneous velocity is tangent to the path, not along the position vector — a very common diagram-labelling error."
+    },
+    {
+      "heading": "3.8 Motion in a Plane with Constant Acceleration",
+      "pyq_years": [],
+      "body": "<p>When acceleration <b>a</b> is constant in both magnitude and direction, the x and y components of motion each obey the familiar straight-line kinematic equations independently, because <b>a</b> = a<sub>x</sub> î + a<sub>y</sub> ĵ with both components constant.</p><p>In vector form: <b>v</b> = <b>v</b><sub>0</sub> + <b>a</b>t and <b>r</b> = <b>r</b><sub>0</sub> + <b>v</b><sub>0</sub>t + ½<b>a</b>t<sup>2</sup>. Written out in components this is exactly two copies of the 1-D equations of motion running side by side, one along x and one along y, joined only by the common time variable t. This is the key idea the examiner is testing when a two-mark question asks you to 'justify that motion in a plane can be treated as two independent one-dimensional motions'.</p><p>Constant acceleration in 2-D covers two important special motions in this chapter: projectile motion (acceleration = g, vertically down, constant) and, as a contrast, uniform circular motion (acceleration constant in magnitude but continuously changing in direction, so it is not covered by this section's equations).</p>",
+      "formulas": [
+        {
+          "expr": "<b>v</b> = <b>v</b><sub>0</sub> + <b>a</b>t",
+          "where": [
+            [
+              "<b>v</b><sub>0</sub>",
+              "initial velocity vector"
+            ]
+          ]
+        },
+        {
+          "expr": "<b>r</b> = <b>r</b><sub>0</sub> + <b>v</b><sub>0</sub>t + ½<b>a</b>t<sup>2</sup>",
+          "where": [
+            [
+              "<b>r</b><sub>0</sub>",
+              "initial position vector"
+            ]
+          ]
+        }
+      ],
+      "tip": null
+    },
+    {
+      "heading": "3.9 Relative Velocity in Two Dimensions",
+      "pyq_years": [],
+      "body": "<p>The velocity of object A relative to object B is the vector <b>v</b><sub>AB</sub> = <b>v</b><sub>A</sub> − <b>v</b><sub>B</sub> — it is what an observer moving with B would measure A's velocity to be. This extends the 1-D idea from the previous chapter into a full vector subtraction, so it must be evaluated by the triangle or component method, not by ordinary subtraction of magnitudes.</p><p>The two classic setups are: (i) a person walking in the rain, where the rain's velocity relative to the person, <b>v</b><sub>rain,person</sub> = <b>v</b><sub>rain</sub> − <b>v</b><sub>person</sub>, decides the angle at which the person should hold the umbrella; and (ii) a boat crossing a river, where the boat's velocity relative to the ground is the vector sum of its velocity relative to the water and the water's velocity relative to the ground, <b>v</b><sub>boat,ground</sub> = <b>v</b><sub>boat,water</sub> + <b>v</b><sub>water,ground</sub>. Both are solved by drawing the vector triangle and applying resolution or the analytical formula from section 3.6.</p><p>Note the sign convention: <b>v</b><sub>AB</sub> = −<b>v</b><sub>BA</sub>. If two bodies move with equal velocity, their relative velocity is zero even though each has a non-zero velocity with respect to the ground.</p>",
+      "formulas": [
+        {
+          "expr": "<b>v</b><sub>AB</sub> = <b>v</b><sub>A</sub> − <b>v</b><sub>B</sub>",
+          "where": [
+            [
+              "<b>v</b><sub>AB</sub>",
+              "velocity of A as seen by an observer moving with B"
+            ]
+          ]
+        }
+      ],
+      "tip": "For the shortest-time river crossing, point the boat straight across (velocity relative to water perpendicular to the bank); for the shortest-path crossing, angle it upstream so the resultant is straight across."
+    },
+    {
+      "heading": "3.10 Projectile Motion",
+      "pyq_years": [],
+      "body": "<p>A projectile is a body given an initial velocity and then left to move under gravity alone (air resistance neglected). Take the point of projection as origin, with the projectile launched at speed u at angle θ above the horizontal. Resolve the initial velocity: u<sub>x</sub> = u cosθ (constant throughout, since gravity acts only vertically) and u<sub>y</sub> = u sinθ (changes under a = −g).</p><p><b>Trajectory:</b> x = (u cosθ)t and y = (u sinθ)t − ½gt<sup>2</sup>. Eliminating t gives the path equation y = x tanθ − gx<sup>2</sup>/(2u<sup>2</sup>cos<sup>2</sup>θ), which is of the form y = ax − bx<sup>2</sup>, a parabola — this is the standard 'derive the equation of trajectory and show it is a parabola' question.</p><p><b>Time of flight:</b> total time to return to the same horizontal level is when y = 0 (other than t = 0), giving T = 2u sinθ/g. <b>Maximum height:</b> reached when v<sub>y</sub> = 0, at t = T/2, giving H = u<sup>2</sup>sin<sup>2</sup>θ/2g. <b>Horizontal range:</b> R = (horizontal velocity) × (time of flight) = u<sup>2</sup>sin2θ/g, which is maximum at θ = 45°, and R is the same for complementary angles θ and (90° − θ).</p>",
+      "formulas": [
+        {
+          "expr": "y = x tanθ − gx<sup>2</sup>/(2u<sup>2</sup>cos<sup>2</sup>θ)",
+          "where": [
+            [
+              "θ",
+              "angle of projection"
+            ],
+            [
+              "u",
+              "speed of projection"
+            ]
+          ]
+        },
+        {
+          "expr": "T = 2u sinθ/g,  H = u<sup>2</sup>sin<sup>2</sup>θ/2g,  R = u<sup>2</sup>sin2θ/g",
+          "where": [
+            [
+              "T",
+              "time of flight"
+            ],
+            [
+              "H",
+              "maximum height"
+            ],
+            [
+              "R",
+              "horizontal range"
+            ]
+          ]
+        }
+      ],
+      "tip": "Range is maximum at θ = 45°; range is equal for θ and (90° − θ), but time of flight and maximum height are not equal for that pair — a common MCQ trap."
+    },
+    {
+      "heading": "3.11 Uniform Circular Motion",
+      "pyq_years": [],
+      "body": "<p>When a body moves in a circle of radius R at constant speed v, its velocity direction keeps changing even though its magnitude does not — so it is still accelerating. This acceleration is the <b>centripetal acceleration</b>, directed always towards the centre of the circle, magnitude a<sub>c</sub> = v<sup>2</sup>/R.</p><p><b>Derivation (asked for 3 marks):</b> Consider the particle at P at time t (velocity <b>v</b>) and at P′ at time t + Δt (velocity <b>v</b> + Δ<b>v</b>), the radius turning through a small angle Δθ = Δt·v/R. Since |<b>v</b>| is constant, the velocity vectors form an isosceles triangle with angle Δθ between them, so |Δ<b>v</b>| ≈ v Δθ for small Δθ. Then a = |Δ<b>v</b>|/Δt = v(Δθ/Δt) = v·(v/R) = v<sup>2</sup>/R, and in the limit Δt → 0 the direction of Δ<b>v</b>, and hence of <b>a</b>, becomes perpendicular to <b>v</b>, i.e. along the radius towards the centre.</p><p>The <b>angular speed</b> ω = v/R = 2π/T (T = period), so a<sub>c</sub> can also be written a<sub>c</sub> = ω<sup>2</sup>R = ωv. Because the acceleration is always perpendicular to the velocity, it changes only the direction of motion, never the speed — this is why the motion is called <i>uniform</i> circular motion.</p>",
+      "formulas": [
+        {
+          "expr": "a<sub>c</sub> = v<sup>2</sup>/R = ω<sup>2</sup>R = ωv",
+          "where": [
+            [
+              "a<sub>c</sub>",
+              "centripetal acceleration, directed towards the centre"
+            ],
+            [
+              "ω",
+              "angular speed = v/R = 2π/T"
+            ]
+          ]
+        }
+      ],
+      "tip": "Centripetal acceleration changes direction of velocity only, never its magnitude — stating 'speed changes' in an Assertion–Reason question is the classic wrong Reason."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Scalar",
+      "definition": "A physical quantity described completely by a magnitude (with unit) alone, e.g. mass, distance, speed, work."
+    },
+    {
+      "term": "Vector",
+      "definition": "A physical quantity with both magnitude and direction that adds by the triangle/parallelogram law, e.g. displacement, velocity, force."
+    },
+    {
+      "term": "Null (zero) vector",
+      "definition": "A vector with zero magnitude and no specified direction; arises when a vector is added to its own negative, e.g. displacement after returning to the start point."
+    },
+    {
+      "term": "Unit vector",
+      "definition": "A vector of magnitude 1 used only to specify direction; Â = A/|A|. î, ĵ, k̂ are the unit vectors along x, y, z."
+    },
+    {
+      "term": "Equal vectors",
+      "definition": "Two vectors with the same magnitude and the same direction; their point of application does not matter."
+    },
+    {
+      "term": "Position vector",
+      "definition": "The vector r = x î + y ĵ drawn from a chosen origin to the particle's location, giving its position at an instant."
+    },
+    {
+      "term": "Displacement",
+      "definition": "The vector Δr = r₂ − r₁ from the initial to the final position; independent of the path actually taken."
+    },
+    {
+      "term": "Average velocity",
+      "definition": "Displacement divided by the time interval, v_avg = Δr/Δt; a vector along the displacement."
+    },
+    {
+      "term": "Instantaneous velocity",
+      "definition": "The limiting value of average velocity as Δt → 0, v = dr/dt; always tangent to the path."
+    },
+    {
+      "term": "Relative velocity",
+      "definition": "The velocity of one body as measured by an observer moving with another body: v_AB = v_A − v_B."
+    },
+    {
+      "term": "Projectile",
+      "definition": "A body given an initial velocity and then allowed to move under gravity alone, following a parabolic path."
+    },
+    {
+      "term": "Time of flight",
+      "definition": "The total time a projectile stays in the air before returning to the launch height, T = 2u sinθ/g."
+    },
+    {
+      "term": "Horizontal range",
+      "definition": "The horizontal distance covered by a projectile during its time of flight, R = u²sin2θ/g, maximum at 45°."
+    },
+    {
+      "term": "Uniform circular motion",
+      "definition": "Motion in a circular path at constant speed; velocity direction keeps changing so the motion is still accelerated."
+    },
+    {
+      "term": "Centripetal acceleration",
+      "definition": "The acceleration of a body in circular motion, directed towards the centre of the circle, magnitude v²/R, that changes only the direction of velocity."
+    },
+    {
+      "term": "Angular speed",
+      "definition": "The rate of change of angle swept by the radius vector, ω = v/R = 2π/T, unit rad s⁻¹."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Unit vector",
+      "expr": "Â = A/|A|",
+      "note": "magnitude 1, gives direction only"
+    },
+    {
+      "name": "Resolution of a vector",
+      "expr": "A_x = A cosθ, A_y = A sinθ",
+      "note": "θ measured from the x-axis"
+    },
+    {
+      "name": "Magnitude from components",
+      "expr": "A = √(A_x² + A_y²), tanθ = A_y/A_x",
+      "note": "recovers magnitude and direction"
+    },
+    {
+      "name": "Resultant of two vectors (analytical)",
+      "expr": "R = √(A² + B² + 2AB cosθ)",
+      "note": "θ = angle between A and B"
+    },
+    {
+      "name": "Direction of resultant",
+      "expr": "tanβ = B sinθ/(A + B cosθ)",
+      "note": "β measured from A"
+    },
+    {
+      "name": "Equations of motion (vector form, constant a)",
+      "expr": "v = v₀ + at, r = r₀ + v₀t + ½at²",
+      "note": "each component obeys the 1-D equations independently"
+    },
+    {
+      "name": "Relative velocity",
+      "expr": "v_AB = v_A − v_B",
+      "note": "velocity of A as seen from B"
+    },
+    {
+      "name": "Trajectory of a projectile",
+      "expr": "y = x tanθ − gx²/(2u²cos²θ)",
+      "note": "a parabola; u = speed, θ = angle of projection"
+    },
+    {
+      "name": "Time of flight",
+      "expr": "T = 2u sinθ/g",
+      "note": "for launch and landing at the same level"
+    },
+    {
+      "name": "Maximum height",
+      "expr": "H = u²sin²θ/2g",
+      "note": "reached at t = T/2"
+    },
+    {
+      "name": "Horizontal range",
+      "expr": "R = u²sin2θ/g",
+      "note": "maximum at θ = 45°; equal for θ and (90°−θ)"
+    },
+    {
+      "name": "Centripetal acceleration",
+      "expr": "a_c = v²/R = ω²R = ωv",
+      "note": "directed towards the centre; ω = v/R = 2π/T"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Parallelogram law of vector addition",
+      "how_to_draw": "Draw OP = A and OQ = B from the same point O with angle θ between them; complete the parallelogram OPSQ; draw diagonal OS = R. Drop a perpendicular from S onto OP extended, meeting it at N, and label ON, SN, and angle β at O — these labels are exactly what the derivation of R = √(A²+B²+2AB cosθ) uses."
+    },
+    {
+      "title": "Trajectory of a projectile",
+      "how_to_draw": "Draw a horizontal ground line, launch point O, and a smooth parabolic path rising to a peak and coming back down. Mark the initial velocity u at angle θ to the horizontal with its components u cosθ (horizontal, shown constant all along the path) and u sinθ (vertical, shown shrinking to zero at the peak). Label the peak as maximum height H, and the landing point at horizontal distance R (range), with T (time of flight) noted below the axis."
+    },
+    {
+      "title": "Uniform circular motion — centripetal acceleration",
+      "how_to_draw": "Draw a circle of radius R with centre O. Mark a particle at point P with velocity vector v drawn tangent to the circle (perpendicular to the radius OP). Draw the acceleration vector a_c at P pointing from P straight towards O, and label it clearly as radial/centripetal, perpendicular to v. Optionally show a second point P′ close to P with its velocity v + Δv to justify the direction of Δv turning inward."
+    },
+    {
+      "title": "River-boat relative velocity triangle",
+      "how_to_draw": "Draw the river banks as two parallel horizontal lines. Draw v_water,ground as a horizontal arrow (flow direction) and v_boat,water as an arrow at the angle the boat is steered. Complete the vector triangle to get v_boat,ground as the third side, and mark the angle it makes with the bank — this is the diagram examiners want for both 'shortest time' and 'shortest path' crossing questions."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "3.1",
+      "q": "State, with reasons, whether the following algebraic operations with scalar and vector physical quantities are meaningful: (a) adding any two scalars, (b) adding a scalar to a vector of the same dimensions, (c) multiplying any vector by any scalar, (d) multiplying any two scalars, (e) adding any two vectors, (f) adding a component of a vector to the same vector.",
+      "a": "<p>(a) Not meaningful in general — only scalars of the same dimensions can be added (5 kg + 7 kg is fine, 5 kg + 7 m is not).<br>(b) Not meaningful — a scalar and a vector are different types of quantities and cannot be added even if their dimensions match.<br>(c) Meaningful — multiplying a vector by a scalar always gives a vector (e.g. mass × velocity = momentum), though the physical meaning must make sense.<br>(d) Meaningful, provided the scalars represent quantities that can be combined (e.g. multiplying speed by time gives distance).<br>(e) Meaningful only if the two vectors represent the same physical quantity (e.g. two velocities can be added; a velocity and a force cannot).<br>(f) Meaningful — a component of a vector is itself a vector of the same kind, so it can be added to the original vector.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.3",
+      "q": "A motorist drives north for 30 minutes at 25 km/h and then turns west and travels 20 minutes at 45 km/h. What is the average speed and velocity for this trip?",
+      "a": "<p>Distance north = 25 × (30/60) = 12.5 km. Distance west = 45 × (20/60) = 15 km. Total path length = 12.5 + 15 = 27.5 km. Total time = 50 min = 5/6 h.<br>Average speed = 27.5/(5/6) = 33 km/h.<br>Displacement (straight line from start to end) = √(12.5<sup>2</sup> + 15<sup>2</sup>) = √(156.25 + 225) = √381.25 ≈ 19.5 km, directed north-of-west at angle tan<sup>−1</sup>(12.5/15) ≈ 39.8° from west (i.e. roughly W 40° N).<br>Average velocity = 19.5/(5/6) ≈ 23.4 km/h in that direction.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.10",
+      "q": "A cyclist starts from the centre O of a circular park of radius 1 km, reaches the edge P of the park, then cycles along the circumference, and returns to the centre along QO as shown (OP, then P to Q a quarter circle, then QO), each stage in 10 minutes. What is the (a) net displacement, (b) average velocity, and (c) average speed for each stage and for the entire trip?",
+      "a": "<p><b>Stage OP:</b> displacement = 1 km (straight, radius); distance = 1 km; time = 10 min = 1/6 h. Average velocity = 1/(1/6) = 6 km/h; average speed = 6 km/h.<br><b>Stage PQ (quarter circle):</b> displacement = straight line PQ = R√2 = 1.414 km at 45° to OP; distance = quarter circumference = (2πR)/4 = π/2 ≈ 1.571 km; time = 1/6 h. Average velocity = 1.414/(1/6) ≈ 8.49 km/h along PQ; average speed = 1.571/(1/6) ≈ 9.42 km/h.<br><b>Stage QO:</b> displacement = 1 km; distance = 1 km; time = 1/6 h. Average velocity = 6 km/h; average speed = 6 km/h.<br><b>Whole trip:</b> net displacement = 0 (cyclist returns to O), so average velocity = 0. Total distance = 1 + 1.571 + 1 = 3.571 km in total time 30 min = 0.5 h, so average speed = 3.571/0.5 ≈ 7.14 km/h.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "3.15",
+      "q": "For any two vectors A and B, show that |A + B| ≤ |A| + |B|.",
+      "a": "<p>Let θ be the angle between A and B. By the analytical formula, |A + B| = √(A<sup>2</sup> + B<sup>2</sup> + 2AB cosθ). Since cosθ ≤ 1 for all θ, A<sup>2</sup> + B<sup>2</sup> + 2AB cosθ ≤ A<sup>2</sup> + B<sup>2</sup> + 2AB = (A + B)<sup>2</sup>. Taking square roots (both sides non-negative), |A + B| ≤ A + B = |A| + |B|. Equality holds only when θ = 0, i.e. when A and B are parallel.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.16",
+      "q": "For any two vectors A and B, show that |A − B| ≤ |A| + |B|. When does the equality sign apply?",
+      "a": "<p>Write A − B = A + (−B); the angle between A and (−B) is (180° − θ) if θ is the angle between A and B. Using |A + (−B)| = √(A<sup>2</sup> + B<sup>2</sup> − 2AB cosθ). Since −2AB cosθ ≤ 2AB (because cosθ ≥ −1), A<sup>2</sup> + B<sup>2</sup> − 2AB cosθ ≤ (A + B)<sup>2</sup>, so |A − B| ≤ |A| + |B|. Equality holds when θ = 180°, i.e. A and B are anti-parallel.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.20",
+      "q": "A cricket ball is thrown at a speed of 28 m/s in a direction 30° above the horizontal. Calculate (a) the maximum height, (b) the time taken by the ball to return to the same level, and (c) the distance from the thrower to the point where the ball returns to the same level.",
+      "a": "<p>u = 28 m/s, θ = 30°, g = 9.8 m/s<sup>2</sup>. sin30° = 0.5, cos30° = 0.866.<br>(a) H = u<sup>2</sup>sin<sup>2</sup>θ/2g = (28<sup>2</sup> × 0.25)/(2 × 9.8) = (784 × 0.25)/19.6 = 196/19.6 = 10 m.<br>(b) T = 2u sinθ/g = (2 × 28 × 0.5)/9.8 = 28/9.8 ≈ 2.86 s.<br>(c) R = u<sup>2</sup>sin2θ/g = (784 × sin60°)/9.8 = (784 × 0.866)/9.8 ≈ 679.1/9.8 ≈ 69.3 m.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "3.23",
+      "q": "Read each statement below carefully and state, with reasons, if it is true or false: (a) The net acceleration of a particle in circular motion is always along the radius of the circle towards the centre. (b) The velocity vector of a particle at a point is always along the tangent to the path of the particle at that point. (c) The acceleration vector of a particle in uniform circular motion averaged over one cycle is a null vector.",
+      "a": "<p>(a) False — this is true only for uniform circular motion. If the speed also changes, there is an additional tangential component of acceleration, so the net acceleration is not purely radial.<br>(b) True — instantaneous velocity is always tangent to the path, by definition of the derivative of the position vector.<br>(c) True — over one full cycle the centripetal acceleration vector points radially inward at every instant, sweeping through all directions symmetrically, so its vector average over the cycle is zero.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.24",
+      "q": "A boy travelling in an open car moving with a constant speed of 10 m/s throws a ball in the backward direction so that, for an observer on the ground, the ball drops vertically downward. Find the speed of the ball with respect to the car and the angle at which it was thrown (relative to the direction of motion of the car).",
+      "a": "<p>For the ball to fall straight down as seen from the ground, its horizontal velocity (as seen from the ground) must be zero. Since the ball is thrown backward from the car, the ball's velocity relative to the ground = velocity relative to car + velocity of car. For the horizontal component to cancel, the horizontal component of the ball's velocity relative to the car must be 10 m/s backward, equal and opposite to the car's speed.<br>So, relative to the car, the ball is thrown backward with its horizontal component = 10 m/s. If thrown purely horizontally backward (angle 180° to the car's motion), speed relative to car = 10 m/s.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.29",
+      "q": "A police van moving on a highway with a speed of 30 km/h fires a bullet at a thief's car speeding away in the same direction with a speed of 192 km/h. If the muzzle speed of the bullet is 150 m/s, with what speed does the bullet hit the thief's car?",
+      "a": "<p>Convert to m/s: van speed = 30 km/h = 8.33 m/s; car speed = 192 km/h = 53.33 m/s.<br>Speed of bullet relative to ground = speed of van + muzzle speed = 8.33 + 150 = 158.33 m/s (bullet fired in the direction of motion of both vehicles).<br>Speed of bullet relative to the thief's car = speed of bullet (ground) − speed of car (ground) = 158.33 − 53.33 = 105 m/s.<br>So the bullet hits the thief's car at 105 m/s.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "3.6",
+      "q": "A vector has magnitude and direction. Does it have a location in space? Can it vary with time? Will two equal vectors A and B at different locations in space necessarily have identical physical effects? Give examples in support of your answer.",
+      "a": "<p>A vector, as a mathematical object, has no fixed location — it can be freely translated to any point in space, as only magnitude and direction matter for equality. A vector can certainly vary with time, e.g. the velocity of an accelerating particle.<br>However, two equal vectors at different locations need not have identical physical effects. For example, two equal forces of the same magnitude and direction, applied at different points on a rigid body, can produce different torques (turning effects) about a given axis, even though the force vectors themselves are equal.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.11",
+      "q": "Rain is falling vertically with a speed of 35 m/s. A woman rides a bicycle with a speed of 12 m/s in the east to west direction. What is the direction in which she should hold her umbrella?",
+      "a": "<p>Take east as positive x, up as positive y (or draw a simple diagram). Rain's velocity relative to ground: v_rain = 35 m/s downward. Woman's velocity relative to ground: v_woman = 12 m/s west.<br>Rain's velocity relative to woman: v_rain,woman = v_rain − v_woman = 35 m/s down + 12 m/s east (since −v_woman is 12 m/s east, opposite to her westward motion).<br>Magnitude = √(35<sup>2</sup> + 12<sup>2</sup>) = √(1225+144) = √1369 = 37 m/s.<br>Angle with the vertical: tanθ = 12/35, θ = tan<sup>−1</sup>(12/35) ≈ 18.9°.<br>She should hold the umbrella tilted at about 19° from the vertical, towards the east (tilted forward, into the direction she is riding), i.e. towards the west-facing side... more precisely, tilted towards the east side since the rain appears to come slanting from the east relative to her motion west. (Direction: tilt the umbrella toward the east, i.e. in front of her direction of motion.)</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Two vectors of equal magnitude A are inclined at an angle of 120° to each other. The magnitude of their resultant is:",
+      "options": [
+        "2A",
+        "A",
+        "A/2",
+        "A√2"
+      ],
+      "answer": "b",
+      "solution": "R = √(A²+A²+2A²cos120°) = √(2A² − A²) = √A² = A."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A particle moves in a circle of radius r with constant speed v. Which of the following statements is correct?",
+      "options": [
+        "Its velocity and acceleration are both constant",
+        "Its velocity is constant but acceleration changes",
+        "Its speed is constant but velocity changes",
+        "Its acceleration is zero"
+      ],
+      "answer": "c",
+      "solution": "In uniform circular motion the speed (magnitude of velocity) is constant, but the direction of velocity keeps changing, so velocity as a vector is not constant."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "For a projectile launched at angle θ to the horizontal, the horizontal range is the same for angles:",
+      "options": [
+        "θ and (45° − θ)",
+        "θ and (90° − θ)",
+        "θ and (180° − θ)",
+        "θ and (θ/2)"
+      ],
+      "answer": "b",
+      "solution": "R = u²sin2θ/g; sin2θ = sin(2(90°−θ)) = sin(180°−2θ) = sin2θ, so range is identical for complementary angles θ and (90°−θ)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A body is moving with a velocity of 10 î + 5 ĵ m/s. Its speed is:",
+      "options": [
+        "15 m/s",
+        "√125 m/s",
+        "5 m/s",
+        "10 m/s"
+      ],
+      "answer": "b",
+      "solution": "Speed = √(10² + 5²) = √125 ≈ 11.2 m/s."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is a vector quantity?",
+      "options": [
+        "Electric current",
+        "Work done",
+        "Impulse",
+        "Kinetic energy"
+      ],
+      "answer": "c",
+      "solution": "Impulse = change in momentum, a vector; current, work and kinetic energy are scalars."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "At the highest point of a projectile's path (launched at angle θ ≠ 90°), the acceleration is:",
+      "options": [
+        "Zero",
+        "Horizontal, equal to g",
+        "Vertically downward, equal to g",
+        "Along the direction of velocity"
+      ],
+      "answer": "c",
+      "solution": "Gravity acts throughout the flight, constant at g vertically downward, even though the vertical velocity is momentarily zero at the top."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Two vectors A and B are such that A + B = A − B. This is possible only when:",
+      "options": [
+        "A = B",
+        "B = 0",
+        "A = 0",
+        "Neither A nor B is zero but they are perpendicular"
+      ],
+      "answer": "b",
+      "solution": "A + B = A − B ⇒ 2B = 0 ⇒ B is the null vector."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): In uniform circular motion, the speed of the particle remains constant. Reason (R): The centripetal acceleration is always perpendicular to the velocity of the particle.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Because acceleration is always perpendicular to velocity, it changes only direction, not magnitude — so speed stays constant. R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The horizontal range of a projectile is maximum when it is projected at 45° to the horizontal. Reason (R): At 45°, the time of flight and the horizontal velocity are both individually maximum.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is correct (R = u²sin2θ/g is maximum at θ = 45° since sin2θ = 1). But R is false: neither time of flight nor horizontal velocity is individually maximum at 45° — time of flight is maximum at θ = 90° and horizontal velocity is maximum at θ = 0°."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A scalar quantity can never be negative. Reason (R): Scalars have only magnitude and no direction.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is false but R is true",
+        "A is true but R is false"
+      ],
+      "answer": "c",
+      "solution": "Assertion is false — scalars like temperature in Celsius, work done, or charge can be negative. Reason is true (scalars have magnitude and sign but no direction)."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define a null vector. Give two situations in physics where a null vector arises.",
+      "answer": "<p>A null vector is a vector with zero magnitude and no specified (or arbitrary) direction. It arises, for example, (i) as the resultant velocity of a body that returns to its starting point after a round trip (net displacement is zero), and (ii) when a vector is added to its own negative, A + (−A) = 0.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is it that at the same speed, a cyclist has to lean more while turning on a curve than a car does?",
+      "answer": "<p>For safe circular motion, a net centripetal force (v²/R times mass) must act towards the centre. In a car, this is largely provided by the friction between the wide, low tyres and the road without the car needing to tilt much. A cyclist has a narrow wheel base and must lean the whole body inward so that a component of the normal reaction/gravity supplies the required centripetal force and keeps the bicycle from toppling outward — the tighter the turn or the higher the speed, the greater the lean needed.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Two vectors A and B are perpendicular to each other. What is the magnitude of their resultant if |A| = 3 units and |B| = 4 units?",
+      "answer": "<p>Since θ = 90°, R = √(A²+B²+2AB cos90°) = √(A²+B²) = √(9+16) = √25 = 5 units.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Can two vectors of unequal magnitude add up to give the zero vector? Can three vectors do so? Explain briefly.",
+      "answer": "<p>Two vectors of unequal magnitude can never add to zero, because for the sum to vanish they would need to be equal in magnitude and opposite in direction — a contradiction. Three vectors of suitable (possibly unequal) magnitudes can add to zero if they form a closed triangle when placed head to tail — this is the basis of the triangle law being used to check equilibrium of three coplanar forces.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Show that for a projectile, the horizontal range is the same for two angles of projection θ and (90° − θ), for the same initial speed.",
+      "answer": "<p>R(θ) = u²sin2θ/g. For angle (90°−θ): R(90°−θ) = u²sin(2(90°−θ))/g = u²sin(180°−2θ)/g. Since sin(180°−x) = sinx, this equals u²sin2θ/g = R(θ). So the range is identical for the pair of complementary angles, though the maximum height and time of flight differ (the steeper angle gives greater height and longer flight time, the flatter one the opposite).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A boat is moving with a velocity 3 î + 4 ĵ (km/h) relative to the ground. The water in the river is flowing with a velocity −3 î − 4 ĵ (km/h) relative to the ground. What is the relative velocity of the boat with respect to the water?",
+      "answer": "<p>v_boat,water = v_boat − v_water = (3 î + 4 ĵ) − (−3 î − 4 ĵ) = 6 î + 8 ĵ km/h. Magnitude = √(6²+8²) = √(36+64) = √100 = 10 km/h, directed at tan<sup>−1</sup>(8/6) = tan<sup>−1</sup>(4/3) ≈ 53° from the x-axis.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Derive an expression for the maximum height attained by a projectile launched with speed u at angle θ to the horizontal.",
+      "answer": "<p>Taking vertically upward as positive, the vertical component of initial velocity is u sinθ and vertical acceleration is −g. At maximum height the vertical velocity is zero. Using v² = u² − 2gh with v = 0 for the vertical motion: 0 = (u sinθ)² − 2gH, so H = u²sin²θ/2g.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A stone is tied to a string of length L and whirled in a horizontal circle at constant speed v. If the string breaks, in which direction does the stone fly off, and why?",
+      "answer": "<p>The stone flies off along the tangent to the circle at the point where the string breaks, in the direction of its instantaneous velocity at that instant. This is because, once the string (which was supplying the centripetal force) breaks, there is no more net radial force on the stone; by Newton's first law it continues in a straight line along the direction of its velocity at the moment of release, which is tangential to the circle.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the equation of the trajectory of a projectile launched with speed u at angle θ to the horizontal, and show that the path is a parabola. Hence derive expressions for the time of flight and the horizontal range.",
+      "answer": "<p>Take the point of projection as origin, x horizontal and y vertical (upward positive). Initial velocity components: u_x = u cosθ, u_y = u sinθ. Since there is no horizontal acceleration: x = (u cosθ)t ⇒ t = x/(u cosθ). Vertical motion under gravity: y = (u sinθ)t − ½gt². Substituting t: y = (u sinθ)·x/(u cosθ) − ½g·x²/(u²cos²θ) = x tanθ − gx²/(2u²cos²θ). This is of the form y = ax − bx² with a and b constants, the equation of a parabola.<br>Time of flight: set y = 0 (other than t=0): 0 = (u sinθ)t − ½gt² ⇒ t[(u sinθ) − ½gt] = 0 ⇒ t = 2u sinθ/g = T.<br>Horizontal range: R = u_x × T = (u cosθ)(2u sinθ/g) = u²(2 sinθ cosθ)/g = u²sin2θ/g.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "State the triangle law of vector addition. Using it, derive an expression for the magnitude and direction of the resultant of two vectors A and B inclined at angle θ to each other.",
+      "answer": "<p><b>Triangle law:</b> if two vectors are represented in magnitude and direction by the two sides of a triangle taken in order, their resultant is represented by the third side of the triangle taken in the reverse order.<br><b>Derivation:</b> Let OP = A and PS = B (angle between A and the extension of OP is θ, or equivalently place OP = A and OQ = B at angle θ, complete parallelogram OPSQ, PS is parallel and equal to OQ = B). OS = R = A + B. Drop perpendicular SN from S to OP extended. In triangle ONS, SN = B sinθ, PN = B cosθ, so ON = OP + PN = A + B cosθ.<br>By Pythagoras in triangle ONS: OS² = ON² + SN² = (A + B cosθ)² + (B sinθ)² = A² + 2AB cosθ + B²cos²θ + B²sin²θ = A² + B² + 2AB cosθ.<br>So R = √(A² + B² + 2AB cosθ).<br>Direction: in triangle ONS, tanβ = SN/ON = B sinθ/(A + B cosθ), where β is the angle R makes with A.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the expression for centripetal acceleration for a particle moving with constant speed v in a circle of radius R, and explain why this acceleration does not change the speed of the particle.",
+      "answer": "<p>Let the particle be at P at time t with velocity v (tangential, perpendicular to radius OP) and at P′ at time t+Δt with velocity v+Δv, having swept a small angle Δθ = (v/R)Δt at the centre. Since the speed |v| is unchanged, the vector diagram of v and v+Δv forms an isosceles triangle with the angle between them equal to Δθ.<br>For small Δθ, the chord |Δv| ≈ v·Δθ (arc ≈ chord for small angles). So average acceleration = |Δv|/Δt = v(Δθ/Δt) = v · (v/R) = v²/R.<br>As Δt → 0, Δθ → 0 and the direction of Δv (and hence of a) becomes perpendicular to v, i.e. directed along the radius towards the centre O — hence centripetal ('centre-seeking') acceleration, a_c = v²/R.<br>Because this acceleration is always perpendicular to the velocity, its component along the direction of motion is zero, so it does no work in changing the speed — it only bends the path, continuously changing the direction of v while |v| stays constant.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A ball is thrown from the top of a tower with an initial speed of 20 m/s at an angle of 30° above the horizontal, in the same style as a typical projectile problem, and lands on level ground after travelling for some time under gravity (g = 10 m/s²; ignore air resistance).<br>(i) Find the horizontal and vertical components of the initial velocity.<br>(ii) Find the time taken to reach the maximum height (measured from the point of projection, i.e. treating the path above the launch level).<br>(iii) Find the maximum height risen above the point of projection.<br>(iv) State how the horizontal component of velocity changes during the flight, and why.",
+      "answer": "<p>(i) u_x = u cosθ = 20 × cos30° = 20 × 0.866 = 17.3 m/s; u_y = u sinθ = 20 × sin30° = 20 × 0.5 = 10 m/s.<br>(ii) Time to reach the highest point (relative to launch) t = u_y/g = 10/10 = 1 s.<br>(iii) H = u_y²/2g = 10²/(2×10) = 100/20 = 5 m above the point of projection.<br>(iv) The horizontal component stays constant at 17.3 m/s throughout the flight, because gravity acts only vertically and there is no horizontal force (air resistance neglected), so there is no horizontal acceleration.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A satellite-tracking student models a small object moving in a horizontal circle of radius 2 m at a constant speed of 4 m/s on a laboratory turntable, to study uniform circular motion.<br>(i) Calculate the centripetal acceleration of the object.<br>(ii) Calculate the angular speed ω of the object.<br>(iii) If the speed were doubled while the radius stayed the same, by what factor would the centripetal acceleration change?<br>(iv) Is the object's velocity constant? Justify.",
+      "answer": "<p>(i) a_c = v²/R = 4²/2 = 16/2 = 8 m/s².<br>(ii) ω = v/R = 4/2 = 2 rad/s.<br>(iii) a_c ∝ v² (for fixed R), so doubling v increases a_c by a factor of 2² = 4.<br>(iv) No — although the speed (4 m/s) is constant, the direction of velocity changes continuously as the object goes around the circle, so the velocity vector is not constant; only its magnitude is.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "A vector A points along the positive x-axis and vector B along the positive y-axis. The angle between A and B is:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer_index": 2,
+      "explanation": "The x and y axes are mutually perpendicular, so the angle between the vectors is 90°."
+    },
+    {
+      "q": "The minimum number of unequal coplanar vectors whose sum can be zero is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "1"
+      ],
+      "answer_index": 1,
+      "explanation": "Two unequal vectors can never cancel exactly; three vectors of suitable magnitude and direction can form a closed triangle and sum to zero."
+    },
+    {
+      "q": "If |A + B| = |A| + |B|, the angle between A and B is:",
+      "options": [
+        "90°",
+        "180°",
+        "0°",
+        "60°"
+      ],
+      "answer_index": 2,
+      "explanation": "Equality in the triangle inequality |A+B| ≤ |A|+|B| holds only when the vectors are parallel, i.e. θ = 0°."
+    },
+    {
+      "q": "A projectile is fired with speed u at 60° to the horizontal. Its speed at the highest point is:",
+      "options": [
+        "u",
+        "u cos60° = u/2",
+        "u sin60°",
+        "zero"
+      ],
+      "answer_index": 1,
+      "explanation": "At the highest point only the horizontal component u cosθ survives; the vertical component is zero."
+    },
+    {
+      "q": "Two projectiles are launched with the same speed at angles 30° and 60° to the horizontal. The ratio of their horizontal ranges is:",
+      "options": [
+        "1 : 2",
+        "1 : 1",
+        "1 : √3",
+        "2 : 1"
+      ],
+      "answer_index": 1,
+      "explanation": "30° and 60° are complementary angles, so both give the same range R = u²sin2θ/g."
+    },
+    {
+      "q": "A particle moves in a circle at constant speed. The angle between its velocity vector and its acceleration vector is always:",
+      "options": [
+        "0°",
+        "45°",
+        "90°",
+        "180°"
+      ],
+      "answer_index": 2,
+      "explanation": "Centripetal acceleration is always perpendicular (radial) to velocity (which is tangential) in uniform circular motion."
+    },
+    {
+      "q": "A body has velocity components v_x = 4 m/s and v_y = 3 m/s. Its direction makes an angle with the x-axis equal to:",
+      "options": [
+        "30°",
+        "37°",
+        "45°",
+        "53°"
+      ],
+      "answer_index": 1,
+      "explanation": "tanθ = v_y/v_x = 3/4 = 0.75, and tan37° ≈ 0.75, so θ ≈ 37°."
+    },
+    {
+      "q": "The resultant of two equal vectors of magnitude A acting at 60° to each other has magnitude:",
+      "options": [
+        "A",
+        "A√2",
+        "A√3",
+        "2A"
+      ],
+      "answer_index": 2,
+      "explanation": "R = √(A²+A²+2A²cos60°) = √(2A²+A²) = √(3A²) = A√3."
+    },
+    {
+      "q": "A stone is thrown horizontally from the top of a tower. Which of its velocity components remains constant during the flight (ignoring air resistance)?",
+      "options": [
+        "Vertical component",
+        "Horizontal component",
+        "Both",
+        "Neither"
+      ],
+      "answer_index": 1,
+      "explanation": "Gravity accelerates the vertical component only; the horizontal component is unaffected and stays constant."
+    },
+    {
+      "q": "The period of revolution of a particle in uniform circular motion of radius R and speed v is:",
+      "options": [
+        "2πR/v",
+        "2πv/R",
+        "πR/v",
+        "R/2πv"
+      ],
+      "answer_index": 0,
+      "explanation": "T = circumference/speed = 2πR/v."
+    },
+    {
+      "q": "A vector A = 3î + 4ĵ. The unit vector along A is:",
+      "options": [
+        "3î + 4ĵ",
+        "(3î + 4ĵ)/5",
+        "(3î + 4ĵ)/7",
+        "(3î + 4ĵ)/25"
+      ],
+      "answer_index": 1,
+      "explanation": "|A| = √(9+16) = 5, so Â = A/5 = (3î+4ĵ)/5."
+    },
+    {
+      "q": "If the angle of projection is increased from 0° towards 90° (speed fixed), the time of flight of the projectile:",
+      "options": [
+        "decreases continuously",
+        "increases continuously",
+        "first increases, then decreases",
+        "remains constant"
+      ],
+      "answer_index": 1,
+      "explanation": "T = 2u sinθ/g increases monotonically with θ over 0° to 90°, reaching its maximum at θ = 90°."
+    },
+    {
+      "q": "Rain falls vertically at speed v_r. A cyclist moves horizontally at speed v_c. The rain appears to the cyclist to fall at an angle to the vertical given by:",
+      "options": [
+        "tan⁻¹(v_r/v_c)",
+        "tan⁻¹(v_c/v_r)",
+        "sin⁻¹(v_c/v_r)",
+        "tan⁻¹(v_c·v_r)"
+      ],
+      "answer_index": 1,
+      "explanation": "Relative velocity of rain w.r.t. cyclist has vertical component v_r and horizontal component v_c, so the angle from vertical is tan⁻¹(v_c/v_r)."
+    },
+    {
+      "q": "Which pair of quantities are both vectors?",
+      "options": [
+        "Speed and distance",
+        "Displacement and momentum",
+        "Work and energy",
+        "Mass and time"
+      ],
+      "answer_index": 1,
+      "explanation": "Displacement and momentum both have direction and add vectorially; the other pairs listed are scalars."
+    },
+    {
+      "q": "A body moving in a circle with increasing speed has an acceleration that is:",
+      "options": [
+        "Purely centripetal (radial)",
+        "Purely tangential",
+        "Zero",
+        "A combination of radial and tangential components"
+      ],
+      "answer_index": 3,
+      "explanation": "If speed changes, there is a tangential acceleration in addition to the centripetal (radial) acceleration; the net acceleration has both components."
+    }
+  ],
+  "common_mistakes": [
+    "Adding vector magnitudes arithmetically (like scalars) instead of using the parallelogram/triangle law with the angle between them.",
+    "Confusing displacement with distance travelled — displacement is a vector along the straight line from start to end, distance is the total path length (a scalar).",
+    "Assuming velocity in circular motion is constant just because speed is constant — velocity is a vector and its direction keeps changing.",
+    "Forgetting that the horizontal component of a projectile's velocity is constant throughout the flight and only the vertical component changes.",
+    "Believing that range is maximum and time of flight is also maximum at 45° — time of flight is actually maximum at 90° (straight up), not 45°.",
+    "Writing the direction of instantaneous velocity as along the position vector instead of tangent to the path.",
+    "Sign errors while resolving vectors into components — not checking which quadrant the angle lies in before writing cosθ/sinθ.",
+    "In relative velocity problems, subtracting magnitudes directly instead of subtracting the vectors and then finding the magnitude of the resultant."
+  ],
+  "strategy": "<p>This chapter is 80% technique and 20% memorising results, so spend your first pass making sure you can resolve any vector into components and add two vectors by the analytical formula without looking it up — everything else in the chapter, including projectile motion and circular motion, is just this technique applied to a specific situation.</p><p>Memorise the three projectile results (T, H, R) along with the one-line derivation of each from y = x tanθ − gx²/(2u²cos²θ), since boards and competitive exams both like to ask for the derivation, not just the formula. For circular motion, be able to derive a_c = v²/R from the small-angle argument, and remember it changes direction only, not speed.</p><p>Relative velocity problems (rain-man, boat-river) are really just vector subtraction dressed up as a word problem — draw the vector triangle first, then solve. Do at least four to five numericals of each of the three big types (vector addition, projectile, relative velocity) so the pattern becomes automatic; that is what most exam questions from this chapter test.</p>",
+  "revision_checklist": [
+    "Can state the difference between a scalar and a vector with two examples each",
+    "Can define a unit vector and write Â = A/|A|",
+    "Can state and use the triangle and parallelogram laws of vector addition",
+    "Can resolve a vector into rectangular components, A_x = A cosθ, A_y = A sinθ",
+    "Can derive R = √(A²+B²+2AB cosθ) and the direction formula from the parallelogram law",
+    "Can write position, displacement and velocity as vectors: r, Δr = r₂−r₁, v = dr/dt",
+    "Can explain why 2-D motion under constant acceleration is two independent 1-D motions",
+    "Can define relative velocity v_AB = v_A − v_B and solve a rain/boat-river problem",
+    "Can derive the projectile trajectory equation and show it is a parabola",
+    "Knows and can derive T = 2u sinθ/g, H = u²sin²θ/2g, R = u²sin2θ/g",
+    "Knows range is maximum at 45° and equal for complementary angles θ, (90°−θ)",
+    "Can derive centripetal acceleration a_c = v²/R from the small-angle argument",
+    "Knows a_c = ω²R = ωv and ω = v/R = 2π/T",
+    "Understands why centripetal acceleration changes direction of velocity but not its magnitude",
+    "Can solve numericals combining vector resolution with projectile or circular motion in one question"
+  ],
+  "videos": [
+    {
+      "id": "layV0wd-6sE",
+      "title": "Motion in a Plane · full chapter"
+    }
+  ]
+}

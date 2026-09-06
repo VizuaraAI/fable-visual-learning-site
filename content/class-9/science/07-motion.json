@@ -1,0 +1,947 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 7,
+  "slug": "motion",
+  "title": "Motion",
+  "summary": "This chapter builds the vocabulary and the maths of motion along a straight line — distance, displacement, speed, velocity and acceleration — then uses velocity-time graphs to derive the three equations of motion that solve almost every numerical the exam sets, before closing with uniform circular motion.",
+  "exam_profile": {
+    "weightage": "This is one of the highest-weightage chapters in the physics unit of Class 9 Science — expect at least one numerical (often 3 or 5 marks) and one or two conceptual or graph-based questions (MCQ, assertion–reason or VSA) from Motion in most school and board-pattern papers.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Definitions (scalar vs vector), reading graphs, and one-line acceleration or circular-motion facts."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Tests whether you can tell a true statement from its correct explanation, especially around displacement, acceleration and circular motion."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Definitions with SI units, or a one-step numerical using a single equation of motion."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "A two-step numerical, a short derivation, or distinguishing two related terms with an example."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full graphical derivation of the equations of motion, or a multi-part numerical combining more than one formula."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage — often a circular track or a velocity-time graph — followed by four linked sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Distance vs displacement, with the circular-track example",
+      "Difference between speed and velocity, and average speed vs average velocity",
+      "Deriving the three equations of motion from the velocity-time graph",
+      "Numericals using v = u + at, s = ut + ½at², v² = u² + 2as",
+      "Reading and interpreting distance-time and velocity-time graphs",
+      "Uniform circular motion and why it counts as accelerated motion",
+      "Numericals that mix km/h and m/s and need unit conversion"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "7.1 Describing Motion",
+      "pyq_years": [],
+      "body": "<p>An object is said to be in <b>motion</b> if its position changes with time with respect to a reference point (also called an origin). If its position does not change, it is at <b>rest</b>. Rest and motion are relative — a passenger is at rest with respect to a fellow passenger but in motion with respect to a tree on the road, so you must always name the reference point when you describe motion.</p><p>To describe motion along a straight line we use two related but different quantities. <b>Distance</b> is the actual length of the path covered by the object, whatever its shape — it is a <b>scalar quantity</b>, so it needs only a magnitude, no direction, and it can never decrease with time. <b>Displacement</b> is the shortest distance between the initial and the final position, measured in a straight line, together with its direction — it is a <b>vector quantity</b>.</p><p>Two facts the examiner checks often: (i) the magnitude of displacement is always less than or equal to the distance travelled — the two are equal only when the object moves along a straight line without changing direction; (ii) displacement can be zero even when the distance covered is not — an athlete who runs one full round of a circular track returns to the starting point, so distance = circumference of the track but displacement = 0.</p>",
+      "formulas": [
+        {
+          "expr": "Displacement ≤ Distance",
+          "where": [
+            [
+              "Displacement",
+              "shortest straight-line distance between initial and final position, with direction (vector)"
+            ],
+            [
+              "Distance",
+              "actual length of path covered (scalar)"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a question says an object 'returns to its starting point', its displacement is zero even though the distance covered is not — this is the single most-repeated trap in this chapter."
+    },
+    {
+      "heading": "7.2 Measuring the Rate of Motion — Speed",
+      "pyq_years": [],
+      "body": "<p>Different objects can take different times to cover the same distance — some move faster, some slower. <b>Speed</b> tells us how fast an object is moving; it is defined as the distance covered by the object in unit time. Speed is a scalar quantity with SI unit metre per second (m/s or m s<sup>−1</sup>); kilometre per hour (km/h) is also common.</p><p>An object moving equal distances in equal intervals of time is said to move with <b>uniform speed</b>; if it covers unequal distances in equal intervals of time, its speed is <b>non-uniform (variable)</b>. Most everyday motion — a bus in traffic, a falling leaf — is non-uniform, so we describe it using <b>average speed</b>: the total distance travelled divided by the total time taken. Average speed gives one overall number even though the speed may have changed moment to moment during the journey; for truly uniform motion, average speed equals the actual speed at every instant.</p><p>The <b>odometer</b> of a vehicle measures the distance moved, and the <b>speedometer</b> shows the speed at that instant. Distinguishing 'speed at an instant' from 'average speed over the whole trip' is a common exam trap — read the question carefully to see which one is being asked.</p>",
+      "formulas": [
+        {
+          "expr": "Speed = Distance/Time",
+          "where": [
+            [
+              "Speed",
+              "SI unit m/s, scalar quantity"
+            ]
+          ]
+        },
+        {
+          "expr": "Average speed = Total distance/Total time",
+          "where": [
+            [
+              "Average speed",
+              "used whenever speed is not uniform through the journey"
+            ]
+          ]
+        }
+      ],
+      "tip": "1 km/h = 5/18 m/s. Convert to m/s before using any equation of motion, which expects m/s and seconds."
+    },
+    {
+      "heading": "7.2 Speed with Direction — Velocity",
+      "pyq_years": [],
+      "body": "<p>Speed alone does not tell us the direction an object is moving in, so it does not fully describe motion. <b>Velocity</b> is the displacement of an object in unit time, i.e. speed in a given direction — it is a <b>vector quantity</b>, with the same SI unit as speed, m/s.</p><p>An object has <b>uniform velocity</b> if it moves in a straight line and its displacement is the same in equal intervals of time, in the same direction throughout — both magnitude and direction stay constant. Its velocity is <b>variable (non-uniform)</b> if either its speed changes, or its direction changes, or both change — even if the object moves at constant speed along a curved path, as in uniform circular motion.</p><p>Just as we average speed, we use <b>average velocity</b> for motion with changing velocity: total displacement divided by total time taken. A very useful special-case formula for numericals: when an object moves along a straight line with <b>uniform acceleration</b>, its average velocity equals the arithmetic mean of the initial velocity u and the final velocity v, i.e. average velocity = (u + v)/2. This formula applies only for uniform acceleration; for non-uniform acceleration you must use total displacement/total time.</p>",
+      "formulas": [
+        {
+          "expr": "Velocity = Displacement/Time",
+          "where": [
+            [
+              "Velocity",
+              "vector quantity, SI unit m/s"
+            ]
+          ]
+        },
+        {
+          "expr": "Average velocity = (u + v)/2",
+          "where": [
+            [
+              "u",
+              "initial velocity"
+            ],
+            [
+              "v",
+              "final velocity"
+            ]
+          ]
+        }
+      ],
+      "tip": "Average velocity = (u+v)/2 works ONLY under uniform acceleration in a straight line. Otherwise use total displacement / total time."
+    },
+    {
+      "heading": "7.3 Rate of Change of Velocity — Acceleration",
+      "pyq_years": [],
+      "body": "<p>The velocity of an object need not stay the same during motion — it may increase, decrease or change direction. <b>Acceleration</b> is the rate of change of velocity with time: a = (v − u)/t, where u is the velocity at the start of the interval, v is the velocity at the end, and t is the time taken. Acceleration is a vector; its SI unit is metre per second squared (m/s<sup>2</sup> or m s<sup>−2</sup>).</p><p>If the velocity changes at a uniform rate, the acceleration is <b>uniform</b> — equal changes in velocity occur in equal intervals of time, as in the motion of a freely falling body. If the rate of change of velocity is not constant, the acceleration is <b>non-uniform</b>, as in a car being driven through city traffic.</p><p>Acceleration is <b>positive</b> when velocity increases in the direction of motion, and <b>negative</b> (called <b>retardation</b> or deceleration) when velocity decreases in the direction of motion. A common trap: acceleration is not zero just because speed is constant — in uniform circular motion the speed stays constant but the direction keeps changing, so the velocity is changing and the motion is accelerated.</p>",
+      "formulas": [
+        {
+          "expr": "a = (v − u)/t",
+          "where": [
+            [
+              "a",
+              "acceleration, SI unit m/s²"
+            ],
+            [
+              "u, v",
+              "initial and final velocity (m/s)"
+            ],
+            [
+              "t",
+              "time taken (s)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Retardation is simply negative acceleration in your answer's sign convention — do not treat it as a separate formula."
+    },
+    {
+      "heading": "7.4 Graphical Representation of Motion — Distance-Time Graphs",
+      "pyq_years": [],
+      "body": "<p>A distance-time graph is one of the simplest ways to describe motion. Time is plotted on the x-axis and distance on the y-axis, always on a convenient, uniform scale.</p><p>When an object moves at <b>uniform speed</b>, it covers equal distances in equal time intervals, so the distance-time graph is a <b>straight line</b> — the steeper the line, the greater the speed. Speed can be read directly from the graph as its <b>slope</b>: for any two points on the line, speed = (s<sub>2</sub> − s<sub>1</sub>)/(t<sub>2</sub> − t<sub>1</sub>).</p><p>When speed is <b>non-uniform</b>, the object covers unequal distances in equal time intervals and the graph is a <b>curved line</b>; different portions of the curve have different slopes, giving the speed at different times.</p><p>A distance-time graph that is a <b>horizontal line parallel to the time axis</b> means the distance is not changing while time passes — the object is <b>at rest</b>. Students often confuse this with a line through the origin; remember rest means zero slope, not zero distance. Reading distance-time graphs correctly — slope gives speed, and shape identifies rest, uniform or non-uniform motion — is asked almost every year in some form.</p>",
+      "formulas": [
+        {
+          "expr": "Speed = slope of distance-time graph = (s₂ − s₁)/(t₂ − t₁)",
+          "where": [
+            [
+              "s₁, s₂",
+              "distance at two instants"
+            ],
+            [
+              "t₁, t₂",
+              "the corresponding times"
+            ]
+          ]
+        }
+      ],
+      "tip": "A line parallel to the time axis on a distance-time graph = object at rest. Do not confuse this with 'starts from rest', which is a velocity-time graph idea."
+    },
+    {
+      "heading": "7.4 Graphical Representation of Motion — Velocity-Time Graphs",
+      "pyq_years": [],
+      "body": "<p>A velocity-time graph plots velocity on the y-axis against time on the x-axis, and carries more information than a distance-time graph because both acceleration and distance travelled can be read from it.</p><p>If velocity stays constant, the graph is a <b>straight line parallel to the time axis</b> — the area between this line and the time axis, over an interval, gives the distance covered in that interval.</p><p>If the object moves with <b>uniform acceleration</b>, the velocity-time graph is a <b>straight line inclined to the time axis</b>. Its <b>slope</b> gives the acceleration: a = (v − u)/t. A rising line means increasing velocity; a uniformly decelerating object gives a line falling towards the time axis.</p><p>For <b>non-uniform acceleration</b>, the velocity-time graph is a <b>curved line</b>.</p><p>The single most useful fact for numericals: the <b>area enclosed between the velocity-time graph and the time axis, over a chosen interval, equals the distance (or displacement) covered</b> in that interval — a rectangle for uniform velocity, a triangle or trapezium for uniformly accelerated motion. This area method is exactly how the three equations of motion are derived, so understanding it earns marks in the derivation questions too.</p>",
+      "formulas": [
+        {
+          "expr": "Acceleration = slope of velocity-time graph",
+          "where": [
+            [
+              "slope",
+              "rise in velocity over the corresponding time interval"
+            ]
+          ]
+        },
+        {
+          "expr": "Distance covered = area under the velocity-time graph",
+          "where": [
+            [
+              "area",
+              "rectangle, triangle or trapezium depending on the shape of the graph"
+            ]
+          ]
+        }
+      ],
+      "tip": "In a derivation question, sketch and label the velocity-time graph first — the labelled graph itself earns marks, independent of the final formula."
+    },
+    {
+      "heading": "7.5 Equations of Motion by Graphical Method — First Equation",
+      "pyq_years": [],
+      "body": "<p>For an object moving with <b>uniform acceleration</b>, three equations connect initial velocity u, final velocity v, acceleration a, time t and distance s. All three can be derived from a velocity-time graph, and CBSE frequently asks for this graphical derivation, so know every step.</p><p><b>First equation, v = u + at:</b> Consider an object with initial velocity u at time t = 0, moving with uniform acceleration a. Its velocity-time graph is the straight line AB, where A is on the velocity axis at height u and B is at time t with velocity v. Draw BC perpendicular to the time axis and AD parallel to the time axis meeting BC at D, so OC = t, OA = BD = u and BC = v.</p><p>From the graph, BC = BD + DC, i.e. v = u + DC ... (i)</p><p>The slope of line AB gives the acceleration: a = BD/AD = DC/OC (since AD = OC = t), so DC = at.</p><p>Substituting in (i): <b>v = u + at</b>, the first equation of motion. It connects velocity to time directly and is the equation to use whenever a question does not mention distance.</p>",
+      "formulas": [
+        {
+          "expr": "v = u + at",
+          "where": [
+            [
+              "u",
+              "initial velocity (m/s)"
+            ],
+            [
+              "v",
+              "final velocity (m/s)"
+            ],
+            [
+              "a",
+              "uniform acceleration (m/s²)"
+            ],
+            [
+              "t",
+              "time (s)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Label O, A, B, C, D exactly as in the derivation — markers on the graph are worth marks on their own in a 5-mark answer."
+    },
+    {
+      "heading": "7.5 Equations of Motion by Graphical Method — Second and Third Equations",
+      "pyq_years": [],
+      "body": "<p><b>Second equation, s = ut + ½at<sup>2</sup>:</b> Using the same velocity-time graph, the distance travelled s equals the area under line AB between t = 0 and t = t, which is the area of rectangle OADC plus the area of triangle ABD.</p><p>Area of rectangle OADC = OA × OC = u × t. Area of triangle ABD = ½ × AD × BD = ½ × t × at (since BD = at from the first equation). So s = ut + ½at<sup>2</sup>, the second equation of motion, used whenever time is known but final velocity is not asked directly.</p><p><b>Third equation, v<sup>2</sup> = u<sup>2</sup> + 2as:</b> Again from the same graph, s = area of trapezium OABC = ½ × (sum of parallel sides) × height = ½ × (OA + CB) × OC = ½(u + v)t.</p><p>From the first equation, t = (v − u)/a. Substituting: s = ½(u + v) × (v − u)/a = (v<sup>2</sup> − u<sup>2</sup>)/2a, which rearranges to <b>v<sup>2</sup> = u<sup>2</sup> + 2as</b>. Reach for this equation when time is not given at all. Learn all three derivations together — a five-mark question often asks for one specific equation, and marks are lost for skipping the labelled-graph step, so always draw and label the graph first.</p>",
+      "formulas": [
+        {
+          "expr": "s = ut + ½at²",
+          "where": [
+            [
+              "s",
+              "distance travelled (m)"
+            ],
+            [
+              "u",
+              "initial velocity (m/s)"
+            ],
+            [
+              "a",
+              "uniform acceleration (m/s²)"
+            ],
+            [
+              "t",
+              "time (s)"
+            ]
+          ]
+        },
+        {
+          "expr": "v² = u² + 2as",
+          "where": [
+            [
+              "v",
+              "final velocity (m/s)"
+            ],
+            [
+              "u",
+              "initial velocity (m/s)"
+            ],
+            [
+              "a",
+              "uniform acceleration (m/s²)"
+            ],
+            [
+              "s",
+              "distance travelled (m)"
+            ]
+          ]
+        }
+      ],
+      "tip": "No time given in the numerical? Reach for v² = u² + 2as first — it is the only one of the three equations that does not contain t."
+    },
+    {
+      "heading": "7.6 Uniform Circular Motion",
+      "pyq_years": [],
+      "body": "<p>When an object moves along a circular path at <b>constant speed</b>, its motion is called <b>uniform circular motion</b>. This sounds like it should not be 'accelerated' motion because the speed never changes, but it is — because <b>velocity is a vector</b>, and the direction of motion keeps changing continuously as the object goes around the circle, even though its magnitude (speed) stays fixed. A changing velocity means there is acceleration, directed towards the centre of the circle.</p><p>Common everyday examples asked in exams: an athlete running on a circular track, the tip of the second, minute or hour hand of a clock, the moon revolving around the Earth, the blades of an electric fan or a mixer grinder, and a cyclist going around a circular park at constant speed.</p><p>If an object moves along a circle of radius r and completes one round in time t (the time period), the distance covered in one round is the circumference of the circle, 2πr, so the speed is: speed = 2πr/t. This is the standard formula for uniform circular motion numericals — use the correct value of π (22/7 or 3.14) and keep radius and circumference in the same unit as the answer required.</p>",
+      "formulas": [
+        {
+          "expr": "Speed = 2πr/t",
+          "where": [
+            [
+              "r",
+              "radius of the circular path"
+            ],
+            [
+              "t",
+              "time period, time taken for one complete round"
+            ]
+          ]
+        }
+      ],
+      "tip": "After n complete rounds of a circular track, displacement is always zero; after n.5 rounds, displacement equals the diameter."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Motion",
+      "definition": "Change in the position of an object with time with respect to a reference point."
+    },
+    {
+      "term": "Rest",
+      "definition": "No change in position with time with respect to a reference point; rest and motion are relative to the observer chosen."
+    },
+    {
+      "term": "Distance",
+      "definition": "The actual length of the path covered by a moving object; a scalar quantity that can never decrease with time."
+    },
+    {
+      "term": "Displacement",
+      "definition": "The shortest distance between the initial and final positions of an object, along with its direction; a vector quantity."
+    },
+    {
+      "term": "Scalar quantity",
+      "definition": "A quantity completely described by magnitude alone, with no direction, e.g. distance, speed."
+    },
+    {
+      "term": "Vector quantity",
+      "definition": "A quantity that needs both magnitude and direction to be completely described, e.g. displacement, velocity, acceleration."
+    },
+    {
+      "term": "Speed",
+      "definition": "Distance covered by an object per unit time; a scalar quantity, SI unit m/s."
+    },
+    {
+      "term": "Uniform speed",
+      "definition": "Equal distances covered by an object in equal intervals of time."
+    },
+    {
+      "term": "Average speed",
+      "definition": "Total distance travelled divided by the total time taken, used when speed is not constant through the journey."
+    },
+    {
+      "term": "Velocity",
+      "definition": "Displacement of an object per unit time, i.e. speed in a given direction; a vector quantity, SI unit m/s."
+    },
+    {
+      "term": "Uniform velocity",
+      "definition": "Equal displacements in equal intervals of time, in a fixed direction, so both magnitude and direction stay constant."
+    },
+    {
+      "term": "Average velocity",
+      "definition": "For uniformly accelerated straight-line motion, the arithmetic mean of initial and final velocity, (u + v)/2; in general, total displacement divided by total time."
+    },
+    {
+      "term": "Acceleration",
+      "definition": "The rate of change of velocity with time, a = (v − u)/t; a vector quantity, SI unit m/s²."
+    },
+    {
+      "term": "Uniform acceleration",
+      "definition": "Equal changes in velocity occurring in equal intervals of time, as in free fall under gravity."
+    },
+    {
+      "term": "Retardation",
+      "definition": "Negative acceleration, acting opposite to the direction of motion, that causes an object to slow down."
+    },
+    {
+      "term": "Uniform circular motion",
+      "definition": "Motion of an object along a circular path at constant speed; it is accelerated motion because the direction of velocity keeps changing."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Speed",
+      "expr": "Speed = Distance/Time",
+      "note": "scalar, SI unit m/s"
+    },
+    {
+      "name": "Average speed",
+      "expr": "Average speed = Total distance/Total time",
+      "note": "used for non-uniform speed"
+    },
+    {
+      "name": "Velocity",
+      "expr": "Velocity = Displacement/Time",
+      "note": "vector, SI unit m/s"
+    },
+    {
+      "name": "Average velocity",
+      "expr": "Average velocity = (u + v)/2",
+      "note": "valid only under uniform acceleration in a straight line"
+    },
+    {
+      "name": "Acceleration",
+      "expr": "a = (v − u)/t",
+      "note": "vector, SI unit m/s²; negative value = retardation"
+    },
+    {
+      "name": "First equation of motion",
+      "expr": "v = u + at",
+      "note": "use when distance is not given"
+    },
+    {
+      "name": "Second equation of motion",
+      "expr": "s = ut + ½at²",
+      "note": "use when final velocity is not asked"
+    },
+    {
+      "name": "Third equation of motion",
+      "expr": "v² = u² + 2as",
+      "note": "use when time is not given"
+    },
+    {
+      "name": "Speed in uniform circular motion",
+      "expr": "Speed = 2πr/t",
+      "note": "r = radius of the circular path, t = time for one complete round"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Distance-time graph for uniform speed",
+      "how_to_draw": "Draw the x-axis as time (s) and the y-axis as distance (m) with equal scale divisions on both. Plot a straight line rising at a constant angle from the origin. Mark two points on the line and show how the slope Δs/Δt between them gives the speed. Note that a steeper line means a higher speed."
+    },
+    {
+      "title": "Velocity-time graph for uniformly accelerated motion",
+      "how_to_draw": "Draw time on the x-axis and velocity on the y-axis. Mark the initial velocity u on the y-axis at t = 0 as point A, and draw the sloped straight line up to point B at (t, v). Drop a perpendicular BC to the time axis and draw AD parallel to the time axis meeting BC at D. Label OA = u, BC = v, OC = t, BD = at, and shade the trapezium OABC to show that its area equals the distance travelled — this is the exact graph used to derive all three equations of motion."
+    },
+    {
+      "title": "Distance vs displacement on a circular track",
+      "how_to_draw": "Draw a circular track with the runner's starting point P marked. Show the curved path travelled as a dashed line around the full circle, labelled 'distance = circumference'. Then draw a straight arrow from P to the diametrically opposite point Q, labelled 'displacement after half a round = diameter', and separately note that after one full round the displacement arrow has zero length even though the distance is the full circumference."
+    },
+    {
+      "title": "Rest, uniform motion and non-uniform motion on one distance-time graph",
+      "how_to_draw": "On the same pair of axes (time on x, distance on y), draw three curves: a horizontal line for a body at rest, a straight inclined line for uniform speed, and a curved, increasingly steep line for non-uniform (accelerating) speed. Label each curve, and mark that the slope of the curve at any instant gives the speed of the object at that instant."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1",
+      "q": "An athlete completes one round of a circular track of diameter 200 m in 40 s. What will be the distance covered and the displacement at the end of 2 minutes 20 s?",
+      "a": "<p>Radius r = diameter/2 = 200/2 = 100 m. Circumference = 2πr = 2 × (22/7) × 100 = 4400/7 ≈ 628.57 m. This is the distance covered in one round, taking 40 s.</p><p>Time given = 2 min 20 s = 140 s. Number of rounds completed = 140/40 = 3.5 rounds.</p><p>Distance covered = 3.5 × 628.57 m = <b>2200 m</b>.</p><p>After 3 complete rounds the athlete is back at the starting point; the extra half round takes them to the diametrically opposite point on the track. So displacement = diameter = <b>200 m</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2",
+      "q": "Joseph jogs from one end A to the other end B of a straight 300 m road in 2 minutes 30 seconds and then turns around and jogs 100 m back to point C in another 1 minute. What are Joseph's average speeds and velocities in jogging (a) from A to B, and (b) from A to C?",
+      "a": "<p>(a) A to B: distance = displacement = 300 m (straight road, one direction), time = 2 min 30 s = 150 s.</p><p>Average speed = 300/150 = <b>2 m/s</b>. Average velocity = displacement/time = 300/150 = <b>2 m/s, directed from A to B</b>.</p><p>(b) A to C: total distance = AB + BC = 300 + 100 = 400 m; total time = 150 + 60 = 210 s.</p><p>Average speed = 400/210 ≈ <b>1.9 m/s</b>.</p><p>Displacement A to C = AB − BC = 300 − 100 = 200 m (C lies between A and B). Average velocity = 200/210 ≈ <b>0.95 m/s, directed from A towards B</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3",
+      "q": "Abdul, while driving to school, computes the average speed for his trip to be 20 km/h. On his return trip along the same route, there is less traffic and the average speed is 40 km/h. What is the average speed for Abdul's trip?",
+      "a": "<p>Let the one-way distance be d km. Time for onward trip = d/20 h, time for return trip = d/40 h.</p><p>Average speed = total distance/total time = 2d ÷ (d/20 + d/40) = 2d ÷ (3d/40) = 2d × 40/3d = <b>80/3 ≈ 26.7 km/h</b>.</p><p>Note this is not the simple arithmetic mean of 20 and 40 (which would be 30 km/h) — when equal distances are covered at two different speeds, the correct average is 2xy/(x + y).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "4",
+      "q": "A racing car has a uniform acceleration of 4 m/s². What distance will it cover in 10 s after start?",
+      "a": "<p>Given: initial velocity u = 0 (starts from rest), acceleration a = 4 m/s², time t = 10 s.</p><p>Using s = ut + ½at²: s = 0 × 10 + ½ × 4 × 10² = ½ × 4 × 100 = <b>200 m</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "5",
+      "q": "A stone is thrown in a vertically upward direction with a velocity of 5 m/s. If the acceleration of the stone during its motion is 10 m/s² in the downward direction, what will be the height attained by the stone and how much time will it take to reach there?",
+      "a": "<p>Take the upward direction as positive: initial velocity u = 5 m/s, acceleration a = −10 m/s² (downward, opposite to motion). At the highest point, velocity v = 0.</p><p>Time to reach the highest point, from v = u + at: 0 = 5 + (−10)t ⇒ t = 5/10 = <b>0.5 s</b>.</p><p>Height attained, from v² = u² + 2as: 0 = 5² + 2(−10)s ⇒ 0 = 25 − 20s ⇒ s = 25/20 = <b>1.25 m</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6",
+      "q": "Derive the equation of motion v = u + at by the graphical method.",
+      "a": "<p>Consider an object with initial velocity u at t = 0, moving with uniform acceleration a. Its velocity-time graph is the line AB, with A on the velocity axis at height u, and B at time t with velocity v. Draw BC perpendicular to the time axis and AD parallel to it, meeting BC at D, so OC = t, OA = BD = u and BC = v.</p><p>From the graph, BC = BD + DC, so v = u + DC ... (i). The slope of AB gives acceleration: a = BD/AD = DC/OC = DC/t, so DC = at.</p><p>Substituting into (i): <b>v = u + at</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7",
+      "q": "Derive the equation of motion s = ut + ½at² by the graphical method.",
+      "a": "<p>Using the same velocity-time graph as for v = u + at (line AB, with OA = u, BC = v, OC = t, BD = at), the distance s travelled equals the area under AB, which is the rectangle OADC plus the triangle ABD.</p><p>Area of rectangle OADC = OA × OC = ut. Area of triangle ABD = ½ × AD × BD = ½ × t × at.</p><p>Adding: <b>s = ut + ½at²</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "intext",
+      "number": "7.1",
+      "q": "Distinguish between speed and velocity.",
+      "a": "<p>Speed is the distance covered by a body in unit time; it is a scalar quantity, needing only a magnitude. Velocity is the displacement of a body in unit time, i.e. speed in a specified direction; it is a vector quantity, needing both magnitude and direction. Two objects can have the same speed but different velocities if they move in different directions.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "intext",
+      "number": "7.2",
+      "q": "Under what condition(s) is the magnitude of the average velocity of an object equal to its average speed?",
+      "a": "<p>Only when the object moves along a straight line without changing direction — then the distance covered equals the magnitude of the displacement, so the average speed and the magnitude of average velocity are equal. If the object changes direction at any point, distance travelled exceeds the magnitude of displacement, and average speed becomes greater than the magnitude of average velocity.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "intext",
+      "number": "7.3",
+      "q": "What does the odometer of an automobile measure?",
+      "a": "<p>The odometer measures the total distance covered by the automobile; it is the running total shown on the dashboard, usually in kilometres.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "intext",
+      "number": "7.4",
+      "q": "What does the path of an object look like when it is in uniform motion?",
+      "a": "<p>In uniform motion an object moves in a straight line, covering equal distances in equal intervals of time. Its distance-time graph is a straight line, and its actual path is a straight line too.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "8",
+      "q": "A body is moving with uniform circular motion. Is it accelerated? Give a reason for your answer.",
+      "a": "<p>Yes, it is accelerated even though its speed stays constant. Velocity is a vector, so it changes whenever its direction changes, and in circular motion the direction of velocity (always tangential to the circle) is changing continuously. Since velocity is changing, the body has acceleration, directed towards the centre of the circle.</p>",
+      "marks": 2
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is a vector quantity?",
+      "options": [
+        "Speed",
+        "Distance",
+        "Displacement",
+        "Time"
+      ],
+      "answer": "c",
+      "solution": "Displacement has both magnitude and direction; speed, distance and time are scalars."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The odometer of a car measures:",
+      "options": [
+        "Speed of the car",
+        "Distance moved by the car",
+        "Displacement of the car",
+        "Acceleration of the car"
+      ],
+      "answer": "b",
+      "solution": "An odometer is a distance-recording instrument, not a speed or velocity instrument."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A car moving with uniform, non-zero velocity has a distance-time graph that is:",
+      "options": [
+        "A curve",
+        "A straight line parallel to the time axis",
+        "A straight line inclined to the time axis",
+        "A straight line parallel to the distance axis"
+      ],
+      "answer": "c",
+      "solution": "Equal distances in equal times give a straight, sloping line; a line parallel to the time axis would mean zero speed (rest)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The SI unit of acceleration is:",
+      "options": [
+        "m/s",
+        "m/s²",
+        "m",
+        "s"
+      ],
+      "answer": "b",
+      "solution": "Acceleration = change in velocity/time, so its unit is (m/s)/s = m/s²."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In uniform circular motion, which of these quantities remains constant?",
+      "options": [
+        "Velocity",
+        "Speed",
+        "Acceleration",
+        "Displacement"
+      ],
+      "answer": "b",
+      "solution": "Only the magnitude of velocity, i.e. speed, stays fixed; the direction of velocity, and hence velocity, acceleration and displacement, keep changing."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The area enclosed between a velocity-time graph and the time axis, over an interval, gives:",
+      "options": [
+        "Speed",
+        "Acceleration",
+        "Distance covered",
+        "Average velocity"
+      ],
+      "answer": "c",
+      "solution": "Area under a velocity-time graph equals the distance (or displacement) covered in that interval."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The displacement of an object can be zero even though the distance covered by it is not zero. Reason (R): Displacement is a scalar quantity and is always equal to distance.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is correct (e.g. one full round of a circular track), but R is false — displacement is a vector, not a scalar, and it need not equal distance."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A body moving with uniform speed can still have acceleration. Reason (R): Acceleration occurs whenever velocity changes, and velocity can change even if speed stays constant, if only the direction changes.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Uniform circular motion is exactly this case — constant speed but changing direction means changing velocity, so there is acceleration, correctly explained by R."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The average velocity of a moving object is always equal to the arithmetic mean of its initial and final velocity. Reason (R): Average velocity = (u + v)/2 holds only when the object moves with uniform acceleration along a straight line.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is false but R is true",
+        "Both A and R are false"
+      ],
+      "answer": "c",
+      "solution": "A is false as a general statement — the formula (u+v)/2 only holds for uniform acceleration, which is exactly what R correctly states, so R is true and A is false."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define acceleration and state its SI unit.",
+      "answer": "Acceleration is the rate of change of velocity with time: a = (v − u)/t, where u and v are the initial and final velocities and t is the time taken. Its SI unit is metre per second squared (m/s²).",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A body moves with a uniform velocity of 5 m/s. What distance does it cover in 20 s? Show your working.",
+      "answer": "Distance = velocity × time = 5 × 20 = 100 m.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Give one example each of a body having (a) uniform velocity, and (b) uniform acceleration.",
+      "answer": "(a) A car moving in a straight line at a constant 60 km/h without turning has uniform velocity. (b) A body falling freely under gravity has uniform acceleration, gaining about 9.8 m/s of speed every second.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Can a body have zero velocity and still be accelerating? Give a reason.",
+      "answer": "Yes. A ball thrown vertically upward has zero velocity for an instant at its highest point, but it is still accelerating downward at about 9.8 m/s² due to gravity throughout its flight, since acceleration is not zero even though velocity momentarily is.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Distinguish between uniform motion and non-uniform motion, with one example each.",
+      "answer": "<p>In <b>uniform motion</b> a body covers equal distances in equal intervals of time; its speed stays constant and its distance-time graph is a straight line. Example: a car moving at a steady 60 km/h on an empty highway.</p><p>In <b>non-uniform motion</b> a body covers unequal distances in equal intervals of time; its speed keeps changing and its distance-time graph is a curved line. Example: a car moving through city traffic, speeding up and slowing down.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A bus decreases its speed from 80 km/h to 60 km/h in 5 s. Find the acceleration of the bus.",
+      "answer": "Convert to m/s: 80 km/h = 80 × 5/18 = 22.22 m/s (u); 60 km/h = 60 × 5/18 = 16.67 m/s (v). Acceleration a = (v − u)/t = (16.67 − 22.22)/5 = −5.55/5 ≈ −1.11 m/s². The negative sign shows this is a retardation of about 1.11 m/s².",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Derive the relation v² = u² + 2as using the first two equations of motion (algebraic method).",
+      "answer": "<p>From v = u + at, t = (v − u)/a. Substitute into s = ut + ½at²:</p><p>s = u(v − u)/a + ½a[(v − u)/a]² = u(v − u)/a + (v − u)²/2a = [2u(v − u) + (v − u)²]/2a</p><p>= (v − u)[2u + v − u]/2a = (v − u)(v + u)/2a = (v² − u²)/2a.</p><p>So s = (v² − u²)/2a, which rearranges to <b>v² = u² + 2as</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "What is meant by uniform circular motion? Why is it described as accelerated motion even though the speed does not change?",
+      "answer": "<p>Uniform circular motion is the motion of an object along a circular path at constant speed. It is accelerated motion because velocity is a vector, and although the speed (magnitude of velocity) stays fixed, its direction keeps changing continuously as the object moves around the circle. Since velocity is changing, there is an acceleration, directed towards the centre of the circle.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the three equations of motion (v = u + at, s = ut + ½at², v² = u² + 2as) for an object moving with uniform acceleration, using its velocity-time graph. Draw the graph you use.",
+      "answer": "<p>Consider an object with initial velocity u at t = 0, moving with uniform acceleration a, reaching velocity v at time t. Its velocity-time graph is the straight line AB: A is on the velocity axis at height u, B is at (t, v). Draw BC perpendicular to the time axis and AD parallel to it, meeting BC at D, so OA = BD = u, OC = t, BC = v.</p><p><b>First equation:</b> BC = BD + DC ⇒ v = u + DC. Slope of AB gives a = BD/AD = DC/OC = DC/t, so DC = at. Hence <b>v = u + at</b>.</p><p><b>Second equation:</b> s = area under AB = area of rectangle OADC + area of triangle ABD = (OA × OC) + (½ × AD × BD) = ut + ½ × t × at. Hence <b>s = ut + ½at²</b>.</p><p><b>Third equation:</b> s = area of trapezium OABC = ½(OA + BC) × OC = ½(u + v)t. From the first equation t = (v − u)/a, so s = ½(u + v)(v − u)/a = (v² − u²)/2a. Hence <b>v² = u² + 2as</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "A train starting from rest attains a velocity of 72 km/h in 5 minutes. Assuming the acceleration is uniform, find (a) the acceleration, and (b) the distance travelled by the train in this time.",
+      "answer": "<p>Convert units: v = 72 km/h = 72 × 5/18 = 20 m/s; u = 0 (starts from rest); t = 5 min = 300 s.</p><p>(a) a = (v − u)/t = (20 − 0)/300 = 1/15 ≈ <b>0.067 m/s²</b>.</p><p>(b) s = ut + ½at² = 0 + ½ × (1/15) × 300² = ½ × (1/15) × 90000 = 45000/15 = <b>3000 m = 3 km</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Using a suitable graph, show that the distance travelled by an object moving with uniform acceleration in time t is s = ut + ½at². Then use this equation to find the distance covered by a scooter that accelerates uniformly from 10 m/s to 20 m/s in 4 s.",
+      "answer": "<p>For the graphical proof of s = ut + ½at², draw the velocity-time graph with A at (0, u) and B at (t, v); the distance s is the area under AB, equal to rectangle OADC (= ut) plus triangle ABD (= ½at²), giving s = ut + ½at².</p><p>Numerical: u = 10 m/s, v = 20 m/s, t = 4 s. First find a: a = (v − u)/t = (20 − 10)/4 = 2.5 m/s².</p><p>s = ut + ½at² = 10 × 4 + ½ × 2.5 × 4² = 40 + 20 = <b>60 m</b>. (Check: average velocity × time = (10+20)/2 × 4 = 15 × 4 = 60 m — matches.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A cyclist rides around a circular park of radius 70 m at a constant speed, completing one round in 88 s.<br>(i) Is the cyclist's velocity constant during this ride? Explain.<br>(ii) Calculate the speed of the cyclist.<br>(iii) Find the distance covered and the displacement after one complete round.<br>(iv) Find the displacement after half a round.",
+      "answer": "<p>(i) No. This is uniform circular motion — the speed is constant, but the direction of velocity keeps changing continuously, so the velocity itself is not constant; the motion is accelerated.</p><p>(ii) Circumference = 2πr = 2 × (22/7) × 70 = 440 m. Speed = distance/time = 440/88 = <b>5 m/s</b>.</p><p>(iii) After one full round: distance = 440 m, displacement = <b>0</b> (back at the starting point).</p><p>(iv) After half a round: distance = 220 m, displacement = diameter = 2 × 70 = <b>140 m</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "The velocity-time graph of a car is a straight line. The car starts from rest and its velocity becomes 10 m/s after 5 s; it then travels at this constant 10 m/s for the next 15 s.<br>(i) What is the acceleration of the car during the first 5 s?<br>(ii) What is the acceleration during the next 15 s?<br>(iii) Find the distance covered in the first 5 s using the area under the graph.<br>(iv) Find the total distance covered in 20 s.",
+      "answer": "<p>(i) a = (v − u)/t = (10 − 0)/5 = <b>2 m/s²</b>.</p><p>(ii) Velocity is constant, so acceleration = <b>0</b>.</p><p>(iii) Area of the triangle for the first 5 s = ½ × base × height = ½ × 5 × 10 = <b>25 m</b>.</p><p>(iv) Area of the rectangle for the next 15 s = 10 × 15 = 150 m. Total distance in 20 s = 25 + 150 = <b>175 m</b>.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The correct SI unit of speed is:",
+      "options": [
+        "km/h",
+        "m/s",
+        "m/s²",
+        "N"
+      ],
+      "answer_index": 1,
+      "explanation": "Speed = distance/time, so its SI unit is metre per second."
+    },
+    {
+      "q": "An object moving in a circle at constant speed has:",
+      "options": [
+        "Zero acceleration",
+        "Constant velocity",
+        "Changing velocity",
+        "Zero displacement at all times"
+      ],
+      "answer_index": 2,
+      "explanation": "The direction of velocity keeps changing in circular motion, so velocity is not constant even though speed is; this is why the motion is accelerated."
+    },
+    {
+      "q": "A distance-time graph that is a straight line parallel to the time axis shows that the object is:",
+      "options": [
+        "Moving with uniform speed",
+        "At rest",
+        "Moving with uniform acceleration",
+        "Moving with non-uniform speed"
+      ],
+      "answer_index": 1,
+      "explanation": "Distance is not changing with time, so the object is not moving — it is at rest."
+    },
+    {
+      "q": "The slope of a velocity-time graph gives:",
+      "options": [
+        "Distance",
+        "Displacement",
+        "Speed",
+        "Acceleration"
+      ],
+      "answer_index": 3,
+      "explanation": "Rate of change of velocity with time, read from the slope, is exactly the definition of acceleration."
+    },
+    {
+      "q": "A car's velocity changes from 20 m/s to 30 m/s in 5 s. Its acceleration is:",
+      "options": [
+        "2 m/s²",
+        "5 m/s²",
+        "10 m/s²",
+        "0.5 m/s²"
+      ],
+      "answer_index": 0,
+      "explanation": "a = (v − u)/t = (30 − 20)/5 = 10/5 = 2 m/s²."
+    },
+    {
+      "q": "A body covering equal distances in equal intervals of time is said to be in:",
+      "options": [
+        "Non-uniform motion",
+        "Uniform motion",
+        "Circular motion",
+        "Retarded motion"
+      ],
+      "answer_index": 1,
+      "explanation": "This is exactly the definition of uniform motion (or uniform speed)."
+    },
+    {
+      "q": "Which quantity does a speedometer measure?",
+      "options": [
+        "Total distance travelled",
+        "Instantaneous speed",
+        "Average velocity",
+        "Acceleration"
+      ],
+      "answer_index": 1,
+      "explanation": "A speedometer shows the speed of the vehicle at that instant, not the cumulative distance (that is the odometer's job)."
+    },
+    {
+      "q": "What does the area under a distance-time graph represent?",
+      "options": [
+        "Speed",
+        "It has no standard physical meaning in this topic",
+        "Acceleration",
+        "Displacement"
+      ],
+      "answer_index": 1,
+      "explanation": "Unlike a velocity-time graph, the area enclosed under a distance-time graph does not correspond to any quantity used in this chapter."
+    },
+    {
+      "q": "A ball dropped from a height falls freely under gravity. Its acceleration is:",
+      "options": [
+        "Zero",
+        "Uniform, about 9.8 m/s² downward",
+        "Non-uniform",
+        "Uniform, about 9.8 m/s² upward"
+      ],
+      "answer_index": 1,
+      "explanation": "Free fall under gravity near Earth's surface is uniformly accelerated motion, directed downward, at about 9.8 m/s²."
+    },
+    {
+      "q": "Retardation is best described as:",
+      "options": [
+        "Positive acceleration in the direction of motion",
+        "Acceleration acting opposite to the direction of motion, slowing the object",
+        "Zero acceleration",
+        "Acceleration possible only in circular motion"
+      ],
+      "answer_index": 1,
+      "explanation": "Retardation is simply negative acceleration, opposing the direction of motion, causing the speed to decrease."
+    },
+    {
+      "q": "Car A travels 40 km due north in 1 hour without changing direction. What is the magnitude of its average velocity?",
+      "options": [
+        "80 km/h",
+        "0 km/h",
+        "40 km/h",
+        "20 km/h"
+      ],
+      "answer_index": 2,
+      "explanation": "Straight-line motion in a fixed direction: displacement = 40 km, time = 1 h, so average velocity = 40 km/h."
+    },
+    {
+      "q": "A body starts from rest with uniform acceleration. The ratio of distances covered in the 1st, 2nd and 3rd seconds is:",
+      "options": [
+        "1 : 2 : 3",
+        "1 : 1 : 1",
+        "1 : 3 : 5",
+        "1 : 4 : 9"
+      ],
+      "answer_index": 2,
+      "explanation": "For u = 0, distance in the nth second is proportional to (2n − 1), giving successive seconds in the ratio 1 : 3 : 5."
+    },
+    {
+      "q": "A car travels 100 km at 50 km/h and the next 100 km at 25 km/h. Its average speed for the whole journey is:",
+      "options": [
+        "37.5 km/h",
+        "33.3 km/h",
+        "30 km/h",
+        "40 km/h"
+      ],
+      "answer_index": 1,
+      "explanation": "Total distance = 200 km, total time = 100/50 + 100/25 = 2 + 4 = 6 h, average speed = 200/6 ≈ 33.3 km/h."
+    },
+    {
+      "q": "For an object that is actually in motion, which of the following can still be zero?",
+      "options": [
+        "Speed",
+        "Distance covered",
+        "Displacement",
+        "Time taken"
+      ],
+      "answer_index": 2,
+      "explanation": "Displacement can be zero for an object that returns to its starting point, even though it is genuinely in motion (e.g. a round trip)."
+    },
+    {
+      "q": "A ball thrown vertically upward reaches its highest point. At that instant, its velocity and acceleration are:",
+      "options": [
+        "Zero; zero",
+        "Maximum; zero",
+        "Zero; equal to g, directed downward",
+        "Maximum; equal to g, directed downward"
+      ],
+      "answer_index": 2,
+      "explanation": "At the highest point the ball's velocity is momentarily zero, but gravity keeps acting on it, so its acceleration is still g, directed downward."
+    }
+  ],
+  "common_mistakes": [
+    "Treating distance and displacement as always equal — displacement is always ≤ distance, and equality holds only for straight-line motion without any reversal of direction.",
+    "Using average velocity = (u + v)/2 for motion that is not uniformly accelerated — this formula only holds under uniform acceleration; otherwise use total displacement/total time.",
+    "Writing the unit of acceleration as m/s instead of m/s² — always check that the unit matches the formula used.",
+    "Believing constant speed always means zero acceleration — in circular motion direction changes even though speed doesn't, so there is still acceleration.",
+    "Skipping the labelled velocity-time graph when a derivation is asked — the marking scheme gives marks for the correctly drawn and labelled graph, not just for the final formula.",
+    "Mixing up km/h and m/s in numericals without converting (multiply by 5/18 to go km/h → m/s, by 18/5 for the reverse) — this is the single biggest cause of wrong numerical answers in this chapter.",
+    "Confusing 'at rest' (a line parallel to the time axis on a distance-time graph) with 'starting from rest' (u = 0, a line beginning at the origin on a velocity-time graph).",
+    "Forgetting the sign convention in projectile-type questions — taking the direction of initial velocity as positive and gravity's acceleration as negative (or vice versa) consistently through the whole calculation."
+  ],
+  "strategy": "<p>Motion is a formula-heavy, numerical-heavy chapter, and almost every CBSE paper draws at least one question from it, often a graph-based or derivation-based one. Start by getting the four core definitions exactly right — distance, displacement, speed, velocity — because half the conceptual marks in this chapter come from correctly distinguishing scalar from vector quantities and knowing when average speed and average velocity are, or aren't, equal.</p><p>Next, memorise the three equations of motion along with their graphical derivations; do not just memorise the final formulas — practise drawing the labelled velocity-time graph from scratch, because a 5-mark derivation question awards marks step by step for the graph, the areas or slopes used, and the final result. Practise all three equations equally; boards do not always ask for the first one.</p><p>For numericals, build the habit of writing down u, v, a, s, t before choosing which equation to use, and always convert km/h to m/s (×5/18) before substituting into a formula that expects m/s. Practise reading both distance-time and velocity-time graphs — identifying rest, uniform motion, uniform acceleration and non-uniform motion from the shape of the line is asked as MCQs, VSA and inside case-based passages. Finally, do not skip uniform circular motion: it is short but a guaranteed easy mark, usually as an assertion-reason or a one-line 'why is it accelerated' question.</p>",
+  "revision_checklist": [
+    "Can state the difference between distance and displacement with an example.",
+    "Know that displacement can be zero while distance is not, and can quote the circular-track example.",
+    "Can write the formulas for speed, average speed, velocity and average velocity from memory.",
+    "Know average velocity = (u + v)/2 applies only under uniform acceleration.",
+    "Can define acceleration and state its formula a = (v − u)/t and SI unit m/s².",
+    "Can distinguish uniform from non-uniform acceleration with an example.",
+    "Can read a distance-time graph: identify rest, uniform speed and non-uniform speed from its shape.",
+    "Can read a velocity-time graph: find acceleration from slope, distance from area under the graph.",
+    "Can derive all three equations of motion using the velocity-time graph, with the graph correctly labelled.",
+    "Can solve for any one of u, v, a, s, t given the other three, using the correct equation.",
+    "Always convert km/h to m/s before substituting into the equations of motion.",
+    "Can explain why uniform circular motion is accelerated motion even though speed is constant.",
+    "Know the formula speed = 2πr/t for an object moving once around a circle of radius r in time t.",
+    "Can solve the 'distance covered vs displacement after n rounds of a circular track' type of question."
+  ],
+  "videos": []
+}

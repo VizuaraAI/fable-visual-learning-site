@@ -1,0 +1,979 @@
+{
+  "class": 12,
+  "subject": "Physics",
+  "chapter_no": 11,
+  "slug": "dual-nature-of-radiation-and-matter",
+  "title": "Dual Nature of Radiation and Matter",
+  "summary": "How electrons are pulled out of a metal by light, why the wave picture of light fails to explain what is seen, how Einstein's photon picture explains every observation with one equation, and de Broglie's idea that matter too has a wavelength. It is a short chapter with a small formula set, and almost every board paper draws one graph question, one photoelectric numerical and one de Broglie comparison from it.",
+  "exam_profile": {
+    "weightage": "Units VII and VIII together (Dual Nature of Radiation and Matter, Atoms, Nuclei: Chapters 11, 12 and 13) carry 12 marks in the CBSE Class 12 Physics paper. This chapter typically contributes 4 to 5 of those: a 1-mark MCQ or assertion–reason on the photoelectric graphs or de Broglie wavelength, a 2- or 3-mark question on Einstein's equation or a de Broglie comparison, and sometimes a case-based question on the photoelectric experiment.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Ratio of speeds or kinetic energies for two frequencies, what changes when intensity is doubled, the slope and intercept of the V<sub>0</sub>–ν graph, photon momentum and energy, de Broglie wavelength of an electron accelerated through V volts, and which of two particles has the longer wavelength."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Stopping potential is independent of intensity, photoelectric effect supports the particle picture, emission is instantaneous, photoelectrons have a spread of kinetic energies, and lighter particles have longer de Broglie wavelengths at the same energy."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define work function, threshold frequency, stopping potential or intensity in the photon picture; draw the photocurrent–potential graph for two intensities or two frequencies; compare de Broglie wavelengths of an electron and a proton with the same energy or momentum; a one-step numerical."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Three features of the photoelectric effect that wave theory cannot explain; read the work function and threshold frequency off a V<sub>0</sub>–ν graph; a proton–alpha de Broglie ratio; a numerical using K<sub>max</sub> = hν − φ<sub>0</sub> with unit conversion."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Write Einstein's photoelectric equation from the photon picture and explain the observed laws with graphs; describe the experimental set-up and the three graphs; or state de Broglie's hypothesis, derive λ = h/√(2meV) for an electron and attach a numerical."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on the photoelectric experiment (Lenard's set-up, the three graphs) or on the de Broglie wavelength of an accelerated charged particle, followed by four one-line or short numerical parts."
+      }
+    ],
+    "hot_topics": [
+      "Einstein's photoelectric equation K<sub>max</sub> = hν − φ<sub>0</sub> and eV<sub>0</sub> = hν − φ<sub>0</sub>, and how it explains every observation",
+      "The three graphs: photocurrent vs intensity, photocurrent vs collector potential (for intensities and for frequencies), stopping potential vs frequency",
+      "Slope h/e and intercepts of the V<sub>0</sub>–ν graph; finding h, φ<sub>0</sub> and ν<sub>0</sub> from a graph",
+      "Features of the photoelectric effect that the wave theory of light cannot explain",
+      "de Broglie wavelength λ = h/p, and λ = 1.227/√V nm for an electron accelerated through V volts",
+      "Comparing de Broglie wavelengths of electron, proton and alpha particle at the same kinetic energy, same momentum or same accelerating potential",
+      "Photon: energy hν, momentum hν/c, zero rest mass, number of photons per second from a source",
+      "Numericals with eV–joule conversion, threshold wavelength λ<sub>0</sub> = hc/φ<sub>0</sub> and hc ≈ 1240 eV nm"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "11.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>By the end of the nineteenth century, two things looked settled. Light was an electromagnetic wave: Maxwell had predicted it, and in 1887 Hertz produced and detected radio waves, confirming the picture. Matter was made of particles, and one of them had just been found. Studies of electric discharge through gases at low pressure had shown that cathode rays were streams of negatively charged particles, and in 1897 J. J. Thomson measured their charge-to-mass ratio, e/m = 1.76 × 10<sup>11</sup> C kg<sup>−1</sup>. He found the same value whatever the gas or the cathode material, which meant the electron is a universal constituent of matter. Millikan's oil-drop experiment (1913) later gave the charge itself, e = 1.602 × 10<sup>−19</sup> C, and showed that charge is quantised.</p><p>The chapter is about how this tidy division broke down. A metal contains free electrons, but they don't leak out on their own; something must supply energy to pull them across the surface. When light does the pulling, the details of what is seen cannot be explained by a wave picture of light. Einstein's explanation (1905) needed light to arrive in discrete packets, the photons. Then in 1924 de Broglie proposed the reverse: if radiation has a particle side, matter should have a wave side, and electrons should have a wavelength. Both halves were confirmed by experiment. So radiation and matter each have a dual nature, and the chapter treats the two halves in turn: electron emission and the photoelectric effect first, matter waves last.</p><p>For the exam, keep the constants you will use in every numerical at hand: h = 6.63 × 10<sup>−34</sup> J s, c = 3 × 10<sup>8</sup> m s<sup>−1</sup>, e = 1.6 × 10<sup>−19</sup> C, m<sub>e</sub> = 9.1 × 10<sup>−31</sup> kg, and the shortcut hc ≈ 1240 eV nm.</p>",
+      "formulas": [
+        {
+          "expr": "e/m = 1.76 × 10<sup>11</sup> C kg<sup>−1</sup>; e = 1.602 × 10<sup>−19</sup> C",
+          "where": [
+            [
+              "e/m",
+              "specific charge of the electron (Thomson, 1897)"
+            ],
+            [
+              "e",
+              "charge of the electron (Millikan, 1913)"
+            ]
+          ]
+        }
+      ],
+      "tip": "The chapter name is the answer to a common one-liner: 'dual nature' means radiation behaves as both wave and particle, and so does matter."
+    },
+    {
+      "heading": "11.2 Electron Emission",
+      "pyq_years": [],
+      "body": "<p>Metals conduct because some of their electrons are free to move about inside the metal. Those electrons cannot normally escape, because as soon as one tries to leave, the positive ions it leaves behind pull it back. The surface acts as a barrier. The minimum energy needed by an electron to escape from the metal surface is called the <b>work function</b> of the metal, written φ<sub>0</sub>. It depends on the metal and on the condition of its surface. Work functions are quoted in electron volts: 1 eV is the energy gained by an electron accelerated through 1 volt, so 1 eV = 1.602 × 10<sup>−19</sup> J. The work function is different for every metal — NCERT's own worked example uses caesium's value, 2.14 eV. Caesium and the other alkali metals (lithium, sodium, potassium, rubidium) have such low work functions that even visible light can free their electrons, which is why they are used in photosensitive surfaces.</p><p>The energy to cross the barrier can be supplied in three ways, and the examiner expects the three names.</p><ul><li><b>Thermionic emission:</b> heat the metal. The thermal energy of the free electrons rises and some acquire enough to leave. This is how the filament in a vacuum tube or an X-ray tube supplies electrons.</li><li><b>Field emission:</b> apply a very strong electric field, of the order of 10<sup>8</sup> V m<sup>−1</sup>, to the metal. The field pulls electrons out of the surface.</li><li><b>Photoelectric emission:</b> shine light of suitable frequency on the metal. Electrons come out, and they are called photoelectrons. This is the mechanism the rest of the chapter is about.</li></ul><p>Note the word 'minimum' in the definition of work function. An electron deep inside the metal may need more than φ<sub>0</sub> to get out because it loses energy in collisions on the way. That is why photoelectrons emerge with a range of kinetic energies up to a maximum, and why Einstein's equation is written for K<sub>max</sub>, not for every electron.</p>",
+      "formulas": [
+        {
+          "expr": "1 eV = 1.602 × 10<sup>−19</sup> J",
+          "where": [
+            [
+              "eV",
+              "electron volt, the energy gained by an electron accelerated through a potential difference of 1 V"
+            ]
+          ]
+        }
+      ],
+      "tip": "If asked 'why do different metals have different work functions', say the surface barrier depends on the metal's lattice and surface condition. Don't invent a formula for it."
+    },
+    {
+      "heading": "11.3 Photoelectric Effect: Hertz's, Hallwachs' and Lenard's Observations",
+      "pyq_years": [],
+      "body": "<p>The photoelectric effect was found by accident. In 1887, while generating electromagnetic waves with a spark gap, <b>Hertz</b> noticed that the spark across the detector gap jumped more readily when ultraviolet light from the emitter spark fell on the metal electrodes. Light falling on the metal was somehow helping electrons out of it.</p><p><b>Hallwachs</b> (1888) made the effect explicit. He connected a zinc plate to an electroscope. A negatively charged zinc plate lost its charge when ultraviolet light fell on it. An uncharged plate became positively charged, and a positively charged plate became still more positive under the same light. All three fit one idea: the ultraviolet light was ejecting negatively charged particles from the zinc.</p><p><b>Lenard</b> (1902) built the experiment that the rest of the chapter uses. Two metal plates were sealed in an evacuated glass tube and a potential difference was applied between them. When ultraviolet light fell on the emitter plate, a current flowed in the external circuit; as soon as the light was cut off, the current stopped. So electrons were being emitted from the emitter and collected by the other plate. Hallwachs and Lenard also found that no electrons at all came out when the frequency of the light was below a certain minimum, however intense the light was. That minimum is the <b>threshold frequency</b> ν<sub>0</sub>, and it depends on the metal. Alkali metals like lithium, sodium, potassium and caesium respond to visible light; zinc, cadmium and magnesium respond only to ultraviolet.</p><p>Put together, these observations define the effect: the emission of electrons from a metal surface when light of sufficiently high frequency falls on it. The electrons are photoelectrons and the current they carry is the photoelectric current.</p>",
+      "formulas": [],
+      "tip": "A 2-mark question sometimes asks for Hallwachs' observation with the zinc plate. Give all three cases: negatively charged plate loses charge, neutral plate becomes positive, positive plate becomes more positive."
+    },
+    {
+      "heading": "11.4 Experimental Study of Photoelectric Effect",
+      "pyq_years": [],
+      "body": "<p>The set-up is Lenard's tube drawn properly (Fig. 11.1 in NCERT). An evacuated glass or quartz tube holds a photosensitive emitter plate C and a collector plate A. Monochromatic light from a source S enters through a quartz window (glass absorbs ultraviolet) and falls on C. A battery and a potential divider let you make A positive or negative with respect to C and vary the potential; a voltmeter reads it and a microammeter reads the photocurrent. You can change three things independently: the intensity of the light, its frequency, and the collector potential. Three sets of observations follow.</p><p><b>(1) Effect of intensity.</b> Keep frequency and collector potential fixed (collector positive) and vary intensity. The photocurrent is directly proportional to intensity: the graph of photocurrent against intensity is a straight line through the origin. Since photocurrent measures the number of photoelectrons emitted per second, this number is proportional to intensity.</p><p><b>(2) Effect of potential.</b> Keep intensity and frequency fixed. As the collector is made more positive the current rises and then levels off at the <b>saturation current</b>, the value at which every emitted electron is being collected. Now make the collector negative. The current falls, and at a certain negative potential it becomes zero. This is the <b>stopping potential</b> (cut-off potential) V<sub>0</sub>: the minimum retarding potential at which the photocurrent is zero. Even the fastest electrons are just turned back, so K<sub>max</sub> = ½ m v<sub>max</sub><sup>2</sup> = eV<sub>0</sub>. Repeating with a higher intensity of the same frequency, the saturation current is higher but V<sub>0</sub> is exactly the same. So stopping potential, and hence K<sub>max</sub>, is independent of intensity.</p><p><b>(3) Effect of frequency.</b> Keep intensity fixed and repeat at different frequencies. A higher frequency gives a higher stopping potential, though the saturation current is the same for the same intensity. Plotting V<sub>0</sub> against ν gives a straight line with an intercept on the frequency axis at ν<sub>0</sub>: below the threshold there is no emission at all, whatever the intensity. And the emission is instantaneous: it starts within about 10<sup>−9</sup> s of the light falling on the surface, even at very low intensity.</p><p>NCERT sums up in four laws. (i) For a given metal and frequency above threshold, photocurrent ∝ intensity. (ii) For a given metal above threshold, K<sub>max</sub> (or V<sub>0</sub>) depends on frequency, not on intensity. (iii) Below the threshold frequency ν<sub>0</sub> there is no emission however intense the light; above it, K<sub>max</sub> increases linearly with ν. (iv) Emission is instantaneous, with no detectable time lag.</p>",
+      "formulas": [
+        {
+          "expr": "K<sub>max</sub> = ½ m v<sub>max</sub><sup>2</sup> = eV<sub>0</sub>",
+          "where": [
+            [
+              "K<sub>max</sub>",
+              "maximum kinetic energy of the photoelectrons (J or eV)"
+            ],
+            [
+              "V<sub>0</sub>",
+              "stopping potential (V); numerically K<sub>max</sub> in eV = V<sub>0</sub> in volts"
+            ]
+          ]
+        }
+      ],
+      "tip": "When you draw the current–potential curves, the two intensity curves must meet the potential axis at the same −V<sub>0</sub>, and the two frequency curves must reach the same saturation current. Examiners check exactly these two points."
+    },
+    {
+      "heading": "11.5 Photoelectric Effect and Wave Theory of Light",
+      "pyq_years": [],
+      "body": "<p>In the wave picture, light is a continuous electromagnetic wave, its energy is spread uniformly over the wavefront, and a brighter (more intense) beam carries larger electric and magnetic field amplitudes. An electron at the surface absorbs energy continuously from the wave. Follow that picture through and it predicts three things, each of which contradicts what is seen. This three-point contrast is a standard 3-mark question, so learn it as a list.</p><ol><li><b>Kinetic energy should rise with intensity.</b> A more intense wave has larger fields and should push the electrons harder, so K<sub>max</sub> should grow with intensity. Observed: K<sub>max</sub> is independent of intensity; only the number of electrons (the current) changes.</li><li><b>There should be no threshold frequency.</b> A wave of any frequency can deliver enough energy to free an electron if it is intense enough or shines for long enough. Observed: below ν<sub>0</sub> nothing comes out, however bright the light. And K<sub>max</sub> depends on frequency, which has no role in the wave picture.</li><li><b>Emission should be delayed.</b> Energy arriving spread over the wavefront is shared by all the electrons in the illuminated area, and the tiny share reaching any one electron takes time to build up to φ<sub>0</sub>. NCERT's estimate is hours for a weak source. Observed: emission starts within 10<sup>−9</sup> s even at very low intensity.</li></ol><p>The failure is not in the details but in the assumption that energy is delivered continuously. The observations look as if the light energy is delivered in single lumps to single electrons, and each lump is bigger for higher frequency. That is exactly what Einstein proposed.</p>",
+      "formulas": [],
+      "tip": "When answering 'which features cannot be explained by wave theory', don't just list the observations. For each, say in one line what wave theory would predict instead. That contrast is what earns the marks."
+    },
+    {
+      "heading": "11.6 Einstein's Photoelectric Equation: Energy Quantum of Radiation",
+      "pyq_years": [],
+      "body": "<p>Einstein (1905) took Planck's idea one step further. Radiation of frequency ν is not a continuous wave but a stream of discrete energy packets, each of energy E = hν, where h = 6.63 × 10<sup>−34</sup> J s is Planck's constant. In photoelectric emission one quantum is absorbed by one electron, completely and at once. If the electron is at the surface, it spends φ<sub>0</sub> to get out and keeps the rest as kinetic energy. So the most energetic photoelectron has</p><p><b>K<sub>max</sub> = hν − φ<sub>0</sub></b></p><p>This is Einstein's photoelectric equation. Electrons from deeper inside lose some energy in collisions on the way out and emerge with less than K<sub>max</sub>, which is why there is a spread of kinetic energies up to this maximum. Since K<sub>max</sub> = eV<sub>0</sub>, the equation is also written eV<sub>0</sub> = hν − φ<sub>0</sub>, or V<sub>0</sub> = (h/e)ν − φ<sub>0</sub>/e.</p><p>Now check it against the four observations, in the order the marking scheme expects.</p><ul><li><b>Threshold frequency.</b> K<sub>max</sub> cannot be negative, so emission needs hν ≥ φ<sub>0</sub>, i.e. ν ≥ ν<sub>0</sub> = φ<sub>0</sub>/h. Below ν<sub>0</sub> no single photon has enough energy, and intensity cannot help because it only changes the number of photons. Equivalently, λ ≤ λ<sub>0</sub> = hc/φ<sub>0</sub>.</li><li><b>K<sub>max</sub> depends linearly on ν and not on intensity.</b> The equation contains ν and not the intensity. V<sub>0</sub> against ν is a straight line of slope h/e, the same for every metal, with intercept −φ<sub>0</sub>/e on the V<sub>0</sub> axis and ν<sub>0</sub> on the ν axis.</li><li><b>Photocurrent ∝ intensity.</b> Intensity is the number of photons crossing unit area per second; more photons mean more one-to-one absorptions, more electrons, more current, but each electron still gets hν.</li><li><b>Instantaneous emission.</b> Absorption of a photon is a single, complete event; there is no build-up. Even a weak beam of photons above threshold emits electrons at once, just fewer of them.</li></ul><p>Millikan tested the equation between 1906 and 1916 by measuring V<sub>0</sub> against ν for several alkali metals. The lines were straight, their slope gave h close to Planck's value, and this was taken as proof of the photon picture. Einstein received the 1921 Nobel Prize for this work. In a numerical, put everything in eV: hν in eV is 1240/λ(nm), subtract φ<sub>0</sub> in eV, and the result is both K<sub>max</sub> in eV and V<sub>0</sub> in volts.</p>",
+      "formulas": [
+        {
+          "expr": "K<sub>max</sub> = hν − φ<sub>0</sub> = hc/λ − φ<sub>0</sub>",
+          "where": [
+            [
+              "h",
+              "Planck's constant, 6.63 × 10<sup>−34</sup> J s"
+            ],
+            [
+              "ν",
+              "frequency of the incident light (Hz)"
+            ],
+            [
+              "φ<sub>0</sub>",
+              "work function of the metal (J or eV)"
+            ]
+          ]
+        },
+        {
+          "expr": "eV<sub>0</sub> = hν − φ<sub>0</sub>, so V<sub>0</sub> = (h/e)ν − φ<sub>0</sub>/e",
+          "where": [
+            [
+              "V<sub>0</sub>",
+              "stopping potential (V)"
+            ],
+            [
+              "h/e",
+              "slope of the V<sub>0</sub>–ν graph, about 4.14 × 10<sup>−15</sup> V s, the same for all metals"
+            ]
+          ]
+        },
+        {
+          "expr": "ν<sub>0</sub> = φ<sub>0</sub>/h; λ<sub>0</sub> = hc/φ<sub>0</sub>",
+          "where": [
+            [
+              "ν<sub>0</sub>",
+              "threshold frequency (Hz)"
+            ],
+            [
+              "λ<sub>0</sub>",
+              "threshold wavelength (m); emission needs ν ≥ ν<sub>0</sub>, i.e. λ ≤ λ<sub>0</sub>"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write the equation, then the four explanations as separate labelled points. A 5-mark answer that merges them into one paragraph usually loses two marks."
+    },
+    {
+      "heading": "11.7 Particle Nature of Light: The Photon",
+      "pyq_years": [],
+      "body": "<p>The photoelectric effect gives us the particle picture of light, and NCERT lists what a photon is. Learn these as four statements; they are asked directly.</p><ol><li>In its interaction with matter, radiation behaves as if it is made of particles called photons.</li><li>Each photon has energy E = hν and momentum p = hν/c = h/λ, and travels with speed c. Its rest mass is zero.</li><li>All photons of light of a given frequency (or wavelength) have the same energy and momentum, whatever the intensity. Intensity of radiation in the photon picture is the number of photons crossing unit area per unit time; increasing intensity increases the number of photons per second, not the energy of each.</li><li>Photons are electrically neutral and are not deflected by electric or magnetic fields. In a photon–particle collision (such as a photon–electron collision) the total energy and total momentum are conserved, but the number of photons need not be conserved: a photon may be absorbed or a new one created.</li></ol><p>This particle picture found further support in 1924, when A. H. Compton confirmed it by studying the scattering of X-rays by electrons, the Compton effect.</p><p>The energy of a visible photon is around 2 to 3 eV, which is why only a few volts of stopping potential are ever needed. A worked example the board likes (NCERT Example 11.1): monochromatic light of frequency 6.0 × 10<sup>14</sup> Hz from a 2.0 × 10<sup>−3</sup> W source. Energy per photon E = hν = 6.63 × 10<sup>−34</sup> × 6.0 × 10<sup>14</sup> = 3.98 × 10<sup>−19</sup> J, about 2.49 eV. Photons emitted per second N = P/E = 2.0 × 10<sup>−3</sup> / 3.98 × 10<sup>−19</sup> = 5.0 × 10<sup>15</sup> per second. That enormous number is why we never notice the graininess of ordinary light, just as we don't feel individual molecules in a wind.</p><p>Two more useful facts. Doubling the frequency doubles the photon energy and momentum; doubling the intensity doubles the photon count. And momentum p = E/c means a photon of wavelength λ carries momentum h/λ, the same relation de Broglie will turn round in the next section.</p>",
+      "formulas": [
+        {
+          "expr": "E = hν = hc/λ; p = hν/c = h/λ",
+          "where": [
+            [
+              "E",
+              "energy of one photon (J); in eV, E ≈ 1240/λ(nm)"
+            ],
+            [
+              "p",
+              "momentum of one photon (kg m s<sup>−1</sup>)"
+            ]
+          ]
+        },
+        {
+          "expr": "N = P/(hν)",
+          "where": [
+            [
+              "N",
+              "number of photons emitted per second"
+            ],
+            [
+              "P",
+              "power of the source (W)"
+            ]
+          ]
+        }
+      ],
+      "tip": "'Define intensity in the photon picture' is a 1-mark regular: number of photons crossing unit area per unit time (normal to the beam). Don't answer with the wave definition."
+    },
+    {
+      "heading": "11.8 Wave Nature of Matter",
+      "pyq_years": [
+        2015
+      ],
+      "body": "<p>Radiation has a dual nature: it interferes and diffracts like a wave, yet in the photoelectric effect it behaves like particles. In 1924 Louis de Broglie argued from symmetry that nature should treat matter the same way: moving particles of matter should show wave-like properties under suitable conditions. His hypothesis is that a particle of momentum p has associated with it a wavelength</p><p><b>λ = h/p = h/(mv)</b></p><p>This is the de Broglie wavelength, and the wave is called a matter wave. The relation comes from the photon: for a photon E = hν and p = E/c = hν/c = h/λ, so λ = h/p; de Broglie proposed that the same relation holds for a material particle. Note the two consequences. λ is inversely proportional to momentum, so heavier or faster particles have shorter wavelengths, and λ does not depend on the charge or nature of the particle, only on p.</p><p>The derivation the board asks for is the wavelength of an electron accelerated from rest through a potential difference V. Its kinetic energy is K = eV, so p = √(2mK) = √(2meV) and</p><p>λ = h/√(2meV)</p><p>Substituting h = 6.63 × 10<sup>−34</sup> J s, m = 9.1 × 10<sup>−31</sup> kg and e = 1.6 × 10<sup>−19</sup> C gives λ = 1.227/√V nm, with V in volts. For V = 100 V, λ = 0.123 nm, which is the X-ray range and comparable to atomic spacings in a crystal, so electrons can be diffracted by crystals. The same steps give the general forms λ = h/√(2mK) for a particle of kinetic energy K, and λ = h/√(2mqV) for a charge q accelerated through V.</p><p>Why don't we see matter waves in daily life? NCERT Example 11.3: a 150 g ball at 30 m s<sup>−1</sup> has λ = 6.63 × 10<sup>−34</sup>/(0.150 × 30) ≈ 1.5 × 10<sup>−34</sup> m, far too small compared with any opening or obstacle for diffraction to show. An electron at 5.4 × 10<sup>6</sup> m s<sup>−1</sup> has λ = 6.63 × 10<sup>−34</sup>/(9.1 × 10<sup>−31</sup> × 5.4 × 10<sup>6</sup>) ≈ 0.135 nm, comparable to atomic spacing and to X-ray wavelengths. This is why the wave nature of an electron is significant and measurable, while a macroscopic object's is not.</p>",
+      "formulas": [
+        {
+          "expr": "λ = h/p = h/(mv)",
+          "where": [
+            [
+              "λ",
+              "de Broglie wavelength (m)"
+            ],
+            [
+              "p",
+              "momentum of the particle (kg m s<sup>−1</sup>)"
+            ]
+          ]
+        },
+        {
+          "expr": "λ = h/√(2mK) = h/√(2mqV)",
+          "where": [
+            [
+              "K",
+              "kinetic energy of the particle (J)"
+            ],
+            [
+              "q",
+              "charge accelerated through potential difference V"
+            ]
+          ]
+        },
+        {
+          "expr": "λ<sub>electron</sub> = h/√(2meV) = 1.227/√V nm",
+          "where": [
+            [
+              "V",
+              "accelerating potential in volts; λ comes out in nanometres"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'same kinetic energy' comparisons use λ ∝ 1/√m; for 'same momentum' the wavelengths are equal; for 'same accelerating potential' use λ ∝ 1/√(mq). Decide which case the question is before writing anything."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Work function (φ<sub>0</sub>)",
+      "definition": "The minimum energy required by an electron to escape from the surface of a metal. It depends on the metal and its surface condition and is measured in eV; for example, 2.14 eV for caesium."
+    },
+    {
+      "term": "Electron volt (eV)",
+      "definition": "The energy gained by an electron when accelerated through a potential difference of one volt: 1 eV = 1.602 × 10<sup>−19</sup> J."
+    },
+    {
+      "term": "Thermionic emission",
+      "definition": "Emission of electrons from a metal surface when it is heated enough for the free electrons to gain thermal energy exceeding the work function."
+    },
+    {
+      "term": "Field emission",
+      "definition": "Emission of electrons from a metal surface under a very strong electric field, of the order of 10<sup>8</sup> V m<sup>−1</sup>, which pulls the electrons out."
+    },
+    {
+      "term": "Photoelectric emission",
+      "definition": "Emission of electrons from a metal surface when light of frequency at or above the threshold frequency falls on it. The emitted electrons are photoelectrons."
+    },
+    {
+      "term": "Photoelectric current",
+      "definition": "The current carried by photoelectrons collected at the collector plate; proportional to the intensity of the incident light for a fixed frequency above threshold."
+    },
+    {
+      "term": "Saturation current",
+      "definition": "The maximum photocurrent reached when the collector potential is high enough that every emitted photoelectron is collected. It depends on intensity, not on frequency."
+    },
+    {
+      "term": "Stopping potential (V<sub>0</sub>)",
+      "definition": "The minimum negative (retarding) potential of the collector at which the photocurrent becomes zero. eV<sub>0</sub> equals the maximum kinetic energy of the photoelectrons; it depends on frequency and on the metal, not on intensity."
+    },
+    {
+      "term": "Threshold frequency (ν<sub>0</sub>)",
+      "definition": "The minimum frequency of incident light below which no photoelectric emission takes place, however intense the light. ν<sub>0</sub> = φ<sub>0</sub>/h, and it is characteristic of the metal."
+    },
+    {
+      "term": "Threshold wavelength (λ<sub>0</sub>)",
+      "definition": "The maximum wavelength that can cause photoemission from a given metal: λ<sub>0</sub> = c/ν<sub>0</sub> = hc/φ<sub>0</sub>. Light of longer wavelength cannot emit electrons."
+    },
+    {
+      "term": "Photon",
+      "definition": "The quantum of radiation: a packet of energy hν and momentum hν/c that travels at c, has zero rest mass and no charge, and is not deflected by electric or magnetic fields."
+    },
+    {
+      "term": "Intensity (photon picture)",
+      "definition": "The number of photons crossing unit area per unit time. Increasing intensity increases the number of photons, not the energy of each photon."
+    },
+    {
+      "term": "Einstein's photoelectric equation",
+      "definition": "K<sub>max</sub> = hν − φ<sub>0</sub>: a photon gives all its energy hν to one electron, which spends φ<sub>0</sub> to escape and keeps the rest as kinetic energy."
+    },
+    {
+      "term": "Planck's constant (h)",
+      "definition": "The constant relating a photon's energy to its frequency, h = 6.63 × 10<sup>−34</sup> J s. The slope of the stopping potential–frequency graph is h/e."
+    },
+    {
+      "term": "de Broglie wavelength",
+      "definition": "The wavelength λ = h/p associated with a moving particle of momentum p, proposed by de Broglie in 1924 by analogy with the photon relation p = h/λ."
+    },
+    {
+      "term": "Matter waves",
+      "definition": "The waves associated with moving material particles. Their wavelength is noticeable only for sub-atomic particles; for everyday objects it is far too small to detect."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Photon energy",
+      "expr": "E = hν = hc/λ",
+      "note": "In eV with λ in nm: E ≈ 1240/λ. Use hc = 1.24 × 10<sup>−6</sup> eV m if the paper gives it."
+    },
+    {
+      "name": "Photon momentum",
+      "expr": "p = E/c = hν/c = h/λ",
+      "note": "Rest mass of the photon is zero; momentum is not."
+    },
+    {
+      "name": "Photons per second from a source",
+      "expr": "N = P/(hν) = Pλ/(hc)",
+      "note": "P is the power of the source in watts."
+    },
+    {
+      "name": "Einstein's photoelectric equation",
+      "expr": "K<sub>max</sub> = hν − φ<sub>0</sub> = hc/λ − φ<sub>0</sub>",
+      "note": "One photon, one electron. Valid only for ν ≥ ν<sub>0</sub>; a negative result means no emission."
+    },
+    {
+      "name": "Stopping potential",
+      "expr": "eV<sub>0</sub> = K<sub>max</sub> = ½ m v<sub>max</sub><sup>2</sup>",
+      "note": "K<sub>max</sub> in eV is numerically equal to V<sub>0</sub> in volts."
+    },
+    {
+      "name": "Stopping potential vs frequency",
+      "expr": "V<sub>0</sub> = (h/e)ν − φ<sub>0</sub>/e",
+      "note": "Straight line; slope h/e ≈ 4.14 × 10<sup>−15</sup> V s (same for all metals), V<sub>0</sub>-intercept −φ<sub>0</sub>/e, ν-intercept ν<sub>0</sub>."
+    },
+    {
+      "name": "Threshold frequency and wavelength",
+      "expr": "ν<sub>0</sub> = φ<sub>0</sub>/h; λ<sub>0</sub> = hc/φ<sub>0</sub>",
+      "note": "In nm, λ<sub>0</sub> ≈ 1240/φ<sub>0</sub>(eV). Emission needs ν ≥ ν<sub>0</sub> or λ ≤ λ<sub>0</sub>."
+    },
+    {
+      "name": "de Broglie wavelength",
+      "expr": "λ = h/p = h/(mv)",
+      "note": "Same for any particle; depends only on momentum."
+    },
+    {
+      "name": "de Broglie wavelength from energy",
+      "expr": "λ = h/√(2mK) = h/√(2mqV)",
+      "note": "K = kinetic energy; qV for a charge q accelerated from rest through V. At the same K, λ ∝ 1/√m."
+    },
+    {
+      "name": "Electron accelerated through V volts",
+      "expr": "λ = h/√(2meV) = 1.227/√V nm",
+      "note": "V in volts. 100 V gives 0.123 nm; 50 kV gives about 5.5 × 10<sup>−3</sup> nm."
+    },
+    {
+      "name": "Constants",
+      "expr": "h = 6.63 × 10<sup>−34</sup> J s; c = 3 × 10<sup>8</sup> m s<sup>−1</sup>; e = 1.6 × 10<sup>−19</sup> C; m<sub>e</sub> = 9.1 × 10<sup>−31</sup> kg",
+      "note": "1 eV = 1.6 × 10<sup>−19</sup> J. Proton mass 1.67 × 10<sup>−27</sup> kg, alpha particle 4 × proton mass and charge 2e."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Experimental arrangement for studying the photoelectric effect",
+      "how_to_draw": "Draw an evacuated glass tube with the emitter plate C on the left and the collector plate A on the right. Show monochromatic light from source S entering through a quartz window and falling on C. Outside the tube draw a battery with a potential divider (so the collector can be made positive or negative), a voltmeter V across the plates and a microammeter μA in series. Label C, A, S, quartz window, evacuated tube, μA and V."
+    },
+    {
+      "title": "Photocurrent vs collector potential for different intensities (same frequency)",
+      "how_to_draw": "Axes: collector plate potential on the x-axis (negative to the left of the origin, positive to the right), photoelectric current on the y-axis. Draw three curves for I<sub>1</sub> > I<sub>2</sub> > I<sub>3</sub>: each rises from the negative side, passes the origin with a non-zero current, and flattens to its own saturation level, higher for higher intensity. All three must meet the x-axis at the same point −V<sub>0</sub>. Label the saturation currents and the stopping potential."
+    },
+    {
+      "title": "Photocurrent vs collector potential for different frequencies (same intensity)",
+      "how_to_draw": "Same axes. Draw three curves for ν<sub>1</sub> > ν<sub>2</sub> > ν<sub>3</sub> that all rise to the same saturation current but cut the negative x-axis at different stopping potentials −V<sub>01</sub>, −V<sub>02</sub>, −V<sub>03</sub>, with the largest magnitude for the highest frequency. Label the frequencies and the three stopping potentials."
+    },
+    {
+      "title": "Stopping potential vs frequency of incident radiation",
+      "how_to_draw": "Axes: frequency ν on the x-axis, stopping potential V<sub>0</sub> on the y-axis. Draw a straight line that cuts the ν-axis at ν<sub>0</sub> and, if extended backwards, the V<sub>0</sub>-axis at −φ<sub>0</sub>/e. Mark the slope as h/e. For two metals draw two parallel lines with different intercepts; the one cutting the axis at higher ν<sub>0</sub> has the larger work function."
+    },
+    {
+      "title": "de Broglie wavelength vs 1/√V for a charged particle",
+      "how_to_draw": "Axes: 1/√V on the x-axis, λ on the y-axis. Draw a straight line through the origin with slope h/√(2mq). For two particles, the line with the larger slope belongs to the smaller value of the product mq, so at the same V the lighter particle has the longer wavelength."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "11.1",
+      "q": "Find the (a) maximum frequency, and (b) minimum wavelength of X-rays produced by 30 kV electrons.",
+      "a": "<p>An electron accelerated through 30 kV has kinetic energy 30 keV = 30 × 10<sup>3</sup> × 1.6 × 10<sup>−19</sup> = 4.8 × 10<sup>−15</sup> J. The most energetic X-ray photon is produced when all of this becomes one photon.</p><p>(a) ν<sub>max</sub> = E/h = 4.8 × 10<sup>−15</sup> / 6.63 × 10<sup>−34</sup> = 7.24 × 10<sup>18</sup> Hz.</p><p>(b) λ<sub>min</sub> = c/ν<sub>max</sub> = 3 × 10<sup>8</sup> / 7.24 × 10<sup>18</sup> = 4.14 × 10<sup>−11</sup> m ≈ 0.041 nm.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.2",
+      "q": "The work function of caesium metal is 2.14 eV. When light of frequency 6 × 10<sup>14</sup> Hz is incident on the metal surface, photoemission of electrons occurs. What is the (a) maximum kinetic energy of the emitted electrons, (b) stopping potential, and (c) maximum speed of the emitted photoelectrons?",
+      "a": "<p>Photon energy hν = 6.63 × 10<sup>−34</sup> × 6 × 10<sup>14</sup> = 3.98 × 10<sup>−19</sup> J = 3.98 × 10<sup>−19</sup> / 1.6 × 10<sup>−19</sup> eV = 2.49 eV.</p><p>(a) K<sub>max</sub> = hν − φ<sub>0</sub> = 2.49 − 2.14 = 0.35 eV.</p><p>(b) eV<sub>0</sub> = K<sub>max</sub>, so V<sub>0</sub> = 0.35 V.</p><p>(c) ½ m v<sub>max</sub><sup>2</sup> = 0.35 × 1.6 × 10<sup>−19</sup> = 5.60 × 10<sup>−20</sup> J, so v<sub>max</sub> = √(2 × 5.60 × 10<sup>−20</sup> / 9.1 × 10<sup>−31</sup>) = √(1.23 × 10<sup>11</sup>) ≈ 3.51 × 10<sup>5</sup> m s<sup>−1</sup>, about 351 km s<sup>−1</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.3",
+      "q": "The photoelectric cut-off voltage in a certain experiment is 1.5 V. What is the maximum kinetic energy of photoelectrons emitted?",
+      "a": "<p>K<sub>max</sub> = eV<sub>0</sub> = 1.5 eV = 1.5 × 1.6 × 10<sup>−19</sup> = 2.4 × 10<sup>−19</sup> J.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "11.4",
+      "q": "Monochromatic light of wavelength 632.8 nm is produced by a helium-neon laser. The power emitted is 9.42 mW. (a) Find the energy and momentum of each photon in the light beam. (b) How many photons per second, on average, arrive at a target irradiated by this beam? (Assume the beam has uniform cross-section which is less than the target area.) (c) How fast does a hydrogen atom have to travel in order to have the same momentum as that of the photon?",
+      "a": "<p>(a) E = hc/λ = 6.63 × 10<sup>−34</sup> × 3 × 10<sup>8</sup> / 632.8 × 10<sup>−9</sup> = 3.14 × 10<sup>−19</sup> J (about 1.96 eV). p = h/λ = 6.63 × 10<sup>−34</sup> / 632.8 × 10<sup>−9</sup> = 1.05 × 10<sup>−27</sup> kg m s<sup>−1</sup>.</p><p>(b) N = P/E = 9.42 × 10<sup>−3</sup> / 3.14 × 10<sup>−19</sup> = 3.0 × 10<sup>16</sup> photons per second.</p><p>(c) For a hydrogen atom, m = 1.67 × 10<sup>−27</sup> kg. v = p/m = 1.05 × 10<sup>−27</sup> / 1.67 × 10<sup>−27</sup> = 0.63 m s<sup>−1</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.5",
+      "q": "In an experiment on photoelectric effect, the slope of the cut-off voltage versus frequency of incident light is found to be 4.12 × 10<sup>−15</sup> V s. Calculate the value of Planck's constant.",
+      "a": "<p>From eV<sub>0</sub> = hν − φ<sub>0</sub>, V<sub>0</sub> = (h/e)ν − φ<sub>0</sub>/e, so the slope of the V<sub>0</sub>–ν graph is h/e.</p><p>h = e × slope = 1.6 × 10<sup>−19</sup> × 4.12 × 10<sup>−15</sup> = 6.59 × 10<sup>−34</sup> J s, close to the accepted 6.63 × 10<sup>−34</sup> J s.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.6",
+      "q": "The threshold frequency for a certain metal is 3.3 × 10<sup>14</sup> Hz. If light of frequency 8.2 × 10<sup>14</sup> Hz is incident on the metal, predict the cut-off voltage for the photoelectric emission.",
+      "a": "<p>eV<sub>0</sub> = hν − hν<sub>0</sub> = h(ν − ν<sub>0</sub>).</p><p>V<sub>0</sub> = h(ν − ν<sub>0</sub>)/e = 6.63 × 10<sup>−34</sup> × (8.2 − 3.3) × 10<sup>14</sup> / 1.6 × 10<sup>−19</sup> = 6.63 × 10<sup>−34</sup> × 4.9 × 10<sup>14</sup> / 1.6 × 10<sup>−19</sup> = 3.25 × 10<sup>−19</sup> / 1.6 × 10<sup>−19</sup> = 2.03 V.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.7",
+      "q": "The work function for a certain metal is 4.2 eV. Will this metal give photoelectric emission for incident radiation of wavelength 330 nm?",
+      "a": "<p>Energy of the incident photon E = hc/λ ≈ 1240/330 eV = 3.76 eV. (In joules: 6.63 × 10<sup>−34</sup> × 3 × 10<sup>8</sup> / 330 × 10<sup>−9</sup> = 6.03 × 10<sup>−19</sup> J = 3.77 eV.)</p><p>Since 3.76 eV < 4.2 eV, the photon energy is less than the work function. No photoelectric emission will take place, whatever the intensity. Equivalently, the threshold wavelength λ<sub>0</sub> = 1240/4.2 ≈ 295 nm, and 330 nm is longer than this.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.8",
+      "q": "Light of frequency 7.21 × 10<sup>14</sup> Hz is incident on a metal surface. Electrons with a maximum speed of 6.0 × 10<sup>5</sup> m s<sup>−1</sup> are ejected from the surface. What is the threshold frequency for photoemission of electrons?",
+      "a": "<p>K<sub>max</sub> = ½ m v<sub>max</sub><sup>2</sup> = ½ × 9.1 × 10<sup>−31</sup> × (6.0 × 10<sup>5</sup>)<sup>2</sup> = ½ × 9.1 × 10<sup>−31</sup> × 3.6 × 10<sup>11</sup> = 1.64 × 10<sup>−19</sup> J.</p><p>hν = 6.63 × 10<sup>−34</sup> × 7.21 × 10<sup>14</sup> = 4.78 × 10<sup>−19</sup> J.</p><p>φ<sub>0</sub> = hν − K<sub>max</sub> = 4.78 × 10<sup>−19</sup> − 1.64 × 10<sup>−19</sup> = 3.14 × 10<sup>−19</sup> J.</p><p>ν<sub>0</sub> = φ<sub>0</sub>/h = 3.14 × 10<sup>−19</sup> / 6.63 × 10<sup>−34</sup> = 4.74 × 10<sup>14</sup> Hz (NCERT: 4.73 × 10<sup>14</sup> Hz).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.9",
+      "q": "Light of wavelength 488 nm is produced by an argon laser which is used in the photoelectric effect. When light from this spectral line is incident on the emitter, the stopping (cut-off) potential of photoelectrons is 0.38 V. Find the work function of the material from which the emitter is made.",
+      "a": "<p>Photon energy E = hc/λ ≈ 1240/488 eV = 2.54 eV.</p><p>φ<sub>0</sub> = hc/λ − eV<sub>0</sub> = 2.54 − 0.38 = 2.16 eV.</p><p>In joules, φ<sub>0</sub> = 2.16 × 1.6 × 10<sup>−19</sup> = 3.46 × 10<sup>−19</sup> J.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.10",
+      "q": "What is the de Broglie wavelength of (a) a bullet of mass 0.040 kg travelling at the speed of 1.0 km s<sup>−1</sup>, (b) a ball of mass 0.060 kg moving at a speed of 1.0 m s<sup>−1</sup>, and (c) a dust particle of mass 1.0 × 10<sup>−9</sup> kg drifting with a speed of 2.2 m s<sup>−1</sup>?",
+      "a": "<p>λ = h/(mv) in each case.</p><p>(a) λ = 6.63 × 10<sup>−34</sup> / (0.040 × 1000) = 1.66 × 10<sup>−35</sup> m.</p><p>(b) λ = 6.63 × 10<sup>−34</sup> / (0.060 × 1.0) = 1.1 × 10<sup>−32</sup> m.</p><p>(c) λ = 6.63 × 10<sup>−34</sup> / (1.0 × 10<sup>−9</sup> × 2.2) = 3.0 × 10<sup>−25</sup> m.</p><p>All three are far smaller than the size of any obstacle or slit, so no wave effects can be observed for ordinary objects.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.11",
+      "q": "Show that the wavelength of electromagnetic radiation is equal to the de Broglie wavelength of its quantum (photon).",
+      "a": "<p>A photon of frequency ν has energy E = hν and, since it moves at c, momentum p = E/c = hν/c.</p><p>Its de Broglie wavelength is λ<sub>dB</sub> = h/p = h/(hν/c) = c/ν.</p><p>But c/ν is precisely the wavelength λ of the electromagnetic radiation. Hence the de Broglie wavelength of the photon equals the wavelength of the radiation.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "example",
+      "number": "Example 11.2",
+      "q": "The work function of caesium is 2.14 eV. Find (a) the threshold frequency for caesium, and (b) the wavelength of the incident light if the photocurrent is brought to zero by a stopping potential of 0.60 V.",
+      "a": "<p>(a) ν<sub>0</sub> = φ<sub>0</sub>/h = 2.14 × 1.6 × 10<sup>−19</sup> / 6.63 × 10<sup>−34</sup> = 3.42 × 10<sup>−19</sup> / 6.63 × 10<sup>−34</sup> = 5.16 × 10<sup>14</sup> Hz.</p><p>(b) eV<sub>0</sub> = hc/λ − φ<sub>0</sub>, so hc/λ = 0.60 + 2.14 = 2.74 eV. λ = 1240/2.74 ≈ 453 nm (NCERT: 454 nm), in the blue part of the visible spectrum.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "example",
+      "number": "Example 11.3",
+      "q": "What is the de Broglie wavelength associated with (a) an electron moving with a speed of 5.4 × 10<sup>6</sup> m s<sup>−1</sup>, and (b) a ball of mass 150 g travelling at 30.0 m s<sup>−1</sup>?",
+      "a": "<p>(a) For the electron: m = 9.11 × 10<sup>−31</sup> kg, v = 5.4 × 10<sup>6</sup> m s<sup>−1</sup>. Momentum p = mv = 9.11 × 10<sup>−31</sup> × 5.4 × 10<sup>6</sup> = 4.92 × 10<sup>−24</sup> kg m s<sup>−1</sup>. λ = h/p = 6.63 × 10<sup>−34</sup> / 4.92 × 10<sup>−24</sup> = 1.35 × 10<sup>−10</sup> m = 0.135 nm.</p><p>(b) For the ball: m′ = 0.150 kg, v′ = 30.0 m s<sup>−1</sup>. p′ = m′v′ = 0.150 × 30.0 = 4.50 kg m s<sup>−1</sup>. λ′ = h/p′ = 6.63 × 10<sup>−34</sup> / 4.50 = 1.47 × 10<sup>−34</sup> m.</p><p>The electron's de Broglie wavelength is comparable to X-ray wavelengths, but the ball's wavelength is about 10<sup>19</sup> times smaller than the size of a proton — far beyond any possible measurement, which is why macroscopic objects show no observable wave behaviour.</p>",
+      "marks": 2
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The threshold frequency of a metal is ν<sub>0</sub>. When light of frequency 2ν<sub>0</sub> is incident on the metal, the maximum velocity of the photoelectrons is v<sub>1</sub>. When the frequency is increased to 5ν<sub>0</sub>, the maximum velocity is v<sub>2</sub>. The ratio v<sub>1</sub> : v<sub>2</sub> is",
+      "options": [
+        "1 : 2",
+        "1 : 4",
+        "2 : 1",
+        "4 : 1"
+      ],
+      "answer": "a",
+      "solution": "K<sub>max</sub> = h(ν − ν<sub>0</sub>). For 2ν<sub>0</sub> it is hν<sub>0</sub>; for 5ν<sub>0</sub> it is 4hν<sub>0</sub>. Kinetic energy ratio 1 : 4, so the velocity ratio is √(1/4) = 1 : 2."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In a photoelectric experiment the intensity of the incident light (frequency above threshold) is doubled. Which of the following is correct?",
+      "options": [
+        "Stopping potential doubles, saturation current unchanged",
+        "Saturation current doubles, stopping potential unchanged",
+        "Both stopping potential and saturation current double",
+        "Neither changes"
+      ],
+      "answer": "b",
+      "solution": "Intensity fixes the number of photons per second and hence the number of electrons and the saturation current; the energy per photon and therefore K<sub>max</sub> and V<sub>0</sub> are set by frequency alone."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The slope of the graph of stopping potential V<sub>0</sub> against the frequency ν of the incident radiation is",
+      "options": [
+        "h",
+        "h/e",
+        "e/h",
+        "φ<sub>0</sub>/e"
+      ],
+      "answer": "b",
+      "solution": "eV<sub>0</sub> = hν − φ<sub>0</sub> gives V<sub>0</sub> = (h/e)ν − φ<sub>0</sub>/e. The slope h/e is the same for every metal; only the intercept changes."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "An electron is accelerated from rest through a potential difference of 100 V. Its de Broglie wavelength is approximately",
+      "options": [
+        "1.23 nm",
+        "0.123 nm",
+        "0.0123 nm",
+        "12.3 nm"
+      ],
+      "answer": "b",
+      "solution": "λ = 1.227/√V nm = 1.227/√100 = 0.123 nm."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A proton and an alpha particle have the same kinetic energy. The ratio of the de Broglie wavelength of the proton to that of the alpha particle is",
+      "options": [
+        "1 : 2",
+        "2 : 1",
+        "1 : 4",
+        "4 : 1"
+      ],
+      "answer": "b",
+      "solution": "λ = h/√(2mK). At the same K, λ ∝ 1/√m. m<sub>α</sub> = 4m<sub>p</sub>, so λ<sub>p</sub>/λ<sub>α</sub> = √(4m<sub>p</sub>/m<sub>p</sub>) = 2."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is zero for a photon?",
+      "options": [
+        "Energy",
+        "Momentum",
+        "Rest mass",
+        "Frequency"
+      ],
+      "answer": "c",
+      "solution": "A photon has energy hν and momentum hν/c but zero rest mass; it always moves at c."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Light of wavelength 600 nm falls on a metal of work function 1.6 eV. The maximum kinetic energy of the photoelectrons is about",
+      "options": [
+        "0.47 eV",
+        "2.07 eV",
+        "3.67 eV",
+        "1.6 eV"
+      ],
+      "answer": "a",
+      "solution": "Photon energy = 1240/600 = 2.07 eV. K<sub>max</sub> = 2.07 − 1.6 = 0.47 eV."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The stopping potential in a photoelectric experiment does not depend on the intensity of the incident light. Reason (R): The photoelectric current is directly proportional to the intensity of the incident light.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "b",
+      "solution": "Both statements are correct observations, but R is about the number of electrons while A is about their maximum energy; R doesn't explain A. The explanation of A is that each electron absorbs one photon of energy hν, fixed by frequency."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The photoelectric effect cannot be explained by the wave theory of light. Reason (R): According to wave theory, the kinetic energy of the photoelectrons should increase with the intensity of light, there should be no threshold frequency, and emission should take a measurable time.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "R lists exactly the three predictions of the wave picture that are contradicted by experiment, which is why the wave theory fails."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): An electron and a proton having the same kinetic energy have different de Broglie wavelengths, and the electron's wavelength is longer. Reason (R): For the same kinetic energy, λ = h/√(2mK) is inversely proportional to the square root of the mass.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "λ ∝ 1/√m at fixed K, and the electron is about 1836 times lighter than the proton, so its wavelength is about 43 times longer."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Photoelectrons emitted from a metal surface by monochromatic light have a range of kinetic energies from zero up to a maximum. Reason (R): Electrons emitted from below the surface lose part of their energy in collisions before they escape.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Every electron absorbs the same hν, but only surface electrons keep the full hν − φ<sub>0</sub>; deeper ones emerge with less, giving the spread. That is why Einstein's equation is written for K<sub>max</sub>."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define the terms (i) work function and (ii) threshold frequency of a metal. Write the relation between them.",
+      "answer": "<p>(i) Work function φ<sub>0</sub> is the minimum energy required by an electron to escape from the surface of the metal.</p><p>(ii) Threshold frequency ν<sub>0</sub> is the minimum frequency of incident radiation below which no photoelectric emission takes place from the metal, however intense the radiation.</p><p>Relation: φ<sub>0</sub> = hν<sub>0</sub>, i.e. ν<sub>0</sub> = φ<sub>0</sub>/h.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Draw a graph showing the variation of photoelectric current with collector plate potential for two different intensities I<sub>1</sub> > I<sub>2</sub> of incident radiation of the same frequency. Which physical quantity is the same for both curves?",
+      "answer": "<p>Draw collector potential on the x-axis (negative to the left of the origin) and photocurrent on the y-axis. Two curves, both rising from the negative side and levelling off; the I<sub>1</sub> curve saturates at a higher current than the I<sub>2</sub> curve. Both curves cut the potential axis at the same point −V<sub>0</sub>.</p><p>The stopping potential V<sub>0</sub> (and hence the maximum kinetic energy of the photoelectrons) is the same for both, because it depends only on the frequency of the light and the work function of the metal, not on intensity.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define 'intensity of radiation' on the basis of the photon picture of light. Write its SI unit.",
+      "answer": "<p>In the photon picture, intensity of radiation is the number of photons (energy quanta) crossing unit area per unit time, perpendicular to the direction of the beam. Since each photon of frequency ν carries energy hν, intensity = (number of photons per second per unit area) × hν, and its SI unit is W m<sup>−2</sup> (J s<sup>−1</sup> m<sup>−2</sup>).</p><p>Increasing intensity increases the number of photons per second but not the energy of each photon.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "An electron and a proton have the same de Broglie wavelength. Which of them has (i) the greater kinetic energy, (ii) the greater speed? Justify.",
+      "answer": "<p>Same λ means the same momentum p = h/λ.</p><p>(i) K = p<sup>2</sup>/(2m). With p the same, K ∝ 1/m, so the electron (smaller mass) has the greater kinetic energy.</p><p>(ii) v = p/m. Again with p the same, v ∝ 1/m, so the electron has the greater speed.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Plot a graph showing the variation of stopping potential with the frequency of incident radiation for a metal. What information do the slope and the intercepts of this graph give?",
+      "answer": "<p>The graph of V<sub>0</sub> against ν is a straight line (from eV<sub>0</sub> = hν − φ<sub>0</sub>, V<sub>0</sub> = (h/e)ν − φ<sub>0</sub>/e). Draw it cutting the ν-axis at a positive value ν<sub>0</sub>; extended backwards it cuts the V<sub>0</sub>-axis below the origin.</p><p>Slope = h/e, which lets Planck's constant be found as h = e × slope. The intercept on the ν-axis gives the threshold frequency ν<sub>0</sub>, and the intercept on the V<sub>0</sub>-axis gives −φ<sub>0</sub>/e, so the work function is φ<sub>0</sub> = hν<sub>0</sub> = e × |intercept|.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Write three characteristic features of the photoelectric effect which cannot be explained on the basis of the wave theory of light, but can be explained using Einstein's equation.",
+      "answer": "<p>1. <b>Maximum kinetic energy is independent of intensity.</b> Wave theory: greater intensity means larger field amplitude and should give the electrons more energy. Einstein: each electron absorbs one photon of energy hν; K<sub>max</sub> = hν − φ<sub>0</sub> contains only the frequency. Intensity changes the number of photons, hence the current, not the energy per electron.</p><p>2. <b>Existence of a threshold frequency.</b> Wave theory: light of any frequency should eventually free an electron if intense enough. Einstein: emission needs hν ≥ φ<sub>0</sub>, so no emission below ν<sub>0</sub> = φ<sub>0</sub>/h, whatever the intensity.</p><p>3. <b>Instantaneous emission.</b> Wave theory: energy spread over the wavefront would take a long time (hours for weak light) to accumulate to φ<sub>0</sub> on one electron. Einstein: absorption of a photon is a single, complete event, so emission begins within about 10<sup>−9</sup> s even at very low intensity.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "The graph of stopping potential V<sub>0</sub> against frequency ν for two metals P and Q is given: both lines are parallel, and the line for Q cuts the frequency axis at a higher frequency than the line for P. (i) Which metal has the greater threshold frequency? (ii) Which metal has the greater work function? (iii) Radiation of frequency 10<sup>15</sup> Hz, greater than both threshold frequencies, is incident on each metal. Which metal emits photoelectrons of greater maximum kinetic energy? Justify.",
+      "answer": "<p>(i) Q. The intercept on the ν-axis is the threshold frequency ν<sub>0</sub>, and Q's line meets the axis at the higher frequency.</p><p>(ii) Q. φ<sub>0</sub> = hν<sub>0</sub>, so the metal with the greater threshold frequency has the greater work function.</p><p>(iii) P. K<sub>max</sub> = h(ν − ν<sub>0</sub>). For the same incident frequency the metal with the smaller ν<sub>0</sub> (P) gives the larger K<sub>max</sub>. On the graph this shows as P having the larger stopping potential at ν = 10<sup>15</sup> Hz. Note that the slopes are equal (h/e) because Planck's constant does not depend on the metal.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2015",
+      "marks": 3,
+      "q": "A proton and an alpha particle have the same de Broglie wavelength. Determine the ratio of (i) their accelerating potentials, (ii) their speeds.",
+      "answer": "<p>Same λ means the same momentum p = h/λ.</p><p>(i) For a charge q accelerated through V, p = √(2mqV), so V = p<sup>2</sup>/(2mq). With p the same, V ∝ 1/(mq).</p><p>V<sub>p</sub>/V<sub>α</sub> = (m<sub>α</sub> q<sub>α</sub>)/(m<sub>p</sub> q<sub>p</sub>) = (4m<sub>p</sub> × 2e)/(m<sub>p</sub> × e) = 8. Ratio 8 : 1.</p><p>(ii) v = p/m, so with p the same, v ∝ 1/m. v<sub>p</sub>/v<sub>α</sub> = m<sub>α</sub>/m<sub>p</sub> = 4. Ratio 4 : 1.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A photon and an electron each have energy 2.0 eV. Find the wavelength associated with each, and compare them.",
+      "answer": "<p>Photon: for radiation, E = hc/λ, so λ<sub>photon</sub> = hc/E ≈ 1240/2.0 = 620 nm.</p><p>Electron: K = 2.0 eV = 2.0 × 1.6 × 10<sup>−19</sup> = 3.2 × 10<sup>−19</sup> J. Its momentum is p = √(2mK) = √(2 × 9.1 × 10<sup>−31</sup> × 3.2 × 10<sup>−19</sup>) = √(5.82 × 10<sup>−49</sup>) = 7.63 × 10<sup>−25</sup> kg m s<sup>−1</sup>. Its de Broglie wavelength is λ<sub>electron</sub> = h/p = 6.63 × 10<sup>−34</sup>/7.63 × 10<sup>−25</sup> = 8.69 × 10<sup>−10</sup> m ≈ 0.87 nm.</p><p>At the same energy, the photon's wavelength (620 nm, in the visible range) is about 700 times longer than the electron's de Broglie wavelength (0.87 nm), because a photon always travels at c so its momentum is E/c, while a non-relativistic electron's momentum is √(2mE), a very different function of energy.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Sketch the graphs showing the variation of photoelectric current with collector plate potential for (i) radiation of the same intensity but different frequencies ν<sub>1</sub> > ν<sub>2</sub> > ν<sub>3</sub>, and (ii) radiation of the same frequency but different intensities. What conclusions do you draw from each?",
+      "answer": "<p>(i) Three curves that all rise to the same saturation current but cut the negative potential axis at different points: −V<sub>01</sub>, −V<sub>02</sub>, −V<sub>03</sub> with |V<sub>01</sub>| > |V<sub>02</sub>| > |V<sub>03</sub>|. Conclusion: the stopping potential, and so the maximum kinetic energy of photoelectrons, increases with frequency; the saturation current (number of electrons) is fixed by intensity and does not depend on frequency.</p><p>(ii) Three curves with saturation currents in the order of intensity, I<sub>1</sub> > I<sub>2</sub> > I<sub>3</sub>, all meeting the potential axis at the same −V<sub>0</sub>. Conclusion: photocurrent is proportional to intensity, but the stopping potential and maximum kinetic energy are independent of intensity.</p><p>Together these show that K<sub>max</sub> depends on frequency alone and the number of electrons depends on intensity alone, which is exactly what the photon picture predicts.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Using the photon picture of light, obtain Einstein's photoelectric equation. (b) Explain, using this equation, the laws of photoelectric emission. (c) Light of frequency 8 × 10<sup>14</sup> Hz falls on a metal of work function 2.0 eV. Find the stopping potential.",
+      "answer": "<p>(a) In the photon picture, radiation of frequency ν consists of photons each of energy hν. In photoelectric emission a single electron absorbs a single photon completely. An electron at the surface needs the work function φ<sub>0</sub> to escape and retains the rest of the energy as kinetic energy. So the maximum kinetic energy is K<sub>max</sub> = hν − φ<sub>0</sub>. This is Einstein's photoelectric equation. Since K<sub>max</sub> = eV<sub>0</sub>, it can also be written eV<sub>0</sub> = hν − φ<sub>0</sub>. Electrons from below the surface lose energy in collisions and come out with less than K<sub>max</sub>.</p><p>(b) (i) Threshold frequency: K<sub>max</sub> ≥ 0 requires hν ≥ φ<sub>0</sub>, i.e. ν ≥ ν<sub>0</sub> = φ<sub>0</sub>/h. Below ν<sub>0</sub> no photon has enough energy and intensity cannot help. (ii) K<sub>max</sub> increases linearly with ν and is independent of intensity, because the equation contains ν and not the intensity; intensity only changes the number of photons. (iii) Photocurrent ∝ intensity: more photons per second give more one-to-one emissions. (iv) Instantaneous emission: absorption of a photon is a single event with no build-up time.</p><p>(c) hν = 6.63 × 10<sup>−34</sup> × 8 × 10<sup>14</sup> = 5.30 × 10<sup>−19</sup> J = 5.30 × 10<sup>−19</sup>/1.6 × 10<sup>−19</sup> = 3.31 eV. K<sub>max</sub> = 3.31 − 2.0 = 1.31 eV. Stopping potential V<sub>0</sub> = 1.31 V.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe, with a labelled diagram, the experimental arrangement for studying the photoelectric effect. Explain how the effects of (i) intensity, (ii) collector potential and (iii) frequency of the incident radiation on the photocurrent are studied, and state the conclusions with the help of graphs.",
+      "answer": "<p><b>Arrangement:</b> An evacuated glass or quartz tube contains a photosensitive emitter plate C and a collector plate A. Monochromatic light from a source S passes through a quartz window and falls on C. A battery with a potential divider makes A positive or negative relative to C; a voltmeter measures the potential and a microammeter measures the photocurrent. (Draw and label the tube, C, A, S, quartz window, potential divider, V and μA.)</p><p>(i) <b>Intensity:</b> keep frequency and (positive) collector potential fixed and vary intensity. The photocurrent is directly proportional to intensity: a straight line through the origin on the current–intensity graph. So the number of photoelectrons emitted per second is proportional to intensity.</p><p>(ii) <b>Collector potential:</b> keep intensity and frequency fixed. As the collector potential increases, the current rises and reaches a saturation value when all emitted electrons are collected. Making the collector negative reduces the current, which becomes zero at the stopping potential −V<sub>0</sub>; K<sub>max</sub> = eV<sub>0</sub>. For a higher intensity of the same frequency, the saturation current is higher but V<sub>0</sub> is unchanged (draw curves for I<sub>1</sub> > I<sub>2</sub> > I<sub>3</sub> meeting the axis at the same −V<sub>0</sub>). So K<sub>max</sub> is independent of intensity.</p><p>(iii) <b>Frequency:</b> keep intensity fixed and change frequency. Higher frequency gives a larger stopping potential with the same saturation current (draw curves for ν<sub>1</sub> > ν<sub>2</sub> > ν<sub>3</sub>). The graph of V<sub>0</sub> against ν is a straight line with intercept ν<sub>0</sub> on the frequency axis: below the threshold frequency there is no emission at any intensity, and above it K<sub>max</sub> increases linearly with ν. The emission is found to be instantaneous, within about 10<sup>−9</sup> s.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) State de Broglie's hypothesis. Show that the de Broglie wavelength of a photon equals the wavelength of the electromagnetic radiation. (b) Obtain an expression for the de Broglie wavelength of an electron accelerated from rest through a potential difference V, and show that λ = 1.227/√V nm. (c) Why are matter waves not observed for a cricket ball in flight?",
+      "answer": "<p>(a) de Broglie's hypothesis: a moving particle of momentum p has associated with it a wave of wavelength λ = h/p = h/(mv), where h is Planck's constant. For a photon, E = hν and p = E/c = hν/c, so h/p = c/ν = λ, the wavelength of the radiation. The de Broglie relation therefore reproduces the photon's own wavelength.</p><p>(b) An electron of charge e and mass m accelerated from rest through V gains kinetic energy K = eV = ½mv<sup>2</sup>. Its momentum is p = mv = √(2mK) = √(2meV). Hence λ = h/p = h/√(2meV).</p><p>Substituting h = 6.63 × 10<sup>−34</sup> J s, m = 9.1 × 10<sup>−31</sup> kg, e = 1.6 × 10<sup>−19</sup> C: √(2me) = √(2 × 9.1 × 10<sup>−31</sup> × 1.6 × 10<sup>−19</sup>) = √(2.91 × 10<sup>−49</sup>) = 5.4 × 10<sup>−25</sup>. So λ = 6.63 × 10<sup>−34</sup>/(5.4 × 10<sup>−25</sup> √V) = 1.227 × 10<sup>−9</sup>/√V m = 1.227/√V nm, with V in volts.</p><p>(c) A 150 g ball at 30 m s<sup>−1</sup> has λ = 6.63 × 10<sup>−34</sup>/(0.150 × 30) ≈ 1.5 × 10<sup>−34</sup> m. Wave effects such as diffraction need an obstacle or aperture of size comparable to λ, and nothing that small exists, so the ball's wave nature is undetectable. For an electron the wavelength is of atomic size, so crystals diffract it and its wave nature is observed.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "In Lenard's arrangement, light from a monochromatic source falls on the emitter plate of an evacuated tube and the photocurrent is measured as the collector potential is varied. The current rises to a saturation value for positive collector potentials and falls to zero at a negative potential called the stopping potential V<sub>0</sub>. Einstein explained the results by treating light as photons of energy hν, each absorbed by one electron: eV<sub>0</sub> = hν − φ<sub>0</sub>. In one experiment a metal of work function 2.0 eV is illuminated with light of wavelength 400 nm.<br>(i) What is the energy of each incident photon in eV?<br>(ii) Find the stopping potential.<br>(iii) The intensity of the light is now doubled. What happens to (a) the stopping potential, (b) the saturation current?<br>(iv) What is the longest wavelength that can cause emission from this metal?",
+      "answer": "<p>(i) E = 1240/400 = 3.1 eV.</p><p>(ii) K<sub>max</sub> = 3.1 − 2.0 = 1.1 eV, so V<sub>0</sub> = 1.1 V.</p><p>(iii) (a) The stopping potential is unchanged at 1.1 V, because it depends only on frequency and work function. (b) The saturation current doubles, because twice as many photons arrive per second and emit twice as many electrons.</p><p>(iv) λ<sub>0</sub> = hc/φ<sub>0</sub> = 1240/2.0 = 620 nm. Light of wavelength longer than 620 nm cannot emit electrons from this metal.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "In 1924 de Broglie proposed that a particle of momentum p has a wavelength λ = h/p. For an electron accelerated from rest through V volts, K = eV gives p = √(2meV), so λ = h/√(2meV) = 1.227/√V nm. For an accelerating voltage of only a few hundred volts, this wavelength is already comparable to the spacing of atoms in a crystal.<br>(i) Calculate the de Broglie wavelength of an electron accelerated through 400 V.<br>(ii) If the accelerating voltage is made four times larger, by what factor does the wavelength change?<br>(iii) An electron and a proton are accelerated through the same potential difference. Which has the longer de Broglie wavelength, and why?<br>(iv) Why does a moving car show no observable wave nature?",
+      "answer": "<p>(i) λ = 1.227/√400 = 1.227/20 = 0.061 nm.</p><p>(ii) λ ∝ 1/√V, so four times the voltage halves the wavelength: λ becomes 0.031 nm.</p><p>(iii) The electron. λ = h/√(2mqV); both have the same charge magnitude and the same V, so λ ∝ 1/√m and the lighter electron has the longer wavelength, by a factor of √(m<sub>p</sub>/m<sub>e</sub>) ≈ 43.</p><p>(iv) For a car of mass about 1000 kg at 10 m s<sup>−1</sup>, λ = h/(mv) ≈ 6.63 × 10<sup>−34</sup>/10<sup>4</sup> ≈ 6.6 × 10<sup>−38</sup> m, immeasurably smaller than any obstacle, so no diffraction or interference can be observed.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The work function of a metal is 4.0 eV. Its threshold wavelength is approximately",
+      "options": [
+        "155 nm",
+        "310 nm",
+        "620 nm",
+        "400 nm"
+      ],
+      "answer_index": 1,
+      "explanation": "λ<sub>0</sub> = hc/φ<sub>0</sub> ≈ 1240/4.0 = 310 nm."
+    },
+    {
+      "q": "The momentum of a photon of wavelength 663 nm is",
+      "options": [
+        "1.0 × 10<sup>−27</sup> kg m s<sup>−1</sup>",
+        "1.0 × 10<sup>−24</sup> kg m s<sup>−1</sup>",
+        "3.0 × 10<sup>−19</sup> kg m s<sup>−1</sup>",
+        "Zero, since a photon has no mass"
+      ],
+      "answer_index": 0,
+      "explanation": "p = h/λ = 6.63 × 10<sup>−34</sup>/6.63 × 10<sup>−7</sup> = 1.0 × 10<sup>−27</sup> kg m s<sup>−1</sup>. Zero rest mass does not mean zero momentum."
+    },
+    {
+      "q": "An electron accelerated through 25 V has de Broglie wavelength λ. Accelerated through 100 V, its wavelength will be",
+      "options": [
+        "4λ",
+        "2λ",
+        "λ/2",
+        "λ/4"
+      ],
+      "answer_index": 2,
+      "explanation": "λ ∝ 1/√V. Four times the voltage halves the wavelength."
+    },
+    {
+      "q": "If the stopping potential for a metal is 2 V, the maximum kinetic energy of the photoelectrons is",
+      "options": [
+        "2 J",
+        "2 eV",
+        "1 eV",
+        "4 eV"
+      ],
+      "answer_index": 1,
+      "explanation": "K<sub>max</sub> = eV<sub>0</sub> = 2 eV, i.e. 3.2 × 10<sup>−19</sup> J."
+    },
+    {
+      "q": "Light of frequency below the threshold frequency falls on a metal. Doubling the intensity will",
+      "options": [
+        "start emission with small kinetic energy",
+        "double the photocurrent",
+        "not cause any emission",
+        "halve the stopping potential"
+      ],
+      "answer_index": 2,
+      "explanation": "Below ν<sub>0</sub> no photon has energy hν ≥ φ<sub>0</sub>. Intensity only changes the number of photons, so there is still no emission."
+    },
+    {
+      "q": "An electron, a proton and an alpha particle move with the same speed. The longest de Broglie wavelength belongs to the",
+      "options": [
+        "alpha particle",
+        "proton",
+        "electron",
+        "all equal"
+      ],
+      "answer_index": 2,
+      "explanation": "λ = h/(mv); at the same speed λ ∝ 1/m, and the electron has the smallest mass."
+    },
+    {
+      "q": "The slope of the stopping potential versus frequency graph is numerically about",
+      "options": [
+        "6.63 × 10<sup>−34</sup> J s",
+        "4.14 × 10<sup>−15</sup> V s",
+        "1.6 × 10<sup>−19</sup> C",
+        "2.4 × 10<sup>14</sup> Hz V<sup>−1</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "Slope = h/e = 6.63 × 10<sup>−34</sup>/1.6 × 10<sup>−19</sup> ≈ 4.14 × 10<sup>−15</sup> V s."
+    },
+    {
+      "q": "Light of frequency ν (above threshold) gives photoelectrons of maximum kinetic energy K. If the frequency is doubled, the maximum kinetic energy becomes",
+      "options": [
+        "2K",
+        "K + φ<sub>0</sub>",
+        "2K + φ<sub>0</sub>",
+        "K/2"
+      ],
+      "answer_index": 2,
+      "explanation": "K = hν − φ<sub>0</sub>, so hν = K + φ<sub>0</sub>. At 2ν the maximum kinetic energy is 2hν − φ<sub>0</sub> = 2(K + φ<sub>0</sub>) − φ<sub>0</sub> = 2K + φ<sub>0</sub>, which is more than double K."
+    },
+    {
+      "q": "In Hallwachs' experiment, ultraviolet light falling on a negatively charged zinc plate connected to an electroscope",
+      "options": [
+        "increases its negative charge",
+        "causes it to lose its negative charge",
+        "has no effect",
+        "makes it positively charged immediately"
+      ],
+      "answer_index": 1,
+      "explanation": "The ultraviolet light ejects electrons from the zinc, so the plate loses its negative charge and the electroscope leaves collapse."
+    },
+    {
+      "q": "The time lag between the incidence of light above threshold and the emission of photoelectrons is",
+      "options": [
+        "of the order of hours for weak light",
+        "about 1 s",
+        "less than about 10<sup>−9</sup> s",
+        "proportional to the work function"
+      ],
+      "answer_index": 2,
+      "explanation": "Emission is instantaneous because absorbing a photon is a single event; the observed lag is below 10<sup>−9</sup> s even at low intensity."
+    },
+    {
+      "q": "The de Broglie wavelength of a particle of mass m and kinetic energy K is",
+      "options": [
+        "h/(mK)",
+        "h/√(2mK)",
+        "√(2mK)/h",
+        "2mK/h"
+      ],
+      "answer_index": 1,
+      "explanation": "p = √(2mK), so λ = h/p = h/√(2mK)."
+    },
+    {
+      "q": "A 100 W source emits light of wavelength 500 nm. The number of photons emitted per second is about",
+      "options": [
+        "2.5 × 10<sup>19</sup>",
+        "2.5 × 10<sup>20</sup>",
+        "2.5 × 10<sup>21</sup>",
+        "5.0 × 10<sup>18</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "E per photon = 1240/500 = 2.48 eV = 3.97 × 10<sup>−19</sup> J. N = 100/3.97 × 10<sup>−19</sup> ≈ 2.5 × 10<sup>20</sup> per second."
+    },
+    {
+      "q": "A proton and an alpha particle are accelerated through the same potential difference. The ratio λ<sub>p</sub> : λ<sub>α</sub> of their de Broglie wavelengths is",
+      "options": [
+        "1 : 1",
+        "2 : 1",
+        "2√2 : 1",
+        "1 : 2√2"
+      ],
+      "answer_index": 2,
+      "explanation": "λ = h/√(2mqV), so λ ∝ 1/√(mq). m<sub>α</sub>q<sub>α</sub> = 8 m<sub>p</sub>q<sub>p</sub>, giving λ<sub>p</sub>/λ<sub>α</sub> = √8 = 2√2."
+    },
+    {
+      "q": "Which of the following statements about photons is incorrect?",
+      "options": [
+        "They travel at speed c in vacuum",
+        "They are deflected by a magnetic field",
+        "Their energy is hν",
+        "Their rest mass is zero"
+      ],
+      "answer_index": 1,
+      "explanation": "Photons are electrically neutral and are not deflected by electric or magnetic fields."
+    },
+    {
+      "q": "In a photoelectric experiment, for a given metal, the saturation current depends on",
+      "options": [
+        "the frequency of the light only",
+        "the intensity of the light only",
+        "both frequency and intensity",
+        "the stopping potential"
+      ],
+      "answer_index": 1,
+      "explanation": "Saturation current measures the number of photoelectrons per second, which is proportional to intensity. Frequency (above threshold) sets their energy, not their number."
+    },
+    {
+      "q": "Millikan's oil-drop experiment (1913) established that",
+      "options": [
+        "light travels as discrete packets of energy",
+        "electric charge is quantised",
+        "electrons have a wave nature",
+        "the electron's charge-to-mass ratio is universal"
+      ],
+      "answer_index": 1,
+      "explanation": "Millikan measured the charge on many oil drops and found it was always an integral multiple of e = 1.602 × 10<sup>−19</sup> C, establishing that electric charge is quantised."
+    }
+  ],
+  "common_mistakes": [
+    "Mixing eV and joules. If φ<sub>0</sub> is in eV and you compute hν in joules, subtracting gives nonsense. Convert everything to eV with hc ≈ 1240 eV nm, or everything to joules, before subtracting. Examiners deduct the final-answer mark for a wrong unit.",
+    "Saying the stopping potential increases with intensity. It doesn't; only the saturation current does. In the current–potential graph for two intensities, the curves must meet the axis at the same −V<sub>0</sub>.",
+    "Writing K<sub>max</sub> = hν − φ<sub>0</sub> when hν < φ<sub>0</sub> and reporting a negative energy. A negative result means no emission; say so.",
+    "Confusing the three de Broglie comparison cases. Same momentum: same λ. Same kinetic energy: λ ∝ 1/√m. Same accelerating potential: λ ∝ 1/√(mq). Identify the case before writing the ratio; the proton–alpha answers differ (2 : 1 at the same K, 2√2 : 1 at the same V).",
+    "Listing the observations of the photoelectric effect when asked what wave theory cannot explain. The marks are for the contrast: for each point say what wave theory predicts and what is actually seen.",
+    "Drawing the V<sub>0</sub>–ν line through the origin, or giving two metals different slopes. The slope is h/e for every metal; the intercept on the ν-axis is ν<sub>0</sub> and is what differs.",
+    "Quoting the photon's momentum as zero because its rest mass is zero. Momentum is hν/c = h/λ, and it is the basis of the de Broglie relation.",
+    "Forgetting that 1.227/√V nm works only for electrons. For a proton or alpha particle go back to λ = h/√(2mqV)."
+  ],
+  "strategy": "<p>This is a compact chapter with one experiment, one equation and one hypothesis, so prepare it in one sitting and then revise the graphs daily. Start with the experiment in 11.4: be able to draw the apparatus and the three graphs from memory with every label, because at least one of them appears in almost every paper. Then learn Einstein's equation and practise writing the four explanations as four separate points; time yourself writing the full 5-mark answer once. Learn the wave-theory contrast in 11.5 as three paired statements (wave theory says, experiment shows).</p><p>For numericals, adopt one routine: convert wavelength to photon energy with 1240/λ(nm) eV, subtract the work function, and read off V<sub>0</sub> in volts. Do the NCERT exercises 11.1 to 11.9 twice; the board numericals are variants of them. Separately memorise the photon facts: energy hν, momentum h/λ, zero rest mass, intensity as photons per unit area per second, and N = P/(hν).</p><p>For de Broglie, memorise λ = h/p, derive λ = h/√(2meV) = 1.227/√V nm once on paper, and practise the three comparison cases (same p, same K, same V) with the electron, proton and alpha particle until the ratios come out without hesitation. Keep a small constants card and write the constants on the paper before starting the numerical section. In the exam, allot about 15 minutes to this chapter's questions; the derivations are short, so the time is better spent checking units and arithmetic.</p>",
+  "revision_checklist": [
+    "Define work function, threshold frequency, threshold wavelength and stopping potential in NCERT wording.",
+    "Name the three ways of electron emission: thermionic, field and photoelectric.",
+    "State Hertz's, Hallwachs' and Lenard's observations, including the zinc-plate cases.",
+    "Draw the photoelectric experiment apparatus with all labels.",
+    "Draw photocurrent vs collector potential for three intensities (same V<sub>0</sub>) and for three frequencies (same saturation current).",
+    "Draw V<sub>0</sub> vs ν: slope h/e, intercepts ν<sub>0</sub> and −φ<sub>0</sub>/e; know how to find h and φ<sub>0</sub> from it.",
+    "State the four laws of photoelectric emission, including the 10<sup>−9</sup> s time lag.",
+    "Give the three wave-theory predictions and why each contradicts experiment.",
+    "Write K<sub>max</sub> = hν − φ<sub>0</sub> and eV<sub>0</sub> = hν − φ<sub>0</sub>, and explain all four observations from them.",
+    "List the four properties of a photon; define intensity in the photon picture.",
+    "Compute photons per second from a source: N = P/(hν).",
+    "State de Broglie's hypothesis and show λ = h/p reproduces the photon's wavelength.",
+    "Derive λ = h/√(2meV) = 1.227/√V nm for an electron and quote 0.123 nm at 100 V.",
+    "Compare de Broglie wavelengths of electron, proton and alpha at the same p, same K and same V.",
+    "Solve NCERT exercises 11.1 to 11.11 without looking at the solutions."
+  ],
+  "videos": []
+}

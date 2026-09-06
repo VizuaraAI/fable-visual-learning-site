@@ -1,0 +1,1206 @@
+{
+  "class": 12,
+  "subject": "Physics",
+  "chapter_no": 9,
+  "slug": "ray-optics-and-optical-instruments",
+  "title": "Ray Optics and Optical Instruments",
+  "summary": "Light treated as rays: reflection at spherical mirrors and the mirror equation, refraction and Snell's law, total internal reflection and optical fibres, refraction at a spherical surface leading to the lens maker's formula and the thin lens formula, power and combinations of lenses, the prism formula, and the magnifying power of the microscope and the telescope. It is the largest chapter of Unit VI (Optics) and one of the most predictable sources of derivation and ray-diagram questions in the board paper.",
+  "exam_profile": {
+    "weightage": "Unit VI (Optics: Chapters 9 and 10) carries 18 marks in the CBSE Class 12 Physics paper. This chapter typically takes the larger share, about 10 to 12 marks: a 5-mark derivation (lens maker's formula, mirror equation, prism, microscope or telescope), a 3-mark numerical or short derivation, and two or three 1-mark questions, often with a case-based question on total internal reflection or a telescope.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Focal length of a lens in a liquid, a lens that disappears in a liquid of the same refractive index, critical angle from n, the refractive index of a prism from minimum deviation, nature of the image for a given object position, power of lenses in contact, magnifying power or length of a telescope, and why a telescope objective has a large aperture."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Convex mirror as a rear-view mirror, why a convex lens becomes weaker in water, diamond and the small critical angle, red light deviating least in a prism, and which focal lengths give a large magnifying power in a microscope or telescope."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define critical angle or power of a lens; a one-step numerical on lenses in contact or on apparent depth; how minimum deviation changes with colour; what happens to a lens immersed in a denser liquid; a labelled ray diagram for one object position."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Derive A + δ = i + e and the prism formula; find the focal length of a lens in a liquid; show that a ray is totally reflected in a 45°–45°–90° prism; derive the magnifying power of a telescope in normal adjustment with a ray diagram; a mirror or lens numerical with the ray diagram."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Derive the lens maker's formula starting from refraction at a single spherical surface; derive the mirror equation from the ray diagram; draw the ray diagram of a compound microscope or an astronomical telescope and derive its magnifying power; usually with a small numerical or a 'why' part attached."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on optical fibres and total internal reflection, on a telescope (refracting against reflecting), or on a lens placed in different media, followed by four short parts."
+      }
+    ],
+    "hot_topics": [
+      "Lens maker's formula: derivation from refraction at a spherical surface, and numericals with the lens in a liquid",
+      "Refraction through a prism: A + δ = i + e, the minimum-deviation condition, n = sin[(A + D<sub>m</sub>)/2]/sin(A/2)",
+      "Compound microscope and astronomical telescope: ray diagram, derivation of magnifying power, length of the tube",
+      "Total internal reflection: critical angle, sin C = 1/n, optical fibres, totally reflecting prisms",
+      "Mirror equation and magnification derived from the ray diagram; f = R/2",
+      "Thin lens formula, power of a lens and lenses in contact (P = P<sub>1</sub> + P<sub>2</sub>)",
+      "Reflecting telescope: Cassegrain arrangement and its advantages over a refracting telescope",
+      "Real depth and apparent depth, lateral shift in a glass slab"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "9.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>Light is an electromagnetic wave, but when the objects it meets are very much larger than its wavelength (about 0.4 to 0.7 μm) we can forget the wave and follow straight-line rays. That is the whole idea of ray optics. A ray is the direction along which energy travels; a bundle of rays is a beam. The speed of light in vacuum, c = 3 × 10<sup>8</sup> m s<sup>−1</sup>, is the highest speed in nature.</p><p>The chapter uses two laws. The laws of reflection: the angle of reflection equals the angle of incidence, and the incident ray, the reflected ray and the normal at the point of incidence lie in one plane. The laws of refraction (Snell's law): the incident ray, the refracted ray and the normal lie in one plane, and sin i / sin r is a constant for a given pair of media and a given colour. Every result in the chapter, from the mirror equation to the telescope, is these two laws applied to a curved surface with a bit of geometry.</p><p>Keep the NCERT sequence in mind because the derivations build on each other: reflection at a spherical mirror gives the mirror equation; refraction at a plane surface gives Snell's law, apparent depth and total internal reflection; refraction at one spherical surface gives the lens maker's formula and the thin lens formula; two refractions in a prism give the prism formula; and lenses combined in the right way give the microscope and the telescope.</p>",
+      "formulas": [
+        {
+          "expr": "c = 3 × 10<sup>8</sup> m s<sup>−1</sup>; v = c/n",
+          "where": [
+            [
+              "v",
+              "speed of light in a medium"
+            ],
+            [
+              "n",
+              "absolute refractive index of the medium"
+            ]
+          ]
+        }
+      ],
+      "tip": "When a question says 'state the laws of reflection', write both parts. The coplanarity condition is a separate marking point and is the one students forget."
+    },
+    {
+      "heading": "9.2 Reflection of Light by Spherical Mirrors: sign convention and f = R/2",
+      "pyq_years": [],
+      "body": "<p>A spherical mirror is a piece of a sphere. Its centre P is the pole, the centre of the sphere is the centre of curvature C, the radius of the sphere is the radius of curvature R, and the line PC is the principal axis. Rays parallel to the axis and close to it (paraxial rays) meet the axis at the principal focus F after reflection from a concave mirror, or appear to come from F for a convex mirror. PF is the focal length f.</p><p><b>Cartesian sign convention (NCERT).</b> All distances are measured from the pole (for a lens, from the optical centre). Distances measured in the direction of the incident light are positive; distances against it are negative. Heights above the principal axis are positive, below it negative. With light travelling from left to right, an object on the left has u negative. A concave mirror has f and R negative; a convex mirror has f and R positive. A convex lens has f positive, a concave lens f negative.</p><p><b>Derivation of f = R/2.</b> Let a ray parallel to the axis strike a concave mirror at M. CM is the normal, so the ray makes angle θ with CM, and by the law of reflection the reflected ray also makes θ with CM. Hence ∠MCP = θ and ∠MFP = 2θ (exterior angle of triangle CMF). Drop the perpendicular MD on the axis. Then tan θ = MD/CD and tan 2θ = MD/FD. For paraxial rays the angles are small, so tan θ ≈ θ and tan 2θ ≈ 2θ, giving MD/FD = 2 · MD/CD, i.e. FD = CD/2. For a mirror of small aperture D is very close to P, so FD ≈ f and CD ≈ R. Therefore f = R/2. The same argument holds for a convex mirror.</p><p>Standard ray-diagram rays: (i) a ray parallel to the axis passes through F after reflection (or appears to diverge from F); (ii) a ray through C retraces its path; (iii) a ray through F emerges parallel to the axis; (iv) a ray hitting the pole is reflected symmetrically about the axis. Any two of these locate the image.</p>",
+      "formulas": [
+        {
+          "expr": "f = R/2",
+          "where": [
+            [
+              "f",
+              "focal length (negative for a concave mirror, positive for a convex mirror)"
+            ],
+            [
+              "R",
+              "radius of curvature, same sign as f"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write the sign convention explicitly in every mirror or lens numerical: 'u = −15 cm, f = −10 cm'. A right answer with unexplained signs loses the method mark."
+    },
+    {
+      "heading": "9.2.3 The Mirror Equation and magnification",
+      "pyq_years": [],
+      "body": "<p><b>Derivation.</b> Take a concave mirror with an object AB standing on the axis beyond C, and let its real inverted image be A'B'. Draw the ray from A parallel to the axis, striking the mirror at M and passing through F, and the ray from A through the pole P, which is reflected symmetrically. Because the mirror is of small aperture, M is essentially vertically above P, so MP = AB.</p><p>Triangles A'B'F and MPF are similar (right-angled, equal angles at F): B'A'/PM = B'F/FP, so B'A'/BA = B'F/FP = (B'P − FP)/FP. Triangles A'B'P and ABP are also similar (the angles at P are equal by the law of reflection): B'A'/BA = B'P/BP. Equating, (B'P − FP)/FP = B'P/BP.</p><p>Now put in signs: B'P = −v, FP = −f, BP = −u. Then (−v + f)/(−f) = (−v)/(−u), i.e. (v − f)/f = v/u. Dividing by v: 1/f − 1/v = 1/u, which gives the mirror equation 1/v + 1/u = 1/f. Though derived for one case, it holds for all positions of the object and both kinds of mirror with the sign convention.</p><p><b>Linear magnification</b> m = h'/h, where h and h' are the heights of object and image. From the similar triangles A'B'P and ABP, h'/h with signs gives m = −v/u. A negative m means an inverted (real) image; a positive m means an erect (virtual) image. |m| > 1 means magnified.</p><p>Results the examiner expects you to know from the equation: a convex mirror always gives a virtual, erect, diminished image between P and F, which is why it is used as a rear-view mirror (wide field of view); a concave mirror gives a virtual, erect, magnified image only when the object is between P and F (shaving mirror); an object between F and C gives a real image beyond C; an object beyond C gives a real image between F and C.</p>",
+      "formulas": [
+        {
+          "expr": "1/v + 1/u = 1/f",
+          "where": [
+            [
+              "u",
+              "object distance from the pole"
+            ],
+            [
+              "v",
+              "image distance from the pole"
+            ],
+            [
+              "f",
+              "focal length"
+            ]
+          ]
+        },
+        {
+          "expr": "m = h'/h = −v/u",
+          "where": [
+            [
+              "m",
+              "linear magnification; negative for a real inverted image"
+            ]
+          ]
+        }
+      ],
+      "tip": "For a mirror the magnification carries a minus sign, m = −v/u. For a lens it is m = v/u. Mixing the two is the commonest sign error in Section 9.2 and 9.5 numericals."
+    },
+    {
+      "heading": "9.3 Refraction",
+      "pyq_years": [],
+      "body": "<p>When light crosses the boundary between two transparent media its direction changes. Snell's law: sin i / sin r = n<sub>21</sub>, the refractive index of medium 2 with respect to medium 1. If n<sub>21</sub> > 1 the ray bends towards the normal (medium 2 is optically denser); if n<sub>21</sub> < 1 it bends away. Also n<sub>21</sub> = 1/n<sub>12</sub>, and for three media n<sub>32</sub> = n<sub>31</sub> × n<sub>12</sub>. The absolute refractive index of a medium is n = c/v, its value with respect to vacuum, so n<sub>21</sub> = n<sub>2</sub>/n<sub>1</sub> = v<sub>1</sub>/v<sub>2</sub>. Optical density (refractive index) is not the same as mass density: turpentine is less dense than water but optically denser.</p><p><b>Rectangular glass slab.</b> The ray refracts towards the normal at the first face and away from it at the second. Since the two faces are parallel the angle of emergence equals the angle of incidence, so the emergent ray is parallel to the incident ray but shifted sideways. This sideways displacement is the lateral shift; it grows with the thickness of the slab and with the angle of incidence.</p><p><b>Apparent depth.</b> An object at the bottom of a tank of water looks raised because rays from it bend away from the normal on leaving the water and appear to come from a shallower point. For near-normal viewing, real depth / apparent depth = n, so a tank h deep appears h/n deep. This is why a coin in a glass of water looks nearer, and why a glass slab of thickness t raises an object under it by t(1 − 1/n), a shift that does not depend on where the slab is placed between the object and the eye.</p><p>Atmospheric refraction is an application: the sun is seen about two minutes before actual sunrise and after actual sunset because its light bends towards the normal as it enters denser and denser layers of air; the flattened look of the sun at the horizon has the same cause.</p>",
+      "formulas": [
+        {
+          "expr": "n<sub>21</sub> = sin i / sin r = n<sub>2</sub>/n<sub>1</sub> = v<sub>1</sub>/v<sub>2</sub>",
+          "where": [
+            [
+              "n<sub>21</sub>",
+              "refractive index of medium 2 with respect to medium 1"
+            ],
+            [
+              "v<sub>1</sub>, v<sub>2</sub>",
+              "speeds of light in the two media"
+            ]
+          ]
+        },
+        {
+          "expr": "Real depth / apparent depth = n; shift by a slab = t(1 − 1/n)",
+          "where": [
+            [
+              "t",
+              "thickness of the slab"
+            ],
+            [
+              "n",
+              "refractive index of the slab material with respect to the surrounding medium"
+            ]
+          ]
+        }
+      ],
+      "tip": "If the tank is viewed obliquely the apparent depth becomes even less than h/n. NCERT exercise 9.18(d) asks exactly this."
+    },
+    {
+      "heading": "9.4 Total Internal Reflection",
+      "pyq_years": [],
+      "body": "<p>When light goes from a denser to a rarer medium (say glass to air) it bends away from the normal, so the angle of refraction is larger than the angle of incidence. As the angle of incidence increases, the refracted ray grazes the surface (r = 90°) at a particular angle of incidence called the critical angle i<sub>c</sub> (C). For any larger angle of incidence there is no refracted ray at all; the whole of the light is reflected back into the denser medium. This is total internal reflection. The two conditions are: light must travel from a denser to a rarer medium, and the angle of incidence must exceed the critical angle. The reflection is 'total' because, unlike a mirror, nothing is absorbed or transmitted.</p><p><b>Relation with n.</b> Apply Snell's law at the critical angle with the rarer medium as medium 1: n<sub>12</sub> = sin i<sub>c</sub> / sin 90°, so sin i<sub>c</sub> = n<sub>12</sub> = 1/n<sub>21</sub>. For glass–air with n = 1.5, sin i<sub>c</sub> = 2/3, i<sub>c</sub> ≈ 42°. For water (n = 1.33), i<sub>c</sub> ≈ 49°. For diamond (n = 2.42), i<sub>c</sub> ≈ 24°; the small critical angle lets a cut diamond trap light by repeated total reflections, which is its sparkle (NCERT exercise 9.18(e)).</p><p><b>Applications the board asks for.</b> (i) <i>Totally reflecting prisms</i>: a right-angled isosceles glass prism (45°, 45°, 90°) turns a ray through 90° when the ray enters one short face normally and hits the hypotenuse at 45°, greater than 42°; it turns a ray through 180° (erecting an inverted image) when the ray enters the hypotenuse normally and reflects off both short faces. Used in binoculars and periscopes; better than mirrors because there is no silvering to tarnish and no loss of intensity. (ii) <i>Optical fibres</i>: a thin glass or quartz core (higher n) coated with a cladding of lower n. Light entering one end strikes the core–cladding interface at an angle greater than the critical angle and is totally reflected thousands of times, following the fibre round bends with almost no loss. A bundle of fibres carries images in endoscopes, and single fibres carry telephone and internet signals as light pulses. The cladding, not air, is used so that the critical angle is well defined and the surface is protected.</p>",
+      "formulas": [
+        {
+          "expr": "sin i<sub>c</sub> = 1/n<sub>21</sub> = n<sub>1</sub>/n<sub>2</sub>",
+          "where": [
+            [
+              "i<sub>c</sub>",
+              "critical angle for light going from medium 2 (denser) to medium 1 (rarer)"
+            ],
+            [
+              "n<sub>21</sub>",
+              "refractive index of the denser medium with respect to the rarer one"
+            ]
+          ]
+        }
+      ],
+      "tip": "Always state both conditions for total internal reflection. Writing only 'angle of incidence greater than the critical angle' gets half the marks."
+    },
+    {
+      "heading": "9.5.1 Refraction at a Spherical Surface",
+      "pyq_years": [],
+      "body": "<p>This is the derivation that everything about lenses is built on, and the board asks for it either alone (3 marks) or as the first half of the lens maker's formula (5 marks).</p><p><b>Set-up.</b> A convex spherical surface of radius R separates medium 1 (index n<sub>1</sub>, on the left) from medium 2 (index n<sub>2</sub>). P is the pole, C the centre of curvature, and a point object O lies on the axis in medium 1. A ray from O strikes the surface at N, refracts and meets the axis at the image I. Draw NM perpendicular to the axis. Assume the aperture is small, so all angles are small and tan of an angle equals the angle. Let i and r be the angles of incidence and refraction at N; CN is the normal.</p><p><b>Geometry.</b> tan ∠NOM = MN/OM, tan ∠NCM = MN/MC, tan ∠NIM = MN/MI, and for small angles these equal the angles themselves. In triangle NOC, i is the exterior angle: i = ∠NOM + ∠NCM = MN/OM + MN/MC. In triangle NCI, r = ∠NCM − ∠NIM = MN/MC − MN/MI.</p><p><b>Snell's law for small angles.</b> n<sub>1</sub> sin i = n<sub>2</sub> sin r becomes n<sub>1</sub> i = n<sub>2</sub> r. Substituting: n<sub>1</sub>(MN/OM + MN/MC) = n<sub>2</sub>(MN/MC − MN/MI). Cancel MN: n<sub>1</sub>/OM + n<sub>2</sub>/MI = (n<sub>2</sub> − n<sub>1</sub>)/MC.</p><p><b>Signs.</b> OM = −u, MI = +v, MC = +R (M is effectively at P). Hence n<sub>2</sub>/v − n<sub>1</sub>/u = (n<sub>2</sub> − n<sub>1</sub>)/R. This single formula covers convex and concave surfaces and real and virtual images once the signs are put in correctly. NCERT Example 9.5 checks it: a point source in air 100 cm from a glass surface (n = 1.5, R = 20 cm) gives 1.5/v + 1/100 = 0.5/20, so v = 100 cm inside the glass.</p>",
+      "formulas": [
+        {
+          "expr": "n<sub>2</sub>/v − n<sub>1</sub>/u = (n<sub>2</sub> − n<sub>1</sub>)/R",
+          "where": [
+            [
+              "n<sub>1</sub>",
+              "refractive index of the medium containing the object"
+            ],
+            [
+              "n<sub>2</sub>",
+              "refractive index of the medium into which light refracts"
+            ],
+            [
+              "R",
+              "radius of curvature of the surface (positive if C is on the side of the refracted light)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Draw the figure with O, P, C, N, M and I all labelled before writing a single equation; the marking scheme gives a mark for the labelled diagram."
+    },
+    {
+      "heading": "9.5.2 Refraction by a Lens: lens maker's formula and the thin lens formula",
+      "pyq_years": [
+        2019
+      ],
+      "body": "<p><b>Lens maker's formula (5 marks).</b> A thin double convex lens of material n<sub>2</sub> is in a medium n<sub>1</sub>. Its first surface ABC has radius R<sub>1</sub> and centre C<sub>1</sub>; its second surface ADC has radius R<sub>2</sub> and centre C<sub>2</sub>. A point object O on the axis sends a ray that refracts at the first surface. Had the second surface not been there, it would have formed an image I<sub>1</sub>. Applying the spherical-surface result at the first surface: n<sub>1</sub>/OB + n<sub>2</sub>/BI<sub>1</sub> = (n<sub>2</sub> − n<sub>1</sub>)/BC<sub>1</sub>.</p><p>The image I<sub>1</sub> acts as a virtual object for the second surface, where light goes from n<sub>2</sub> to n<sub>1</sub> and the final image forms at I: −n<sub>2</sub>/DI<sub>1</sub> + n<sub>1</sub>/DI = (n<sub>2</sub> − n<sub>1</sub>)/DC<sub>2</sub>. For a thin lens BI<sub>1</sub> = DI<sub>1</sub>. Adding the two equations: n<sub>1</sub>/OB + n<sub>1</sub>/DI = (n<sub>2</sub> − n<sub>1</sub>)[1/BC<sub>1</sub> + 1/DC<sub>2</sub>].</p><p>Put the object at infinity (OB → ∞); the image is then at the focus, DI = f: n<sub>1</sub>/f = (n<sub>2</sub> − n<sub>1</sub>)[1/BC<sub>1</sub> + 1/DC<sub>2</sub>]. With the sign convention BC<sub>1</sub> = +R<sub>1</sub> and DC<sub>2</sub> = −R<sub>2</sub>, and writing n<sub>21</sub> = n<sub>2</sub>/n<sub>1</sub>:</p><p><b>1/f = (n<sub>21</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>)</b>. This is the lens maker's formula. It gives f from the radii and the refractive index, and it explains why f depends on the surrounding medium: in water n<sub>21</sub> is smaller, so a glass convex lens has a longer focal length in water than in air, and if n<sub>21</sub> = 1 the lens does nothing at all (1/f = 0). If the lens is put in a liquid of higher refractive index, n<sub>21</sub> < 1 and a convex lens becomes diverging.</p><p><b>Thin lens formula.</b> Going back one step, with OB = −u, DI = v and n<sub>1</sub>/f on the right: 1/v − 1/u = 1/f. Notice the minus sign, different from the mirror equation. Magnification for a lens: m = h'/h = v/u. A convex lens forms a real inverted image for an object beyond F (real, magnified if the object is between F and 2F, diminished if beyond 2F) and a virtual erect magnified image for an object inside F; a concave lens always forms a virtual, erect, diminished image between the lens and F.</p>",
+      "formulas": [
+        {
+          "expr": "1/f = (n<sub>21</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>)",
+          "where": [
+            [
+              "n<sub>21</sub>",
+              "refractive index of the lens material relative to the surrounding medium"
+            ],
+            [
+              "R<sub>1</sub>, R<sub>2</sub>",
+              "radii of curvature of the first and second surfaces met by the light, with signs"
+            ]
+          ]
+        },
+        {
+          "expr": "1/v − 1/u = 1/f; m = v/u",
+          "where": [
+            [
+              "u, v",
+              "object and image distances from the optical centre"
+            ],
+            [
+              "m",
+              "magnification, negative for a real inverted image"
+            ]
+          ]
+        }
+      ],
+      "tip": "For an equiconvex lens R<sub>1</sub> = +R and R<sub>2</sub> = −R, so 1/f = 2(n − 1)/R. With n = 1.5 this gives f = R: the standard 'quick check' value."
+    },
+    {
+      "heading": "9.5.3–9.5.4 Power of a Lens and Combination of Thin Lenses in Contact",
+      "pyq_years": [],
+      "body": "<p><b>Power.</b> The power of a lens measures how strongly it converges or diverges a beam: P = 1/f with f in metres. The SI unit is the dioptre (D); 1 D is the power of a lens of focal length 1 m. A convex lens has positive power, a concave lens negative power. An optician prescribing +2.5 D means a converging lens of f = 0.4 m. Geometrically, P = tan δ / h, where δ is the angle through which a ray at height h from the axis is bent; for h = 1 m, tan δ = 1/f.</p><p><b>Two thin lenses in contact (derivation, 3 marks).</b> Lenses A (f<sub>1</sub>) and B (f<sub>2</sub>) are in contact. For a point object O on the axis, lens A alone would form an image at I<sub>1</sub>: 1/v<sub>1</sub> − 1/u = 1/f<sub>1</sub>. I<sub>1</sub> is the object for lens B, which forms the final image at I: 1/v − 1/v<sub>1</sub> = 1/f<sub>2</sub>. Adding: 1/v − 1/u = 1/f<sub>1</sub> + 1/f<sub>2</sub>. If the combination is regarded as a single lens of focal length f, then 1/v − 1/u = 1/f, so 1/f = 1/f<sub>1</sub> + 1/f<sub>2</sub>. For several lenses 1/f = 1/f<sub>1</sub> + 1/f<sub>2</sub> + 1/f<sub>3</sub> + …, and in terms of power P = P<sub>1</sub> + P<sub>2</sub> + P<sub>3</sub> + …. The total magnification is the product m = m<sub>1</sub>m<sub>2</sub>m<sub>3</sub>….</p><p>Such combinations are used in camera lenses, microscopes and telescopes to get the required magnification, sharpness and field of view while reducing the defects of a single lens. Example: a convex lens of f = 30 cm in contact with a concave lens of f = −20 cm gives 1/f = 1/30 − 1/20 = −1/60, f = −60 cm, a diverging combination (NCERT exercise 9.10).</p><p>Note for questions where two lenses are separated by a distance: the answer depends on which side the light enters, so the idea of one effective focal length does not apply; you must trace the image lens by lens.</p>",
+      "formulas": [
+        {
+          "expr": "P = 1/f (f in metres); unit dioptre (D)",
+          "where": [
+            [
+              "P",
+              "power of the lens, positive for convex, negative for concave"
+            ]
+          ]
+        },
+        {
+          "expr": "1/f = 1/f<sub>1</sub> + 1/f<sub>2</sub>; P = P<sub>1</sub> + P<sub>2</sub>; m = m<sub>1</sub>m<sub>2</sub>",
+          "where": [
+            [
+              "f",
+              "focal length of the combination of thin lenses in contact"
+            ]
+          ]
+        }
+      ],
+      "tip": "Convert focal length to metres before finding power. f = −40 cm gives P = −2.5 D, not −0.025 D."
+    },
+    {
+      "heading": "9.6 Refraction through a Prism",
+      "pyq_years": [
+        2017
+      ],
+      "body": "<p>A prism has two refracting faces meeting at the refracting edge; the angle between them is the angle of the prism A. A ray PQ enters face AB at Q with angle of incidence i and angle of refraction r<sub>1</sub>, travels to face AC, and leaves at R with internal angle of incidence r<sub>2</sub> and angle of emergence e. The emergent ray is bent towards the base; the angle δ between the incident and emergent directions is the angle of deviation.</p><p><b>Derivation of A + δ = i + e.</b> The normals at Q and R meet at N. In the quadrilateral AQNR the angles at Q and R are right angles, so A + ∠QNR = 180°. In triangle QNR, r<sub>1</sub> + r<sub>2</sub> + ∠QNR = 180°. Comparing, r<sub>1</sub> + r<sub>2</sub> = A. The deviation at Q is (i − r<sub>1</sub>) and at R is (e − r<sub>2</sub>), so δ = (i − r<sub>1</sub>) + (e − r<sub>2</sub>) = i + e − A, i.e. A + δ = i + e.</p><p><b>Minimum deviation.</b> As i increases from a small value, δ first decreases, reaches a minimum D<sub>m</sub>, then increases again; the graph of δ against i is a U-shaped curve, and each value of δ (other than D<sub>m</sub>) is produced by two angles of incidence, i and e interchanged. At minimum deviation the ray inside the prism runs parallel to the base and by symmetry i = e and r<sub>1</sub> = r<sub>2</sub> = r. Then 2r = A, r = A/2, and A + D<sub>m</sub> = 2i, i = (A + D<sub>m</sub>)/2. Snell's law at the first face gives the prism formula: n<sub>21</sub> = sin i / sin r = sin[(A + D<sub>m</sub>)/2] / sin(A/2). This is how the refractive index of a prism material is measured in the laboratory.</p><p><b>Thin prism.</b> For small A, sin[(A + D<sub>m</sub>)/2] ≈ (A + D<sub>m</sub>)/2 and sin(A/2) ≈ A/2, so n<sub>21</sub> = (A + D<sub>m</sub>)/A, giving D<sub>m</sub> = (n<sub>21</sub> − 1)A. A thin prism does not deviate the light much. Since n is slightly larger for violet than for red, violet deviates more; replacing violet light by red reduces the angle of minimum deviation.</p>",
+      "formulas": [
+        {
+          "expr": "A = r<sub>1</sub> + r<sub>2</sub>; δ = i + e − A",
+          "where": [
+            [
+              "A",
+              "angle of the prism"
+            ],
+            [
+              "δ",
+              "angle of deviation"
+            ]
+          ]
+        },
+        {
+          "expr": "n<sub>21</sub> = sin[(A + D<sub>m</sub>)/2] / sin(A/2); thin prism: D<sub>m</sub> = (n<sub>21</sub> − 1)A",
+          "where": [
+            [
+              "D<sub>m</sub>",
+              "angle of minimum deviation"
+            ]
+          ]
+        }
+      ],
+      "tip": "The classic check: A = 60°, D<sub>m</sub> = 30° gives n = sin 45°/sin 30° = √2. If your answer is far from 1.5 for glass, recheck the angles."
+    },
+    {
+      "heading": "9.7.1 Optical Instruments: the Microscope",
+      "pyq_years": [
+        2018
+      ],
+      "body": "<p>The unaided eye sees an object clearly and comfortably no nearer than the near point, D = 25 cm for a normal eye. Optical instruments enlarge the angle the object subtends at the eye.</p><p><b>Simple microscope (magnifying glass).</b> A single convex lens with the object held inside its focal length gives an erect, magnified, virtual image. If the image is formed at the near point D, the magnification is m = 1 + D/f. If the object is placed exactly at the focus the image is at infinity and the eye is most relaxed; then m = D/f. The magnifying power is the ratio of the angle subtended by the image to the angle subtended by the object when the object is at D. A single lens is rarely used beyond a magnifying power of about 6 (f = 5 cm gives m = 6 for the image at D) before aberrations spoil the image, so for more we use two lenses.</p><p><b>Compound microscope.</b> The objective is a convex lens of very short focal length f<sub>o</sub> and small aperture; the eyepiece has a slightly larger focal length f<sub>e</sub> and larger aperture. The object is placed just beyond f<sub>o</sub>, so the objective forms a real, inverted, magnified image A'B' near the focus of the eyepiece. The eyepiece works as a simple microscope on this image and gives a final virtual image, inverted with respect to the object and greatly enlarged, either at D or at infinity.</p><p><b>Magnifying power.</b> The objective magnifies m<sub>o</sub> = h'/h = v<sub>o</sub>/u<sub>o</sub>. Because the object is close to the focus and the intermediate image close to the eyepiece, u<sub>o</sub> ≈ f<sub>o</sub> and v<sub>o</sub> ≈ L, the tube length (distance between the second focal point of the objective and the first focal point of the eyepiece), so m<sub>o</sub> ≈ L/f<sub>o</sub>. The eyepiece gives m<sub>e</sub> = 1 + D/f<sub>e</sub> (image at D) or D/f<sub>e</sub> (image at infinity). The total magnifying power is m = m<sub>o</sub>m<sub>e</sub> = (L/f<sub>o</sub>)(D/f<sub>e</sub>) for normal adjustment. So both focal lengths must be small, with f<sub>o</sub> smaller than f<sub>e</sub>. In the ray diagram, mark f<sub>o</sub> on both sides of the objective, f<sub>e</sub> on the eyepiece, the intermediate image A'B' between the eyepiece and its focus, and the final image A''B'' on the same side as the object.</p>",
+      "formulas": [
+        {
+          "expr": "Simple microscope: m = 1 + D/f (image at D); m = D/f (image at infinity)",
+          "where": [
+            [
+              "D",
+              "least distance of distinct vision, 25 cm"
+            ],
+            [
+              "f",
+              "focal length of the lens"
+            ]
+          ]
+        },
+        {
+          "expr": "Compound microscope: m = m<sub>o</sub>m<sub>e</sub> = (L/f<sub>o</sub>)(D/f<sub>e</sub>) (normal adjustment); m = (v<sub>o</sub>/u<sub>o</sub>)(1 + D/f<sub>e</sub>) (image at D)",
+          "where": [
+            [
+              "L",
+              "tube length"
+            ],
+            [
+              "f<sub>o</sub>, f<sub>e</sub>",
+              "focal lengths of objective and eyepiece"
+            ]
+          ]
+        }
+      ],
+      "tip": "In numericals, work the objective and eyepiece one at a time with the lens formula and only then multiply the magnifications. Do not put L/f<sub>o</sub> into a question that gives u<sub>o</sub> and v<sub>o</sub> exactly."
+    },
+    {
+      "heading": "9.7.2 Telescope",
+      "pyq_years": [],
+      "body": "<p><b>Refracting (astronomical) telescope.</b> Two convex lenses: an objective of large focal length f<sub>o</sub> and large aperture, and an eyepiece of short focal length f<sub>e</sub> and small aperture. Parallel rays from a distant object form a real, inverted, diminished image A'B' at the focal plane of the objective. The eyepiece magnifies this image. In normal adjustment the intermediate image lies at the focus of the eyepiece, so the final image is at infinity, and the length of the tube is L = f<sub>o</sub> + f<sub>e</sub>.</p><p><b>Magnifying power derivation.</b> Magnifying power is the ratio of the angle β subtended at the eye by the final image to the angle α subtended at the lens (or eye) by the object. Since the object is far away, α is the angle A'B' subtends at the objective: tan α ≈ α = h/f<sub>o</sub>. The same image subtends β at the eyepiece: β = h/f<sub>e</sub>. Hence m = β/α = f<sub>o</sub>/f<sub>e</sub>. If instead the final image is formed at D, m = (f<sub>o</sub>/f<sub>e</sub>)(1 + f<sub>e</sub>/D). For large magnifying power f<sub>o</sub> must be large and f<sub>e</sub> small; a large aperture of the objective gathers more light (brighter image) and gives higher resolving power. A telescope with f<sub>o</sub> = 100 cm and f<sub>e</sub> = 1 cm magnifies 100 times. The final image is inverted, which does not matter for astronomy; terrestrial telescopes add an erecting lens or an inverting prism pair.</p><p><b>Reflecting telescope.</b> The objective is a concave mirror (paraboloidal) instead of a lens. In the Cassegrain arrangement a large concave primary mirror with a hole at its centre reflects light to a small convex secondary mirror, which sends it back through the hole to the eyepiece. Advantages over a refracting telescope, each a separate marking point: (i) no chromatic aberration, since a mirror reflects all colours alike; (ii) spherical aberration is reduced by using a parabolic mirror; (iii) a mirror can be made much larger than a lens because it is supported from behind and does not need a flawless large block of glass, so it gathers more light and resolves better; (iv) a mirror is lighter and cheaper than a lens of the same aperture; (v) the Cassegrain design makes the tube short. The largest telescopes, such as the 10 m Keck and India's 2.34 m Kavalur telescope, are reflecting telescopes.</p>",
+      "formulas": [
+        {
+          "expr": "m = β/α = f<sub>o</sub>/f<sub>e</sub> (normal adjustment); L = f<sub>o</sub> + f<sub>e</sub>",
+          "where": [
+            [
+              "f<sub>o</sub>",
+              "focal length of the objective (large)"
+            ],
+            [
+              "f<sub>e</sub>",
+              "focal length of the eyepiece (small)"
+            ]
+          ]
+        },
+        {
+          "expr": "m = (f<sub>o</sub>/f<sub>e</sub>)(1 + f<sub>e</sub>/D) (final image at D)",
+          "where": [
+            [
+              "D",
+              "least distance of distinct vision"
+            ]
+          ]
+        }
+      ],
+      "tip": "Given three lenses, pick the one with the largest focal length and aperture as the objective and the smallest focal length as the eyepiece; state the reason (large light gathering; large f<sub>o</sub>/f<sub>e</sub>)."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Principal focus",
+      "definition": "The point on the principal axis where paraxial rays parallel to the axis converge after reflection or refraction, or from which they appear to diverge."
+    },
+    {
+      "term": "Focal length",
+      "definition": "Distance between the pole (or optical centre) and the principal focus; equals R/2 for a spherical mirror."
+    },
+    {
+      "term": "Paraxial rays",
+      "definition": "Rays close to the principal axis and making small angles with it; the mirror and lens formulas are derived for these rays only."
+    },
+    {
+      "term": "Cartesian sign convention",
+      "definition": "Distances are measured from the pole or optical centre; those along the incident light are positive and against it negative; heights above the axis are positive."
+    },
+    {
+      "term": "Linear magnification",
+      "definition": "Ratio of the height of the image to the height of the object, m = h'/h; equal to −v/u for a mirror and v/u for a lens."
+    },
+    {
+      "term": "Refractive index",
+      "definition": "n<sub>21</sub> = sin i / sin r = v<sub>1</sub>/v<sub>2</sub>, the ratio of the speed of light in medium 1 to that in medium 2; the absolute refractive index is n = c/v."
+    },
+    {
+      "term": "Lateral shift",
+      "definition": "The sideways displacement of a ray on passing through a parallel-sided slab; the emergent ray is parallel to the incident ray."
+    },
+    {
+      "term": "Apparent depth",
+      "definition": "The depth at which an object under a transparent medium seems to lie when viewed from above; real depth divided by n for near-normal viewing."
+    },
+    {
+      "term": "Critical angle",
+      "definition": "The angle of incidence in the denser medium for which the angle of refraction in the rarer medium is 90°; sin i<sub>c</sub> = 1/n<sub>21</sub>."
+    },
+    {
+      "term": "Total internal reflection",
+      "definition": "Complete reflection of light back into the denser medium when it is incident on the boundary with a rarer medium at an angle greater than the critical angle."
+    },
+    {
+      "term": "Optical fibre",
+      "definition": "A thin fibre of glass or quartz with a core of higher refractive index and a cladding of lower index, along which light travels by repeated total internal reflection."
+    },
+    {
+      "term": "Lens maker's formula",
+      "definition": "1/f = (n<sub>21</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>), relating the focal length of a thin lens to its radii of curvature and its refractive index relative to the surrounding medium."
+    },
+    {
+      "term": "Power of a lens",
+      "definition": "The reciprocal of the focal length in metres, P = 1/f; unit dioptre (D). Positive for a converging lens, negative for a diverging lens."
+    },
+    {
+      "term": "Angle of deviation",
+      "definition": "The angle between the direction of the incident ray and the emergent ray after passing through a prism; δ = i + e − A."
+    },
+    {
+      "term": "Angle of minimum deviation",
+      "definition": "The smallest deviation a prism produces, when the ray inside is parallel to the base and i = e; n = sin[(A + D<sub>m</sub>)/2]/sin(A/2)."
+    },
+    {
+      "term": "Magnifying power",
+      "definition": "Ratio of the angle subtended at the eye by the final image to the angle subtended by the object (at the near point for a microscope, at its actual position for a telescope)."
+    },
+    {
+      "term": "Normal adjustment",
+      "definition": "The setting of a microscope or telescope in which the final image is formed at infinity so the eye is relaxed; for a telescope the tube length is then f<sub>o</sub> + f<sub>e</sub>."
+    },
+    {
+      "term": "Cassegrain telescope",
+      "definition": "A reflecting telescope with a large concave primary mirror having a central hole and a small convex secondary mirror that reflects light back through the hole to the eyepiece."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Focal length of a spherical mirror",
+      "expr": "f = R/2",
+      "note": "Both negative for a concave mirror, both positive for a convex mirror."
+    },
+    {
+      "name": "Mirror equation",
+      "expr": "1/v + 1/u = 1/f",
+      "note": "Distances from the pole with the Cartesian sign convention."
+    },
+    {
+      "name": "Magnification (mirror)",
+      "expr": "m = h'/h = −v/u",
+      "note": "m negative: real and inverted; m positive: virtual and erect."
+    },
+    {
+      "name": "Snell's law",
+      "expr": "n<sub>21</sub> = sin i / sin r = n<sub>2</sub>/n<sub>1</sub> = v<sub>1</sub>/v<sub>2</sub>",
+      "note": "n<sub>21</sub> = 1/n<sub>12</sub>; n<sub>32</sub> = n<sub>31</sub> n<sub>12</sub>."
+    },
+    {
+      "name": "Apparent depth",
+      "expr": "apparent depth = real depth / n",
+      "note": "Near-normal viewing; shift by a slab of thickness t is t(1 − 1/n)."
+    },
+    {
+      "name": "Critical angle",
+      "expr": "sin i<sub>c</sub> = 1/n<sub>21</sub>",
+      "note": "n<sub>21</sub> of the denser medium relative to the rarer; glass–air about 42°, water–air about 49°, diamond about 24°."
+    },
+    {
+      "name": "Refraction at a spherical surface",
+      "expr": "n<sub>2</sub>/v − n<sub>1</sub>/u = (n<sub>2</sub> − n<sub>1</sub>)/R",
+      "note": "Light goes from medium 1 into medium 2; R positive if the centre of curvature is on the outgoing side."
+    },
+    {
+      "name": "Lens maker's formula",
+      "expr": "1/f = (n<sub>21</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>)",
+      "note": "Equiconvex: 1/f = 2(n − 1)/R. In a liquid replace n<sub>21</sub> by n<sub>lens</sub>/n<sub>liquid</sub>."
+    },
+    {
+      "name": "Thin lens formula",
+      "expr": "1/v − 1/u = 1/f",
+      "note": "m = v/u. Convex f positive, concave f negative."
+    },
+    {
+      "name": "Power of a lens",
+      "expr": "P = 1/f (metres)",
+      "note": "Unit dioptre. Lenses in contact: P = P<sub>1</sub> + P<sub>2</sub>, 1/f = 1/f<sub>1</sub> + 1/f<sub>2</sub>, m = m<sub>1</sub>m<sub>2</sub>."
+    },
+    {
+      "name": "Prism",
+      "expr": "A = r<sub>1</sub> + r<sub>2</sub>; δ = i + e − A; n<sub>21</sub> = sin[(A + D<sub>m</sub>)/2]/sin(A/2)",
+      "note": "Thin prism: D<sub>m</sub> = (n − 1)A."
+    },
+    {
+      "name": "Simple microscope",
+      "expr": "m = 1 + D/f (image at D); m = D/f (image at ∞)",
+      "note": "D = 25 cm."
+    },
+    {
+      "name": "Compound microscope",
+      "expr": "m = (L/f<sub>o</sub>)(D/f<sub>e</sub>); or m = (v<sub>o</sub>/u<sub>o</sub>)(1 + D/f<sub>e</sub>)",
+      "note": "L = tube length; both f<sub>o</sub> and f<sub>e</sub> small."
+    },
+    {
+      "name": "Astronomical telescope",
+      "expr": "m = f<sub>o</sub>/f<sub>e</sub>; L = f<sub>o</sub> + f<sub>e</sub>",
+      "note": "Normal adjustment. Image at D: m = (f<sub>o</sub>/f<sub>e</sub>)(1 + f<sub>e</sub>/D)."
+    },
+    {
+      "name": "Displacement method (two positions of a lens)",
+      "expr": "f = (D<sup>2</sup> − d<sup>2</sup>)/4D",
+      "note": "D = object–screen distance, d = separation of the two lens positions; a real image needs D ≥ 4f."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Mirror equation ray diagram (concave mirror, object beyond C)",
+      "how_to_draw": "Draw the concave mirror with pole P, focus F and centre C on the axis, and an upright object AB beyond C. Draw a ray from A parallel to the axis reflecting through F, and a ray from A to P reflecting symmetrically; their intersection A' with the perpendicular A'B' gives the real inverted image between F and C. Label M where the parallel ray meets the mirror and mark u, v and f with arrows from P. Name the two pairs of similar triangles (A'B'F and MPF; A'B'P and ABP)."
+    },
+    {
+      "title": "Refraction at a convex spherical surface",
+      "how_to_draw": "Draw a convex surface separating medium n1 (left) from n2 (right) with pole P and centre C to the right. Put a point object O on the axis to the left, a ray ON refracting at N and meeting the axis at I, and the normal CN extended. Drop NM perpendicular to the axis. Mark angles i and r at N, and the angles at O, C and I. Label OM = −u, MI = v, MC = R."
+    },
+    {
+      "title": "Lens maker's formula: double convex lens",
+      "how_to_draw": "Draw a thin double convex lens with its two surfaces, marking centres C1 (to the right) and C2 (to the left) and radii R1 and R2. Show object O on the axis, the intermediate image I1 that the first surface alone would form (beyond the lens), and the final image I. Label n1 outside and n2 inside, and points B and D where the axis meets the two surfaces."
+    },
+    {
+      "title": "Refraction through a prism at minimum deviation",
+      "how_to_draw": "Draw triangle ABC with the refracting angle A at the top. Ray PQ enters face AB at Q, travels parallel to the base to R on face AC, and emerges as RS. Draw normals at Q and R meeting at N inside the prism, and extend the incident and emergent rays to meet; mark the angle between them as δ. Label i and r1 at Q, r2 and e at R, and angle A."
+    },
+    {
+      "title": "Compound microscope (final image at D)",
+      "how_to_draw": "Draw the objective (short f_o) on the left and the eyepiece (larger f_e) on the right. Put a small object AB just outside f_o. Draw two rays from A to form a real inverted image A'B' just inside the focus of the eyepiece. From A' draw the eyepiece rays diverging so that they appear to come from an enlarged virtual image A''B'' at distance D on the object side. Mark f_o, f_e, u_o, v_o and D, and draw the eye at the eyepiece."
+    },
+    {
+      "title": "Astronomical telescope in normal adjustment",
+      "how_to_draw": "Draw a large-aperture objective on the left and a small eyepiece on the right, separated by f_o + f_e. Draw a parallel bundle of rays from a distant object at angle α to the axis converging to a real inverted image A'B' at the common focal plane. From A'B' draw rays through the eyepiece emerging parallel at angle β, with the eye at the right. Label α, β, f_o and f_e and write m = β/α = f_o/f_e."
+    },
+    {
+      "title": "Cassegrain reflecting telescope",
+      "how_to_draw": "Draw a large concave (parabolic) primary mirror on the right with a hole at its centre. Parallel rays from the left reflect off the primary towards a small convex secondary mirror placed before the primary's focus, which reflects them back through the hole to an eyepiece behind the primary. Label primary mirror, secondary mirror, eyepiece and the path of the rays."
+    },
+    {
+      "title": "Totally reflecting prisms",
+      "how_to_draw": "Draw two right-angled isosceles prisms. In the first, a ray enters one short face normally, hits the hypotenuse at 45° (greater than the 42° critical angle) and is turned through 90°. In the second, a ray enters the hypotenuse normally, is totally reflected at both short faces and is turned through 180° with the image inverted. Mark the 45° angles at the reflecting faces."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "9.1",
+      "q": "A small candle, 2.5 cm in size, is placed at 27 cm in front of a concave mirror of radius of curvature 36 cm. At what distance from the mirror should a screen be placed to obtain a sharp image? Describe the nature and size of the image. If the candle is moved closer to the mirror, how would the screen have to be moved?",
+      "a": "<p>f = R/2 = −18 cm, u = −27 cm. Mirror equation: 1/v = 1/f − 1/u = −1/18 + 1/27 = (−3 + 2)/54 = −1/54, so v = −54 cm. The screen must be 54 cm in front of the mirror.</p><p>m = −v/u = −(−54)/(−27) = −2, so h' = −2 × 2.5 = −5 cm. The image is real, inverted and 5 cm high (magnified).</p><p>If the candle is moved closer to the mirror, the image moves away, so the screen must be moved farther from the mirror. Once the candle is closer than 18 cm (inside F) the image becomes virtual and cannot be caught on a screen.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.2",
+      "q": "A 4.5 cm needle is placed 12 cm away from a convex mirror of focal length 15 cm. Give the location of the image and the magnification. Describe what happens as the needle is moved farther from the mirror.",
+      "a": "<p>u = −12 cm, f = +15 cm. 1/v = 1/f − 1/u = 1/15 + 1/12 = (4 + 5)/60 = 9/60, so v = +6.67 cm, behind the mirror.</p><p>m = −v/u = −6.67/(−12) = +0.56; image height = 0.56 × 4.5 = 2.5 cm, virtual and erect.</p><p>As the needle is moved farther away, the image moves towards the focus (never beyond 15 cm behind the mirror) and becomes smaller.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.3",
+      "q": "A tank is filled with water to a height of 12.5 cm. The apparent depth of a needle lying at the bottom is measured by a microscope to be 9.4 cm. What is the refractive index of water? If water is replaced by a liquid of refractive index 1.63 up to the same height, by what distance would the microscope have to be moved to focus on the needle again?",
+      "a": "<p>n = real depth / apparent depth = 12.5/9.4 = 1.33.</p><p>For the liquid, apparent depth = 12.5/1.63 = 7.67 cm. The needle now appears 7.67 cm below the surface instead of 9.4 cm, so the microscope must be moved down by 9.4 − 7.67 = 1.73 cm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.5",
+      "q": "A small bulb is placed at the bottom of a tank containing water to a depth of 80 cm. What is the area of the surface of water through which light from the bulb can emerge? Refractive index of water is 1.33. (Consider the bulb to be a point source.)",
+      "a": "<p>Light emerges only where the angle of incidence at the surface is less than the critical angle, i.e. through a circle of radius r = h tan i<sub>c</sub> centred above the bulb.</p><p>sin i<sub>c</sub> = 1/1.33 = 0.75, so i<sub>c</sub> = 48.6° and tan i<sub>c</sub> = 1.14 (equivalently r = h/√(n<sup>2</sup> − 1) = 80/√0.769 = 80/0.877).</p><p>r = 80 × 1.14 = 91.2 cm = 0.912 m. Area = πr<sup>2</sup> = 3.14 × (0.912)<sup>2</sup> = 2.61 m<sup>2</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.6",
+      "q": "A prism is made of glass of unknown refractive index. A parallel beam of light is incident on a face of the prism. The angle of minimum deviation is measured to be 40°. What is the refractive index of the material of the prism? The refracting angle of the prism is 60°. If the prism is placed in water (refractive index 1.33), predict the new angle of minimum deviation of a parallel beam of light.",
+      "a": "<p>n = sin[(A + D<sub>m</sub>)/2]/sin(A/2) = sin 50°/sin 30° = 0.766/0.5 = 1.532.</p><p>In water the relative refractive index is 1.532/1.33 = 1.152. So sin[(60° + D<sub>m</sub>')/2] = 1.152 × sin 30° = 0.576, giving (60° + D<sub>m</sub>')/2 = 35.2°, D<sub>m</sub>' = 70.4° − 60° ≈ 10°.</p><p>The deviation falls from 40° to about 10° because the prism is much less dense optically relative to water than to air.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.7",
+      "q": "Double-convex lenses are to be manufactured from a glass of refractive index 1.55, with both faces of the same radius of curvature. What is the radius of curvature required if the focal length is to be 20 cm?",
+      "a": "<p>For an equiconvex lens R<sub>1</sub> = +R, R<sub>2</sub> = −R. Lens maker's formula: 1/f = (n − 1)(1/R + 1/R) = 2(n − 1)/R.</p><p>R = 2(n − 1)f = 2 × 0.55 × 20 = 22 cm.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.8",
+      "q": "A beam of light converges at a point P. Now a lens is placed in the path of the convergent beam 12 cm from P. At what point does the beam converge if the lens is (a) a convex lens of focal length 20 cm, (b) a concave lens of focal length 16 cm?",
+      "a": "<p>The beam would have met at P, so P is a virtual object: u = +12 cm.</p><p>(a) f = +20 cm: 1/v = 1/f + 1/u = 1/20 + 1/12 = (3 + 5)/60 = 8/60, v = 7.5 cm. The beam converges 7.5 cm from the lens on the far side.</p><p>(b) f = −16 cm: 1/v = −1/16 + 1/12 = (−3 + 4)/48 = 1/48, v = 48 cm. The beam still converges, but now 48 cm from the lens.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.9",
+      "q": "An object of size 3.0 cm is placed 14 cm in front of a concave lens of focal length 21 cm. Describe the image produced by the lens. What happens if the object is moved further away from the lens?",
+      "a": "<p>u = −14 cm, f = −21 cm. 1/v = 1/f + 1/u = −1/21 − 1/14 = (−2 − 3)/42 = −5/42, so v = −8.4 cm, on the same side as the object.</p><p>m = v/u = (−8.4)/(−14) = 0.6; image height = 0.6 × 3.0 = 1.8 cm, virtual and erect, 8.4 cm from the lens.</p><p>If the object is moved farther away, the image moves towards the focus (it can never be farther than 21 cm from the lens) and becomes smaller.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.10",
+      "q": "What is the focal length of a convex lens of focal length 30 cm in contact with a concave lens of focal length 20 cm? Is the system a converging or a diverging lens? Ignore thickness of the lenses.",
+      "a": "<p>1/f = 1/f<sub>1</sub> + 1/f<sub>2</sub> = 1/30 + 1/(−20) = (2 − 3)/60 = −1/60, so f = −60 cm.</p><p>The negative focal length means the combination is a diverging lens, because the concave lens is the stronger of the two (its power −5 D exceeds +3.33 D in magnitude).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.11",
+      "q": "A compound microscope consists of an objective lens of focal length 2.0 cm and an eyepiece of focal length 6.25 cm separated by a distance of 15 cm. How far from the objective should an object be placed in order to obtain the final image at (a) the least distance of distinct vision (25 cm), and (b) at infinity? What is the magnifying power of the microscope in each case?",
+      "a": "<p>(a) Eyepiece: v<sub>e</sub> = −25 cm, f<sub>e</sub> = 6.25 cm. 1/u<sub>e</sub> = 1/v<sub>e</sub> − 1/f<sub>e</sub> = −1/25 − 1/6.25 = −(1 + 4)/25 = −5/25, so u<sub>e</sub> = −5 cm. The intermediate image is 5 cm before the eyepiece, i.e. v<sub>o</sub> = 15 − 5 = 10 cm from the objective. Objective: 1/u<sub>o</sub> = 1/v<sub>o</sub> − 1/f<sub>o</sub> = 1/10 − 1/2 = −4/10, u<sub>o</sub> = −2.5 cm. Magnifying power m = (v<sub>o</sub>/|u<sub>o</sub>|)(1 + D/f<sub>e</sub>) = (10/2.5)(1 + 25/6.25) = 4 × 5 = 20.</p><p>(b) Final image at infinity: u<sub>e</sub> = −6.25 cm, so v<sub>o</sub> = 15 − 6.25 = 8.75 cm. 1/u<sub>o</sub> = 1/8.75 − 1/2 = (2 − 8.75)/17.5 = −6.75/17.5, u<sub>o</sub> = −2.59 cm. m = (v<sub>o</sub>/|u<sub>o</sub>|)(D/f<sub>e</sub>) = (8.75/2.59)(25/6.25) = 3.38 × 4 = 13.5.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "9.12",
+      "q": "A person with a normal near point (25 cm) using a compound microscope with objective of focal length 8.0 mm and an eyepiece of focal length 2.5 cm can bring an object placed at 9.0 mm from the objective in sharp focus. What is the separation between the two lenses? Calculate the magnifying power of the microscope.",
+      "a": "<p>Objective: u<sub>o</sub> = −0.9 cm, f<sub>o</sub> = 0.8 cm. 1/v<sub>o</sub> = 1/0.8 − 1/0.9 = (0.9 − 0.8)/0.72 = 0.1/0.72, v<sub>o</sub> = 7.2 cm.</p><p>Eyepiece, final image at the near point: v<sub>e</sub> = −25 cm, f<sub>e</sub> = 2.5 cm. 1/u<sub>e</sub> = −1/25 − 1/2.5 = −(1 + 10)/25 = −11/25, u<sub>e</sub> = −2.27 cm.</p><p>Separation = v<sub>o</sub> + |u<sub>e</sub>| = 7.2 + 2.27 = 9.47 cm.</p><p>Magnifying power = (v<sub>o</sub>/|u<sub>o</sub>|)(1 + D/f<sub>e</sub>) = (7.2/0.9)(1 + 25/2.5) = 8 × 11 = 88.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.13",
+      "q": "A small telescope has an objective lens of focal length 144 cm and an eyepiece of focal length 6.0 cm. What is the magnifying power of the telescope? What is the separation between the objective and the eyepiece?",
+      "a": "<p>In normal adjustment, m = f<sub>o</sub>/f<sub>e</sub> = 144/6 = 24.</p><p>Separation = f<sub>o</sub> + f<sub>e</sub> = 144 + 6 = 150 cm.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.14",
+      "q": "(a) A giant refracting telescope at an observatory has an objective lens of focal length 15 m. If an eyepiece of focal length 1.0 cm is used, what is the angular magnification of the telescope? (b) If this telescope is used to view the moon, what is the diameter of the image of the moon formed by the objective lens? The diameter of the moon is 3.48 × 10<sup>6</sup> m and the radius of the lunar orbit is 3.8 × 10<sup>8</sup> m.",
+      "a": "<p>(a) m = f<sub>o</sub>/f<sub>e</sub> = 1500 cm / 1 cm = 1500.</p><p>(b) The moon subtends angle α = 3.48 × 10<sup>6</sup>/3.8 × 10<sup>8</sup> = 9.16 × 10<sup>−3</sup> rad at the objective. The image lies in the focal plane, so its diameter d = f<sub>o</sub> α = 15 × 9.16 × 10<sup>−3</sup> = 0.137 m = 13.7 cm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.16",
+      "q": "A small pin fixed on a table top is viewed from above from a distance of 50 cm. By what distance would the pin appear to be raised if it is viewed from the same point through a 15 cm thick glass slab held parallel to the table? Refractive index of glass = 1.5. Does the answer depend on the location of the slab?",
+      "a": "<p>The slab makes its own thickness appear t/n = 15/1.5 = 10 cm, so the pin appears raised by t − t/n = t(1 − 1/n) = 15 × (1 − 1/1.5) = 15 × 1/3 = 5 cm.</p><p>The shift depends only on the thickness and refractive index of the slab, not on its position between the pin and the eye (for near-normal viewing), and not on the 50 cm distance.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.17",
+      "q": "(a) A 'light pipe' consists of a glass fibre of refractive index 1.68 with an outer coating of refractive index 1.44. What is the range of angles of incident rays with the axis of the pipe for which total internal reflection inside the pipe takes place? (b) What is the answer if there is no outer coating?",
+      "a": "<p>(a) At the core–coating interface, sin i<sub>c</sub> = 1.44/1.68 = 0.857, i<sub>c</sub> = 59°. A ray entering the end face with angle of incidence i refracts to r; it then hits the side wall at (90° − r). For total reflection 90° − r > 59°, i.e. r < 31°. At the end face (air to glass): sin i = 1.68 sin 31° = 1.68 × 0.515 = 0.865, i ≈ 60°. So every ray incident at an angle between 0 and about 60° with the axis is totally reflected inside the pipe.</p><p>(b) Without coating the wall is a glass–air interface: sin i<sub>c</sub> = 1/1.68 = 0.595, i<sub>c</sub> = 36.5°. Even for grazing entry (i = 90°), sin r = 1/1.68, r = 36.5°, and the ray meets the wall at 90° − 36.5° = 53.5°, which exceeds 36.5°. So all incident rays, from 0 to 90°, undergo total internal reflection.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.20",
+      "q": "A screen is placed 90 cm from an object. The image of the object on the screen is formed by a convex lens at two different locations separated by 20 cm. Determine the focal length of the lens.",
+      "a": "<p>Displacement method: for object–screen distance D = 90 cm and separation of the two lens positions d = 20 cm, the object and image distances at the two positions are (D − d)/2 = 35 cm and (D + d)/2 = 55 cm, interchanged.</p><p>Lens formula with u = −35 cm, v = +55 cm: 1/f = 1/55 + 1/35 = (35 + 55)/1925 = 90/1925, f = 21.4 cm. Equivalently f = (D<sup>2</sup> − d<sup>2</sup>)/4D = (8100 − 400)/360 = 21.4 cm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "example",
+      "number": "9.3",
+      "q": "An object is placed at (i) 10 cm, (ii) 5 cm in front of a concave mirror of radius of curvature 15 cm. Find the position, nature and magnification of the image in each case.",
+      "a": "<p>f = R/2 = −7.5 cm.</p><p>(i) u = −10 cm: 1/v = 1/f − 1/u = −1/7.5 + 1/10 = (−4 + 3)/30 = −1/30, v = −30 cm. m = −v/u = −(−30)/(−10) = −3. Real, inverted, magnified 3 times, 30 cm in front of the mirror.</p><p>(ii) u = −5 cm (inside F): 1/v = −1/7.5 + 1/5 = (−2 + 3)/15 = 1/15, v = +15 cm. m = −15/(−5) = +3. Virtual, erect, magnified 3 times, 15 cm behind the mirror.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A biconvex lens of glass of refractive index 1.47 is immersed in a liquid. It becomes invisible and behaves as a plane glass plate. The refractive index of the liquid is",
+      "options": [
+        "1.47",
+        "1.62",
+        "1.33",
+        "1.51"
+      ],
+      "answer": "a",
+      "solution": "From the lens maker's formula 1/f = (n<sub>lens</sub>/n<sub>liquid</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>); the lens has no effect (f → ∞) when n<sub>liquid</sub> = n<sub>lens</sub> = 1.47."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The larger aperture of the objective lens in an astronomical telescope",
+      "options": [
+        "increases the magnifying power",
+        "reduces the length of the telescope",
+        "increases the resolving power and the brightness of the image",
+        "reduces chromatic aberration"
+      ],
+      "answer": "c",
+      "solution": "Magnifying power depends only on f<sub>o</sub>/f<sub>e</sub>. A larger aperture collects more light (brighter image) and improves resolving power."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A ray of light passes through an equilateral prism such that the angle of minimum deviation is 30°. The refractive index of the material of the prism is",
+      "options": [
+        "√3",
+        "√2",
+        "3/2",
+        "2"
+      ],
+      "answer": "b",
+      "solution": "n = sin[(A + D<sub>m</sub>)/2]/sin(A/2) = sin 45°/sin 30° = (1/√2)/(1/2) = √2."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The critical angle for a glass–air interface is 42°. A ray of light travelling in the glass will be totally internally reflected at the interface if its angle of incidence is",
+      "options": [
+        "30°",
+        "40°",
+        "42°",
+        "50°"
+      ],
+      "answer": "d",
+      "solution": "Total internal reflection needs the angle of incidence in the denser medium to be greater than the critical angle; only 50° exceeds 42°."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A convex lens of focal length 20 cm made of glass (n = 1.5) is immersed in water (n = 4/3). Its focal length in water becomes",
+      "options": [
+        "20 cm",
+        "40 cm",
+        "80 cm",
+        "5 cm"
+      ],
+      "answer": "c",
+      "solution": "f<sub>w</sub>/f<sub>a</sub> = (n − 1)/(n/n<sub>w</sub> − 1) = 0.5/(1.125 − 1) = 0.5/0.125 = 4, so f<sub>w</sub> = 80 cm."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Two thin lenses of power +2 D and −1 D are placed in contact. The focal length of the combination is",
+      "options": [
+        "+1 m",
+        "−1 m",
+        "+3 m",
+        "+0.33 m"
+      ],
+      "answer": "a",
+      "solution": "P = P<sub>1</sub> + P<sub>2</sub> = +2 − 1 = +1 D, so f = 1/P = +1 m, converging."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "An object is placed between the focus and the pole of a concave mirror. The image formed is",
+      "options": [
+        "real, inverted and magnified",
+        "real, inverted and diminished",
+        "virtual, erect and magnified",
+        "virtual, erect and diminished"
+      ],
+      "answer": "c",
+      "solution": "Inside F the reflected rays diverge; the image is behind the mirror, virtual, erect and enlarged, which is how a shaving mirror is used."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "An astronomical telescope in normal adjustment has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. Its magnifying power and the length of the tube are respectively",
+      "options": [
+        "20 and 105 cm",
+        "20 and 95 cm",
+        "0.05 and 105 cm",
+        "500 and 105 cm"
+      ],
+      "answer": "a",
+      "solution": "m = f<sub>o</sub>/f<sub>e</sub> = 100/5 = 20 and L = f<sub>o</sub> + f<sub>e</sub> = 105 cm."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A convex mirror is used as a rear-view mirror in vehicles. Reason (R): A convex mirror always forms an erect, diminished image and so gives a wide field of view.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The diminished erect image of a convex mirror lets the driver see a large region behind the vehicle in a small mirror; R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The focal length of a glass convex lens increases when it is immersed in water. Reason (R): The refractive index of glass with respect to water is smaller than that with respect to air.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "1/f = (n<sub>21</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>); a smaller n<sub>21</sub> makes (n<sub>21</sub> − 1) smaller, so f becomes larger."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): For a large magnifying power, the objective of a compound microscope should have a large focal length. Reason (R): The magnifying power of a compound microscope is m = (L/f<sub>o</sub>)(D/f<sub>e</sub>).",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "Because m is inversely proportional to f<sub>o</sub>, the objective must have a small focal length; A is false and R is true."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A diamond sparkles more than a glass piece of the same shape. Reason (R): The critical angle for diamond (about 24°) is much smaller than that for glass (about 42°), so light entering a diamond undergoes total internal reflection more readily.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "With n = 2.42, sin i<sub>c</sub> = 1/2.42 gives 24.4°; the faces are cut so that light is trapped by repeated total internal reflection and leaves only through a few faces."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2017",
+      "marks": 2,
+      "q": "How does the angle of minimum deviation of a glass prism vary if the incident violet light is replaced by red light? Give reason.",
+      "answer": "<p>The angle of minimum deviation decreases.</p><p>Reason: D<sub>m</sub> increases with the refractive index (for a thin prism D<sub>m</sub> = (n − 1)A, and in general sin[(A + D<sub>m</sub>)/2] = n sin(A/2)). Glass has a smaller refractive index for red light than for violet (n<sub>red</sub> < n<sub>violet</sub>), so red light is deviated less.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A concave lens of glass (refractive index 1.5) is immersed in a liquid of refractive index 1.65. What change, if any, occurs in the nature of the lens? Justify.",
+      "answer": "<p>The lens becomes converging (behaves like a convex lens).</p><p>From the lens maker's formula 1/f = (n<sub>21</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>), with n<sub>21</sub> = 1.5/1.65 = 0.91 < 1 the factor (n<sub>21</sub> − 1) is negative. For a concave lens (1/R<sub>1</sub> − 1/R<sub>2</sub>) is also negative, so 1/f becomes positive: the lens now converges light.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define critical angle for a pair of media. Obtain the relation between the critical angle and the refractive index of the denser medium with respect to the rarer medium.",
+      "answer": "<p>Critical angle is the angle of incidence in the denser medium for which the angle of refraction in the rarer medium is 90°.</p><p>Applying Snell's law with the rarer medium as medium 1: n<sub>21</sub> = sin 90°/sin i<sub>c</sub>, so sin i<sub>c</sub> = 1/n<sub>21</sub>, where n<sub>21</sub> is the refractive index of the denser medium 2 with respect to the rarer medium 1. For glass (n = 1.5), i<sub>c</sub> = sin<sup>−1</sup>(2/3) ≈ 42°.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Two thin lenses of powers +5 D and −2 D are placed in contact. Find the focal length and nature of the combination.",
+      "answer": "<p>P = P<sub>1</sub> + P<sub>2</sub> = +5 − 2 = +3 D.</p><p>f = 1/P = 1/3 m = 33.3 cm. The power is positive, so the combination is a converging (convex) lens.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define the power of a lens and write its SI unit. A lens has a focal length of −40 cm. Find its power and state its nature.",
+      "answer": "<p>Power of a lens is the reciprocal of its focal length expressed in metres, P = 1/f; it measures the degree of convergence or divergence the lens produces. SI unit: dioptre (D), the power of a lens of focal length 1 m.</p><p>f = −0.40 m, so P = 1/(−0.40) = −2.5 D. Negative power: a concave (diverging) lens.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Draw a ray diagram showing the passage of a ray of light through a glass prism and derive the relation A + δ = i + e. Hence obtain the expression for the refractive index of the prism material in terms of the angle of the prism and the angle of minimum deviation.",
+      "answer": "<p>Diagram: prism ABC, incident ray PQ on face AB (angles i, r<sub>1</sub>), refracted ray QR, emergent ray RS from face AC (angles r<sub>2</sub>, e), normals at Q and R meeting at N, deviation δ between PQ produced and RS.</p><p>In quadrilateral AQNR the angles at Q and R are 90°, so A + ∠QNR = 180°. In triangle QNR, r<sub>1</sub> + r<sub>2</sub> + ∠QNR = 180°. Hence A = r<sub>1</sub> + r<sub>2</sub>.</p><p>Total deviation δ = (i − r<sub>1</sub>) + (e − r<sub>2</sub>) = i + e − A, i.e. A + δ = i + e.</p><p>At minimum deviation δ = D<sub>m</sub>, i = e and r<sub>1</sub> = r<sub>2</sub> = r. Then r = A/2 and i = (A + D<sub>m</sub>)/2. Snell's law at Q: n<sub>21</sub> = sin i/sin r = sin[(A + D<sub>m</sub>)/2]/sin(A/2).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A converging lens of refractive index 1.5 has a focal length of 15 cm in air and the same radius of curvature for both faces. Find the radius of curvature. What will be its focal length when immersed in a liquid of refractive index 1.7?",
+      "answer": "<p>In air, for an equiconvex lens: 1/f = (n − 1)(2/R), so 1/15 = 0.5 × 2/R, giving R = 15 cm.</p><p>In the liquid n<sub>21</sub> = 1.5/1.7 = 0.882. 1/f<sub>l</sub> = (0.882 − 1)(2/15) = (−0.118)(0.1333) = −0.0157, so f<sub>l</sub> = −63.75 cm ≈ −64 cm.</p><p>The focal length is negative: in the liquid the lens behaves as a diverging lens because the liquid is optically denser than the glass.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A ray of light is incident normally on one of the equal faces of a right-angled isosceles glass prism of refractive index 1.5. Trace the path of the ray through the prism and find the deviation produced.",
+      "answer": "<p>The ray enters the short face normally, so it passes undeviated and strikes the hypotenuse at 45° (the angle between the short face and the hypotenuse).</p><p>Critical angle: sin i<sub>c</sub> = 1/1.5 = 0.667, i<sub>c</sub> = 41.8°. Since 45° > 41.8°, the ray cannot refract out and is totally internally reflected at the hypotenuse.</p><p>The reflected ray then meets the other short face normally and leaves without deviation. The net deviation is 90°. This is the totally reflecting prism used in periscopes.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "An object is placed 15 cm in front of a concave mirror of focal length 10 cm. Find the position, nature and magnification of the image. Draw the ray diagram.",
+      "answer": "<p>u = −15 cm, f = −10 cm. 1/v = 1/f − 1/u = −1/10 + 1/15 = (−3 + 2)/30 = −1/30, so v = −30 cm.</p><p>m = −v/u = −(−30)/(−15) = −2.</p><p>The image is real, inverted, twice the size of the object, formed 30 cm in front of the mirror (beyond C, since the object lies between F and C). Ray diagram: object between F and C; one ray parallel to the axis reflected through F, one ray through C retracing its path; they meet beyond C to form the inverted image.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Draw a labelled ray diagram of an astronomical telescope in normal adjustment and derive the expression for its magnifying power.",
+      "answer": "<p>Diagram: objective of large focal length f<sub>o</sub> and eyepiece of short focal length f<sub>e</sub>, separated by f<sub>o</sub> + f<sub>e</sub>; parallel rays from the distant object at angle α form a real inverted image A'B' in the common focal plane; the eyepiece renders the rays parallel again at angle β; final image at infinity.</p><p>Magnifying power m = β/α. From the image A'B' of height h, tan α ≈ α = h/f<sub>o</sub> (angle subtended by the object at the objective) and tan β ≈ β = h/f<sub>e</sub>.</p><p>Therefore m = (h/f<sub>e</sub>)/(h/f<sub>o</sub>) = f<sub>o</sub>/f<sub>e</sub>. For a large magnifying power the objective should have a large focal length and the eyepiece a small one; the length of the tube is f<sub>o</sub> + f<sub>e</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2019",
+      "marks": 5,
+      "q": "(a) Draw a ray diagram for the formation of the image of a point object by a thin double convex lens having radii of curvature R<sub>1</sub> and R<sub>2</sub>. Hence derive the lens maker's formula. (b) Double convex lenses are to be manufactured from glass of refractive index 1.55 with both faces of the same radius of curvature. Find the radius of curvature required if the focal length is to be 20 cm.",
+      "answer": "<p>(a) Diagram: thin lens of material n<sub>2</sub> in medium n<sub>1</sub>, surfaces with centres C<sub>1</sub> and C<sub>2</sub>, object O on the axis, image I<sub>1</sub> due to the first surface alone, final image I.</p><p>Refraction at a spherical surface: n<sub>2</sub>/v − n<sub>1</sub>/u = (n<sub>2</sub> − n<sub>1</sub>)/R. For the first surface (object O, image I<sub>1</sub>): n<sub>1</sub>/OB + n<sub>2</sub>/BI<sub>1</sub> = (n<sub>2</sub> − n<sub>1</sub>)/BC<sub>1</sub> … (1). For the second surface I<sub>1</sub> is a virtual object and light goes from n<sub>2</sub> to n<sub>1</sub>: −n<sub>2</sub>/DI<sub>1</sub> + n<sub>1</sub>/DI = (n<sub>2</sub> − n<sub>1</sub>)/DC<sub>2</sub> … (2). For a thin lens BI<sub>1</sub> = DI<sub>1</sub>. Adding (1) and (2): n<sub>1</sub>/OB + n<sub>1</sub>/DI = (n<sub>2</sub> − n<sub>1</sub>)(1/BC<sub>1</sub> + 1/DC<sub>2</sub>).</p><p>For an object at infinity the image is at the focus, DI = f: n<sub>1</sub>/f = (n<sub>2</sub> − n<sub>1</sub>)(1/BC<sub>1</sub> + 1/DC<sub>2</sub>). Using BC<sub>1</sub> = +R<sub>1</sub>, DC<sub>2</sub> = −R<sub>2</sub> and n<sub>21</sub> = n<sub>2</sub>/n<sub>1</sub>: 1/f = (n<sub>21</sub> − 1)(1/R<sub>1</sub> − 1/R<sub>2</sub>), the lens maker's formula. (With OB = −u and DI = v the same equations give 1/v − 1/u = 1/f.)</p><p>(b) Equiconvex: R<sub>1</sub> = R, R<sub>2</sub> = −R, so 1/f = 2(n − 1)/R and R = 2(n − 1)f = 2 × 0.55 × 20 = 22 cm.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Using the ray diagram for a concave mirror forming a real image, derive the mirror equation 1/v + 1/u = 1/f and the expression for linear magnification. (b) A 2.5 cm candle is placed 27 cm in front of a concave mirror of radius of curvature 36 cm. Find the position and size of the image.",
+      "answer": "<p>(a) Diagram: concave mirror, object AB beyond C, real inverted image A'B' between F and C; ray from A parallel to the axis reflected through F via M on the mirror; ray from A to pole P reflected symmetrically.</p><p>Triangles A'B'F and MPF are similar: B'A'/PM = B'F/FP. As PM = AB, B'A'/BA = B'F/FP = (B'P − FP)/FP. Triangles A'B'P and ABP are similar: B'A'/BA = B'P/BP. Hence (B'P − FP)/FP = B'P/BP.</p><p>Signs: B'P = −v, FP = −f, BP = −u. (−v + f)/(−f) = (−v)/(−u), so (v − f)/f = v/u. Dividing by v: 1/f − 1/v = 1/u, i.e. 1/v + 1/u = 1/f.</p><p>Magnification: from triangles A'B'P and ABP, m = h'/h = −B'P/BP with signs, giving m = −v/u.</p><p>(b) f = −18 cm, u = −27 cm: 1/v = −1/18 + 1/27 = (−3 + 2)/54 = −1/54, v = −54 cm. m = −v/u = −2, so the image is real, inverted, 5 cm tall, 54 cm in front of the mirror.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2018",
+      "marks": 5,
+      "q": "(a) Draw a labelled ray diagram showing the formation of the final image by a compound microscope when the final image is at the least distance of distinct vision. Derive the expression for its magnifying power. (b) Why must both the objective and the eyepiece of a compound microscope have short focal lengths?",
+      "answer": "<p>(a) Diagram: objective (short f<sub>o</sub>), object AB just beyond F<sub>o</sub>, real inverted enlarged intermediate image A'B' formed inside the focal length of the eyepiece, eyepiece acting as a magnifying glass producing a virtual, further enlarged, inverted final image A''B'' at distance D on the object side; label u<sub>o</sub>, v<sub>o</sub>, f<sub>o</sub>, f<sub>e</sub>, D and the eye.</p><p>Magnifying power m = m<sub>o</sub> × m<sub>e</sub>. Objective: m<sub>o</sub> = h'/h = v<sub>o</sub>/u<sub>o</sub>. Since the object is very near F<sub>o</sub> and the image is near the eyepiece, u<sub>o</sub> ≈ f<sub>o</sub> and v<sub>o</sub> ≈ L (tube length), so m<sub>o</sub> ≈ L/f<sub>o</sub>. Eyepiece as a simple microscope with the image at D: m<sub>e</sub> = 1 + D/f<sub>e</sub>. Hence m = (L/f<sub>o</sub>)(1 + D/f<sub>e</sub>); in normal adjustment (final image at infinity) m = (L/f<sub>o</sub>)(D/f<sub>e</sub>).</p><p>(b) m is inversely proportional to both f<sub>o</sub> and f<sub>e</sub>, so both must be small for a large magnifying power; f<sub>o</sub> is made smaller than f<sub>e</sub> so that the objective produces a large intermediate image, and the objective has a small aperture so that the object can be placed very close to it.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Draw a ray diagram of a reflecting telescope (Cassegrain type) and state three advantages of a reflecting telescope over a refracting telescope. (b) A telescope has an objective of focal length 150 cm and an eyepiece of focal length 5 cm. Find the magnifying power and the tube length in normal adjustment, and the magnifying power when the final image is formed at 25 cm.",
+      "answer": "<p>(a) Diagram: large concave parabolic primary mirror with a central hole; parallel rays from a distant object reflect towards a small convex secondary mirror placed inside the focal length of the primary; the secondary reflects them back through the hole to the eyepiece.</p><p>Advantages: (i) no chromatic aberration, since reflection does not depend on wavelength; (ii) spherical aberration is removed by using a paraboloidal mirror; (iii) a mirror of very large aperture can be made and supported from the back, whereas a large lens sags and needs flawless glass; the large aperture gives a brighter image and higher resolving power; (iv) the mirror is lighter and cheaper and the Cassegrain design gives a short tube. (Any three.)</p><p>(b) Normal adjustment: m = f<sub>o</sub>/f<sub>e</sub> = 150/5 = 30; L = f<sub>o</sub> + f<sub>e</sub> = 155 cm. Final image at D = 25 cm: m = (f<sub>o</sub>/f<sub>e</sub>)(1 + f<sub>e</sub>/D) = 30 × (1 + 5/25) = 30 × 1.2 = 36.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Optical fibres are thin strands of glass or quartz along which light can travel over long distances with very little loss. Each fibre has a core of higher refractive index surrounded by a cladding of lower refractive index. Light entering one end of the fibre strikes the core–cladding boundary at an angle greater than the critical angle and is reflected back into the core; this happens thousands of times along the fibre, even round bends. Bundles of fibres are used in endoscopes to view the inside of the body and single fibres carry telephone and internet signals as pulses of light.<br>(i) Name the phenomenon on which the optical fibre works and state the two conditions for it.<br>(ii) A fibre has a core of refractive index 1.5 and cladding of refractive index 1.2. Find the critical angle at the core–cladding interface.<br>(iii) Why is a cladding of lower refractive index used instead of leaving the core bare?<br>(iv) State one use of optical fibres other than communication.",
+      "answer": "<p>(i) Total internal reflection. Conditions: light must travel from an optically denser to a rarer medium, and the angle of incidence at the boundary must exceed the critical angle.</p><p>(ii) sin i<sub>c</sub> = n<sub>cladding</sub>/n<sub>core</sub> = 1.2/1.5 = 0.8, so i<sub>c</sub> = sin<sup>−1</sup>(0.8) ≈ 53°.</p><p>(iii) The cladding protects the core surface from scratches, dirt and contact with other fibres, any of which would change the boundary and let light leak out; it also fixes a definite critical angle so the fibre works reliably. The core still has the higher index, so total internal reflection is preserved.</p><p>(iv) Endoscopy (a light pipe to see inside the body), or decorative lamps, or transmitting an image from one point to another.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "An astronomical telescope consists of two converging lenses, an objective and an eyepiece, mounted in a tube. Light from a distant star enters as a parallel beam and the objective forms a real, inverted image at its focal plane. The eyepiece then acts as a magnifier. The magnifying power in normal adjustment equals the ratio of the focal length of the objective to that of the eyepiece, and the length of the tube equals the sum of the two focal lengths. Very large modern telescopes, however, use a concave mirror as the objective instead of a lens.<br>(i) A student has three lenses of focal lengths 5 cm, 20 cm and 100 cm and apertures 1 cm, 3 cm and 8 cm respectively. Which should be used as the objective and which as the eyepiece? Give reasons.<br>(ii) Find the magnifying power and tube length of the telescope so built in normal adjustment.<br>(iii) Why is the image formed by an astronomical telescope inverted, and why does this not matter?<br>(iv) Give two reasons why large telescopes use a mirror objective.",
+      "answer": "<p>(i) Objective: the 100 cm lens of 8 cm aperture, because a large focal length gives a large magnifying power (m = f<sub>o</sub>/f<sub>e</sub>) and a large aperture collects more light and gives better resolution. Eyepiece: the 5 cm lens of 1 cm aperture, because a short focal length increases m and the small aperture suits the eye.</p><p>(ii) m = 100/5 = 20; L = f<sub>o</sub> + f<sub>e</sub> = 105 cm.</p><p>(iii) The objective forms a real inverted image and the eyepiece, working as a simple magnifier, does not re-invert it. For astronomical objects (stars, planets) orientation is unimportant, so no erecting lens is added.</p><p>(iv) A mirror has no chromatic aberration; a paraboloidal mirror has no spherical aberration; a large mirror can be supported from behind and made much bigger than a lens, so it gathers more light and resolves finer detail; it is also lighter and cheaper. (Any two.)</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "An object is placed 15 cm from a concave mirror of focal length 10 cm. The image is formed at",
+      "options": [
+        "30 cm in front of the mirror",
+        "6 cm behind the mirror",
+        "30 cm behind the mirror",
+        "6 cm in front of the mirror"
+      ],
+      "answer_index": 0,
+      "explanation": "1/v = −1/10 + 1/15 = −1/30, so v = −30 cm: real image 30 cm in front of the mirror."
+    },
+    {
+      "q": "A swimming pool is 4 m deep. Viewed from directly above, its apparent depth is (n of water = 4/3)",
+      "options": [
+        "5.33 m",
+        "4 m",
+        "3 m",
+        "2 m"
+      ],
+      "answer_index": 2,
+      "explanation": "Apparent depth = real depth / n = 4 ÷ (4/3) = 3 m."
+    },
+    {
+      "q": "The power of a lens is +4 D. Its focal length is",
+      "options": [
+        "4 m",
+        "0.25 m",
+        "−0.25 m",
+        "2.5 m"
+      ],
+      "answer_index": 1,
+      "explanation": "f = 1/P = 1/4 m = 0.25 m; positive, so a convex lens."
+    },
+    {
+      "q": "A thin prism of angle 5° and refractive index 1.5 produces a deviation of about",
+      "options": [
+        "7.5°",
+        "5°",
+        "2.5°",
+        "1.5°"
+      ],
+      "answer_index": 2,
+      "explanation": "For a thin prism δ = (n − 1)A = 0.5 × 5° = 2.5°."
+    },
+    {
+      "q": "A simple microscope has a focal length of 5 cm. Its maximum magnifying power for a normal eye (D = 25 cm) is",
+      "options": [
+        "5",
+        "6",
+        "4",
+        "25"
+      ],
+      "answer_index": 1,
+      "explanation": "With the image at the near point, m = 1 + D/f = 1 + 25/5 = 6."
+    },
+    {
+      "q": "Light travels at 3 × 10<sup>8</sup> m s<sup>−1</sup> in vacuum. Its speed in glass of refractive index 1.5 is",
+      "options": [
+        "4.5 × 10<sup>8</sup> m s<sup>−1</sup>",
+        "3 × 10<sup>8</sup> m s<sup>−1</sup>",
+        "2 × 10<sup>8</sup> m s<sup>−1</sup>",
+        "1.5 × 10<sup>8</sup> m s<sup>−1</sup>"
+      ],
+      "answer_index": 2,
+      "explanation": "v = c/n = 3 × 10<sup>8</sup>/1.5 = 2 × 10<sup>8</sup> m s<sup>−1</sup>."
+    },
+    {
+      "q": "For all positions of a real object, a convex mirror forms an image that is",
+      "options": [
+        "real, inverted, diminished",
+        "virtual, erect, diminished",
+        "virtual, erect, magnified",
+        "real, erect, same size"
+      ],
+      "answer_index": 1,
+      "explanation": "The reflected rays always diverge from a point between P and F behind the mirror, giving a virtual, erect, diminished image."
+    },
+    {
+      "q": "An equiconvex lens of glass (n = 1.5) has each surface of radius of curvature 20 cm. Its focal length is",
+      "options": [
+        "10 cm",
+        "20 cm",
+        "40 cm",
+        "80 cm"
+      ],
+      "answer_index": 1,
+      "explanation": "1/f = (1.5 − 1)(1/20 + 1/20) = 0.5 × 0.1 = 1/20, so f = 20 cm."
+    },
+    {
+      "q": "A convex lens of focal length 20 cm is placed in contact with a concave lens of focal length 25 cm. The focal length of the combination is",
+      "options": [
+        "+100 cm",
+        "−100 cm",
+        "+11.1 cm",
+        "+45 cm"
+      ],
+      "answer_index": 0,
+      "explanation": "1/f = 1/20 − 1/25 = (5 − 4)/100 = 1/100, so f = +100 cm."
+    },
+    {
+      "q": "The critical angle for a certain medium with respect to air is 30°. The refractive index of the medium is",
+      "options": [
+        "1.5",
+        "√2",
+        "2",
+        "√3"
+      ],
+      "answer_index": 2,
+      "explanation": "n = 1/sin i<sub>c</sub> = 1/sin 30° = 2."
+    },
+    {
+      "q": "An object is placed at 2F of a convex lens. The image is",
+      "options": [
+        "at F, diminished",
+        "at 2F, same size, inverted",
+        "at infinity",
+        "between F and 2F, magnified"
+      ],
+      "answer_index": 1,
+      "explanation": "With u = −2f the lens formula gives v = 2f and m = v/u = −1: a real, inverted image of the same size at 2F."
+    },
+    {
+      "q": "At minimum deviation through a prism",
+      "options": [
+        "the angle of incidence is zero",
+        "the ray inside the prism is parallel to the base and i = e",
+        "the angle of emergence is 90°",
+        "the refracted ray inside the prism is perpendicular to the base"
+      ],
+      "answer_index": 1,
+      "explanation": "Minimum deviation is the symmetric case: i = e, r<sub>1</sub> = r<sub>2</sub> = A/2, and the ray inside runs parallel to the base."
+    },
+    {
+      "q": "A prism of angle 60° is made of a material of refractive index √3. Its angle of minimum deviation is",
+      "options": [
+        "30°",
+        "45°",
+        "60°",
+        "90°"
+      ],
+      "answer_index": 2,
+      "explanation": "sin[(60° + D<sub>m</sub>)/2] = √3 × sin 30° = 0.866, so (60° + D<sub>m</sub>)/2 = 60° and D<sub>m</sub> = 60°."
+    },
+    {
+      "q": "A glass lens is immersed in a liquid whose refractive index equals that of the glass. The lens",
+      "options": [
+        "becomes a stronger converging lens",
+        "becomes a diverging lens",
+        "behaves like a plane glass plate",
+        "forms only virtual images"
+      ],
+      "answer_index": 2,
+      "explanation": "n<sub>21</sub> = 1 makes (n<sub>21</sub> − 1) = 0 in the lens maker's formula, so 1/f = 0 and the lens produces no convergence or divergence."
+    },
+    {
+      "q": "In a Cassegrain reflecting telescope the objective and the secondary mirror are respectively",
+      "options": [
+        "convex and concave",
+        "concave (paraboloidal) and convex",
+        "both concave",
+        "both plane"
+      ],
+      "answer_index": 1,
+      "explanation": "A large concave paraboloidal primary with a central hole reflects light to a small convex secondary, which sends it back through the hole to the eyepiece."
+    },
+    {
+      "q": "The length of an astronomical telescope in normal adjustment is",
+      "options": [
+        "f<sub>o</sub> − f<sub>e</sub>",
+        "f<sub>o</sub> + f<sub>e</sub>",
+        "f<sub>o</sub>/f<sub>e</sub>",
+        "f<sub>o</sub> f<sub>e</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "The intermediate image lies at the focus of both lenses, so the separation is f<sub>o</sub> + f<sub>e</sub>."
+    },
+    {
+      "q": "A ray of light passes from glass (n = 1.5) into water (n = 4/3). The refractive index of water with respect to glass is",
+      "options": [
+        "1.125",
+        "0.889",
+        "2.0",
+        "1.5"
+      ],
+      "answer_index": 1,
+      "explanation": "n<sub>wg</sub> = n<sub>w</sub>/n<sub>g</sub> = (4/3)/1.5 = 0.889; the ray bends away from the normal."
+    },
+    {
+      "q": "A screen is 100 cm from an object. A convex lens gives a sharp image on the screen at two positions 40 cm apart. The focal length of the lens is",
+      "options": [
+        "21 cm",
+        "25 cm",
+        "30 cm",
+        "35 cm"
+      ],
+      "answer_index": 0,
+      "explanation": "f = (D<sup>2</sup> − d<sup>2</sup>)/4D = (10000 − 1600)/400 = 8400/400 = 21 cm."
+    }
+  ],
+  "common_mistakes": [
+    "Using m = −v/u for a lens or m = v/u for a mirror. The mirror equation has a plus sign (1/v + 1/u) and the lens formula a minus sign (1/v − 1/u); the magnification signs differ in the same way.",
+    "Forgetting to put signs on u, f and R before substituting. A concave mirror has f negative, a convex lens has f positive, and the object distance is negative for a real object; examiners deduct the substitution mark for unsigned values.",
+    "Substituting the absolute refractive index of glass into the lens maker's formula when the lens is in a liquid. Use n<sub>21</sub> = n<sub>lens</sub>/n<sub>liquid</sub>; this is the whole point of 'lens in water' questions.",
+    "Stating only one condition for total internal reflection. Both are needed: light going from denser to rarer, and angle of incidence greater than the critical angle.",
+    "Writing the prism formula with A instead of A/2 in the denominator, or forgetting that i = e and r<sub>1</sub> = r<sub>2</sub> only at minimum deviation. Derive A = r<sub>1</sub> + r<sub>2</sub> first; it is a separate marking point.",
+    "Drawing the compound microscope with the intermediate image beyond the focus of the eyepiece, which would give a real final image. The intermediate image must lie between the eyepiece and its focus.",
+    "Giving the length of a telescope as f<sub>o</sub> − f<sub>e</sub> or its magnifying power as f<sub>e</sub>/f<sub>o</sub>; m = f<sub>o</sub>/f<sub>e</sub> is greater than 1 and the tube length is f<sub>o</sub> + f<sub>e</sub>.",
+    "Converting focal length to power without changing centimetres to metres; f = 25 cm is +4 D, not 0.04 D.",
+    "Treating the beam that would have converged to a point behind the lens as a real object. In NCERT 9.8 the point P is a virtual object with u positive."
+  ],
+  "strategy": "<p>Start with the sign convention and the two formulas that carry the chapter: the mirror equation with m = −v/u and the thin lens formula with m = v/u. Do NCERT 9.1, 9.2, 9.8 and 9.9 by hand until the signs are automatic; almost every numerical in the paper is one of these with different numbers.</p><p>Then learn the four derivations that come as 5-mark or 3-mark questions, each with its labelled diagram: the mirror equation from similar triangles, refraction at a spherical surface leading to the lens maker's formula, the prism relations A + δ = i + e and the minimum-deviation formula, and the magnifying power of the compound microscope and the astronomical telescope. Write each one out in full twice, timing yourself at eight minutes. The diagram earns a mark on its own, so practise drawing it cleanly with every label.</p><p>Memorise a short list: f = R/2, sin i<sub>c</sub> = 1/n, apparent depth = real depth/n, P = 1/f in dioptres, P = P<sub>1</sub> + P<sub>2</sub>, D<sub>m</sub> = (n − 1)A, m = (L/f<sub>o</sub>)(D/f<sub>e</sub>), m = f<sub>o</sub>/f<sub>e</sub> and L = f<sub>o</sub> + f<sub>e</sub>, and the critical angles of glass (42°), water (49°) and diamond (24°).</p><p>For the 1-mark and case-based questions, make sure you can explain in one line why a convex mirror is a rear-view mirror, why a lens weakens in water or vanishes in a liquid of its own index, why red light deviates least, why optical fibres use a cladding, and why big telescopes use mirrors. Finish with the microscope and telescope numericals (NCERT 9.11 to 9.14), which are long but formulaic, and keep the lens-by-lens method rather than plugging into L/f<sub>o</sub> when exact distances are given.</p>",
+  "revision_checklist": [
+    "State the laws of reflection and refraction, including the coplanarity condition.",
+    "Write the Cartesian sign convention and the signs of f for concave/convex mirrors and lenses.",
+    "Derive f = R/2 for a spherical mirror from the paraxial ray diagram.",
+    "Derive the mirror equation 1/v + 1/u = 1/f and m = −v/u from similar triangles.",
+    "Explain lateral shift in a slab and calculate apparent depth and the shift t(1 − 1/n).",
+    "Define critical angle, derive sin i<sub>c</sub> = 1/n, and state both conditions for total internal reflection.",
+    "Describe totally reflecting prisms (90° and 180° turns) and the working of an optical fibre.",
+    "Derive n<sub>2</sub>/v − n<sub>1</sub>/u = (n<sub>2</sub> − n<sub>1</sub>)/R for a spherical surface with the labelled figure.",
+    "Derive the lens maker's formula and the thin lens formula from it; work a 'lens in a liquid' numerical.",
+    "Define power of a lens and the dioptre; derive 1/f = 1/f<sub>1</sub> + 1/f<sub>2</sub> for lenses in contact.",
+    "Derive A + δ = i + e, the minimum-deviation formula and D<sub>m</sub> = (n − 1)A for a thin prism.",
+    "Give the magnifying power of a simple microscope for the image at D and at infinity.",
+    "Draw the compound microscope and derive m = (L/f<sub>o</sub>)(D/f<sub>e</sub>); say why both focal lengths are small.",
+    "Draw the astronomical telescope in normal adjustment, derive m = f<sub>o</sub>/f<sub>e</sub>, and give L = f<sub>o</sub> + f<sub>e</sub>.",
+    "Draw the Cassegrain reflecting telescope and list its advantages over a refracting telescope.",
+    "Solve NCERT 9.1, 9.3, 9.6, 9.7, 9.8, 9.10, 9.11, 9.13, 9.16 and 9.20 without looking at the solutions."
+  ],
+  "videos": []
+}

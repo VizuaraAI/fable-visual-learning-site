@@ -1,0 +1,873 @@
+{
+  "class": 12,
+  "subject": "Biology",
+  "chapter_no": 2,
+  "slug": "human-reproduction",
+  "title": "Human Reproduction",
+  "summary": "Human Reproduction runs from gamete formation to childbirth: the male and female systems, spermatogenesis and oogenesis, the menstrual cycle, fertilisation, implantation, the placenta, parturition and lactation, with the hormone behind each step. It is the most diagram-heavy chapter of the Reproduction unit and a reliable source of 2-, 3- and 5-mark questions.",
+  "exam_profile": {
+    "weightage": "Class 12 Biology is a 70-mark theory paper. This chapter sits in Unit VI, Reproduction, which carries 16 marks in the CBSE blueprint. Human Reproduction typically brings one or two 1-mark items, a 2- or 3-mark question and often a 5-mark or case-based question.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Site of fertilisation, hormone behind ovulation, stage that implants, pregnancy-only hormones, spermiation vs spermiogenesis."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Testes and scrotal temperature; corpus luteum and menstruation; father decides the sex; Sertoli cells and androgens."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Why testes lie outside the abdomen; Sertoli vs Leydig cells; fate of the corpus luteum; spermiogenesis vs spermiation; colostrum; one-line functions of parts."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Hormonal control of spermatogenesis; events of fertilisation; secondary oocyte up to ovulation; how the placenta forms; parturition as a neuroendocrine mechanism."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Menstrual cycle phase by phase; spermatogenesis with a labelled sperm; oogenesis with an ovary section; fertilisation to implantation; a labelled male or female system."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A menstrual-cycle hormone graph, a foetus-in-womb diagram or a semen report, with four 1-mark sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Menstrual cycle: phases, days, hormones and sources, LH surge, fate of the corpus luteum",
+      "Spermatogenesis and its hormonal control; spermiogenesis vs spermiation",
+      "Oogenesis: arrest in prophase I, follicle stages, polar bodies, contrast with spermatogenesis",
+      "Fertilisation at the ampullary-isthmic junction, zona pellucida block, sex decided by the father",
+      "Morula, blastocyst, implantation, placenta and its hormones",
+      "Parturition as a neuroendocrine mechanism; colostrum",
+      "Labelled diagrams: male and female systems, seminiferous tubule, sperm, ovary section, Graafian follicle"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "2.1 The Male Reproductive System",
+      "pyq_years": [
+        2019,
+        2017,
+        2014
+      ],
+      "body": "<p>Humans reproduce sexually and are viviparous; NCERT's order of events is <b>gametogenesis → insemination → fertilisation → implantation → gestation → parturition</b>. The male system, in the pelvis, has a pair of <b>testes</b>, accessory ducts, accessory glands and the external genitalia. The testes lie outside the abdominal cavity in the <b>scrotum</b>, which keeps them <b>2–2.5°C below</b> body temperature, as spermatogenesis requires. Each adult testis is oval, about 4–5 cm by 2–3 cm, with about <b>250 testicular lobules</b>, each holding one to three coiled <b>seminiferous tubules</b> where sperms form.</p><p>A tubule is lined inside by <b>spermatogonia</b> (germ cells) and <b>Sertoli cells</b> (which nourish them). The <b>interstitial spaces</b> outside hold small blood vessels and <b>Leydig (interstitial) cells</b>, which secrete <b>androgens</b>.</p><p>The accessory ducts run <b>rete testis → vasa efferentia → epididymis → vas deferens</b>: the tubules open into the vasa efferentia through the rete testis; the vasa efferentia open into the epididymis on the posterior surface of the testis; the epididymis leads to the vas deferens, which loops over the urinary bladder, receives the duct of the seminal vesicle and opens into the urethra as the <b>ejaculatory duct</b>. The ducts store and transport sperms. The <b>urethra</b> runs from the bladder through the <b>penis</b> to the <b>urethral meatus</b>; the enlarged <b>glans penis</b> is covered by the <b>foreskin</b>.</p><p>The accessory glands, paired <b>seminal vesicles</b>, one <b>prostate</b> and paired <b>bulbourethral glands</b>, secrete the <b>seminal plasma</b>, rich in fructose, calcium and enzymes; the bulbourethral secretion also lubricates the penis.</p>",
+      "formulas": [
+        {
+          "expr": "Seminiferous tubule → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct → urethra → urethral meatus",
+          "where": [
+            [
+              "ejaculatory duct",
+              "vas deferens + seminal vesicle duct"
+            ]
+          ]
+        }
+      ],
+      "tip": "Sertoli: inside the tubule, nutrition; Leydig: interstitial spaces, androgens."
+    },
+    {
+      "heading": "2.2 The Female Reproductive System",
+      "pyq_years": [
+        2014,
+        2013,
+        2011
+      ],
+      "body": "<p>The female system has a pair of <b>ovaries</b>, a pair of <b>oviducts (fallopian tubes)</b>, the <b>uterus</b>, <b>cervix</b>, <b>vagina</b> and the external genitalia, integrated with the pair of <b>mammary glands</b>.</p><p>The ovaries are the <b>primary female sex organs</b>, producing the ovum and steroid <b>ovarian hormones</b>. Each is 2–4 cm long, held by ligaments, and covered by a thin epithelium enclosing the <b>ovarian stroma</b>: a peripheral <b>cortex</b> and an inner <b>medulla</b>.</p><p>Oviducts, uterus and vagina are the <b>accessory ducts</b>. Each oviduct is 10–12 cm long: the funnel-shaped <b>infundibulum</b> near the ovary bears finger-like <b>fimbriae</b> that collect the ovum after ovulation, then the wider <b>ampulla</b>, then the narrow <b>isthmus</b> that joins the uterus. The single inverted-pear <b>uterus</b> opens into the vagina through the <b>cervix</b>; the <b>cervical canal</b> plus the vagina is the <b>birth canal</b>. The uterine wall has an outer thin membranous <b>perimetrium</b>, a middle thick smooth-muscle <b>myometrium</b> that contracts strongly at delivery, and an inner glandular <b>endometrium</b> that changes cyclically in the menstrual cycle.</p><p>External genitalia: <b>mons pubis</b>, <b>labia majora</b>, <b>labia minora</b>, <b>hymen</b> and <b>clitoris</b>. The hymen can be torn by a fall, a tampon or sports and may persist after coitus, so it is <b>not a reliable indicator</b> of virginity.</p><p>Each mammary gland has <b>15–20 mammary lobes</b> of milk-secreting <b>alveoli</b>, opening into <b>mammary tubules</b> → <b>mammary duct</b> → <b>mammary ampulla</b> → <b>lactiferous duct</b>.</p>",
+      "formulas": [
+        {
+          "expr": "Ovum's route: infundibulum (fimbriae) → ampulla → isthmus → uterus; uterine wall: perimetrium → myometrium → endometrium",
+          "where": [
+            [
+              "endometrium",
+              "site of implantation"
+            ]
+          ]
+        }
+      ],
+      "tip": "'Inner and middle walls of the uterus' = endometrium and myometrium; give one function each."
+    },
+    {
+      "heading": "2.3 Gametogenesis (I): Spermatogenesis",
+      "pyq_years": [
+        2016,
+        2014,
+        2012
+      ],
+      "body": "<p>In the testis the <b>spermatogonia</b> on the inside wall of the seminiferous tubule multiply by <b>mitosis</b>; each is diploid (46 chromosomes). Some, now <b>primary spermatocytes</b>, periodically undergo meiosis: <b>meiosis I</b> (reduction division) gives two equal haploid <b>secondary spermatocytes</b> (23 chromosomes) and <b>meiosis II</b> gives four equal haploid <b>spermatids</b>. Spermatids become <b>spermatozoa</b> by <b>spermiogenesis</b>, a change of form without division; the sperm heads stay embedded in Sertoli cells until the sperms are released from the tubule by <b>spermiation</b>.</p><p><b>Hormonal control:</b> at puberty the hypothalamus sharply increases <b>GnRH</b>, which makes the anterior pituitary secrete <b>LH</b> and <b>FSH</b>. LH acts on the <b>Leydig cells</b>, which secrete androgens, and androgens stimulate spermatogenesis. FSH acts on the <b>Sertoli cells</b>, which secrete factors that help spermiogenesis.</p><p>The <b>sperm</b> has a head, neck, middle piece and tail inside a plasma membrane. The head carries an elongated haploid nucleus capped by the <b>acrosome</b>, filled with enzymes that help fertilisation; the middle piece holds numerous <b>mitochondria</b> that power the tail, whose movement gives the motility fertilisation needs. A man ejaculates about <b>200–300 million</b> sperms; for normal fertility at least <b>60%</b> must be of normal shape and size and at least <b>40%</b> vigorously motile. Secretions of the epididymis, vas deferens, seminal vesicle and prostate are essential for sperm <b>maturation and motility</b>; seminal plasma plus sperms is <b>semen</b>.</p>",
+      "formulas": [
+        {
+          "expr": "1 primary spermatocyte (2n = 46) → 2 secondary spermatocytes (n = 23) → 4 spermatids (n) → 4 sperms",
+          "where": [
+            [
+              "spermiogenesis",
+              "spermatid → sperm, no division"
+            ]
+          ]
+        },
+        {
+          "expr": "GnRH (hypothalamus) → LH + FSH (anterior pituitary); LH → Leydig cells → androgens; FSH → Sertoli cells → factors for spermiogenesis",
+          "where": [
+            [
+              "androgens",
+              "stimulate spermatogenesis"
+            ]
+          ]
+        }
+      ],
+      "tip": "Spermatogenesis is the whole process, spermiogenesis spermatid to sperm, spermiation release from the tubule."
+    },
+    {
+      "heading": "2.3 Gametogenesis (II): Oogenesis",
+      "pyq_years": [
+        2019,
+        2015,
+        2014
+      ],
+      "body": "<p><b>Oogenesis</b> begins during <b>embryonic development</b>: a couple of million <b>oogonia</b> form in each foetal ovary, and none are added after birth. They enter <b>prophase I</b> of meiosis and are arrested there as <b>primary oocytes</b>; each, wrapped in a layer of <b>granulosa cells</b>, is a <b>primary follicle</b>. Most degenerate before puberty, leaving <b>60,000–80,000</b> per ovary.</p><p>From puberty, each cycle, a primary follicle gains more granulosa layers and a <b>theca</b> (<b>secondary follicle</b>), then a fluid-filled <b>antrum</b> (<b>tertiary follicle</b>) with <b>theca interna</b> and <b>theca externa</b>. Now the primary oocyte grows and <b>completes meiosis I</b>, an <b>unequal</b> division: a large haploid <b>secondary oocyte</b> keeping the bulk of the nutrient-rich cytoplasm, and a tiny <b>first polar body</b>. The tertiary follicle matures into the <b>Graafian follicle</b>, the secondary oocyte forms the <b>zona pellucida</b> around itself, and the follicle ruptures to release the secondary oocyte (ovum): <b>ovulation</b>. Meiosis II is completed only if a sperm enters.</p><p>Contrast with spermatogenesis: oogenesis starts in the foetus and has long arrests, spermatogenesis starts at puberty and is continuous; one primary oocyte gives one ovum plus polar bodies (unequal divisions), one primary spermatocyte gives four sperms (equal divisions); oogenesis ends at menopause, spermatogenesis continues into old age.</p>",
+      "formulas": [
+        {
+          "expr": "Primary oocyte (arrested in prophase I) → [meiosis I, tertiary follicle] → secondary oocyte + first polar body → [meiosis II, after sperm entry] → ovum + second polar body",
+          "where": [
+            [
+              "Graafian follicle",
+              "ruptures at ovulation → corpus luteum"
+            ]
+          ]
+        }
+      ],
+      "tip": "Meiosis I finishes in the tertiary follicle before ovulation; meiosis II after sperm entry."
+    },
+    {
+      "heading": "2.4 Menstrual Cycle",
+      "pyq_years": [
+        2018,
+        2016,
+        2015
+      ],
+      "body": "<p>The reproductive cycle of female <b>primates</b> is the <b>menstrual cycle</b>. The first menstruation at puberty is <b>menarche</b>; cycles stop at <b>menopause</b>, around 50 years. Menstruation repeats every <b>28/29 days</b> on average, with one ovum released mid-cycle.</p><p><b>Menstrual phase (days 1–5):</b> the endometrial lining and its blood vessels break down and leave through the vagina; the flow lasts 3–5 days. It occurs only if the ovum was not fertilised, so a missed period may indicate pregnancy, though stress or poor health can also cause it. LH and FSH are low.</p><p><b>Follicular phase (days 6–13):</b> primary follicles grow into a mature Graafian follicle while the endometrium regenerates by <b>proliferation</b> (hence <b>proliferative phase</b>). LH and FSH rise gradually, stimulating follicular development and secretion of <b>estrogens</b> by the growing follicles.</p><p><b>Ovulatory phase (about day 14):</b> LH and FSH peak; the rapid rise of LH to its maximum, the <b>LH surge</b>, ruptures the Graafian follicle and releases the ovum.</p><p><b>Luteal phase (days 15–28):</b> the remains of the follicle become the <b>corpus luteum</b>, which secretes large amounts of <b>progesterone</b> to maintain the endometrium for implantation. Without fertilisation it degenerates, the endometrium disintegrates and menstruation begins a new cycle; in pregnancy all events of the cycle stop. Because ovulation is mid-cycle, avoiding coitus from about day 10 to 17 is a natural contraceptive measure.</p>",
+      "formulas": [
+        {
+          "expr": "Menstrual (days 1–5) → follicular/proliferative (days 6–13) → ovulation (day 14, LH surge) → luteal/secretory (days 15–28)",
+          "where": [
+            [
+              "progesterone",
+              "from the corpus luteum"
+            ]
+          ]
+        }
+      ],
+      "tip": "LH and FSH: anterior pituitary; estrogen: growing follicles; progesterone: corpus luteum."
+    },
+    {
+      "heading": "2.5 Fertilisation and Implantation",
+      "pyq_years": [
+        2019,
+        2014,
+        2012
+      ],
+      "body": "<p>Release of semen into the vagina during coitus is <b>insemination</b>. Sperms swim through the cervix and uterus to the <b>ampullary-isthmic junction</b> of the fallopian tube, to which the ovum is also transported; fertilisation happens only if both arrive there <b>simultaneously</b>, which is why not every coitus leads to pregnancy.</p><p>A sperm touches the <b>zona pellucida</b> and induces changes in the membrane that <b>block additional sperms</b>, so only one sperm fertilises the ovum. <b>Acrosome</b> secretions help it enter through the zona pellucida and plasma membrane. Sperm entry induces <b>completion of meiosis II</b> of the secondary oocyte, an unequal division giving a <b>second polar body</b> and a haploid ovum (<b>ootid</b>); the haploid nuclei fuse into the diploid <b>zygote</b>.</p><p><b>Sex determination:</b> female XX, male XY. Every ovum carries X; 50% of sperms carry X and 50% Y. XX becomes a girl, XY a boy, so the father decides the sex.</p><p><b>Cleavage</b> (mitosis) begins as the zygote moves through the <b>isthmus</b>, forming 2, 4, 8, 16 <b>blastomeres</b>; the 8–16-cell <b>morula</b> keeps dividing and becomes the <b>blastocyst</b> as it moves into the uterus: an outer <b>trophoblast</b> and an <b>inner cell mass</b>. The trophoblast attaches to the endometrium, the inner cell mass becomes the embryo, and uterine cells divide rapidly to cover the blastocyst so that it is embedded in the endometrium: <b>implantation</b>, which leads to pregnancy.</p>",
+      "formulas": [
+        {
+          "expr": "Zygote → cleavage in the isthmus → morula (8–16 cells) → blastocyst (trophoblast + inner cell mass) → implantation",
+          "where": [
+            [
+              "sex of the baby",
+              "ova X; sperms X or Y"
+            ]
+          ]
+        }
+      ],
+      "tip": "Full marks need the site, the zona pellucida block and sperm entry triggering meiosis II."
+    },
+    {
+      "heading": "2.6 Pregnancy and Embryonic Development",
+      "pyq_years": [
+        2016,
+        2015,
+        2013
+      ],
+      "body": "<p>After implantation, finger-like <b>chorionic villi</b> appear on the trophoblast, surrounded by uterine tissue and maternal blood; villi and uterine tissue interdigitate to form the <b>placenta</b>, a structural and functional unit between foetus and mother. It supplies <b>oxygen and nutrients</b> to the embryo and removes <b>carbon dioxide and wastes</b>; the <b>umbilical cord</b> connects it to the embryo and carries substances both ways.</p><p>The placenta is also an <b>endocrine tissue</b>, producing <b>hCG</b> (human chorionic gonadotropin), <b>hPL</b> (human placental lactogen), estrogens and progestogens; in later pregnancy the <b>ovary</b> secretes <b>relaxin</b>. hCG, hPL and relaxin are produced <b>only during pregnancy</b>. Estrogens, progestogens, cortisol, prolactin and thyroxine also rise several-fold.</p><p>Right after implantation the inner cell mass forms an outer <b>ectoderm</b>, an inner <b>endoderm</b> and, between them, a <b>mesoderm</b>; these three layers give rise to all adult tissues. The inner cell mass contains <b>stem cells</b> able to form all tissues and organs.</p><p>Timeline (1-mark items): after <b>one month</b> the heart forms (its sound through a stethoscope is the first sign of the foetus); by the end of the <b>second month</b> limbs and digits; by <b>12 weeks</b> (first trimester) most major organ systems, with limbs and external genital organs well developed; in the <b>fifth month</b> first movements and hair on the head; by <b>24 weeks</b> (second trimester) fine body hair, separated eyelids and eyelashes; at nine months the foetus is fully developed.</p>",
+      "formulas": [
+        {
+          "expr": "Pregnancy-only hormones: hCG and hPL (placenta), relaxin (ovary, later pregnancy)",
+          "where": [
+            [
+              "relaxin",
+              "ovary, later pregnancy"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'placenta as endocrine gland' name hCG, hPL, estrogens, progestogens and their role in maintaining pregnancy."
+    },
+    {
+      "heading": "2.7 Parturition and Lactation",
+      "pyq_years": [
+        2019,
+        2016,
+        2015
+      ],
+      "body": "<p>Pregnancy lasts about nine months, the <b>gestation period</b>. Vigorous uterine contractions then expel the foetus: <b>parturition</b>, induced by a complex <b>neuroendocrine mechanism</b>. Signals from the <b>fully developed foetus and the placenta</b> induce mild uterine contractions, the <b>foetal ejection reflex</b>, which triggers release of <b>oxytocin</b> from the <b>maternal pituitary</b>. Oxytocin makes the uterine muscle contract more strongly, which stimulates further oxytocin secretion; this stimulatory reflex continues with stronger and stronger contractions until the baby is expelled through the birth canal, followed soon after by the placenta. It is neuroendocrine because a neural reflex starts it and a hormone (oxytocin, from the mother's pituitary, not the placenta) drives it in a positive loop.</p><p><b>Lactation:</b> the mammary glands differentiate during pregnancy and start producing milk towards its end. The milk of the first few days, <b>colostrum</b>, contains several <b>antibodies</b> absolutely essential for developing <b>resistance</b> in the newborn, which is why doctors recommend breast-feeding in the initial period.</p>",
+      "formulas": [
+        {
+          "expr": "Foetus + placenta signals → foetal ejection reflex → oxytocin (maternal pituitary) → stronger contractions → more oxytocin → delivery",
+          "where": [
+            [
+              "oxytocin",
+              "maternal pituitary, positive feedback"
+            ]
+          ]
+        }
+      ],
+      "tip": "Oxytocin: maternal pituitary; hCG, hPL, estrogens, progestogens: placenta; relaxin: ovary."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Spermiogenesis",
+      "definition": "Transformation of haploid spermatids into spermatozoa without any division."
+    },
+    {
+      "term": "Spermiation",
+      "definition": "Release of mature sperms, whose heads were embedded in Sertoli cells, from the seminiferous tubules."
+    },
+    {
+      "term": "Sertoli cells",
+      "definition": "Cells lining the inside of the seminiferous tubule that nourish the developing germ cells; FSH acts on them."
+    },
+    {
+      "term": "Leydig (interstitial) cells",
+      "definition": "Cells in the interstitial spaces outside the seminiferous tubules that secrete androgens under LH."
+    },
+    {
+      "term": "Acrosome",
+      "definition": "Cap over the anterior part of the sperm nucleus, filled with enzymes that help the sperm enter the ovum."
+    },
+    {
+      "term": "Graafian follicle",
+      "definition": "The mature ovarian follicle, formed from the tertiary follicle, that holds the secondary oocyte and ruptures at ovulation."
+    },
+    {
+      "term": "Corpus luteum",
+      "definition": "Body formed from the remains of the ruptured Graafian follicle; secretes large amounts of progesterone that maintain the endometrium."
+    },
+    {
+      "term": "Menarche and menopause",
+      "definition": "Menarche is the first menstruation at puberty; menopause is the stopping of menstrual cycles at around 50 years."
+    },
+    {
+      "term": "Zona pellucida",
+      "definition": "Membrane formed by the secondary oocyte around itself; after contact with one sperm it changes so that no other sperm can enter."
+    },
+    {
+      "term": "Ampullary-isthmic junction",
+      "definition": "Junction of the ampulla and isthmus of the fallopian tube where sperm and ovum meet and fertilisation takes place."
+    },
+    {
+      "term": "Blastocyst",
+      "definition": "Embryonic stage with an outer trophoblast and an inner cell mass; the stage that implants in the endometrium."
+    },
+    {
+      "term": "Foetal ejection reflex",
+      "definition": "Mild uterine contractions induced by signals from the fully developed foetus and placenta; they trigger oxytocin release and start parturition."
+    },
+    {
+      "term": "Colostrum",
+      "definition": "Milk of the first few days of lactation; contains antibodies essential for developing resistance in the newborn."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Chromosome numbers",
+      "expr": "46 (2n): body cell, spermatogonium, primary spermatocyte, primary oocyte, zygote · 23 (n): secondary spermatocyte, spermatid, sperm, secondary oocyte, ovum, polar bodies",
+      "note": "Meiosis I halves the number"
+    },
+    {
+      "name": "Gamete yield",
+      "expr": "1 primary spermatocyte → 4 sperms (equal divisions); 1 primary oocyte → 1 ovum + polar bodies (unequal divisions)",
+      "note": "Second polar body only after sperm entry"
+    },
+    {
+      "name": "Testis facts",
+      "expr": "4–5 cm by 2–3 cm; about 250 lobules; 1–3 seminiferous tubules per lobule; kept 2–2.5°C below body temperature in the scrotum",
+      "note": "Low temperature needed for spermatogenesis"
+    },
+    {
+      "name": "Semen and fertility",
+      "expr": "200–300 million sperms per ejaculation; at least 60% of normal shape and size and at least 40% vigorously motile for normal fertility",
+      "note": "Seminal plasma: fructose, calcium, enzymes"
+    },
+    {
+      "name": "Female organ numbers",
+      "expr": "Ovary 2–4 cm; fallopian tube 10–12 cm; 15–20 mammary lobes; cycle 28/29 days; menopause around 50 years",
+      "note": "Oviduct: infundibulum → ampulla → isthmus"
+    },
+    {
+      "name": "Oocyte and follicle numbers",
+      "expr": "A couple of million oogonia per foetal ovary; none added after birth; 60,000–80,000 primary follicles per ovary at puberty; one ovum per cycle",
+      "note": "Primary oocytes arrested in prophase I"
+    },
+    {
+      "name": "Menstrual cycle timetable",
+      "expr": "Menstrual days 1–5 (flow 3–5 days) · follicular days 6–13 · ovulation day 14 (LH and FSH peak, LH surge) · luteal days 15–28",
+      "note": "Estrogen: follicles; progesterone: corpus luteum"
+    },
+    {
+      "name": "Hormones and sources",
+      "expr": "GnRH: hypothalamus · LH, FSH: anterior pituitary · androgens: Leydig cells · estrogens: growing follicles · progesterone: corpus luteum · hCG, hPL, estrogens, progestogens: placenta · relaxin: ovary · oxytocin: maternal pituitary",
+      "note": "hCG, hPL, relaxin only in pregnancy"
+    },
+    {
+      "name": "Sites to remember",
+      "expr": "Fertilisation: ampullary-isthmic junction · cleavage begins: isthmus · morula: 8–16 blastomeres · implantation: blastocyst in the endometrium · chorionic villi: on the trophoblast",
+      "note": "Trophoblast attaches; inner cell mass → embryo"
+    },
+    {
+      "name": "Foetal timeline",
+      "expr": "1 month: heart · end of 2nd month: limbs, digits · 12 weeks: major organ systems, external genitalia · 5th month: first movements, hair on head · 24 weeks: fine body hair, eyelids separate, eyelashes",
+      "note": "First trimester 12 weeks; second to 24 weeks"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Diagrammatic sectional view of the male reproductive system",
+      "how_to_draw": "In side view: urinary bladder above, urethra running down through the penis, testis in the scrotum below; epididymis along the back of the testis, vas deferens looping over the bladder and joined by the seminal vesicle to form the ejaculatory duct, prostate around the urethra below the bladder, bulbourethral gland under it. Label ureter, urinary bladder, seminal vesicle, prostate, bulbourethral gland, vas deferens, epididymis, testis, scrotum, urethra, penis, glans penis, foreskin."
+    },
+    {
+      "title": "Diagrammatic sectional view of the female reproductive system",
+      "how_to_draw": "Inverted-pear uterus in the centre with its cavity, narrowing to the cervix and cervical canal, then the vagina. On each side draw the fallopian tube outward from the uterus: narrow isthmus, wider ampulla, funnel-shaped infundibulum with fimbriae beside the oval ovary on its ligament. Label ovary, fimbriae, infundibulum, ampulla, isthmus, uterine cavity, endometrium, myometrium, perimetrium, cervix, cervical canal, vagina."
+    },
+    {
+      "title": "Sectional view of a seminiferous tubule",
+      "how_to_draw": "A circular tubule with a lumen. From the wall inward show spermatogonia, primary spermatocytes, secondary spermatocytes, spermatids and sperms with tails pointing into the lumen; tall Sertoli cells span the wall with sperm heads embedded in them. Outside show the interstitial space with blood vessels and Leydig cells. Label every cell type, lumen, basement membrane and interstitial cells."
+    },
+    {
+      "title": "Structure of a human sperm",
+      "how_to_draw": "An elongated head with the nucleus and the acrosome cap over its front, a short neck, a thicker middle piece with spiral mitochondria and a long tail, all in a plasma membrane. Label plasma membrane, acrosome, nucleus, neck, middle piece, mitochondria, tail. For 'head region only', draw acrosome, nucleus and plasma membrane and stop at the neck."
+    },
+    {
+      "title": "Sectional view of the ovary showing follicular stages and corpus luteum",
+      "how_to_draw": "An oval ovary with a thin outer epithelium enclosing the stroma. Arrange clockwise: primary follicle (oocyte with one granulosa layer), secondary follicle (several layers and theca), tertiary follicle with a small antrum, the Graafian follicle bulging at the surface with the secondary oocyte on its inner wall, a ruptured follicle releasing the ovum, the corpus luteum and a degenerating corpus luteum. Label each stage plus germinal epithelium, stroma, secondary oocyte, ovulation and blood vessels."
+    },
+    {
+      "title": "Graafian follicle",
+      "how_to_draw": "A large round follicle: theca externa outside, theca interna inside it, then granulosa cell layers around the fluid-filled antrum. The secondary oocyte sits on a mound of granulosa cells to one side, surrounded by the zona pellucida and a ring of granulosa cells (corona radiata). Label theca externa, theca interna, granulosa cells, antrum, secondary oocyte, zona pellucida, corona radiata, nucleus (NCERT exercise Q14)."
+    },
+    {
+      "title": "Blastocyst",
+      "how_to_draw": "A hollow ball of cells whose outer single layer is the trophoblast, with a cluster attached inside on one side, the inner cell mass, and a fluid-filled cavity. Label trophoblast, inner cell mass, blastocyst cavity (blastocoel). To show implantation, add the endometrium below, touching the trophoblast."
+    },
+    {
+      "title": "Menstrual cycle chart (the NCERT four-tier diagram)",
+      "how_to_draw": "Four panels on one 28-day axis marked day 1, 14 and 28. Panel 1, pituitary hormones: FSH and LH rising through the follicular phase with a sharp LH peak at day 14. Panel 2, ovarian events: follicle growing to Graafian, ovulation at day 14, corpus luteum forming then degenerating. Panel 3, ovarian hormones: estrogen peaking just before ovulation, progesterone peaking in the luteal phase and falling before day 28. Panel 4, endometrium: thin at menstruation, thickening through proliferation, thickest in the luteal phase. Label the phases menstrual, follicular, ovulatory and luteal."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "2.1",
+      "q": "Fill in the blanks: (a) Humans reproduce ______ (asexually/sexually). (b) Humans are ______ (oviparous/viviparous/ovoviviparous). (c) Fertilisation is ______ in humans (external/internal). (d) Male and female gametes are ______ (diploid/haploid). (e) Zygote is ______ (diploid/haploid). (f) The process of release of the ovum from a mature follicle is called ______. (g) Ovulation is induced by a hormone called ______. (h) The fusion of male and female gametes is called ______. (i) Fertilisation takes place in ______. (j) Zygote divides to form ______ which is implanted in the uterus. (k) The structure which provides vascular connection between the foetus and the uterus is called ______.",
+      "a": "<p>(a) sexually (b) viviparous (c) internal (d) haploid (e) diploid (f) ovulation (g) luteinising hormone (LH) (h) fertilisation (i) the ampullary-isthmic junction of the fallopian tube (j) blastocyst (k) placenta.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "2.6",
+      "q": "What is spermatogenesis? Briefly describe the process of spermatogenesis.",
+      "a": "<p>Spermatogenesis is the production of sperms from the spermatogonia of the seminiferous tubules, beginning at puberty. The diploid spermatogonia (46 chromosomes) multiply by mitosis; some become primary spermatocytes and undergo meiosis: meiosis I gives two equal haploid secondary spermatocytes (23 chromosomes), meiosis II four equal haploid spermatids. Spermatids become spermatozoa by spermiogenesis, their heads embed in Sertoli cells, and the sperms are released by spermiation.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.7",
+      "q": "Name the hormones involved in regulation of spermatogenesis.",
+      "a": "<p>GnRH from the hypothalamus; the gonadotropins LH and FSH from the anterior pituitary; androgens (testosterone) from the Leydig cells. GnRH stimulates LH and FSH; LH makes Leydig cells secrete androgens, which stimulate spermatogenesis; FSH acts on Sertoli cells, which secrete factors that help spermiogenesis.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.8",
+      "q": "Define spermiogenesis and spermiation.",
+      "a": "<p><b>Spermiogenesis</b> is the transformation of haploid spermatids into spermatozoa, a change of form with no division. <b>Spermiation</b> is the release of the sperms, whose heads had become embedded in the Sertoli cells, from the seminiferous tubules.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.10",
+      "q": "What are the major components of seminal plasma?",
+      "a": "<p>Seminal plasma is the combined secretion of the seminal vesicles, prostate and bulbourethral glands. It is rich in fructose (energy for the sperms), calcium and certain enzymes. Seminal plasma plus sperms is semen.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.12",
+      "q": "What is oogenesis? Give a brief account of oogenesis.",
+      "a": "<p>Oogenesis is the formation of a mature female gamete. A couple of million oogonia form in each foetal ovary; none are added after birth. They enter prophase I of meiosis and are arrested as primary oocytes, each surrounded by granulosa cells as a primary follicle; many degenerate, leaving 60,000–80,000 per ovary at puberty. From puberty, each cycle, a primary follicle becomes a secondary follicle (more granulosa layers and a theca), then a tertiary follicle with an antrum, in which the primary oocyte completes meiosis I unequally into a large haploid secondary oocyte and a tiny first polar body. The tertiary follicle becomes the Graafian follicle, the secondary oocyte forms the zona pellucida, and the follicle ruptures to release it (ovulation). Meiosis II is completed only after sperm entry, giving the ovum and a second polar body.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.15",
+      "q": "Name the functions of the following: (a) Corpus luteum (b) Endometrium (c) Acrosome (d) Sperm tail (e) Fimbriae.",
+      "a": "<p>(a) <b>Corpus luteum:</b> secretes progesterone, which maintains the endometrium for implantation and pregnancy.</p><p>(b) <b>Endometrium:</b> glandular uterine lining that changes cyclically and is the site of implantation and placenta formation.</p><p>(c) <b>Acrosome:</b> its enzymes help the sperm enter the ovum through the zona pellucida and plasma membrane.</p><p>(d) <b>Sperm tail:</b> its movement, powered by the mitochondria of the middle piece, gives the motility needed for fertilisation.</p><p>(e) <b>Fimbriae:</b> finger-like edges of the infundibulum that collect the ovum after ovulation.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.16",
+      "q": "Identify true/false statements and correct each false statement: (a) Androgens are produced by Sertoli cells. (b) Spermatozoa get nutrition from Sertoli cells. (c) Leydig cells are found in the ovary. (d) Leydig cells synthesise androgens. (e) Oogenesis takes place in the corpus luteum. (f) Menstrual cycle ceases during pregnancy. (g) Presence or absence of hymen is not a reliable indicator of virginity or sexual experience.",
+      "a": "<p>(a) False: androgens are produced by the Leydig (interstitial) cells. (b) True. (c) False: Leydig cells are found in the interstitial spaces of the testis. (d) True. (e) False: oogenesis takes place in the ovary. (f) True. (g) True.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.17",
+      "q": "What is menstrual cycle? Which hormones regulate menstrual cycle?",
+      "a": "<p>The menstrual cycle is the reproductive cycle of female primates: the events from one menstruation to the next, repeated every 28/29 days on average, with one ovum released mid-cycle. It is regulated by the pituitary gonadotropins LH and FSH (both peak mid-cycle; the LH surge causes ovulation) and the ovarian hormones estrogen (growing follicles; regenerates the endometrium) and progesterone (corpus luteum; maintains the endometrium), with GnRH from the hypothalamus controlling LH and FSH.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.18",
+      "q": "What is parturition? Which hormones are involved in induction of parturition?",
+      "a": "<p>Parturition is the delivery of the fully developed foetus by vigorous uterine contractions at the end of the gestation period (about nine months). It is induced by a neuroendocrine mechanism: signals from the fully developed foetus and the placenta cause mild uterine contractions (foetal ejection reflex), which trigger release of <b>oxytocin</b> from the maternal pituitary; oxytocin causes stronger contractions and more oxytocin until the baby is expelled. Oxytocin is the inducing hormone; relaxin from the ovary, secreted in later pregnancy, relaxes the pelvic ligaments.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.19",
+      "q": "In our society the women are often blamed for giving birth to daughters. Can you explain why this is not correct?",
+      "a": "<p>A woman is XX, so every ovum carries an X chromosome. A man is XY, so half his sperms carry X and half carry Y. An X sperm gives an XX zygote (girl); a Y sperm gives XY (boy). The sex of the child therefore depends on which sperm fertilises the ovum, that is, on the father; blaming the mother has no scientific basis.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In humans, fertilisation of the ovum by the sperm normally takes place in the",
+      "options": [
+        "uterus",
+        "ampullary-isthmic junction of the fallopian tube",
+        "cervix",
+        "infundibulum of the fallopian tube"
+      ],
+      "answer": "b",
+      "solution": "Sperms and the ovum both reach the junction of the ampulla and isthmus, and fertilisation occurs only if they arrive there simultaneously."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following hormones is NOT produced in a woman only during pregnancy?",
+      "options": [
+        "hCG",
+        "hPL",
+        "relaxin",
+        "progesterone"
+      ],
+      "answer": "d",
+      "solution": "NCERT lists hCG, hPL and relaxin as pregnancy-only hormones; progesterone is secreted by the corpus luteum in every cycle."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Spermiation is the",
+      "options": [
+        "transformation of spermatids into spermatozoa",
+        "release of sperms from the seminiferous tubules",
+        "formation of spermatids from secondary spermatocytes",
+        "maturation of sperms in the epididymis"
+      ],
+      "answer": "b",
+      "solution": "Spermiation releases sperms whose heads were embedded in Sertoli cells; (a) is spermiogenesis and (c) is meiosis II."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In a human female the first polar body is formed",
+      "options": [
+        "in the foetal ovary before birth",
+        "in the tertiary follicle just before ovulation, when meiosis I is completed",
+        "in the oviduct after the sperm enters the oocyte",
+        "during cleavage of the zygote"
+      ],
+      "answer": "b",
+      "solution": "The primary oocyte completes meiosis I inside the tertiary follicle; the second polar body forms only after sperm entry."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The embryo with 8 to 16 blastomeres is called a",
+      "options": [
+        "blastocyst",
+        "morula",
+        "trophoblast",
+        "gastrula"
+      ],
+      "answer": "b",
+      "solution": "The 8–16-cell stage of cleavage is the morula, which then becomes the blastocyst; the trophoblast is a layer, not a stage."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following cells in a human seminiferous tubule is diploid?",
+      "options": [
+        "secondary spermatocyte",
+        "spermatid",
+        "spermatogonium",
+        "spermatozoon"
+      ],
+      "answer": "c",
+      "solution": "Spermatogonia and primary spermatocytes carry 46 chromosomes; the cells after meiosis I carry 23."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The human testes are located outside the abdominal cavity in the scrotum. Reason (R): Spermatogenesis requires a temperature about 2–2.5°C lower than the normal internal body temperature.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The scrotum keeps the testes 2–2.5°C cooler, and that lower temperature is necessary for spermatogenesis, so R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Androgens are secreted by the Sertoli cells of the testis. Reason (R): FSH acts on the Sertoli cells and stimulates secretion of factors that help spermiogenesis.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "Androgens come from the Leydig cells under LH, so A is false; R is the correct NCERT statement."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The placenta acts as an endocrine tissue during pregnancy. Reason (R): The placenta is connected to the embryo through the umbilical cord.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "b",
+      "solution": "Both are true, but the cord is about transport; the endocrine role is the secretion of hCG, hPL, estrogens and progestogens."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Write the location and functions of Sertoli cells and Leydig cells.",
+      "answer": "<p><b>Sertoli cells:</b> inside the seminiferous tubules with the spermatogonia; they nourish the germ cells, hold the sperm heads after spermiogenesis and, under FSH, secrete factors that help spermiogenesis.</p><p><b>Leydig (interstitial) cells:</b> in the interstitial spaces outside the tubules; under LH they secrete androgens (testosterone), which stimulate spermatogenesis.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What happens to the corpus luteum in a human female if the ovum is (a) fertilised, (b) not fertilised?",
+      "answer": "<p>(a) If fertilised, the corpus luteum persists and keeps secreting <b>progesterone</b>, which maintains the endometrium for implantation and pregnancy; the menstrual cycle stops.</p><p>(b) If not fertilised, it <b>degenerates</b>, progesterone falls, the endometrium disintegrates and menstruation starts a new cycle.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is breast-feeding recommended during the initial period of an infant's growth? Give reasons.",
+      "answer": "<p>The milk of the first few days of lactation is <b>colostrum</b>, which contains several <b>antibodies</b> absolutely essential for developing <b>resistance</b> in the newborn; breast milk also gives complete nutrition. Write colostrum, antibodies and resistance as three separate points.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State from where the signals for parturition originate in human females. What is the foetal ejection reflex?",
+      "answer": "<p>The signals originate from the <b>fully developed foetus and the placenta</b>. They induce mild uterine contractions, the <b>foetal ejection reflex</b>, which trigger release of oxytocin from the maternal pituitary and so stronger contractions.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the role of the pituitary and the sex hormones in the process of spermatogenesis in humans.",
+      "answer": "<p>At puberty the hypothalamus greatly increases <b>GnRH</b>, which acts on the <b>anterior pituitary</b> to secrete the gonadotropins <b>LH</b> and <b>FSH</b>.</p><p><b>LH</b> acts on the <b>Leydig cells</b> and stimulates synthesis and secretion of <b>androgens</b>, which stimulate spermatogenesis in the seminiferous tubules and maintain the accessory ducts and glands.</p><p><b>FSH</b> acts on the <b>Sertoli cells</b>, which secrete factors that help <b>spermiogenesis</b>, the change of spermatids into sperms.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the development of a secondary oocyte in a human female from the embryonic stage up to its ovulation.",
+      "answer": "<p>In the embryo a couple of million <b>oogonia</b> form in each foetal ovary. They enter prophase I of meiosis and are arrested as <b>primary oocytes</b>, each surrounded by granulosa cells as a <b>primary follicle</b>; many degenerate, leaving 60,000–80,000 per ovary at puberty.</p><p>After puberty, each cycle, a primary follicle gains more granulosa layers and a theca (<b>secondary follicle</b>), then an antrum with theca interna and externa (<b>tertiary follicle</b>), in which the primary oocyte grows and completes <b>meiosis I</b> unequally: a large haploid <b>secondary oocyte</b> and a tiny first polar body.</p><p>The tertiary follicle matures into the <b>Graafian follicle</b>, the secondary oocyte forms the <b>zona pellucida</b>, and under the LH surge the follicle ruptures and releases the secondary oocyte: <b>ovulation</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "During the reproductive cycle of a human female, when, where and how does a placenta develop? What is the function of the placenta?",
+      "answer": "<p><b>When:</b> after implantation of the blastocyst, early in pregnancy. <b>Where:</b> in the uterus, where the trophoblast is attached to the endometrium. <b>How:</b> finger-like <b>chorionic villi</b> appear on the trophoblast, surrounded by uterine tissue and maternal blood; villi and uterine tissue interdigitate and jointly form the placenta, connected to the embryo by the umbilical cord.</p><p><b>Functions:</b> supplies oxygen and nutrients to the embryo and removes carbon dioxide and wastes; acts as an endocrine tissue producing hCG, hPL, estrogens and progestogens that maintain pregnancy and support foetal growth.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Describe the process of parturition in humans. Why is it called a neuroendocrine mechanism?",
+      "answer": "<p>At the end of gestation (about nine months) signals from the <b>fully developed foetus and the placenta</b> induce mild uterine contractions, the <b>foetal ejection reflex</b>, which triggers release of <b>oxytocin</b> from the <b>maternal pituitary</b>. Oxytocin makes the uterine muscle contract more strongly, which stimulates further oxytocin secretion; the reflex continues with stronger and stronger contractions until the baby is expelled through the birth canal, followed by the placenta.</p><p>It is neuroendocrine because a neural reflex (the foetal ejection reflex) and a hormone (oxytocin) act together in a positive-feedback loop.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Explain the menstrual phase in a human female. State the levels of pituitary hormones during this phase. (b) Why is the follicular phase in the menstrual cycle also referred to as the proliferative phase? Explain. (c) Explain the events that occur in a Graafian follicle at the time of ovulation and thereafter.",
+      "answer": "<p>(a) The <b>menstrual phase</b> opens the 28/29-day cycle and lasts 3–5 days: the previous ovum was not fertilised, the corpus luteum has degenerated, progesterone has fallen, and the endometrial lining with its blood vessels breaks down and leaves through the vagina as menstrual flow. The pituitary gonadotropins <b>LH and FSH are at low levels</b>.</p><p>(b) In the <b>follicular phase</b> the primary follicles grow into a mature Graafian follicle under rising LH and FSH, and the growing follicles secrete estrogens, under which the endometrium shed at menstruation <b>regenerates through proliferation</b> of its cells; hence proliferative phase.</p><p>(c) At mid-cycle (about day 14) LH and FSH peak; the <b>LH surge</b> ruptures the Graafian follicle and releases the secondary oocyte (ovulation). The remaining parts of the follicle become the <b>corpus luteum</b>, which secretes large amounts of <b>progesterone</b> to maintain the endometrium for implantation. Without fertilisation it degenerates, progesterone falls, the endometrium disintegrates and menstruation begins a new cycle; with fertilisation it persists and the cycle stops.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Explain the process of fertilisation in humans. (b) Name the embryonic stage that gets implanted in the uterine wall and explain the process of implantation.",
+      "answer": "<p>(a) Sperms deposited in the vagina (insemination) pass through the cervix and uterus to the <b>ampullary-isthmic junction</b> of the fallopian tube, to which the ovum is also transported; fertilisation occurs only if both arrive simultaneously. A sperm contacts the <b>zona pellucida</b> and induces changes in the membrane that <b>block additional sperms</b>, so only one sperm fertilises the ovum. <b>Acrosome</b> secretions help it enter through the zona pellucida and plasma membrane. Sperm entry induces completion of <b>meiosis II</b> of the secondary oocyte, forming the second polar body and a haploid ovum (ootid); the haploid nuclei fuse into the diploid <b>zygote</b>.</p><p>(b) The <b>blastocyst</b>. Cleavage in the isthmus forms 2, 4, 8, 16 blastomeres; the 8–16-cell <b>morula</b> becomes the blastocyst as it enters the uterus, with an outer <b>trophoblast</b> and an <b>inner cell mass</b>. The trophoblast attaches to the <b>endometrium</b>, the inner cell mass differentiates as the embryo, and uterine cells divide rapidly and cover the blastocyst so that it is embedded in the endometrium: <b>implantation</b>, which leads to pregnancy.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Describe the process of spermatogenesis in humans and mention its hormonal regulation. (b) Draw a labelled diagram of a human sperm.",
+      "answer": "<p>(a) Spermatogenesis begins at puberty in the seminiferous tubules. The diploid <b>spermatogonia</b> (46 chromosomes) multiply by mitosis; some become <b>primary spermatocytes</b> and undergo meiosis: <b>meiosis I</b> forms two equal haploid <b>secondary spermatocytes</b> (23 chromosomes) and <b>meiosis II</b> four equal haploid <b>spermatids</b>. Spermatids become <b>spermatozoa</b> by <b>spermiogenesis</b>; their heads embed in Sertoli cells and the sperms are released by <b>spermiation</b>. One primary spermatocyte gives four sperms.</p><p>Regulation: at puberty the hypothalamus raises <b>GnRH</b>, which makes the anterior pituitary release <b>LH</b> and <b>FSH</b>. LH acts on Leydig cells to secrete <b>androgens</b>, which stimulate spermatogenesis; FSH acts on Sertoli cells, which secrete factors that help spermiogenesis.</p><p>(b) Draw a head (acrosome cap over the elongated haploid nucleus), a short neck, a middle piece packed with mitochondria that power movement, and a long tail, all in a plasma membrane. Label plasma membrane, acrosome, nucleus, neck, middle piece, mitochondria, tail.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. A woman charts her 28-day cycle. Her doctor shows her a graph on which two pituitary hormones rise slowly and peak sharply on day 14, one ovarian hormone rises before day 14 while another rises and then falls in the second half, and the uterine lining is thinnest on day 3 and thickest around day 21.<br>(i) Name the two pituitary hormones and state the effect of the sharp peak of one of them on day 14.<br>(ii) Name the ovarian hormone of the second half of the cycle and its source.<br>(iii) Why is the lining thickest around day 21, and what happens to it by day 28 if there is no fertilisation?<br>(iv) How can knowing the day of ovulation help the couple avoid pregnancy?",
+      "answer": "<p>(i) <b>LH and FSH</b>. The rapid rise of LH to its maximum on day 14, the LH surge, ruptures the Graafian follicle and releases the ovum (ovulation).</p><p>(ii) <b>Progesterone</b>, from the <b>corpus luteum</b> formed from the ruptured Graafian follicle.</p><p>(iii) Progesterone maintains and thickens the endometrium for implantation. Without fertilisation the corpus luteum degenerates, progesterone falls, and the endometrium disintegrates and is shed as menstrual flow from day 1 of the next cycle.</p><p>(iv) Ovulation is mid-cycle and ovum and sperms must meet within a short window, so the couple can avoid coitus from about day 10 to 17 (periodic abstinence).</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. Meera is in her seventh month of pregnancy. Her doctor explains that a disc-shaped structure attached to the uterine wall feeds the baby and makes hormones, that a cord connects it to the baby, and that at the end of pregnancy the baby itself will send the signals that start labour.<br>(i) Name the disc-shaped structure and state how it is formed.<br>(ii) Name two hormones it secretes that a non-pregnant woman never produces.<br>(iii) What is the function of the cord?<br>(iv) Explain in brief how the baby's signals lead to delivery.",
+      "answer": "<p>(i) The <b>placenta</b>. After implantation, finger-like <b>chorionic villi</b> grow from the trophoblast into the uterine tissue and maternal blood; villi and uterine tissue interdigitate to form the placenta.</p><p>(ii) <b>hCG</b> (human chorionic gonadotropin) and <b>hPL</b> (human placental lactogen), produced only during pregnancy.</p><p>(iii) The <b>umbilical cord</b> connects the placenta to the embryo and transports substances both ways: oxygen and nutrients to the foetus, carbon dioxide and wastes from it.</p><p>(iv) Signals from the fully developed foetus and the placenta induce mild uterine contractions (<b>foetal ejection reflex</b>), which trigger release of <b>oxytocin</b> from the maternal pituitary; oxytocin causes stronger contractions, which stimulate more oxytocin, until the baby is expelled, followed by the placenta.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of the following is NOT one of the male accessory ducts?",
+      "options": [
+        "rete testis",
+        "vasa efferentia",
+        "seminal vesicle",
+        "epididymis"
+      ],
+      "answer_index": 2,
+      "explanation": "Seminal vesicle is a gland; the ducts are rete testis, vasa efferentia, epididymis, vas deferens."
+    },
+    {
+      "q": "Each human testis contains about how many testicular lobules?",
+      "options": [
+        "25",
+        "250",
+        "2,500",
+        "1 to 3"
+      ],
+      "answer_index": 1,
+      "explanation": "About 250 lobules, each with one to three seminiferous tubules."
+    },
+    {
+      "q": "The menstrual cycle is the reproductive cycle characteristic of",
+      "options": [
+        "all mammals",
+        "female primates",
+        "all vertebrates",
+        "all viviparous animals"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT: the reproductive cycle of female primates (monkeys, apes, humans)."
+    },
+    {
+      "q": "Cleavage of the human zygote begins in the",
+      "options": [
+        "uterus",
+        "ampulla of the oviduct",
+        "isthmus of the oviduct",
+        "cervix"
+      ],
+      "answer_index": 2,
+      "explanation": "Cleavage starts as the zygote moves through the isthmus towards the uterus."
+    },
+    {
+      "q": "The correct sequence of sperm transport is",
+      "options": [
+        "seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens",
+        "seminiferous tubules → vasa efferentia → rete testis → epididymis → vas deferens",
+        "seminiferous tubules → epididymis → rete testis → vasa efferentia → vas deferens",
+        "seminiferous tubules → rete testis → epididymis → vasa efferentia → vas deferens"
+      ],
+      "answer_index": 0,
+      "explanation": "Tubules → rete testis → vasa efferentia → epididymis → vas deferens is the NCERT order."
+    },
+    {
+      "q": "At puberty, the number of primary follicles left in each human ovary is about",
+      "options": [
+        "a couple of million",
+        "60,000–80,000",
+        "400",
+        "1–3"
+      ],
+      "answer_index": 1,
+      "explanation": "Most of the couple of million foetal oogonia degenerate, leaving 60,000–80,000 per ovary."
+    },
+    {
+      "q": "Ovulation in the human female is induced by the mid-cycle surge of",
+      "options": [
+        "FSH",
+        "LH",
+        "progesterone",
+        "estrogen"
+      ],
+      "answer_index": 1,
+      "explanation": "Both LH and FSH peak at day 14, but the LH surge ruptures the Graafian follicle."
+    },
+    {
+      "q": "Which hormone is secreted by the ovary in the later phase of pregnancy?",
+      "options": [
+        "hCG",
+        "hPL",
+        "relaxin",
+        "oxytocin"
+      ],
+      "answer_index": 2,
+      "explanation": "Relaxin: ovary, late pregnancy; hCG and hPL: placenta; oxytocin: maternal pituitary."
+    },
+    {
+      "q": "By the end of which period are most of the major organ systems of the human foetus formed, with the limbs and external genital organs well developed?",
+      "options": [
+        "one month",
+        "end of the second month",
+        "12 weeks",
+        "24 weeks"
+      ],
+      "answer_index": 2,
+      "explanation": "End of 12 weeks (first trimester); limbs and digits first appear by the end of the second month."
+    },
+    {
+      "q": "The chorionic villi of the human embryo arise from the",
+      "options": [
+        "inner cell mass",
+        "trophoblast",
+        "endoderm",
+        "zona pellucida"
+      ],
+      "answer_index": 1,
+      "explanation": "Chorionic villi appear on the trophoblast and interdigitate with uterine tissue to form the placenta."
+    },
+    {
+      "q": "The birth canal in a human female is formed by the",
+      "options": [
+        "uterus and oviduct",
+        "cervical canal and vagina",
+        "vagina alone",
+        "uterus and cervix"
+      ],
+      "answer_index": 1,
+      "explanation": "Cervical canal plus vagina forms the birth canal."
+    },
+    {
+      "q": "The secretion of the bulbourethral glands helps in",
+      "options": [
+        "providing fructose to the sperms",
+        "lubrication of the penis",
+        "maturation of sperms in the epididymis",
+        "secretion of androgens"
+      ],
+      "answer_index": 1,
+      "explanation": "Bulbourethral secretion is part of the seminal plasma and also lubricates the penis."
+    },
+    {
+      "q": "Colostrum is valuable to the newborn because it is rich in",
+      "options": [
+        "fats",
+        "antibodies",
+        "fructose",
+        "hCG"
+      ],
+      "answer_index": 1,
+      "explanation": "Colostrum's antibodies build resistance in the newborn."
+    },
+    {
+      "q": "During parturition, oxytocin is released from the",
+      "options": [
+        "placenta",
+        "corpus luteum",
+        "maternal pituitary",
+        "foetal pituitary"
+      ],
+      "answer_index": 2,
+      "explanation": "The foetal ejection reflex triggers oxytocin release from the mother's pituitary."
+    },
+    {
+      "q": "Which structure changes on contact with the first sperm so that no other sperm can enter the ovum?",
+      "options": [
+        "corona radiata",
+        "zona pellucida",
+        "acrosome",
+        "first polar body"
+      ],
+      "answer_index": 1,
+      "explanation": "Contact with the first sperm changes the zona pellucida so no other sperm can enter."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that Sertoli cells secrete androgens. Sertoli cells nourish the germ cells and respond to FSH; androgens come from the Leydig cells under LH.",
+    "Merging spermatogenesis, spermiogenesis and spermiation. Spermiogenesis is only spermatid to sperm; spermiation only the release from the tubule.",
+    "Saying fertilisation occurs in the uterus or just in the fallopian tube. NCERT's site is the ampullary-isthmic junction; the examiner looks for that phrase.",
+    "Writing that the ovum completes meiosis before ovulation. Meiosis I ends in the tertiary follicle; meiosis II only after sperm entry.",
+    "Naming the morula or zygote as the stage that implants. The blastocyst implants, the trophoblast attaches, the inner cell mass becomes the embryo.",
+    "Wrong hormone sources: progesterone from the corpus luteum (not the Graafian follicle), oxytocin from the maternal pituitary (not the placenta), relaxin from the ovary.",
+    "Diagrams without labels or with crossing label lines score nothing even when the drawing is good."
+  ],
+  "strategy": "<p>Prepare the chapter in three sittings. First, the two systems: draw the male and female systems and the seminiferous tubule from memory, with one function beside every label; then learn the duct sequence, the three glands and the composition of seminal plasma.</p><p>Second, gametogenesis and the menstrual cycle: write the spermatogenesis and oogenesis flow charts side by side with 46 and 23 beside every cell, marking where meiosis I and II finish in the oocyte. Build the 28-day cycle as a table (phase, days, ovarian event, hormone and source, endometrium) and practise the four-tier NCERT chart. The 2016 five-marker on the menstrual phase, proliferative phase and Graafian follicle is the model long answer; write it once against the clock.</p><p>Third, fertilisation to lactation as one timeline: insemination, ampullary-isthmic junction, zona pellucida block, meiosis II, cleavage, morula, blastocyst, implantation, placenta and its hormones, the foetal timeline, the foetal ejection reflex and oxytocin loop, colostrum. Learn the numbers in the fact sheet; they are the 1-mark items. Always draw the diagram the question asks for.</p>",
+  "revision_checklist": [
+    "I can draw and label the male system and write the duct sequence from seminiferous tubule to urethral meatus.",
+    "I can give the location, function and controlling hormone of Sertoli and Leydig cells.",
+    "I can draw and label the female system, the oviduct parts in order and the three uterine layers.",
+    "I can write the spermatogenesis flow chart with chromosome numbers and define spermiogenesis and spermiation separately.",
+    "I can describe oogenesis from oogonia to ovulation, with where meiosis I and II finish and the polar bodies.",
+    "I can draw the ovary section with all follicle stages and the corpus luteum, and a Graafian follicle.",
+    "I can write the four menstrual phases with days, hormones and sources, the LH surge and the fate of the corpus luteum.",
+    "I can describe fertilisation at the ampullary-isthmic junction, the zona pellucida block, and why the father determines the sex.",
+    "I can trace zygote → morula → blastocyst → implantation and say which layer attaches to the endometrium.",
+    "I can explain how the placenta forms, its functions, the pregnancy-only hormones and the foetal timeline.",
+    "I can explain parturition as a neuroendocrine mechanism with the foetal ejection reflex and oxytocin, and why colostrum matters."
+  ],
+  "videos": []
+}

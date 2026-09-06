@@ -1,0 +1,969 @@
+{
+  "class": 11,
+  "subject": "Physics",
+  "chapter_no": 1,
+  "slug": "units-and-measurements",
+  "title": "Units and Measurements",
+  "summary": "This chapter builds the language of Physics: how we choose units, measure length, mass and time, report a measurement honestly through errors and significant figures, and use dimensions to check and derive relations. It has no board exam this year, but every later chapter, from motion to electromagnetism, quietly assumes you know this one.",
+  "exam_profile": {
+    "weightage": "Class 11 has no board exam, so this chapter is not weighed in marks the way a Class 12 chapter is. It is tested fully in the school's own unit tests and final exam, and its ideas (SI units, significant figures, errors, dimensional analysis) resurface as 1-mark and 2-mark questions inside almost every Class 12 board paper and in JEE/NEET.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Dimensional formula of a quantity, significant figures in a given number, error propagation in a product or quotient, SI base unit identification."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Statements testing whether a dimensionally correct equation must be numerically correct, or whether precision and accuracy mean the same thing."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 1,
+        "note": "Define a term (accuracy, systematic error, significant figure), state a dimensional formula, or name a method (parallax, echo)."
+      },
+      {
+        "type": "Short answer",
+        "marks": 2,
+        "note": "Small numerical on percentage error or significant figures; distinguish two close terms with one example each."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Derive an equation's dimensional formula and check its correctness, or work a combined-error numerical with full steps."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full derivation of a relation using dimensional analysis (e.g. time period of a pendulum), or a multi-part numerical on errors and significant figures."
+      }
+    ],
+    "hot_topics": [
+      "Rules for significant figures and rounding off",
+      "Combination of errors (sum, product, power) in a measured quantity",
+      "Dimensional formulae of common physical quantities",
+      "Checking the dimensional correctness of an equation",
+      "Deriving a relation by the method of dimensions (e.g. simple pendulum, orbital speed)",
+      "Parallax method for large distances",
+      "Difference between accuracy and precision, and between systematic and random error",
+      "SI base units and the rules for writing symbols"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "1.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>Physics is a science of measurement. Every law you will study this year, from Newton's second law to Coulomb's law, is a relation between measured quantities, and it only means something once you have agreed on what a metre, a second and a kilogram actually are. Physical quantities are split into two kinds. A <b>fundamental (base) quantity</b> is one that is measured directly and independently of others: length, mass, time, electric current, temperature, amount of substance and luminous intensity. A <b>derived quantity</b> is built from these by multiplication or division: speed = length/time, force = mass × acceleration, and so on. This chapter fixes the units for the base quantities, tells you how those units are realised in a laboratory, and gives you the tools, significant figures, error analysis and dimensional analysis, to handle any measurement honestly and to check whether an equation can possibly be correct before you even test it.</p>",
+      "formulas": [],
+      "tip": "Read every question in this chapter for the word being tested: 'accuracy' and 'precision' are different words with different meanings; examiners exploit that."
+    },
+    {
+      "heading": "1.2 The International System of Units",
+      "pyq_years": [],
+      "body": "<p>Before SI, different countries used different systems: CGS (centimetre, gram, second), FPS (foot, pound, second) and MKS (metre, kilogram, second). To remove this confusion, the General Conference on Weights and Measures adopted the <b>SI (Système International d'Unités)</b>, built on seven base units: metre (m) for length, kilogram (kg) for mass, second (s) for time, ampere (A) for electric current, kelvin (K) for temperature, mole (mol) for amount of substance and candela (cd) for luminous intensity. Two supplementary units are added for angles: <b>radian (rad)</b> for plane angle and <b>steradian (sr)</b> for solid angle. Every other physical unit (newton, joule, volt, ohm...) is derived from these seven by combining them according to the quantity's defining equation. SI also fixes rules for writing units correctly: unit symbols are never pluralised (5 kg, not 5 kgs), no full stop follows a symbol unless it ends a sentence, and a space separates the number from the unit (10 m, not 10m). Since 2019, all seven base units are defined by fixing the numerical value of a fundamental constant (e.g. the kilogram is now defined by fixing the Planck constant h), rather than by a physical artefact.</p>",
+      "formulas": [],
+      "tip": "A one-mark question often gives a derived unit (like the pascal or the watt) and asks for its base-unit expression — practise converting a few by heart."
+    },
+    {
+      "heading": "1.3 Measurement of Length",
+      "pyq_years": [],
+      "body": "<p>For everyday lengths we use metre scales, vernier callipers and screw gauges. For very large distances, such as the distance to the moon or a nearby star, direct measurement is impossible, so we use the <b>parallax method</b>. Parallax is the apparent shift in the position of an object against a distant background when viewed from two different points. To find the distance D of a distant object, observe it from two points separated by a known baseline b, and measure the parallax angle θ (in radians) it subtends. Since θ is small, the arc length b ≈ Dθ, giving D = b/θ. The same idea, using the angular size of the object as seen from Earth, gives the diameter of a distant star once its distance is known: if α is the angular diameter, the star's diameter d = Dα. For distances within the solar system, the <b>echo (radar) method</b> is used: a radio pulse is sent, its reflection is timed, and distance = (speed of pulse × time)/2. For very small lengths (atomic and molecular size, of the order 10<sup>−10</sup> m), electron microscopes and X-ray diffraction are used; a rough estimate can also be made from Avogadro's number and the molar volume of a substance.</p>",
+      "formulas": [
+        {
+          "expr": "θ = b/D  ⇒  D = b/θ",
+          "where": [
+            [
+              "D",
+              "distance to the distant object"
+            ],
+            [
+              "b",
+              "basis (separation between the two observation points)"
+            ],
+            [
+              "θ",
+              "parallax angle in radians"
+            ]
+          ]
+        },
+        {
+          "expr": "d = Dα",
+          "where": [
+            [
+              "d",
+              "diameter of the distant object (e.g. a star)"
+            ],
+            [
+              "α",
+              "angular diameter as seen from Earth"
+            ]
+          ]
+        }
+      ],
+      "tip": "In a parallax numerical, always convert the angle to radians first if it is given in degrees, arcseconds or arcminutes — this is the most common slip."
+    },
+    {
+      "heading": "1.4 Measurement of Mass",
+      "pyq_years": [],
+      "body": "<p>Mass is measured against the SI kilogram using a common balance for ordinary masses and a sensitive spring or inertial balance in the absence of gravity (as on a spacecraft). For atomic and subatomic masses, a common unit is the <b>unified atomic mass unit (u)</b>, defined as 1/12 of the mass of a carbon-12 atom: 1 u = 1.66 × 10<sup>−27</sup> kg. Atomic and molecular masses are measured very precisely using a mass spectrograph, in which charged particles are deflected by electric and magnetic fields and their radius of curvature is used to find their mass-to-charge ratio. The range of masses in nature is enormous: from about 10<sup>−30</sup> kg for an electron to about 10<sup>55</sup> kg for the known universe, which is why NCERT wants you to appreciate the scale as much as the method.</p>",
+      "formulas": [
+        {
+          "expr": "1 u = 1.66 × 10<sup>−27</sup> kg",
+          "where": [
+            [
+              "u",
+              "unified atomic mass unit, 1/12 the mass of a ¹²C atom"
+            ]
+          ]
+        }
+      ],
+      "tip": "If asked to name the instrument for atomic mass, the answer is 'mass spectrograph', not just 'spectrometer' — NCERT uses this exact term."
+    },
+    {
+      "heading": "1.5 Measurement of Time",
+      "pyq_years": [],
+      "body": "<p>Time is measured using a clock; the SI second was earlier defined from Earth's rotation, but that rotation is not perfectly uniform, so the modern definition uses atomic vibrations instead. One SI second is defined as the time taken by 9,192,631,770 periods of the radiation emitted during a specific transition of the caesium-133 atom. Devices built on this principle, <b>atomic clocks</b>, are accurate to about 1 second in many thousands of years, and India's National Physical Laboratory (NPL), New Delhi maintains the atomic clock that provides Indian Standard Time.</p>",
+      "formulas": [],
+      "tip": "A common one-mark question just asks which atom's transition defines the second — the answer is caesium-133."
+    },
+    {
+      "heading": "1.6 Accuracy, Precision of Instruments and Errors in Measurement",
+      "pyq_years": [],
+      "body": "<p><b>Accuracy</b> is how close a measured value is to the true value; <b>precision</b> is how close repeated measurements are to each other, regardless of the true value — a clock can be precise (giving the same wrong time every day) without being accurate. Every measurement has some uncertainty, called an <b>error</b>. Errors are of three kinds. <b>Systematic errors</b> are one-sided (always positive or always negative) and arise from instrumental defects (zero error), imperfect technique, or an external condition; they can be reduced by correcting the instrument or the method. <b>Random errors</b> arise from unpredictable, uncontrollable causes and cause a scatter of readings around the true value; they are reduced by taking many readings and averaging. <b>Gross errors</b> are human mistakes in reading or recording.</p><p>If a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> are n measurements of a quantity, the best estimate is their arithmetic mean a<sub>mean</sub>. The <b>absolute error</b> in each reading is Δa<sub>i</sub> = |a<sub>mean</sub> − a<sub>i</sub>|, and the <b>mean absolute error</b> is the average of these. The <b>relative (fractional) error</b> is Δa<sub>mean</sub>/a<sub>mean</sub>, and multiplying it by 100 gives the <b>percentage error</b>. When quantities are combined, their errors combine by definite rules: for a sum or difference the absolute errors add; for a product or quotient the relative errors add; and for a quantity raised to a power, the relative error is multiplied by that power.</p>",
+      "formulas": [
+        {
+          "expr": "Δa<sub>mean</sub> = (Δa<sub>1</sub> + Δa<sub>2</sub> + ... + Δa<sub>n</sub>)/n",
+          "where": [
+            [
+              "Δa<sub>mean</sub>",
+              "mean absolute error"
+            ]
+          ]
+        },
+        {
+          "expr": "Relative error = Δa<sub>mean</sub>/a<sub>mean</sub>;  % error = (Δa<sub>mean</sub>/a<sub>mean</sub>) × 100",
+          "where": [
+            [
+              "a<sub>mean</sub>",
+              "mean value of the measured quantity"
+            ]
+          ]
+        },
+        {
+          "expr": "Z = A ± B ⇒ ΔZ = ΔA + ΔB",
+          "where": [
+            [
+              "ΔZ",
+              "absolute error in the sum/difference"
+            ]
+          ]
+        },
+        {
+          "expr": "Z = A<sup>p</sup>B<sup>q</sup>/C<sup>r</sup> ⇒ ΔZ/Z = p(ΔA/A) + q(ΔB/B) + r(ΔC/C)",
+          "where": [
+            [
+              "ΔZ/Z",
+              "relative error in Z"
+            ],
+            [
+              "p, q, r",
+              "powers of the respective quantities"
+            ]
+          ]
+        }
+      ],
+      "tip": "In the product/quotient rule, errors of quantities in the denominator still ADD, they never subtract — this is the single most common mistake."
+    },
+    {
+      "heading": "1.7 Significant Figures",
+      "pyq_years": [],
+      "body": "<p>The <b>significant figures</b> in a measured number are all the digits that are reliably known plus one estimated (uncertain) digit; they tell you how precisely a quantity was actually measured. The rules: all non-zero digits are significant; zeros between two non-zero digits are significant (1005 has 4 sig. figs.); leading zeros (before the first non-zero digit) are never significant, they only fix the decimal point (0.0025 has 2 sig. figs.); trailing zeros after a decimal point are significant (2.500 has 4 sig. figs.); trailing zeros in a number without a decimal point are ambiguous unless written in scientific notation (2500 could have 2 to 4 sig. figs., but 2.500 × 10<sup>3</sup> has exactly 4). Scientific (power-of-ten) notation is preferred exactly because it removes this ambiguity.</p><p>When numbers are combined, the result cannot be more precise than the least precise input. In addition or subtraction, the result is rounded to the same number of <b>decimal places</b> as the term with the fewest decimal places. In multiplication or division, the result is rounded to the same number of <b>significant figures</b> as the factor with the fewest significant figures. <b>Rounding off</b> follows the standard rule: if the digit to be dropped is more than 5, the preceding digit is raised by 1; if less than 5, it is left unchanged; if exactly 5, the preceding digit is raised by 1 if it is odd and left unchanged if it is even (this keeps rounding unbiased on average).</p>",
+      "formulas": [],
+      "tip": "For addition/subtraction match decimal places; for multiplication/division match sig. figs. — mixing these two rules is the examiner's favourite trap."
+    },
+    {
+      "heading": "1.8 Dimensions of Physical Quantities",
+      "pyq_years": [],
+      "body": "<p>The <b>dimensions</b> of a physical quantity are the powers to which the base quantities must be raised to represent it. Physics uses seven dimensional symbols: [M] for mass, [L] for length, [T] for time, [A] for electric current, [K] for temperature, [mol] for amount of substance and [cd] for luminous intensity. For example, speed = distance/time has the dimensional formula [M<sup>0</sup>L<sup>1</sup>T<sup>−1</sup>], because it involves length to the first power and time to the power −1, and no mass at all. Writing a quantity's dimensional formula this way, in square brackets with the powers of M, L, T (and other base quantities where needed), is the language the rest of the chapter is built on.</p>",
+      "formulas": [
+        {
+          "expr": "[Speed] = [M<sup>0</sup>L<sup>1</sup>T<sup>−1</sup>]",
+          "where": [
+            [
+              "[M], [L], [T]",
+              "dimensions of mass, length and time"
+            ]
+          ]
+        }
+      ],
+      "tip": "Angle, being a ratio of two lengths (arc/radius), is dimensionless: [M<sup>0</sup>L<sup>0</sup>T<sup>0</sup>]. So are strain, refractive index and relative density."
+    },
+    {
+      "heading": "1.9 Dimensional Formulae and Dimensional Equations",
+      "pyq_years": [],
+      "body": "<p>A <b>dimensional equation</b> is the equation obtained when a physical quantity is equated to its dimensional formula, for example [F] = [MLT<sup>−2</sup>] for force. To write the dimensional formula of any derived quantity, start from its defining relation in terms of quantities you already know the dimensions of, and substitute. For instance, force = mass × acceleration = mass × (velocity/time) = mass × (length/time)/time, giving [F] = [MLT<sup>−2</sup>]; and since pressure = force/area, [P] = [MLT<sup>−2</sup>]/[L<sup>2</sup>] = [ML<sup>−1</sup>T<sup>−2</sup>]. Building up dimensional formulae step by step from familiar definitions, rather than memorising a long list, is both faster and less error-prone in the exam.</p>",
+      "formulas": [
+        {
+          "expr": "[F] = [MLT<sup>−2</sup>]",
+          "where": [
+            [
+              "F",
+              "force"
+            ]
+          ]
+        },
+        {
+          "expr": "[P] = [ML<sup>−1</sup>T<sup>−2</sup>]",
+          "where": [
+            [
+              "P",
+              "pressure"
+            ]
+          ]
+        },
+        {
+          "expr": "[E] = [ML<sup>2</sup>T<sup>−2</sup>]",
+          "where": [
+            [
+              "E",
+              "energy/work"
+            ]
+          ]
+        }
+      ],
+      "tip": "Derive, don't memorise: write the defining formula, substitute known dimensions, simplify. It also protects you if the question uses an unfamiliar quantity."
+    },
+    {
+      "heading": "1.10 Dimensional Analysis and its Applications",
+      "pyq_years": [],
+      "body": "<p>Dimensional analysis rests on the <b>principle of homogeneity</b>: in a dimensionally correct equation, every term on both sides must have the same dimensions, because you can only add, subtract or equate quantities of the same kind. This gives three uses. First, <b>checking correctness</b>: if the dimensions on the two sides of an equation do not match, the equation must be wrong (though matching dimensions do not guarantee the equation is numerically correct — a dimensionless constant could still be wrong or missing). Second, <b>deriving a relation</b>: if you can guess which quantities a result depends on, you can assume a power relation between them, match dimensions on both sides, solve for the unknown powers, and arrive at the form of the formula (up to an undetermined dimensionless constant). For example, assuming the time period T of a simple pendulum depends on its length l, the mass m of the bob and g, writing T = k l<sup>a</sup>g<sup>b</sup>m<sup>c</sup> and matching dimensions gives a = ½, b = −½, c = 0, so T ∝ √(l/g) — mass drops out entirely, which the method itself reveals. Third, <b>converting units</b> from one system to another using n<sub>1</sub>u<sub>1</sub> = n<sub>2</sub>u<sub>2</sub>. The method has real limits: it cannot fix the dimensionless constant k, it fails if a quantity depends on more than three unknown powers (only three equations are available, one each for M, L, T), and it cannot be applied if the relation involves a sum of terms like s = ut + ½at<sup>2</sup> or a trigonometric/exponential/logarithmic function, since dimensional analysis cannot tell you the numerical coefficients or that such functions must be dimensionless in their argument.</p>",
+      "formulas": [
+        {
+          "expr": "T ∝ √(l/g)  ⇒  T = 2π√(l/g)",
+          "where": [
+            [
+              "T",
+              "time period of a simple pendulum"
+            ],
+            [
+              "l",
+              "length of the pendulum"
+            ],
+            [
+              "g",
+              "acceleration due to gravity"
+            ]
+          ]
+        },
+        {
+          "expr": "n<sub>1</sub>u<sub>1</sub> = n<sub>2</sub>u<sub>2</sub>",
+          "where": [
+            [
+              "n<sub>1</sub>, u<sub>1</sub>",
+              "numerical value and unit in system 1"
+            ],
+            [
+              "n<sub>2</sub>, u<sub>2</sub>",
+              "numerical value and unit in system 2"
+            ]
+          ]
+        }
+      ],
+      "tip": "State all three limitations when asked 'limitations of dimensional analysis' — most students give only one and lose marks."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Fundamental (base) quantity",
+      "definition": "A physical quantity, such as length, mass or time, that is measured independently and not defined in terms of any other quantity."
+    },
+    {
+      "term": "Derived quantity",
+      "definition": "A physical quantity, such as speed or force, whose unit is obtained by combining the units of base quantities."
+    },
+    {
+      "term": "SI system",
+      "definition": "The International System of Units, built on seven base units (m, kg, s, A, K, mol, cd) and two supplementary units (rad, sr), used worldwide for scientific measurement."
+    },
+    {
+      "term": "Parallax",
+      "definition": "The apparent change in the position of an object when viewed from two different points, used to measure very large distances."
+    },
+    {
+      "term": "Unified atomic mass unit (u)",
+      "definition": "A unit of mass equal to 1/12 the mass of a carbon-12 atom, used for atomic and molecular masses; 1 u = 1.66 × 10<sup>−27</sup> kg."
+    },
+    {
+      "term": "Accuracy",
+      "definition": "How close a measured value is to the true value of the quantity being measured."
+    },
+    {
+      "term": "Precision",
+      "definition": "How close repeated measurements of the same quantity are to one another, independent of how close they are to the true value."
+    },
+    {
+      "term": "Systematic error",
+      "definition": "An error that is consistently biased in one direction, arising from an instrument, technique or external condition, and can be corrected once identified."
+    },
+    {
+      "term": "Random error",
+      "definition": "An error arising from unpredictable, small variations that scatter repeated readings on both sides of the true value; reduced by averaging many readings."
+    },
+    {
+      "term": "Absolute error",
+      "definition": "The magnitude of the difference between the mean value of a quantity and one individual measurement of it."
+    },
+    {
+      "term": "Percentage error",
+      "definition": "The relative (fractional) error in a measurement expressed as a percentage: (mean absolute error/mean value) × 100."
+    },
+    {
+      "term": "Significant figures",
+      "definition": "All the digits in a measured number that are known reliably plus the one digit that is estimated or uncertain."
+    },
+    {
+      "term": "Dimensions",
+      "definition": "The powers to which the base quantities (M, L, T, ...) must be raised to express a given physical quantity."
+    },
+    {
+      "term": "Dimensional formula",
+      "definition": "An expression showing how, and to what powers, the base quantities enter into a physical quantity, e.g. [MLT<sup>−2</sup>] for force."
+    },
+    {
+      "term": "Principle of homogeneity of dimensions",
+      "definition": "The rule that every term on both sides of a correct physical equation must have the same dimensions."
+    },
+    {
+      "term": "Order of magnitude",
+      "definition": "The power of 10 nearest to the value of a quantity, used to make quick, approximate comparisons of size."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Parallax distance",
+      "expr": "D = b/θ",
+      "note": "θ in radians; b is the baseline between the two observation points."
+    },
+    {
+      "name": "Angular diameter",
+      "expr": "d = Dα",
+      "note": "α is the angular size (radians) of a distant object seen from Earth, D its distance."
+    },
+    {
+      "name": "Unified atomic mass unit",
+      "expr": "1 u = 1.66 × 10<sup>−27</sup> kg",
+      "note": "Defined as 1/12 the mass of a ¹²C atom."
+    },
+    {
+      "name": "Mean absolute error",
+      "expr": "Δa<sub>mean</sub> = (Σ|a<sub>mean</sub> − a<sub>i</sub>|)/n",
+      "note": "Average of the absolute errors of n readings."
+    },
+    {
+      "name": "Percentage error",
+      "expr": "(Δa<sub>mean</sub>/a<sub>mean</sub>) × 100",
+      "note": "Relative error expressed as a percentage."
+    },
+    {
+      "name": "Error in sum/difference",
+      "expr": "ΔZ = ΔA + ΔB, for Z = A ± B",
+      "note": "Absolute errors always add, even for a difference."
+    },
+    {
+      "name": "Error in product/quotient",
+      "expr": "ΔZ/Z = ΔA/A + ΔB/B, for Z = AB or A/B",
+      "note": "Relative errors add."
+    },
+    {
+      "name": "Error in a power",
+      "expr": "ΔZ/Z = n(ΔA/A), for Z = A<sup>n</sup>",
+      "note": "Relative error is multiplied by the power."
+    },
+    {
+      "name": "Dimensional formula of force",
+      "expr": "[F] = [MLT<sup>−2</sup>]",
+      "note": "From F = ma."
+    },
+    {
+      "name": "Dimensional formula of pressure/stress",
+      "expr": "[P] = [ML<sup>−1</sup>T<sup>−2</sup>]",
+      "note": "From pressure = force/area."
+    },
+    {
+      "name": "Dimensional formula of energy/work",
+      "expr": "[E] = [ML<sup>2</sup>T<sup>−2</sup>]",
+      "note": "From work = force × distance."
+    },
+    {
+      "name": "Time period of a simple pendulum",
+      "expr": "T = 2π√(l/g)",
+      "note": "Derived by dimensional analysis; the constant 2π cannot be found by this method."
+    },
+    {
+      "name": "Unit conversion rule",
+      "expr": "n<sub>1</sub>u<sub>1</sub> = n<sub>2</sub>u<sub>2</sub>",
+      "note": "Used to convert a physical quantity from one system of units to another."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Parallax method for the distance of a star/planet",
+      "how_to_draw": "Draw the Earth's orbit as a large circle around the Sun; mark two positions of the Earth six months apart as the baseline (2 AU). From both positions draw sight lines to a distant star, meeting at the star with a small angle θ between them (the parallax angle). Label the baseline b, the distance D, and mark θ at the star. Write D = b/θ beside it."
+    },
+    {
+      "title": "Systematic vs random error on a dartboard",
+      "how_to_draw": "Draw four small target/dartboard circles in a 2×2 grid. Top-left: hits tightly clustered but off-centre (precise, not accurate → systematic error). Top-right: hits scattered evenly around the bullseye (accurate on average, not precise → random error). Bottom-left: hits scattered and off-centre (neither accurate nor precise). Bottom-right: hits tightly clustered on the bullseye (both accurate and precise, ideal measurement). Label each panel clearly."
+    },
+    {
+      "title": "Building up the dimensional formula of force step by step",
+      "how_to_draw": "Draw three boxes in a row connected by arrows: 'mass, velocity, time → acceleration = velocity/time = [LT⁻²]', then 'force = mass × acceleration → [M][LT⁻²] = [MLT⁻²]'. This visual chain shows the derive-don't-memorise method for any derived quantity."
+    },
+    {
+      "title": "Vernier callipers and screw gauge, labelled",
+      "how_to_draw": "Draw a vernier callipers with main scale, vernier scale, jaws for external/internal measurement, and the depth strip; mark least count = 1 MSD − 1 VSD. Separately draw a screw gauge with the sleeve (main scale), thimble (circular scale), ratchet and the object held between the spindle and anvil; mark least count = pitch/number of circular scale divisions."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "2.1",
+      "q": "Fill in the blanks: (a) The volume of a cube of side 1 cm is equal to ___ m<sup>3</sup>. (b) The surface area of a solid cylinder of radius 2.0 cm and height 10.0 cm is equal to ___ (mm)<sup>2</sup>.",
+      "a": "<p>(a) Side = 1 cm = 10<sup>−2</sup> m, so volume = (10<sup>−2</sup>)<sup>3</sup> = 10<sup>−6</sup> m<sup>3</sup>.</p><p>(b) Surface area of a solid cylinder = 2πr<sup>2</sup> + 2πrh = 2πr(r + h). Here r = 2.0 cm = 20 mm, h = 10.0 cm = 100 mm. Area = 2π(20)(20 + 100) = 2π(20)(120) = 4800π ≈ 1.5 × 10<sup>4</sup> mm<sup>2</sup>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.2",
+      "q": "State the number of significant figures in the following: (a) 0.007 m<sup>2</sup> (b) 2.64 × 10<sup>24</sup> kg (c) 0.2370 g cm<sup>−3</sup> (d) 6.320 J (e) 6.032 N m<sup>−2</sup> (f) 0.0006032 m<sup>2</sup>.",
+      "a": "<p>(a) 1 sig. fig. (only the 7 is significant; leading zeros are not). (b) 3 sig. figs. (2, 6, 4). (c) 4 sig. figs. (2, 3, 7, 0 — trailing zero after decimal counts). (d) 4 sig. figs. (6, 3, 2, 0). (e) 4 sig. figs. (6, 0, 3, 2 — the zero is between non-zero digits). (f) 4 sig. figs. (6, 0, 3, 2 — leading zeros before 6 are not significant).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.7",
+      "q": "The photograph of a house occupies an area of 1.75 cm<sup>2</sup> on a 35 mm slide. The slide is projected onto a screen, and the area of the house on the screen is 1.55 m<sup>2</sup>. What is the linear magnification of the projector-screen arrangement?",
+      "a": "<p>Area magnification = area on screen/area on slide = 1.55 m<sup>2</sup>/1.75 cm<sup>2</sup>. Convert: 1.55 m<sup>2</sup> = 1.55 × 10<sup>4</sup> cm<sup>2</sup>. Area magnification = (1.55 × 10<sup>4</sup>)/1.75 ≈ 8857.</p><p>Linear magnification = √(area magnification) = √8857 ≈ 94.1.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.9",
+      "q": "The Sun is a hot plasma with mass density in the range of 10<sup>3</sup> kg m<sup>−3</sup>. Estimate the ratio of density of the Sun to the density of water. Given that mass of the Sun = 2.0 × 10<sup>30</sup> kg and its radius = 7.0 × 10<sup>8</sup> m, calculate the density of the Sun in the wake of these numbers and check.",
+      "a": "<p>Volume of Sun = (4/3)πR<sup>3</sup> = (4/3)π(7.0 × 10<sup>8</sup>)<sup>3</sup> ≈ (4/3)π(3.43 × 10<sup>26</sup>) ≈ 1.44 × 10<sup>27</sup> m<sup>3</sup>.</p><p>Density = mass/volume = (2.0 × 10<sup>30</sup>)/(1.44 × 10<sup>27</sup>) ≈ 1.39 × 10<sup>3</sup> kg m<sup>−3</sup>.</p><p>This is close to, and even a little more than, the density of water (10<sup>3</sup> kg m<sup>−3</sup>) — a useful reminder that the Sun's average density is comparable to water despite being a plasma, because its huge gravity compresses the core far more than the outer layers are rarefied.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.16",
+      "q": "The unit of length convenient on the atomic scale is known as an angstrom, 1 Å = 10<sup>−10</sup> m. The size of a hydrogen atom is about 0.5 Å. What is the total atomic volume in m<sup>3</sup> of a mole of hydrogen atoms?",
+      "a": "<p>Radius r = 0.5 Å = 0.5 × 10<sup>−10</sup> m. Volume of one atom = (4/3)πr<sup>3</sup> = (4/3)π(0.5 × 10<sup>−10</sup>)<sup>3</sup> ≈ 5.24 × 10<sup>−31</sup> m<sup>3</sup>.</p><p>One mole contains N<sub>A</sub> = 6.023 × 10<sup>23</sup> atoms. Total atomic volume = 5.24 × 10<sup>−31</sup> × 6.023 × 10<sup>23</sup> ≈ 3.16 × 10<sup>−7</sup> m<sup>3</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.17",
+      "q": "One mole of an ideal gas at standard temperature and pressure occupies 22.4 L (molar volume). What is the ratio of molar volume to the atomic volume of a mole of hydrogen (use the answer to the previous question)? Why is this ratio so large?",
+      "a": "<p>Molar volume = 22.4 L = 22.4 × 10<sup>−3</sup> m<sup>3</sup>. Atomic volume (from Q2.16) ≈ 3.16 × 10<sup>−7</sup> m<sup>3</sup>.</p><p>Ratio = (22.4 × 10<sup>−3</sup>)/(3.16 × 10<sup>−7</sup>) ≈ 7.08 × 10<sup>4</sup>, of the order 10<sup>4</sup> to 10<sup>5</sup>.</p><p>The ratio is this large because in a gas the average separation between molecules is far greater than the size of a molecule itself — most of the gas's volume is empty space, unlike in a liquid or solid where molecules are packed close together.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.20",
+      "q": "The nearest star to our solar system is 4.29 light years away. How much is this distance in terms of parsecs? How much parallax would this star (named Alpha Centauri) show when viewed from two locations of the Earth six months apart in its orbit around the Sun?",
+      "a": "<p>1 light year = 9.46 × 10<sup>15</sup> m and 1 parsec = 3.08 × 10<sup>16</sup> m.</p><p>Distance = 4.29 ly = 4.29 × 9.46 × 10<sup>15</sup> m ≈ 4.06 × 10<sup>16</sup> m.</p><p>In parsecs: 4.06 × 10<sup>16</sup>/3.08 × 10<sup>16</sup> ≈ 1.32 parsec.</p><p>Parallax angle θ = 1/(distance in parsec) arcsecond = 1/1.32 ≈ 0.76 arcsecond.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.23",
+      "q": "The Sun's angular diameter is measured to be 1920 arcseconds. The distance of the Sun from the Earth is 1.496 × 10<sup>11</sup> m. What is the diameter of the Sun?",
+      "a": "<p>Convert 1920 arcseconds to radians: 1 arcsecond = 4.85 × 10<sup>−6</sup> rad, so α = 1920 × 4.85 × 10<sup>−6</sup> ≈ 9.31 × 10<sup>−3</sup> rad.</p><p>Diameter d = Dα = 1.496 × 10<sup>11</sup> × 9.31 × 10<sup>−3</sup> ≈ 1.39 × 10<sup>9</sup> m.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.27",
+      "q": "A famous relation in physics relates the 'moving mass' m of a particle to its 'rest mass' m<sub>0</sub> as m = m<sub>0</sub>/√(1 − v<sup>2</sup>), where v is the speed of the particle relative to the observer, and c is the speed of light. Guess where the factor c has to be inserted from dimensional considerations.",
+      "a": "<p>For (1 − v<sup>2</sup>) inside the square root to be dimensionless (since it must be, being subtracted from the pure number 1), v<sup>2</sup> must itself be dimensionless. But v has dimensions of speed [LT<sup>−1</sup>], so v<sup>2</sup> must be divided by another speed squared. The only constant speed available is c, the speed of light.</p><p>So the correct relation is m = m<sub>0</sub>/√(1 − v<sup>2</sup>/c<sup>2</sup>) — c must appear as v<sup>2</sup>/c<sup>2</sup> inside the root.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "additional-1",
+      "q": "A physical quantity X is given by X = (2A<sup>3</sup>B<sup>2</sup>)/(√C D). If the percentage errors in A, B, C and D are 4%, 2%, 3% and 1% respectively, find the percentage error in X.",
+      "a": "<p>For a product/quotient of powers, relative (percentage) errors add, each multiplied by the magnitude of its power.</p><p>%error in X = 3(%error in A) + 2(%error in B) + ½(%error in C) + 1(%error in D)</p><p>= 3(4%) + 2(2%) + ½(3%) + 1(1%) = 12% + 4% + 1.5% + 1% = 18.5%.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "MCQ-1",
+      "q": "Derive, using dimensional analysis, the relation for the time period T of a simple pendulum of length l, oscillating under gravity g (the mass of the bob does not appear), and state the value found for the powers of l and g.",
+      "a": "<p>Assume T = k l<sup>a</sup> g<sup>b</sup>, where k is a dimensionless constant. Writing dimensions: [T] = [L]<sup>a</sup>[LT<sup>−2</sup>]<sup>b</sup> = [L<sup>a+b</sup> T<sup>−2b</sup>].</p><p>Comparing powers: for L, a + b = 0; for T, −2b = 1 ⇒ b = −1/2, so a = 1/2.</p><p>Hence T = k l<sup>1/2</sup>g<sup>−1/2</sup> = k√(l/g); experiment (or a fuller derivation) fixes k = 2π, giving the familiar T = 2π√(l/g).</p>",
+      "marks": 5
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following pairs of physical quantities has the same dimensional formula?",
+      "options": [
+        "Work and power",
+        "Force and pressure",
+        "Work and torque",
+        "Energy and momentum"
+      ],
+      "answer": "c",
+      "solution": "Work = force × distance and torque = force × perpendicular distance, so both have dimensional formula [ML<sup>2</sup>T<sup>−2</sup>]. Work and power differ by a factor of [T]; force and pressure differ by [L<sup>2</sup>]; energy [ML<sup>2</sup>T<sup>−2</sup>] and momentum [MLT<sup>−1</sup>] also differ — so only work and torque match."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The number of significant figures in 0.06900 is:",
+      "options": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "answer": "c",
+      "solution": "Leading zeros (0.0) are not significant. 6, 9, 0, 0 (the trailing zeros after the decimal point) are all significant, giving 4 significant figures."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The dimensional formula of surface tension is:",
+      "options": [
+        "[MLT<sup>−2</sup>]",
+        "[ML<sup>0</sup>T<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−2</sup>]",
+        "[ML<sup>−1</sup>T<sup>−2</sup>]"
+      ],
+      "answer": "b",
+      "solution": "Surface tension = force/length = [MLT<sup>−2</sup>]/[L] = [ML<sup>0</sup>T<sup>−2</sup>]."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A physical quantity P is related to four observables a, b, c and d as P = a<sup>2</sup>b<sup>3</sup>/(√c d). The percentage errors in a, b, c and d are 1%, 2%, 3% and 4% respectively. What is the percentage error in P?",
+      "options": [
+        "12.5%",
+        "13.5%",
+        "14.5%",
+        "16%"
+      ],
+      "answer": "b",
+      "solution": "%error in P = 2(%error in a) + 3(%error in b) + ½(%error in c) + 1(%error in d) = 2(1%) + 3(2%) + ½(3%) + 1(4%) = 2 + 6 + 1.5 + 4 = 13.5%."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of these is a dimensionless quantity?",
+      "options": [
+        "Angular velocity",
+        "Strain",
+        "Torque",
+        "Angular momentum"
+      ],
+      "answer": "b",
+      "solution": "Strain is the ratio of change in dimension to original dimension (both lengths), so it is dimensionless [M<sup>0</sup>L<sup>0</sup>T<sup>0</sup>]."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Two resistors of resistances R<sub>1</sub> = (4 ± 0.5) Ω and R<sub>2</sub> = (16 ± 0.5) Ω are connected in series. What is the percentage error in the equivalent resistance?",
+      "options": [
+        "2%",
+        "5%",
+        "8%",
+        "10%"
+      ],
+      "answer": "b",
+      "solution": "For series, R = R<sub>1</sub> + R<sub>2</sub> = 20 Ω and ΔR = ΔR<sub>1</sub> + ΔR<sub>2</sub> = 0.5 + 0.5 = 1 Ω. %error = (1/20) × 100 = 5%."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which pair of physical quantities has different dimensions?",
+      "options": [
+        "Impulse and momentum",
+        "Work and energy",
+        "Pressure and stress",
+        "Force and pressure"
+      ],
+      "answer": "d",
+      "solution": "Force has dimensional formula [MLT<sup>−2</sup>] while pressure has [ML<sup>−1</sup>T<sup>−2</sup>] — they differ by [L<sup>2</sup>], so this pair has different dimensions; all the other pairs listed are dimensionally identical."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A dimensionally correct equation need not be numerically (physically) correct. Reason (R): A dimensionless proportionality constant cannot be found using dimensional analysis.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "A is true: dimensional correctness only checks that the powers of M, L, T match, not the value of any dimensionless constant, so an equation can look right dimensionally while being numerically wrong. R correctly explains why: since the method cannot fix that constant, an error hidden inside it goes undetected, which is exactly why (A) is true."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Precision of a measurement is different from its accuracy. Reason (R): Accuracy depends on the number of significant figures, while precision depends only on the least count of the instrument.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true: precision is the closeness of repeated readings to each other, while accuracy is the closeness to the true value; the two are distinct ideas. R is false, because accuracy is not simply a matter of significant figures — an instrument can give many significant figures that are all precisely wrong (a systematic error), so accuracy depends on freedom from systematic error, not on digit count alone."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The equation s = ut + ½at<sup>2</sup> cannot be derived purely by the method of dimensions. Reason (R): Dimensional analysis cannot determine dimensionless numerical constants that appear in a sum of terms.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "A is true: this relation is a sum of two terms of the same dimensions ([L]), and dimensional analysis has no way of finding the relative numerical coefficients (1 and ½) of the two terms if the equation itself were unknown. R gives exactly this reason, so R correctly explains A."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 1,
+      "q": "Define 'systematic error' and name one source of it.",
+      "answer": "<p>A systematic error is an error that consistently occurs in the same direction (either always positive or always negative) in a set of measurements, rather than scattering randomly. One common source: instrumental error, such as zero error in a vernier callipers or a screw gauge, where the instrument itself is not correctly calibrated.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Round off the following to three significant figures: (a) 6.658 (b) 15.75 (c) 3245.",
+      "answer": "<p>(a) 6.658 → 6.66 (the dropped digit 8 > 5, so the preceding digit rounds up from 5 to 6).</p><p>(b) 15.75 → 15.8 (the dropped digit is exactly 5 and the preceding digit 7 is odd, so it is raised to 8).</p><p>(c) 3245 → 3.24 × 10<sup>3</sup> (the dropped digit is exactly 5 and the preceding digit 4 is even, so it stays unchanged).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Write the dimensional formulae of (a) angular momentum and (b) universal gravitational constant G.",
+      "answer": "<p>(a) Angular momentum L = mvr, dimensions [M][LT<sup>−1</sup>][L] = [ML<sup>2</sup>T<sup>−1</sup>].</p><p>(b) From F = Gm<sub>1</sub>m<sub>2</sub>/r<sup>2</sup>, G = Fr<sup>2</sup>/(m<sub>1</sub>m<sub>2</sub>), so [G] = [MLT<sup>−2</sup>][L<sup>2</sup>]/[M<sup>2</sup>] = [M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>].</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the method used to measure (a) very large distances such as that of a star, and (b) very small distances such as the size of a molecule.",
+      "answer": "<p>(a) The parallax method, using the apparent angular shift of the object against a distant background when observed from two points of a known baseline.</p><p>(b) Electron microscopy or X-ray diffraction; a rough order-of-magnitude estimate can also be made from the molar volume of a substance and Avogadro's number.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "The period of oscillation of a simple pendulum is T = 2π√(L/g). The measured value of L is 20.0 cm known to 1 mm accuracy, and the time for 100 oscillations is found to be 90 s using a clock of 1 s resolution. What is the accuracy in the determination of g?",
+      "answer": "<p>Time for one oscillation T = 90/100 = 0.9 s. Resolution of the clock is 1 s over 100 oscillations, so ΔT/T = 1/90 (fractional error in T using the total time). Actually the fractional error is calculated on the measured total time: Δ(time)/time = 1/90.</p><p>Since T ∝ time, the fractional error in T equals 1/90, and since g ∝ L/T<sup>2</sup>, Δg/g = ΔL/L + 2ΔT/T.</p><p>ΔL/L = 0.1 cm/20.0 cm = 0.005. 2ΔT/T = 2 × (1/90) = 0.0222.</p><p>Δg/g = 0.005 + 0.0222 = 0.0272 ≈ 2.7%, so g is accurate to about 3%.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "The distance of the Moon from the Earth is about 3.84 × 10<sup>5</sup> km. Using the parallax method with a baseline of 1276 km (the Earth's diameter), calculate the parallax angle in radians and in degrees.",
+      "answer": "<p>θ = b/D = 1276/(3.84 × 10<sup>5</sup>) ≈ 3.32 × 10<sup>−3</sup> rad.</p><p>Converting to degrees: θ(°) = θ(rad) × (180/π) = 3.32 × 10<sup>−3</sup> × 57.3 ≈ 0.19°.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain, with one example each, the difference between accuracy and precision.",
+      "answer": "<p>Accuracy is how close a measurement is to the true value; precision is how close repeated measurements are to each other, irrespective of the true value.</p><p>Example: suppose the true length of a rod is 10.00 cm. If four measurements give 9.98, 9.99, 10.01, 10.02 cm, they are both accurate (close to 10.00) and precise (close to each other). If instead they give 9.50, 9.51, 9.49, 9.50 cm, they are precise (tightly clustered) but not accurate (far from 10.00, likely due to a systematic zero error). A set like 9.7, 10.3, 9.9, 10.5 cm is accurate on average but not precise, showing scatter (random error).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State the principle of homogeneity of dimensions. Use it to check whether the equation v = u + at is dimensionally correct.",
+      "answer": "<p>The principle of homogeneity states that in a physically (dimensionally) correct equation, every term on both sides must have the same dimensions, since only quantities of the same dimension can be added, subtracted or equated.</p><p>Checking v = u + at: [v] = [LT<sup>−1</sup>]; [u] = [LT<sup>−1</sup>]; [at] = [LT<sup>−2</sup>][T] = [LT<sup>−1</sup>]. All three terms have the dimension [LT<sup>−1</sup>], so the equation is dimensionally correct (and homogeneous).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Explain the terms absolute error, relative error and percentage error with their formulae. (b) Derive the rule for combination of errors in a product of two quantities Z = AB.",
+      "answer": "<p>(a) For n measurements a<sub>1</sub>, a<sub>2</sub>, ..., a<sub>n</sub> of a quantity with mean a<sub>mean</sub>: the absolute error in a reading a<sub>i</sub> is Δa<sub>i</sub> = |a<sub>mean</sub> − a<sub>i</sub>|. The mean absolute error is Δa<sub>mean</sub> = (Σ|Δa<sub>i</sub>|)/n, The relative (fractional) error is Δa<sub>mean</sub>/a<sub>mean</sub>, and the percentage error is this relative error × 100.</p><p>(b) Let Z = AB, with measured values A ± ΔA and B ± ΔB. Then Z ± ΔZ = (A ± ΔA)(B ± ΔB) = AB ± AΔB ± BΔA ± ΔAΔB. Dividing by Z = AB and dropping the doubly-small term ΔAΔB: ΔZ/Z = ± (ΔA/A ± ΔB/B). Taking the maximum possible error (worst case, all errors adding): ΔZ/Z = ΔA/A + ΔB/B — the relative error in a product is the sum of the relative errors of the factors.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) State the rules for determining significant figures with two examples each for (i) addition/subtraction and (ii) multiplication/division. (b) Add 4.237 g and 2.51 g, and give the answer to the correct number of significant figures/decimal places.",
+      "answer": "<p>(a)(i) In addition/subtraction, the result is rounded to the number of decimal places of the term with the FEWEST decimal places. Example 1: 12.3 + 4.56 = 16.86 → rounded to one decimal place (fewest, from 12.3) → 16.9.</p><p>(a)(ii) In multiplication/division, the result is rounded to the number of significant figures of the factor with the FEWEST significant figures. Example 1: 4.11 × 3.6 = 14.796 → 3.6 has 2 sig. figs., so the answer is rounded to 2 sig. figs. → 15.</p><p>(b) 4.237 + 2.51 = 6.747. The term 2.51 has only 2 decimal places (the fewest), so the answer is rounded to 2 decimal places: 6.75 g.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Using the method of dimensions, derive an expression for the viscous force F on a small sphere of radius r moving with velocity v through a fluid of viscosity η, given F depends on η, r and v. (This is the basis of Stokes' law.)",
+      "answer": "<p>Let F = k η<sup>a</sup> r<sup>b</sup> v<sup>c</sup>, where k is a dimensionless constant.</p><p>Dimensions: [F] = [MLT<sup>−2</sup>]; [η] = [ML<sup>−1</sup>T<sup>−1</sup>] (coefficient of viscosity); [r] = [L]; [v] = [LT<sup>−1</sup>].</p><p>So [MLT<sup>−2</sup>] = [ML<sup>−1</sup>T<sup>−1</sup>]<sup>a</sup>[L]<sup>b</sup>[LT<sup>−1</sup>]<sup>c</sup> = [M<sup>a</sup> L<sup>−a+b+c</sup> T<sup>−a−c</sup>].</p><p>Comparing powers: For M: a = 1. For T: −a − c = −2 ⇒ c = 2 − a = 1. For L: −a + b + c = 1 ⇒ −1 + b + 1 = 1 ⇒ b = 1.</p><p>So F = k η<sup>1</sup> r<sup>1</sup> v<sup>1</sup> = kηrv. Experiment shows k = 6π, giving Stokes' law: F = 6πηrv.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A student measures the length of a metal rod five times with a metre scale and obtains the readings (in cm): 25.4, 25.6, 25.3, 25.5, 25.2.<br>(i) Find the mean length of the rod.<br>(ii) Find the absolute error in each reading and the mean absolute error.<br>(iii) Express the result as (mean ± mean absolute error).<br>(iv) State one way the student could reduce the random error in this measurement.",
+      "answer": "<p>(i) Mean = (25.4 + 25.6 + 25.3 + 25.5 + 25.2)/5 = 127.0/5 = 25.4 cm.</p><p>(ii) Absolute errors: |25.4−25.4| = 0.0, |25.6−25.4| = 0.2, |25.3−25.4| = 0.1, |25.5−25.4| = 0.1, |25.2−25.4| = 0.2 cm. Mean absolute error = (0.0+0.2+0.1+0.1+0.2)/5 = 0.6/5 = 0.12 cm.</p><p>(iii) Result = (25.4 ± 0.12) cm, usually reported to the precision of the instrument, e.g. (25.40 ± 0.12) cm.</p><p>(iv) Take a larger number of readings and average them, or use a more precise instrument (e.g. vernier callipers instead of a plain metre scale) to reduce the scatter caused by random error.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "In an experiment, a physical quantity Z is calculated from Z = A<sup>2</sup>B<sup>3</sup>/C, where A = (2.0 ± 0.1), B = (1.0 ± 0.1) and C = (4.0 ± 0.2) (all in appropriate SI units).<br>(i) Find the value of Z.<br>(ii) Find the percentage error in A, B and C individually.<br>(iii) Find the total percentage error in Z.<br>(iv) Find the absolute error in Z, and express the result as Z ± ΔZ.",
+      "answer": "<p>(i) Z = A<sup>2</sup>B<sup>3</sup>/C = (2.0)<sup>2</sup>(1.0)<sup>3</sup>/4.0 = 4.0 × 1.0/4.0 = 1.0.</p><p>(ii) %error in A = (0.1/2.0) × 100 = 5%. %error in B = (0.1/1.0) × 100 = 10%. %error in C = (0.2/4.0) × 100 = 5%.</p><p>(iii) %error in Z = 2(%error in A) + 3(%error in B) + 1(%error in C) = 2(5%) + 3(10%) + 1(5%) = 10% + 30% + 5% = 45%.</p><p>(iv) ΔZ = 45% of 1.0 = 0.45. Result: Z = 1.0 ± 0.45 (in the appropriate SI unit for Z).</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "How many base (fundamental) units are there in the SI system?",
+      "options": [
+        "5",
+        "6",
+        "7",
+        "9"
+      ],
+      "answer_index": 2,
+      "explanation": "SI has seven base units: metre, kilogram, second, ampere, kelvin, mole and candela."
+    },
+    {
+      "q": "The SI unit of luminous intensity is the:",
+      "options": [
+        "lumen",
+        "lux",
+        "candela",
+        "watt"
+      ],
+      "answer_index": 2,
+      "explanation": "Candela (cd) is the SI base unit of luminous intensity; lumen and lux are derived photometric units."
+    },
+    {
+      "q": "The supplementary SI unit for solid angle is the:",
+      "options": [
+        "radian",
+        "steradian",
+        "degree",
+        "arcsecond"
+      ],
+      "answer_index": 1,
+      "explanation": "The steradian (sr) is the supplementary SI unit for solid angle; the radian is used for plane angle."
+    },
+    {
+      "q": "1 nanometre equals:",
+      "options": [
+        "10<sup>−6</sup> m",
+        "10<sup>−9</sup> m",
+        "10<sup>−12</sup> m",
+        "10<sup>−15</sup> m"
+      ],
+      "answer_index": 1,
+      "explanation": "The prefix 'nano' means 10<sup>−9</sup>, so 1 nm = 10<sup>−9</sup> m."
+    },
+    {
+      "q": "The SI second is currently defined using transitions of which atom?",
+      "options": [
+        "Hydrogen",
+        "Caesium-133",
+        "Krypton-86",
+        "Carbon-12"
+      ],
+      "answer_index": 1,
+      "explanation": "One second is defined as 9,192,631,770 periods of the radiation from a specific transition of the caesium-133 atom."
+    },
+    {
+      "q": "Which of the following gives the correct dimensional formula for power?",
+      "options": [
+        "[ML<sup>2</sup>T<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−3</sup>]",
+        "[MLT<sup>−2</sup>]",
+        "[ML<sup>2</sup>T<sup>−1</sup>]"
+      ],
+      "answer_index": 1,
+      "explanation": "Power = work/time = [ML<sup>2</sup>T<sup>−2</sup>]/[T] = [ML<sup>2</sup>T<sup>−3</sup>]."
+    },
+    {
+      "q": "The number 5.400 has how many significant figures?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answer_index": 3,
+      "explanation": "Trailing zeros after a decimal point are significant, so 5, 4, 0, 0 are all significant: 4 sig. figs."
+    },
+    {
+      "q": "If Z = A − B, and A = 5.0 ± 0.1, B = 3.0 ± 0.1, then the absolute error in Z is:",
+      "options": [
+        "0.0",
+        "0.05",
+        "0.1",
+        "0.2"
+      ],
+      "answer_index": 3,
+      "explanation": "For a sum or a difference, absolute errors always add: ΔZ = ΔA + ΔB = 0.1 + 0.1 = 0.2, regardless of the sign between A and B."
+    },
+    {
+      "q": "Which of the following statements correctly distinguishes precision from accuracy?",
+      "options": [
+        "Precision depends on the true value; accuracy does not",
+        "Accuracy is about closeness of repeated readings; precision is about closeness to the true value",
+        "Precision is about closeness of repeated readings to each other; accuracy is about closeness to the true value",
+        "Precision and accuracy always increase together"
+      ],
+      "answer_index": 2,
+      "explanation": "This is the standard NCERT distinction: precision = mutual closeness of readings, accuracy = closeness to the true value; the two can vary independently."
+    },
+    {
+      "q": "The dimensional formula for the universal gravitational constant G is:",
+      "options": [
+        "[M<sup>−1</sup>L<sup>3</sup>T<sup>−2</sup>]",
+        "[ML<sup>3</sup>T<sup>−2</sup>]",
+        "[M<sup>−1</sup>L<sup>2</sup>T<sup>−2</sup>]",
+        "[MLT<sup>−2</sup>]"
+      ],
+      "answer_index": 0,
+      "explanation": "From F = Gm₁m₂/r², G = Fr²/(m₁m₂), giving [MLT⁻²][L²]/[M²] = [M⁻¹L³T⁻²]."
+    },
+    {
+      "q": "A student writes the speed of light as 3 × 10<sup>8</sup>·0 m/s. What is wrong with this?",
+      "options": [
+        "Nothing, it is correct",
+        "'m/s' should be 'm·s'",
+        "A decimal point cannot follow a power of ten; the extra digit should instead increase the significant figures written before ×10<sup>8</sup>",
+        "The speed of light cannot be written in scientific notation"
+      ],
+      "answer_index": 2,
+      "explanation": "In scientific notation, all significant figures belong in the coefficient before the power of ten, e.g. 3.0 × 10<sup>8</sup> m/s, not attached after the exponent."
+    },
+    {
+      "q": "Which of the following quantities is dimensionless?",
+      "options": [
+        "Angular velocity ω",
+        "Coefficient of friction μ",
+        "Torque",
+        "Power"
+      ],
+      "answer_index": 1,
+      "explanation": "The coefficient of friction is a ratio of two forces (friction/normal reaction), so it has no dimensions."
+    },
+    {
+      "q": "Using n<sub>1</sub>u<sub>1</sub> = n<sub>2</sub>u<sub>2</sub>, if the SI unit of force is 1 N, what is 1 N in the CGS unit of force (dyne)?",
+      "options": [
+        "10<sup>2</sup> dyne",
+        "10<sup>3</sup> dyne",
+        "10<sup>5</sup> dyne",
+        "10<sup>7</sup> dyne"
+      ],
+      "answer_index": 2,
+      "explanation": "[F] = [MLT⁻²]. 1 kg = 10³ g, 1 m = 10² cm, so 1 N = 1 kg·m·s⁻² = 10³ g × 10² cm × s⁻² = 10⁵ g·cm·s⁻² = 10⁵ dyne."
+    },
+    {
+      "q": "Why can dimensional analysis not be used to derive s = ut + ½at² from scratch?",
+      "options": [
+        "Because s, u, a and t do not have dimensions",
+        "Because it is a sum of two terms and dimensional analysis cannot fix the relative numerical coefficients of terms added together",
+        "Because the equation is dimensionally incorrect",
+        "Because time cannot appear twice in one equation"
+      ],
+      "answer_index": 1,
+      "explanation": "Dimensional analysis only fixes powers of a single product-form relation; it cannot determine the numerical coefficients when two or more dimensionally similar terms are added, as in ut and ½at²."
+    },
+    {
+      "q": "A physical quantity is measured as (7.50 ± 0.02) cm. The percentage error is closest to:",
+      "options": [
+        "0.13%",
+        "0.27%",
+        "1.3%",
+        "2.7%"
+      ],
+      "answer_index": 1,
+      "explanation": "%error = (0.02/7.50) × 100 ≈ 0.267%, closest to 0.27%."
+    },
+    {
+      "q": "The least count of a screw gauge is given by:",
+      "options": [
+        "1 MSD − 1 VSD",
+        "Pitch × number of divisions on circular scale",
+        "Pitch ÷ number of divisions on circular scale",
+        "Pitch × 2"
+      ],
+      "answer_index": 2,
+      "explanation": "Least count of a screw gauge = pitch of the screw ÷ number of divisions on the circular (head) scale."
+    },
+    {
+      "q": "Order of magnitude of the diameter of the observable universe is closest to:",
+      "options": [
+        "10<sup>10</sup> m",
+        "10<sup>16</sup> m",
+        "10<sup>26</sup> m",
+        "10<sup>40</sup> m"
+      ],
+      "answer_index": 2,
+      "explanation": "The observable universe's diameter is roughly 10²⁶ m (about 8.8 × 10²⁶ m), the standard order-of-magnitude figure quoted in NCERT."
+    }
+  ],
+  "common_mistakes": [
+    "Treating a dimensionally correct equation as automatically numerically correct — dimensional analysis cannot verify or find a dimensionless constant like 2π or ½.",
+    "Subtracting errors for a difference Z = A − B instead of adding them; absolute errors ALWAYS add for both sum and difference.",
+    "Confusing the rule for addition/subtraction (match decimal places) with the rule for multiplication/division (match significant figures), and applying the wrong one.",
+    "Counting leading zeros as significant (e.g. treating 0.0025 as having 5 significant figures instead of 2).",
+    "Using accuracy and precision as synonyms in an answer instead of defining them separately with an example each.",
+    "Forgetting to convert an angle to radians before using θ = b/D in a parallax numerical, especially when the angle is given in degrees or arcseconds.",
+    "Assuming dimensional analysis can derive any formula — forgetting its three limitations (cannot find the constant, cannot handle more than three unknown powers, cannot handle sums, trigonometric or exponential relations)."
+  ],
+  "strategy": "<p>This chapter carries no board weightage in Class 11, but treat it as the toolkit you will use in every numerical for the next two years, so master it now rather than revisiting it under exam pressure in Class 12. Split your revision into three blocks. First, learn the SI base units and the parallax/echo methods well enough to state them in one line each — these are quick 1-mark recall questions. Second, drill the error-combination rules (sum/difference adds absolute error, product/quotient adds relative error, a power multiplies relative error) and the significant-figure rules until you can apply them without hesitating; work at least ten numericals until the arithmetic is automatic. Third, practise deriving 3–4 standard relations by dimensional analysis (time period of a pendulum, Stokes' law, orbital speed) so that a 5-mark 'derive using dimensional analysis' question never surprises you, and be ready to state the method's three limitations from memory.</p><p>Do not try to memorise a long table of dimensional formulae; instead memorise the defining equation of each quantity (force = ma, pressure = force/area, energy = force × distance) and build up the dimensions from there in the exam — it is faster and self-checking. Keep a small personal formula sheet with the seven base dimensions and ten common derived ones, and revise it the night before any test on this chapter.</p>",
+  "revision_checklist": [
+    "Can list all seven SI base units with their symbols and the quantity each measures.",
+    "Can state the two supplementary SI units and what each measures.",
+    "Can explain the parallax method and use D = b/θ correctly with θ in radians.",
+    "Can state the SI definition of the second and name the atom involved (caesium-133).",
+    "Can define accuracy and precision separately, each with a one-line example.",
+    "Can distinguish systematic, random and gross errors with one cause of each.",
+    "Can write the formulae for absolute error, mean absolute error, relative error and percentage error.",
+    "Can apply the error-combination rules for sum/difference, product/quotient and powers without looking them up.",
+    "Can state all the rules for counting significant figures, including the leading-zero and trailing-zero cases.",
+    "Can round off a number correctly, including the 'round to even' rule when the dropped digit is exactly 5.",
+    "Can state and apply the rules for significant figures/decimal places in addition, subtraction, multiplication and division.",
+    "Can write the dimensional formula of at least ten common derived quantities by deriving them, not memorising them.",
+    "Can state the principle of homogeneity and use it to check whether a given equation is dimensionally correct.",
+    "Can derive a simple relation (e.g. time period of a pendulum) using the method of dimensions, from assumption to final form.",
+    "Can list all three limitations of dimensional analysis with a one-line reason for each."
+  ],
+  "videos": []
+}

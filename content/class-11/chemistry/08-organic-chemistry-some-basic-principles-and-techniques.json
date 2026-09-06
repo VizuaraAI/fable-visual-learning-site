@@ -1,0 +1,890 @@
+{
+  "class": 11,
+  "subject": "Chemistry",
+  "chapter_no": 8,
+  "slug": "organic-chemistry-some-basic-principles-and-techniques",
+  "title": "Organic Chemistry: Some Basic Principles and Techniques",
+  "summary": "This chapter lays the entire foundation of organic chemistry: how carbon compounds are classified and named, how electrons move in a molecule (inductive, resonance, hyperconjugation effects), the reactive species and mechanisms organic reactions go through, and the methods used to purify and analyse an organic compound. Every later organic chapter in Class 11, 12 and competitive exams builds directly on the IUPAC naming, electronic effects and reaction-type language fixed here.",
+  "exam_profile": {
+    "weightage": "Not board-examined in Class 11 (no board exam this year), but it is tested fully in the school final/annual exam and forms the base of nearly every organic question asked in Class 12 boards, JEE and NEET.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "IUPAC names, identifying electronic effects, purification technique for a given impurity, hybridisation and bond-length questions."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Resonance vs hyperconjugation, inductive effect direction, stability of carbocations/free radicals."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define a term (isomerism, homolysis, nucleophile), write one IUPAC name, state one purification principle."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Explain an electronic effect with an example, compare two purification techniques, classify a reaction mechanism."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full derivation-style explanation: resonance in a set of species, detailed steps of a purification/estimation technique with diagram, complete IUPAC naming rules applied to a set of structures."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage on quantitative estimation of an element or a purification set-up, followed by 3-4 sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "IUPAC nomenclature of chain, branched and functional-group compounds",
+      "Electronic effects: inductive, resonance, hyperconjugation and their effect on acidity/stability",
+      "Formation, stability and structure of carbocations, carbanions and free radicals",
+      "Types of organic reactions: substitution, addition, elimination, rearrangement",
+      "Quantitative analysis: Dumas method (nitrogen), Kjeldahl method, Carius method (halogens, sulphur, phosphorus)",
+      "Purification techniques: distillation, fractional distillation, steam distillation, differential extraction, chromatography",
+      "Qualitative detection tests: Lassaigne's test, tests for N, S, halogens, P",
+      "Homolytic vs heterolytic bond fission and the reactive intermediates each produces"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "8.1 General Introduction",
+      "pyq_years": [],
+      "body": "<p>Organic chemistry is the study of hydrocarbons and their derivatives. Carbon is unique because it can catenate — form long chains, branched chains and rings by bonding to other carbon atoms — and because it forms strong, largely covalent bonds with H, O, N, S, halogens and phosphorus. This gives millions of compounds from just a handful of elements.</p><p>Wöhler's 1828 synthesis of urea (NH<sub>2</sub>CONH<sub>2</sub>) from ammonium cyanate, an inorganic salt, disproved the old 'vital force theory' which held that organic compounds could only be made inside living organisms. This single experiment opened the door to synthetic organic chemistry as we know it today.</p>",
+      "formulas": [],
+      "tip": "A one-line answer for 'why is the vital force theory important' is asked almost every year — mention Wöhler, urea, and ammonium cyanate by name."
+    },
+    {
+      "heading": "8.2 Tetravalence of Carbon: Shapes of Organic Compounds",
+      "pyq_years": [],
+      "body": "<p>Carbon has 4 valence electrons (2s<sup>2</sup>2p<sup>2</sup>) and forms 4 covalent bonds. To explain this, carbon undergoes hybridisation, mixing its 2s and 2p orbitals into new orbitals of equal energy before bonding.</p><p><b>sp<sup>3</sup> hybridisation</b> (e.g. methane, CH<sub>4</sub>): one s + three p orbitals mix to give 4 identical sp<sup>3</sup> orbitals arranged tetrahedrally, bond angle 109°28′. All four C–H bonds are sigma (σ) bonds.</p><p><b>sp<sup>2</sup> hybridisation</b> (e.g. ethene, CH<sub>2</sub>=CH<sub>2</sub>): one s + two p orbitals mix to give 3 sp<sup>2</sup> orbitals in a trigonal planar arrangement, bond angle 120°. The unhybridised p orbital on each carbon overlaps sideways to form a π bond, so the C=C double bond is one σ + one π bond.</p><p><b>sp hybridisation</b> (e.g. ethyne, CH≡CH): one s + one p orbital mix to give 2 sp orbitals arranged linearly, bond angle 180°. Two unhybridised p orbitals on each carbon form two π bonds, so C≡C is one σ + two π bonds.</p><p>Bond length order: C–C (154 pm) > C=C (134 pm) > C≡C (120 pm), because greater s-character pulls the bonding electrons closer to the nucleus and more bonds between the same two atoms shorten the bond further.</p>",
+      "formulas": [
+        {
+          "expr": "sp<sup>3</sup>: 109°28′ (tetrahedral) &nbsp; sp<sup>2</sup>: 120° (trigonal planar) &nbsp; sp: 180° (linear)",
+          "where": [
+            [
+              "sp<sup>3</sup>, sp<sup>2</sup>, sp",
+              "type of hybrid orbital on the carbon atom"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a question gives a bond angle or bond length and asks for hybridisation, work backwards: 180°→sp, 120°→sp², 109.5°→sp³."
+    },
+    {
+      "heading": "8.3 Structural Representations of Organic Compounds",
+      "pyq_years": [],
+      "body": "<p>Organic molecules are shown in several shorthand forms. <b>Complete structural formula</b> shows every atom and every bond. <b>Condensed formula</b> groups atoms attached to a carbon together, e.g. CH<sub>3</sub>CH<sub>2</sub>OH for ethanol. <b>Bond-line (skeletal) formula</b> is the fastest to draw: carbon and hydrogen atoms are not written; each line-end or vertex represents a carbon, and the number of hydrogens on it is whatever completes its valence of 4. Only atoms other than C and H, and multiple bonds, are shown explicitly.</p><p>3-D representations use wedge-and-dash notation: a bold wedge shows a bond coming out of the plane of the paper towards the viewer, and a dashed/hashed wedge shows a bond going behind the plane. Plain lines lie in the plane of the paper. This is essential for showing the tetrahedral geometry at an sp<sup>3</sup> carbon.</p>",
+      "formulas": [],
+      "tip": "In bond-line formulas, never forget that a terminal line-end is a CH₃ group and a corner between two lines is a CH₂ or CH depending on how many bonds meet there."
+    },
+    {
+      "heading": "8.4 Classification of Organic Compounds",
+      "pyq_years": [],
+      "body": "<p>Organic compounds are classified by their carbon skeleton and by functional groups.</p><p><b>Acyclic (open chain) compounds</b>: straight or branched chains, e.g. CH<sub>3</sub>CH<sub>2</sub>CH<sub>3</sub> (propane).</p><p><b>Cyclic (closed chain) compounds</b>, divided into: (i) <b>Alicyclic</b> — ring compounds that behave like open-chain compounds, e.g. cyclohexane; (ii) <b>Aromatic</b> — benzene and its derivatives (benzenoid), or heterocyclic aromatic rings such as furan and pyridine (non-benzenoid).</p><p><b>Homocyclic</b> rings contain only carbon atoms in the ring; <b>heterocyclic</b> rings contain at least one atom other than carbon (N, O, S) in the ring, e.g. pyridine, furan, thiophene.</p><p>A <b>functional group</b> is an atom or group of atoms within a molecule that gives it its characteristic chemical properties — e.g. –OH (alcohol), –CHO (aldehyde), –COOH (carboxylic acid), –NH<sub>2</sub> (amine). A <b>homologous series</b> is a family of compounds with the same functional group and general formula, where successive members differ by a –CH<sub>2</sub>– unit and show a regular gradation in physical properties (e.g. alkanes: C<sub>n</sub>H<sub>2n+2</sub>).</p>",
+      "formulas": [
+        {
+          "expr": "Alkanes: C<sub>n</sub>H<sub>2n+2</sub> &nbsp; Alkenes: C<sub>n</sub>H<sub>2n</sub> &nbsp; Alkynes: C<sub>n</sub>H<sub>2n−2</sub>",
+          "where": [
+            [
+              "n",
+              "number of carbon atoms in the chain"
+            ]
+          ]
+        }
+      ],
+      "tip": "Learn to recognise all common functional groups on sight — this single skill decides half the marks in nomenclature and reaction-type questions."
+    },
+    {
+      "heading": "8.5 Nomenclature of Organic Compounds",
+      "pyq_years": [],
+      "body": "<p>IUPAC (International Union of Pure and Applied Chemistry) names are built from three parts: <b>word root</b> (number of carbons in the parent chain: meth-1, eth-2, prop-3, but-4, pent-5, hex-6, hept-7, oct-8, non-9, dec-10), <b>primary suffix</b> (-ane, -ene, -yne for saturation), and <b>secondary suffix</b> for the principal functional group (-ol for alcohol, -al for aldehyde, -one for ketone, -oic acid for carboxylic acid, -amine for amine, etc.).</p><p><b>Steps for naming a substituted compound:</b> (1) Identify the longest continuous carbon chain containing the principal characteristic group — this is the parent chain. (2) Number the chain from the end that gives the lowest locant to the principal characteristic group first, then to unsaturation, then to substituents (in that priority order). (3) Name and locate every substituent as a prefix, arranged alphabetically, with a locant number before each. (4) Use di, tri, tetra for repeated identical substituents (these multiplying prefixes are ignored while alphabetising). (5) Assemble as: locants-substituent prefixes (alphabetical) + word root + primary suffix + secondary suffix.</p><p><b>Priority order of functional groups for choosing the principal characteristic group (highest to lowest):</b> carboxylic acid > sulphonic acid > ester > amide > nitrile > aldehyde > ketone > alcohol > amine > ether. A group lower in this list, if present alongside the principal group, is named as a prefix (e.g. hydroxy-, oxo-, amino-).</p><p><b>Example:</b> CH<sub>3</sub>–CH(CH<sub>3</sub>)–CH<sub>2</sub>–CH<sub>2</sub>OH is 3-methylbutan-1-ol (chain of 4 carbons, –OH gets lowest locant 1, methyl substituent at C3).</p><p>For compounds with a double or triple bond, the suffix locant is placed just before -ene/-yne, e.g. pent-2-ene, but-1-yne.</p>",
+      "formulas": [
+        {
+          "expr": "IUPAC name = [locants + substituent prefixes (alphabetical)] + word root + primary suffix + secondary suffix",
+          "where": [
+            [
+              "word root",
+              "carbon count of parent chain"
+            ],
+            [
+              "primary suffix",
+              "-ane/-ene/-yne for degree of saturation"
+            ],
+            [
+              "secondary suffix",
+              "denotes the principal characteristic group"
+            ]
+          ]
+        }
+      ],
+      "tip": "The most common mistake: numbering to give the lowest locant to a substituent instead of the principal functional group. Functional group locant always wins first."
+    },
+    {
+      "heading": "8.6 Isomerism",
+      "pyq_years": [],
+      "body": "<p>Isomers are compounds with the same molecular formula but different structures or spatial arrangements.</p><p><b>Structural isomerism</b> (differ in connectivity): (i) <b>Chain isomerism</b> — different carbon skeletons, e.g. n-butane and isobutane (both C<sub>4</sub>H<sub>10</sub>). (ii) <b>Position isomerism</b> — same skeleton and functional group but different position of the group or unsaturation, e.g. propan-1-ol and propan-2-ol. (iii) <b>Functional isomerism</b> — same molecular formula but different functional groups, e.g. ethanol (C<sub>2</sub>H<sub>6</sub>O, an alcohol) and dimethyl ether (C<sub>2</sub>H<sub>6</sub>O, an ether). (iv) <b>Metamerism</b> — same functional group but different alkyl groups attached to it, e.g. diethyl ether and methyl propyl ether, both C<sub>4</sub>H<sub>10</sub>O.</p><p><b>Stereoisomerism</b> (same connectivity, different spatial arrangement) is covered in detail in later chapters but is introduced here: geometrical (cis-trans) isomerism about a C=C, and optical isomerism due to a chiral (asymmetric) carbon.</p>",
+      "formulas": [],
+      "tip": "Ethanol vs dimethyl ether is the textbook example of functional isomerism — examiners love it because it also tests that you know both functional groups (–OH and –O–)."
+    },
+    {
+      "heading": "8.7 Fundamental Concepts in Organic Reaction Mechanism",
+      "pyq_years": [],
+      "body": "<p>A covalent bond can break two ways. <b>Homolysis</b>: the bond breaks symmetrically, each atom keeping one electron (shown by a single-barbed fish-hook arrow), giving <b>free radicals</b> — species with an unpaired electron, e.g. Cl–Cl → Cl• + Cl•. It needs high energy (heat/light/peroxides) and favours the gas phase or non-polar solvents.</p><p><b>Heterolysis</b>: the bond breaks unsymmetrically, the more electronegative atom taking both electrons (full double-barbed arrow), giving a cation and an anion, e.g. CH<sub>3</sub>Br → CH<sub>3</sub><sup>+</sup> + Br<sup>−</sup>. It is favoured in polar solvents.</p><p><b>Reactive intermediates:</b> <b>carbocations</b> (positive, sp<sup>2</sup>, trigonal planar, 6 electrons; stability 3° > 2° > 1° > methyl, from +I and hyperconjugation), <b>carbanions</b> (negative, sp<sup>3</sup>, pyramidal; stability reversed — methyl > 1° > 2° > 3°, since alkyl groups destabilise the extra electron density), <b>free radicals</b> (unpaired electron; same order as carbocations), and <b>carbenes</b> (neutral, divalent, 6 electrons, e.g. :CH<sub>2</sub>, very reactive).</p><p><b>Nucleophiles</b> are electron-rich attackers (lone pair or π electrons, e.g. OH<sup>−</sup>, CN<sup>−</sup>, NH<sub>3</sub>). <b>Electrophiles</b> are electron-deficient attackers (e.g. H<sup>+</sup>, NO<sub>2</sub><sup>+</sup>, carbocations, BF<sub>3</sub>). Every organic reaction can be classed by which one drives it.</p>",
+      "formulas": [
+        {
+          "expr": "Carbocation & free-radical stability: 3° > 2° > 1° > CH<sub>3</sub><sup>+</sup>/•CH<sub>3</sub> &nbsp;|&nbsp; Carbanion stability: CH<sub>3</sub><sup>−</sup> > 1° > 2° > 3°",
+          "where": [
+            [
+              "3°, 2°, 1°",
+              "tertiary, secondary, primary carbon"
+            ]
+          ]
+        }
+      ],
+      "tip": "A one-mark trap: carbanion stability order is exactly the reverse of carbocation/free-radical order — do not apply the same trend to all three."
+    },
+    {
+      "heading": "8.8 Electronic Displacement in a Covalent Bond",
+      "pyq_years": [],
+      "body": "<p><b>Inductive effect (I):</b> a permanent σ-electron displacement towards a more electronegative atom, transmitted along the chain and fading after about 3 carbons. Electron-withdrawing groups (–NO<sub>2</sub>, –CN, halogens, –COOH) show −I; alkyl groups and –O<sup>−</sup> show +I. It explains why chloroacetic acid is a stronger acid than acetic acid — Cl pulls electron density from –COOH, stabilising the carboxylate anion.</p><p><b>Resonance (mesomeric) effect:</b> when a molecule has two or more valid Lewis structures differing only in electron position, the real molecule is a more stable hybrid of these canonical structures, shown with curved arrows. In phenol, the O lone pair delocalises into the ring (+M), raising electron density at ortho/para positions; in nitrobenzene, –NO<sub>2</sub> withdraws ring electron density by resonance (−M), lowering it at ortho/para. <b>Resonance energy</b> is the extra stability of the real hybrid over the most stable single canonical structure.</p><p><b>Hyperconjugation:</b> delocalisation of a σ C–H (or C–C) bond adjacent to a cationic carbon, a radical, or a multiple bond into the empty/half-filled orbital or π system — more α-hydrogens means more such structures and greater stability, exactly why 3° carbocations/radicals beat 1° ones.</p><p><b>Electromeric effect (E):</b> a temporary effect of a multiple bond, where the π pair shifts fully to one atom only in the presence of an attacking reagent, vanishing once the reagent is removed — unlike the permanent inductive and resonance effects.</p>",
+      "formulas": [
+        {
+          "expr": "−I effect order: −NO<sub>2</sub> > −CN > −F > −Cl > −Br > −I > −OH > −C<sub>6</sub>H<sub>5</sub> > H (reference)",
+          "where": [
+            [
+              "−I",
+              "electron-withdrawing inductive effect, decreases with distance from the group"
+            ]
+          ]
+        }
+      ],
+      "tip": "Distinguish clearly in the answer: inductive and resonance effects are PERMANENT (present in the ground state of the molecule); electromeric effect is TEMPORARY (only during a reaction). This distinction alone is worth marks in short-answer questions."
+    },
+    {
+      "heading": "8.9 Common Types of Organic Reactions",
+      "pyq_years": [],
+      "body": "<p><b>Substitution reactions:</b> one atom/group in a molecule is replaced by another, without change in the degree of saturation, e.g. CH<sub>4</sub> + Cl<sub>2</sub> → CH<sub>3</sub>Cl + HCl (free-radical substitution).</p><p><b>Addition reactions:</b> a reagent adds completely across a multiple bond (C=C or C≡C), converting it to a single bond, e.g. CH<sub>2</sub>=CH<sub>2</sub> + H<sub>2</sub> → CH<sub>3</sub>–CH<sub>3</sub>. Typical of alkenes and alkynes.</p><p><b>Elimination reactions:</b> two atoms/groups are removed from adjacent carbons (or the same carbon), generating a multiple bond, e.g. CH<sub>3</sub>CH<sub>2</sub>Br + KOH(alc.) → CH<sub>2</sub>=CH<sub>2</sub> + KBr + H<sub>2</sub>O. This is the reverse in spirit of an addition reaction.</p><p><b>Rearrangement reactions:</b> atoms within a molecule migrate to give a structural isomer, usually through carbocation intermediates, e.g. the pinacol–pinacolone rearrangement (studied in Class 12).</p><p>Every one of these reaction types is classified further by the attacking species: nucleophilic substitution/addition, electrophilic substitution/addition, or free-radical substitution/addition, depending on whether the reagent is a nucleophile, electrophile, or radical.</p>",
+      "formulas": [],
+      "tip": "When asked to classify a given reaction, first count atoms on both sides: same skeleton with atoms swapped = substitution; multiple bond disappears = addition; multiple bond appears = elimination."
+    },
+    {
+      "heading": "8.10 Methods of Purification of Organic Compounds",
+      "pyq_years": [],
+      "body": "<p><b>Simple distillation:</b> separates a volatile liquid from non-volatile impurities, or liquids differing in boiling point by more than ~25 K; the liquid is heated, vapour condensed and collected. E.g. water from salt.</p><p><b>Fractional distillation:</b> for miscible liquids with close boiling points, using a fractionating column (packed with glass beads) that gives repeated vaporisation-condensation cycles, enriching the vapour in the more volatile component. E.g. separating petroleum fractions, or benzene from toluene.</p><p><b>Vacuum (reduced-pressure) distillation:</b> for liquids that decompose near their normal boiling point — lower pressure lowers the boiling point so the liquid distils without decomposing. E.g. glycerol.</p><p><b>Steam distillation:</b> for steam-volatile substances immiscible with water and with fair vapour pressure at 373 K. Steam is passed through the mixture; the substance distils below 373 K, since the mixture boils once the sum of the two vapour pressures equals atmospheric pressure. E.g. isolating clove oil (eugenol).</p><p><b>Differential extraction:</b> shaking an aqueous solution with a solvent in which the compound is more soluble; it distributes between the layers by the distribution law. Several small solvent portions extract more efficiently than one large portion — the basis of separating-funnel extraction.</p><p><b>Chromatography</b> separates mixtures by differential movement of components through a stationary phase under a mobile phase. <b>Adsorption chromatography</b> (solid stationary phase, e.g. silica/alumina) covers column chromatography and TLC; in TLC the ratio of distance moved by a component to that moved by the solvent front is the <b>retardation factor, R<sub>f</sub></b>. <b>Partition chromatography</b> (e.g. paper chromatography) separates by continuous partitioning between stationary phase (water in cellulose fibres) and mobile phase.</p><p><b>Crystallisation:</b> the impure solid is dissolved in minimum hot solvent, filtered hot to remove insoluble impurities, and the filtrate cooled slowly so pure crystals separate, leaving soluble impurities in the mother liquor.</p><p><b>Sublimation:</b> a solid that passes directly to vapour on heating is separated from non-sublimable impurities this way, e.g. camphor, naphthalene, NH<sub>4</sub>Cl.</p>",
+      "formulas": [
+        {
+          "expr": "R<sub>f</sub> = distance travelled by the component / distance travelled by the solvent front",
+          "where": [
+            [
+              "R<sub>f</sub>",
+              "retardation factor in TLC/paper chromatography, always between 0 and 1"
+            ]
+          ]
+        }
+      ],
+      "tip": "A very common 3-mark question: 'name the technique used to separate X from Y and state the principle' — always answer with BOTH the technique name and the one-line principle it relies on (boiling point / solubility / volatility with steam / adsorption or partition)."
+    },
+    {
+      "heading": "8.11 Qualitative Analysis of Organic Compounds",
+      "pyq_years": [],
+      "body": "<p>C and H are detected by heating with CuO: C gives CO<sub>2</sub> (turns lime water milky), H gives H<sub>2</sub>O (turns anhydrous CuSO<sub>4</sub> blue). Other elements are detected via <b>Lassaigne's test</b>: the compound is fused with sodium metal, converting covalently-bound N, S, halogens and P into water-soluble ionic sodium salts (NaCN, Na<sub>2</sub>S, NaX, Na<sub>3</sub>PO<sub>4</sub>); the fused mass is extracted with water to give the sodium fusion extract, then tested for each element.</p><p><b>Nitrogen:</b> extract boiled with FeSO<sub>4</sub>, acidified with dilute H<sub>2</sub>SO<sub>4</sub>, then a drop of FeCl<sub>3</sub> added. Prussian blue confirms N — Na<sub>4</sub>[Fe(CN)<sub>6</sub>] forms first, then reacts with Fe<sup>3+</sup> to give ferric ferrocyanide.</p><p><b>Sulphur:</b> extract acidified with acetic acid + lead acetate gives a black PbS precipitate; or freshly prepared sodium nitroprusside gives a violet colour.</p><p><b>Halogens:</b> extract acidified with dilute HNO<sub>3</sub> (destroys interfering CN<sup>−</sup>/S<sup>2−</sup>), then AgNO<sub>3</sub> added: white ppt soluble in NH<sub>4</sub>OH → Cl; pale yellow, sparingly soluble → Br; yellow, insoluble → I. If N and S are both present, boil the extract with conc. HNO<sub>3</sub> first to destroy interfering CNS<sup>−</sup>.</p><p><b>Phosphorus:</b> compound oxidised with sodium peroxide, boiled with conc. HNO<sub>3</sub>, then treated with ammonium molybdate — a yellow precipitate confirms P.</p>",
+      "formulas": [],
+      "tip": "When N and S are both present, examiners often ask why the extract gives a red/blood-red colour with FeCl₃ instead of Prussian blue — that's because sodium thiocyanate (NaSCN) forms instead of NaCN, and the fix is to boil the extract with excess sodium metal before testing."
+    },
+    {
+      "heading": "8.12 Quantitative Analysis of Organic Compounds",
+      "pyq_years": [],
+      "body": "<p><b>C and H:</b> a known mass is burnt in excess O<sub>2</sub>/CuO; C converts to CO<sub>2</sub> (absorbed and weighed via KOH), H to H<sub>2</sub>O (absorbed and weighed via anhydrous CaCl<sub>2</sub>), giving both percentages.</p><p><b>Nitrogen — Dumas method:</b> the compound is heated with CuO in a CO<sub>2</sub> atmosphere; N converts to free N<sub>2</sub> (oxides of N reduced over hot Cu gauze). The N<sub>2</sub> collected over KOH (which absorbs the CO<sub>2</sub>) is measured at STP.</p><p><b>Nitrogen — Kjeldahl method:</b> heating with conc. H<sub>2</sub>SO<sub>4</sub> converts N to (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>; excess NaOH liberates NH<sub>3</sub>, absorbed in a known excess of standard acid, which is then back-titrated with standard alkali. Not applicable to ring nitrogen (pyridine) or nitro/azo nitrogen, which do not convert to ammonium sulphate.</p><p><b>Halogens — Carius method:</b> the compound is heated with fuming HNO<sub>3</sub> and AgNO<sub>3</sub> in a sealed hard-glass tube; C and H oxidise to CO<sub>2</sub> and H<sub>2</sub>O, and the halogen is precipitated as AgX, filtered, dried and weighed.</p><p><b>Sulphur — Carius method:</b> heating with fuming HNO<sub>3</sub> oxidises S to sulphuric acid, precipitated as BaSO<sub>4</sub> with BaCl<sub>2</sub>, filtered, dried and weighed.</p><p><b>Phosphorus — Carius method:</b> oxidation with fuming HNO<sub>3</sub> gives phosphoric acid, precipitated as ammonium phosphomolybdate or as MgNH<sub>4</sub>PO<sub>4</sub>, ignited to Mg<sub>2</sub>P<sub>2</sub>O<sub>7</sub> and weighed.</p><p><b>General rule:</b> % element = (atomic mass of element × mass of precipitate × 100) / (molecular mass of precipitate × mass of compound taken).</p>",
+      "formulas": [
+        {
+          "expr": "% N (Dumas) = [28 × V<sub>N2</sub> × 100] / [22400 × m]",
+          "where": [
+            [
+              "V<sub>N2</sub>",
+              "volume of N<sub>2</sub> collected at STP (mL)"
+            ],
+            [
+              "m",
+              "mass of compound taken (g)"
+            ],
+            [
+              "28",
+              "molar mass of N<sub>2</sub> (g/mol)"
+            ],
+            [
+              "22400",
+              "molar volume of a gas at STP (mL/mol)"
+            ]
+          ]
+        },
+        {
+          "expr": "% N (Kjeldahl) = [1.4 × Molarity of acid × (Volume used by NH<sub>3</sub>)] / mass of compound (g)",
+          "where": [
+            [
+              "Volume used by NH<sub>3</sub>",
+              "= volume of acid taken − volume of alkali used in back titration (mL)"
+            ],
+            [
+              "1.4",
+              "= 14 × 0.1/10, a constant when normality/molarity is in mol L<sup>−1</sup>"
+            ]
+          ]
+        },
+        {
+          "expr": "% halogen (Carius) = [At. mass of X × mass of AgX × 100] / [Mol. mass of AgX × mass of compound]",
+          "where": [
+            [
+              "X",
+              "halogen atom (Cl, Br or I)"
+            ],
+            [
+              "AgX",
+              "silver halide precipitate weighed"
+            ]
+          ]
+        },
+        {
+          "expr": "% sulphur (Carius) = [32 × mass of BaSO<sub>4</sub> × 100] / [233 × mass of compound]",
+          "where": [
+            [
+              "32",
+              "atomic mass of S"
+            ],
+            [
+              "233",
+              "molecular mass of BaSO<sub>4</sub>"
+            ]
+          ]
+        }
+      ],
+      "tip": "Numerical questions on Dumas, Kjeldahl and Carius methods are asked almost every year — memorise the four formulas above exactly, including which constant goes where, and always show units in the working."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Catenation",
+      "definition": "The ability of carbon atoms to link with one another through covalent bonds to form long chains, branched chains and rings."
+    },
+    {
+      "term": "Homologous series",
+      "definition": "A family of organic compounds with the same functional group and general formula, in which consecutive members differ by a –CH<sub>2</sub>– unit and show a regular gradation in physical properties."
+    },
+    {
+      "term": "Functional group",
+      "definition": "An atom or group of atoms in a molecule that determines its characteristic chemical reactions, e.g. –OH, –CHO, –COOH."
+    },
+    {
+      "term": "Isomers",
+      "definition": "Compounds having the same molecular formula but different structures (structural isomers) or different spatial arrangement (stereoisomers)."
+    },
+    {
+      "term": "Homolytic fission (homolysis)",
+      "definition": "Symmetrical breaking of a covalent bond in which each fragment retains one electron of the shared pair, producing free radicals."
+    },
+    {
+      "term": "Heterolytic fission (heterolysis)",
+      "definition": "Unsymmetrical breaking of a covalent bond in which the more electronegative atom retains both bonding electrons, producing a cation and an anion."
+    },
+    {
+      "term": "Free radical",
+      "definition": "A neutral species containing an unpaired electron, formed by homolytic bond fission; highly reactive."
+    },
+    {
+      "term": "Carbocation",
+      "definition": "A carbon species bearing a positive charge and only 6 electrons in its valence shell, sp<sup>2</sup> hybridised and trigonal planar."
+    },
+    {
+      "term": "Carbanion",
+      "definition": "A carbon species bearing a negative charge and a lone pair of electrons, sp<sup>3</sup> hybridised and pyramidal."
+    },
+    {
+      "term": "Nucleophile",
+      "definition": "An electron-rich species (with a lone pair or π electrons) that attacks an electron-deficient centre in a reaction, e.g. OH<sup>−</sup>, NH<sub>3</sub>."
+    },
+    {
+      "term": "Electrophile",
+      "definition": "An electron-deficient species that attacks an electron-rich centre in a reaction, e.g. H<sup>+</sup>, NO<sub>2</sub><sup>+</sup>, carbocations."
+    },
+    {
+      "term": "Inductive effect",
+      "definition": "A permanent displacement of σ-bond electrons along a carbon chain towards a more electronegative atom, decreasing rapidly with distance."
+    },
+    {
+      "term": "Resonance (mesomeric) effect",
+      "definition": "Delocalisation of π electrons or a lone pair over adjacent atoms in a conjugated system, represented by two or more canonical structures whose hybrid is the real, more stable molecule."
+    },
+    {
+      "term": "Hyperconjugation",
+      "definition": "Delocalisation of electrons from a C–H σ bond adjacent to a positive centre, radical or multiple bond into the empty/half-filled orbital or π system; also called no-bond resonance."
+    },
+    {
+      "term": "Electromeric effect",
+      "definition": "A temporary effect shown by a multiple bond, where the π electron pair shifts completely to one atom in the presence of an attacking reagent, disappearing once the reagent is removed."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "General formula of alkanes",
+      "expr": "C<sub>n</sub>H<sub>2n+2</sub>",
+      "note": "saturated open-chain hydrocarbons"
+    },
+    {
+      "name": "General formula of alkenes",
+      "expr": "C<sub>n</sub>H<sub>2n</sub>",
+      "note": "one C=C double bond"
+    },
+    {
+      "name": "General formula of alkynes",
+      "expr": "C<sub>n</sub>H<sub>2n−2</sub>",
+      "note": "one C≡C triple bond"
+    },
+    {
+      "name": "Retardation factor",
+      "expr": "R<sub>f</sub> = distance moved by component / distance moved by solvent front",
+      "note": "chromatography (TLC/paper), value between 0 and 1"
+    },
+    {
+      "name": "% Nitrogen — Dumas method",
+      "expr": "%N = 28 × V<sub>N2</sub>(STP) × 100 / (22400 × m)",
+      "note": "V in mL at STP, m = mass of compound in g"
+    },
+    {
+      "name": "% Nitrogen — Kjeldahl method",
+      "expr": "%N = 1.4 × M(acid) × Vol. of acid used by NH<sub>3</sub> / m",
+      "note": "back-titration method; not applicable to ring N or nitro/azo N"
+    },
+    {
+      "name": "% Halogen — Carius method",
+      "expr": "%X = At. mass of X × mass of AgX × 100 / (Mol. mass of AgX × m)",
+      "note": "X = Cl, Br or I"
+    },
+    {
+      "name": "% Sulphur — Carius method",
+      "expr": "%S = 32 × mass of BaSO<sub>4</sub> × 100 / (233 × m)",
+      "note": "sulphur precipitated as BaSO<sub>4</sub>"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "sp<sup>3</sup>, sp<sup>2</sup> and sp hybrid orbitals of carbon in methane, ethene and ethyne",
+      "how_to_draw": "Draw three panels. Panel 1: methane with a central carbon and four tetrahedral bonds to H, label the bond angle 109°28′. Panel 2: ethene with the planar C=C, all six atoms in one plane, label σ and π bonds separately and the 120° angle. Panel 3: ethyne with the linear C≡C, label one σ and two π bonds and the 180° angle. Under each panel note the hybridisation and the number of unhybridised p orbitals used for π bonding."
+    },
+    {
+      "title": "Set-up for steam distillation",
+      "how_to_draw": "Draw a round-bottom flask with the organic liquid mixed with water, heated over a burner, connected by a delivery tube to a second flask generating steam (or a direct steam inlet tube dipping into the mixture), leading to a Liebig condenser, and finally to a receiver flask collecting the distillate. Label the steam inlet, condenser (with water-in/water-out arrows) and receiver."
+    },
+    {
+      "title": "Fractional distillation set-up with fractionating column",
+      "how_to_draw": "Draw a round-bottom flask with the liquid mixture, heated below, with a fractionating column (packed with glass beads, drawn as a series of bulbs or a bead-packed tube) fitted on top, leading to a thermometer at the side arm, then a condenser, and a receiver flask. Label the column as the site of repeated vaporisation-condensation."
+    },
+    {
+      "title": "Lassaigne's sodium fusion test set-up",
+      "how_to_draw": "Draw a small fusion (ignition) tube containing a piece of sodium metal and a pinch of the organic compound, held with tongs over a flame. Show the arrow to a beaker of distilled water where the red-hot fusion tube is plunged to give the sodium fusion extract. Label the extract as the source solution for the N, S, halogen and P tests."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "8.1",
+      "q": "What are hybridisation states of each carbon atom in the following compounds? CH<sub>2</sub>=C=O, CH<sub>3</sub>CH=CH<sub>2</sub>, (CH<sub>3</sub>)<sub>2</sub>CO, CH<sub>2</sub>=CHCN, C(CH<sub>3</sub>)<sub>4</sub>",
+      "a": "<p>CH<sub>2</sub>=C=O: CH<sub>2</sub> carbon sp<sup>2</sup>, central carbon sp. CH<sub>3</sub>CH=CH<sub>2</sub>: CH<sub>3</sub> carbon sp<sup>3</sup>, both =CH carbons sp<sup>2</sup>. (CH<sub>3</sub>)<sub>2</sub>CO: both CH<sub>3</sub> carbons sp<sup>3</sup>, carbonyl carbon sp<sup>2</sup>. CH<sub>2</sub>=CHCN: alkene carbons sp<sup>2</sup>, nitrile carbon sp. C(CH<sub>3</sub>)<sub>4</sub>: all five carbons sp<sup>3</sup>.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.7",
+      "q": "Explain why alkyl groups act as an electron-releasing group when attached to a π system.",
+      "a": "<p>Alkyl groups release electron density towards an attached π system through the positive inductive effect (+I effect) and, when adjacent to the π system, through hyperconjugation — the σ electrons of C–H bonds on the alkyl group delocalise into the empty or π-electron-rich orbital, effectively donating electron density. Both effects make alkyl groups net electron-releasing.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.8",
+      "q": "Draw the resonance structures for the following and use curved arrows to show the electron shift: CH<sub>3</sub>COOCH<sub>2</sub><sup>+</sup> ... (illustrate for CH<sub>3</sub>COCH<sub>2</sub><sup>−</sup>, an example carbanion adjacent to a carbonyl)",
+      "a": "<p>For a carbanion adjacent to a carbonyl group, CH<sub>3</sub>–CO–CH<sub>2</sub><sup>−</sup> ↔ CH<sub>3</sub>–C(O<sup>−</sup>)=CH<sub>2</sub>. The lone pair on the carbanion carbon shifts (curved arrow from the carbanion lone pair to the C=C position) and the C=O π electrons shift onto oxygen (curved arrow from the π bond to O), placing the negative charge on the more electronegative oxygen in the second structure. This second structure, with negative charge on O, contributes more to the stable hybrid, explaining why α-hydrogens next to a carbonyl are unusually acidic.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.9",
+      "q": "Explain the terms inductive and electromeric effect. Give an example each.",
+      "a": "<p><b>Inductive effect:</b> a permanent displacement of σ-bond electrons towards a more electronegative atom along a chain, decreasing with distance from the substituent. Example: in CH<sub>3</sub>CH<sub>2</sub>Cl, the electronegative Cl withdraws electron density through the σ-bond framework (−I effect), polarising the C–Cl bond and nearby C–H bonds.</p><p><b>Electromeric effect:</b> a temporary effect shown only by a multiple bond, where the π electron pair shifts completely to one of the two atoms in the presence of an attacking reagent, and disappears the moment the reagent is removed. Example: when H<sup>+</sup> attacks CH<sub>2</sub>=CH<sub>2</sub>, the π electrons shift entirely to one carbon (CH<sub>3</sub>–CH<sub>2</sub><sup>+</sup>) only during the reaction.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.10",
+      "q": "What is the relation between electronegativity and inductive effect?",
+      "a": "<p>Higher the electronegativity of an atom or group, the stronger its electron-withdrawing (−I) power, and the greater the inductive effect it exerts along the chain of σ bonds. The −I effect decreases in the order F > Cl > Br > I, following the decreasing electronegativity of the halogens, and it weakens rapidly as the number of intervening bonds increases (negligible beyond the third carbon).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.15",
+      "q": "An organic compound contains 69% carbon and 4.8% hydrogen, the remainder being oxygen. Calculate the masses of carbon dioxide and water produced when 0.20 g of this substance is subjected to combustion analysis.",
+      "a": "<p>In 0.20 g of compound, mass of C = 69% of 0.20 g = 0.138 g and mass of H = 4.8% of 0.20 g = 0.0096 g.</p><p>Moles of C = 0.138/12 = 0.0115 mol → moles of CO<sub>2</sub> produced = 0.0115 mol → mass of CO<sub>2</sub> = 0.0115 × 44 = 0.506 g.</p><p>Moles of H = 0.0096/1 = 0.0096 mol → moles of H<sub>2</sub>O produced = 0.0096/2 = 0.0048 mol → mass of H<sub>2</sub>O = 0.0048 × 18 = 0.0864 g.</p><p>So combustion of 0.20 g of the compound gives about 0.506 g CO<sub>2</sub> and 0.086 g H<sub>2</sub>O.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.16",
+      "q": "Combustion of a hydrocarbon gives 3.38 g CO<sub>2</sub> and 0.690 g H<sub>2</sub>O. Calculate mass % of carbon and hydrogen and determine the empirical formula if the molar mass of the compound is 78 g/mol.",
+      "a": "<p>Moles CO<sub>2</sub> = 3.38/44 = 0.0768 mol → mass C = 0.0768 × 12 = 0.922 g. Moles H<sub>2</sub>O = 0.690/18 = 0.0383 mol → mass H = 0.0383 × 2 = 0.0767 g. Total mass of hydrocarbon burnt = 0.922 + 0.0767 ≈ 1.0 g (pure hydrocarbon has only C, H).</p><p>% C ≈ 92.3%, % H ≈ 7.7%. Mole ratio: C = 92.3/12 = 7.69, H = 7.7/1 = 7.7 → C:H ≈ 1:1, empirical formula CH (mass 13). n = 78/13 = 6, so molecular formula = C<sub>6</sub>H<sub>6</sub> (benzene).</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.17",
+      "q": "Explain the principle of paper chromatography.",
+      "a": "<p>Paper chromatography works on the principle of partition — the components of a mixture distribute themselves continuously between a stationary phase (water held in the cellulose fibres of the chromatography paper) and a mobile phase (a suitable solvent that moves up or along the paper by capillary action). Different components have different partition coefficients between the two phases, so they travel at different rates and separate into distinct spots at different distances from the point of application, each characterised by its own retardation factor (R<sub>f</sub>) under the given conditions.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.18",
+      "q": "Why is nitric acid added to sodium extract before adding silver nitrate for testing halogens?",
+      "a": "<p>The sodium fusion extract, along with the halide ion, may also contain cyanide (CN<sup>−</sup>) and sulphide (S<sup>2−</sup>) ions if nitrogen and sulphur are present in the compound. These ions also form precipitates with AgNO<sub>3</sub> (silver cyanide, silver sulphide) and would give a false-positive/interfering result. Adding dilute HNO<sub>3</sub> before AgNO<sub>3</sub> decomposes NaCN and Na<sub>2</sub>S (as volatile HCN and H<sub>2</sub>S which escape), so that only the halide ion is left to react with AgNO<sub>3</sub>, giving a reliable test.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.19",
+      "q": "Explain the following: (i) Why is Kjeldahl's method not applicable to compounds containing nitrogen in the ring or nitro and azo groups? (ii) Why is a distillation flask, without a fractionating column, unsuitable for the fractional distillation of a mixture of nearly miscible liquids?",
+      "a": "<p><b>(i)</b> Nitrogen in a ring (pyridine) or as a nitro/azo group does not convert to ammonium sulphate on digestion with conc. H<sub>2</sub>SO<sub>4</sub>, so it escapes estimation and the Kjeldahl method fails for such compounds.</p><p><b>(ii)</b> A plain flask allows only one vaporisation-condensation, not enough to separate liquids with close boiling points cleanly. A fractionating column gives many repeated vaporisation-condensation cycles as vapour rises, progressively enriching it in the more volatile component — essential for clean separation.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": "CBSE 2020",
+      "marks": 1,
+      "q": "The hybridisation of carbon atoms in C–C single bond of HC≡C–CH=CH<sub>2</sub> is:",
+      "options": [
+        "sp<sup>3</sup>–sp<sup>3</sup>",
+        "sp–sp<sup>2</sup>",
+        "sp<sup>3</sup>–sp<sup>2</sup>",
+        "sp<sup>2</sup>–sp<sup>2</sup>"
+      ],
+      "answer": "b",
+      "solution": "The C–C single bond joins the sp carbon of the terminal alkyne (HC≡C–) to the sp<sup>2</sup> carbon of the alkene (–CH=CH<sub>2</sub>), so the bond is between an sp and an sp<sup>2</sup> hybridised carbon."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following has the maximum number of unpaired electrons and is a reactive intermediate formed by homolytic fission?",
+      "options": [
+        "Carbocation",
+        "Carbanion",
+        "Free radical",
+        "Carbene"
+      ],
+      "answer": "c",
+      "solution": "Homolytic fission of a covalent bond gives free radicals, each with one unpaired electron on the fragment; carbocations and carbanions arise from heterolytic fission and carbenes are neutral divalent species, not necessarily from simple bond homolysis."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2019",
+      "marks": 1,
+      "q": "Which of the following will show the maximum inductive effect (–I) towards the attached carbon chain?",
+      "options": [
+        "–Br",
+        "–Cl",
+        "–F",
+        "–I"
+      ],
+      "answer": "c",
+      "solution": "The −I effect follows electronegativity order F > Cl > Br > I, so fluorine shows the strongest electron-withdrawing inductive effect."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which technique is used to separate an essential oil like clove oil from plant material?",
+      "options": [
+        "Simple distillation",
+        "Fractional distillation",
+        "Steam distillation",
+        "Sublimation"
+      ],
+      "answer": "c",
+      "solution": "Essential oils are steam-volatile and immiscible with water, so steam distillation carries them over at a temperature below 373 K without decomposing the oil."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In Lassaigne's test, a Prussian blue colour with FeCl<sub>3</sub> confirms the presence of:",
+      "options": [
+        "Sulphur",
+        "Nitrogen",
+        "Halogen",
+        "Phosphorus"
+      ],
+      "answer": "b",
+      "solution": "Sodium fusion converts organic nitrogen into NaCN; on treatment with FeSO<sub>4</sub> and then FeCl<sub>3</sub>, ferric ferrocyanide (Prussian blue) forms, confirming nitrogen."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which pair of compounds are functional isomers of each other?",
+      "options": [
+        "Propan-1-ol and propan-2-ol",
+        "n-Butane and isobutane",
+        "Ethanol and dimethyl ether",
+        "Butan-1-ol and pentan-1-ol"
+      ],
+      "answer": "c",
+      "solution": "Ethanol (C<sub>2</sub>H<sub>6</sub>O, alcohol) and dimethyl ether (C<sub>2</sub>H<sub>6</sub>O, ether) have the same molecular formula but different functional groups, making them functional isomers."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The inductive effect is a permanent effect. Reason (R): The inductive effect operates through the σ-bond framework of a molecule and does not need an attacking reagent to be shown.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The inductive effect is present in the ground state of the molecule itself, transmitted through σ bonds, and needs no external reagent, which correctly explains why it is permanent."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Tertiary carbocations are more stable than primary carbocations. Reason (R): Tertiary carbocations have a greater number of α-hydrogens available for hyperconjugation and more alkyl groups donating electron density by the +I effect.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "A tertiary carbocation is attached to three alkyl groups, giving up to nine α C–H bonds for hyperconjugation and stronger +I donation than a primary carbocation, both of which stabilise it — R is a correct explanation of A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Carbanion stability order is CH<sub>3</sub><sup>−</sup> > 1° > 2° > 3°. Reason (R): Alkyl groups are electron-releasing and destabilise the negative charge on the carbanion carbon as their number increases.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Since alkyl groups push electron density towards the carbanion (already electron-rich) through the +I effect, more alkyl substitution destabilises the carbanion, so methyl (no alkyl groups) is the most stable — this correctly explains the given stability order."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2021",
+      "marks": 2,
+      "q": "Write the IUPAC name of CH<sub>3</sub>–CH<sub>2</sub>–CH(OH)–CH<sub>3</sub>. Also identify the functional group present.",
+      "answer": "<p>IUPAC name: butan-2-ol. The functional group present is the hydroxyl group (–OH), an alcohol. Numbering starts from the end nearer the –OH-bearing carbon so that –OH gets the lowest locant, 2.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define hyperconjugation. Why do free radicals show a stability order similar to carbocations?",
+      "answer": "<p>Hyperconjugation is the delocalisation of electrons from a C–H (or C–C) σ bond on a carbon adjacent to a positively charged carbon, a carbon carrying an unpaired electron, or a carbon of a multiple bond, into the adjacent empty/half-filled orbital or π system; it is also called no-bond resonance. Free radicals, like carbocations, are electron-deficient at the radical carbon, so more α-hydrogens available for hyperconjugation (as in tertiary radicals) spread out and stabilise the unpaired electron in the same way they stabilise a positive charge, giving both species the stability order 3° > 2° > 1° > methyl.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is the principle of chromatography? Name one adsorption-based and one partition-based chromatographic technique.",
+      "answer": "<p>Chromatography separates the components of a mixture based on their differential movement through a stationary phase under the influence of a moving (mobile) phase — either by differential adsorption or by differential partition between the two phases. Column chromatography and thin layer chromatography (TLC) are adsorption-based; paper chromatography is partition-based.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2023",
+      "marks": 2,
+      "q": "Why is nitrogen gas passed over the mixture in the Dumas method for nitrogen estimation carried out in an atmosphere of CO<sub>2</sub> and not air?",
+      "answer": "<p>Using CO<sub>2</sub> instead of air ensures no atmospheric N<sub>2</sub> is introduced into the system, which would give a falsely high volume of nitrogen and an incorrect (too high) percentage of nitrogen in the compound. CO<sub>2</sub> is completely absorbed later by the KOH solution over which the evolved gas is collected, leaving only the nitrogen produced from the compound to be measured.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Distinguish between inductive effect, resonance effect and electromeric effect with one example each.",
+      "answer": "<p><b>Inductive effect:</b> permanent displacement of σ-bond electrons towards a more electronegative atom along a chain, decreasing with distance. Example: in CH<sub>3</sub>CH<sub>2</sub>Cl, Cl withdraws electron density through the σ framework (−I effect).</p><p><b>Resonance effect:</b> permanent delocalisation of π electrons or a lone pair over a conjugated system, represented by two or more canonical structures. Example: in phenol, the lone pair on O delocalises into the ring, increasing electron density at ortho/para positions.</p><p><b>Electromeric effect:</b> a temporary effect shown only by a multiple bond in the presence of an attacking reagent, where the π electron pair shifts completely to one atom; it disappears once the reagent is removed. Example: H<sup>+</sup> attack on CH<sub>2</sub>=CH<sub>2</sub> shifts the π electrons entirely to one carbon only during the reaction.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2020",
+      "marks": 3,
+      "q": "Explain, with a diagram, why fractional distillation gives better separation of two miscible liquids than simple distillation.",
+      "answer": "<p>In simple distillation, the liquid mixture is vaporised and condensed only once, so the distillate is still a mixture — richer in the more volatile component but not pure — because both liquids have some vapour pressure at the boiling point. In fractional distillation, a fractionating column packed with glass beads is fitted between the flask and the condenser. As vapour rises through the column, it partially condenses on the cool glass beads and re-vaporises repeatedly; each such vaporisation-condensation cycle enriches the vapour further in the more volatile component (this repeated process is equivalent to many successive simple distillations, called theoretical plates). By the time the vapour reaches the top of the column, it is almost pure in the lower-boiling component, giving much cleaner separation than a single distillation. [Diagram: flask → fractionating column (beads) → thermometer → condenser → receiver.]</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Give the IUPAC name and the principal characteristic group priority rule you applied for: CH<sub>3</sub>–CH(OH)–CH<sub>2</sub>–COOH.",
+      "answer": "<p>IUPAC name: 3-hydroxybutanoic acid. Even though the molecule has both –OH and –COOH, the carboxylic acid group ranks higher in the seniority order of functional groups (carboxylic acid > alcohol), so –COOH is chosen as the principal characteristic group and gives the suffix '-oic acid'; the –OH group, being lower in priority, is named only as the prefix 'hydroxy-' with its locant. Numbering starts from the carboxylic acid carbon as C1, so –OH is on C3.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "How would you detect the presence of sulphur in an organic compound? Give the reactions/observations involved.",
+      "answer": "<p>The organic compound is first fused with sodium metal (Lassaigne's test) to convert covalently bound sulphur into water-soluble sodium sulphide, Na<sub>2</sub>S, which passes into the sodium fusion extract. Two confirmatory tests are then done on the extract: (i) the extract is acidified with acetic acid and treated with lead acetate solution — a black precipitate of lead sulphide (PbS) confirms sulphur. (ii) A few drops of freshly prepared sodium nitroprusside solution are added to the extract — a violet/purple colouration confirms the presence of sulphur (this reagent should be freshly prepared as it decomposes on standing).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2019",
+      "marks": 5,
+      "q": "(a) Explain, with the help of resonance structures and curved arrows, why phenol is more acidic than an ordinary alcohol like ethanol. (b) Explain why nitrobenzene resists electrophilic attack more than benzene.",
+      "answer": "<p><b>(a)</b> In phenol, the lone pair on oxygen delocalises into the ring by resonance, spreading negative character onto the ortho and para carbons (curved arrows from the O lone pair into the ring π system). Once phenol loses H<sup>+</sup>, the phenoxide ion formed is itself resonance-stabilised the same way, spreading its negative charge over O and the ortho/para carbons. Ethanol has no such conjugated system, so the ethoxide ion's negative charge stays localised on oxygen (and is further destabilised by the +I effect of the ethyl group). Because phenol's conjugate base is far more stabilised, phenol is more acidic.</p><p><b>(b)</b> The –NO<sub>2</sub> group withdraws electron density from the ring both inductively (−I, due to the electronegative, doubly-bonded oxygens) and by resonance (−M), through canonical structures that place positive charge on the ortho/para ring carbons. This lowers the ring's electron density, especially at ortho/para positions, making it far less attractive to an electrophile — so nitrobenzene reacts more slowly than benzene in electrophilic substitution, and mainly at the meta position.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe, with a labelled diagram, the Kjeldahl method for the estimation of nitrogen in an organic compound. Give the formula used to calculate percentage nitrogen, and state one limitation of the method.",
+      "answer": "<p><b>Procedure:</b> a known mass of compound is heated with concentrated H<sub>2</sub>SO<sub>4</sub> (with a catalyst such as CuSO<sub>4</sub>/K<sub>2</sub>SO<sub>4</sub>) in a Kjeldahl flask, converting its nitrogen to ammonium sulphate, (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>. After cooling, excess concentrated NaOH is added and the mixture heated again, liberating NH<sub>3</sub>, which is passed into and absorbed by a known excess volume of standard acid. The unreacted acid is back-titrated against standard alkali; the acid actually neutralised by the ammonia gives the nitrogen content.</p><p><b>Formula:</b> %N = 1.4 × Molarity of acid × Volume of acid used by NH<sub>3</sub> (mL) / mass of compound (g).</p><p><b>Limitation:</b> nitrogen present as part of a ring (pyridine) or as a nitro/azo group is not converted to ammonium sulphate under these conditions, so it escapes estimation and gives a falsely low result. [Diagram: Kjeldahl flask with compound + conc. H<sub>2</sub>SO<sub>4</sub> heated → add NaOH, heat → NH<sub>3</sub> passed via delivery tube into a receiver flask containing standard acid.]</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain the following reactive intermediates with reference to their formation, hybridisation, geometry and relative stability order, giving one example of each: (i) carbocation (ii) carbanion (iii) free radical.",
+      "answer": "<p><b>(i) Carbocation:</b> formed by heterolytic fission, carbon retains 6 electrons and a positive charge, e.g. CH<sub>3</sub>Cl → CH<sub>3</sub><sup>+</sup> + Cl<sup>−</sup>. sp<sup>2</sup> hybridised, trigonal planar, empty p orbital. Stability: 3° > 2° > 1° > CH<sub>3</sub><sup>+</sup> (+I effect and hyperconjugation from adjacent alkyl groups).</p><p><b>(ii) Carbanion:</b> carbon retains both bonding electrons as a lone pair plus a negative charge, e.g. CH<sub>3</sub>–Br + base → CH<sub>3</sub><sup>−</sup>. sp<sup>3</sup> hybridised, pyramidal. Stability: CH<sub>3</sub><sup>−</sup> > 1° > 2° > 3°, the reverse of the carbocation order, since alkyl groups destabilise the electron-rich carbanion.</p><p><b>(iii) Free radical:</b> formed by homolytic fission, each fragment keeps one electron, e.g. Cl–Cl → Cl• + Cl•. Roughly sp<sup>2</sup>/near-planar, unpaired electron in a p orbital. Stability: 3° > 2° > 1° > •CH<sub>3</sub>, following the same +I/hyperconjugation reasoning as carbocations.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>A student is given an unknown organic solid that is known to sublime on heating and needs to identify the elements present in it. She first performs Lassaigne's test by fusing a small piece of the compound with sodium metal and extracting the fused mass with distilled water to obtain a clear extract. Portions of this extract are then used for individual element tests.<br>(i) Why must the sodium fusion tube be red hot before it is plunged into water?<br>(ii) The student boils a portion of the extract with FeSO<sub>4</sub>, acidifies with dilute H<sub>2</sub>SO<sub>4</sub> and adds a drop of FeCl<sub>3</sub>; a Prussian blue colouration appears. What does this indicate, and write the reaction species formed at the ionic level?<br>(iii) Which physical technique, distinct from the elemental test, would you use to purify this solid before analysis, given that it sublimes on heating?<br>(iv) If the extract also gave a black precipitate with lead acetate after acidification with acetic acid, what additional element is confirmed?",
+      "answer": "<p>(i) The tube must be red hot to ensure complete reaction of sodium with the compound and complete conversion of N, S, halogens (and P) into water-soluble sodium salts; plunging it hot into water also breaks the tube and disperses the fused mass fully.</p><p>(ii) It confirms nitrogen. Fusion converts organic N to NaCN; boiling with FeSO<sub>4</sub> gives sodium ferrocyanide, Na<sub>4</sub>[Fe(CN)<sub>6</sub>], which reacts with Fe<sup>3+</sup> to form ferric ferrocyanide (Prussian blue).</p><p>(iii) Sublimation — the solid is heated gently so it passes directly to vapour, leaving non-sublimable impurities behind, and the vapour is cooled to recover pure solid.</p><p>(iv) A black precipitate with lead acetate is lead sulphide, PbS, confirming sulphur is also present.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>The relative stability of reactive intermediates decides which product predominates in many organic reactions. Consider the carbocations formed when 2-bromo-2-methylpropane, 2-bromopropane and bromoethane each lose Br<sup>−</sup> to form a carbocation.<br>(i) Name the three carbocations formed (as primary/secondary/tertiary) and arrange them in decreasing order of stability.<br>(ii) Which two factors, other than the number of alkyl groups, help explain this stability order?<br>(iii) If instead each C–Br bond broke homolytically, what species would be formed, and would the same relative stability order still apply? Justify briefly.<br>(iv) Would the reaction of 2-bromo-2-methylpropane with water proceed faster via this carbocation route compared to bromoethane? Explain in one line.",
+      "answer": "<p>(i) Tertiary (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup> from 2-bromo-2-methylpropane; secondary (CH<sub>3</sub>)<sub>2</sub>CH<sup>+</sup> from 2-bromopropane; primary CH<sub>3</sub>CH<sub>2</sub><sup>+</sup> from bromoethane. Decreasing stability: (CH<sub>3</sub>)<sub>3</sub>C<sup>+</sup> > (CH<sub>3</sub>)<sub>2</sub>CH<sup>+</sup> > CH<sub>3</sub>CH<sub>2</sub><sup>+</sup>.</p><p>(ii) Hyperconjugation (more α-hydrogens available as alkyl substitution increases) alongside the +I electron-donation from alkyl groups.</p><p>(iii) Free radicals •C(CH<sub>3</sub>)<sub>3</sub>, •CH(CH<sub>3</sub>)<sub>2</sub>, •CH<sub>2</sub>CH<sub>3</sub> would form; the same 3° > 2° > 1° order still applies, since radicals are stabilised by the same +I effect and hyperconjugation as carbocations.</p><p>(iv) Yes — the far more stable tertiary carbocation forms with lower activation energy, so the S<sub>N</sub>1-type reaction of 2-bromo-2-methylpropane is faster than that of bromoethane.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The word root for a 5-carbon chain in IUPAC nomenclature is:",
+      "options": [
+        "but-",
+        "pent-",
+        "hex-",
+        "prop-"
+      ],
+      "answer_index": 1,
+      "explanation": "The word roots in order are meth(1), eth(2), prop(3), but(4), pent(5), hex(6), so a 5-carbon chain uses 'pent-'."
+    },
+    {
+      "q": "Which functional group has the highest priority for being chosen as the principal characteristic group?",
+      "options": [
+        "Alcohol (–OH)",
+        "Ketone (–CO–)",
+        "Carboxylic acid (–COOH)",
+        "Amine (–NH<sub>2</sub>)"
+      ],
+      "answer_index": 2,
+      "explanation": "In the IUPAC seniority order, carboxylic acid ranks above ester, amide, nitrile, aldehyde, ketone, alcohol and amine, so it is always chosen as the principal characteristic group when present."
+    },
+    {
+      "q": "A carbon-carbon triple bond consists of:",
+      "options": [
+        "Three σ bonds",
+        "One σ and two π bonds",
+        "Two σ and one π bond",
+        "Three π bonds"
+      ],
+      "answer_index": 1,
+      "explanation": "A triple bond is always one sigma bond plus two pi bonds, formed between two sp hybridised carbons."
+    },
+    {
+      "q": "Which of these species is electron-deficient and attacks electron-rich centres in a reaction?",
+      "options": [
+        "Nucleophile",
+        "Electrophile",
+        "Carbanion",
+        "Free radical"
+      ],
+      "answer_index": 1,
+      "explanation": "An electrophile ('electron-loving') is electron-deficient and seeks out electron-rich centres to attack, e.g. H<sup>+</sup>, carbocations, NO<sub>2</sub><sup>+</sup>."
+    },
+    {
+      "q": "Which of the following is a nucleophile?",
+      "options": [
+        "BF<sub>3</sub>",
+        "NO<sub>2</sub><sup>+</sup>",
+        "CN<sup>−</sup>",
+        "H<sup>+</sup>"
+      ],
+      "answer_index": 2,
+      "explanation": "CN<sup>−</sup> carries a lone pair and negative charge, making it electron-rich and able to attack electron-deficient centres — a nucleophile."
+    },
+    {
+      "q": "The stability order of free radicals (CH<sub>3</sub>)<sub>3</sub>C•, (CH<sub>3</sub>)<sub>2</sub>CH•, CH<sub>3</sub>CH<sub>2</sub>• and •CH<sub>3</sub> is:",
+      "options": [
+        "•CH<sub>3</sub> > CH<sub>3</sub>CH<sub>2</sub>• > (CH<sub>3</sub>)<sub>2</sub>CH• > (CH<sub>3</sub>)<sub>3</sub>C•",
+        "(CH<sub>3</sub>)<sub>3</sub>C• > (CH<sub>3</sub>)<sub>2</sub>CH• > CH<sub>3</sub>CH<sub>2</sub>• > •CH<sub>3</sub>",
+        "All four are equally stable",
+        "(CH<sub>3</sub>)<sub>3</sub>C• < (CH<sub>3</sub>)<sub>2</sub>CH• < CH<sub>3</sub>CH<sub>2</sub>• < •CH<sub>3</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "Free radicals follow the same stability order as carbocations (3° > 2° > 1° > methyl) because of +I effect and hyperconjugation from adjacent alkyl groups."
+    },
+    {
+      "q": "Which technique separates a mixture of two miscible liquids differing in boiling point by only about 10 K?",
+      "options": [
+        "Simple distillation",
+        "Fractional distillation",
+        "Steam distillation",
+        "Crystallisation"
+      ],
+      "answer_index": 1,
+      "explanation": "Simple distillation cannot cleanly separate liquids with close boiling points; fractional distillation, using a fractionating column for repeated vaporisation-condensation, is needed."
+    },
+    {
+      "q": "Vacuum (reduced pressure) distillation is used for liquids that:",
+      "options": [
+        "Are steam-volatile",
+        "Decompose at or near their normal boiling point",
+        "Sublime on heating",
+        "Are insoluble in all solvents"
+      ],
+      "answer_index": 1,
+      "explanation": "Lowering the pressure lowers the boiling point, allowing heat-sensitive liquids like glycerol to distil below their decomposition temperature."
+    },
+    {
+      "q": "In thin layer chromatography, the retardation factor R<sub>f</sub> is defined as:",
+      "options": [
+        "Distance moved by solvent / distance moved by component",
+        "Distance moved by component / distance moved by solvent front",
+        "Time taken by component / time taken by solvent",
+        "Mass of component / mass of adsorbent"
+      ],
+      "answer_index": 1,
+      "explanation": "R<sub>f</sub> is defined as the ratio of the distance travelled by the component to the distance travelled by the solvent front, and always lies between 0 and 1."
+    },
+    {
+      "q": "Sodium fusion extract gives a blood-red colouration with FeCl<sub>3</sub> (instead of Prussian blue) when both nitrogen and sulphur are present, because of the formation of:",
+      "options": [
+        "Sodium cyanide",
+        "Sodium thiocyanate",
+        "Sodium sulphide",
+        "Sodium ferrocyanide"
+      ],
+      "answer_index": 1,
+      "explanation": "When both N and S are present, sodium thiocyanate (NaSCN) forms instead of NaCN, and it gives a blood-red colour with FeCl<sub>3</sub>, which can mask the Prussian blue test unless excess sodium is used."
+    },
+    {
+      "q": "A compound gives a yellow precipitate insoluble in ammonium hydroxide when its Lassaigne extract is treated with dilute HNO<sub>3</sub> and AgNO<sub>3</sub>. This confirms the presence of:",
+      "options": [
+        "Chlorine",
+        "Bromine",
+        "Iodine",
+        "Sulphur"
+      ],
+      "answer_index": 2,
+      "explanation": "Silver iodide is a yellow precipitate insoluble in ammonium hydroxide, distinguishing iodine from chlorine (white ppt, soluble in NH<sub>4</sub>OH) and bromine (pale yellow, sparingly soluble)."
+    },
+    {
+      "q": "In the Carius method, sulphur present in an organic compound is finally estimated by weighing:",
+      "options": [
+        "AgCl",
+        "BaSO<sub>4</sub>",
+        "Mg<sub>2</sub>P<sub>2</sub>O<sub>7</sub>",
+        "(NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "Sulphur is oxidised to sulphuric acid by fuming HNO<sub>3</sub>, precipitated as insoluble barium sulphate with BaCl<sub>2</sub>, which is filtered, dried and weighed."
+    },
+    {
+      "q": "Which of the following statements about hyperconjugation is correct?",
+      "options": [
+        "It requires an attacking reagent to occur",
+        "It is also called no-bond resonance and involves σ C–H electrons",
+        "It only occurs in carbanions",
+        "It decreases with the number of α-hydrogens"
+      ],
+      "answer_index": 1,
+      "explanation": "Hyperconjugation, or no-bond resonance, is the delocalisation of σ C–H (or C–C) electrons into an adjacent empty/half-filled orbital or π system, and increases with the number of α-hydrogens available."
+    },
+    {
+      "q": "Which of the following pairs correctly shows a homolytic bond fission?",
+      "options": [
+        "CH<sub>3</sub>Br → CH<sub>3</sub><sup>+</sup> + Br<sup>−</sup>",
+        "Cl<sub>2</sub> → Cl• + Cl•",
+        "HCl → H<sup>+</sup> + Cl<sup>−</sup>",
+        "H<sub>2</sub>O → H<sup>+</sup> + OH<sup>−</sup>"
+      ],
+      "answer_index": 1,
+      "explanation": "Cl<sub>2</sub> → Cl• + Cl• is symmetrical bond breaking with one electron going to each fragment, the definition of homolytic fission; the others are heterolytic."
+    },
+    {
+      "q": "The general formula C<sub>n</sub>H<sub>2n−2</sub> represents:",
+      "options": [
+        "Alkanes",
+        "Alkenes",
+        "Alkynes",
+        "Cycloalkanes"
+      ],
+      "answer_index": 2,
+      "explanation": "Alkynes, with one C≡C triple bond, follow the general formula C<sub>n</sub>H<sub>2n−2</sub>."
+    }
+  ],
+  "common_mistakes": [
+    "Numbering the parent chain to give the lowest locant to a substituent instead of first to the principal characteristic group — the functional group locant always takes priority.",
+    "Applying the carbocation/free-radical stability order (3° > 2° > 1°) to carbanions as well — carbanion stability is exactly reversed (1° > 2° > 3°, methyl being most stable).",
+    "Confusing inductive and electromeric effects — writing 'temporary' for the inductive effect or 'permanent' for the electromeric effect; only resonance and inductive effects are permanent, electromeric is temporary and needs an attacking reagent.",
+    "Forgetting to acidify the Lassaigne extract with dilute HNO<sub>3</sub> before adding AgNO<sub>3</sub> for the halogen test, which lets residual CN<sup>−</sup>/S<sup>2−</sup> give a false precipitate.",
+    "Mixing up simple distillation, fractional distillation and steam distillation — each has a distinct principle (boiling point difference alone vs close boiling points needing a fractionating column vs steam-volatility) and using the wrong one loses marks even if the final answer 'sounds right'.",
+    "Writing the Kjeldahl formula with the wrong constant or forgetting that it does not apply to ring nitrogen, nitro or azo groups — this exception is a favourite short-answer question.",
+    "Drawing resonance structures with atoms moved instead of only electrons moved — resonance structures must have identical atomic positions and connectivity, differing only in the position of electrons.",
+    "Treating chain isomerism and position isomerism as the same thing — chain isomerism changes the carbon skeleton itself, while position isomerism keeps the skeleton and functional group but shifts the position of the group or unsaturation."
+  ],
+  "strategy": "<p>This chapter is 100% definitions, rules and mechanisms with almost no heavy numericals except the four estimation formulas (Dumas, Kjeldahl, Carius-halogen, Carius-sulphur), so treat it as a memory-plus-logic chapter rather than a calculation chapter.</p><p>Start with IUPAC nomenclature until you can name any structure and draw any name without hesitation — this skill is tested in every later organic chapter, not just this one. Next, master the three electronic effects (inductive, resonance, hyperconjugation) and the electromeric effect as a set, because at least one comparison question between them appears almost every year. Learn the two stability orders (carbocation/free-radical vs carbanion) side by side so you never mix them up under exam pressure.</p><p>For purification techniques, make a small table in your own notes: technique → principle → one example compound. This single table answers most 2–3 mark questions in this section. For the qualitative tests (Lassaigne's), write out the full chain for each element — compound → sodium fusion → extract → specific reagent → observation → conclusion — because partial answers lose marks even when the final conclusion is correct.</p><p>For the estimation numericals, practise each of the four formulas with at least two worked examples until the algebra is automatic; these numericals are a guaranteed 2–3 marks whenever they appear. Finally, revise resonance structures for phenol, aniline, nitrobenzene and carbonyl-adjacent carbanions specifically, since these are the standard 5-mark long-answer examples examiners reuse.</p>",
+  "revision_checklist": [
+    "I can state the priority order for choosing the principal characteristic group in IUPAC nomenclature.",
+    "I can name any given structure and draw the structure for any given IUPAC name up to 3 substituents.",
+    "I can list the four types of structural isomerism with one example each.",
+    "I know the difference between homolytic and heterolytic bond fission and what each produces.",
+    "I can state the stability order of carbocations, carbanions and free radicals, and explain why carbanions are reversed.",
+    "I can define inductive, resonance, hyperconjugation and electromeric effects and say which are permanent vs temporary.",
+    "I can draw resonance structures for phenol, aniline and nitrobenzene with correct curved arrows.",
+    "I know when to use simple distillation, fractional distillation, vacuum distillation, steam distillation, chromatography, crystallisation and sublimation.",
+    "I can explain Lassaigne's test and the specific confirmatory test for N, S, halogens and P.",
+    "I remember why HNO<sub>3</sub> is added before AgNO<sub>3</sub> in the halogen test.",
+    "I can write and apply the Dumas and Kjeldahl formulas for percentage nitrogen from given data.",
+    "I can write and apply the Carius method formulas for percentage halogen and percentage sulphur.",
+    "I know why the Kjeldahl method fails for ring nitrogen, nitro and azo compounds.",
+    "I can classify a given reaction as substitution, addition, elimination or rearrangement from the structures alone.",
+    "I can distinguish a nucleophile from an electrophile and give two examples of each."
+  ],
+  "videos": []
+}

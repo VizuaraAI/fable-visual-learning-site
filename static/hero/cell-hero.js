@@ -1,0 +1,241 @@
+/* Visual Learning — home page hero: a dive into a living cell (three.js r128, needs shared.js). */
+function initCellHero() {
+  if (!window.THREE || !window.VL) return;
+  if (!document.getElementById('cx-gl') || window.__vlCell) return;
+  const canvas = document.getElementById('cx-gl');
+  const api = VL.setup(canvas, { bg: 0x03111a, fog: { color: 0x03111a, density: 0.012 }, bloom: { strength: 0.55, radius: 0.45, threshold: 0.8 }, near: 0.02, far: 300, exposure: 1.0, dpr: 1.5 });
+  if (!api) { document.getElementById('cx-nogl').classList.add('show'); return; }
+  const { scene, camera } = api;
+  const V3 = (x, y, z) => new THREE.Vector3(x, y, z);
+  const rnd = VL.rng(11);
+  const mats = [];
+
+  /* ---- layout ---- */
+  const R = 10, C = V3(0, 0, 0);
+  const N = V3(1.2, 0.4, -0.8), RN = 3.0;
+  const O = V3(-0.55, 0.28, 0.8).normalize();           // where the membrane opens
+  const P = V3(-0.3, 0.45, 0.84).normalize();           // the nuclear pore we dive through
+  const perp = V3(-O.z, 0, O.x).normalize();
+  const M1 = O.clone().multiplyScalar(6.4).addScaledVector(perp, 1.1);  // the mitochondrion we orbit
+  const GPOS = V3(4.6, -1.6, 4.4);                       // Golgi
+  const D = N.clone().addScaledVector(P, 0.6);           // DNA
+  const A = V3(-P.z, 0, P.x).normalize();                // DNA axis
+  const arr = v => [v.x, v.y, v.z];
+  const along = (dir, k, off = [0, 0, 0]) => arr(dir.clone().multiplyScalar(k).add(V3(off[0], off[1], off[2])));
+
+  /* ---- lights ---- */
+  scene.add(new THREE.HemisphereLight(0x5fe0ff, 0x1a0a2a, 0.5));
+  const key = new THREE.PointLight(0x9fe8ff, 1.1, 90); key.position.set(14, 16, 18); scene.add(key);
+  const fill = new THREE.PointLight(0xff6ad5, 0.6, 90); fill.position.set(-16, -8, 10); scene.add(fill);
+  const lamp = new THREE.PointLight(0xbff4ff, 0.45, 9); scene.add(lamp);
+
+  /* ---- the fluid outside ---- */
+  const outer = VL.points(2600, (i, c) => {
+    const r = 13 + rnd() * 60, th = rnd() * Math.PI * 2, ph = Math.acos(rnd() * 2 - 1);
+    c.setHSL(0.52 + rnd() * 0.1, 0.7, 0.55 + rnd() * 0.3);
+    return [r * Math.sin(ph) * Math.cos(th), r * Math.sin(ph) * Math.sin(th), r * Math.cos(ph), 0.5 + rnd() * 1.8];
+  }, { size: 0.9, opacity: 0.3, drift: 0.7, scale: 260, maxSize: 34 });
+  scene.add(outer);
+  const bgMat = VL.glassMat({ color: 0x0b3a48, rim: 0x3fb8d8, alpha: 0.06, rimPow: 3.0, wobble: 0.3, wobbleFreq: 0.35 });
+  mats.push(bgMat);
+  for (let i = 0; i < 8; i++) {
+    const r = 5 + rnd() * 9; let pos;
+    do { const d = 30 + rnd() * 42, th = rnd() * Math.PI * 2, ph = Math.acos(rnd() * 2 - 1); pos = V3(d * Math.sin(ph) * Math.cos(th), d * Math.sin(ph) * Math.sin(th), d * Math.cos(ph)); }
+    while (pos.clone().normalize().dot(O) > 0.75);
+    const m = new THREE.Mesh(new THREE.SphereGeometry(r, 40, 28), bgMat); m.position.copy(pos); m.renderOrder = -5; scene.add(m);
+  }
+
+  /* ---- membrane, two layers, with an opening ---- */
+  const memMat = VL.glassMat({ color: 0x0f5f6e, rim: 0x86f0ff, alpha: 0.16, rimPow: 2.2, wobble: 0.28, wobbleFreq: 0.45, openEdge: 0.80, lightB: 0xff5fc8 });
+  memMat.u.uOpenDir.value.copy(O);
+  const membrane = new THREE.Mesh(new THREE.SphereGeometry(R, 128, 96), memMat); membrane.renderOrder = -1; scene.add(membrane);
+  const memMat2 = VL.glassMat({ color: 0x0a3f4c, rim: 0xff8ae0, alpha: 0.08, rimPow: 3.0, wobble: 0.28, wobbleFreq: 0.45, openEdge: 0.80 });
+  memMat2.u.uOpenDir.value.copy(O);
+  const membrane2 = new THREE.Mesh(new THREE.SphereGeometry(R - 0.45, 96, 72), memMat2); membrane2.renderOrder = -2; scene.add(membrane2);
+  mats.push(memMat, memMat2);
+  {
+    const g = new THREE.SphereGeometry(0.075, 8, 6);
+    const m = new THREE.MeshStandardMaterial({ color: 0x4fb3cf, emissive: 0x0e4a5c, emissiveIntensity: 0.5, roughness: 0.55 });
+    const inst = new THREE.InstancedMesh(g, m, 1500); const M = new THREE.Matrix4(); const v = new THREE.Vector3();
+    let k = 0;
+    while (k < 1500) {
+      v.set(rnd() * 2 - 1, rnd() * 2 - 1, rnd() * 2 - 1).normalize();
+      const d = v.dot(O); if (d < 0.765 || d > 0.83) continue;
+      v.multiplyScalar(k % 2 ? R + 0.02 : R - 0.42); M.makeTranslation(v.x, v.y, v.z); inst.setMatrixAt(k, M); k++;
+    }
+    scene.add(inst);
+  }
+
+  /* ---- cytoplasm ---- */
+  const cyto = VL.points(1700, (i, c) => {
+    const r = Math.cbrt(rnd()) * (R - 0.8), th = rnd() * Math.PI * 2, ph = Math.acos(rnd() * 2 - 1);
+    c.setHSL(0.5 + rnd() * 0.12, 0.6, 0.7);
+    return [r * Math.sin(ph) * Math.cos(th), r * Math.sin(ph) * Math.sin(th), r * Math.cos(ph), 0.3 + rnd() * 0.9];
+  }, { size: 0.42, opacity: 0.32, drift: 0.25, scale: 240, maxSize: 28 });
+  scene.add(cyto);
+
+  /* ---- mitochondria ---- */
+  const ell = new THREE.SphereGeometry(1, 48, 32);
+  const mitoMat = VL.glassMat({ color: 0x7a2a12, rim: 0xffa25c, alpha: 0.32, rimPow: 2.0, wobble: 0.05, wobbleFreq: 2.0, emissive: 0x200602, shade: 1.0, lightB: 0xffb070 });
+  const cristaMat = new THREE.MeshStandardMaterial({ color: 0xffb070, emissive: 0xff7a2a, emissiveIntensity: 0.8, roughness: 0.5 });
+  mats.push(mitoMat);
+  const mitos = [];
+  function mito(pos, len, rot, still) {
+    const g = new THREE.Group(); g.position.copy(pos); g.rotation.set(rot[0], rot[1], rot[2]);
+    const body = new THREE.Mesh(ell, mitoMat); body.scale.set(len, 0.42, 0.42); body.renderOrder = 5; g.add(body);
+    const pts = []; const n = 16;
+    for (let i = 0; i <= n; i++) { const x = -len * 0.82 + (i / n) * len * 1.64; const y = (i % 2 ? 1 : -1) * 0.25 * (1 - Math.pow(x / (len * 0.92), 2)); pts.push(V3(x, y, (rnd() - 0.5) * 0.14)); }
+    g.add(new THREE.Mesh(VL.tube(pts, 0.032, 140, 6, false, 0.6), cristaMat));
+    scene.add(g); mitos.push({ g, spin: still ? 0.03 : (rnd() - 0.5) * 0.25, bob: rnd() * Math.PI * 2, still });
+  }
+  mito(M1, 1.25, [0.2, 0.9, 0.15], true);
+  for (let i = 0; i < 9; i++) {
+    let p; do { const r = 3 + rnd() * 5.5, th = rnd() * Math.PI * 2, ph = Math.acos(rnd() * 2 - 1); p = V3(r * Math.sin(ph) * Math.cos(th), r * Math.sin(ph) * Math.sin(th), r * Math.cos(ph)); }
+    while (p.distanceTo(N) < RN + 1.6 || p.distanceTo(M1) < 3 || p.distanceTo(GPOS) < 2.6);
+    mito(p, 0.9 + rnd() * 0.6, [rnd() * 3, rnd() * 3, rnd() * 3], false);
+  }
+
+  /* ---- endoplasmic reticulum + ribosomes ---- */
+  const erMat = VL.glassMat({ color: 0x3b1f7a, rim: 0xb894ff, alpha: 0.2, rimPow: 2.2, wobble: 0.05, wobbleFreq: 1.2 });
+  mats.push(erMat);
+  const erFns = [];
+  function erSheet(r0, phase, h, span) {
+    const f = (u, v, out) => { const th = phase + u * span; const r = r0 + 0.35 * Math.sin(u * 7.5 + v * 4); const y = (v - 0.5) * h + 0.28 * Math.sin(u * 9.0); out.set(N.x + r * Math.cos(th), N.y + y, N.z + r * Math.sin(th)); };
+    erFns.push(f);
+    const m = new THREE.Mesh(new THREE.ParametricGeometry(f, 90, 14), erMat); m.renderOrder = 4; scene.add(m);
+  }
+  erSheet(4.4, 0.2, 2.2, 3.4); erSheet(5.1, 2.6, 1.8, 3.0); erSheet(4.7, 4.4, 2.6, 2.6);
+  {
+    const g = new THREE.SphereGeometry(0.06, 6, 5);
+    const m = new THREE.MeshStandardMaterial({ color: 0xc9b6ff, emissive: 0x6a48c8, emissiveIntensity: 0.4, roughness: 0.6 });
+    const inst = new THREE.InstancedMesh(g, m, 2400); const M = new THREE.Matrix4(); const v = new THREE.Vector3();
+    for (let i = 0; i < 2400; i++) {
+      if (i < 900) { erFns[i % 3](rnd(), rnd(), v); v.x += (rnd() - 0.5) * 0.1; v.y += (rnd() - 0.5) * 0.1; }
+      else { do { const r = 2 + rnd() * 6.8, th = rnd() * Math.PI * 2, ph = Math.acos(rnd() * 2 - 1); v.set(r * Math.sin(ph) * Math.cos(th), r * Math.sin(ph) * Math.sin(th), r * Math.cos(ph)); } while (v.distanceTo(N) < RN + 0.4); }
+      M.makeTranslation(v.x, v.y, v.z); inst.setMatrixAt(i, M);
+    }
+    scene.add(inst);
+  }
+
+  /* ---- Golgi + vesicles ---- */
+  const golgiMat = VL.glassMat({ color: 0x7a4a10, rim: 0xd9a860, alpha: 0.26, rimPow: 2.2, emissive: 0x1a0d00, lightB: 0xffb070 });
+  mats.push(golgiMat);
+  const golgi = new THREE.Group(); golgi.position.copy(GPOS); golgi.rotation.set(0.4, 0.6, 0.2);
+  for (let i = 0; i < 6; i++) { const d = new THREE.Mesh(ell, golgiMat); d.scale.set(1.6 - i * 0.1, 0.085, 1.0 - i * 0.05); d.position.y = i * 0.27 - 0.7; d.rotation.x = (i - 2.5) * 0.05; d.renderOrder = 5; golgi.add(d); }
+  scene.add(golgi);
+  const vesMat = VL.glassMat({ color: 0x7a4a10, rim: 0xe0b878, alpha: 0.25, rimPow: 2.5, lightB: 0xffb070 });
+  mats.push(vesMat);
+  const vesicles = [];
+  for (let i = 0; i < 40; i++) {
+    const s = 0.1 + rnd() * 0.16; const m = new THREE.Mesh(ell, vesMat); m.scale.setScalar(s); m.renderOrder = 5;
+    const dir = V3(rnd() - 0.5, rnd() - 0.5, rnd() - 0.5).normalize(); const ph = rnd() * 6; scene.add(m); vesicles.push({ m, dir, ph, speed: 0.08 + rnd() * 0.1 });
+  }
+
+  /* ---- nucleus ---- */
+  const nucMat = VL.glassMat({ color: 0x2a1560, rim: 0xc39bff, alpha: 0.3, rimPow: 2.4, wobble: 0.08, wobbleFreq: 0.9, openEdge: 0.86, lightB: 0x5fe0ff });
+  nucMat.u.uOpenDir.value.copy(P);
+  const nucleus = new THREE.Mesh(new THREE.SphereGeometry(RN, 96, 72), nucMat); nucleus.position.copy(N); nucleus.renderOrder = 6; scene.add(nucleus);
+  mats.push(nucMat);
+  {
+    const g = new THREE.TorusGeometry(0.14, 0.04, 8, 16);
+    const m = new THREE.MeshStandardMaterial({ color: 0xa88fe0, emissive: 0x5a3ab0, emissiveIntensity: 0.25, roughness: 0.6 });
+    const pts = VL.fib(190, RN).filter(p => p.clone().normalize().dot(P) < 0.84);
+    const inst = new THREE.InstancedMesh(g, m, pts.length); const M = new THREE.Matrix4(); const q = new THREE.Quaternion(); const up = V3(0, 0, 1); const one = V3(1, 1, 1);
+    pts.forEach((p, i) => { q.setFromUnitVectors(up, p.clone().normalize()); M.compose(p.clone().add(N), q, one); inst.setMatrixAt(i, M); });
+    scene.add(inst);
+    const big = new THREE.Mesh(new THREE.TorusGeometry(1.05, 0.09, 12, 48), new THREE.MeshStandardMaterial({ color: 0xb9a3ee, emissive: 0x7a4fd6, emissiveIntensity: 0.4, roughness: 0.5 }));
+    big.position.copy(N).addScaledVector(P, RN); big.quaternion.setFromUnitVectors(up, P); scene.add(big);
+  }
+  const nucleolus = new THREE.Mesh(ell, VL.glassMat({ color: 0x6a2aa0, rim: 0xd985c8, alpha: 0.5, rimPow: 1.8, emissive: 0x2a0a40, glow: 0.08 }));
+  nucleolus.scale.setScalar(0.62); nucleolus.position.copy(N).add(V3(0.7, -0.5, -0.9)); scene.add(nucleolus); mats.push(nucleolus.material);
+  const chromMat = new THREE.MeshStandardMaterial({ color: 0xb98cff, emissive: 0x7a3ff2, emissiveIntensity: 0.3, roughness: 0.5 });
+  const Dn = D.clone().sub(N);
+  for (let k = 0; k < 7; k++) {
+    const pts = []; for (let i = 0; i < 14; i++) { let p; do { p = V3(rnd() * 2 - 1, rnd() * 2 - 1, rnd() * 2 - 1).multiplyScalar(2.3); } while (p.length() > 2.4 || p.distanceTo(Dn) < 1.9 || p.clone().normalize().dot(P) > 0.6); pts.push(p.add(N)); }
+    scene.add(new THREE.Mesh(VL.tube(pts, 0.022, 300, 6, false, 0.7), chromMat));
+  }
+
+  /* ---- DNA ---- */
+  const dna = new THREE.Group(); dna.position.copy(D); dna.quaternion.setFromUnitVectors(V3(0, 1, 0), A); scene.add(dna);
+  {
+    const helix = ph => { const pts = []; for (let i = 0; i <= 240; i++) { const y = -2.2 + (i / 240) * 4.4; const a = ph + y * Math.PI * 2; pts.push(V3(0.3 * Math.cos(a), y, 0.3 * Math.sin(a))); } return pts; };
+    const sA = new THREE.MeshStandardMaterial({ color: 0xffc46b, emissive: 0xff8a2a, emissiveIntensity: 0.3, roughness: 0.35, metalness: 0.15 });
+    const sB = new THREE.MeshStandardMaterial({ color: 0xff8f7a, emissive: 0xff3d5a, emissiveIntensity: 0.3, roughness: 0.35, metalness: 0.15 });
+    dna.add(new THREE.Mesh(VL.tube(helix(0), 0.045, 480, 8, false, 0.5), sA));
+    dna.add(new THREE.Mesh(VL.tube(helix(Math.PI), 0.045, 480, 8, false, 0.5), sB));
+    const g = new THREE.CylinderGeometry(0.02, 0.02, 0.29, 6, 1); g.translate(0, 0.145, 0);
+    const m = new THREE.MeshStandardMaterial({ color: 0xffffff, emissive: 0xffffff, emissiveIntensity: 0.15, roughness: 0.5 });
+    const inst = new THREE.InstancedMesh(g, m, 88); const M = new THREE.Matrix4(); const q = new THREE.Quaternion(); const one = V3(1, 1, 1); const col = new THREE.Color();
+    const pairs = [[0x5fe0ff, 0x3f7cff], [0x6dff9a, 0xffc46b]];
+    for (let i = 0; i < 44; i++) {
+      const y = -2.15 + i * 0.1; const a = y * Math.PI * 2; const c = V3(0, y, 0); const pa = V3(0.3 * Math.cos(a), y, 0.3 * Math.sin(a)); const pb = V3(-0.3 * Math.cos(a), y, -0.3 * Math.sin(a));
+      const pr = pairs[Math.floor(rnd() * 2)]; const flip = rnd() < 0.5;
+      [[pa, pr[flip ? 1 : 0]], [pb, pr[flip ? 0 : 1]]].forEach(([p, cc], j) => { q.setFromUnitVectors(V3(0, 1, 0), p.clone().sub(c).normalize()); M.compose(c, q, one); inst.setMatrixAt(i * 2 + j, M); inst.setColorAt(i * 2 + j, col.set(cc)); });
+    }
+    dna.add(inst);
+  }
+
+  /* ---- camera script ---- */
+  const nucA = Math.atan2(P.x, P.z);
+  const keys = [
+    { t: 0, pos: along(O, 46, [7, 3, 0]), look: arr(C), fov: 40 },
+    { t: 5.5, pos: along(O, 23, [2, 1.2, 0]), look: along(O, 3), fov: 42 },
+    { t: 9, pos: along(O, 12.4), look: along(O, 7), fov: 50 },
+    { t: 11.5, pos: along(O, 9.3), look: arr(M1), fov: 58, ease: 'sine' },
+    { t: 14.5, orbit: { c: arr(M1), r: 2.6, a: 0.4, y: 0.9 }, look: arr(M1), fov: 50 },
+    { t: 19.5, orbit: { c: arr(M1), r: 2.2, a: 2.3, y: 0.4 }, look: arr(M1), fov: 50, ease: 'sine' },
+    { t: 23, pos: [0.5, 1.5, 7.6], look: [3.0, -0.8, 3.5], fov: 52 },
+    { t: 26.5, orbit: { c: arr(N), r: 6.4, a: nucA + 1.5, y: 1.8 }, look: arr(N), fov: 48 },
+    { t: 30.5, orbit: { c: arr(N), r: 5.2, a: nucA, y: 1.6 }, look: arr(N), fov: 46, ease: 'sine' },
+    { t: 33.5, pos: arr(N.clone().addScaledVector(P, 3.35)), look: arr(D), fov: 52 },
+    { t: 36, orbit: { c: arr(D), r: 1.16, a: nucA, y: 0.58 }, look: arr(D), fov: 50 },
+    { t: 40, orbit: { c: arr(D), r: 1.5, a: nucA + 1.5, y: 0.7 }, look: arr(D), fov: 46, ease: 'sine' },
+    { t: 43.5, pos: along(O, 46, [7, 3, 0]), look: arr(C), fov: 40, ease: 'in' },
+  ];
+  const T = 43.5;
+  const director = new VL.Director(keys);
+
+  const beats = [
+    { t: 0, kicker: 'Class 9 · Biology · The fundamental unit of life', title: 'This is a cell.', body: 'A few hundredths of a millimetre across, magnified until it fills the screen. Everything alive is made of these.' },
+    { t: 6, kicker: 'The cell membrane', title: 'The membrane opens.', body: 'A double layer of lipid molecules, with the water-loving heads facing out. Everything the cell takes in passes through here.' },
+    { t: 11, kicker: 'Mitochondria', title: 'Inside: the mitochondria.', body: 'This is where glucose is broken down to release energy, which is why a muscle cell has so many of them.' },
+    { t: 21, kicker: 'Endoplasmic reticulum · Golgi apparatus', title: 'The reticulum, and the Golgi.', body: 'The reticulum makes proteins and lipids. The Golgi packs them into vesicles and sends them where they are needed.' },
+    { t: 26, kicker: 'The nucleus', title: 'The nucleus.', body: 'Its membrane has pores. Instructions go out through them, and the DNA itself stays inside.' },
+    { t: 34, kicker: 'DNA', title: 'And in it, the DNA.', body: 'Two strands wound around each other, with the whole set of instructions for building this cell, and every other cell in the body.' },
+    { t: 40.5, kicker: 'Visual Learning', title: 'Every chapter is made like this.', body: 'Class 9 to 12, Physics, Chemistry and Biology, in 3D and in Hindi, on YouTube and on this site.' },
+  ];
+  const caps = VL.captions(document.getElementById('cx-beats'), beats);
+  let t = 0;
+  const dotsUI = VL.dots(document.getElementById('cx-dots'), beats, T, v => { t = v; });
+  const h1 = document.getElementById('cx-h1');
+  const cam = { pos: new THREE.Vector3(), look: new THREE.Vector3(), fov: 50 };
+  const tmp = new THREE.Vector3();
+
+  let heroVisible = true;
+  if ('IntersectionObserver' in window) new IntersectionObserver(es => { heroVisible = es[0].isIntersecting; }).observe(canvas);
+  const ticker = VL.loop((dt, now) => {
+    if (!heroVisible && dt > 0) return;
+    t = (t + dt) % T;
+    director.at(t, cam);
+    camera.position.copy(cam.pos); camera.lookAt(cam.look); camera.fov = cam.fov; camera.updateProjectionMatrix();
+    VL.mouseStep(dt); const amp = 0.02 * cam.pos.distanceTo(cam.look); camera.translateX(VL.mouse.x * amp); camera.translateY(VL.mouse.y * amp * 0.6);
+    lamp.position.copy(camera.position);
+    const open1 = VL.smooth(6.5, 9.5, t) * (1 - VL.smooth(42.3, 42.9, t));
+    memMat.u.uOpen.value = memMat2.u.uOpen.value = open1;
+    nucMat.u.uOpen.value = VL.smooth(30.5, 33.2, t) * (1 - VL.smooth(41.5, 42.0, t));
+    const dC = camera.position.distanceTo(C), dN = camera.position.distanceTo(N);
+    scene.fog.density = dN < RN ? 0.05 : dC < R ? 0.04 : 0.012;
+    mats.forEach(m => m.u.uTime.value = now);
+    outer.u.uTime.value = cyto.u.uTime.value = now;
+    mitos.forEach(m => { m.g.rotation.y += m.spin * dt; m.g.rotation.x += m.spin * 0.4 * dt; if (!m.still) m.g.position.y += Math.sin(now * 0.5 + m.bob) * 0.0012; });
+    vesicles.forEach(v => { const k = (now * v.speed + v.ph) % 3; tmp.copy(GPOS).addScaledVector(v.dir, 1.2 + k * 0.8); tmp.y += Math.sin(now + v.ph) * 0.1; v.m.position.copy(tmp); v.m.material.u.uGlow.value = 0.04; });
+    dna.rotation.y += dt * 0.35;
+    nucleolus.material.u.uGlow.value = 0.08 + 0.05 * Math.sin(now * 1.3);
+    caps.update(t); dotsUI.update(t);
+    h1.classList.toggle('show', t < 5.5 || t > 40.5);
+    api.render();
+  }, api);
+
+  window.__vlCell = { seek: v => { t = v; ticker.tick(0); }, tick: dt => ticker.tick(dt), get t() { return t; }, api };
+}
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', initCellHero); else initCellHero();

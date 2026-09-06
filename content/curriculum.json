@@ -1,0 +1,729 @@
+{
+ "classes": [
+  {
+   "class": 9,
+   "label": "Class 9",
+   "subjects": [
+    {
+     "subject": "Science",
+     "slug": "science",
+     "chapters": [
+      [
+       "matter-in-our-surroundings",
+       "Matter in Our Surroundings",
+       "yDDhLEJlm3Q",
+       {
+        "v": 12
+       }
+      ],
+      [
+       "is-matter-around-us-pure",
+       "Is Matter Around Us Pure?",
+       "uZjAdodCefo",
+       {
+        "v": 11
+       }
+      ],
+      [
+       "atoms-and-molecules",
+       "Atoms and Molecules",
+       "lwzq6p2O0os",
+       {
+        "v": 12
+       }
+      ],
+      [
+       "structure-of-the-atom",
+       "Structure of the Atom",
+       "UJ3BMz48lEE",
+       {
+        "v": 11
+       }
+      ],
+      [
+       "the-fundamental-unit-of-life",
+       "The Fundamental Unit of Life",
+       "n3x7gczAISE",
+       {
+        "v": 15
+       }
+      ],
+      [
+       "tissues",
+       "Tissues",
+       "LPjttsaZm5g",
+       {
+        "v": 16
+       }
+      ],
+      [
+       "motion",
+       "Motion",
+       null
+      ],
+      [
+       "force-and-laws-of-motion",
+       "Force and Laws of Motion",
+       "Q2E8PGUuONY",
+       {
+        "v": 13
+       }
+      ],
+      [
+       "gravitation",
+       "Gravitation",
+       "04PLOCCnJjo",
+       {
+        "v": 14
+       }
+      ],
+      [
+       "work-and-energy",
+       "Work and Energy",
+       null
+      ],
+      [
+       "sound",
+       "Sound",
+       null
+      ],
+      [
+       "improvement-in-food-resources",
+       "Improvement in Food Resources",
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "class": 10,
+   "label": "Class 10",
+   "subjects": [
+    {
+     "subject": "Science",
+     "slug": "science",
+     "chapters": [
+      [
+       "chemical-reactions-and-equations",
+       "Chemical Reactions and Equations",
+       "WjGWoA9mEr4",
+       {
+        "v": 13,
+        "c": 1
+       }
+      ],
+      [
+       "acids-bases-and-salts",
+       "Acids, Bases and Salts",
+       "xB__6i7q9mE",
+       {
+        "v": 14
+       }
+      ],
+      [
+       "metals-and-non-metals",
+       "Metals and Non-metals",
+       "HwtrvZOlfss",
+       {
+        "v": 16
+       }
+      ],
+      [
+       "carbon-and-its-compounds",
+       "Carbon and its Compounds",
+       "dTSr41q3Kuo",
+       {
+        "v": 15,
+        "c": 3
+       }
+      ],
+      [
+       "life-processes",
+       "Life Processes",
+       null
+      ],
+      [
+       "control-and-coordination",
+       "Control and Coordination",
+       "ucC9-Jmyj2Q",
+       {
+        "v": 13,
+        "c": 2
+       }
+      ],
+      [
+       "how-do-organisms-reproduce",
+       "How do Organisms Reproduce?",
+       "9MG4BEEYz-A",
+       {
+        "v": 11,
+        "c": 3
+       }
+      ],
+      [
+       "heredity",
+       "Heredity",
+       "D6u8ZCRE1iQ",
+       {
+        "v": 16
+       }
+      ],
+      [
+       "light-reflection-and-refraction",
+       "Light: Reflection and Refraction",
+       "wfOziZ3AWQ0",
+       {
+        "v": 14,
+        "c": 4
+       }
+      ],
+      [
+       "the-human-eye-and-the-colourful-world",
+       "The Human Eye and the Colourful World",
+       "U8KipTkeH9Q",
+       {
+        "v": 11,
+        "c": 2
+       }
+      ],
+      [
+       "electricity",
+       "Electricity",
+       "PMdicnPf0u8",
+       {
+        "v": 12
+       }
+      ],
+      [
+       "magnetic-effects-of-electric-current",
+       "Magnetic Effects of Electric Current",
+       "rMEq31F6kYU",
+       {
+        "v": 22,
+        "c": 4
+       }
+      ],
+      [
+       "our-environment",
+       "Our Environment",
+       "FAPfEhOWkdY",
+       {
+        "v": 11
+       }
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "class": 11,
+   "label": "Class 11",
+   "subjects": [
+    {
+     "subject": "Physics",
+     "slug": "physics",
+     "chapters": [
+      [
+       "units-and-measurements",
+       "Units and Measurements",
+       null
+      ],
+      [
+       "motion-in-a-straight-line",
+       "Motion in a Straight Line",
+       "eqZy-ielD1U",
+       {
+        "v": 12
+       }
+      ],
+      [
+       "motion-in-a-plane",
+       "Motion in a Plane",
+       "layV0wd-6sE",
+       {
+        "v": 11
+       }
+      ],
+      [
+       "laws-of-motion",
+       "Laws of Motion",
+       "aBEhb3LEYf4",
+       {
+        "v": 25,
+        "c": 7
+       }
+      ],
+      [
+       "work-energy-and-power",
+       "Work, Energy and Power",
+       "KtHqOtCVAvc",
+       {
+        "v": 28,
+        "c": 3
+       }
+      ],
+      [
+       "system-of-particles-and-rotational-motion",
+       "System of Particles and Rotational Motion",
+       null,
+       {
+        "c": 1
+       }
+      ],
+      [
+       "gravitation",
+       "Gravitation",
+       "jW2_H6-_72A",
+       {
+        "v": 10
+       }
+      ],
+      [
+       "mechanical-properties-of-solids",
+       "Mechanical Properties of Solids",
+       "L7gOIFgYl2k",
+       {
+        "v": 11
+       }
+      ],
+      [
+       "mechanical-properties-of-fluids",
+       "Mechanical Properties of Fluids",
+       "7JMM54STTno",
+       {
+        "v": 24,
+        "c": 1
+       }
+      ],
+      [
+       "thermal-properties-of-matter",
+       "Thermal Properties of Matter",
+       null,
+       {
+        "c": 5
+       }
+      ],
+      [
+       "thermodynamics",
+       "Thermodynamics",
+       null
+      ],
+      [
+       "kinetic-theory",
+       "Kinetic Theory",
+       null
+      ],
+      [
+       "oscillations",
+       "Oscillations",
+       null
+      ],
+      [
+       "waves",
+       "Waves",
+       null
+      ]
+     ]
+    },
+    {
+     "subject": "Chemistry",
+     "slug": "chemistry",
+     "chapters": [
+      [
+       "some-basic-concepts-of-chemistry",
+       "Some Basic Concepts of Chemistry",
+       null
+      ],
+      [
+       "structure-of-atom",
+       "Structure of Atom",
+       null
+      ],
+      [
+       "classification-of-elements-and-periodicity-in-properties",
+       "Classification of Elements and Periodicity in Properties",
+       null
+      ],
+      [
+       "chemical-bonding-and-molecular-structure",
+       "Chemical Bonding and Molecular Structure",
+       null
+      ],
+      [
+       "thermodynamics",
+       "Thermodynamics",
+       null
+      ],
+      [
+       "equilibrium",
+       "Equilibrium",
+       null
+      ],
+      [
+       "redox-reactions",
+       "Redox Reactions",
+       null
+      ],
+      [
+       "organic-chemistry-some-basic-principles-and-techniques",
+       "Organic Chemistry: Some Basic Principles and Techniques",
+       null
+      ],
+      [
+       "hydrocarbons",
+       "Hydrocarbons",
+       null
+      ]
+     ]
+    },
+    {
+     "subject": "Biology",
+     "slug": "biology",
+     "chapters": [
+      [
+       "the-living-world",
+       "The Living World",
+       null
+      ],
+      [
+       "biological-classification",
+       "Biological Classification",
+       null
+      ],
+      [
+       "plant-kingdom",
+       "Plant Kingdom",
+       null
+      ],
+      [
+       "animal-kingdom",
+       "Animal Kingdom",
+       null
+      ],
+      [
+       "morphology-of-flowering-plants",
+       "Morphology of Flowering Plants",
+       null
+      ],
+      [
+       "anatomy-of-flowering-plants",
+       "Anatomy of Flowering Plants",
+       null
+      ],
+      [
+       "structural-organisation-in-animals",
+       "Structural Organisation in Animals",
+       null
+      ],
+      [
+       "cell-the-unit-of-life",
+       "Cell: The Unit of Life",
+       null
+      ],
+      [
+       "biomolecules",
+       "Biomolecules",
+       null
+      ],
+      [
+       "cell-cycle-and-cell-division",
+       "Cell Cycle and Cell Division",
+       null
+      ],
+      [
+       "photosynthesis-in-higher-plants",
+       "Photosynthesis in Higher Plants",
+       null
+      ],
+      [
+       "respiration-in-plants",
+       "Respiration in Plants",
+       null
+      ],
+      [
+       "plant-growth-and-development",
+       "Plant Growth and Development",
+       null
+      ],
+      [
+       "breathing-and-exchange-of-gases",
+       "Breathing and Exchange of Gases",
+       null
+      ],
+      [
+       "body-fluids-and-circulation",
+       "Body Fluids and Circulation",
+       null
+      ],
+      [
+       "excretory-products-and-their-elimination",
+       "Excretory Products and their Elimination",
+       null
+      ],
+      [
+       "locomotion-and-movement",
+       "Locomotion and Movement",
+       null
+      ],
+      [
+       "neural-control-and-coordination",
+       "Neural Control and Coordination",
+       null
+      ],
+      [
+       "chemical-coordination-and-integration",
+       "Chemical Coordination and Integration",
+       null
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "class": 12,
+   "label": "Class 12",
+   "subjects": [
+    {
+     "subject": "Physics",
+     "slug": "physics",
+     "chapters": [
+      [
+       "electric-charges-and-fields",
+       "Electric Charges and Fields",
+       "nN9n3quiJto",
+       {
+        "v": 35,
+        "c": 13
+       }
+      ],
+      [
+       "electrostatic-potential-and-capacitance",
+       "Electrostatic Potential and Capacitance",
+       "FAzhttHWaMU",
+       {
+        "v": 57,
+        "c": 17
+       }
+      ],
+      [
+       "current-electricity",
+       "Current Electricity",
+       null
+      ],
+      [
+       "moving-charges-and-magnetism",
+       "Moving Charges and Magnetism",
+       null
+      ],
+      [
+       "magnetism-and-matter",
+       "Magnetism and Matter",
+       null
+      ],
+      [
+       "electromagnetic-induction",
+       "Electromagnetic Induction",
+       null
+      ],
+      [
+       "alternating-current",
+       "Alternating Current",
+       null
+      ],
+      [
+       "electromagnetic-waves",
+       "Electromagnetic Waves",
+       null
+      ],
+      [
+       "ray-optics-and-optical-instruments",
+       "Ray Optics and Optical Instruments",
+       null
+      ],
+      [
+       "wave-optics",
+       "Wave Optics",
+       null
+      ],
+      [
+       "dual-nature-of-radiation-and-matter",
+       "Dual Nature of Radiation and Matter",
+       null
+      ],
+      [
+       "atoms",
+       "Atoms",
+       null
+      ],
+      [
+       "nuclei",
+       "Nuclei",
+       null
+      ],
+      [
+       "semiconductor-electronics",
+       "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+       null
+      ]
+     ]
+    },
+    {
+     "subject": "Chemistry",
+     "slug": "chemistry",
+     "chapters": [
+      [
+       "solutions",
+       "Solutions",
+       "VFjUOO7ngCE",
+       {
+        "v": 17
+       }
+      ],
+      [
+       "electrochemistry",
+       "Electrochemistry",
+       "p8W1bJs6Gaw",
+       {
+        "v": 21
+       }
+      ],
+      [
+       "chemical-kinetics",
+       "Chemical Kinetics",
+       "x9x53P8iP_g",
+       {
+        "v": 12,
+        "c": 4
+       }
+      ],
+      [
+       "the-d-and-f-block-elements",
+       "The d- and f-Block Elements",
+       "hRRdT6WURpM",
+       {
+        "v": 50
+       }
+      ],
+      [
+       "coordination-compounds",
+       "Coordination Compounds",
+       "ohDTuZhMkR4",
+       {
+        "v": 8,
+        "c": 2
+       }
+      ],
+      [
+       "haloalkanes-and-haloarenes",
+       "Haloalkanes and Haloarenes",
+       "-uXGT0qUArg",
+       {
+        "v": 52,
+        "c": 16
+       }
+      ],
+      [
+       "alcohols-phenols-and-ethers",
+       "Alcohols, Phenols and Ethers",
+       "ggzzmtqGgls",
+       {
+        "v": 41,
+        "c": 15
+       }
+      ],
+      [
+       "aldehydes-ketones-and-carboxylic-acids",
+       "Aldehydes, Ketones and Carboxylic Acids",
+       null,
+       {
+        "c": 17
+       }
+      ],
+      [
+       "amines",
+       "Amines",
+       null
+      ],
+      [
+       "biomolecules",
+       "Biomolecules",
+       null
+      ]
+     ]
+    },
+    {
+     "subject": "Biology",
+     "slug": "biology",
+     "chapters": [
+      [
+       "sexual-reproduction-in-flowering-plants",
+       "Sexual Reproduction in Flowering Plants",
+       null
+      ],
+      [
+       "human-reproduction",
+       "Human Reproduction",
+       null
+      ],
+      [
+       "reproductive-health",
+       "Reproductive Health",
+       null
+      ],
+      [
+       "principles-of-inheritance-and-variation",
+       "Principles of Inheritance and Variation",
+       null
+      ],
+      [
+       "molecular-basis-of-inheritance",
+       "Molecular Basis of Inheritance",
+       null
+      ],
+      [
+       "evolution",
+       "Evolution",
+       null
+      ],
+      [
+       "human-health-and-disease",
+       "Human Health and Disease",
+       null
+      ],
+      [
+       "microbes-in-human-welfare",
+       "Microbes in Human Welfare",
+       null
+      ],
+      [
+       "biotechnology-principles-and-processes",
+       "Biotechnology: Principles and Processes",
+       null
+      ],
+      [
+       "biotechnology-and-its-applications",
+       "Biotechnology and its Applications",
+       null
+      ],
+      [
+       "organisms-and-populations",
+       "Organisms and Populations",
+       null
+      ],
+      [
+       "ecosystem",
+       "Ecosystem",
+       null
+      ],
+      [
+       "biodiversity-and-conservation",
+       "Biodiversity and Conservation",
+       null
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

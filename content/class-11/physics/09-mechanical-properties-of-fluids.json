@@ -1,0 +1,1104 @@
+{
+  "class": 11,
+  "subject": "Physics",
+  "chapter_no": 9,
+  "slug": "mechanical-properties-of-fluids",
+  "title": "Mechanical Properties of Fluids",
+  "summary": "This chapter extends the idea of mechanical equilibrium and motion from rigid bodies to fluids: how pressure builds up and transmits, why objects float, how fluids flow smoothly or turbulently, why a spinning ball swerves, and why water climbs a thin glass tube. It has no Class 11 board exam of its own, but it is tested in the school final and forms the base for Class 12 topics, JEE and NEET.",
+  "exam_profile": {
+    "weightage": "No Class 11 CBSE board exam exists for this chapter, but it carries a solid share (typically 6-10 marks) of the school final/annual exam paper under the Mechanics-of-Fluids unit, and it is a recurring, high-yield chapter for JEE Main and NEET (2-3 questions almost every year).",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Formula-based (Bernoulli, Stokes' law, excess pressure, Reynolds number) or a conceptual trap (angle of contact, viscosity vs temperature)."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Tests whether a correct fact is being explained by the correct reason, e.g. insects walking on water, blood pressure at the feet."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "State a law, define a term, or give one application (Pascal's law, Bernoulli's theorem, angle of contact)."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "A short derivation or a compare/contrast (streamline vs turbulent flow, equation of continuity, capillary rise)."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Full derivation with diagram: Bernoulli's equation, terminal velocity via Stokes' law, or excess pressure in a drop/bubble."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A real situation (aircraft wing, hydraulic brake, syringe, capillary tube) analysed using two or three formulas from the chapter."
+      }
+    ],
+    "hot_topics": [
+      "Pascal's law and the hydraulic lift/brake",
+      "Bernoulli's theorem and its derivation",
+      "Applications of Bernoulli's theorem: venturimeter, speed of efflux, dynamic lift, atomiser",
+      "Equation of continuity",
+      "Viscosity, Stokes' law and terminal velocity",
+      "Reynolds number and critical velocity",
+      "Surface tension, surface energy and excess pressure in drops/bubbles",
+      "Capillary rise and angle of contact"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "9.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>Earlier mechanics — Newton's laws, work-energy, rotational motion — dealt with rigid bodies, whose shape and size do not change under force. A fluid (liquid or gas) has no fixed shape and takes the shape of its container. This chapter studies fluids at rest (pressure, Pascal's law, buoyancy), fluids in motion (streamline flow, the equation of continuity, Bernoulli's theorem), and two properties from intermolecular forces inside the fluid: viscosity, which resists relative motion between flowing layers, and surface tension, which makes a liquid's free surface behave like a stretched elastic membrane.</p><p>These are not textbook abstractions. Pascal's law runs the hydraulic brake in every car. Bernoulli's theorem explains an aircraft wing's lift. Viscosity decides how a raindrop reaches a safe falling speed instead of hitting the ground at free-fall speed. Surface tension is why small insects walk on a pond without sinking.</p>",
+      "formulas": [],
+      "tip": "This section is rarely tested directly, but examiners use it to frame one-mark 'which property explains this everyday observation' questions across the whole chapter."
+    },
+    {
+      "heading": "9.2 Pressure",
+      "pyq_years": [
+        "CBSE 2020"
+      ],
+      "body": "<p>Pressure is the normal force exerted by a fluid per unit area: P = F/A. It is a scalar — at any point inside a fluid at rest, pressure is the same in every direction (proved by the force balance on a small wedge-shaped fluid element, which forces P<sub>x</sub> = P<sub>y</sub> = P<sub>z</sub>). This differs from a solid, where a force acts only along a fixed direction.</p><p>For a fluid at rest under gravity, pressure increases with depth because each layer supports the weight above it. Balancing forces on a thin horizontal slab gives P = P<sub>0</sub> + ρgh, where P<sub>0</sub> is the pressure at the free surface and h is the depth below it. This is why a dam wall is thicker at the bottom, and why a diver's ears hurt more the deeper she goes.</p><p><b>Pascal's law</b> follows: a change in pressure applied to an enclosed, incompressible fluid is transmitted undiminished to every point of the fluid and the container's walls — the principle behind the hydraulic lift and brake, where a small force on a narrow piston produces a much larger force on a wide piston, since P = F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub>.</p><p><b>Archimedes' principle:</b> a body partly or wholly immersed in a fluid experiences an upward buoyant force equal to the weight of fluid it displaces. A body floats when this force can equal its own weight; it sinks if even fully immersed the displaced fluid weighs less than the body.</p>",
+      "formulas": [
+        {
+          "expr": "P = F/A",
+          "where": [
+            [
+              "P",
+              "pressure (Pa or N m<sup>−2</sup>)"
+            ],
+            [
+              "F",
+              "force applied normally"
+            ],
+            [
+              "A",
+              "area"
+            ]
+          ]
+        },
+        {
+          "expr": "P = P<sub>0</sub> + ρgh",
+          "where": [
+            [
+              "P<sub>0</sub>",
+              "pressure at the free surface"
+            ],
+            [
+              "ρ",
+              "density of the fluid"
+            ],
+            [
+              "h",
+              "depth below the free surface"
+            ]
+          ]
+        },
+        {
+          "expr": "F<sub>2</sub> = (A<sub>2</sub>/A<sub>1</sub>) F<sub>1</sub>",
+          "where": [
+            [
+              "F<sub>1</sub>, F<sub>2</sub>",
+              "forces on the narrow and wide pistons of a hydraulic lift"
+            ],
+            [
+              "A<sub>1</sub>, A<sub>2</sub>",
+              "their areas"
+            ]
+          ]
+        }
+      ],
+      "tip": "A very common trap: pressure does NOT depend on the shape or the amount of liquid, only on the depth below the surface and the density — this is the basis of the 'hydrostatic paradox'."
+    },
+    {
+      "heading": "9.3 Streamline Flow",
+      "pyq_years": [],
+      "body": "<p>When a fluid flows so that every particle passing a given point follows the same path as the particle before it, the flow is <b>streamline</b> (or laminar). No two streamlines can cross — a particle at the crossing point would need two velocities at once. A bundle of streamlines forms a <b>tube of flow</b>, which no fluid crosses. Beyond a certain critical speed, the orderly layers break into eddies and whorls — <b>turbulent flow</b>.</p><p>For streamline flow of an incompressible fluid through a pipe of varying cross-section, mass entering any section per second equals mass leaving another section per second; since density is constant, this gives the <b>equation of continuity</b>: A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>, i.e. Av is constant along a tube of flow. This is why water speeds up when a hose nozzle narrows, and a river flows faster through a gorge than a plain.</p>",
+      "formulas": [
+        {
+          "expr": "A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub> = constant",
+          "where": [
+            [
+              "A",
+              "cross-sectional area of the tube of flow"
+            ],
+            [
+              "v",
+              "flow speed at that section"
+            ]
+          ]
+        }
+      ],
+      "tip": "Av = constant means velocity is inversely proportional to area — narrower section, faster flow. Examiners love pairing this with Bernoulli's theorem in the same question."
+    },
+    {
+      "heading": "9.4 Bernoulli's Principle",
+      "pyq_years": [
+        "CBSE 2019",
+        "CBSE 2023"
+      ],
+      "body": "<p>Bernoulli's theorem is the work-energy theorem applied to a flowing, non-viscous, incompressible fluid. Take a fluid element flowing steadily through a pipe of varying cross-section and height, between a section of area A<sub>1</sub>, height h<sub>1</sub>, speed v<sub>1</sub>, pressure P<sub>1</sub>, and a second section A<sub>2</sub>, h<sub>2</sub>, v<sub>2</sub>, P<sub>2</sub>. In time Δt, the pressure forces do net work (P<sub>1</sub> − P<sub>2</sub>)ΔV on the fluid of volume ΔV = A<sub>1</sub>v<sub>1</sub>Δt = A<sub>2</sub>v<sub>2</sub>Δt (equation of continuity). This work changes the fluid's kinetic and potential energy: ΔKE = ½Δm(v<sub>2</sub><sup>2</sup> − v<sub>1</sub><sup>2</sup>), ΔPE = Δmg(h<sub>2</sub> − h<sub>1</sub>), where Δm = ρΔV. The work-energy theorem then gives (P<sub>1</sub> − P<sub>2</sub>)ΔV = ½Δm(v<sub>2</sub><sup>2</sup> − v<sub>1</sub><sup>2</sup>) + Δmg(h<sub>2</sub> − h<sub>1</sub>); dividing by ΔV and rearranging gives Bernoulli's equation: P + ½ρv<sup>2</sup> + ρgh = constant along a streamline.</p><p>Three applications follow. <b>Speed of efflux (Torricelli's law):</b> for a wide tank with a small hole at depth h, Bernoulli's equation gives v = √(2gh), the same as free fall through height h. <b>Venturimeter:</b> a pipe constriction speeds up flow there, which lowers pressure there — measuring the drop gives the flow rate. <b>Dynamic lift:</b> faster air over an aerofoil's curved upper surface means lower pressure above than below, giving a net upward force; the same unequal-speed idea (Magnus effect) curves a spinning ball.</p>",
+      "formulas": [
+        {
+          "expr": "P + ½ρv<sup>2</sup> + ρgh = constant",
+          "where": [
+            [
+              "P",
+              "pressure at a point on the streamline"
+            ],
+            [
+              "ρ",
+              "fluid density"
+            ],
+            [
+              "v",
+              "flow speed there"
+            ],
+            [
+              "h",
+              "height above a reference level"
+            ]
+          ]
+        },
+        {
+          "expr": "v = √(2gh)",
+          "where": [
+            [
+              "v",
+              "speed of efflux from a hole at depth h below the free surface"
+            ]
+          ]
+        }
+      ],
+      "tip": "State the two assumptions explicitly for full marks: the fluid is non-viscous (no energy lost to friction) and incompressible; Bernoulli's equation is the mechanical-energy-per-unit-volume conservation statement for such a fluid."
+    },
+    {
+      "heading": "9.5 Viscosity",
+      "pyq_years": [
+        "CBSE 2022"
+      ],
+      "body": "<p>Real fluids offer internal friction between adjacent layers moving at different speeds — this property is <b>viscosity</b>. Consider a fluid flowing over a fixed surface: the layer in contact with it is at rest, and successive layers above move faster, so velocity varies with distance from the surface (a velocity gradient dv/dx). Newton's law of viscosity gives the tangential force needed to maintain this sliding as F = ηA(dv/dx), where η is the <b>coefficient of viscosity</b> and A is the contact area between layers; its SI unit is Pa s. Viscosity of liquids falls as temperature rises (thermal agitation weakens the cohesive forces causing the friction), while viscosity of gases rises with temperature (molecular momentum transfer between layers increases).</p><p><b>Stokes' law</b> gives the viscous drag on a small sphere of radius r moving at speed v through a fluid of viscosity η: F = 6πηrv. A sphere falling through a viscous fluid speeds up until this drag plus the buoyant force exactly balance its weight, after which it falls at a constant <b>terminal velocity</b>: v<sub>t</sub> = 2r<sup>2</sup>(ρ − σ)g/(9η), where ρ and σ are the densities of the sphere and the fluid. This is why a raindrop reaches the ground at a safe, steady speed instead of accelerating all the way down.</p><p><b>Poiseuille's equation</b> gives the volume of viscous fluid flowing per second through a narrow tube of radius r and length l under a pressure difference P: V = πPr<sup>4</sup>/(8ηl). The fourth-power dependence on radius means even a small narrowing of a blood vessel drastically cuts blood flow — the medical reason atherosclerosis is dangerous.</p>",
+      "formulas": [
+        {
+          "expr": "F = ηA(dv/dx)",
+          "where": [
+            [
+              "η",
+              "coefficient of viscosity (Pa s)"
+            ],
+            [
+              "A",
+              "area of the fluid layer"
+            ],
+            [
+              "dv/dx",
+              "velocity gradient perpendicular to flow"
+            ]
+          ]
+        },
+        {
+          "expr": "F = 6πηrv",
+          "where": [
+            [
+              "F",
+              "viscous drag on a sphere (Stokes' law)"
+            ],
+            [
+              "r",
+              "radius of the sphere"
+            ],
+            [
+              "v",
+              "its speed relative to the fluid"
+            ]
+          ]
+        },
+        {
+          "expr": "v<sub>t</sub> = 2r<sup>2</sup>(ρ − σ)g/(9η)",
+          "where": [
+            [
+              "v<sub>t</sub>",
+              "terminal velocity"
+            ],
+            [
+              "ρ",
+              "density of the sphere"
+            ],
+            [
+              "σ",
+              "density of the fluid"
+            ]
+          ]
+        },
+        {
+          "expr": "V = πPr<sup>4</sup>/(8ηl)",
+          "where": [
+            [
+              "V",
+              "volume flow rate through a tube (Poiseuille's equation)"
+            ],
+            [
+              "P",
+              "pressure difference across the tube"
+            ],
+            [
+              "l",
+              "length of the tube"
+            ]
+          ]
+        }
+      ],
+      "tip": "In the terminal-velocity derivation, always include the buoyant force (weight of displaced fluid) along with the viscous drag — dropping it is the single most common mark-losing error."
+    },
+    {
+      "heading": "9.6 Reynolds Number",
+      "pyq_years": [],
+      "body": "<p>Whether a flow stays streamline or turns turbulent depends on a dimensionless combination of the flow variables called the <b>Reynolds number</b>, Re = ρvd/η, where ρ is fluid density, v is the average flow speed, d is a characteristic length (pipe diameter, for flow through a tube), and η is the coefficient of viscosity. Re compares the inertial forces (which produce eddies) to the viscous forces (which damp them). Flow through a pipe stays streamline for Re below about 2000, is transitional up to about 3000, and is turbulent above that. The flow speed at Re ≈ 2000 is the <b>critical speed</b>.</p><p>Reynolds number explains everyday observations: smoke from an incense stick flows smoothly at first and breaks into swirls as its speed increases; blood flow becomes turbulent (a detectable murmur) if a vessel narrows; and aircraft/car designers test scale models in wind tunnels, since matching the Reynolds number reproduces the full-size flow pattern in a small model.</p>",
+      "formulas": [
+        {
+          "expr": "Re = ρvd/η",
+          "where": [
+            [
+              "Re",
+              "Reynolds number (dimensionless)"
+            ],
+            [
+              "d",
+              "characteristic length, e.g. pipe diameter"
+            ]
+          ]
+        }
+      ],
+      "tip": "Re is dimensionless — a common one-mark question asks you to show this by substituting the SI units of ρ, v, d and η."
+    },
+    {
+      "heading": "9.7 Surface Tension: Surface Energy and Surface Tension",
+      "pyq_years": [
+        "CBSE 2021"
+      ],
+      "body": "<p>A molecule inside a liquid is pulled equally in all directions by neighbours, so the net cohesive force on it is zero. A molecule at the free surface has liquid molecules only below and around it, not above, so it feels a net inward pull. Bringing a molecule to the surface needs work against this pull, so surface molecules have extra potential energy. The free surface, at constant temperature, tends to minimise this extra energy, i.e. minimise its area — why an isolated drop is spherical (least area for a given volume) and why a stretched liquid film behaves like a taut elastic sheet.</p><p><b>Surface energy</b> is the extra potential energy per unit area of the liquid surface. <b>Surface tension</b> T is the force per unit length acting along the surface, tangential to it, tending to pull it taut: T = F/l. Considering a rectangular film on a wire frame with a sliding wire, and equating the work done stretching it to the rise in surface energy, shows surface energy per unit area equals surface tension numerically: W = T·ΔA. Surface tension (N m<sup>−1</sup>) falls as temperature rises, becoming zero at the critical temperature.</p>",
+      "formulas": [
+        {
+          "expr": "T = F/l",
+          "where": [
+            [
+              "T",
+              "surface tension (N m<sup>−1</sup>)"
+            ],
+            [
+              "F",
+              "force along the surface"
+            ],
+            [
+              "l",
+              "length over which it acts"
+            ]
+          ]
+        },
+        {
+          "expr": "W = T·ΔA",
+          "where": [
+            [
+              "W",
+              "work done / increase in surface energy"
+            ],
+            [
+              "ΔA",
+              "increase in surface area"
+            ]
+          ]
+        }
+      ],
+      "tip": "Remember a soap film has two free surfaces (front and back), so the force needed to hold a film of length l in equilibrium is F = 2Tl, not Tl — this factor of 2 is a very common slip."
+    },
+    {
+      "heading": "9.8 Angle of Contact",
+      "pyq_years": [],
+      "body": "<p>Where a liquid surface meets a solid, it meets at a definite <b>angle of contact</b> (θ), measured inside the liquid between the tangent to the liquid surface at the contact point and the solid surface. Its value depends on the relative strength of the <b>cohesive force</b> (between molecules of the same liquid) and the <b>adhesive force</b> (between liquid and solid molecules). If adhesion dominates, the liquid wets the solid and spreads, giving an acute angle (θ &lt; 90°) — water on clean glass has θ ≈ 0°, meniscus concave. If cohesion dominates, the liquid beads up, giving an obtuse angle (θ &gt; 90°) — mercury on glass has θ ≈ 140°, meniscus convex.</p><p>Angle of contact decides whether a liquid rises or falls in a capillary tube, and can be changed by an impurity: detergent in water lowers both surface tension and the angle of contact, letting soapy water spread into narrow crevices in cloth fibres — why detergents clean better than plain water.</p>",
+      "formulas": [],
+      "tip": "Water wets glass, mercury does not — this single fact is tested repeatedly as an assertion-reason or one-mark question, usually alongside 'why is the meniscus of water concave and that of mercury convex'."
+    },
+    {
+      "heading": "9.9 Drops and Bubbles",
+      "pyq_years": [
+        "CBSE 2020"
+      ],
+      "body": "<p>Because a curved liquid surface behaves like a stretched membrane, the pressure just inside it exceeds the pressure just outside — the <b>excess pressure</b>. For a spherical liquid drop of radius r, equating the work done by surface tension in a small expansion dr to the work done by the excess pressure (P·4πr<sup>2</sup>dr = T·8πr dr) gives the excess pressure inside a drop: P = 2T/r. The same holds for a spherical air bubble trapped inside a liquid, since it too has only one curved liquid surface.</p><p>A soap bubble in air has two liquid surfaces (outer and inner, both ≈radius r), so the same derivation doubles the result: the excess pressure inside a soap bubble is P = 4T/r. Smaller drops/bubbles always have larger excess pressure — why, when two soap bubbles of different sizes are joined by a tube, the smaller one shrinks and blows air into the larger, not the reverse.</p>",
+      "formulas": [
+        {
+          "expr": "P = 2T/r",
+          "where": [
+            [
+              "P",
+              "excess pressure inside a liquid drop or an air bubble inside a liquid"
+            ],
+            [
+              "r",
+              "radius of the drop/bubble"
+            ]
+          ]
+        },
+        {
+          "expr": "P = 4T/r",
+          "where": [
+            [
+              "P",
+              "excess pressure inside a soap bubble in air (two surfaces)"
+            ]
+          ]
+        }
+      ],
+      "tip": "The excess-pressure derivation (equating work by surface tension to work by pressure during a small expansion) is a favourite 5-mark long-answer question — practise it with the diagram of a bubble expanding from r to r + dr."
+    },
+    {
+      "heading": "9.10 Capillary Rise",
+      "pyq_years": [
+        "CBSE 2018",
+        "CBSE 2023"
+      ],
+      "body": "<p>When a capillary is dipped into water, water rises up the tube; dipped into mercury, mercury is depressed below the outer level. This <b>capillarity</b> follows from surface tension and the meniscus curvature. Inside a narrow tube, the liquid surface curves into roughly a hemispherical meniscus of radius R, related to the tube's radius r and angle of contact θ by r = R cosθ. Because the meniscus is curved, the pressure just below it is less than atmospheric pressure by 2T/R — this deficit pushes liquid up the tube until the weight of the risen column restores the balance.</p><p>Equating the excess pressure 2T/R = 2T cosθ/r to the hydrostatic pressure ρgh of the risen column gives h = 2T cosθ/(ρgr). For water in clean glass, θ ≈ 0° so cosθ ≈ 1 and the liquid rises; for mercury, θ &gt; 90° so cosθ is negative, giving a depression, exactly as observed. Rise is inversely proportional to the tube's radius — a finer tube rises more — which is how water reaches the top of tall trees through narrow xylem vessels, and how a wick draws up liquid.</p>",
+      "formulas": [
+        {
+          "expr": "h = 2T cosθ/(ρgr)",
+          "where": [
+            [
+              "h",
+              "height of capillary rise (or depression)"
+            ],
+            [
+              "θ",
+              "angle of contact"
+            ],
+            [
+              "r",
+              "radius of the capillary tube"
+            ],
+            [
+              "ρ",
+              "density of the liquid"
+            ]
+          ]
+        }
+      ],
+      "tip": "Always mention 'for the same liquid and tube, h is measured from the bottom of the meniscus' and 'h ∝ 1/r' — both are standard marking-scheme points."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Pressure",
+      "definition": "Normal force exerted by a fluid per unit area; a scalar, SI unit pascal (Pa = N m<sup>−2</sup>)."
+    },
+    {
+      "term": "Pascal's law",
+      "definition": "A pressure change applied to an enclosed fluid at rest is transmitted undiminished to every point of the fluid and the container's walls."
+    },
+    {
+      "term": "Atmospheric pressure",
+      "definition": "Pressure from the weight of the air column above a point; standard value 1.013 × 10<sup>5</sup> Pa at sea level."
+    },
+    {
+      "term": "Archimedes' principle",
+      "definition": "A body immersed in a fluid experiences an upward buoyant force equal to the weight of fluid it displaces."
+    },
+    {
+      "term": "Streamline (laminar) flow",
+      "definition": "Flow where every particle passing a point follows the path of the particle before it; no two streamlines cross."
+    },
+    {
+      "term": "Turbulent flow",
+      "definition": "Disordered flow above a critical speed, where fluid layers mix through eddies instead of moving in order."
+    },
+    {
+      "term": "Equation of continuity",
+      "definition": "For steady flow of an incompressible fluid, A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub> — area × speed is constant."
+    },
+    {
+      "term": "Bernoulli's principle",
+      "definition": "For streamline flow of a non-viscous, incompressible fluid, P + ½ρv<sup>2</sup> + ρgh is constant along a streamline."
+    },
+    {
+      "term": "Viscosity",
+      "definition": "The property by which a fluid resists relative motion between its layers, via an internal tangential force."
+    },
+    {
+      "term": "Coefficient of viscosity (η)",
+      "definition": "Tangential force per unit area needed for unit velocity gradient between fluid layers; SI unit Pa s."
+    },
+    {
+      "term": "Stokes' law",
+      "definition": "Viscous drag on a small sphere moving slowly through a fluid: F = 6πηrv."
+    },
+    {
+      "term": "Terminal velocity",
+      "definition": "Constant maximum speed of a body falling through a viscous fluid, when weight minus buoyant force is balanced by viscous drag."
+    },
+    {
+      "term": "Reynolds number (Re)",
+      "definition": "Dimensionless number, Re = ρvd/η, predicting streamline (low Re) or turbulent (high Re) flow."
+    },
+    {
+      "term": "Surface tension",
+      "definition": "Force per unit length along a liquid's free surface, tending to minimise its area; SI unit N m<sup>−1</sup>."
+    },
+    {
+      "term": "Surface energy",
+      "definition": "Extra potential energy per unit area of surface molecules compared with those inside; numerically equal to surface tension."
+    },
+    {
+      "term": "Angle of contact",
+      "definition": "Angle, inside the liquid, between the tangent to its surface at the contact point and the solid surface — set by cohesive vs adhesive forces."
+    },
+    {
+      "term": "Capillarity",
+      "definition": "Rise or depression of a liquid in a narrow tube, caused by surface tension acting on the curved meniscus."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Pressure",
+      "expr": "P = F/A",
+      "note": "SI unit pascal (Pa); scalar"
+    },
+    {
+      "name": "Pressure at depth h",
+      "expr": "P = P<sub>0</sub> + ρgh",
+      "note": "P<sub>0</sub> = pressure at the free surface"
+    },
+    {
+      "name": "Hydraulic lift (Pascal's law)",
+      "expr": "F<sub>2</sub> = (A<sub>2</sub>/A<sub>1</sub>) F<sub>1</sub>",
+      "note": "small force on narrow piston, large force on wide piston"
+    },
+    {
+      "name": "Equation of continuity",
+      "expr": "A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>",
+      "note": "valid for steady flow of an incompressible fluid"
+    },
+    {
+      "name": "Bernoulli's equation",
+      "expr": "P + ½ρv<sup>2</sup> + ρgh = constant",
+      "note": "along a streamline, for non-viscous incompressible flow"
+    },
+    {
+      "name": "Speed of efflux (Torricelli's law)",
+      "expr": "v = √(2gh)",
+      "note": "hole at depth h below the free surface of a wide, open tank"
+    },
+    {
+      "name": "Newton's law of viscosity",
+      "expr": "F = ηA(dv/dx)",
+      "note": "η in Pa s; dv/dx is the velocity gradient"
+    },
+    {
+      "name": "Stokes' law",
+      "expr": "F = 6πηrv",
+      "note": "drag on a small sphere of radius r moving at speed v"
+    },
+    {
+      "name": "Terminal velocity",
+      "expr": "v<sub>t</sub> = 2r<sup>2</sup>(ρ − σ)g/(9η)",
+      "note": "ρ = density of sphere, σ = density of fluid"
+    },
+    {
+      "name": "Poiseuille's equation",
+      "expr": "V = πPr<sup>4</sup>/(8ηl)",
+      "note": "volume flow rate through a tube of length l, radius r, under pressure difference P"
+    },
+    {
+      "name": "Reynolds number",
+      "expr": "Re = ρvd/η",
+      "note": "streamline below ≈2000, turbulent above ≈3000"
+    },
+    {
+      "name": "Surface tension",
+      "expr": "T = F/l",
+      "note": "N m<sup>−1</sup>; equals surface energy per unit area"
+    },
+    {
+      "name": "Excess pressure in a drop / bubble in liquid",
+      "expr": "P = 2T/r",
+      "note": "single liquid surface"
+    },
+    {
+      "name": "Excess pressure in a soap bubble",
+      "expr": "P = 4T/r",
+      "note": "two liquid surfaces (inner + outer)"
+    },
+    {
+      "name": "Capillary rise",
+      "expr": "h = 2T cosθ/(ρgr)",
+      "note": "negative h for θ > 90° (mercury) means depression, not rise"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Hydraulic lift (Pascal's law)",
+      "how_to_draw": "Draw a U-shaped closed vessel filled with liquid: a narrow piston of area A<sub>1</sub> on the left with a small force F<sub>1</sub>, a wide piston of area A<sub>2</sub> on the right with a large force F<sub>2</sub> (e.g. a car). Label both areas and forces, and write P = F<sub>1</sub>/A<sub>1</sub> = F<sub>2</sub>/A<sub>2</sub>."
+    },
+    {
+      "title": "Bernoulli's theorem set-up",
+      "how_to_draw": "Draw a horizontal pipe narrowing from a wide section (A<sub>1</sub>, h<sub>1</sub>) to a narrow section (A<sub>2</sub>, h<sub>2</sub>), fluid flowing at speeds v<sub>1</sub> and v<sub>2</sub>. Mark P<sub>1</sub> and P<sub>2</sub> with small manometer tubes (lower level at the narrow, fast section shows lower pressure). Label the reference height line."
+    },
+    {
+      "title": "Aerofoil / aircraft-wing dynamic lift",
+      "how_to_draw": "Draw an aerofoil cross-section (curved top, flatter bottom) with streamlines closer together above (faster flow) and more spread below (slower flow). Mark P<sub>upper</sub> (lower) above and P<sub>lower</sub> (higher) below, and an upward arrow labelled 'lift' = (P<sub>lower</sub> − P<sub>upper</sub>) × Area."
+    },
+    {
+      "title": "Terminal velocity of a sphere falling through a viscous fluid",
+      "how_to_draw": "Draw a small sphere inside a jar of viscous liquid with three arrows: weight mg down, buoyant force F<sub>b</sub> up, viscous drag F = 6πηrv up. Label mg = F<sub>b</sub> + 6πηrv<sub>t</sub> at terminal velocity."
+    },
+    {
+      "title": "Capillary rise with meniscus and angle of contact",
+      "how_to_draw": "Draw a narrow capillary dipped into a beaker of water, risen to height h above the outer level. Zoom into the top to show the concave meniscus meeting the glass at angle θ, with surface-tension force T and its vertical component T cosθ supporting the column."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "9.1",
+      "q": "Explain why the blood pressure in humans is greater at the feet than at the brain.",
+      "a": "<p>Blood is a fluid and follows P = P<sub>0</sub> + ρgh, h measured downward from the heart. The feet are well below the heart, so the blood column between heart and feet adds a large ρgh term there. The brain is above the heart, so its blood pressure is reduced instead. This is also why standing for long can make the feet swell.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.2",
+      "q": "Explain why the angle of contact of mercury with glass is obtuse, while that of water with glass is acute.",
+      "a": "<p>Angle of contact depends on the relative strength of the cohesive force (between molecules of the same liquid) and the adhesive force (between liquid and solid). For water on glass, adhesion is stronger, so water spreads and wets the surface, giving an acute angle (θ ≈ 0°) and concave meniscus. For mercury on glass, the strong metallic cohesion between mercury atoms dominates, so mercury beads up and does not wet the glass, giving an obtuse angle (θ ≈ 140°) and convex meniscus.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.3",
+      "q": "Explain why a small liquid drop takes a spherical shape, but bigger drops of the same liquid tend to be flattened.",
+      "a": "<p>Surface tension minimises the surface area of a liquid for a given volume, and a sphere has the smallest area for a given volume — so left to surface tension alone, a drop is spherical. This depends on comparing the surface-tension force (∝ radius r) with the drop's weight (∝ volume, r<sup>3</sup>). For a small drop, weight is negligible next to the surface-tension force, so it stays spherical. For a bigger drop, weight grows far faster, and gravity flattens it.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.4",
+      "q": "A 50 kg girl wearing high-heeled shoes balances on a single heel of area 1 cm<sup>2</sup>. What is the pressure exerted by the heel on the horizontal floor? (Take g = 9.8 m s<sup>−2</sup>.)",
+      "a": "<p>Force on the floor, F = mg = 50 × 9.8 = 490 N.</p><p>Area, A = 1 cm<sup>2</sup> = 1 × 10<sup>−4</sup> m<sup>2</sup>.</p><p>Pressure, P = F/A = 490/(1 × 10<sup>−4</sup>) = 4.9 × 10<sup>6</sup> Pa.</p><p>This is nearly 50 times atmospheric pressure — which is why high heels can dent a soft wooden floor while flat shoes do not.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.5",
+      "q": "A hydraulic automobile lift is used to lift a car of mass 3000 kg. The cross-sectional area of the piston carrying the load is 425 cm<sup>2</sup>. What maximum pressure would the smaller piston have to bear? (Take g = 9.8 m s<sup>−2</sup>.)",
+      "a": "<p>By Pascal's law, the pressure is transmitted undiminished, so the smaller piston must bear the same pressure as the larger, load-bearing piston.</p><p>Force on the larger piston, F = mg = 3000 × 9.8 = 29400 N.</p><p>Area, A = 425 cm<sup>2</sup> = 425 × 10<sup>−4</sup> m<sup>2</sup> = 0.0425 m<sup>2</sup>.</p><p>Pressure, P = F/A = 29400/0.0425 ≈ 6.92 × 10<sup>5</sup> Pa.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.6",
+      "q": "In a test on a model aeroplane wing in a wind tunnel, the flow speeds on the upper and lower wing surfaces are 70 m s<sup>−1</sup> and 63 m s<sup>−1</sup> respectively. What is the lift on the wing if its area is 2.5 m<sup>2</sup>? Take the density of air as 1.3 kg m<sup>−3</sup>.",
+      "a": "<p>By Bernoulli's equation at the same height, P<sub>lower</sub> + ½ρv<sub>lower</sub><sup>2</sup> = P<sub>upper</sub> + ½ρv<sub>upper</sub><sup>2</sup>, so:</p><p>P<sub>lower</sub> − P<sub>upper</sub> = ½ρ(v<sub>upper</sub><sup>2</sup> − v<sub>lower</sub><sup>2</sup>) = ½ × 1.3 × (70<sup>2</sup> − 63<sup>2</sup>) = 0.65 × (4900 − 3969) = 0.65 × 931 ≈ 605.15 Pa.</p><p>Lift = (P<sub>lower</sub> − P<sub>upper</sub>) × Area = 605.15 × 2.5 ≈ 1.51 × 10<sup>3</sup> N (about 1512 N).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.7",
+      "q": "Water flows through a horizontal pipe of diameter 4 cm at a speed of 3 m s<sup>−1</sup> into a section of the pipe where the diameter narrows to 2 cm. Find the speed of flow in the narrow section.",
+      "a": "<p>By the equation of continuity, A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>, and since A ∝ d<sup>2</sup>:</p><p>v<sub>2</sub> = v<sub>1</sub>(d<sub>1</sub>/d<sub>2</sub>)<sup>2</sup> = 3 × (4/2)<sup>2</sup> = 3 × 4 = 12 m s<sup>−1</sup>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.8",
+      "q": "A copper ball of radius 2.0 mm falls through a tank of oil and reaches its terminal velocity. Density of copper = 8.9 × 10<sup>3</sup> kg m<sup>−3</sup>, density of oil = 1.5 × 10<sup>3</sup> kg m<sup>−3</sup>, viscosity of the oil = 0.99 Pa s. Find the terminal velocity. (Take g = 9.8 m s<sup>−2</sup>.)",
+      "a": "<p>v<sub>t</sub> = 2r<sup>2</sup>(ρ − σ)g/(9η)</p><p>r = 2.0 × 10<sup>−3</sup> m, so r<sup>2</sup> = 4.0 × 10<sup>−6</sup> m<sup>2</sup>; ρ − σ = (8.9 − 1.5) × 10<sup>3</sup> = 7.4 × 10<sup>3</sup> kg m<sup>−3</sup>.</p><p>v<sub>t</sub> = (2 × 4.0 × 10<sup>−6</sup> × 7.4 × 10<sup>3</sup> × 9.8)/(9 × 0.99) = 0.58016/8.91 ≈ 6.5 × 10<sup>−2</sup> m s<sup>−1</sup> (about 6.5 cm/s).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.9",
+      "q": "Water flows through a pipe of radius 1 cm. Given the density of water = 1000 kg m<sup>−3</sup> and its viscosity = 1.0 × 10<sup>−3</sup> Pa s, find the critical speed below which the flow stays streamline. (Take the critical Reynolds number as 2000.)",
+      "a": "<p>Re = ρv<sub>c</sub>d/η, so v<sub>c</sub> = Re·η/(ρd), with d = 2r = 0.02 m.</p><p>v<sub>c</sub> = (2000 × 1.0 × 10<sup>−3</sup>)/(1000 × 0.02) = 2/20 = 0.1 m s<sup>−1</sup>.</p><p>Above this average speed, the flow in this pipe becomes turbulent.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9.10",
+      "q": "A soap bubble of radius 1 cm is blown. The surface tension of the soap solution is 2.5 × 10<sup>−2</sup> N m<sup>−1</sup>. Find the excess pressure inside the bubble.",
+      "a": "<p>A soap bubble has two free surfaces, so P = 4T/r.</p><p>r = 1 cm = 1 × 10<sup>−2</sup> m.</p><p>P = (4 × 2.5 × 10<sup>−2</sup>)/(1 × 10<sup>−2</sup>) = 10 Pa.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.11",
+      "q": "Two capillary tubes of radii 0.3 mm and 0.6 mm are dipped in the same liquid. Find the ratio of the heights to which the liquid rises in the two tubes.",
+      "a": "<p>Since h = 2T cosθ/(ρgr), for the same liquid and the same tubes' material, T, θ, ρ, g are all common, so h ∝ 1/r.</p><p>h<sub>1</sub>/h<sub>2</sub> = r<sub>2</sub>/r<sub>1</sub> = 0.6/0.3 = 2.</p><p>So h<sub>1</sub> : h<sub>2</sub> = 2 : 1 — the narrower tube shows the greater rise.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "9.12",
+      "q": "Find the height to which water rises in a capillary tube of radius 0.15 mm. Given the surface tension of water = 7.3 × 10<sup>−2</sup> N m<sup>−1</sup>, angle of contact = 0°, density of water = 1000 kg m<sup>−3</sup>. (Take g = 9.8 m s<sup>−2</sup>.)",
+      "a": "<p>h = 2T cosθ/(ρgr)</p><p>= (2 × 7.3 × 10<sup>−2</sup> × cos0°)/(1000 × 9.8 × 0.15 × 10<sup>−3</sup>)</p><p>= 0.146/1.47 ≈ 9.9 × 10<sup>−2</sup> m, i.e. about 9.9 cm.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The excess pressure inside a soap bubble of radius r, in terms of its surface tension T, is:",
+      "options": [
+        "T/r",
+        "2T/r",
+        "4T/r",
+        "8T/r"
+      ],
+      "answer": "c",
+      "solution": "A soap bubble has two liquid surfaces (inner and outer), so its excess pressure is double that of a single-surface drop, giving P = 4T/r."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "As the temperature of a liquid rises, its coefficient of viscosity:",
+      "options": [
+        "increases",
+        "decreases",
+        "remains unchanged",
+        "first increases then decreases"
+      ],
+      "answer": "b",
+      "solution": "Rising temperature weakens the intermolecular cohesive forces responsible for a liquid's internal friction, so a liquid's viscosity falls as temperature rises (the opposite happens in a gas)."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2020",
+      "marks": 1,
+      "q": "Water rises in a capillary tube, but mercury is depressed in the same tube. This is because:",
+      "options": [
+        "mercury is denser than water",
+        "the angle of contact for mercury-glass is obtuse while that for water-glass is acute",
+        "mercury has a higher surface tension than water",
+        "mercury does not have a meniscus"
+      ],
+      "answer": "b",
+      "solution": "The sign of the term cosθ in h = 2T cosθ/(ρgr) decides rise or depression: θ < 90° for water gives a positive h (rise), while θ > 90° for mercury gives a negative h (depression)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "For a small sphere falling through a viscous fluid, the terminal velocity v<sub>t</sub> is related to its radius r as:",
+      "options": [
+        "v<sub>t</sub> ∝ r",
+        "v<sub>t</sub> ∝ r<sup>2</sup>",
+        "v<sub>t</sub> ∝ 1/r",
+        "v<sub>t</sub> ∝ 1/r<sup>2</sup>"
+      ],
+      "answer": "b",
+      "solution": "From v<sub>t</sub> = 2r<sup>2</sup>(ρ − σ)g/(9η), with density and viscosity fixed, v<sub>t</sub> is directly proportional to the square of the radius."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A dimensionless number used to predict whether the flow of a fluid through a pipe will be streamline or turbulent is:",
+      "options": [
+        "Mach number",
+        "Reynolds number",
+        "Prandtl number",
+        "Froude number"
+      ],
+      "answer": "b",
+      "solution": "Reynolds number, Re = ρvd/η, compares inertial to viscous forces and predicts the nature of flow; it is dimensionless."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2019",
+      "marks": 1,
+      "q": "In a venturimeter used to measure the flow speed of a liquid in a horizontal pipe, the pressure is lowest where:",
+      "options": [
+        "the cross-section is the widest",
+        "the cross-section is the narrowest",
+        "pressure is the same everywhere",
+        "the pipe bends upward"
+      ],
+      "answer": "b",
+      "solution": "By the equation of continuity, speed is highest where the pipe is narrowest, and by Bernoulli's equation (constant height), a higher speed corresponds to lower pressure there."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The SI unit of the coefficient of viscosity is:",
+      "options": [
+        "N m<sup>−1</sup>",
+        "N s m<sup>−2</sup> (Pa s)",
+        "N m<sup>2</sup> s<sup>−1</sup>",
+        "kg m<sup>−3</sup>"
+      ],
+      "answer": "b",
+      "solution": "From F = ηA(dv/dx), η = F·dx/(A·dv), which works out to N s m<sup>−2</sup>, i.e. pascal-second (Pa s)."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Small insects such as water striders can walk on the surface of a pond without sinking. Reason (R): The surface of water behaves like a stretched elastic membrane due to surface tension, which can support small loads.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The insect's weight is small enough to be supported by the upward component of the surface-tension force along the depressed water surface around its legs, so R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A body floats in a liquid if the average density of the body is less than the density of the liquid. Reason (R): For a floating body, the buoyant force equals the weight of the liquid displaced, which must equal the weight of the body.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "A body of lower average density than the liquid can displace, before being fully submerged, a volume of liquid whose weight equals its own weight — so it floats with part above the surface, and this is exactly Archimedes' principle applied to equilibrium."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The blood pressure in a standing human is higher at the feet than at the head. Reason (R): Blood behaves as an ideal fluid at rest, and pressure in a fluid increases with depth below the reference level.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "P = P<sub>0</sub> + ρgh applies to blood as a fluid column; the feet are at greater depth below the heart than the head, so the R correctly explains A."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2021",
+      "marks": 2,
+      "q": "State Pascal's law for fluid pressure and name one device that works on this principle.",
+      "answer": "<p>Pascal's law: a change in pressure applied to an enclosed fluid at rest is transmitted undiminished to every point of the fluid and to the container's walls.</p><p>Device: the hydraulic lift/brake — a small force on a narrow piston produces a large force on a wide piston, since P = F/A is the same on both.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why does the addition of a detergent to water help remove grease and oily stains from clothes?",
+      "answer": "<p>Detergent lowers the surface tension of water and the angle of contact, letting soapy water wet greasy fibres and spread into narrow spaces between them, which plain water (higher surface tension) cannot easily do. This lets the solution penetrate and lift the grease away for rinsing.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define the angle of contact of a liquid with a solid. What decides whether it is acute or obtuse?",
+      "answer": "<p>The angle of contact is the angle, measured inside the liquid, between the tangent to the liquid surface at the contact point and the solid surface.</p><p>It is decided by the relative strength of cohesive force (within the liquid) and adhesive force (liquid-solid): adhesion dominant gives an acute angle (wets the solid), cohesion dominant gives an obtuse angle (does not wet).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2022",
+      "marks": 2,
+      "q": "State two applications of Bernoulli's theorem.",
+      "answer": "<p>(i) <b>Dynamic lift:</b> air moves faster over the curved upper wing surface than under the flatter lower one, so pressure above is lower than below, giving a net upward lift.</p><p>(ii) <b>Venturimeter/atomiser:</b> forcing fluid through a constriction speeds it up, lowering pressure there; measuring the pressure drop gives flow rate, and the low pressure can also draw in and mix a second fluid, as in a perfume atomiser.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2020",
+      "marks": 3,
+      "q": "Derive the equation of continuity for the streamline flow of an incompressible fluid through a tube of varying cross-section.",
+      "answer": "<p>Consider an incompressible fluid in steady flow through a tube whose area changes from A<sub>1</sub> to A<sub>2</sub>, with speeds v<sub>1</sub> and v<sub>2</sub>. In time Δt, the volume entering the first section is A<sub>1</sub>v<sub>1</sub>Δt, and the volume leaving the second is A<sub>2</sub>v<sub>2</sub>Δt.</p><p>Since the fluid is incompressible, no fluid can accumulate along the tube, so the volume entering must equal the volume leaving: A<sub>1</sub>v<sub>1</sub>Δt = A<sub>2</sub>v<sub>2</sub>Δt.</p><p>Cancelling Δt: A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub>, i.e. Av = constant along the tube of flow — speed is inversely proportional to area.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Distinguish between streamline flow and turbulent flow. What determines which of the two occurs in a given pipe?",
+      "answer": "<p><b>Streamline flow:</b> every particle passing a point follows the same path as the one before it; velocity at any point stays constant in time, and no two streamlines cross.</p><p><b>Turbulent flow:</b> above a critical speed, the orderly layers break up into irregular, changing paths with eddies and mixing.</p><p>The Reynolds number, Re = ρvd/η, decides which occurs: streamline below about 2000, turbulent above about 3000 — so it depends on density, viscosity, flow speed and pipe diameter.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Derive the expression for the height to which a liquid rises in a capillary tube of radius r, in terms of its surface tension T and angle of contact θ.",
+      "answer": "<p>Inside a narrow capillary of radius r, the liquid surface forms a meniscus treated as part of a sphere of radius R, related to r and angle of contact θ by r = R cosθ.</p><p>The curved meniscus creates an excess pressure of 2T/R = 2T cosθ/r across it, so the pressure just below it, inside the tube, is less than atmospheric by that amount. This deficit draws liquid up until the weight of the risen column balances it: ρgh = 2T cosθ/r.</p><p>So h = 2T cosθ/(ρgr) — positive (rise) for θ < 90° (water-glass), negative (depression) for θ > 90° (mercury-glass).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2019",
+      "marks": 3,
+      "q": "State Poiseuille's equation for the flow of a viscous fluid through a narrow tube, and explain one practical consequence of the r<sup>4</sup> dependence.",
+      "answer": "<p>Poiseuille's equation gives the streamline volume flow rate through a tube of radius r and length l under pressure difference P: V = πPr<sup>4</sup>/(8ηl), η being the fluid's viscosity.</p><p>Since flow rate depends on the fourth power of the radius, even a small change in r causes a huge change in V. Medically, a 10-20% narrowing of a blood vessel (atherosclerosis) can cut blood flow drastically for the same pressure, forcing the heart to work much harder — why arterial narrowing is dangerous even when it looks moderate on a scan.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": "CBSE 2023",
+      "marks": 5,
+      "q": "Derive Bernoulli's equation for the streamline flow of a non-viscous, incompressible fluid through a pipe of varying cross-section and height. State the assumptions made.",
+      "answer": "<p><b>Assumptions:</b> the fluid is non-viscous, incompressible (constant density ρ), and the flow is steady and streamline.</p><p><b>Setup:</b> take a fluid element flowing through a tube between section 1 (area A<sub>1</sub>, height h<sub>1</sub>, speed v<sub>1</sub>, pressure P<sub>1</sub>) and section 2 (A<sub>2</sub>, h<sub>2</sub>, v<sub>2</sub>, P<sub>2</sub>).</p><p><b>Work-energy argument:</b> in time Δt, a volume ΔV = A<sub>1</sub>v<sub>1</sub>Δt = A<sub>2</sub>v<sub>2</sub>Δt (equation of continuity) enters at 1 and an equal volume leaves at 2. The net work done by pressure forces is P<sub>1</sub>ΔV − P<sub>2</sub>ΔV = (P<sub>1</sub> − P<sub>2</sub>)ΔV. This work changes the kinetic and potential energy of the fluid element of mass Δm = ρΔV: ΔKE = ½Δm(v<sub>2</sub><sup>2</sup> − v<sub>1</sub><sup>2</sup>), ΔPE = Δmg(h<sub>2</sub> − h<sub>1</sub>).</p><p>By the work-energy theorem: (P<sub>1</sub> − P<sub>2</sub>)ΔV = ½Δm(v<sub>2</sub><sup>2</sup> − v<sub>1</sub><sup>2</sup>) + Δmg(h<sub>2</sub> − h<sub>1</sub>). Dividing throughout by ΔV (Δm/ΔV = ρ) and rearranging:</p><p>P<sub>1</sub> + ½ρv<sub>1</sub><sup>2</sup> + ρgh<sub>1</sub> = P<sub>2</sub> + ½ρv<sub>2</sub><sup>2</sup> + ρgh<sub>2</sub>, i.e. P + ½ρv<sup>2</sup> + ρgh = constant along the streamline — Bernoulli's equation.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Using Stokes' law, derive the expression for the terminal velocity of a small sphere falling through a viscous fluid.",
+      "answer": "<p>Consider a small sphere of radius r and density ρ falling through a viscous fluid of density σ and viscosity η. Once moving, three forces act on it: weight mg downward, buoyant force F<sub>b</sub> upward, and the viscous drag upward, given by Stokes' law as F = 6πηrv.</p><p>Weight: mg = (4/3)πr<sup>3</sup>ρg. Buoyant force: F<sub>b</sub> = (4/3)πr<sup>3</sup>σg.</p><p>Initially v = 0, so the sphere accelerates under (mg − F<sub>b</sub>). As v grows, the drag 6πηrv grows too, shrinking the net force, until the sphere reaches terminal velocity v<sub>t</sub> where the drag exactly balances the effective weight:</p><p>6πηrv<sub>t</sub> = mg − F<sub>b</sub> = (4/3)πr<sup>3</sup>(ρ − σ)g</p><p>So v<sub>t</sub> = [(4/3)πr<sup>3</sup>(ρ − σ)g] / (6πηr) = 2r<sup>2</sup>(ρ − σ)g/(9η) — a constant, maximum falling speed, since the drag always grows to match any further increase in v.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the expression for the excess pressure inside (a) a liquid drop and (b) a soap bubble, in terms of the surface tension T and radius r.",
+      "answer": "<p><b>(a) Liquid drop:</b> let a spherical drop of radius r expand by a small dr due to an excess pressure P inside it. The increase in surface area is dA ≈ 8πr·dr, so the work done against surface tension is dW<sub>surface</sub> = T·8πr·dr. This equals the work done by the excess pressure over area 4πr<sup>2</sup> through displacement dr: dW<sub>pressure</sub> = P·4πr<sup>2</sup>·dr.</p><p>Equating: P·4πr<sup>2</sup>·dr = T·8πr·dr, so P = 2T/r. This applies to any single spherical liquid surface, so it also gives the excess pressure inside an air bubble in a liquid.</p><p><b>(b) Soap bubble:</b> a soap bubble in air has two liquid surfaces (outer and inner, both ≈radius r), so the area increase on expanding by dr doubles to dA = 16πr·dr, and dW<sub>surface</sub> = T·16πr·dr.</p><p>Equating to the pressure work, P·4πr<sup>2</sup>·dr = T·16πr·dr, gives P = 4T/r — twice the drop value, because of the second surface.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "<p>A hydraulic brake system in a car uses a master cylinder connected by a fluid-filled pipe to four wheel cylinders, one at each wheel. When the driver presses the brake pedal, a small piston in the master cylinder (area 1.5 cm<sup>2</sup>) is pushed with a force of 30 N. Each wheel cylinder piston has an area of 6 cm<sup>2</sup>.</p>(i) Which law of fluid pressure explains how the force reaches all four wheels equally?<br>(ii) Calculate the pressure created in the fluid by the pedal push.<br>(iii) Calculate the force delivered at each wheel-cylinder piston.<br>(iv) Why must the brake fluid be incompressible and free of air bubbles for the brakes to work well?",
+      "answer": "<p>(i) Pascal's law: pressure applied to an enclosed fluid at rest is transmitted undiminished to every point of the fluid, reaching all four wheel cylinders equally.</p><p>(ii) P = F/A = 30/(1.5 × 10<sup>−4</sup>) = 2 × 10<sup>5</sup> Pa.</p><p>(iii) Force at each wheel cylinder = P × A<sub>wheel</sub> = 2 × 10<sup>5</sup> × (6 × 10<sup>−4</sup>) = 120 N, four times the pedal force since the wheel-cylinder area is four times larger.</p><p>(iv) If the fluid were compressible or held air bubbles, part of the pedal force would compress the trapped gas instead of transmitting pressure, giving a spongy pedal and delayed, weaker braking.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": "CBSE 2022",
+      "marks": 4,
+      "q": "<p>A student sets up an experiment with a tall, wide tank of water having a small hole near the bottom, at a depth of 2 m below the free surface of the water. The area of the hole is much smaller than the area of the tank's free surface, so the surface can be assumed to fall very slowly. Take g = 10 m s<sup>−2</sup>.</p>(i) Name the law used to find the speed at which water leaves the hole.<br>(ii) Calculate the speed of efflux of water from the hole.<br>(iii) If the hole's area is 1 cm<sup>2</sup>, calculate the initial volume flow rate through it.<br>(iv) State one assumption made in this calculation.",
+      "answer": "<p>(i) Bernoulli's theorem — the special case for a hole giving Torricelli's law.</p><p>(ii) v = √(2gh) = √(2 × 10 × 2) = √40 ≈ 6.32 m s<sup>−1</sup>.</p><p>(iii) Volume flow rate = Area × speed = (1 × 10<sup>−4</sup>) × 6.32 ≈ 6.32 × 10<sup>−4</sup> m<sup>3</sup> s<sup>−1</sup>.</p><p>(iv) The tank's cross-section is assumed much larger than the hole's, so the fall of the free surface is negligible and the flow is treated as non-viscous and streamline.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The value of atmospheric pressure at sea level is closest to:",
+      "options": [
+        "1.013 × 10<sup>3</sup> Pa",
+        "1.013 × 10<sup>5</sup> Pa",
+        "1.013 × 10<sup>7</sup> Pa",
+        "1.013 × 10<sup>2</sup> Pa"
+      ],
+      "answer_index": 1,
+      "explanation": "Standard atmospheric pressure is 1.013 × 10<sup>5</sup> Pa."
+    },
+    {
+      "q": "A fluid at rest exerts pressure on the walls of its container in a direction:",
+      "options": [
+        "parallel to the wall",
+        "perpendicular to the wall",
+        "at 45° to the wall",
+        "along the direction of gravity only"
+      ],
+      "answer_index": 1,
+      "explanation": "A fluid at rest can exert only a normal force; a tangential component would set up flow."
+    },
+    {
+      "q": "In a hydraulic press, a force of 20 N is applied on a piston of area 4 cm<sup>2</sup>. What force is obtained at a second piston of area 200 cm<sup>2</sup>?",
+      "options": [
+        "100 N",
+        "400 N",
+        "1000 N",
+        "2000 N"
+      ],
+      "answer_index": 2,
+      "explanation": "F<sub>2</sub> = F<sub>1</sub>(A<sub>2</sub>/A<sub>1</sub>) = 20 × (200/4) = 1000 N."
+    },
+    {
+      "q": "Two streamlines in a fluid flow can never intersect because:",
+      "options": [
+        "fluids are incompressible",
+        "a particle at the intersection would have two different velocities at once",
+        "pressure would become infinite there",
+        "viscosity would become zero there"
+      ],
+      "answer_index": 1,
+      "explanation": "A streamline is a particle's actual path; an intersection would mean two velocities at once, which is impossible."
+    },
+    {
+      "q": "Water flows through a pipe that narrows from area 8 cm<sup>2</sup> to 2 cm<sup>2</sup>. If the speed in the wider part is 1.5 m s<sup>−1</sup>, the speed in the narrower part is:",
+      "options": [
+        "0.375 m s<sup>−1</sup>",
+        "1.5 m s<sup>−1</sup>",
+        "6 m s<sup>−1</sup>",
+        "12 m s<sup>−1</sup>"
+      ],
+      "answer_index": 2,
+      "explanation": "v<sub>2</sub> = v<sub>1</sub>(A<sub>1</sub>/A<sub>2</sub>) = 1.5 × 4 = 6 m s<sup>−1</sup>."
+    },
+    {
+      "q": "Bernoulli's equation, P + ½ρv<sup>2</sup> + ρgh = constant, is essentially a statement of:",
+      "options": [
+        "Newton's second law for fluids",
+        "conservation of mass",
+        "conservation of mechanical energy per unit volume for a non-viscous, incompressible fluid",
+        "conservation of momentum"
+      ],
+      "answer_index": 2,
+      "explanation": "Each term is energy per unit volume; it follows from the work-energy theorem applied to a flowing fluid element."
+    },
+    {
+      "q": "An aircraft gets dynamic lift mainly because:",
+      "options": [
+        "air pressure below the wing is lower than above it",
+        "air flows faster over the curved upper surface, lowering pressure there compared with the lower surface",
+        "the wing is heated by friction",
+        "gravity pulls less on a moving wing"
+      ],
+      "answer_index": 1,
+      "explanation": "Faster flow over the curved upper surface means lower pressure there than below, by Bernoulli's equation, giving net lift."
+    },
+    {
+      "q": "A ball bearing sinking through glycerine reaches a constant speed when:",
+      "options": [
+        "it reaches the bottom of the container",
+        "the buoyant force alone equals its weight",
+        "the viscous drag plus the buoyant force together equal its weight",
+        "the viscous drag alone equals its weight"
+      ],
+      "answer_index": 2,
+      "explanation": "Terminal velocity is reached when buoyant force + viscous drag balance the weight, giving zero net force."
+    },
+    {
+      "q": "Doubling the radius of a small sphere falling through a viscous fluid, keeping everything else the same, changes its terminal velocity by a factor of:",
+      "options": [
+        "2",
+        "4",
+        "1/2",
+        "1/4"
+      ],
+      "answer_index": 1,
+      "explanation": "v<sub>t</sub> ∝ r<sup>2</sup>, so doubling r multiplies v<sub>t</sub> by 4."
+    },
+    {
+      "q": "If the radius of a tube is halved, keeping the pressure difference and length the same, the volume flow rate given by Poiseuille's equation becomes:",
+      "options": [
+        "1/2 of the original",
+        "1/4 of the original",
+        "1/8 of the original",
+        "1/16 of the original"
+      ],
+      "answer_index": 3,
+      "explanation": "V ∝ r<sup>4</sup>, so halving r reduces V to (1/2)<sup>4</sup> = 1/16."
+    },
+    {
+      "q": "For flow through a pipe, a Reynolds number of about 4000 indicates the flow is:",
+      "options": [
+        "definitely streamline",
+        "definitely turbulent",
+        "at the exact critical speed",
+        "independent of viscosity"
+      ],
+      "answer_index": 1,
+      "explanation": "Flow is streamline below Re ≈ 2000 and turbulent above Re ≈ 3000, so 4000 is turbulent."
+    },
+    {
+      "q": "The surface tension of a liquid, as temperature increases, generally:",
+      "options": [
+        "increases",
+        "decreases, becoming zero at the critical temperature",
+        "stays exactly constant",
+        "increases then suddenly drops to zero"
+      ],
+      "answer_index": 1,
+      "explanation": "Higher temperature weakens intermolecular cohesion, reducing surface tension to zero at the critical temperature."
+    },
+    {
+      "q": "Two soap bubbles of different radii are connected by a thin tube. What happens?",
+      "options": [
+        "Nothing, they stay the same size",
+        "The larger bubble shrinks into the smaller one",
+        "The smaller bubble shrinks, blowing air into the larger one",
+        "Both bubbles grow equally"
+      ],
+      "answer_index": 2,
+      "explanation": "P = 4T/r is greater in the smaller bubble, so air flows to the larger one, and the smaller one shrinks."
+    },
+    {
+      "q": "A capillary tube of radius r is dipped in water and shows a rise h. If a tube of radius r/2 is used instead, the rise becomes approximately:",
+      "options": [
+        "h/2",
+        "h",
+        "2h",
+        "4h"
+      ],
+      "answer_index": 2,
+      "explanation": "h ∝ 1/r, so halving the radius doubles the rise."
+    },
+    {
+      "q": "The work done in increasing the surface area of a soap film (two surfaces) by ΔA, for a soap solution of surface tension T, is:",
+      "options": [
+        "T·ΔA",
+        "2T·ΔA",
+        "T·ΔA/2",
+        "4T·ΔA"
+      ],
+      "answer_index": 1,
+      "explanation": "A soap film has two free surfaces, so the area increase is 2ΔA and the work is T × 2ΔA."
+    },
+    {
+      "q": "The dimensional formula of surface tension T is the same as that of:",
+      "options": [
+        "force",
+        "energy per unit area (or force per unit length)",
+        "pressure",
+        "power"
+      ],
+      "answer_index": 1,
+      "explanation": "T = F/l gives [MT<sup>−2</sup>], the same as energy per unit area."
+    }
+  ],
+  "common_mistakes": [
+    "Writing the terminal-velocity balance as mg = 6πηrv<sub>t</sub>, forgetting the buoyant force — the correct balance is mg = F<sub>b</sub> + 6πηrv<sub>t</sub>, which is where the (ρ − σ) term comes from.",
+    "Using P = 2T/r for a soap bubble instead of P = 4T/r — forgetting a soap bubble has two liquid surfaces, not one.",
+    "Forgetting that a stretched soap film also has two surfaces, so the force needed to hold it in equilibrium along a length l is F = 2Tl, not Tl.",
+    "Treating pressure as depending on the shape or total volume of liquid rather than only on the vertical depth below the free surface — the 'hydrostatic paradox' trips up many students.",
+    "Applying Bernoulli's equation without checking that the fluid is non-viscous and incompressible, or forgetting the ρgh term when the two points being compared are at different heights.",
+    "Getting the sign of cosθ wrong for mercury in the capillary-rise formula, and concluding mercury 'rises' instead of correctly getting a depression because θ > 90°.",
+    "Confusing viscosity's temperature dependence: liquids get less viscous when heated, gases get more viscous when heated — the two behave oppositely.",
+    "Mixing up which direction is 'd' in Newton's law of viscosity — dv/dx must be the velocity gradient perpendicular to the direction of flow, not along it."
+  ],
+  "strategy": "<p>This chapter rewards reproducing three or four clean derivations rather than only memorising formulas: Bernoulli's equation, terminal velocity from Stokes' law, and excess pressure in a drop/bubble are asked as 5-mark long answers almost every year, so practise writing each from first principles with the diagram, not just the final line.</p><p>Keep the formula sheet handy while solving numericals — most mistakes come from mixing up r and d (NCERT uses diameter for Reynolds number, radius elsewhere), or forgetting to convert cm to metres. For one- and two-mark questions, learn the everyday explanations by heart: why insects float, why blood pressure differs across the body, why mercury does not wet glass, why detergents work — these recur as MCQ, assertion-reason and VSA questions.</p><p>Budget revision roughly as: 30% on the main derivations, 30% on numericals across all sub-topics, 20% on conceptual explanations, and 20% on timed MCQ/assertion-reason practice, since those are where marks are lost fastest under time pressure.</p>",
+  "revision_checklist": [
+    "Can state Pascal's law and apply F<sub>2</sub> = (A<sub>2</sub>/A<sub>1</sub>)F<sub>1</sub> to a hydraulic lift/brake numerical.",
+    "Can derive P = P<sub>0</sub> + ρgh and explain why pressure does not depend on the shape/amount of liquid.",
+    "Can state Archimedes' principle and explain floating vs sinking in terms of average density.",
+    "Can distinguish streamline and turbulent flow, and define a tube of flow.",
+    "Can derive the equation of continuity A<sub>1</sub>v<sub>1</sub> = A<sub>2</sub>v<sub>2</sub> from mass/volume conservation.",
+    "Can derive Bernoulli's equation from the work-energy theorem, with the diagram, and state its two assumptions.",
+    "Can derive the speed of efflux v = √(2gh) and explain dynamic lift and the venturimeter using Bernoulli's equation.",
+    "Can state Newton's law of viscosity and explain why liquids and gases respond oppositely to a rise in temperature.",
+    "Can derive terminal velocity v<sub>t</sub> = 2r<sup>2</sup>(ρ−σ)g/(9η) from a force balance including buoyancy.",
+    "Can state Poiseuille's equation and explain the significance of the r<sup>4</sup> dependence.",
+    "Can define Reynolds number, know the approximate ranges for streamline/turbulent flow, and show Re is dimensionless.",
+    "Can explain surface tension and surface energy from the molecular picture, and state T = F/l and W = T·ΔA.",
+    "Can explain angle of contact using cohesive vs adhesive forces, with water and mercury as the two standard examples.",
+    "Can derive excess pressure P = 2T/r for a drop and P = 4T/r for a soap bubble, with the diagram.",
+    "Can derive the capillary rise formula h = 2T cosθ/(ρgr) and explain the sign for mercury depression."
+  ],
+  "videos": [
+    {
+      "id": "7JMM54STTno",
+      "title": "Mechanical Properties of Fluids · full chapter"
+    }
+  ]
+}

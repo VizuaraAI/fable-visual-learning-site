@@ -1,0 +1,804 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 12,
+  "slug": "improvement-in-food-resources",
+  "title": "Improvement in Food Resources",
+  "summary": "This chapter covers how India raises the yield and quality of crops, animals, and fisheries — through better crop varieties, nutrient and water management, crop protection, and improved livestock, poultry, fish and bee-keeping practices — to keep food production ahead of a growing population.",
+  "exam_profile": {
+    "weightage": "Improvement in Food Resources is one of the biology chapters in the Class 9 Science paper; expect roughly 5–7 marks across MCQ, VSA/SA and one longer or case-based question built around crop production or animal husbandry.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Naming a method (e.g. hybridisation, vermicompost, apiculture), matching a term to its definition, or identifying which practice belongs to crop production vs animal husbandry."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Pairs a practice (e.g. legumes are grown in mixed cropping) with its underlying reason (nitrogen fixation), testing whether the reason truly explains the assertion."
+      },
+      {
+        "type": "VSA",
+        "marks": 2,
+        "note": "Define a term (biofortification, broiler, composite fish culture), or give two advantages of a named practice."
+      },
+      {
+        "type": "SA",
+        "marks": 3,
+        "note": "Differences between two methods (mixed cropping vs intercropping, biological vs chemical pest control, manure vs fertiliser), or three benefits of a practice."
+      },
+      {
+        "type": "LA",
+        "marks": 5,
+        "note": "Describe crop variety improvement in full (traits, methods), or explain animal husbandry practices for dairy or poultry with management points."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage about a farmer's field or a poultry/fish farm followed by 3–4 questions naming the practice and its purpose."
+      }
+    ],
+    "hot_topics": [
+      "Difference between mixed cropping, intercropping and crop rotation",
+      "Manure vs fertiliser — advantages and disadvantages of each",
+      "Traits for crop variety improvement and methods (hybridisation, mutation, genetic modification)",
+      "Nutrient management — macro and micronutrients, deficiency symptoms",
+      "Irrigation systems and water harvesting",
+      "Cropping patterns and mixed farming",
+      "Animal husbandry — dairy management and poultry (broiler vs layer)"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "12.1 Improvement in Crop Yields",
+      "pyq_years": [],
+      "body": "<p>India's population keeps growing, so the country needs more food from the same or less land — raising the yield per hectare rather than farming more land. NCERT groups the ways to do this under three heads: crop variety improvement, crop production improvement (nutrient management and cropping patterns), and crop protection management (from weeds, insects and diseases). All three act together — a high-yielding variety only performs well if it also gets the right nutrients, water and protection.</p><p>Agricultural practice in India has shifted from purely traditional methods (which depend heavily on the monsoon and give low, unpredictable yields) towards approaches that combine improved seeds, irrigation, fertilisers and pest control. This shift made India largely self-sufficient in staple grains, though yields still vary a great deal between irrigated and rain-fed regions.</p>",
+      "formulas": [],
+      "tip": "Whenever a question says 'suggest ways to increase crop production', structure the answer under the three heads: variety improvement, production improvement, protection management — examiners look for this structure."
+    },
+    {
+      "heading": "12.2 Crop Variety Improvement",
+      "pyq_years": [],
+      "body": "<p>A better variety of a crop can raise yield on its own. Breeders select or create new varieties for: higher yield; better quality (e.g. baking quality in wheat, protein in pulses, oil quality in oilseeds); biotic resistance (to diseases, insects, nematodes); abiotic resistance (to drought, salinity, waterlogging, heat, cold and frost); change in maturity duration (a shorter cycle lets more crops be grown per year and cuts cost); wider adaptability (performing well across many environments); and desirable agronomic characteristics such as dwarfism in cereals, which lets the plant use more nutrients for grain instead of growing tall and lodging (falling over) in wind and rain.</p><p>New varieties come from three main methods. <b>Hybridisation</b> crosses genetically different plants (intervarietal, interspecific or intergeneric) to combine desirable traits from both parents. <b>Introduction</b> brings in genetic material — a new variety, or an existing variety grown in a new place, sometimes without any breeding at all. <b>Mutation breeding</b> uses chemicals or radiation to induce mutations that occasionally give useful traits, and <b>genetic engineering</b> allows precise transfer of a single useful gene (e.g. for insect resistance) without carrying over unwanted traits, unlike traditional hybridisation.</p>",
+      "formulas": [],
+      "tip": "A 5-mark answer here should list at least five traits AND all three-four methods with one line each — partial lists lose easy marks."
+    },
+    {
+      "heading": "12.3 Crop Production Management",
+      "pyq_years": [],
+      "body": "<p>Agricultural practice depends on the resources a farmer has — from resource-poor farmers relying on organic matter and family labour, to farmers with irrigation, fertilisers, pesticides and machinery. Cropping patterns also vary with climate, soil, water availability and demand; several strategies mix crops to use resources efficiently and reduce the risk of total crop failure.</p><p>In <b>mixed cropping</b>, two or more crops are grown simultaneously on the same land with no defined row pattern (e.g. wheat + gram) — this minimises the risk of total failure if one crop fails due to bad weather. In <b>intercropping</b>, two or more crops are grown in a defined pattern of alternating rows in a fixed ratio (e.g. two rows of soybean to one of maize), so each crop gets enough room and nutrients are used efficiently, and pest control can be applied crop-specifically. In <b>crop rotation</b>, different crops are grown on the same field in a planned succession, based on each crop's duration — a short-duration crop like moong may be grown between one main crop's harvest and the next's sowing. Growing a legume before or after a cereal replenishes soil nitrogen naturally and cuts the fertiliser the next crop needs.</p>",
+      "formulas": [],
+      "tip": "The single line that separates mixed cropping from intercropping in every exam is: mixed cropping has no row pattern, intercropping has a defined row pattern — memorise this exact contrast."
+    },
+    {
+      "heading": "12.4 Nutrient Management",
+      "pyq_years": [],
+      "body": "<p>Plants need sixteen essential nutrients: air supplies carbon and oxygen; water supplies hydrogen and oxygen; soil supplies the remaining thirteen. Six of these, needed in large quantities, are <b>macronutrients</b> — nitrogen, phosphorus, potassium, calcium, magnesium and sulphur — while seven, needed in small quantities, are <b>micronutrients</b> — iron, manganese, boron, zinc, copper, molybdenum and chlorine. A deficiency of any nutrient produces characteristic symptoms and reduces growth and yield, since each plays a specific, non-substitutable role (nitrogen for leafy growth, phosphorus for roots and seeds, potassium for overall health and disease resistance).</p><p>Nutrients removed by each crop must be replenished, through manure or fertiliser. <b>Manure</b> is organic matter (farmyard manure, compost, vermicompost, green manure) from decomposed plant or animal waste; it supplies small quantities of nutrients along with organic matter that improves soil structure — raising water-holding capacity in sandy soil, helping drainage in clayey soil, and promoting soil microbes and earthworms. <b>Fertilisers</b> are commercial, nutrient-rich chemical compounds (urea, superphosphate, NPK) that supply a specific nutrient in concentrated form and give a strong, quick yield response, but overuse damages soil fertility (killing soil microbes, altering structure) and pollutes water through run-off, causing eutrophication. Using manure and fertiliser together, with crop rotation involving legumes, is the balanced approach for long-term soil health.</p>",
+      "formulas": [],
+      "tip": "If asked to compare manure and fertiliser, cover three angles: nutrient content, effect on soil structure, and environmental impact — most 3-mark answers lose a mark for missing the environmental point."
+    },
+    {
+      "heading": "12.5 Irrigation",
+      "pyq_years": [],
+      "body": "<p>Water is essential at every stage of a crop's life, and its need varies with the crop, soil and season. Sources include wells (dug and tube wells, pumping groundwater), canals (main canals, branch canals and distributaries carrying water from a reservoir or river), rivers (river lift systems where canal flow is insufficient), tanks (small storage reservoirs from a local catchment), and rainwater harvesting/watershed management, which stores or recharges rainwater at the point where it falls rather than letting it run off.</p><p>Traditional systems (moving water by hand or animal power, or channels dug from a canal) are cheap but inefficient and labour-intensive. Modern systems reduce water wastage considerably: a <b>sprinkler system</b> sprays water through perpendicular pipes with rotating nozzles, spreading it like rainfall — suited to uneven land with low water availability. A <b>drip irrigation system</b> releases water drop by drop directly at the root through narrow pipes and nozzles, so water is used most efficiently, with almost no wastage through evaporation or run-off.</p>",
+      "formulas": [],
+      "tip": "Drip irrigation is the go-to answer for 'most efficient use of water' — always name it when a question asks how to conserve irrigation water."
+    },
+    {
+      "heading": "12.6 Cropping Pattern",
+      "pyq_years": [],
+      "body": "<p>Indian agriculture depends heavily on the monsoon, so farmers grow different crops in different seasons based on temperature, day length and water availability. <b>Kharif crops</b> are sown at the start of the monsoon (June–July) and harvested at its end (September–October) — paddy, maize, soybean, cotton, groundnut, moong. <b>Rabi crops</b> are sown in winter (October–December) and harvested in summer (April–June) — wheat, gram, peas, mustard, linseed. A short-duration crop like a summer vegetable or moong may also be grown between these two, wherever water is available, giving the land a third, shorter cropping season.</p><p>Cropping pattern varies with climate, soil type and the water and inputs a farmer has; matching an appropriate crop to the season and local resources — rather than forcing an unsuitable crop with heavy external inputs — is the most sustainable way to raise cropping intensity (crops grown per year on the same land).</p>",
+      "formulas": [],
+      "tip": "Learn the kharif/rabi crop lists cold — 'name two kharif and two rabi crops' is one of the most repeated one-liners."
+    },
+    {
+      "heading": "12.7 Crop Protection Management",
+      "pyq_years": [],
+      "body": "<p>Weeds, insect pests and diseases can destroy a large share of a crop if left unmanaged. <b>Weeds</b> are unwanted plants growing with a cultivated crop that compete for nutrients, light, water and space, lowering yield (e.g. <i>Xanthium</i>, <i>Parthenium</i>). Weeds are controlled by preventive methods (weed-free seeds, crop rotation, thorough field preparation), mechanical removal (uprooting or tilling before seeds form) and chemical control (weedicides such as 2,4-D, at a concentration that does not damage the crop).</p><p>Insect pests attack in three ways: cutting the root, stem or leaf; sucking cell sap; and boring into stem or fruit. Diseases are caused by pathogens (bacteria, fungi, viruses) spread through soil, water, air, or seeds. Crops are protected by preventive measures (resistant varieties, timely sowing, crop rotation, summer ploughing to expose soil pests to sun and predators, proper seed storage) and by chemicals — <b>insecticides</b>, <b>fungicides</b> and <b>weedicides</b>. Excess or improper chemical use is itself harmful — it pollutes the environment, kills useful soil organisms, and can accumulate in the food chain up to humans — so integrated pest management (resistant varieties, biological control, judicious chemical use) is now preferred over chemicals alone.</p>",
+      "formulas": [],
+      "tip": "Distinguish clearly: insecticide kills insects, fungicide kills fungi, weedicide kills weeds — a question naming the wrong chemical for the wrong pest is a common trap."
+    },
+    {
+      "heading": "12.8 Storage of Grains",
+      "pyq_years": [],
+      "body": "<p>Losses in stored grain happen at almost every stage between harvest and consumption. Biotic factors include insects, rodents, fungi, mites and bacteria; abiotic factors include wrong moisture and temperature in storage. Together these cause loss of germination capability, discolouration, poor nutrient value and a musty smell, plus weight loss and poor germination that can run into a significant percentage of stored produce.</p><p>Before storage, grains must be dried in the sun to reduce moisture, which helps avoid infestation by insects, bacteria and fungi. Measures include cleaning produce before storage, fumigation with chemicals that kill pests, and large-scale storage structures (such as those of the Food Corporation of India) built to keep grain safe over long periods.</p>",
+      "formulas": [],
+      "tip": "Two-step answer for 'how are food grains protected during storage': (1) proper drying to reduce moisture, (2) fumigation/chemical treatment plus clean, pest-proof storage structures."
+    },
+    {
+      "heading": "12.9 Animal Husbandry",
+      "pyq_years": [],
+      "body": "<p>Animal husbandry is the scientific management of livestock — feeding, breeding, disease control and overall management of animals kept for various purposes, including draught power for farm work in addition to food. Increasing livestock production matters for a growing population, requiring attention to disease control and scientific management.</p><p><b>Dairy farm management</b> needs: cattle of good breed (bred for high milk yield, or disease resistance and adaptability); adequate nutritious feed (a good ratio of roughage — fibrous green and dry fodder — and concentrates, richer in protein); regular veterinary care against infectious diseases (bacteria, viruses, fungi, parasites, usually restricted to a specific organ) and metabolic diseases; and hygienic housing, milking and storage conditions, which also affect milk yield.</p><p><b>Poultry farm management</b> covers breeding, care and disease control of domestic fowl for egg and meat production. Improved cross-breeds combine Indian breeds (e.g. Aseel) with foreign breeds (e.g. Leghorn) for better chick number and quality, dwarf broiler parents, and smaller layers, aimed at low-cost, better-quality poultry products. It requires appropriate temperature, hygienic housing, and a nutritionally balanced, hygienically maintained diet.</p>",
+      "formulas": [],
+      "tip": "A 5-mark dairy or poultry answer should touch shelter/housing, feed, and disease/health care as three separate management points — examiners award marks per point, not per paragraph."
+    },
+    {
+      "heading": "12.10 Animal Breeding",
+      "pyq_years": [],
+      "body": "<p>Breeding aims to improve animal characteristics to increase yield and quality. Cattle are bred for milk production (milch/dairy animals) or draught capacity (agricultural work, e.g. bullocks). Exotic breeds (Jersey, Brown Swiss) are selected for long lactation; local breeds (Red Sindhi, Sahiwal) for disease resistance; the two are cross-bred to combine both.</p><p>Three broad ways raise the population of animals with a desired trait. In <b>natural mating</b>, superior males and females mate within the same breed (<b>inbreeding</b>, for 4–6 generations, increasing trait purity but exposing harmful recessive genes) or between breeds (<b>outbreeding</b> — out-crossing between unrelated individuals of the same breed with no common ancestor for 4–6 generations, cross-breeding between different breeds, or interspecific hybridisation between species, e.g. a mule from a horse and a donkey). In <b>controlled breeding</b>, artificial insemination introduces semen from a superior male into the female's reproductive tract, avoiding the need for a male on every farm. MOET (multiple ovulation embryo transfer) gives a cow hormones to induce superovulation (6–8 eggs instead of one), fertilised by a superior bull's sperm; the resulting 8-cell embryos are transferred to surrogate mothers, who carry the pregnancy to term.</p>",
+      "formulas": [],
+      "tip": "Do not confuse inbreeding (same breed) with outbreeding (different breed/species) — a question giving one term's definition and asking you to name it is common."
+    },
+    {
+      "heading": "12.11 Poultry and Egg/Broiler Production",
+      "pyq_years": [],
+      "body": "<p>Poultry birds are kept for two products: eggs and meat. A hen kept for eggs is a <b>layer</b>; a chick raised for meat is a <b>broiler</b>. Their feed differs — broiler feed is richer in protein and fat with emphasis on vitamins A and K, since broilers are raised for rapid weight gain over a short period, while layers need more calcium and phosphorus for egg-shell formation and to sustain regular laying.</p><p>Poultry farming needs careful management of temperature, hygiene, disease prevention (vaccination against Ranikhet, fowl pox) and sanitary housing, since crowded conditions spread infection fast. Cross-breeding Indian breeds (disease-resistant) with foreign breeds (more productive) gives birds needing less feed for more eggs or meat, tolerant of Indian climate and relatively disease-resistant compared with a purely foreign breed.</p>",
+      "formulas": [],
+      "tip": "Remember the two poultry products and their matching birds precisely: layer → eggs, broiler → meat, and the feed difference (protein/fat for broiler, calcium/phosphorus for layer) is a favourite 2-mark question."
+    },
+    {
+      "heading": "12.12 Fish Production",
+      "pyq_years": [],
+      "body": "<p>Fish is an important protein source, obtained by capture fishing (from the sea, or inland from rivers and lakes) or by fish farming/aquaculture in a controlled environment. <b>Marine fisheries</b> exploit the sea, near-shore or deep, using techniques like satellite data to locate fish shoals; important varieties include pomfret, mackerel, tuna, sardines and bombay duck. Prawns, mussels and oysters are also cultured, along with pearl culture. <b>Inland fisheries</b> use fresh water (canals, ponds, reservoirs) and brackish water resources; since natural inland production alone can't meet demand, most inland fish production now comes from aquaculture.</p><p>In <b>composite fish culture</b>, five or six fish species (chosen so they don't compete for food) are grown together in the same pond, each occupying a different zone: catlas are surface feeders, rohus feed in the middle zone, mrigals and common carps are bottom feeders, and grass carps feed on pond weeds. This raises total yield well beyond what a single species could give. Since most fish don't breed naturally in ponds, induced breeding using hormonal stimulation (pituitary extracts and other hormone preparations) now provides pure fish seed of the desired species reliably.</p>",
+      "formulas": [],
+      "tip": "For composite fish culture, name at least five species and pair each with its feeding zone — this pairing is the single most-asked point from this section."
+    },
+    {
+      "heading": "12.13 Bee-keeping (Apiculture)",
+      "pyq_years": [],
+      "body": "<p>Bee-keeping, or apiculture, is done for honey and wax, and also provides pollination of nearby crops — often more economically valuable than the honey itself. In India, the Indian bee (<i>Apis cerana indica</i>), rock bee (<i>Apis dorsata</i>) and little bee (<i>Apis florea</i>) are traditional choices, alongside the introduced Italian bee (<i>Apis mellifera</i>), valued for higher honey yield, gentler behaviour and less frequent stinging.</p><p>Good honey production also depends on pasturage — the flowers available for bees to forage — since the quantity and quality of honey depends on the flowers available near the beehives.</p>",
+      "formulas": [],
+      "tip": "Apiculture answers should mention both products of a bee-farm (honey and wax) and the pollination benefit to nearby crops — the pollination point is often the one students forget."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Hybridisation",
+      "definition": "Crossing genetically dissimilar plants (or animals) — between different varieties, species or genera — to combine desirable traits of both parents in the offspring."
+    },
+    {
+      "term": "Mixed cropping",
+      "definition": "Growing two or more crops simultaneously on the same piece of land with no defined row pattern, to minimise the risk of total crop failure."
+    },
+    {
+      "term": "Intercropping",
+      "definition": "Growing two or more crops simultaneously in a definite row pattern, e.g. one row of one crop alternating with rows of another, so each crop gets adequate space and nutrients."
+    },
+    {
+      "term": "Crop rotation",
+      "definition": "Growing different crops on the same field in a planned sequence over one or more seasons, based on crop duration, to maintain soil fertility and break pest cycles."
+    },
+    {
+      "term": "Manure",
+      "definition": "Organic matter (farmyard manure, compost, vermicompost, green manure) produced by the decomposition of plant or animal waste; it supplies nutrients and improves soil structure."
+    },
+    {
+      "term": "Macronutrients",
+      "definition": "Nutrients needed by plants in large amounts, obtained mainly from soil: nitrogen, phosphorus, potassium, calcium, magnesium and sulphur."
+    },
+    {
+      "term": "Micronutrients",
+      "definition": "Nutrients needed by plants in very small amounts: iron, manganese, boron, zinc, copper, molybdenum and chlorine."
+    },
+    {
+      "term": "Drip irrigation",
+      "definition": "A system that releases water drop by drop directly at the root of each plant through narrow pipes and nozzles, giving highly efficient water use with minimal wastage."
+    },
+    {
+      "term": "Kharif crop",
+      "definition": "A crop sown at the start of the monsoon (roughly June–July) and harvested at its end (September–October), e.g. paddy, maize, soybean, cotton."
+    },
+    {
+      "term": "Rabi crop",
+      "definition": "A crop sown in winter (roughly October–December) and harvested in summer (April–June), e.g. wheat, gram, mustard, peas."
+    },
+    {
+      "term": "Animal husbandry",
+      "definition": "The scientific management, feeding, breeding and health care of livestock and poultry to increase and improve their yield."
+    },
+    {
+      "term": "Inbreeding",
+      "definition": "Mating of related animals within the same breed for 4–6 generations, which increases the purity of desired traits but can also expose harmful recessive traits."
+    },
+    {
+      "term": "Broiler",
+      "definition": "A chicken raised specifically for meat production, requiring a protein- and fat-rich feed for rapid growth."
+    },
+    {
+      "term": "Composite fish culture",
+      "definition": "A method of growing five or six compatible fish species together in one pond so that all the food available in different zones of the pond is used, raising total fish yield."
+    },
+    {
+      "term": "Apiculture",
+      "definition": "Bee-keeping, done for honey and wax production, and also valuable because bees pollinate nearby crops."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Three heads of crop yield improvement",
+      "expr": "Crop variety improvement · Crop production improvement (nutrient & cropping) · Crop protection management (weeds, pests, diseases)",
+      "note": "the structure to use for any 'how to increase crop yield' answer"
+    },
+    {
+      "name": "16 essential plant nutrients",
+      "expr": "Air → C, O; Water → H, O; Soil → 13 remaining (6 macro + 7 micro)",
+      "note": "macro: N, P, K, Ca, Mg, S; micro: Fe, Mn, B, Zn, Cu, Mo, Cl"
+    },
+    {
+      "name": "Mixed cropping vs intercropping",
+      "expr": "Mixed cropping: no row pattern · Intercropping: fixed row ratio (e.g. 2:1)",
+      "note": "the single defining contrast between the two"
+    },
+    {
+      "name": "Kharif and Rabi seasons",
+      "expr": "Kharif: sown Jun–Jul, harvested Sep–Oct (paddy, maize, soybean, cotton) · Rabi: sown Oct–Dec, harvested Apr–Jun (wheat, gram, mustard, peas)",
+      "note": "the two main Indian cropping seasons"
+    },
+    {
+      "name": "Three chemical crop-protection agents",
+      "expr": "Insecticide (kills insects) · Fungicide (kills fungi) · Weedicide (kills weeds, e.g. 2,4-D)",
+      "note": "match the chemical to the correct pest type"
+    },
+    {
+      "name": "Composite fish culture — 5–6 species and zones",
+      "expr": "Catla (surface) · Rohu (middle) · Mrigal & Common carp (bottom) · Grass carp (weed feeder)",
+      "note": "species chosen so they do not compete for the same food"
+    },
+    {
+      "name": "Bee species used in India",
+      "expr": "Apis cerana indica (Indian bee) · Apis dorsata (rock bee) · Apis florea (little bee) · Apis mellifera (Italian bee, introduced)",
+      "note": "Italian bee gives higher honey yield and stings less"
+    },
+    {
+      "name": "Cattle breeding purposes",
+      "expr": "Milch (dairy) breeds — high milk yield · Draught breeds — work capacity · Dual-purpose breeds — both",
+      "note": "exotic breeds bred for yield, indigenous breeds for disease resistance"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Drip irrigation system",
+      "how_to_draw": "Draw a water source connected to a main pipe running along a row of plants, with narrow lateral pipes branching to each plant and a dripper/nozzle releasing water directly at the root zone. Label: water source, main pipe, lateral pipe, dripper, plant root."
+    },
+    {
+      "title": "Mixed cropping vs intercropping field layout",
+      "how_to_draw": "Draw two small rectangular field plots side by side. In the first (mixed cropping), scatter two crop symbols randomly with no rows. In the second (intercropping), draw alternating labelled rows in a fixed ratio, e.g. two rows of soybean then one row of maize, repeated."
+    },
+    {
+      "title": "Composite fish culture pond, showing feeding zones",
+      "how_to_draw": "Draw a cross-section of a pond with four horizontal zones labelled surface, middle, bottom and weed zone. Place and label catla at the surface, rohu in the middle, mrigal and common carp at the bottom, and grass carp near the weeds at the pond edge."
+    },
+    {
+      "title": "Artificial insemination and MOET, as a flow outline",
+      "how_to_draw": "Draw two simple flow boxes side by side. Left: 'Superior male → semen collected → introduced into female reproductive tract → fertilisation' for artificial insemination."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1",
+      "q": "What do we get from cereals, pulses, oil seeds, fruits and vegetables?",
+      "a": "<p>Cereals (wheat, rice, maize, millets) provide carbohydrates for energy. Pulses (gram, pea, black gram, lentil) provide proteins. Oil seeds (soybean, groundnut, sesame, castor, mustard, sunflower) provide fats. Fruits and vegetables provide vitamins and minerals, along with some carbohydrates, proteins and fats, and roughage that helps digestion.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2",
+      "q": "How do biotic and abiotic factors affect crop production?",
+      "a": "<p>Biotic factors — diseases, insects and nematodes — attack the plant directly, feeding on or infecting roots, stems, leaves and fruits, and can drastically lower both the quantity and quality of yield. Abiotic factors — drought, salinity, waterlogging, extreme heat, cold and frost — stress the plant's normal physiology, reducing growth, and in severe cases can destroy the crop entirely. Both types of factors can act together and their combined effect is why crop varieties are bred for resistance to both.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3",
+      "q": "What are the desirable agronomic characteristics for crop improvement?",
+      "a": "<p>Breeders aim for: higher yield, improved quality (protein, oil or baking quality suited to the crop), biotic resistance (to disease and pests), abiotic resistance (to drought, salinity, waterlogging, heat, cold, frost), a change in maturity duration (shorter duration allows more crop cycles per year and saves input cost), wider adaptability across different environments, and desirable characteristics like dwarfism in cereals, which lets more energy go into grain rather than height and reduces lodging.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "4",
+      "q": "What are macro-nutrients and why are they called macro-nutrients?",
+      "a": "<p>Macronutrients are the nutrients needed by plants in relatively large quantities: nitrogen, phosphorus, potassium, calcium, magnesium and sulphur. They are called macro-nutrients because the amount a plant requires and takes up from the soil is much higher than that of the micronutrients, which are needed only in trace amounts.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "5",
+      "q": "How do plants get nutrients?",
+      "a": "<p>Plants get some nutrients from air (carbon and oxygen, via photosynthesis) and water (hydrogen and oxygen), while the remaining thirteen essential nutrients — six macronutrients and seven micronutrients — are absorbed from the soil through the roots. Since crops remove these soil nutrients with every harvest, farmers replenish them by adding manure or fertiliser back to the soil.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "6",
+      "q": "Compare the use of manure and fertilisers in maintaining soil fertility.",
+      "a": "<p>Manure is organic, produced by decomposition of plant and animal waste; it supplies only small quantities of nutrients but improves soil structure — raising water-holding capacity in sandy soil, improving aeration in clayey soil, and encouraging beneficial soil organisms. It is cheap and can be produced on the farm itself. Fertilisers are chemical/commercial products that supply specific nutrients in large, concentrated amounts and give a strong, quick response in plant growth, but they do not add organic matter, and their excessive or continuous use degrades soil fertility over time, kills useful soil microbes, and pollutes water bodies through run-off. A balanced approach uses manure for long-term soil health and fertiliser for a targeted, quick nutrient boost.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7",
+      "q": "Which of the following conditions will give the desired result and why? (a) Rice-wheat is followed as a cropping pattern by farmer even in the area where rainfall is low and water for irrigation is inadequate. (b) A field is used to grow soybean in kharif season and potato in the rabi season. Farmer grows potato as third crop in the same field within a year.",
+      "a": "<p>(a) This will not give the desired result — rice needs a large, continuous water supply, so growing it in a low-rainfall, poorly-irrigated area will give poor yield; a less water-demanding crop should be chosen instead.</p><p>(b) This will give a good result — soybean (a legume, kharif) fixes nitrogen in the soil and potato (rabi) can use the residual nutrients and moisture; growing a short-duration crop as a third crop, if time and water permit, further raises the field's total yearly yield.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8",
+      "q": "Explain how sustainable practices in agriculture can be put into effect.",
+      "a": "<p>Sustainable practices combine traditional wisdom with modern technique without harming the environment: mixed cropping and crop rotation (especially with legumes) to maintain soil fertility naturally; balanced use of manure with fertiliser rather than fertiliser alone; integrated pest management (resistant varieties and biological control, with chemicals used judiciously); efficient water use through drip/sprinkler irrigation and water harvesting; and choosing crop varieties suited to local climate and soil rather than forcing a mismatched crop with heavy inputs.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10",
+      "q": "What are the desirable characters of poultry birds for farming?",
+      "a": "<p>A good poultry breed for farming should have qualities like reduced maintenance and feed cost, tolerance to local climatic conditions, resistance to diseases, and a good rate of growth in the case of broilers (for meat) and a high number and quality of chicks or eggs in the case of layers (for eggs). Improved breeds are often developed by cross-breeding a disease-resistant Indian breed with a higher-yielding foreign breed to combine both sets of qualities.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11",
+      "q": "What management practices are common in dairy and poultry farming?",
+      "a": "<p>Both dairy and poultry farming require: appropriate and nutritious feed for the animals, proper housing that gives protection and comfortable, hygienic conditions, and regular health/veterinary care with preventive vaccination and clean surroundings to control disease. In both cases, breed quality, feed, and disease control together determine the yield — milk in the case of dairy, eggs or meat in the case of poultry.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "12",
+      "q": "What are the different methods of fish production?",
+      "a": "<p>Fish are obtained either by capture fishing from natural water resources — marine (from the sea, near-shore and deep-sea) and inland (rivers, canals, lakes) — or by culture fisheries/aquaculture, where fish are deliberately bred and reared in a controlled environment such as ponds, tanks or reservoirs, often using composite fish culture (multiple compatible species together) to maximise yield from the same water body. Marine fish production is also boosted using techniques like satellite data to locate fish shoals, while inland fish seed is now obtained through induced breeding using hormones rather than only from rivers.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Growing two or more crops simultaneously on the same piece of land, with no defined row pattern between them, is called:",
+      "options": [
+        "Intercropping",
+        "Mixed cropping",
+        "Crop rotation",
+        "Mixed farming"
+      ],
+      "answer": "b",
+      "solution": "Mixed cropping has no fixed row pattern; intercropping has a defined row ratio and pattern, which is the distinguishing feature."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is NOT a macronutrient required by plants?",
+      "options": [
+        "Nitrogen",
+        "Potassium",
+        "Zinc",
+        "Calcium"
+      ],
+      "answer": "c",
+      "solution": "Zinc is a micronutrient, needed only in trace amounts; nitrogen, potassium and calcium are macronutrients needed in large amounts."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In composite fish culture, which fish is a surface feeder?",
+      "options": [
+        "Rohu",
+        "Mrigal",
+        "Catla",
+        "Common carp"
+      ],
+      "answer": "c",
+      "solution": "Catla is a surface feeder; rohu feeds in the middle zone; mrigal and common carp are bottom feeders."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Mating of animals of the same breed but with no common ancestor for 4–6 generations is known as:",
+      "options": [
+        "Inbreeding",
+        "Out-crossing",
+        "Cross-breeding",
+        "Interspecific hybridisation"
+      ],
+      "answer": "b",
+      "solution": "Out-crossing is mating between unrelated individuals of the same breed; inbreeding is mating within closely related animals of the same breed."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which chemical is commonly used as a weedicide?",
+      "options": [
+        "2,4-D",
+        "Urea",
+        "Bordeaux mixture",
+        "DDT"
+      ],
+      "answer": "a",
+      "solution": "2,4-D is a widely used weedicide; urea is a fertiliser, Bordeaux mixture is a fungicide and DDT is an insecticide."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A hen kept specifically for egg production is called a:",
+      "options": [
+        "Broiler",
+        "Layer",
+        "Drone",
+        "Chick"
+      ],
+      "answer": "b",
+      "solution": "A layer is kept for egg production; a broiler is raised for meat."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The Italian honey bee variety introduced in India for higher honey yield is:",
+      "options": [
+        "Apis cerana indica",
+        "Apis dorsata",
+        "Apis florea",
+        "Apis mellifera"
+      ],
+      "answer": "d",
+      "solution": "Apis mellifera, the Italian bee, was introduced for high honey yield, gentleness and reduced stinging behaviour."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which irrigation method delivers water drop by drop directly to the plant root, minimising wastage?",
+      "options": [
+        "Sprinkler system",
+        "Drip irrigation",
+        "Canal irrigation",
+        "Flood irrigation"
+      ],
+      "answer": "b",
+      "solution": "Drip irrigation releases water directly at the root through narrow pipes and nozzles, so almost no water is lost to evaporation or run-off."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Legume crops are often included in crop rotation or mixed cropping. Reason (R): Legumes fix atmospheric nitrogen in the soil through bacteria present in their root nodules.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Legumes host nitrogen-fixing bacteria in root nodules, replenishing soil nitrogen; this is exactly why they are rotated with or grown alongside cereals, so R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Excessive use of chemical fertilisers can degrade soil fertility over time. Reason (R): Continuous chemical fertiliser use reduces the population of beneficial soil microorganisms and alters soil structure.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Long-term, heavy fertiliser use harms soil microbes and structure, which is precisely why fertility declines; R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Drip irrigation is preferred in water-scarce areas. Reason (R): In drip irrigation, water is sprayed into the air like artificial rain over the whole field.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true — drip irrigation is efficient and suits water scarcity — but R describes sprinkler irrigation, not drip irrigation, so R is false."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define biofortification. Give one example of its purpose.",
+      "answer": "Biofortification is the breeding of crops with higher levels of vitamins, minerals, proteins or healthier fats, alongside their usual traits of yield and disease resistance — for example, a biofortified variety bred to contain more iron or vitamin A, to help fix nutrient deficiencies in people who eat that crop as a staple.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is meant by 'wider adaptability' as a trait for crop improvement?",
+      "answer": "A variety with wider adaptability performs well across a range of different environmental conditions (soils, climates, regions) rather than being restricted to one specific area, so the same seed can be grown successfully and distributed across many regions.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Give two differences between inbreeding and cross-breeding.",
+      "answer": "Inbreeding mates related animals within the same breed for several generations, increasing trait purity but risking harmful recessive genes. Cross-breeding mates a superior male of one breed with a superior female of a different breed, combining desirable traits of both and generally increasing vigour and yield.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name two methods of controlling weeds in a field.",
+      "answer": "Weeds can be controlled mechanically, by uprooting or tilling the field before weeds set seed, and chemically, by spraying an appropriate weedicide (such as 2,4-D) at a concentration that removes the weeds without damaging the crop.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Differentiate between mixed cropping, intercropping and crop rotation.",
+      "answer": "Mixed cropping: two or more crops grown together on the same land with no fixed row pattern, mainly to reduce the risk of total crop failure. Intercropping: two or more crops grown in a definite pattern of alternating rows in a fixed ratio, so nutrients and space are used efficiently and pests can be controlled crop-wise. Crop rotation: different crops grown on the same field one after another over time, based on each crop's duration, which restores soil fertility (especially when a legume follows a cereal) and breaks pest and disease cycles.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain three methods used for the storage and protection of food grains.",
+      "answer": "(1) Proper drying of grains in the sun before storage, to reduce moisture content and prevent infestation by insects, bacteria and fungi. (2) Cleaning the produce thoroughly before storing to remove pests and debris that could contaminate or spoil the grain. (3) Fumigation with appropriate chemicals to kill any insects, pests or microorganisms already present, combined with using pest-proof, hygienic storage structures to keep the grain safe from rodents and moisture over long periods.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain composite fish culture and why it increases total fish yield from a pond.",
+      "answer": "In composite fish culture, five or six compatible fish species are reared together in the same pond, chosen so they do not compete for the same food since each occupies a different feeding zone: catla at the surface, rohu in the middle, mrigal and common carp at the bottom, and grass carp on weeds. Because every zone and food source in the pond is used simultaneously by a different species, total fish yield is much higher than a single species could give from the same pond.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "What is integrated pest management and why is it preferred over the use of chemical pesticides alone?",
+      "answer": "Integrated pest management (IPM) combines several approaches to control pests: growing resistant crop varieties, biological control (using natural predators or parasites of the pest), preventive cultural practices (crop rotation, timely sowing, field sanitation), and only judicious, need-based use of chemical pesticides. It is preferred over chemicals alone because heavy or routine chemical use kills useful organisms along with pests, pollutes soil and water, leaves harmful residues that can enter the food chain and eventually affect human health, and pests can develop resistance to chemicals over time, whereas IPM controls pests sustainably with far less environmental damage.",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe, with examples, the traits for which crop varieties are improved and the methods used to develop new, improved crop varieties.",
+      "answer": "Crop varieties are improved for: (1) higher yield, (2) improved quality (protein in pulses, baking quality in wheat, oil quality in oilseeds), (3) biotic resistance to diseases, insects and nematodes, (4) abiotic resistance to drought, salinity, waterlogging, heat, cold and frost, (5) shorter maturity duration, allowing more crops per year, (6) wider adaptability across environments, and (7) agronomic traits like dwarfism in cereals, which channels energy into grain and reduces lodging. Methods: hybridisation (crossing genetically different plants to combine traits), introduction (bringing in a new variety, or planting an existing one in a new area where it thrives), mutation breeding (using chemicals or radiation to induce useful mutations), and genetic modification (transferring one specific gene precisely, without unwanted traits tagging along as in traditional breeding).",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the management practices required for successful dairy farming.",
+      "answer": "Successful dairy farming needs: (1) Breed selection — cattle bred for high milk yield (exotic breeds like Jersey) or for disease resistance and local adaptability (indigenous breeds like Sahiwal, Red Sindhi), or a cross-bred animal combining both. (2) Feed — a balanced ratio of roughage (fibrous green/dry fodder) and concentrates (grains, protein-rich feed), matched to the animal's stage of lactation. (3) Housing — clean, well-ventilated, comfortable shelter, since stress lowers milk yield. (4) Disease control — regular veterinary care and preventive vaccination against infectious diseases (bacterial, viral, fungal, parasitic) and metabolic diseases. (5) Hygienic milking and storage to keep milk uncontaminated. All five act together: a good breed without good feed or care still underperforms its genetic potential.",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "What is animal breeding? Describe the different methods of animal breeding used to improve livestock.",
+      "answer": "Animal breeding is the controlled mating of selected animals to improve desirable characteristics — milk yield, disease resistance, growth rate — in their offspring. Methods: (1) Inbreeding — mating closely related animals of the same breed for several generations, which increases the purity of a trait but can expose harmful recessive genes if overdone. (2) Out-crossing — mating unrelated animals of the same breed (no common ancestor for 4–6 generations), improving progeny without inbreeding's risks. (3) Cross-breeding — mating a superior male of one breed with a superior female of another, combining both breeds' desirable traits, e.g. exotic yield crossed with local hardiness. (4) Interspecific hybridisation — mating between related species, e.g. a mule from a horse and a donkey. (5) Controlled techniques — artificial insemination, where semen from a superior male is introduced directly into the female's reproductive tract without a male on every farm; and MOET, where a cow is given hormones to induce superovulation (6–8 eggs), the eggs are fertilised by a superior bull's sperm, and the resulting embryos are transferred to surrogate mothers, multiplying offspring from one superior female in a season.",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain the different sources and methods of irrigation used in India, and how modern irrigation systems save water compared to traditional methods.",
+      "answer": "Sources of irrigation water in India: wells (dug and tube wells, pumping groundwater), canals (fed from a reservoir or river through main canals, branch canals and distributaries), rivers (river lift systems where canal supply is insufficient), tanks (small storage reservoirs from a local catchment), and rainwater harvesting/watershed management (storing or recharging rainwater close to where it falls). Traditional irrigation — moving water by hand, animal power, or unlined channels — is cheap but wastes water to seepage and evaporation, and is labour-intensive. Modern systems save water: a sprinkler system sprays water through rotating nozzles on perpendicular pipes like rainfall, useful on uneven land with limited water; drip irrigation releases water drop by drop directly at each plant's root through narrow pipes, giving the most efficient water use with almost no evaporation or run-off loss, and suits row crops, orchards and gardens best.",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A farmer wants to grow soybean and maize together on the same field. He plans to sow two rows of soybean followed by one row of maize, and repeat this pattern across the field, rather than scattering the seeds of both crops randomly. He also plans to grow moong as a short-duration crop between his main kharif and rabi crops.<br>(i) What is the name of the cropping method the farmer is using for soybean and maize, and how is it different from mixed cropping?<br>(ii) Why might the farmer have chosen to combine a legume (soybean) with maize in this pattern?<br>(iii) What benefit does growing moong as a short-duration crop between the main crops give the farmer?<br>(iv) Name one kharif crop and one rabi crop other than the ones mentioned in the passage.",
+      "answer": "(i) This is intercropping — growing crops together in a definite, fixed row pattern (two rows of soybean to one of maize), unlike mixed cropping, which has no defined row pattern. (ii) Soybean, a legume, fixes atmospheric nitrogen via bacteria in its root nodules, benefiting the neighbouring nitrogen-hungry maize and cutting fertiliser need. (iii) A short-duration crop like moong between the main crops lets the farmer harvest an extra crop within the same year, raising total yearly output, and moong (also a legume) adds nitrogen for the next crop. (iv) Any correct example, e.g. kharif — paddy, cotton or groundnut; rabi — wheat, gram or mustard.",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A poultry farmer keeps two separate flocks of chickens on his farm: one flock is given a feed richer in protein and fat, and is sold for meat within a few weeks of hatching. The other flock is given a feed richer in calcium and phosphorus, and is kept for a much longer period to produce eggs regularly.<br>(i) What are the two types of birds described here called?<br>(ii) Why does the meat-producing flock need a feed richer in protein and fat?<br>(iii) Why does the egg-producing flock need extra calcium and phosphorus in its feed?<br>(iv) Name one disease against which poultry birds are commonly vaccinated.",
+      "answer": "(i) The meat flock consists of broilers; the egg flock consists of layers. (ii) Broilers are raised for rapid weight gain, so their feed emphasises protein (muscle growth) and fat (quick energy), plus vitamins A and K. (iii) Layers need extra calcium and phosphorus for egg-shell formation and to sustain regular egg production. (iv) Ranikhet disease or fowl pox.",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of these is a micronutrient required by plants?",
+      "options": [
+        "Nitrogen",
+        "Phosphorus",
+        "Boron",
+        "Potassium"
+      ],
+      "answer_index": 2,
+      "explanation": "Boron is a micronutrient, needed only in small quantities, unlike nitrogen, phosphorus and potassium, which are macronutrients."
+    },
+    {
+      "q": "The mating of two genetically dissimilar plants to combine desirable traits in the offspring is called:",
+      "options": [
+        "Introduction",
+        "Hybridisation",
+        "Mutation breeding",
+        "Selection"
+      ],
+      "answer_index": 1,
+      "explanation": "Hybridisation is crossing genetically different plants (intervarietal, interspecific or intergeneric) to combine desirable traits."
+    },
+    {
+      "q": "Which crop is an example of a rabi crop?",
+      "options": [
+        "Paddy",
+        "Maize",
+        "Wheat",
+        "Cotton"
+      ],
+      "answer_index": 2,
+      "explanation": "Wheat is sown in winter and harvested in summer, making it a rabi crop; the others are kharif crops."
+    },
+    {
+      "q": "Which of the following improves soil structure the most while adding only small amounts of nutrients?",
+      "options": [
+        "Urea",
+        "Manure",
+        "Superphosphate",
+        "NPK fertiliser"
+      ],
+      "answer_index": 1,
+      "explanation": "Manure is organic matter that improves soil water-holding, aeration and microbial activity, though it supplies nutrients in smaller amounts than concentrated chemical fertilisers."
+    },
+    {
+      "q": "In a sprinkler irrigation system, water is:",
+      "options": [
+        "Released drop by drop at the plant root",
+        "Sprayed through rotating nozzles like artificial rain",
+        "Allowed to flood the entire field",
+        "Carried only through unlined earthen channels"
+      ],
+      "answer_index": 1,
+      "explanation": "Sprinkler systems use perpendicular pipes with rotating nozzles to spray water over the field like rainfall, suited to uneven land."
+    },
+    {
+      "q": "Which fish species in composite fish culture is a bottom feeder?",
+      "options": [
+        "Catla",
+        "Rohu",
+        "Mrigal",
+        "None of these"
+      ],
+      "answer_index": 2,
+      "explanation": "Mrigal (along with common carp) feeds at the bottom of the pond."
+    },
+    {
+      "q": "Artificial insemination in cattle breeding involves:",
+      "options": [
+        "Mating two animals of the same breed naturally",
+        "Introducing collected semen from a superior male into the female's reproductive tract",
+        "Inducing superovulation with hormones",
+        "Transferring embryos to a surrogate mother"
+      ],
+      "answer_index": 1,
+      "explanation": "Artificial insemination introduces semen collected from a superior male directly into the female's reproductive tract without natural mating."
+    },
+    {
+      "q": "MOET (Multiple Ovulation Embryo Transfer) technology is used to:",
+      "options": [
+        "Increase the number of offspring from a single superior female in one breeding season",
+        "Reduce the fat content of milk",
+        "Control diseases in poultry",
+        "Increase honey yield in bees"
+      ],
+      "answer_index": 0,
+      "explanation": "MOET induces superovulation in a superior cow, and the resulting fertilised embryos are transferred to surrogate mothers, greatly increasing offspring from one female."
+    },
+    {
+      "q": "Which of these is an example of a biotic factor reducing crop yield?",
+      "options": [
+        "Drought",
+        "Salinity",
+        "Insect pest attack",
+        "Frost"
+      ],
+      "answer_index": 2,
+      "explanation": "Insect pest attack is a biotic factor (a living organism); drought, salinity and frost are abiotic (non-living, environmental) factors."
+    },
+    {
+      "q": "Which honey bee variety is native to India and traditionally used for bee-keeping?",
+      "options": [
+        "Apis mellifera",
+        "Apis cerana indica",
+        "Apis dorsata only",
+        "None; all are foreign"
+      ],
+      "answer_index": 1,
+      "explanation": "Apis cerana indica, the Indian bee, is a native species traditionally used for apiculture."
+    },
+    {
+      "q": "Roughage in cattle feed mainly consists of:",
+      "options": [
+        "Fibrous material such as green and dry fodder",
+        "Grains rich in protein",
+        "Mineral mixtures only",
+        "Concentrated feed pellets"
+      ],
+      "answer_index": 0,
+      "explanation": "Roughage is largely fibrous — green and dry fodder — while concentrates are the grain- and protein-rich part of the feed."
+    },
+    {
+      "q": "Why is dwarfism considered a desirable trait in cereal crop varieties?",
+      "options": [
+        "It makes the crop resistant to all diseases",
+        "It allows more of the plant's energy to go into grain production and reduces lodging",
+        "It increases the crop's water requirement",
+        "It shortens the growing season to one week"
+      ],
+      "answer_index": 1,
+      "explanation": "A dwarf plant channels more nutrients into grain rather than stem growth, and is less likely to bend or fall over (lodge) in wind and rain."
+    },
+    {
+      "q": "Which of the following pairs is correctly matched?",
+      "options": [
+        "Insecticide — kills fungi",
+        "Fungicide — kills weeds",
+        "Weedicide — kills unwanted plants",
+        "Fertiliser — kills insects"
+      ],
+      "answer_index": 2,
+      "explanation": "A weedicide is a chemical used to kill unwanted plants (weeds); insecticides kill insects and fungicides kill fungi."
+    },
+    {
+      "q": "Growing different crops in a planned sequence on the same field over time is called:",
+      "options": [
+        "Mixed cropping",
+        "Intercropping",
+        "Crop rotation",
+        "Mixed farming"
+      ],
+      "answer_index": 2,
+      "explanation": "Crop rotation is growing different crops on the same field in a planned succession, which helps restore soil fertility and break pest cycles."
+    },
+    {
+      "q": "Pasturage, in the context of bee-keeping, refers to:",
+      "options": [
+        "The hive structure used to keep bees",
+        "The flowers available to bees for foraging nearby",
+        "The wax produced by bees",
+        "The chemical used to protect bees from pests"
+      ],
+      "answer_index": 1,
+      "explanation": "Pasturage is the flowers available around the bee farm for the bees to forage on, and it directly affects the quantity and quality of honey produced."
+    }
+  ],
+  "common_mistakes": [
+    "Confusing mixed cropping (no row pattern) with intercropping (definite row pattern) — this is the single most common mix-up in this chapter.",
+    "Writing that fertilisers improve soil structure — only manure (organic matter) improves soil structure; fertilisers supply concentrated nutrients but add no organic matter.",
+    "Mixing up macronutrients and micronutrients — micronutrients are needed only in trace amounts, not 'less important' amounts of a similar list.",
+    "Calling every chemical crop-protection agent a 'pesticide' generically, instead of correctly naming insecticide, fungicide or weedicide as asked.",
+    "Confusing inbreeding (same breed) with cross-breeding (different breeds) or with out-crossing (unrelated animals, same breed, no recent common ancestor).",
+    "Swapping layer and broiler — a layer is for eggs, a broiler is for meat; their feed requirements also differ and are often tested together."
+  ],
+  "strategy": "<p>This chapter is mostly definitions, lists and comparisons, so the fastest way to lock in marks is to build paired lists: mixed cropping vs intercropping vs crop rotation; manure vs fertiliser; macro vs micronutrients; kharif vs rabi crops; inbreeding vs cross-breeding vs out-crossing; layer vs broiler; and the composite-fish-culture species with their feeding zones. Learn each pair as a two-column table — most 3-mark 'differentiate' questions come straight from these pairs.</p><p>For the two 5-mark topics that repeat most — crop variety improvement (traits + methods) and dairy/poultry/animal-breeding management — write out the full point list from memory and check it here; these answers are graded point-by-point, so a five-point list beats one long paragraph. Spend less time on grain storage (rarely more than 2 marks) and more on nutrient management, cropping patterns and animal husbandry, which supply most SA/LA questions.</p><p>Diagram-style answers (drip irrigation, the fish-culture pond, artificial insemination/MOET) are quick to sketch and label — add one whenever a question mentions a mechanism, since a correctly labelled sketch earns marks even with a brief explanation.</p>",
+  "revision_checklist": [
+    "Can state the three heads under which crop yield is improved: variety, production, protection.",
+    "Can list at least five traits used for crop variety improvement, with one example each.",
+    "Can name and describe hybridisation, introduction, mutation breeding and genetic modification.",
+    "Can distinguish mixed cropping, intercropping and crop rotation with the exact defining difference for each.",
+    "Can list the six macronutrients and seven micronutrients plants need from soil.",
+    "Can compare manure and fertiliser on nutrient content, soil structure and environmental impact.",
+    "Can name at least two sources of irrigation water and explain drip and sprinkler irrigation.",
+    "Can list two kharif and two rabi crops with their sowing/harvesting months.",
+    "Can name the three chemical crop-protection agents and what each targets.",
+    "Can explain how food grains are protected during storage (drying, cleaning, fumigation).",
+    "Can describe dairy farm management under breed, feed, housing and disease control."
+  ],
+  "videos": []
+}

@@ -1,0 +1,862 @@
+{
+  "class": 11,
+  "subject": "Chemistry",
+  "chapter_no": 7,
+  "slug": "redox-reactions",
+  "title": "Redox Reactions",
+  "summary": "This chapter rebuilds oxidation and reduction on the electron-transfer picture, introduces oxidation number as a bookkeeping tool, and teaches you to balance redox equations by two methods — it is the direct foundation for Electrochemistry in Class 12 and for JEE/NEET.",
+  "exam_profile": {
+    "weightage": "In the Class 11 school final this chapter usually carries about 4–5 marks (one MCQ/VSA plus one balancing or assertion-reason question). There is no CBSE board exam in Class 11, but this chapter is the base for Electrochemistry (Class 12 boards, worth 6–7 marks there) and is a favourite for JEE Main and NEET one-mark questions.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Oxidation number of an underlined atom, identifying the oxidising/reducing agent, or spotting a disproportionation reaction."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Statements linking oxidation number rules, electron transfer and electrode potential."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define a term (oxidising agent, disproportionation) or calculate one oxidation number with reasoning."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Balance a redox equation by one method, or classify a reaction into combination/decomposition/displacement/disproportionation."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Balance a redox equation fully by the ion-electron method in acidic or basic medium, showing both half-reactions."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage on a redox titration or the electrochemical series, followed by four sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Assigning oxidation numbers correctly, including exceptions (peroxides, hydrides, OF₂)",
+      "Balancing redox equations by the oxidation number method",
+      "Balancing redox equations by the ion-electron (half-reaction) method in acidic and basic medium",
+      "Identifying disproportionation reactions",
+      "Distinguishing the oxidising agent from the reducing agent in a given equation",
+      "Redox reactions as the basis of titrations (KMnO₄, K₂Cr₂O₇)",
+      "The electrochemical series and predicting which metal displaces which",
+      "Classifying a reaction as combination, decomposition, displacement or disproportionation"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "7.1 A Classical Idea of Oxidation and Reduction",
+      "pyq_years": [],
+      "body": "<p>Long before electrons were understood, chemists defined oxidation as the addition of oxygen (or a more electronegative element) to a substance, or the removal of hydrogen from it. Reduction was the exact opposite — addition of hydrogen, or removal of oxygen. For example, when magnesium burns in air, 2Mg + O<sub>2</sub> → 2MgO, magnesium is oxidised because oxygen is added to it. In the reverse sense, when CuO is heated with hydrogen, CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O, copper oxide is reduced because it loses oxygen.</p><p>This classical picture works only for simple cases and breaks down for reactions where no oxygen or hydrogen is involved at all — for instance 2Na + Cl<sub>2</sub> → 2NaCl clearly involves oxidation and reduction, but neither oxygen nor hydrogen appears anywhere. This is exactly the gap that the electron-transfer definition (next section) was built to close. You should still know the classical definitions because they are how the terms 'oxidation' and 'reduction' are first defined in NCERT and are often asked as a two-mark definition-with-example question.</p><p>A reaction in which one reactant is oxidised and another is simultaneously reduced is called a redox (reduction–oxidation) reaction. Oxidation and reduction can never occur alone — every redox reaction is really two half-reactions happening together.</p>",
+      "formulas": [],
+      "tip": "If asked to 'define oxidation and reduction with an example', give BOTH the classical (oxygen/hydrogen) definition and one line noting it is later generalised in terms of electron transfer — examiners reward this connection."
+    },
+    {
+      "heading": "7.2 Redox Reactions in Terms of Electron Transfer",
+      "pyq_years": [],
+      "body": "<p>The modern and more general definition: oxidation is the loss of one or more electrons by an atom, ion or molecule; reduction is the gain of one or more electrons. Consider 2Na(s) + Cl<sub>2</sub>(g) → 2NaCl(s). Sodium loses one electron to become Na<sup>+</sup> (oxidation) and chlorine gains one electron to become Cl<sup>−</sup> (reduction). Because electrons lost by one species must be gained by another, oxidation and reduction always occur together — hence the combined name 'redox'.</p><p>The species that gets oxidised (loses electrons) is called the <b>reducing agent</b> or <b>reductant</b>, because it causes reduction of the other species while itself getting oxidised. The species that gets reduced (gains electrons) is called the <b>oxidising agent</b> or <b>oxidant</b>, because it causes oxidation of the other species while itself getting reduced. In Zn(s) + CuSO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + Cu(s), zinc loses two electrons (Zn → Zn<sup>2+</sup> + 2e<sup>−</sup>, oxidation, Zn is the reducing agent) and Cu<sup>2+</sup> gains two electrons (Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu, reduction, Cu<sup>2+</sup> is the oxidising agent).</p><p>This electron-transfer picture is completely general — it applies even when no oxygen or hydrogen is involved — and it is the definition examiners expect when they say 'in terms of electron transfer'. Remember the memory device: <b>OIL RIG</b> — Oxidation Is Loss, Reduction Is Gain (of electrons).</p>",
+      "formulas": [
+        {
+          "expr": "Oxidation: M → M<sup>n+</sup> + ne<sup>−</sup> (loss of electrons)",
+          "where": [
+            [
+              "M",
+              "an atom or ion that loses electrons"
+            ],
+            [
+              "n",
+              "number of electrons lost"
+            ]
+          ]
+        },
+        {
+          "expr": "Reduction: X + ne<sup>−</sup> → X<sup>n−</sup> (gain of electrons)",
+          "where": [
+            [
+              "X",
+              "an atom, ion or molecule that gains electrons"
+            ]
+          ]
+        }
+      ],
+      "tip": "'The reducing agent gets oxidised' and 'the oxidising agent gets reduced' is the single most confused line in this chapter — students often flip it. Say the sentence out loud until it feels automatic."
+    },
+    {
+      "heading": "7.3 Oxidation Number",
+      "pyq_years": [],
+      "body": "<p>Oxidation number (O.N.) is a formal charge assigned to an atom in a molecule or ion, assuming every bond is fully ionic and the shared electron pair goes entirely to the more electronegative atom. It lets us track electron transfer even in covalent molecules where no full ionic charge actually exists. An increase in oxidation number during a reaction signals oxidation; a decrease signals reduction.</p><p>The rules NCERT gives, in the order you should apply them:</p><ul><li>The oxidation number of an atom in its free (uncombined) element is zero — e.g. O.N. of Na in Na(s), of O in O<sub>2</sub>, of P in P<sub>4</sub> is 0.</li><li>For a monoatomic ion, the oxidation number equals the charge on the ion — O.N. of Na<sup>+</sup> is +1, of Cl<sup>−</sup> is −1.</li><li>Combined oxygen is usually −2 (CO<sub>2</sub>, H<sub>2</sub>O). Exceptions: in peroxides (H<sub>2</sub>O<sub>2</sub>, Na<sub>2</sub>O<sub>2</sub>) it is −1; in superoxides (KO<sub>2</sub>) it is −½; in OF<sub>2</sub> it is +2 and in O<sub>2</sub>F<sub>2</sub> it is +1, because F is more electronegative than O.</li><li>Combined hydrogen is usually +1 (H<sub>2</sub>O, NH<sub>3</sub>). Exception: in ionic/metal hydrides (NaH, CaH<sub>2</sub>) it is −1, because H is more electronegative than the metal.</li><li>Fluorine is always −1 in every compound (it is the most electronegative element).</li><li>Alkali metals (Li, Na, K…) are always +1; alkaline earth metals (Be, Mg, Ca…) are always +2 in their compounds.</li><li>The algebraic sum of oxidation numbers of all atoms in a neutral molecule is zero; in a polyatomic ion it equals the net charge on the ion.</li></ul><p>Worked example: find O.N. of Mn in KMnO<sub>4</sub>. Let O.N. of Mn = x. K is +1, each O is −2 (4 oxygens). Sum = 0: (+1) + x + 4(−2) = 0 ⇒ x = +7. So Mn is in the +7 state — the highest oxidation state manganese shows, which is why KMnO<sub>4</sub> is such a strong oxidising agent.</p>",
+      "formulas": [
+        {
+          "expr": "Σ (O.N. of all atoms) = 0 for a neutral molecule",
+          "where": [
+            [
+              "Σ",
+              "sum over every atom in the formula"
+            ]
+          ]
+        },
+        {
+          "expr": "Σ (O.N. of all atoms) = charge on ion, for a polyatomic ion",
+          "where": [
+            [
+              "e.g. Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>",
+              "2(O.N. of Cr) + 7(−2) = −2 ⇒ O.N. of Cr = +6"
+            ]
+          ]
+        }
+      ],
+      "tip": "Practice finding O.N. of the underlined atom in at least ten formulas (KMnO₄, K₂Cr₂O₇, Na₂S₂O₃, H₂SO₅, CrO₅, Fe₃O₄, NH₄⁺, N₂H₄...) — this exact skill is asked almost every year in some form."
+    },
+    {
+      "heading": "7.4 Types of Redox Reactions",
+      "pyq_years": [],
+      "body": "<p>NCERT groups redox reactions into four familiar reaction types, viewed now through the oxidation-number lens.</p><p><b>Combination reactions</b> — two or more elements/compounds combine to form one product. When at least one reactant is a free element, the reaction is necessarily redox: C(s) + O<sub>2</sub>(g) → CO<sub>2</sub>(g) (C goes 0 → +4; O goes 0 → −2). Not every combination reaction is redox — CaO + CO<sub>2</sub> → CaCO<sub>3</sub> has no change in any oxidation number, so it is not a redox reaction.</p><p><b>Decomposition reactions</b> — one compound breaks into two or more simpler substances; the reverse of combination. 2KClO<sub>3</sub>(s) → 2KCl(s) + 3O<sub>2</sub>(g): Cl goes +5 → −1 (reduced) and O goes −2 → 0 (oxidised). 2H<sub>2</sub>O<sub>2</sub>(aq) → 2H<sub>2</sub>O(l) + O<sub>2</sub>(g) is also decomposition and redox. Like combination reactions, not all decompositions are redox — CaCO<sub>3</sub> → CaO + CO<sub>2</sub> is not, since no atom changes oxidation state.</p><p><b>Displacement reactions</b> — an atom or ion in a compound is replaced by an atom or ion of another element. <i>Metal displacement:</i> CuSO<sub>4</sub>(aq) + Zn(s) → Cu(s) + ZnSO<sub>4</sub>(aq), where a more reactive metal displaces a less reactive one from its salt solution. <i>Non-metal displacement</i> (mostly hydrogen or halogen displacement): Cl<sub>2</sub>(g) + 2KBr(aq) → 2KCl(aq) + Br<sub>2</sub>(l), where a more reactive halogen displaces a less reactive one — this is only possible because Cl<sub>2</sub> is a stronger oxidising agent than Br<sub>2</sub>.</p><p><b>Disproportionation reactions</b> — a special class of redox reaction in which the <i>same</i> element, in one intermediate oxidation state, is simultaneously oxidised and reduced. Classic example: 2H<sub>2</sub>O<sub>2</sub>(aq) → 2H<sub>2</sub>O(l) + O<sub>2</sub>(g); oxygen in H<sub>2</sub>O<sub>2</sub> is at −1, and it goes to −2 in H<sub>2</sub>O (reduced) and to 0 in O<sub>2</sub> (oxidised) at the same time. Another NCERT favourite: P<sub>4</sub>(s) + 3NaOH(aq) + 3H<sub>2</sub>O(l) → PH<sub>3</sub>(g) + 3NaH<sub>2</sub>PO<sub>2</sub>(aq), where P (O.N. = 0) disproportionates to −3 (in PH<sub>3</sub>) and +1 (in NaH<sub>2</sub>PO<sub>2</sub>).</p>",
+      "formulas": [],
+      "tip": "For disproportionation, always name the element and show its one starting oxidation state splitting into a higher AND a lower state — that is the definition, and stating it that way earns full marks even without balancing."
+    },
+    {
+      "heading": "7.5.1 Balancing Redox Reactions — Oxidation Number Method",
+      "pyq_years": [],
+      "body": "<p>This method balances an equation by making the total increase in oxidation number equal to the total decrease. The steps (as NCERT sets them out):</p><ol><li>Write the skeletal (unbalanced) equation showing all reactants and products.</li><li>Assign oxidation numbers to every atom and identify the atoms whose oxidation number changes.</li><li>Calculate the increase or decrease in oxidation number per atom, then multiply by the number of such atoms in the formula to get the total change for that species.</li><li>Multiply the formulas of the oxidising and reducing agents by suitable numbers so that the total increase in O.N. equals the total decrease.</li><li>Balance all the atoms other than H and O.</li><li>Finally balance O by adding H<sub>2</sub>O molecules, and balance H by adding H<sup>+</sup> ions (acidic medium) — if the medium is basic, add an equal number of OH<sup>−</sup> ions to both sides at the end to neutralise the H<sup>+</sup>.</li></ol><p>Worked example: KMnO<sub>4</sub> + KI + H<sub>2</sub>SO<sub>4</sub> → MnSO<sub>4</sub> + I<sub>2</sub> + K<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O (acidic medium).</p><p>Mn goes from +7 (in KMnO<sub>4</sub>) to +2 (in MnSO<sub>4</sub>): a decrease of 5 per Mn atom. I goes from −1 (in KI) to 0 (in I<sub>2</sub>): an increase of 1 per I atom, and since I<sub>2</sub> needs 2 iodine atoms, we need 2 KI to supply 2 electrons lost, matched against 5 electrons gained per Mn — so we need 2 KMnO<sub>4</sub> and 10 KI to make the total increase (10 × 1 = 10) equal the total decrease (2 × 5 = 10). Balancing the rest atom by atom and then O and H gives:</p><p>2KMnO<sub>4</sub> + 10KI + 8H<sub>2</sub>SO<sub>4</sub> → 2MnSO<sub>4</sub> + 5I<sub>2</sub> + 6K<sub>2</sub>SO<sub>4</sub> + 8H<sub>2</sub>O</p>",
+      "formulas": [
+        {
+          "expr": "Total increase in O.N. (reducing agent) = Total decrease in O.N. (oxidising agent)",
+          "where": [
+            [
+              "This equality",
+              "is what fixes the coefficients before the rest of the equation is balanced by inspection"
+            ]
+          ]
+        }
+      ],
+      "tip": "Show the oxidation-number change worked out explicitly under the skeletal equation (Mn: +7 → +2, change = −5) — this is exactly what the marking scheme rewards, not just the final balanced equation."
+    },
+    {
+      "heading": "7.5.2 Balancing Redox Reactions — Ion-Electron (Half-Reaction) Method",
+      "pyq_years": [],
+      "body": "<p>This method, developed by Jorgensen, splits the redox equation into two half-reactions — one for oxidation, one for reduction — balances each separately, then adds them so electrons cancel. Steps: (1) write the skeletal ionic equation; (2) split it into an oxidation half and a reduction half; (3) balance all atoms except O and H in each half; (4) balance O by adding H<sub>2</sub>O to the side short of oxygen; (5) balance H by adding H<sup>+</sup> to the side short of hydrogen (this gives the acidic-medium version); (6) balance charge on each half by adding electrons; (7) multiply the two half-reactions by numbers that make the electrons lost equal the electrons gained, then add and cancel; (8) for a reaction in basic medium, add OH<sup>−</sup> equal to the number of H<sup>+</sup> on both sides, combine H<sup>+</sup> and OH<sup>−</sup> into H<sub>2</sub>O, and cancel water molecules common to both sides.</p><p><b>Acidic-medium example</b> (Fe<sup>2+</sup> reducing MnO<sub>4</sub><sup>−</sup>): Oxidation half: Fe<sup>2+</sup> → Fe<sup>3+</sup> + e<sup>−</sup>. Reduction half: MnO<sub>4</sub><sup>−</sup> + 8H<sup>+</sup> + 5e<sup>−</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O. Multiply the oxidation half by 5 and add: <b>MnO<sub>4</sub><sup>−</sup> + 8H<sup>+</sup> + 5Fe<sup>2+</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O + 5Fe<sup>3+</sup></b>. (Charge check: LHS = −1+8+10 = +17; RHS = +2+15 = +17. Balanced.)</p><p><b>Basic-medium example</b> (MnO<sub>4</sub><sup>−</sup> oxidising I<sup>−</sup> to IO<sub>3</sub><sup>−</sup>, itself reduced to MnO<sub>2</sub>): Reduction half: MnO<sub>4</sub><sup>−</sup> + 2H<sub>2</sub>O + 3e<sup>−</sup> → MnO<sub>2</sub> + 4OH<sup>−</sup>. Oxidation half: I<sup>−</sup> + 6OH<sup>−</sup> → IO<sub>3</sub><sup>−</sup> + 3H<sub>2</sub>O + 6e<sup>−</sup>. Multiply the reduction half by 2 (to get 6 electrons on each side) and add, then cancel common H<sub>2</sub>O and OH<sup>−</sup>: <b>2MnO<sub>4</sub><sup>−</sup> + H<sub>2</sub>O + I<sup>−</sup> → 2MnO<sub>2</sub> + 2OH<sup>−</sup> + IO<sub>3</sub><sup>−</sup></b>. (Oxygen check: LHS 8+1=9, RHS 4+3+2=9 — balanced; charge check: LHS −3, RHS −3 — balanced.)</p>",
+      "formulas": [
+        {
+          "expr": "electrons lost in oxidation half = electrons gained in reduction half, before adding",
+          "where": [
+            [
+              "This is the multiplier rule",
+              "that decides what number each half-reaction is scaled by"
+            ]
+          ]
+        }
+      ],
+      "tip": "In a 5-mark 'balance by ion-electron method' question, write both half-reactions separately, show the electron balancing step, and only then add — examiners give partial marks stage by stage even if your final coefficients slip."
+    },
+    {
+      "heading": "7.6 Redox Reactions as the Basis of Titrations",
+      "pyq_years": [],
+      "body": "<p>Redox titrations use the fact that oxidising and reducing agents react in a fixed, calculable electron ratio, exactly as acid–base titrations use the mole ratio of H<sup>+</sup> and OH<sup>−</sup>. The two workhorse oxidants in the school lab are potassium permanganate (KMnO<sub>4</sub>) and potassium dichromate (K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub>).</p><p>KMnO<sub>4</sub> is used in acidic medium (usually acidified with dilute H<sub>2</sub>SO<sub>4</sub>, never HCl, because HCl itself gets oxidised to Cl<sub>2</sub> and would consume extra KMnO<sub>4</sub>) to estimate reducing agents such as Fe<sup>2+</sup> (from Mohr's salt or ferrous sulphate) or oxalate ions. Its half-reaction, MnO<sub>4</sub><sup>−</sup> + 8H<sup>+</sup> + 5e<sup>−</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O, shows Mn changes from purple MnO<sub>4</sub><sup>−</sup> to almost colourless Mn<sup>2+</sup>. Because of this sharp colour change, KMnO<sub>4</sub> acts as its own indicator — the appearance of a permanent faint pink colour marks the end point, with no separate indicator needed.</p><p>K<sub>2</sub>Cr<sub>2</sub>O<sub>7</sub> is used similarly in acidic medium: Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> + 14H<sup>+</sup> + 6e<sup>−</sup> → 2Cr<sup>3+</sup> + 7H<sub>2</sub>O. Unlike KMnO<sub>4</sub>, it needs an external indicator (such as diphenylamine) because the orange-to-green colour change is not sharp enough to see clearly on its own.</p><p>The general idea to remember for a titration question: at the equivalence point, moles of electrons lost by the reducing agent = moles of electrons gained by the oxidising agent, and you use each half-reaction's electron count (5 for MnO<sub>4</sub><sup>−</sup>→Mn<sup>2+</sup>, 6 for Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>→2Cr<sup>3+</sup>) to convert between moles of titrant and moles of analyte.</p>",
+      "formulas": [
+        {
+          "expr": "n<sub>1</sub>M<sub>1</sub>V<sub>1</sub> (electrons given) = n<sub>2</sub>M<sub>2</sub>V<sub>2</sub> (electrons taken)",
+          "where": [
+            [
+              "n",
+              "number of electrons transferred per formula unit in that half-reaction"
+            ],
+            [
+              "M, V",
+              "molarity and volume of oxidant/reductant used"
+            ]
+          ]
+        }
+      ],
+      "tip": "Remember: KMnO₄ is its own indicator (self-indicating, end point = permanent pale pink); K₂Cr₂O₇ needs an external indicator. This exact contrast is a favourite one-mark question."
+    },
+    {
+      "heading": "7.7 Limitations of the Concept of Oxidation Number",
+      "pyq_years": [],
+      "body": "<p>Oxidation number is a bookkeeping device, not a measure of real charge, and it has real limits that NCERT explicitly flags. Fractional oxidation numbers can arise when we average over multiple non-equivalent atoms of the same element in one formula — for example the O.N. of carbon in C<sub>3</sub>O<sub>2</sub> works out to +4/3, and in Fe<sub>3</sub>O<sub>4</sub> the average O.N. of Fe is +8/3 (in reality Fe<sub>3</sub>O<sub>4</sub> contains two Fe<sup>3+</sup> and one Fe<sup>2+</sup>, whose average is +8/3, but no single iron atom actually carries a fractional charge). Such fractional values are perfectly valid for balancing equations but should not be read as the literal charge on any one atom.</p><p>The oxidation number concept also cannot always distinguish between compounds that are genuinely different in structure but happen to give the same average O.N., and it does not by itself explain bonding character (ionic vs covalent) — it is purely a formal, calculated quantity assuming complete electron transfer, which is an approximation for covalent bonds. Despite these limitations, oxidation number remains extremely useful for identifying which atoms are oxidised or reduced and for balancing equations systematically, which is why it is taught before the more rigorous ion-electron method.</p>",
+      "formulas": [
+        {
+          "expr": "Average O.N. of Fe in Fe<sub>3</sub>O<sub>4</sub> = +8/3",
+          "where": [
+            [
+              "Structural reality",
+              "two Fe<sup>3+</sup> + one Fe<sup>2+</sup>, so the fractional value is an average, not a true single-atom charge"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a question gives a fractional O.N. and asks 'is this possible', say yes — explain it as an average over non-equivalent atoms, and give the Fe₃O₄ or C₃O₂ example."
+    },
+    {
+      "heading": "7.8 Redox Reactions and Electrode Processes",
+      "pyq_years": [],
+      "body": "<p>When a strip of zinc is dipped directly into copper sulphate solution, Zn(s) + Cu<sup>2+</sup>(aq) → Zn<sup>2+</sup>(aq) + Cu(s) occurs with electrons transferring directly at the metal surface, and the chemical energy is lost as heat. If instead the two half-reactions are physically separated — zinc in a ZnSO<sub>4</sub> solution, copper in a CuSO<sub>4</sub> solution, the two beakers connected by a salt bridge and the two metal strips connected by a wire through a voltmeter — the same net reaction occurs, but now the electrons must travel through the external wire to get from Zn to Cu<sup>2+</sup>. This device is a <b>galvanic (voltaic) cell</b>, and it converts chemical energy directly into electrical energy. The zinc electrode, where oxidation occurs, is the <b>anode</b> (negative terminal in a galvanic cell); the copper electrode, where reduction occurs, is the <b>cathode</b> (positive terminal). The salt bridge maintains electrical neutrality in both half-cells by allowing ion flow as the reaction proceeds.</p><p>Each electrode has a tendency to lose or gain electrons, measured (relative to a chosen reference) as its <b>standard electrode potential</b>. The reference is the <b>standard hydrogen electrode (SHE)</b>, arbitrarily assigned a standard reduction potential of exactly 0.00 V, against which every other electrode's potential is measured under standard conditions (1 bar pressure, 1 M concentration, 298 K). Arranging elements in order of increasing standard reduction potential gives the <b>electrochemical series</b>: strong reducing agents (Li, K, Ca, Na… with large negative potentials) sit at the top, and strong oxidising agents (F<sub>2</sub>, with a large positive potential) sit at the bottom. A species higher in the series (more negative potential) can reduce — and will displace — a species lower in the series from its salt solution, which is exactly why Zn displaces Cu<sup>2+</sup> but Cu cannot displace Zn<sup>2+</sup>.</p>",
+      "formulas": [
+        {
+          "expr": "E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub>",
+          "where": [
+            [
+              "E°<sub>cell</sub>",
+              "standard cell potential (V)"
+            ],
+            [
+              "E°<sub>cathode</sub>, E°<sub>anode</sub>",
+              "standard reduction potentials of the cathode and anode half-reactions"
+            ]
+          ]
+        },
+        {
+          "expr": "E°(SHE) = 0.00 V (by convention)",
+          "where": [
+            [
+              "SHE",
+              "standard hydrogen electrode, Pt|H<sub>2</sub>(1 bar)|H<sup>+</sup>(1 M)"
+            ]
+          ]
+        }
+      ],
+      "tip": "A metal placed higher (more negative E°) in the electrochemical series always displaces one placed lower from its salt solution — use this one rule to answer almost every 'will X displace Y' question."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Oxidation (classical)",
+      "definition": "Addition of oxygen (or a more electronegative element) to a substance, or removal of hydrogen from it."
+    },
+    {
+      "term": "Reduction (classical)",
+      "definition": "Addition of hydrogen to a substance, or removal of oxygen from it."
+    },
+    {
+      "term": "Oxidation (electron-transfer)",
+      "definition": "Loss of one or more electrons by an atom, ion or molecule; the oxidation number increases."
+    },
+    {
+      "term": "Reduction (electron-transfer)",
+      "definition": "Gain of one or more electrons by an atom, ion or molecule; the oxidation number decreases."
+    },
+    {
+      "term": "Oxidising agent (oxidant)",
+      "definition": "The species that gains electrons and is itself reduced, causing the other reactant to be oxidised."
+    },
+    {
+      "term": "Reducing agent (reductant)",
+      "definition": "The species that loses electrons and is itself oxidised, causing the other reactant to be reduced."
+    },
+    {
+      "term": "Oxidation number",
+      "definition": "A formal charge assigned to an atom in a molecule or ion by assuming every bond is fully ionic, used to track electron transfer during a reaction."
+    },
+    {
+      "term": "Disproportionation reaction",
+      "definition": "A redox reaction in which the same element, present in one intermediate oxidation state, is simultaneously oxidised to a higher state and reduced to a lower state."
+    },
+    {
+      "term": "Ion-electron (half-reaction) method",
+      "definition": "A method of balancing redox equations by writing separate oxidation and reduction half-reactions, balancing atoms, O, H and charge in each, then adding them so electrons cancel."
+    },
+    {
+      "term": "Galvanic (voltaic) cell",
+      "definition": "A device that converts the chemical energy of a spontaneous redox reaction directly into electrical energy by physically separating the oxidation and reduction half-reactions."
+    },
+    {
+      "term": "Anode",
+      "definition": "The electrode at which oxidation occurs; the negative terminal in a galvanic cell."
+    },
+    {
+      "term": "Cathode",
+      "definition": "The electrode at which reduction occurs; the positive terminal in a galvanic cell."
+    },
+    {
+      "term": "Standard hydrogen electrode (SHE)",
+      "definition": "The reference electrode, Pt|H₂(1 bar)|H⁺(1 M), whose standard reduction potential is defined as exactly 0.00 V."
+    },
+    {
+      "term": "Standard electrode potential (E°)",
+      "definition": "The potential of an electrode measured against the SHE under standard conditions (1 bar, 1 M, 298 K), indicating its tendency to be reduced."
+    },
+    {
+      "term": "Electrochemical series",
+      "definition": "A list of electrodes arranged in order of increasing standard reduction potential, used to compare oxidising/reducing strength and predict displacement reactions."
+    },
+    {
+      "term": "Salt bridge",
+      "definition": "A tube containing an inert electrolyte that connects the two half-cells of a galvanic cell, maintaining electrical neutrality by allowing ion flow."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Oxidation half-reaction",
+      "expr": "M → M<sup>n+</sup> + ne<sup>−</sup>",
+      "note": "Loss of electrons; O.N. of M increases."
+    },
+    {
+      "name": "Reduction half-reaction",
+      "expr": "X + ne<sup>−</sup> → X<sup>n−</sup>",
+      "note": "Gain of electrons; O.N. of X decreases."
+    },
+    {
+      "name": "Sum rule for a neutral molecule",
+      "expr": "Σ (O.N. of all atoms) = 0",
+      "note": "Used to find an unknown O.N. in any neutral compound."
+    },
+    {
+      "name": "Sum rule for a polyatomic ion",
+      "expr": "Σ (O.N. of all atoms) = charge on the ion",
+      "note": "E.g. for Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup>: 2x + 7(−2) = −2 ⇒ x = +6."
+    },
+    {
+      "name": "O.N. balance in oxidation-number method",
+      "expr": "Total increase in O.N. = Total decrease in O.N.",
+      "note": "Fixes the coefficients of the oxidising and reducing agent before balancing the rest."
+    },
+    {
+      "name": "Electron balance in half-reaction method",
+      "expr": "electrons lost (oxidation half) = electrons gained (reduction half)",
+      "note": "Decides the multiplier for each half-reaction before adding."
+    },
+    {
+      "name": "Standard cell potential",
+      "expr": "E°<sub>cell</sub> = E°<sub>cathode</sub> − E°<sub>anode</sub>",
+      "note": "Positive E°<sub>cell</sub> ⇒ reaction is spontaneous as written."
+    },
+    {
+      "name": "Reference electrode potential",
+      "expr": "E°(SHE) = 0.00 V",
+      "note": "All other standard electrode potentials are measured relative to this."
+    },
+    {
+      "name": "MnO₄⁻ reduction half-reaction (acidic)",
+      "expr": "MnO<sub>4</sub><sup>−</sup> + 8H<sup>+</sup> + 5e<sup>−</sup> → Mn<sup>2+</sup> + 4H<sub>2</sub>O",
+      "note": "5-electron change; basis of KMnO₄ redox titrations."
+    },
+    {
+      "name": "Cr₂O₇²⁻ reduction half-reaction (acidic)",
+      "expr": "Cr<sub>2</sub>O<sub>7</sub><sup>2−</sup> + 14H<sup>+</sup> + 6e<sup>−</sup> → 2Cr<sup>3+</sup> + 7H<sub>2</sub>O",
+      "note": "6-electron change; basis of K₂Cr₂O₇ redox titrations."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Daniell (Zn–Cu) galvanic cell",
+      "how_to_draw": "Draw two beakers side by side: left beaker with a Zn strip in ZnSO₄ solution, right beaker with a Cu strip in CuSO₄ solution. Connect the two strips with a wire through a voltmeter on top, and connect the two solutions underneath with a U-shaped salt bridge. Label Zn strip 'anode (oxidation, −)' and Cu strip 'cathode (reduction, +)', draw an arrow showing electron flow through the wire from Zn to Cu, and an arrow showing ion flow (anions towards Zn, cations towards Cu) through the salt bridge."
+    },
+    {
+      "title": "Direct electron transfer: Zn + Cu²⁺ without separation",
+      "how_to_draw": "Draw a single beaker with a strip of zinc dipped directly into blue CuSO₄ solution. Show reddish copper depositing on the zinc strip and the blue colour fading as Cu²⁺ is consumed. Add a short curved arrow at the metal surface showing 2 electrons passing directly from a Zn atom to a Cu²⁺ ion, labelled 'no useful electrical work — energy lost as heat', to contrast with the separated Daniell cell."
+    },
+    {
+      "title": "Flowchart for balancing by the ion-electron method",
+      "how_to_draw": "Draw a top-to-bottom flowchart of boxes: 1) Write skeletal ionic equation → 2) Split into oxidation half and reduction half → 3) Balance atoms other than O and H → 4) Balance O by adding H₂O → 5) Balance H by adding H⁺ (acidic medium) → 6) Balance charge by adding electrons → 7) Multiply each half so electrons lost = electrons gained → 8) Add the two halves and cancel. Add a side branch from step 5 labelled 'if basic medium: add OH⁻ equal to H⁺ on both sides, form H₂O, cancel common water' feeding back into step 8."
+    },
+    {
+      "title": "Electrochemical series ladder",
+      "how_to_draw": "Draw a single vertical arrow. At the top, write strong reducing agents with large negative E° (Li, K, Ca, Na, Mg, Zn…), and at the bottom write strong oxidising agents with large positive E° (Cu, Ag, F₂). Label the arrow 'increasing E° (increasing oxidising power) →' pointing down, and 'increasing reducing power ↑' pointing up. Mark H₂/H⁺ at E° = 0.00 V roughly in the middle as the SHE reference point."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "7.1",
+      "q": "Assign oxidation numbers to the underlined elements: (a) N<u>a</u>H₂PO₄ (P) (b) N<u>a</u>HSO₄ (S) (c) H₄P₂O₇ (P) (d) K₂MnO₄ (Mn) (e) CaO₂ (O, peroxide).",
+      "a": "<p>(a) In NaH₂PO₄: Na = +1, H = +1 each (×2). Let O.N. of P = x. Sum = 0: 1 + 2(1) + x + 4(−2) = 0 ⇒ 3 + x − 8 = 0 ⇒ <b>x = +5</b>.</p><p>(b) In NaHSO₄: Na = +1, H = +1. Let O.N. of S = x. 1 + 1 + x + 4(−2) = 0 ⇒ 2 + x − 8 = 0 ⇒ <b>x = +6</b>.</p><p>(c) In H₄P₂O₇: H = +1 (×4). Let O.N. of each P = x (2 P atoms). 4(1) + 2x + 7(−2) = 0 ⇒ 4 + 2x − 14 = 0 ⇒ 2x = 10 ⇒ <b>x = +5</b>.</p><p>(d) In K₂MnO₄: K = +1 (×2). Let O.N. of Mn = x. 2(1) + x + 4(−2) = 0 ⇒ 2 + x − 8 = 0 ⇒ <b>x = +6</b>.</p><p>(e) In CaO₂ (calcium peroxide): Ca = +2. This is a peroxide, so O.N. of O is not the usual −2. Let O.N. of each O = x (2 O atoms). 2 + 2x = 0 ⇒ <b>x = −1</b> (peroxide oxygen).</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "7.2",
+      "q": "What are the oxidation numbers of phosphorus in the following: (a) H₃PO₃ (b) PCl₃ (c) Ca₃P₂ (d) Na₃PO₄?",
+      "a": "<p>(a) H₃PO₃: 3(1) + x + 3(−2) = 0 ⇒ 3 + x − 6 = 0 ⇒ <b>x = +3</b>.</p><p>(b) PCl₃: Cl is −1 each. x + 3(−1) = 0 ⇒ <b>x = +3</b>.</p><p>(c) Ca₃P₂: this is an ionic compound of Ca²⁺ and P³⁻ (calcium phosphide). Ca is +2 (×3 = +6), so total charge on 2 P atoms must be −6 ⇒ each P = <b>−3</b>.</p><p>(d) Na₃PO₄: Na is +1 (×3 = +3). x + 4(−2) + 3 = 0 ⇒ x − 8 + 3 = 0 ⇒ <b>x = +5</b>.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "7.3",
+      "q": "Justify that the reaction 2Cu₂O(s) + Cu₂S(s) → 6Cu(s) + SO₂(g) is a redox reaction. Identify the species oxidised, reduced, the oxidising agent and the reducing agent.",
+      "a": "<p>Assign oxidation numbers. In Cu₂O, Cu = +1 (O = −2). In Cu₂S, Cu = +1, S = −2 (ionic sulphide). In Cu(s), Cu = 0. In SO₂, S = +4, O = −2.</p><p>Copper changes from +1 (in both Cu₂O and Cu₂S) to 0 in Cu — a decrease in oxidation number, so <b>Cu is reduced</b>; Cu₂O and Cu₂S together act as the <b>oxidising agent</b> (for the copper part).</p><p>Sulphur changes from −2 (in Cu₂S) to +4 (in SO₂) — an increase in oxidation number, so <b>S in Cu₂S is oxidised</b>; Cu₂S is the <b>reducing agent</b> (for the sulphur part). Since both oxidation and reduction occur, this is a redox reaction — in fact Cu₂S here plays a dual role, acting partly as reductant (via S) while the Cu in both compounds is reduced.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7.4",
+      "q": "Balance the following redox reaction by the ion-electron method: MnO₄⁻(aq) + I⁻(aq) → MnO₂(s) + I₂(s) (basic medium).",
+      "a": "<p>Reduction half: MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻</p><p>Oxidation half: 2I⁻ → I₂ + 2e⁻</p><p>To equalise electrons (LCM of 3 and 2 is 6): multiply the reduction half by 2 and the oxidation half by 3:</p><p>2MnO₄⁻ + 4H₂O + 6e⁻ → 2MnO₂ + 8OH⁻</p><p>6I⁻ → 3I₂ + 6e⁻</p><p>Adding and cancelling the 6 electrons: <b>2MnO₄⁻ + 4H₂O + 6I⁻ → 2MnO₂ + 8OH⁻ + 3I₂</b></p><p>Check charge: LHS = 2(−1) + 6(−1) = −8. RHS = 8(−1) = −8. Balanced.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "7.5",
+      "q": "Balance the following redox reaction by the ion-electron method: Cr₂O₇²⁻(aq) + SO₂(g) → Cr³⁺(aq) + SO₄²⁻(aq) (acidic medium).",
+      "a": "<p>Reduction half: Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O</p><p>Oxidation half: SO₂ + 2H₂O → SO₄²⁻ + 4H⁺ + 2e⁻</p><p>Equalise electrons (LCM of 6 and 2 is 6): multiply the oxidation half by 3:</p><p>3SO₂ + 6H₂O → 3SO₄²⁻ + 12H⁺ + 6e⁻</p><p>Add to the reduction half and cancel 6e⁻, then simplify H⁺ (14 − 12 = 2 net on left) and H₂O (7 − 6 = 1 net on right):</p><p><b>Cr₂O₇²⁻ + 2H⁺ + 3SO₂ → 2Cr³⁺ + 3SO₄²⁻ + H₂O</b></p><p>Check charge: LHS = −2 + 2 + 0 = 0. RHS = 2(3) + 3(−2) + 0 = 6 − 6 = 0. Balanced.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "7.6",
+      "q": "Identify the substance oxidised, reduced, the oxidising agent and the reducing agent in: (i) H₂S(g) + Cl₂(g) → 2HCl(g) + S(s) (ii) 3Fe₃O₄(s) + 8Al(s) → 9Fe(s) + 4Al₂O₃(s) (iii) 2Na(s) + H₂(g) → 2NaH(s).",
+      "a": "<p>(i) S in H₂S goes −2 → 0: <b>H₂S oxidised, is the reducing agent</b>. Cl in Cl₂ goes 0 → −1: <b>Cl₂ reduced, is the oxidising agent</b>.</p><p>(ii) Fe in Fe₃O₄ (average +8/3) goes to 0 in Fe: <b>Fe₃O₄ reduced, is the oxidising agent</b>. Al goes 0 → +3 in Al₂O₃: <b>Al oxidised, is the reducing agent</b>.</p><p>(iii) Na goes 0 → +1: <b>Na oxidised, is the reducing agent</b>. H in H₂ goes 0 → −1 (hydride ion, since Na is less electronegative than H): <b>H₂ reduced, is the oxidising agent</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7.7",
+      "q": "Why is it more appropriate to write the photosynthesis and ozone–peroxide reactions with the two product O₂ shown separately, i.e. as 6CO₂ + 12H₂O → C₆H₁₂O₆ + 6H₂O + 6O₂ and O₃ + H₂O₂ → H₂O + O₂ + O₂, rather than in the simplified form?",
+      "a": "<p>Writing the water molecules and the two O₂ separately shows exactly where each oxygen atom comes from. Isotope-tracer (¹⁸O) studies show the O₂ released in photosynthesis comes entirely from water, not CO₂ — writing 12H₂O consumed and 6H₂O regenerated makes this origin explicit.</p><p>In O₃ + H₂O₂ → H₂O + 2O₂, one O₂ comes from reduction of ozone's terminal oxygen and the other from oxidation of peroxide oxygen (−1 → 0) — so both oxidation and reduction of oxygen atoms occur in the same equation, at two different oxygen sources, which separate O₂ terms make visible.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7.8",
+      "q": "Calculate the oxidation number of sulphur, chromium and nitrogen in H₂SO₅, Cr₂O₇²⁻ and NO₃⁻.",
+      "a": "<p><b>H₂SO₅ (Caro's acid):</b> it has one O–O peroxide link (2 O at −1) and 3 normal O (−2): x + 2 + 3(−2) + 2(−1) = 0 ⇒ <b>x = +6</b> for S.</p><p><b>Cr₂O₇²⁻:</b> 2x + 7(−2) = −2 ⇒ <b>x = +6</b> for each Cr.</p><p><b>NO₃⁻:</b> x + 3(−2) = −1 ⇒ <b>x = +5</b> for N.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "7.9",
+      "q": "Justify that among the halogens, fluorine is the best oxidant and iodine is the poorest oxidant, using standard electrode potentials.",
+      "a": "<p>Standard reduction potential (X₂ + 2e⁻ → 2X⁻) falls down the group: F₂ ≈ +2.87 V, Cl₂ ≈ +1.36 V, Br₂ ≈ +1.09 V, I₂ ≈ +0.54 V. A more positive E° means a greater tendency to be reduced, i.e. a stronger oxidant.</p><p>F₂, with the highest E°, is the <b>strongest oxidant</b> and can displace Cl⁻, Br⁻ and I⁻ from their salts. I₂, with the lowest E°, is the <b>weakest oxidant</b> and cannot displace any other halide.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "7.10",
+      "q": "A compound of lower oxidation state forms when the reducing agent is in excess, and a compound of higher oxidation state forms when the oxidising agent is in excess. Justify with three examples.",
+      "a": "<p>The extent of oxidation depends on how much oxidant is available; a limited oxidant leaves the reaction at a lower, intermediate state.</p><p>(i) Excess Cl₂ gives PCl₅ (P at +5); limited Cl₂ gives PCl₃ (P at +3).</p><p>(ii) Excess O₂ gives CO₂ (C at +4); limited O₂ gives CO (C at +2).</p><p>(iii) Excess Cl₂ gives FeCl₃ (Fe at +3); limited Cl₂ gives FeCl₂ (Fe at +2). More oxidant pushes the element to its higher accessible state; a shortage leaves it lower.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The oxidation number of chromium in K₂Cr₂O₇ is:",
+      "options": [
+        "+3",
+        "+6",
+        "+7",
+        "+2"
+      ],
+      "answer": "b",
+      "solution": "2(+1) + 2x + 7(−2) = 0 ⇒ 2 + 2x − 14 = 0 ⇒ x = +6."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In the reaction 2H₂O₂ → 2H₂O + O₂, hydrogen peroxide acts as:",
+      "options": [
+        "Only an oxidising agent",
+        "Only a reducing agent",
+        "Both oxidising and reducing agent (disproportionation)",
+        "Neither, this is not a redox reaction"
+      ],
+      "answer": "c",
+      "solution": "O in H₂O₂ is −1; it goes to −2 in H₂O (reduced) and to 0 in O₂ (oxidised) simultaneously — this is disproportionation, so H₂O₂ is both oxidant and reductant."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is an example of a comproportionation (the reverse of disproportionation) reaction?",
+      "options": [
+        "2KClO₃ → 2KCl + 3O₂",
+        "Ag⁺ + NO₃⁻ + e⁻ processes in a cell",
+        "NH₄NO₃ → N₂O + 2H₂O where N is at −3 and +5 combining to give N at +1",
+        "Zn + CuSO₄ → ZnSO₄ + Cu"
+      ],
+      "answer": "c",
+      "solution": "In NH₄NO₃ → N₂O + 2H₂O, N at −3 (in NH₄⁺) and N at +5 (in NO₃⁻) both change to +1 in N₂O — two different oxidation states of the same element combining into one intermediate state, which is comproportionation."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The oxidation number of oxygen in KO₂ (potassium superoxide) is:",
+      "options": [
+        "−2",
+        "−1",
+        "−1/2",
+        "0"
+      ],
+      "answer": "c",
+      "solution": "K is +1. For the O₂⁻ (superoxide) ion, charge is −1 shared over 2 O atoms, so each O has O.N. = −1/2."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which reagent is commonly used as a self-indicator in redox titrations because of its own sharp colour change at the end point?",
+      "options": [
+        "K₂Cr₂O₇",
+        "KMnO₄",
+        "Starch solution",
+        "Phenolphthalein"
+      ],
+      "answer": "b",
+      "solution": "KMnO₄ changes from deep purple (MnO₄⁻) to almost colourless (Mn²⁺), so a permanent faint pink marks the end point without any external indicator being needed."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A metal M has a more negative standard reduction potential than Zn. Metal M will:",
+      "options": [
+        "Not react with ZnSO₄ solution at all",
+        "Be displaced by Zn from a solution of its salt",
+        "Displace Zn from ZnSO₄ solution",
+        "Form an alloy with Zn only, never displace it"
+      ],
+      "answer": "c",
+      "solution": "A more negative E° means M is a stronger reducing agent than Zn, so M can lose electrons more readily and displace Zn²⁺ from ZnSO₄ solution."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The oxidising agent in a redox reaction is itself reduced. Reason (R): Reduction is defined as the gain of electrons.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The oxidising agent gains electrons (is reduced) while oxidising the other reactant; this is exactly the definition of reduction stated in R, so R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The oxidation number of oxygen in OF₂ is +2. Reason (R): Fluorine, being more electronegative than oxygen, is always assigned −1 in its compounds.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "In OF₂, F = −1 (×2 = −2); for the molecule to be neutral, O must be +2. This is directly because F is more electronegative than O and always takes −1, forcing O to a positive value here — R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Fractional oxidation numbers, such as +8/3 for Fe in Fe₃O₄, are chemically meaningless and indicate an error in calculation. Reason (R): A fractional oxidation number is always the average over non-equivalent atoms of the same element in one formula.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "A is false — a fractional O.N. is not an error, it is a valid average (Fe₃O₄ genuinely contains 2 Fe³⁺ and 1 Fe²⁺, average +8/3). R alone is a true and correct statement, so the answer is (d): A is false but R is true."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define a disproportionation reaction and give one example with the oxidation number changes shown.",
+      "answer": "<p>A disproportionation reaction is a redox reaction in which the same element, present in one intermediate oxidation state in a single species, is simultaneously oxidised to a higher state and reduced to a lower state.</p><p>Example: 2H₂O₂(aq) → 2H₂O(l) + O₂(g). Oxygen in H₂O₂ is at −1; it is reduced to −2 in H₂O and oxidised to 0 in O₂ at the same time.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Calculate the oxidation number of sulphur in Na₂S₂O₃ (sodium thiosulphate).",
+      "answer": "<p>Na is +1 (×2 = +2). Let O.N. of each S = x (2 S atoms, treated as equivalent on average). 2 + 2x + 3(−2) = 0 ⇒ 2 + 2x − 6 = 0 ⇒ 2x = 4 ⇒ x = +2.</p><p>So the average oxidation number of S in Na₂S₂O₃ is <b>+2</b> (structurally, one S is at +5 and the other at −1, but the average calculated this way is +2).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the electrode at which oxidation occurs and the electrode at which reduction occurs in a galvanic cell, and state their polarity.",
+      "answer": "<p>Oxidation occurs at the <b>anode</b>, which is the negative terminal in a galvanic cell. Reduction occurs at the <b>cathode</b>, which is the positive terminal in a galvanic cell.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is dilute H₂SO₄, and not dilute HCl, used to acidify KMnO₄ solution in a redox titration?",
+      "answer": "<p>HCl itself is a reducing agent — Cl⁻ can be oxidised by KMnO₄ to Cl₂ (Cl goes from −1 to 0), which consumes extra KMnO₄ and gives a wrong (higher) titre reading. H₂SO₄ has no such reducing property, so it is used instead to provide the H⁺ ions needed by the MnO₄⁻/Mn²⁺ half-reaction without interfering in the titration.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Balance the following equation by the oxidation number method: Cu + HNO₃(dilute) → Cu(NO₃)₂ + NO + H₂O.",
+      "answer": "<p>Cu: 0 → +2, increase of 2 per Cu atom. N (in the NO₃⁻ that is reduced to NO): +5 → +2, decrease of 3 per N atom. To equalise total change (LCM of 2 and 3 = 6): 3 Cu (total increase = 6) and 2 N reduced (total decrease = 6).</p><p>So: 3Cu + 8HNO₃ → 3Cu(NO₃)₂ + 2NO + 4H₂O.</p><p>Check: Cu = 3 both sides. N: LHS 8, RHS 3(2) + 2 = 8. H: LHS 8, RHS 4(2) = 8. O: LHS 24, RHS 3(6) + 2(1) + 4(1) = 18 + 2 + 4 = 24. Balanced.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Classify the following as combination, decomposition, displacement or disproportionation redox reactions: (i) 2KClO₃ → 2KCl + 3O₂ (ii) Fe + CuSO₄ → FeSO₄ + Cu (iii) N₂ + 3H₂ → 2NH₃.",
+      "answer": "<p>(i) 2KClO₃ → 2KCl + 3O₂: one compound breaks into two simpler substances, with Cl going +5→−1 and O going −2→0 — this is a <b>decomposition</b> reaction (redox).</p><p>(ii) Fe + CuSO₄ → FeSO₄ + Cu: a more reactive metal (Fe) displaces a less reactive one (Cu) from its salt solution — this is a <b>displacement</b> reaction.</p><p>(iii) N₂ + 3H₂ → 2NH₃: two elements combine to form one compound, N going 0→−3 and H going 0→+1 — this is a <b>combination</b> reaction (redox).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State the rules used to assign oxidation numbers to hydrogen and oxygen in a compound, giving one exception for each.",
+      "answer": "<p><b>Hydrogen:</b> combined hydrogen is normally assigned O.N. = +1, as in H₂O or NH₃. Exception: in ionic (metal) hydrides such as NaH or CaH₂, hydrogen is more electronegative than the metal, so it is assigned O.N. = −1.</p><p><b>Oxygen:</b> combined oxygen is normally assigned O.N. = −2, as in CO₂ or H₂O. Exception: in peroxides such as H₂O₂ or Na₂O₂, each oxygen is assigned O.N. = −1 (and in superoxides such as KO₂, O.N. = −1/2; in OF₂, since F is more electronegative than O, oxygen is assigned +2).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Identify the oxidising agent and reducing agent in 2AgBr(s) + C₆H₆O₂(aq) → 2Ag(s) + 2HBr(aq) + C₆H₄O₂(aq) (a photographic-plate developer reaction), using oxidation numbers.",
+      "answer": "<p>Ag in AgBr goes from +1 to 0 in Ag(s) — a decrease, so Ag is reduced and <b>AgBr is the oxidising agent</b>.</p><p>C₆H₆O₂ (hydroquinone) is converted to C₆H₄O₂ (quinone), losing two H atoms; this is oxidation of the organic compound (equivalent to loss of two H, classical oxidation), so <b>C₆H₆O₂ is the reducing agent</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Balance the following redox equation by the ion-electron method: Cr₂O₇²⁻(aq) + Fe²⁺(aq) + H⁺(aq) → Cr³⁺(aq) + Fe³⁺(aq) + H₂O(l), and identify the oxidising and reducing agents.",
+      "answer": "<p>Reduction half: Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O</p><p>Oxidation half: Fe²⁺ → Fe³⁺ + e⁻</p><p>Multiply the oxidation half by 6 so electrons match: 6Fe²⁺ → 6Fe³⁺ + 6e⁻.</p><p>Add and cancel the 6 electrons: <b>Cr₂O₇²⁻ + 14H⁺ + 6Fe²⁺ → 2Cr³⁺ + 7H₂O + 6Fe³⁺</b></p><p>Charge check: LHS = −2 + 14 + 12 = +24. RHS = 6 + 18 = +24. Balanced.</p><p>Cr in Cr₂O₇²⁻ goes +6 → +3 (reduced), so <b>Cr₂O₇²⁻ is the oxidising agent</b>. Fe²⁺ goes +2 → +3 (oxidised), so <b>Fe²⁺ is the reducing agent</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Explain, using the electron-transfer definition, why 2Na(s) + Cl₂(g) → 2NaCl(s) is a redox reaction even though no oxygen or hydrogen is involved. (b) Balance P₄(s) + 3NaOH(aq) + 3H₂O(l) → PH₃(g) + 3NaH₂PO₂(aq) by the oxidation number method and identify it as a special type of redox reaction.",
+      "answer": "<p>(a) The classical definition fails here. By electron transfer: each Na loses one electron, Na → Na⁺ + e⁻ (oxidation, 0 → +1); each Cl in Cl₂ gains one electron, Cl₂ + 2e⁻ → 2Cl⁻ (reduction, 0 → −1). One species loses electrons, another gains them, so this is redox even with no oxygen or hydrogen present.</p><p>(b) In P₄, P = 0. In PH₃, P = −3 (reduction, decrease of 3). In NaH₂PO₂, solving 1 + 2 + x − 4 = 0 gives P = +1 (oxidation, increase of 1). Of the four P atoms, one is reduced to −3 and three are oxidised to +1: total decrease = 3, total increase = 3×1 = 3 — matched, as given in the equation.</p><p>This is a <b>disproportionation reaction</b>: phosphorus at a single state (0) in P₄ is simultaneously oxidised (to +1) and reduced (to −3).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the working of a Daniell cell — anode, cathode, salt bridge and electron flow — and write its overall cell reaction.",
+      "answer": "<p>A Daniell cell has a zinc electrode in ZnSO₄ solution and a copper electrode in CuSO₄ solution, in separate containers joined by a salt bridge, with the electrodes connected externally through a wire.</p><p>At zinc, oxidation occurs: Zn(s) → Zn²⁺(aq) + 2e⁻ — this is the <b>anode</b>, the negative terminal; electrons flow through the wire to copper.</p><p>At copper, reduction occurs: Cu²⁺(aq) + 2e⁻ → Cu(s) — this is the <b>cathode</b>, the positive terminal.</p><p>Charge builds up in each half-cell as the reaction proceeds; the <b>salt bridge</b> lets anions migrate towards zinc and cations towards copper, keeping both half-cells neutral and completing the circuit.</p><p>Overall: <b>Zn(s) + Cu²⁺(aq) → Zn²⁺(aq) + Cu(s)</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>Potassium permanganate, KMnO₄, is a widely used oxidising agent in the laboratory. In acidic medium, it is reduced according to MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O, changing colour from deep purple to almost colourless. It is commonly used to estimate the amount of Fe²⁺ or oxalate ions in a solution by titration, and it acts as its own indicator.<br>(i) What colour change marks the end point of a KMnO₄ titration, and why is no separate indicator needed?<br>(ii) Write the oxidation half-reaction when KMnO₄ is used to titrate Fe²⁺ ions.<br>(iii) Why is dilute HCl avoided while acidifying KMnO₄ solution for this titration?<br>(iv) What is the change in oxidation number of manganese in the given half-reaction, and is Mn reduced or oxidised?",
+      "answer": "<p>(i) A permanent faint pink, since deep purple MnO₄⁻ is reduced to nearly colourless Mn²⁺; excess unreacted MnO₄⁻ tints the solution pink, so KMnO₄ is its own indicator.</p><p>(ii) Fe²⁺ → Fe³⁺ + e⁻.</p><p>(iii) Cl⁻ is a reducing agent and would be oxidised to Cl₂ by KMnO₄, consuming extra titrant and giving a wrong reading; H₂SO₄ does not interfere.</p><p>(iv) Mn goes from +7 to +2, a decrease of 5 — manganese is <b>reduced</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>Every redox reaction can be assigned a standard cell potential by comparing the standard reduction potentials of its two half-reactions against the standard hydrogen electrode (SHE), which is fixed at 0.00 V. Arranging elements by increasing standard reduction potential gives the electrochemical series: strong reducing agents such as Li, K and Na lie at the top with large negative potentials, while strong oxidising agents such as F₂ lie at the bottom with large positive potentials. A species higher in the series can displace one lower in the series from a solution of its salt.<br>(i) What is the standard reduction potential assigned to the SHE, and why is this value chosen?<br>(ii) Using the electrochemical series idea, explain why zinc can displace copper from CuSO₄ solution but copper cannot displace zinc from ZnSO₄ solution.<br>(iii) Write the formula relating E°cell to the standard electrode potentials of the cathode and anode.<br>(iv) Would you expect a metal with a very large negative standard reduction potential, such as lithium, to be a strong oxidising agent or a strong reducing agent? Justify.",
+      "answer": "<p>(i) E° = 0.00 V, fixed by convention so it can serve as a reference point for every other electrode.</p><p>(ii) Zn has a more negative E° than Cu, so Zn loses electrons more readily than Cu²⁺ gains them by comparison — Zn reduces Cu²⁺ and displaces copper. Cu, with a less negative potential, cannot reduce Zn²⁺, so it cannot displace zinc.</p><p>(iii) E°cell = E°cathode − E°anode.</p><p>(iv) A strong <b>reducing agent</b> — a large negative E° means little tendency to be reduced and a strong tendency to lose electrons instead.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The oxidation number of nitrogen in NH₄⁺ is:",
+      "options": [
+        "+3",
+        "−3",
+        "+5",
+        "0"
+      ],
+      "answer_index": 1,
+      "explanation": "H is +1 (×4 = +4); for the ion to have charge +1, N must be −3, since −3 + 4 = +1."
+    },
+    {
+      "q": "Which of the following pairs correctly matches the classical definition of oxidation with an example?",
+      "options": [
+        "Addition of hydrogen; 2Mg + O₂ → 2MgO",
+        "Removal of oxygen; CuO + H₂ → Cu + H₂O",
+        "Addition of oxygen; 2Mg + O₂ → 2MgO",
+        "Removal of hydrogen; H₂ + Cl₂ → 2HCl"
+      ],
+      "answer_index": 2,
+      "explanation": "Classical oxidation is addition of oxygen (or removal of hydrogen); 2Mg + O₂ → 2MgO adds oxygen to magnesium, so it is correctly matched."
+    },
+    {
+      "q": "In the reaction Zn + 2AgNO₃ → Zn(NO₃)₂ + 2Ag, the reducing agent is:",
+      "options": [
+        "Zn",
+        "AgNO₃",
+        "Zn(NO₃)₂",
+        "Ag"
+      ],
+      "answer_index": 0,
+      "explanation": "Zn loses electrons (0 → +2), so it is oxidised and is the reducing agent; Ag⁺ gains electrons and is the oxidising agent."
+    },
+    {
+      "q": "Which of these compounds contains chlorine in its highest possible oxidation state?",
+      "options": [
+        "NaCl",
+        "NaClO",
+        "NaClO₂",
+        "NaClO₄"
+      ],
+      "answer_index": 3,
+      "explanation": "In NaClO₄, O.N. of Cl = +7 (Na=+1, 4O=−8, so Cl=+7), the maximum oxidation state chlorine can show, higher than in NaClO (+1) or NaClO₂ (+3)."
+    },
+    {
+      "q": "A reaction in which the same element is simultaneously oxidised and reduced is called:",
+      "options": [
+        "Combination reaction",
+        "Comproportionation",
+        "Disproportionation",
+        "Displacement reaction"
+      ],
+      "answer_index": 2,
+      "explanation": "This is, by definition, a disproportionation reaction."
+    },
+    {
+      "q": "For balancing MnO₄⁻ + C₂O₄²⁻ + H⁺ → Mn²⁺ + CO₂ + H₂O, the number of electrons transferred per Mn atom is:",
+      "options": [
+        "1",
+        "2",
+        "5",
+        "6"
+      ],
+      "answer_index": 2,
+      "explanation": "MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O; Mn goes from +7 to +2, a change of 5 electrons."
+    },
+    {
+      "q": "Which species acts as the oxidising agent in the reaction 2FeCl₃ + H₂S → 2FeCl₂ + 2HCl + S?",
+      "options": [
+        "FeCl₃",
+        "H₂S",
+        "FeCl₂",
+        "HCl"
+      ],
+      "answer_index": 0,
+      "explanation": "Fe in FeCl₃ goes from +3 to +2 in FeCl₂ (reduced), so FeCl₃ is the oxidising agent; S in H₂S goes from −2 to 0 (oxidised)."
+    },
+    {
+      "q": "The electrode at which reduction takes place in a galvanic cell is called the:",
+      "options": [
+        "Anode",
+        "Cathode",
+        "Salt bridge",
+        "Reference electrode"
+      ],
+      "answer_index": 1,
+      "explanation": "Reduction occurs at the cathode, which is the positive terminal in a galvanic cell."
+    },
+    {
+      "q": "Which of the following reactions is NOT a redox reaction?",
+      "options": [
+        "CaO + CO₂ → CaCO₃",
+        "2KClO₃ → 2KCl + 3O₂",
+        "Zn + CuSO₄ → ZnSO₄ + Cu",
+        "2Na + Cl₂ → 2NaCl"
+      ],
+      "answer_index": 0,
+      "explanation": "In CaO + CO₂ → CaCO₃, no element changes oxidation number (Ca stays +2, C stays +4, O stays −2 throughout) — it is a combination reaction but not redox."
+    },
+    {
+      "q": "In acidic medium, Cr₂O₇²⁻ is reduced to Cr³⁺. The number of electrons involved per Cr₂O₇²⁻ ion is:",
+      "options": [
+        "2",
+        "3",
+        "5",
+        "6"
+      ],
+      "answer_index": 3,
+      "explanation": "Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O; each of the 2 Cr atoms changes by 3 (from +6 to +3), giving a total of 6 electrons."
+    },
+    {
+      "q": "Which of the following metals, based on the electrochemical series, is the strongest reducing agent?",
+      "options": [
+        "Cu",
+        "Zn",
+        "Ag",
+        "Li"
+      ],
+      "answer_index": 3,
+      "explanation": "Lithium has the most negative standard reduction potential among common metals, making it the strongest reducing agent (greatest tendency to lose electrons)."
+    },
+    {
+      "q": "The oxidation number of iodine in the IO₃⁻ ion is:",
+      "options": [
+        "+1",
+        "+3",
+        "+5",
+        "+7"
+      ],
+      "answer_index": 2,
+      "explanation": "x + 3(−2) = −1 ⇒ x − 6 = −1 ⇒ x = +5."
+    },
+    {
+      "q": "Which statement about K₂Cr₂O₇ as a titrant is correct?",
+      "options": [
+        "It acts as its own indicator like KMnO₄",
+        "It requires an external indicator such as diphenylamine",
+        "It is used only in basic medium",
+        "It cannot be used for redox titrations"
+      ],
+      "answer_index": 1,
+      "explanation": "Unlike KMnO₄, the colour change of K₂Cr₂O₇ (orange to green) is not sharp enough to see clearly on its own, so an external indicator like diphenylamine is required."
+    },
+    {
+      "q": "Which of the following best explains why a fractional oxidation number such as +8/3 for Fe in Fe₃O₄ is acceptable?",
+      "options": [
+        "It shows Fe₃O₄ is not a real compound",
+        "It is the average over two Fe³⁺ and one Fe²⁺ ion present in the structure",
+        "It means the oxidation number rules do not apply to iron",
+        "It indicates a calculation error that should be rounded off"
+      ],
+      "answer_index": 1,
+      "explanation": "Fe₃O₄ genuinely contains 2 Fe³⁺ and 1 Fe²⁺; the calculated oxidation number by the sum-rule is simply their average, +8/3, which is chemically valid."
+    },
+    {
+      "q": "In the half-reaction MnO₄⁻ + 2H₂O + 3e⁻ → MnO₂ + 4OH⁻ (basic medium), the oxidation number of Mn changes from:",
+      "options": [
+        "+7 to +4",
+        "+7 to +2",
+        "+6 to +4",
+        "+4 to +2"
+      ],
+      "answer_index": 0,
+      "explanation": "Mn in MnO₄⁻ is +7; in MnO₂, O.N. of Mn = x, x + 2(−2) = 0 ⇒ x = +4. So Mn changes from +7 to +4, a gain of 3 electrons, matching the 3e⁻ shown."
+    }
+  ],
+  "common_mistakes": [
+    "Mixing up 'oxidising agent' and 'reducing agent' — remembering that the oxidising agent itself gets reduced (and vice versa) is the single most common source of lost marks.",
+    "Forgetting the exceptions to the oxygen rule (peroxide −1, superoxide −½, OF₂ +2) and blindly using −2 for oxygen everywhere, which gives a wrong oxidation number and a wrong answer to the whole question.",
+    "Forgetting the exception to the hydrogen rule in ionic hydrides (NaH, CaH₂), where H is −1, not +1.",
+    "In the ion-electron method, balancing charge before balancing all atoms (O and H) — the order of steps matters and skipping ahead produces an equation that looks balanced in electrons but is wrong in atoms.",
+    "Forgetting to convert an acidic-medium balanced equation to basic medium correctly — students add OH⁻ to only one side instead of both, or forget to cancel the resulting H₂O.",
+    "Treating every combination or decomposition reaction as automatically redox — reactions like CaO + CO₂ → CaCO₃ or CaCO₃ → CaO + CO₂ involve no change in oxidation number and are not redox.",
+    "Writing a fractional oxidation number as if it is an error and 'correcting' it to a whole number, instead of recognising it as a genuine average over non-equivalent atoms.",
+    "Confusing anode/cathode polarity between a galvanic cell and an electrolytic cell — in a galvanic cell the anode is negative and cathode positive; this reverses in an electrolytic cell (covered in Class 12), so be careful not to mix the two up."
+  ],
+  "strategy": "<p>This chapter rewards method more than memorisation. Start with the oxidation number rules until you can find any atom's oxidation number in under a minute, including the exceptions (peroxide, superoxide, OF₂, metal hydrides) — this single skill underlies almost every other question in the chapter. Next, drill the two balancing methods separately: practise five oxidation-number-method equations and five ion-electron-method equations (mixing acidic and basic medium) until the sequence of steps is automatic, because a 5-mark balancing question is really testing whether you follow the steps in order, not whether you can guess the answer.</p><p>Learn the four reaction types (combination, decomposition, displacement, disproportionation) with one clean example each, and be ready to say whether a given reaction is redox at all — this is a frequent one-mark trap. Memorise the two titration half-reactions (MnO₄⁻/Mn²⁺ and Cr₂O₇²⁻/Cr³⁺) with their electron counts, and the contrast between KMnO₄ (self-indicating) and K₂Cr₂O₇ (needs an external indicator). Finally, be comfortable with the Daniell cell diagram, anode/cathode/salt bridge roles, and the basic idea of the electrochemical series (more negative E° = stronger reducing agent, more positive E° = stronger oxidising agent) — you will need all of this again, in more depth, in Class 12 Electrochemistry.</p>",
+  "revision_checklist": [
+    "Can state both the classical (oxygen/hydrogen) and electron-transfer definitions of oxidation and reduction, with one example each.",
+    "Can correctly say which species is the oxidising agent and which is the reducing agent in any given equation, without flipping them.",
+    "Knows all the oxidation number rules, including the exceptions for peroxides, superoxides, OF₂ and metal hydrides.",
+    "Can calculate the oxidation number of any atom in a neutral compound or polyatomic ion in under a minute.",
+    "Can identify and explain, with an example, a disproportionation reaction.",
+    "Can classify a given redox reaction as combination, decomposition, displacement or disproportionation.",
+    "Can balance a redox equation fully by the oxidation number method, showing the increase/decrease step.",
+    "Can balance a redox equation fully by the ion-electron method in both acidic and basic medium, writing both half-reactions.",
+    "Knows the MnO₄⁻/Mn²⁺ and Cr₂O₇²⁻/Cr³⁺ half-reactions with their electron counts by heart.",
+    "Knows why KMnO₄ is a self-indicator while K₂Cr₂O₇ needs an external indicator, and why dilute H₂SO₄ (not HCl) is used to acidify KMnO₄.",
+    "Can label a Daniell cell diagram completely: anode, cathode, salt bridge, direction of electron flow and ion flow.",
+    "Understands the standard hydrogen electrode as the 0.00 V reference and can use E°cell = E°cathode − E°anode.",
+    "Can use the electrochemical series to predict whether one metal will displace another from its salt solution.",
+    "Recognises that fractional oxidation numbers are valid averages, not errors, and can give the Fe₃O₄ example."
+  ],
+  "videos": []
+}

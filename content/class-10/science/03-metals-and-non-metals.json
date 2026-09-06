@@ -1,0 +1,1321 @@
+{
+  "class": 10,
+  "subject": "Science",
+  "chapter_no": 3,
+  "slug": "metals-and-non-metals",
+  "title": "Metals and Non-metals",
+  "summary": "The chapter sorts the elements into metals and non-metals by their physical and chemical behaviour, builds the reactivity series from reactions with oxygen, water, acids and salt solutions, explains ionic bonding, and then follows a metal from its ore to the refined product and finally to corrosion. It is one of the most predictable chemistry chapters in the Class 10 board paper: the same reactions, the same series and the same metallurgy steps come back every year.",
+  "exam_profile": {
+    "weightage": "Class 10 Science is one 80-mark paper. The chemistry unit 'Chemical Substances – Nature and Behaviour' (Chapters 1–4) carries 25 marks, and this chapter typically takes 6–8 of them, spread over a couple of MCQs or an Assertion–Reason, one 2- or 3-mark question and often a share of a case-based or 5-mark question.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Which metal floats on water, which oxide is amphoteric, the metal and oxide in the thermit reaction, which pair gives a displacement reaction, liquid metal and liquid non-metal, why sodium is kept in kerosene, products of Zn + NaOH."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Nitric acid not giving hydrogen with metals, carbon unable to reduce oxides of Na/Mg/Ca/Al, brass being an alloy of copper and zinc, ionic compounds conducting only when molten or dissolved."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Two reasons or two equations: why potassium is stored under kerosene, what happens when iron filings are added to CuSO<sub>4</sub>, extraction of mercury from cinnabar, difference between roasting and calcination, why ionic compounds have high melting points."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Reactions of metals with water or acids with equations and observations, reactivity series and displacement reactions, extraction of a metal in the middle of the series, electrolytic refining of copper, conditions for rusting (the test-tube activity), prevention of corrosion, alloys."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Formation of an ionic compound (NaCl, MgCl<sub>2</sub>, CaO) with electron-dot structures and properties; the complete extraction of zinc (roasting, calcination, reduction) plus the thermit reaction; electrolytic refining with a labelled diagram; a mixed question combining the reactivity series, amphoteric oxides and reactions with acids."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on ionic compounds and their melting points, on extraction of a metal (why carbonate and sulphide ores are converted to oxides), on electrolytic refining and anode mud, or on alloys and corrosion, followed by four sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Reactivity series and displacement reactions (with equations and observations)",
+      "Reactions of metals with water, oxygen and dilute acids; amphoteric oxides; why HNO<sub>3</sub> gives no H<sub>2</sub>",
+      "Formation of ionic compounds (NaCl, MgCl<sub>2</sub>, CaO) with electron-dot structures and their properties",
+      "Extraction of metals: roasting, calcination, reduction with carbon, thermit reaction, electrolysis of molten NaCl",
+      "Electrolytic refining of copper (anode, cathode, electrolyte, anode mud)",
+      "Corrosion: rusting activity, tarnishing of silver and copper, and methods of prevention",
+      "Alloys: composition and uses of brass, bronze, solder, steel, stainless steel, amalgam, 22-carat gold",
+      "Give-reason questions: sodium in kerosene, aluminium utensils, gold and platinum for jewellery, copper hot-water tanks"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "3.1 Physical Properties (3.1.1 Metals, 3.1.2 Non-metals)",
+      "pyq_years": [
+        2024,
+        2020,
+        2018
+      ],
+      "body": "<p>Metals in their pure state are lustrous (shiny), hard, malleable (can be beaten into thin sheets; gold and silver are the most malleable), ductile (can be drawn into wires; one gram of gold gives a wire about 2 km long), good conductors of heat and electricity, and sonorous (they ring when struck). Silver and copper are the best conductors of heat; lead and mercury are comparatively poor. Most metals have high melting points, but gallium and caesium melt on the palm of the hand, and mercury is the only metal that is liquid at room temperature. Sodium, potassium and lithium are so soft that they can be cut with a knife. Iodine is a non-metal that is lustrous.</p><p>Non-metals are mostly gases (hydrogen, oxygen, nitrogen, chlorine) or solids (carbon, sulphur, phosphorus, iodine); bromine is the only liquid non-metal. They are neither malleable nor ductile, are brittle when solid, and are poor conductors of heat and electricity. Graphite is the exception: a non-metal that conducts electricity. Diamond, a form of carbon, is the hardest natural substance and has a very high melting point.</p><p>The examiner uses these properties in two ways. First, as direct one-mark questions: name a liquid metal and a liquid non-metal (mercury, bromine); name a non-metal that conducts (graphite); name the best conductor of heat (silver). Second, as reasoning: why copper and aluminium are used in electric wires (good conductors, ductile), why school bells are made of metal (sonorous), why cooking vessels are metal (good conductors of heat). Also remember that the NCERT activities with a hammer, a battery-bulb circuit and a burner are used to test malleability, conductivity and heat conduction; the exercise question on the hammer-battery-bulb set-up is answered from here.</p><p>One caution: because of exceptions like mercury, graphite and iodine, physical properties alone cannot classify an element. The chapter therefore moves to chemical properties, which are the real basis of classification.</p>",
+      "formulas": [],
+      "tip": "For 'give one example' questions, keep the exceptions ready: Hg (liquid metal), Br (liquid non-metal), graphite (conducting non-metal), iodine (lustrous non-metal), Na/K (metals cut with a knife), Ga/Cs (melt on the palm)."
+    },
+    {
+      "heading": "3.2.1 What happens when metals are burnt in air?",
+      "pyq_years": [
+        2024,
+        2023,
+        2020
+      ],
+      "body": "<p>Almost all metals combine with oxygen to form metal oxides: <b>Metal + O<sub>2</sub> → metal oxide</b>. Copper heated in air turns black because a layer of copper(II) oxide forms: 2Cu + O<sub>2</sub> → 2CuO. Aluminium forms aluminium oxide: 4Al + 3O<sub>2</sub> → 2Al<sub>2</sub>O<sub>3</sub>. Magnesium burns with a dazzling white flame: 2Mg + O<sub>2</sub> → 2MgO. Sodium burns vigorously: 4Na + O<sub>2</sub> → 2Na<sub>2</sub>O.</p><p>Metal oxides are basic in nature. A few, however, react with both acids and bases to form salt and water; these are <b>amphoteric oxides</b>, and the two you must know are aluminium oxide and zinc oxide.<br>Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O<br>Al<sub>2</sub>O<sub>3</sub> + 2NaOH → 2NaAlO<sub>2</sub> (sodium aluminate) + H<sub>2</sub>O<br>ZnO + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>O<br>ZnO + 2NaOH → Na<sub>2</sub>ZnO<sub>2</sub> (sodium zincate) + H<sub>2</sub>O</p><p>Most metal oxides are insoluble in water, but sodium oxide and potassium oxide dissolve to give alkalis: Na<sub>2</sub>O + H<sub>2</sub>O → 2NaOH; K<sub>2</sub>O + H<sub>2</sub>O → 2KOH.</p><p>The vigour of reaction with oxygen is the first clue to reactivity. Potassium and sodium react so violently that they catch fire if left in the open, which is why they are stored under kerosene oil. Magnesium, aluminium, zinc and lead react slowly at room temperature and form a thin oxide layer that stops further oxidation; this protective layer is the reason aluminium, though reactive, can be used for utensils. Iron does not burn on heating but iron filings burn vigorously when sprinkled into a flame. Copper does not burn but forms the black oxide coating. Silver and gold do not react with oxygen even at high temperature.</p><p>For a 3-mark question the examiner usually wants: the general word equation, two balanced examples, the definition of amphoteric oxide with two examples and equations, and the note on sodium and potassium oxides dissolving in water. Write the equations with state symbols where you can.</p>",
+      "formulas": [
+        {
+          "expr": "4Na + O<sub>2</sub> → 2Na<sub>2</sub>O; 2Mg + O<sub>2</sub> → 2MgO; 4Al + 3O<sub>2</sub> → 2Al<sub>2</sub>O<sub>3</sub>; 2Cu + O<sub>2</sub> → 2CuO",
+          "where": [
+            [
+              "Na, Mg, Al, Cu",
+              "reactivity with oxygen decreases in this order"
+            ]
+          ]
+        },
+        {
+          "expr": "Al<sub>2</sub>O<sub>3</sub> + 2NaOH → 2NaAlO<sub>2</sub> + H<sub>2</sub>O",
+          "where": [
+            [
+              "NaAlO<sub>2</sub>",
+              "sodium aluminate; the reaction with a base proves Al<sub>2</sub>O<sub>3</sub> is amphoteric"
+            ]
+          ]
+        }
+      ],
+      "tip": "Amphoteric oxide questions are lost by giving only the definition. Always add both equations (with acid and with base) for at least one of Al<sub>2</sub>O<sub>3</sub> or ZnO."
+    },
+    {
+      "heading": "3.2.2 What happens when metals react with water?",
+      "pyq_years": [
+        2025,
+        2020
+      ],
+      "body": "<p>Metals react with water to produce a metal oxide and hydrogen gas. If the oxide is soluble, it dissolves further to form the metal hydroxide. How vigorous the reaction is depends on the metal, and this gives a neat ladder of reactivity.</p><p><b>Potassium and sodium</b> react violently with cold water. The reaction is so exothermic that the hydrogen evolved catches fire immediately:<br>2K + 2H<sub>2</sub>O → 2KOH + H<sub>2</sub> + heat<br>2Na + 2H<sub>2</sub>O → 2NaOH + H<sub>2</sub> + heat</p><p><b>Calcium</b> reacts with cold water less violently. The heat evolved is not enough to ignite the hydrogen. Instead the calcium starts floating, because bubbles of hydrogen stick to its surface: Ca + 2H<sub>2</sub>O → Ca(OH)<sub>2</sub> + H<sub>2</sub>.</p><p><b>Magnesium</b> does not react with cold water. It reacts with hot water to form magnesium hydroxide and hydrogen, and it also starts floating for the same reason: Mg + 2H<sub>2</sub>O → Mg(OH)<sub>2</sub> + H<sub>2</sub>.</p><p><b>Aluminium, iron and zinc</b> do not react with cold or hot water, but they react with steam to form the metal oxide and hydrogen:<br>2Al + 3H<sub>2</sub>O(steam) → Al<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub><br>3Fe + 4H<sub>2</sub>O(steam) → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub><br>Zn + H<sub>2</sub>O(steam) → ZnO + H<sub>2</sub></p><p><b>Lead, copper, silver and gold</b> do not react with water at all.</p><p>Two marking details. First, iron with steam gives Fe<sub>3</sub>O<sub>4</sub> (the mixed oxide), not Fe<sub>2</sub>O<sub>3</sub> and not Fe(OH)<sub>3</sub>; the coefficient set 3, 4, 1, 4 is asked often. Second, when the question says 'name the metal that starts floating', the answer is calcium for cold water and magnesium for hot water, and the reason is 'bubbles of hydrogen gas formed stick to its surface'. A common 2-mark question gives you a table of metals A, B, C, D with observations (reacts with cold water, hot water, steam, none) and asks you to arrange them in decreasing order of reactivity; use exactly this ladder.</p>",
+      "formulas": [
+        {
+          "expr": "2Na + 2H<sub>2</sub>O → 2NaOH + H<sub>2</sub> + heat",
+          "where": [
+            [
+              "heat",
+              "enough to ignite the hydrogen; same for potassium"
+            ]
+          ]
+        },
+        {
+          "expr": "3Fe + 4H<sub>2</sub>O(steam) → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>",
+          "where": [
+            [
+              "Fe<sub>3</sub>O<sub>4</sub>",
+              "iron(II,III) oxide; steam only, no reaction with cold or hot water"
+            ]
+          ]
+        }
+      ],
+      "tip": "Learn the ladder as four rungs: cold water (K, Na, Ca), hot water (Mg), steam (Al, Zn, Fe), no reaction (Pb, Cu, Ag, Au). Most water questions are just this ladder in disguise."
+    },
+    {
+      "heading": "3.2.3 What happens when metals react with acids?",
+      "pyq_years": [
+        2025,
+        2024,
+        2022
+      ],
+      "body": "<p>Metals react with dilute acids to form a salt and hydrogen gas: <b>Metal + dilute acid → salt + H<sub>2</sub></b>.<br>Mg + 2HCl → MgCl<sub>2</sub> + H<sub>2</sub><br>2Al + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub><br>Zn + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub><br>Fe + 2HCl → FeCl<sub>2</sub> + H<sub>2</sub><br>Note that iron gives iron(II) chloride, FeCl<sub>2</sub>, with dilute HCl, not FeCl<sub>3</sub>.</p><p>In the NCERT activity with dilute HCl, the rate of bubble formation is fastest for magnesium, then aluminium, zinc and iron; the temperature rise is also highest for magnesium. Copper does not react with dilute HCl or dilute H<sub>2</sub>SO<sub>4</sub> at all, because it lies below hydrogen in the reactivity series. The hydrogen is tested by bringing a burning matchstick near the mouth of the tube: it burns with a pop sound.</p><p><b>Nitric acid is the exception.</b> Hydrogen gas is not evolved when a metal reacts with nitric acid, because HNO<sub>3</sub> is a strong oxidising agent. It oxidises the hydrogen produced to water and is itself reduced to one of the oxides of nitrogen (N<sub>2</sub>O, NO or NO<sub>2</sub>). Only magnesium and manganese react with very dilute HNO<sub>3</sub> to give hydrogen. This point is a favourite Assertion–Reason item.</p><p><b>Aqua regia</b> (Latin for 'royal water') is a freshly prepared mixture of concentrated hydrochloric acid and concentrated nitric acid in the ratio 3 : 1. It is highly corrosive and fuming, and it is one of the few reagents that can dissolve gold and platinum, even though neither acid alone can. The NCERT exercise story about the fake goldsmith who dipped a gold bangle in a solution and reduced its weight is answered with aqua regia.</p><p>For a 3-mark question, write the general equation, two or three balanced examples, the order of reactivity observed, and the nitric acid exception with the reason. If asked to name two metals that displace hydrogen from dilute acids and two that do not, answer Mg and Zn (or Fe, Al) versus Cu and Ag (or Au, Hg).</p>",
+      "formulas": [
+        {
+          "expr": "Zn + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>; Fe + 2HCl → FeCl<sub>2</sub> + H<sub>2</sub>",
+          "where": [
+            [
+              "order of vigour",
+              "Mg > Al > Zn > Fe; Cu gives no reaction"
+            ]
+          ]
+        },
+        {
+          "expr": "Aqua regia = conc. HCl : conc. HNO<sub>3</sub> = 3 : 1",
+          "where": [
+            [
+              "use",
+              "dissolves gold and platinum, which no single acid can"
+            ]
+          ]
+        }
+      ],
+      "tip": "If the question mentions nitric acid, the expected words are 'strong oxidising agent', 'oxidises H<sub>2</sub> to water', 'itself reduced to oxides of nitrogen', and the exception 'Mg and Mn with very dilute HNO<sub>3</sub>'."
+    },
+    {
+      "heading": "3.2.4 How do metals react with solutions of other metal salts?",
+      "pyq_years": [
+        2025,
+        2019
+      ],
+      "body": "<p>A more reactive metal displaces a less reactive metal from a solution of its salt. This is a displacement reaction: <b>Metal A + salt solution of B → salt solution of A + metal B</b>, provided A is more reactive than B.</p><p>Iron nail in copper sulphate solution: the blue colour of the solution fades to pale green (iron(II) sulphate) and a reddish-brown deposit of copper forms on the nail: Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu. Zinc in copper sulphate: the blue solution turns colourless and copper deposits: Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu. Copper in silver nitrate: the solution slowly turns blue (copper nitrate) and a shining grey deposit of silver forms on the copper: Cu + 2AgNO<sub>3</sub> → Cu(NO<sub>3</sub>)<sub>2</sub> + 2Ag. In the reverse direction, copper placed in iron(II) sulphate or zinc sulphate does nothing, and silver in copper sulphate does nothing, because the metal added is less reactive than the one in the salt.</p><p>The NCERT activity with iron, copper, zinc and aluminium strips in solutions of their sulphates lets you rank the four: Al > Zn > Fe > Cu. In the exam the usual question gives a set of metals and salt solutions and asks (a) in which cases a reaction occurs, (b) what you will observe, and (c) the equation. Answer all three parts for each case; observations are marked separately from equations, and the colour change (blue to green, or blue to colourless) is worth its own half mark.</p><p>Displacement reactions are also the reason for the NCERT exercise MCQ: of the pairs NaCl + Cu, MgCl<sub>2</sub> + Al, FeSO<sub>4</sub> + Ag and AgNO<sub>3</sub> + Cu, only AgNO<sub>3</sub> + Cu reacts, because copper is above silver in the series while in the other three the added metal is below the metal in the salt.</p>",
+      "formulas": [
+        {
+          "expr": "Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu",
+          "where": [
+            [
+              "observation",
+              "blue solution turns pale green; reddish-brown copper deposits on the nail"
+            ]
+          ]
+        },
+        {
+          "expr": "Cu + 2AgNO<sub>3</sub> → Cu(NO<sub>3</sub>)<sub>2</sub> + 2Ag",
+          "where": [
+            [
+              "observation",
+              "colourless solution turns blue; grey-white silver deposits on copper"
+            ]
+          ]
+        }
+      ],
+      "tip": "Before writing 'no reaction', check the series once. Students routinely write Cu + FeSO<sub>4</sub> → CuSO<sub>4</sub> + Fe, which is wrong and costs the whole part."
+    },
+    {
+      "heading": "3.2.5 The reactivity series",
+      "pyq_years": [
+        2025,
+        2024,
+        2019,
+        2018
+      ],
+      "body": "<p>The reactivity series (activity series) is a list of metals arranged in the decreasing order of their reactivity, prepared from displacement experiments. From most to least reactive: <b>K &gt; Na &gt; Ca &gt; Mg &gt; Al &gt; Zn &gt; Fe &gt; Pb &gt; [H] &gt; Cu &gt; Hg &gt; Ag &gt; Au</b>. Hydrogen is not a metal, but it is placed in the series because it lets you predict which metals will displace hydrogen from dilute acids: metals above hydrogen do, those below it (copper, mercury, silver, gold) do not.</p><p>A good memory line is 'Please Send Cats, Monkeys And Zebras In Large Cages, Make Sure Properly Guarded' (K, Na, Ca, Mg, Al, Zn, Fe, Pb, [H], Cu, Hg, Ag, Au... adjust the last letters as you like), but check the order once against the textbook.</p><p>Applications the examiner expects when asked 'state two uses of the reactivity series':</p><ul><li>Predicting whether a displacement reaction will occur (a metal displaces any metal below it from its salt solution).</li><li>Predicting the reaction of metals with water and dilute acids (metals above hydrogen liberate H<sub>2</sub>; the higher the metal, the more vigorous the reaction).</li><li>Choosing the method of extraction: metals at the top (K, Na, Ca, Mg, Al) need electrolysis, those in the middle (Zn, Fe, Pb, Cu) are reduced with carbon, those at the bottom (Hg, Cu, Ag, Au) are obtained by heating alone or occur free.</li><li>Choosing a reducing agent for displacement (thermit) reactions, for instance aluminium reducing Fe<sub>2</sub>O<sub>3</sub>.</li><li>Explaining why some metals occur free in nature (Au, Ag, Pt) while the reactive ones occur only as compounds.</li></ul><p>Another standard 3-mark question describes a metal A that displaces iron from FeSO<sub>4</sub> but not aluminium from Al<sub>2</sub>(SO<sub>4</sub>)<sub>3</sub>, and asks you to place it; A lies between aluminium and iron, so zinc is the natural example. Questions of the form 'arrange in decreasing order of reactivity' from a set of observations with water, acids or salt solutions are all answered by matching the observations to positions in this list.</p>",
+      "formulas": [
+        {
+          "expr": "K > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au",
+          "where": [
+            [
+              "[H]",
+              "reference point: metals above it displace hydrogen from dilute acids"
+            ]
+          ]
+        }
+      ],
+      "tip": "When you quote the series, put hydrogen in square brackets between lead and copper. Leaving hydrogen out is a common half-mark loss."
+    },
+    {
+      "heading": "3.3 How do metals and non-metals react? (formation of ionic compounds)",
+      "pyq_years": [
+        2025,
+        2023,
+        2020,
+        2017
+      ],
+      "body": "<p>The reactivity of an element is the tendency to attain a completely filled valence shell (the stable noble-gas configuration). Metals have 1, 2 or 3 valence electrons and lose them to form positive ions (cations); non-metals have 5, 6 or 7 valence electrons and gain electrons to form negative ions (anions). The electrostatic attraction between the oppositely charged ions is an ionic (electrovalent) bond, and compounds formed this way are ionic compounds.</p><p><b>Sodium chloride.</b> Sodium (2,8,1) loses one electron to get the neon configuration (2,8) and becomes Na<sup>+</sup>. Chlorine (2,8,7) gains that electron to get the argon configuration (2,8,8) and becomes Cl<sup>−</sup>.<br>Na → Na<sup>+</sup> + e<sup>−</sup><br>Cl + e<sup>−</sup> → Cl<sup>−</sup><br>Na<sup>+</sup> + Cl<sup>−</sup> → NaCl (written as Na<sup>+</sup>Cl<sup>−</sup>). Sodium chloride does not exist as molecules but as a lattice of oppositely charged ions.</p><p><b>Magnesium chloride.</b> Magnesium (2,8,2) loses two electrons to become Mg<sup>2+</sup>; each of two chlorine atoms gains one electron. Mg → Mg<sup>2+</sup> + 2e<sup>−</sup>; 2Cl + 2e<sup>−</sup> → 2Cl<sup>−</sup>; Mg<sup>2+</sup> + 2Cl<sup>−</sup> → MgCl<sub>2</sub>.</p><p><b>Calcium oxide.</b> Calcium (2,8,8,2) loses two electrons to become Ca<sup>2+</sup>; oxygen (2,6) gains two electrons to become O<sup>2−</sup>: CaO. Magnesium oxide (Mg<sup>2+</sup>O<sup>2−</sup>) and sodium oxide (2Na<sup>+</sup> O<sup>2−</sup>) are drawn the same way.</p><p>In the exam, draw the electron-dot (Lewis) structures: write the symbol, show only the valence electrons as dots or crosses, use an arrow to show the transfer, and then draw the ions in square brackets with their charges. Show the electronic configuration of each atom before and after transfer; the marking scheme gives a mark for the configurations, a mark for the transfer diagram and a mark for the formula of the compound. For a 5-mark question on NaCl or MgCl<sub>2</sub>, this diagram is followed by the properties of ionic compounds (next section), so treat the two sections as one answer.</p>",
+      "formulas": [
+        {
+          "expr": "Na (2,8,1) → Na<sup>+</sup> (2,8) + e<sup>−</sup>; Cl (2,8,7) + e<sup>−</sup> → Cl<sup>−</sup> (2,8,8)",
+          "where": [
+            [
+              "Na<sup>+</sup>Cl<sup>−</sup>",
+              "held by electrostatic attraction; no molecules, only a lattice of ions"
+            ]
+          ]
+        },
+        {
+          "expr": "Mg (2,8,2) → Mg<sup>2+</sup> (2,8) + 2e<sup>−</sup>; 2Cl + 2e<sup>−</sup> → 2Cl<sup>−</sup>",
+          "where": [
+            [
+              "MgCl<sub>2</sub>",
+              "one Mg<sup>2+</sup> with two Cl<sup>−</sup>"
+            ]
+          ]
+        }
+      ],
+      "tip": "Electron-dot diagrams earn marks only when the ions are shown with charges after transfer and the number of dots around chlorine or oxygen becomes eight. Draw both the 'before' and the 'after'."
+    },
+    {
+      "heading": "3.3.1 Properties of ionic compounds",
+      "pyq_years": [
+        2025,
+        2023,
+        2017
+      ],
+      "body": "<p>Because ionic compounds are made of ions held in a rigid lattice by strong electrostatic forces, their properties follow directly from the bonding, and every property should be answered with its reason.</p><ol><li><b>Physical nature:</b> ionic compounds are hard solids because of the strong force of attraction between the positive and negative ions. They are generally brittle and break into pieces when pressure is applied.</li><li><b>Melting and boiling points:</b> they have high melting and boiling points because a large amount of energy is needed to break the strong inter-ionic attraction. NCERT melting points (in kelvin): LiCl 887, NaCl 1074, KCl 1045, CaCl<sub>2</sub> 1045, MgCl<sub>2</sub> 981, CaO 2850, MgO 3073. Boiling points: NaCl 1686 K, MgO 3873 K.</li><li><b>Solubility:</b> generally soluble in water and insoluble in solvents such as kerosene and petrol.</li><li><b>Conduction of electricity:</b> they do not conduct electricity in the solid state because the ions are held in fixed positions and cannot move. They conduct in the molten state and in aqueous solution, because heat or water overcomes the attraction and the ions become free to move towards the electrodes.</li></ol><p>Two experimental facts from the NCERT activity are worth quoting: the samples (NaCl, KI, BaCl<sub>2</sub>) do not melt easily on a burner, and a bulb in the circuit glows only when the electrodes dip into a solution of the salt, not when they touch the dry crystals.</p><p>The standard HOTS question: 'A metal X loses two electrons and a non-metal Y gains one electron. Give the formula, draw the electron-dot structure, and state whether the compound has a high or low melting point and whether it conducts in the solid state.' The formula is XY<sub>2</sub>; it is ionic; high melting point; conducts only when molten or dissolved; soluble in water. Case-based questions also give the melting point table and ask why MgO melts higher than NaCl: the ions in MgO carry double charges (Mg<sup>2+</sup>, O<sup>2−</sup>), so the attraction is stronger. That reason is beyond strict NCERT but is accepted.</p>",
+      "formulas": [
+        {
+          "expr": "NaCl: m.p. 1074 K, b.p. 1686 K; MgO: m.p. 3073 K, b.p. 3873 K",
+          "where": [
+            [
+              "high values",
+              "strong electrostatic attraction between ions must be overcome"
+            ]
+          ]
+        }
+      ],
+      "tip": "Never write 'ionic compounds conduct electricity'. Write 'conduct in the molten state or in aqueous solution, but not in the solid state, because ions are free to move only then'."
+    },
+    {
+      "heading": "3.4 Occurrence of Metals and 3.4.1 Extraction of Metals (steps and the three groups)",
+      "pyq_years": [
+        2025,
+        2024,
+        2020,
+        2018
+      ],
+      "body": "<p>The earth's crust is the major source of metals; sea water contains soluble salts such as sodium chloride and magnesium chloride. The elements or compounds that occur naturally in the crust are <b>minerals</b>. A mineral from which a metal can be extracted profitably and conveniently is an <b>ore</b>. The unwanted sand and rocky material mixed with an ore is called <b>gangue</b>. These three definitions are a regular 2- or 3-mark question.</p><p>Where a metal occurs depends on its reactivity. Metals at the bottom of the series (gold, silver, platinum, and some copper) are so unreactive that they are found in the free (native) state. Metals in the middle (Zn, Fe, Pb, Cu) are moderately reactive and occur as oxides, sulphides or carbonates. Metals at the top (K, Na, Ca, Mg, Al) are so reactive that they never occur free; they are found as chlorides, oxides or carbonates. Ores of many metals are oxides, because oxygen is very reactive and abundant.</p><p>Extraction of a metal from its ore is metallurgy, and it has three broad stages: (1) concentration or enrichment of the ore, which removes the gangue by physical or chemical methods chosen according to the properties of the ore and the gangue (the specific methods are not in the current syllabus); (2) extraction of the crude metal from the concentrated ore; (3) refining of the crude metal to obtain the pure metal. The method used in stage 2 depends entirely on the position of the metal in the reactivity series:</p><ul><li><b>Low in the series</b> (Hg, Cu, Ag): the oxide is reduced by heating alone.</li><li><b>Middle of the series</b> (Zn, Fe, Pb, Cu): the ore is first converted to the oxide (roasting or calcination) and then reduced by carbon or by a more reactive metal.</li><li><b>Top of the series</b> (K, Na, Ca, Mg, Al): the molten chloride or oxide is reduced by electrolysis, because carbon cannot reduce these oxides.</li></ul><p>When a question asks 'name the method used to extract sodium and give the reason', the full answer is: electrolytic reduction of molten NaCl, because sodium is highly reactive and its oxide cannot be reduced by carbon; in fact sodium has a greater affinity for oxygen than carbon has.</p>",
+      "formulas": [
+        {
+          "expr": "Ore → concentrated ore → crude metal → pure metal",
+          "where": [
+            [
+              "stage 2",
+              "heating (low), carbon reduction (middle), electrolysis (top)"
+            ]
+          ]
+        }
+      ],
+      "tip": "A one-line flow chart of the three stages, with the reactivity series drawn beside it and the three extraction methods marked, is worth drawing in any 5-mark extraction answer."
+    },
+    {
+      "heading": "3.4.2 Extracting metals low in the activity series",
+      "pyq_years": [
+        2025,
+        2024,
+        2023
+      ],
+      "body": "<p>Metals near the bottom of the reactivity series are very unreactive, so their oxides can be reduced to the metal simply by heating. The two examples the board asks are mercury from cinnabar and copper from copper glance.</p><p><b>Mercury from cinnabar (HgS).</b> Cinnabar is heated in air, which converts the sulphide to the oxide; the oxide then decomposes on further heating to give mercury:<br>2HgS(s) + 3O<sub>2</sub>(g) → (heat) → 2HgO(s) + 2SO<sub>2</sub>(g)<br>2HgO(s) → (heat) → 2Hg(l) + O<sub>2</sub>(g)</p><p><b>Copper from copper glance (Cu<sub>2</sub>S).</b> Part of the sulphide is roasted to the oxide, and the oxide then reacts with the remaining sulphide to give copper:<br>2Cu<sub>2</sub>S(s) + 3O<sub>2</sub>(g) → (heat) → 2Cu<sub>2</sub>O(s) + 2SO<sub>2</sub>(g)<br>2Cu<sub>2</sub>O + Cu<sub>2</sub>S → (heat) → 6Cu(s) + SO<sub>2</sub>(g)</p><p>The second copper equation is the one students drop. Notice that here the sulphide itself acts as the reducing agent for the oxide, so no carbon is needed. Both examples illustrate the general point that sulphide ores are first converted to oxides because a metal is more easily obtained from its oxide than from its sulphide.</p><p>Typical 2-mark question: 'Name the ore of mercury. How is mercury extracted from it? Write equations.' Give the name cinnabar, its formula HgS, both equations with 'heat' written above the arrows, and one line saying 'mercury is low in the reactivity series, so heating alone reduces the oxide'. A 3-mark question may instead give you 'copper is obtained from Cu<sub>2</sub>S by heating in air' and ask for the two equations and the name of the process (roasting followed by self-reduction, though NCERT only calls it heating in air). For the case-based passage on this section, the fourth sub-question often asks why the same method will not work for zinc: zinc oxide is stable and needs carbon as a reducing agent.</p>",
+      "formulas": [
+        {
+          "expr": "2HgS + 3O<sub>2</sub> → 2HgO + 2SO<sub>2</sub>; 2HgO → 2Hg + O<sub>2</sub>",
+          "where": [
+            [
+              "HgS",
+              "cinnabar, the ore of mercury; both steps need heat"
+            ]
+          ]
+        },
+        {
+          "expr": "2Cu<sub>2</sub>S + 3O<sub>2</sub> → 2Cu<sub>2</sub>O + 2SO<sub>2</sub>; 2Cu<sub>2</sub>O + Cu<sub>2</sub>S → 6Cu + SO<sub>2</sub>",
+          "where": [
+            [
+              "Cu<sub>2</sub>S",
+              "copper glance; the sulphide reduces the oxide, so no carbon is needed"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write 'heat' above every arrow in these equations; the marking scheme counts the condition as part of a correct equation."
+    },
+    {
+      "heading": "3.4.3 Extracting metals in the middle of the activity series (roasting, calcination, reduction, thermit)",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2020,
+        2018
+      ],
+      "body": "<p>Zinc, iron, lead and copper are moderately reactive. Their ores are usually sulphides or carbonates, and it is easier to obtain a metal from its oxide than from its sulphide or carbonate, so the ore is first converted to the oxide.</p><p><b>Roasting</b> is heating a sulphide ore strongly in the presence of excess air to convert it into the oxide: 2ZnS(s) + 3O<sub>2</sub>(g) → (heat) → 2ZnO(s) + 2SO<sub>2</sub>(g).<br><b>Calcination</b> is heating a carbonate ore strongly in a limited supply of air to convert it into the oxide: ZnCO<sub>3</sub>(s) → (heat) → ZnO(s) + CO<sub>2</sub>(g).<br>The difference the examiner looks for: roasting is for sulphide ores and uses excess air; calcination is for carbonate ores and uses limited air (or absence of air). Roasting gives SO<sub>2</sub>; calcination gives CO<sub>2</sub>.</p><p><b>Reduction.</b> The oxide is then reduced by carbon, a reducing agent, when heated together: ZnO(s) + C(s) → Zn(s) + CO(g). Similar reductions give lead from PbO and iron from Fe<sub>2</sub>O<sub>3</sub> in the blast furnace.</p><p><b>Displacement (thermit) reactions.</b> Highly reactive metals such as sodium, calcium and aluminium can also be used as reducing agents, because they displace metals of lower reactivity from their compounds. These reactions are highly exothermic and the metal is produced in the molten state:<br>3MnO<sub>2</sub>(s) + 4Al(s) → 3Mn(l) + 2Al<sub>2</sub>O<sub>3</sub>(s) + heat<br>Fe<sub>2</sub>O<sub>3</sub>(s) + 2Al(s) → 2Fe(l) + Al<sub>2</sub>O<sub>3</sub>(s) + heat<br>The reaction of iron(III) oxide with aluminium is the <b>thermit reaction</b>, used to join railway tracks and to repair cracked machine parts, because the molten iron produced flows into the joint. In MCQs, the metal used is aluminium and the oxide reduced is Fe<sub>2</sub>O<sub>3</sub>; aluminium is the reducing agent and Fe<sub>2</sub>O<sub>3</sub> is the oxidising agent.</p><p>The 5-mark 'extraction of zinc' answer is: name the ores (zinc blende ZnS, calamine ZnCO<sub>3</sub>), define roasting and calcination with equations, write the carbon reduction, and end with refining. Add the thermit reaction if the question says 'name a reaction in which a metal is used as reducing agent'.</p>",
+      "formulas": [
+        {
+          "expr": "2ZnS + 3O<sub>2</sub> → 2ZnO + 2SO<sub>2</sub> (roasting); ZnCO<sub>3</sub> → ZnO + CO<sub>2</sub> (calcination)",
+          "where": [
+            [
+              "roasting",
+              "sulphide ore, excess air"
+            ],
+            [
+              "calcination",
+              "carbonate ore, limited air"
+            ]
+          ]
+        },
+        {
+          "expr": "ZnO + C → Zn + CO",
+          "where": [
+            [
+              "C",
+              "reducing agent; works for oxides of Zn, Fe, Pb, Cu but not for Na, Mg, Ca, Al"
+            ]
+          ]
+        },
+        {
+          "expr": "Fe<sub>2</sub>O<sub>3</sub> + 2Al → 2Fe + Al<sub>2</sub>O<sub>3</sub> + heat",
+          "where": [
+            [
+              "thermit reaction",
+              "molten iron is used to weld railway tracks"
+            ]
+          ]
+        }
+      ],
+      "tip": "Students mix up roasting and calcination. Anchor: 'S' in sulphide goes with roa-S-ting; carbonate goes with C-alcination."
+    },
+    {
+      "heading": "3.4.4 Extracting metals towards the top of the activity series",
+      "pyq_years": [
+        2025,
+        2024,
+        2020
+      ],
+      "body": "<p>Potassium, sodium, calcium, magnesium and aluminium are very reactive and have a very high affinity for oxygen. Their oxides cannot be reduced by carbon, because these metals hold on to oxygen more strongly than carbon does. Carbon is therefore useless here, and so is any other cheap chemical reducing agent. These metals are obtained by <b>electrolytic reduction</b>: the metal chloride or oxide is melted and electrolysed, and the metal is deposited at the cathode (the negative electrode), while chlorine or oxygen is liberated at the anode (the positive electrode).</p><p>For sodium from molten sodium chloride:<br>At cathode: Na<sup>+</sup> + e<sup>−</sup> → Na<br>At anode: 2Cl<sup>−</sup> → Cl<sub>2</sub> + 2e<sup>−</sup><br>Aluminium is obtained by the electrolytic reduction of molten aluminium oxide (from the ore bauxite); magnesium and calcium from their molten chlorides.</p><p>Two reasons are asked repeatedly and must be stated exactly. (1) 'Why is carbon not used to reduce the oxides of sodium, magnesium, calcium and aluminium?' Because these metals have a greater affinity for oxygen than carbon; they are stronger reducing agents than carbon, so carbon cannot take the oxygen away from them. (2) 'Why is the chloride electrolysed in the molten state and not in aqueous solution?' Because in solution the water would be reduced at the cathode to hydrogen instead of the metal being deposited (and sodium would react with water). The second reason goes slightly beyond NCERT but is a common follow-up.</p><p>Assertion–Reason items from this section pair 'Sodium is extracted by electrolysis of molten NaCl' with 'Sodium is highly reactive and its oxide cannot be reduced by carbon': both true, and the reason explains the assertion (option a). The marking scheme for a 3-mark question wants the method named, the reason for it, and the two electrode half-reactions with the electrodes identified.</p>",
+      "formulas": [
+        {
+          "expr": "Cathode: Na<sup>+</sup> + e<sup>−</sup> → Na; Anode: 2Cl<sup>−</sup> → Cl<sub>2</sub> + 2e<sup>−</sup>",
+          "where": [
+            [
+              "electrolyte",
+              "molten NaCl; metal always collects at the cathode"
+            ]
+          ]
+        }
+      ],
+      "tip": "Cathode = negative electrode = where the metal cation is reduced and deposited. Write the electrode name and its sign together, every time."
+    },
+    {
+      "heading": "3.4.5 Refining of metals: electrolytic refining of copper",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2020
+      ],
+      "body": "<p>The metal obtained by reduction is impure. The most widely used method of purifying it is electrolytic refining, used for copper, zinc, tin, nickel, silver, gold and others. For copper the set-up is:</p><ul><li><b>Anode</b> (positive): a thick block of impure copper.</li><li><b>Cathode</b> (negative): a thin strip of pure copper.</li><li><b>Electrolyte:</b> an aqueous solution of copper sulphate acidified with a little dilute sulphuric acid.</li></ul><p>When current is passed, pure copper from the anode dissolves into the electrolyte as Cu<sup>2+</sup> ions, and an equivalent amount of copper from the electrolyte is deposited on the cathode:<br>At anode: Cu → Cu<sup>2+</sup> + 2e<sup>−</sup> (oxidation; the anode gets thinner)<br>At cathode: Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu (reduction; the cathode gets thicker)<br>The soluble impurities pass into the solution, and the insoluble impurities, including valuable metals such as silver and gold, settle at the bottom of the anode as <b>anode mud</b>.</p><p>The diagram is asked with the description, and it needs: a tank with the electrolyte labelled 'acidified CuSO<sub>4</sub> solution', the impure copper anode connected to the positive terminal of the battery, the pure copper cathode connected to the negative terminal, anode mud shown as a deposit below the anode, and the direction of the current or of the Cu<sup>2+</sup> ion movement.</p><p>Board papers have asked why the anode becomes thinner and the cathode thicker, and case-based questions have asked what anode mud contains and why the impurities settle rather than dissolve. Answer both from the half reactions: only copper (and metals more reactive than copper) dissolves at the anode, while less reactive impurities like Ag and Au do not oxidise and fall as mud. If the question is about 'metal M', simply replace copper with M in the set-up and say M is in the middle or low part of the series.</p>",
+      "formulas": [
+        {
+          "expr": "Anode: Cu → Cu<sup>2+</sup> + 2e<sup>−</sup>; Cathode: Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu",
+          "where": [
+            [
+              "anode",
+              "impure copper, +ve terminal"
+            ],
+            [
+              "cathode",
+              "pure copper strip, −ve terminal"
+            ],
+            [
+              "electrolyte",
+              "acidified CuSO<sub>4</sub>(aq)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Three labels are non-negotiable in the diagram: impure Cu anode, pure Cu cathode, and acidified CuSO<sub>4</sub> solution. A fourth, anode mud, is where the last mark usually sits."
+    },
+    {
+      "heading": "3.5 Corrosion and 3.5.1 Prevention of corrosion (including alloys)",
+      "pyq_years": [
+        2025,
+        2024,
+        2020,
+        2019,
+        2017
+      ],
+      "body": "<p>Corrosion is the slow eating away of a metal by the action of air, moisture or chemicals on its surface. Three examples the board asks: silver articles turn black because silver reacts with sulphur compounds (H<sub>2</sub>S) in the air to form a coating of silver sulphide, Ag<sub>2</sub>S; copper turns green in moist air because it forms basic copper carbonate, CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>, with CO<sub>2</sub> and moisture; iron acquires a reddish-brown flaky coating of rust, hydrated iron(III) oxide, Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O. Rusting of iron is a serious problem because it wastes huge amounts of money every year.</p><p><b>Conditions for rusting (NCERT activity).</b> Take three test tubes with clean iron nails. Tube A: tap water (air and water both present). Tube B: boiled distilled water covered with a layer of oil (water but no air). Tube C: some anhydrous calcium chloride, corked (air but no moisture). After a few days only the nails in A rust. Conclusion: both air (oxygen) and moisture are necessary for rusting.</p><p><b>Prevention.</b> Rusting is prevented by keeping air and water away from the iron surface: painting, oiling, greasing, galvanising (coating steel or iron with a thin layer of zinc; the zinc layer protects even after it is scratched, because zinc is more reactive than iron and corrodes first), chrome plating, anodising and alloying. <b>Anodising</b> is the process of forming a thick protective oxide layer on aluminium: the aluminium article is made the anode and electrolysed with dilute sulphuric acid, so oxygen liberated at the anode thickens the natural Al<sub>2</sub>O<sub>3</sub> coating, which can also be dyed.</p><p><b>Alloys.</b> An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal, made by melting the primary metal and dissolving the other elements in it. Pure iron is very soft and stretches easily when hot; mixing in about 0.05 % carbon makes it hard and strong. Stainless steel (Fe + Ni + Cr) does not rust. Brass = Cu + Zn; bronze = Cu + Sn; solder = Pb + Sn (low melting point, used to weld electrical wires). Brass and bronze are poor conductors compared with pure copper, and solder melts lower than either metal: alloying generally lowers electrical conductivity and melting point. An amalgam is an alloy containing mercury. Pure gold (24 carat) is too soft for jewellery, so it is alloyed with copper or silver to make 22-carat gold (22 parts gold, 2 parts Cu or Ag). Wrought iron is the purest form of iron. The 'galvanisation versus alloying' question (2020) wants both definitions and the point that galvanisation is a coating on the surface while alloying changes the whole metal.</p>",
+      "formulas": [
+        {
+          "expr": "Rust: Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O; tarnish on Ag: Ag<sub>2</sub>S; green coat on Cu: CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>",
+          "where": [
+            [
+              "rusting needs",
+              "both air (O<sub>2</sub>) and moisture"
+            ]
+          ]
+        },
+        {
+          "expr": "Brass = Cu + Zn; Bronze = Cu + Sn; Solder = Pb + Sn; Stainless steel = Fe + Ni + Cr; 22-carat gold = 22 Au + 2 (Cu or Ag)",
+          "where": [
+            [
+              "alloying",
+              "lowers conductivity and melting point; increases hardness and strength"
+            ]
+          ]
+        }
+      ],
+      "tip": "In the rusting activity, state the purpose of each tube in one phrase (A: air + water, B: water only, C: air only) and write the conclusion as a full sentence. Examiners mark the conclusion separately."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Malleability",
+      "definition": "The property by which a metal can be beaten into thin sheets. Gold and silver are the most malleable metals."
+    },
+    {
+      "term": "Ductility",
+      "definition": "The property by which a metal can be drawn into thin wires. One gram of gold can be drawn into a wire about 2 km long."
+    },
+    {
+      "term": "Sonorous",
+      "definition": "A material that produces a ringing sound when struck. Metals are sonorous; that is why bells are made of metal."
+    },
+    {
+      "term": "Amphoteric oxide",
+      "definition": "A metal oxide that reacts with both acids and bases to give salt and water, for example Al<sub>2</sub>O<sub>3</sub> and ZnO."
+    },
+    {
+      "term": "Reactivity (activity) series",
+      "definition": "A list of metals arranged in decreasing order of reactivity, from potassium at the top to gold at the bottom, with hydrogen placed between lead and copper."
+    },
+    {
+      "term": "Displacement reaction",
+      "definition": "A reaction in which a more reactive metal displaces a less reactive metal from a solution of its salt, e.g. Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu."
+    },
+    {
+      "term": "Aqua regia",
+      "definition": "A freshly prepared 3 : 1 mixture of concentrated HCl and concentrated HNO<sub>3</sub>; a fuming, highly corrosive liquid that dissolves gold and platinum."
+    },
+    {
+      "term": "Ionic (electrovalent) compound",
+      "definition": "A compound formed by the transfer of electrons from a metal to a non-metal, held together by the electrostatic attraction between the resulting oppositely charged ions."
+    },
+    {
+      "term": "Mineral",
+      "definition": "An element or compound that occurs naturally in the earth's crust."
+    },
+    {
+      "term": "Ore",
+      "definition": "A mineral from which a metal can be extracted profitably and conveniently, e.g. cinnabar (HgS) for mercury, bauxite for aluminium."
+    },
+    {
+      "term": "Gangue",
+      "definition": "The unwanted earthy and rocky impurities (sand, clay) mixed with an ore."
+    },
+    {
+      "term": "Metallurgy",
+      "definition": "The whole process of extracting a metal from its ore and refining it: concentration of the ore, extraction of the crude metal and refining."
+    },
+    {
+      "term": "Roasting",
+      "definition": "Heating a sulphide ore strongly in excess air to convert it into the metal oxide, e.g. 2ZnS + 3O<sub>2</sub> → 2ZnO + 2SO<sub>2</sub>."
+    },
+    {
+      "term": "Calcination",
+      "definition": "Heating a carbonate ore strongly in a limited supply of air to convert it into the metal oxide, e.g. ZnCO<sub>3</sub> → ZnO + CO<sub>2</sub>."
+    },
+    {
+      "term": "Thermit reaction",
+      "definition": "The highly exothermic displacement of iron from Fe<sub>2</sub>O<sub>3</sub> by aluminium, giving molten iron; used to weld railway tracks and cracked machine parts."
+    },
+    {
+      "term": "Electrolytic refining",
+      "definition": "Purifying a metal by electrolysis with the impure metal as anode, a pure strip as cathode and a salt solution of the same metal as electrolyte; pure metal deposits on the cathode."
+    },
+    {
+      "term": "Anode mud",
+      "definition": "The insoluble impurities, often silver and gold, that settle below the anode during electrolytic refining of copper."
+    },
+    {
+      "term": "Corrosion",
+      "definition": "The slow eating away of a metal by the action of air, moisture or chemicals on its surface, e.g. rusting of iron, tarnishing of silver."
+    },
+    {
+      "term": "Galvanisation",
+      "definition": "Coating iron or steel with a thin layer of zinc to protect it from rusting; the protection continues even if the zinc layer is broken."
+    },
+    {
+      "term": "Anodising",
+      "definition": "Thickening the natural oxide layer on aluminium by making the article the anode in electrolysis with dilute H<sub>2</sub>SO<sub>4</sub>; improves resistance to corrosion."
+    },
+    {
+      "term": "Alloy",
+      "definition": "A homogeneous mixture of two or more metals, or of a metal and a non-metal, e.g. brass (Cu + Zn), steel (Fe + C)."
+    },
+    {
+      "term": "Amalgam",
+      "definition": "An alloy in which one of the metals is mercury."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Metals with oxygen",
+      "expr": "4Na + O<sub>2</sub> → 2Na<sub>2</sub>O; 2Mg + O<sub>2</sub> → 2MgO; 4Al + 3O<sub>2</sub> → 2Al<sub>2</sub>O<sub>3</sub>; 2Cu + O<sub>2</sub> → 2CuO",
+      "note": "Metal oxides are basic; Na<sub>2</sub>O and K<sub>2</sub>O dissolve in water to give alkalis."
+    },
+    {
+      "name": "Amphoteric oxides",
+      "expr": "Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O; Al<sub>2</sub>O<sub>3</sub> + 2NaOH → 2NaAlO<sub>2</sub> + H<sub>2</sub>O; ZnO + 2NaOH → Na<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>O",
+      "note": "Sodium aluminate and sodium zincate; only Al<sub>2</sub>O<sub>3</sub> and ZnO are expected."
+    },
+    {
+      "name": "Metals with water",
+      "expr": "2Na + 2H<sub>2</sub>O → 2NaOH + H<sub>2</sub>; Ca + 2H<sub>2</sub>O → Ca(OH)<sub>2</sub> + H<sub>2</sub>; Mg + 2H<sub>2</sub>O(hot) → Mg(OH)<sub>2</sub> + H<sub>2</sub>",
+      "note": "K, Na: violent with cold water; Ca: cold water, floats; Mg: hot water, floats."
+    },
+    {
+      "name": "Metals with steam",
+      "expr": "2Al + 3H<sub>2</sub>O → Al<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub>; 3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>; Zn + H<sub>2</sub>O → ZnO + H<sub>2</sub>",
+      "note": "Al, Zn, Fe react only with steam; Pb, Cu, Ag, Au do not react with water at all."
+    },
+    {
+      "name": "Metals with dilute acids",
+      "expr": "Mg + 2HCl → MgCl<sub>2</sub> + H<sub>2</sub>; 2Al + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>; Zn + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>; Fe + 2HCl → FeCl<sub>2</sub> + H<sub>2</sub>",
+      "note": "Order Mg > Al > Zn > Fe; Cu gives no H<sub>2</sub>. HNO<sub>3</sub> gives no H<sub>2</sub> (oxidising agent) except very dilute HNO<sub>3</sub> with Mg, Mn."
+    },
+    {
+      "name": "Displacement from salt solutions",
+      "expr": "Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu; Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu; Cu + 2AgNO<sub>3</sub> → Cu(NO<sub>3</sub>)<sub>2</sub> + 2Ag",
+      "note": "Blue → green (Fe), blue → colourless (Zn), colourless → blue (Cu in AgNO<sub>3</sub>)."
+    },
+    {
+      "name": "Reactivity series",
+      "expr": "K > Na > Ca > Mg > Al > Zn > Fe > Pb > [H] > Cu > Hg > Ag > Au",
+      "note": "Top: electrolysis; middle: carbon reduction; bottom: heating alone or free state."
+    },
+    {
+      "name": "Ionic bond formation",
+      "expr": "Na → Na<sup>+</sup> + e<sup>−</sup>; Cl + e<sup>−</sup> → Cl<sup>−</sup>; Mg → Mg<sup>2+</sup> + 2e<sup>−</sup>; O + 2e<sup>−</sup> → O<sup>2−</sup>",
+      "note": "Draw electron-dot structures with the ions in brackets and their charges."
+    },
+    {
+      "name": "Extraction of Hg and Cu (low in series)",
+      "expr": "2HgS + 3O<sub>2</sub> → 2HgO + 2SO<sub>2</sub>; 2HgO → 2Hg + O<sub>2</sub>; 2Cu<sub>2</sub>S + 3O<sub>2</sub> → 2Cu<sub>2</sub>O + 2SO<sub>2</sub>; 2Cu<sub>2</sub>O + Cu<sub>2</sub>S → 6Cu + SO<sub>2</sub>",
+      "note": "Heating alone; write 'heat' over each arrow."
+    },
+    {
+      "name": "Roasting, calcination, reduction (middle of series)",
+      "expr": "2ZnS + 3O<sub>2</sub> → 2ZnO + 2SO<sub>2</sub>; ZnCO<sub>3</sub> → ZnO + CO<sub>2</sub>; ZnO + C → Zn + CO",
+      "note": "Roasting: sulphide, excess air. Calcination: carbonate, limited air. Then carbon reduction."
+    },
+    {
+      "name": "Thermit and Al displacement",
+      "expr": "Fe<sub>2</sub>O<sub>3</sub> + 2Al → 2Fe + Al<sub>2</sub>O<sub>3</sub> + heat; 3MnO<sub>2</sub> + 4Al → 3Mn + 2Al<sub>2</sub>O<sub>3</sub> + heat",
+      "note": "Al is the reducing agent; molten iron welds railway tracks."
+    },
+    {
+      "name": "Electrolysis of molten NaCl (top of series)",
+      "expr": "Cathode: Na<sup>+</sup> + e<sup>−</sup> → Na; Anode: 2Cl<sup>−</sup> → Cl<sub>2</sub> + 2e<sup>−</sup>",
+      "note": "Carbon cannot reduce oxides of K, Na, Ca, Mg, Al."
+    },
+    {
+      "name": "Electrolytic refining of copper",
+      "expr": "Anode: Cu → Cu<sup>2+</sup> + 2e<sup>−</sup>; Cathode: Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu",
+      "note": "Anode impure Cu, cathode pure Cu, electrolyte acidified CuSO<sub>4</sub>; Ag and Au in anode mud."
+    },
+    {
+      "name": "Corrosion products and alloys",
+      "expr": "Rust Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O; Ag<sub>2</sub>S; CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>; brass Cu+Zn; bronze Cu+Sn; solder Pb+Sn; stainless steel Fe+Ni+Cr",
+      "note": "Rusting needs air and moisture; 22-carat gold is 22 parts Au + 2 parts Cu/Ag."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Electron-dot structure for the formation of NaCl and MgCl<sub>2</sub>",
+      "how_to_draw": "Write Na with one dot and Cl with seven dots (or crosses); draw an arrow from the sodium electron to chlorine. Then draw the ions in square brackets: [Na]<sup>+</sup> with no valence dots and [Cl with eight dots]<sup>−</sup>. Write the electronic configurations 2,8,1 → 2,8 and 2,8,7 → 2,8,8 beside them. For MgCl<sub>2</sub>, show Mg with two dots giving one electron to each of two Cl atoms, and the product as [Mg]<sup>2+</sup> with two [Cl]<sup>−</sup> ions. Label the compound as Na<sup>+</sup>Cl<sup>−</sup> or Mg<sup>2+</sup>(Cl<sup>−</sup>)<sub>2</sub>."
+    },
+    {
+      "title": "Electrolytic refining of copper",
+      "how_to_draw": "Draw a rectangular tank filled with 'acidified copper sulphate solution'. On the left a thick plate labelled 'impure copper (anode)' joined to the positive terminal of a battery; on the right a thin strip labelled 'pure copper (cathode)' joined to the negative terminal. Show a small heap under the anode labelled 'anode mud (Ag, Au)'. Mark Cu<sup>2+</sup> ions moving from anode to cathode and write the two half-reactions beside the electrodes."
+    },
+    {
+      "title": "Conditions necessary for rusting (three test-tube activity)",
+      "how_to_draw": "Draw three corked test tubes each with an iron nail. Tube A: nail in tap water, label 'air + water'. Tube B: nail in boiled distilled water with a layer of oil on top, label 'water only, no air'. Tube C: nail with anhydrous calcium chloride at the bottom, label 'dry air only'. Mark 'rust' on the nail in A only and write the conclusion: rusting requires both air and moisture."
+    },
+    {
+      "title": "Action of steam on a metal",
+      "how_to_draw": "Draw a boiling tube held horizontally with wet glass wool at the closed end (source of steam), the metal sample in the middle, and a delivery tube carrying the gas to a water trough where hydrogen is collected over water in an inverted tube. Show a burner under the metal. Label: wet glass wool, metal, delivery tube, hydrogen collected by downward displacement of water. Write the equation for the metal used, e.g. 3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>."
+    },
+    {
+      "title": "Reactivity series with extraction methods",
+      "how_to_draw": "Write the series vertically from K at the top to Au at the bottom with [H] between Pb and Cu. Bracket K to Al as 'electrolytic reduction', Zn to Cu as 'reduction with carbon (after roasting or calcination)', and Hg, Ag, Au as 'heating alone or found native'. Add 'reactivity decreases' with a downward arrow. This one figure supports every extraction answer."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1",
+      "q": "Which of the following pairs will give displacement reactions? (a) NaCl solution and copper metal (b) MgCl<sub>2</sub> solution and aluminium metal (c) FeSO<sub>4</sub> solution and silver metal (d) AgNO<sub>3</sub> solution and copper metal",
+      "a": "<p>(d) AgNO<sub>3</sub> solution and copper metal. Copper is above silver in the reactivity series, so it displaces silver: Cu + 2AgNO<sub>3</sub> → Cu(NO<sub>3</sub>)<sub>2</sub> + 2Ag. In the other three pairs the metal added (Cu, Al, Ag) is less reactive than the metal already in the salt (Na, Mg, Fe), so no displacement occurs.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "2",
+      "q": "Which of the following methods is suitable for preventing an iron frying pan from rusting? (a) applying grease (b) applying paint (c) applying a coating of zinc (d) all of the above",
+      "a": "<p>(c) applying a coating of zinc. Grease or paint would burn off or contaminate food when the pan is heated. A zinc coating (galvanisation) is heat-stable and protects the iron even if the layer is scratched, because zinc is more reactive than iron.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "3",
+      "q": "An element reacts with oxygen to give a compound with a high melting point. This compound is also soluble in water. The element is likely to be (a) calcium (b) carbon (c) silicon (d) iron",
+      "a": "<p>(a) calcium. Calcium forms calcium oxide, an ionic compound with a high melting point (2850 K) that dissolves in water to give calcium hydroxide. Carbon and silicon give acidic, covalent oxides; iron oxide is insoluble in water.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "4",
+      "q": "Food cans are coated with tin and not with zinc because (a) zinc is costlier than tin (b) zinc has a higher melting point than tin (c) zinc is more reactive than tin (d) zinc is less reactive than tin",
+      "a": "<p>(c) zinc is more reactive than tin. A more reactive metal would react with the acids present in food and dissolve into it. Tin is less reactive and does not react with the food, so it gives a safe protective coating.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "5",
+      "q": "You are given a hammer, a battery, a bulb, wires and a switch. (a) How could you use them to distinguish between samples of metals and non-metals? (b) Assess the usefulness of these tests in distinguishing between metals and non-metals.",
+      "a": "<p>(a) Beat each sample with the hammer: a metal flattens into a sheet (malleable), while a non-metal breaks into pieces (brittle). Then connect the sample in a circuit with the battery, bulb, wires and switch: with a metal the bulb glows because metals conduct electricity; with a non-metal it does not.</p><p>(b) The tests are useful but not conclusive. Some metals such as sodium and potassium are too soft to test with a hammer, mercury is a liquid, and graphite is a non-metal that conducts electricity. Physical tests alone cannot classify every element; chemical properties give a better basis.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6",
+      "q": "What are amphoteric oxides? Give two examples of amphoteric oxides.",
+      "a": "<p>Amphoteric oxides are metal oxides that react with both acids and bases to form salt and water. Examples: aluminium oxide and zinc oxide.<br>Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O; Al<sub>2</sub>O<sub>3</sub> + 2NaOH → 2NaAlO<sub>2</sub> + H<sub>2</sub>O<br>ZnO + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>O; ZnO + 2NaOH → Na<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>O</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "7",
+      "q": "Name two metals which will displace hydrogen from dilute acids, and two metals which will not.",
+      "a": "<p>Metals above hydrogen in the reactivity series displace it from dilute acids: magnesium and zinc (also iron, aluminium), e.g. Zn + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>. Metals below hydrogen do not: copper and silver (also gold, mercury).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8",
+      "q": "In the electrolytic refining of a metal M, what would you take as the anode, the cathode and the electrolyte?",
+      "a": "<p>Anode: a thick block of impure metal M. Cathode: a thin strip of pure metal M. Electrolyte: an aqueous solution of a salt of M (for example its sulphate), acidified with dilute sulphuric acid. On passing current, M dissolves from the anode (M → M<sup>n+</sup> + ne<sup>−</sup>) and pure M deposits on the cathode (M<sup>n+</sup> + ne<sup>−</sup> → M); insoluble impurities collect as anode mud.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9",
+      "q": "Pratyush took sulphur powder on a spatula and heated it. He collected the gas evolved by inverting a test tube over it. (a) What will be the action of the gas on (i) dry litmus paper? (ii) moist litmus paper? (b) Write a balanced chemical equation for the reaction taking place.",
+      "a": "<p>The gas is sulphur dioxide. (a) (i) Dry litmus paper shows no change, because there is no water to form the acid. (ii) Moist blue litmus paper turns red, because SO<sub>2</sub> dissolves in water to form sulphurous acid: SO<sub>2</sub> + H<sub>2</sub>O → H<sub>2</sub>SO<sub>3</sub>.<br>(b) S(s) + O<sub>2</sub>(g) → SO<sub>2</sub>(g). Non-metals form acidic oxides.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10",
+      "q": "State two ways to prevent the rusting of iron.",
+      "a": "<p>(i) Galvanisation: coating the iron with a thin layer of zinc, which keeps out air and moisture and protects even if scratched. (ii) Painting, oiling or greasing the surface so that air and water cannot reach the iron. (Other accepted answers: chrome plating, alloying to make stainless steel.)</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11",
+      "q": "What type of oxides are formed when non-metals combine with oxygen?",
+      "a": "<p>Non-metals form acidic oxides (or neutral oxides in a few cases). For example sulphur forms SO<sub>2</sub>, which dissolves in water to give sulphurous acid and turns blue litmus red; carbon forms CO<sub>2</sub>, which gives carbonic acid. CO, NO and H<sub>2</sub>O are neutral oxides.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "12",
+      "q": "Give reasons: (a) Platinum, gold and silver are used to make jewellery. (b) Sodium, potassium and lithium are stored under oil. (c) Aluminium is a highly reactive metal, yet it is used to make utensils for cooking. (d) Carbonate and sulphide ores are usually converted into oxides during the process of extraction.",
+      "a": "<p>(a) They are very unreactive (at the bottom of the reactivity series), so they do not corrode or tarnish in air or with moisture; they are also lustrous and highly malleable and ductile.<br>(b) These metals are so reactive that they react vigorously with the oxygen and moisture of air and catch fire. Kerosene oil keeps air and water away from them.<br>(c) When exposed to air, aluminium forms a thin, tough, non-reactive layer of aluminium oxide on its surface which prevents further reaction. It is also a good conductor of heat and is light.<br>(d) It is easier to obtain a metal from its oxide than from its carbonate or sulphide, because oxides are reduced readily by carbon or by heating. So sulphides are roasted and carbonates are calcined to the oxide first.</p>",
+      "marks": 4
+    },
+    {
+      "kind": "exercise",
+      "number": "13",
+      "q": "You must have seen tarnished copper vessels being cleaned with lemon or tamarind juice. Explain why these sour substances are effective in cleaning the vessels.",
+      "a": "<p>Copper reacts slowly with moist air and carbon dioxide to form a green coating of basic copper carbonate, CuCO<sub>3</sub>·Cu(OH)<sub>2</sub>, which is the tarnish. Lemon and tamarind contain acids (citric acid, tartaric acid). These acids react with the basic copper carbonate to form soluble salts that wash away with water, leaving the bright copper surface.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "14",
+      "q": "Differentiate between metal and non-metal on the basis of their chemical properties.",
+      "a": "<p><b>Metals:</b> form basic oxides (Na<sub>2</sub>O, MgO); some oxides are amphoteric; react with water to give hydroxide/oxide and hydrogen; react with dilute acids to liberate hydrogen; lose electrons to form positive ions (cations); are good reducing agents; displace less reactive metals from salt solutions; form ionic chlorides.<br><b>Non-metals:</b> form acidic or neutral oxides (SO<sub>2</sub>, CO<sub>2</sub>, CO); generally do not react with water; do not liberate hydrogen from dilute acids; gain electrons to form negative ions (anions); are oxidising agents; form covalent chlorides. Any four differences with examples earn full marks.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "15",
+      "q": "A man went door to door posing as a goldsmith. He promised to bring back the glitter of old and dull gold ornaments. An unsuspecting lady gave a set of gold bangles to him which he dipped in a particular solution. The bangles sparkled like new but their weight was reduced drastically. The lady was upset but after a futile argument the man beat a hasty retreat. Can you play the detective to find out the nature of the solution he had used?",
+      "a": "<p>The solution was aqua regia, a freshly prepared 3 : 1 mixture of concentrated hydrochloric acid and concentrated nitric acid. Gold does not dissolve in either acid alone, but aqua regia dissolves it. The outer layer of the bangles dissolved, exposing a fresh shining surface, and the dissolved gold stayed in the solution, which is why the weight fell.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "16",
+      "q": "Give reasons why copper is used to make hot water tanks and not steel (an alloy of iron).",
+      "a": "<p>Copper does not react with water even when it is hot or with steam, and it is a better conductor of heat than steel. Iron (in steel) reacts with steam to form iron oxide and hydrogen: 3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>, so a steel tank would corrode over time.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "intext",
+      "number": "Page 40, Q3",
+      "q": "Why is sodium kept immersed in kerosene oil?",
+      "a": "<p>Sodium is a very reactive metal. It reacts vigorously with the oxygen and moisture of air, and the reaction is so exothermic that it catches fire. To prevent accidental fires it is stored under kerosene oil, which keeps air and water away from it.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "intext",
+      "number": "Page 46, Q1",
+      "q": "Write equations for the reactions of (i) iron with steam (ii) calcium and potassium with water.",
+      "a": "<p>(i) 3Fe(s) + 4H<sub>2</sub>O(g) → Fe<sub>3</sub>O<sub>4</sub>(s) + 4H<sub>2</sub>(g)<br>(ii) Ca(s) + 2H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g)<br>2K(s) + 2H<sub>2</sub>O(l) → 2KOH(aq) + H<sub>2</sub>(g) + heat energy</p>",
+      "marks": 2
+    },
+    {
+      "kind": "intext",
+      "number": "Page 46, Q2",
+      "q": "Samples of four metals A, B, C and D were taken and added in turn to iron(II) sulphate, copper(II) sulphate, zinc sulphate and silver nitrate solutions. A: no reaction with FeSO<sub>4</sub>, displacement with CuSO<sub>4</sub>. B: displacement with FeSO<sub>4</sub>, no reaction with ZnSO<sub>4</sub>. C: no reaction with FeSO<sub>4</sub>, CuSO<sub>4</sub> or ZnSO<sub>4</sub>, displacement with AgNO<sub>3</sub>. D: no reaction with any of the four. (i) Which is the most reactive metal? (ii) What would you observe if B is added to a solution of copper(II) sulphate? (iii) Arrange the metals A, B, C and D in order of decreasing reactivity.",
+      "a": "<p>Place each metal using the reactivity series. A cannot displace iron but displaces copper, so A lies between Fe and Cu. B displaces iron but not zinc, so B lies between Zn and Fe. C displaces only silver, so C lies between Cu and Ag. D displaces nothing, so D is below silver.<br>(i) B is the most reactive of the four.<br>(ii) B is more reactive than copper, so it displaces copper from the solution: the blue colour of the copper(II) sulphate solution fades and a reddish-brown deposit of copper forms on B.<br>(iii) B &gt; A &gt; C &gt; D.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "intext",
+      "number": "Page 49, Q2",
+      "q": "Why do ionic compounds have high melting points?",
+      "a": "<p>Ionic compounds consist of oppositely charged ions held together by strong electrostatic forces of attraction in a rigid lattice. A large amount of heat energy is needed to overcome this attraction and separate the ions, so their melting points are high (NaCl 1074 K, MgO 3073 K).</p>",
+      "marks": 1
+    },
+    {
+      "kind": "intext",
+      "number": "Page 53, Q4",
+      "q": "Metallic oxides of zinc, magnesium and copper were heated with the following metals: zinc, magnesium, copper. In which cases will you find displacement reactions taking place?",
+      "a": "<p>A metal displaces a less reactive metal from its oxide. Reactivity: Mg &gt; Zn &gt; Cu. So: ZnO + Mg → MgO + Zn (yes); ZnO + Cu → no reaction; MgO + Zn → no; MgO + Cu → no; CuO + Zn → ZnO + Cu (yes); CuO + Mg → MgO + Cu (yes). Displacement occurs in three cases: magnesium with ZnO and CuO, and zinc with CuO.</p>",
+      "marks": 2
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "Which of the following pairs consists of a metal and a non-metal that are both liquids at room temperature?",
+      "options": [
+        "Mercury and iodine",
+        "Mercury and bromine",
+        "Gallium and bromine",
+        "Sodium and chlorine"
+      ],
+      "answer": "b",
+      "solution": "Mercury is the only metal and bromine the only non-metal that are liquid at room temperature. Iodine is a solid; gallium melts only on warming in the palm."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The metal and the metal oxide used in the thermit reaction for welding railway tracks are respectively",
+      "options": [
+        "Iron and aluminium oxide",
+        "Aluminium and iron(III) oxide",
+        "Zinc and copper(II) oxide",
+        "Magnesium and aluminium oxide"
+      ],
+      "answer": "b",
+      "solution": "Fe<sub>2</sub>O<sub>3</sub> + 2Al → 2Fe + Al<sub>2</sub>O<sub>3</sub> + heat. Aluminium is the reducing agent and the molten iron produced welds the track."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following metals starts floating when it reacts with cold water?",
+      "options": [
+        "Sodium",
+        "Magnesium",
+        "Calcium",
+        "Iron"
+      ],
+      "answer": "c",
+      "solution": "Calcium reacts with cold water gently; the hydrogen bubbles formed stick to its surface and it floats. Magnesium floats only in hot water; sodium reacts violently and iron does not react with cold water."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following oxides is amphoteric?",
+      "options": [
+        "Na<sub>2</sub>O",
+        "MgO",
+        "ZnO",
+        "CO<sub>2</sub>"
+      ],
+      "answer": "c",
+      "solution": "ZnO reacts with both HCl (giving ZnCl<sub>2</sub>) and NaOH (giving Na<sub>2</sub>ZnO<sub>2</sub>). Na<sub>2</sub>O and MgO are basic; CO<sub>2</sub> is acidic."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "An iron nail is placed in copper sulphate solution. After some time, the colour of the solution and the deposit on the nail are",
+      "options": [
+        "Blue solution, no deposit",
+        "Green solution, reddish-brown deposit",
+        "Colourless solution, grey deposit",
+        "Green solution, black deposit"
+      ],
+      "answer": "b",
+      "solution": "Fe + CuSO<sub>4</sub> → FeSO<sub>4</sub> + Cu. Iron(II) sulphate is pale green and the displaced copper is a reddish-brown deposit."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which gas is evolved when zinc reacts with sodium hydroxide solution?",
+      "options": [
+        "Oxygen",
+        "Hydrogen",
+        "Chlorine",
+        "Carbon dioxide"
+      ],
+      "answer": "b",
+      "solution": "Zinc reacts with NaOH to form sodium zincate and hydrogen: Zn + 2NaOH → Na<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>. This is why zinc is called an amphoteric metal."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "Which of the following metals is obtained by the electrolysis of its molten chloride?",
+      "options": [
+        "Copper",
+        "Iron",
+        "Sodium",
+        "Zinc"
+      ],
+      "answer": "c",
+      "solution": "Sodium is at the top of the reactivity series; its compounds cannot be reduced by carbon, so it is extracted by electrolytic reduction of molten NaCl."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Silver articles turn black on prolonged exposure to air because silver reacts with",
+      "options": [
+        "Oxygen to form Ag<sub>2</sub>O",
+        "Carbon dioxide to form Ag<sub>2</sub>CO<sub>3</sub>",
+        "Sulphur compounds to form Ag<sub>2</sub>S",
+        "Water vapour to form AgOH"
+      ],
+      "answer": "c",
+      "solution": "Traces of hydrogen sulphide in the air react with silver to give a black coating of silver sulphide, Ag<sub>2</sub>S. This is the tarnishing of silver."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Hydrogen gas is not evolved when a metal reacts with dilute nitric acid. Reason (R): Nitric acid is a strong oxidising agent which oxidises the hydrogen produced to water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "HNO<sub>3</sub> oxidises the H<sub>2</sub> formed to water and is itself reduced to oxides of nitrogen; R explains A exactly."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Carbon cannot be used to reduce the oxides of sodium, magnesium and aluminium. Reason (R): These metals have a greater affinity for oxygen than carbon.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The metals at the top of the series are stronger reducing agents than carbon, so carbon cannot take oxygen away from their oxides; they are extracted by electrolysis."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Brass is an alloy of copper and zinc. Reason (R): Alloying a metal generally improves its properties, such as hardness, and lowers its electrical conductivity and melting point.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "b",
+      "solution": "Both statements are correct, but the general effect of alloying does not explain why brass in particular is made of copper and zinc."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Ionic compounds conduct electricity in the solid state. Reason (R): Ionic compounds are made of ions held together by strong electrostatic forces.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "In the solid state the ions are fixed in the lattice and cannot move, so there is no conduction; conduction occurs only in the molten state or in solution. R is a true statement."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is potassium stored under kerosene oil? Write the equation for its reaction with water.",
+      "answer": "<p>Potassium is a highly reactive metal. It reacts vigorously with the oxygen and moisture of the air and the heat evolved makes it catch fire, so it is kept under kerosene oil, which cuts it off from air and water. (1 mark)<br>2K(s) + 2H<sub>2</sub>O(l) → 2KOH(aq) + H<sub>2</sub>(g) + heat energy. The heat is enough to ignite the hydrogen. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the ore of mercury. How is mercury extracted from this ore? Write the chemical equations involved.",
+      "answer": "<p>The ore is cinnabar, HgS. Mercury lies low in the reactivity series, so its oxide can be reduced by heating alone. (½ mark)<br>Step 1, heating in air: 2HgS(s) + 3O<sub>2</sub>(g) → 2HgO(s) + 2SO<sub>2</sub>(g) (heat) (¾ mark)<br>Step 2, further heating: 2HgO(s) → 2Hg(l) + O<sub>2</sub>(g) (heat) (¾ mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What would be observed when strips of (i) copper (ii) zinc are placed separately in iron(II) sulphate solution? Give equations where a reaction occurs.",
+      "answer": "<p>(i) Copper: no change is observed, because copper is less reactive than iron and cannot displace it from FeSO<sub>4</sub>. (1 mark)<br>(ii) Zinc: the pale green colour of the iron(II) sulphate solution fades and a grey deposit of iron forms on the zinc strip, since zinc is more reactive than iron: Zn(s) + FeSO<sub>4</sub>(aq) → ZnSO<sub>4</sub>(aq) + Fe(s). (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define roasting and calcination. Write one equation for each.",
+      "answer": "<p>Roasting is the strong heating of a sulphide ore in the presence of excess air to convert it into the metal oxide: 2ZnS(s) + 3O<sub>2</sub>(g) → 2ZnO(s) + 2SO<sub>2</sub>(g). (1 mark)<br>Calcination is the strong heating of a carbonate ore in a limited supply of air to convert it into the metal oxide: ZnCO<sub>3</sub>(s) → ZnO(s) + CO<sub>2</sub>(g). (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Write chemical equations for the reactions of (i) calcium (ii) magnesium with water, and state one observation in each case.",
+      "answer": "<p>(i) Ca(s) + 2H<sub>2</sub>O(l) → Ca(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g). Calcium reacts with cold water less violently than sodium; it starts floating because bubbles of hydrogen stick to its surface. (1 mark)<br>(ii) Mg(s) + 2H<sub>2</sub>O(l, hot) → Mg(OH)<sub>2</sub>(aq) + H<sub>2</sub>(g). Magnesium does not react with cold water; with hot water it reacts and also floats because of the hydrogen bubbles. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "What is galvanisation? How does it differ from alloying? Name one alloy each of copper and of iron, giving the elements present.",
+      "answer": "<p>Galvanisation is the process of coating iron or steel with a thin layer of zinc to protect it from rusting. The zinc layer keeps air and moisture away, and even if it is scratched the more reactive zinc corrodes in preference to iron. (1 mark)<br>Difference: galvanisation is a surface coating of a different metal; the underlying iron is unchanged. Alloying mixes another element uniformly into the molten metal, producing a homogeneous mixture whose properties (hardness, corrosion resistance, melting point) are changed throughout. (1 mark)<br>Alloy of copper: brass (copper and zinc) or bronze (copper and tin). Alloy of iron: stainless steel (iron, nickel and chromium). (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "(a) Why is zinc oxide called an amphoteric oxide? Write equations to support your answer. (b) Why is sodium stored under kerosene? (c) Why does dilute nitric acid not give hydrogen with zinc?",
+      "answer": "<p>(a) ZnO reacts with both acids and bases to form salt and water, which is the definition of an amphoteric oxide: ZnO + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>O; ZnO + 2NaOH → Na<sub>2</sub>ZnO<sub>2</sub> + H<sub>2</sub>O. (1½ marks)<br>(b) Sodium reacts vigorously with the oxygen and moisture in air and catches fire; kerosene keeps air and water away. (½ mark)<br>(c) Nitric acid is a strong oxidising agent. It oxidises the hydrogen produced to water and is itself reduced to oxides of nitrogen such as NO or NO<sub>2</sub>, so no hydrogen gas escapes. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Describe an activity to show that both air and water are required for the rusting of iron. Draw the set-up and state the conclusion.",
+      "answer": "<p>Take three test tubes, each with a clean iron nail. Tube A: fill with tap water, which contains dissolved air. Tube B: fill with boiled distilled water (boiling removes dissolved air) and pour a layer of oil on top to keep air out; cork it. Tube C: put some anhydrous calcium chloride, which absorbs moisture from the enclosed air, and cork it. (1½ marks for the set-up with labels)<br>Observation after a few days: the nail in A rusts; the nails in B (water but no air) and C (air but no water) do not. (1 mark)<br>Conclusion: both air (oxygen) and moisture together are necessary for rusting; either alone is not enough. (½ mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "What is the reactivity series? Write two uses of the reactivity series. Name the most reactive and the least reactive metal in it.",
+      "answer": "<p>The reactivity series is the list of metals arranged in decreasing order of their chemical reactivity: K &gt; Na &gt; Ca &gt; Mg &gt; Al &gt; Zn &gt; Fe &gt; Pb &gt; [H] &gt; Cu &gt; Hg &gt; Ag &gt; Au. (1 mark)<br>Uses: (i) It predicts displacement reactions: a metal higher in the series displaces one lower from its salt solution, e.g. Zn displaces Cu from CuSO<sub>4</sub>. (ii) It tells which metals liberate hydrogen from dilute acids (those above hydrogen) and how vigorously; it also decides the extraction method (electrolysis for the top, carbon reduction for the middle, heating for the bottom). (1½ marks)<br>Most reactive: potassium; least reactive: gold. (½ mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the electrolytic refining of copper with a labelled diagram. Write the reactions at the electrodes.",
+      "answer": "<p>Set-up: a thick block of impure copper is the anode (connected to the positive terminal), a thin strip of pure copper is the cathode (negative terminal), and the electrolyte is copper sulphate solution acidified with dilute H<sub>2</sub>SO<sub>4</sub>. (1 mark for the labelled diagram)<br>On passing current, copper from the anode dissolves as Cu<sup>2+</sup> ions and an equal amount of copper from the solution deposits on the cathode, so the anode thins and the cathode thickens.<br>Anode: Cu → Cu<sup>2+</sup> + 2e<sup>−</sup>; Cathode: Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu. (1 mark)<br>Soluble impurities go into solution; insoluble ones, including silver and gold, settle below the anode as anode mud. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A metal X, which is used in the thermit process, when heated with oxygen gives an oxide Y that is amphoteric in nature. Identify X and Y. Write the reactions of Y with hydrochloric acid and with sodium hydroxide.",
+      "answer": "<p>X is aluminium (used to reduce Fe<sub>2</sub>O<sub>3</sub> in the thermit reaction) and Y is aluminium oxide, Al<sub>2</sub>O<sub>3</sub>: 4Al + 3O<sub>2</sub> → 2Al<sub>2</sub>O<sub>3</sub>. (1 mark)<br>With acid: Al<sub>2</sub>O<sub>3</sub> + 6HCl → 2AlCl<sub>3</sub> + 3H<sub>2</sub>O (aluminium chloride and water). (1 mark)<br>With base: Al<sub>2</sub>O<sub>3</sub> + 2NaOH → 2NaAlO<sub>2</sub> + H<sub>2</sub>O (sodium aluminate and water). Reacting with both proves Y is amphoteric. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Show the formation of magnesium chloride from its elements with electron-dot structures. (b) List four properties of ionic compounds, giving the reason for each. (c) Why does MgCl<sub>2</sub> conduct electricity in aqueous solution but not in the solid state?",
+      "answer": "<p>(a) Magnesium (2,8,2) has two valence electrons; chlorine (2,8,7) has seven. Magnesium loses two electrons, one to each of two chlorine atoms: Mg → Mg<sup>2+</sup> (2,8) + 2e<sup>−</sup>; 2Cl + 2e<sup>−</sup> → 2Cl<sup>−</sup> (2,8,8). Draw Mg with two dots and two Cl atoms with seven dots each, arrows showing the transfer, then [Mg]<sup>2+</sup> and two [Cl]<sup>−</sup> ions with eight dots. The compound is Mg<sup>2+</sup>(Cl<sup>−</sup>)<sub>2</sub>, i.e. MgCl<sub>2</sub>. (2 marks)<br>(b) (i) Hard, brittle solids, because of the strong electrostatic attraction between the ions in the lattice. (ii) High melting and boiling points (MgCl<sub>2</sub> melts at 981 K), because much energy is needed to break the inter-ionic attraction. (iii) Soluble in water, insoluble in kerosene and petrol. (iv) Conduct electricity in the molten state and in solution but not as solids. (2 marks)<br>(c) In the solid the ions are fixed in position and cannot move, so no current flows. In water the ions become free to move and carry the current towards the electrodes. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Define the terms calcination and roasting with one equation each. (b) How is zinc extracted from zinc blende and from calamine? Give equations. (c) Name one metal that is extracted by (i) heating alone (ii) electrolysis.",
+      "answer": "<p>(a) Roasting: heating a sulphide ore strongly in excess air to give the oxide, 2ZnS + 3O<sub>2</sub> → 2ZnO + 2SO<sub>2</sub>. Calcination: heating a carbonate ore strongly in limited air to give the oxide, ZnCO<sub>3</sub> → ZnO + CO<sub>2</sub>. (2 marks)<br>(b) Zinc blende (ZnS) is roasted to zinc oxide and calamine (ZnCO<sub>3</sub>) is calcined to zinc oxide, as above. The oxide is then reduced by heating with carbon: ZnO + C → Zn + CO. Zinc lies in the middle of the reactivity series, so carbon is a good enough reducing agent for it. The crude zinc is then refined by electrolytic refining. (2 marks)<br>(c) (i) Mercury (from cinnabar, 2HgS + 3O<sub>2</sub> → 2HgO + 2SO<sub>2</sub>; 2HgO → 2Hg + O<sub>2</sub>) or copper from Cu<sub>2</sub>S. (ii) Sodium (electrolysis of molten NaCl) or aluminium (electrolysis of molten Al<sub>2</sub>O<sub>3</sub>). (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Write the reactivity series of metals. (b) A metal A reacts with dilute HCl to give a gas B, and with copper sulphate solution to give a reddish-brown deposit. Metal C does not react with dilute HCl but forms a green coating on exposure to moist air. Identify A, B and C, and write the equations. (c) State two applications of the thermit reaction and write its equation.",
+      "answer": "<p>(a) K &gt; Na &gt; Ca &gt; Mg &gt; Al &gt; Zn &gt; Fe &gt; Pb &gt; [H] &gt; Cu &gt; Hg &gt; Ag &gt; Au. (1 mark)<br>(b) A is a metal above hydrogen that displaces copper: zinc (iron is also accepted). B is hydrogen. C does not displace hydrogen and forms green basic copper carbonate in moist air, so C is copper.<br>Zn + 2HCl → ZnCl<sub>2</sub> + H<sub>2</sub>; Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu (reddish-brown deposit); Cu + moist air and CO<sub>2</sub> → CuCO<sub>3</sub>·Cu(OH)<sub>2</sub> (green). (2½ marks)<br>(c) Fe<sub>2</sub>O<sub>3</sub> + 2Al → 2Fe + Al<sub>2</sub>O<sub>3</sub> + heat. The reaction is so exothermic that iron is produced molten; it is used to join railway tracks and to repair cracked machine parts. (1½ marks)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) What is corrosion? Give two examples with the products formed. (b) Explain any three methods of preventing corrosion of iron. (c) What are alloys? Why is pure gold not used to make ornaments?",
+      "answer": "<p>(a) Corrosion is the slow eating away of a metal by the action of air, moisture or chemicals on its surface. Iron rusts to form reddish-brown hydrated iron(III) oxide, Fe<sub>2</sub>O<sub>3</sub>·xH<sub>2</sub>O; silver tarnishes to black silver sulphide, Ag<sub>2</sub>S, with sulphur compounds in air. (1½ marks)<br>(b) (i) Painting, oiling or greasing: a layer that keeps air and moisture away. (ii) Galvanisation: coating with zinc, which protects even when scratched because zinc corrodes in preference to iron. (iii) Alloying: mixing iron with nickel and chromium gives stainless steel, which does not rust. (Chrome plating is also accepted.) (2 marks)<br>(c) An alloy is a homogeneous mixture of two or more metals, or a metal and a non-metal, made by melting the primary metal and dissolving the other in it. Pure (24-carat) gold is very soft, so ornaments would bend and wear; it is alloyed with copper or silver to make 22-carat gold, which is hard enough to hold its shape. (1½ marks)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. Ionic compounds are formed by the transfer of electrons from a metal to a non-metal. The oppositely charged ions are held by strong electrostatic forces in a lattice. The table gives melting points: NaCl 1074 K, KCl 1045 K, MgCl<sub>2</sub> 981 K, CaO 2850 K, MgO 3073 K.<br>(i) Why do ionic compounds have high melting points?<br>(ii) Which compound in the table has the highest melting point, and why is it higher than that of NaCl?<br>(iii) Why does solid NaCl not conduct electricity, while molten NaCl does?<br>(iv) Show the formation of NaCl by electron transfer.",
+      "answer": "<p>(i) A large amount of energy is required to break the strong electrostatic attraction between the oppositely charged ions in the lattice.<br>(ii) MgO, 3073 K. Its ions carry two charges each (Mg<sup>2+</sup>, O<sup>2−</sup>), so the attraction between them is much stronger than between the singly charged Na<sup>+</sup> and Cl<sup>−</sup>.<br>(iii) In solid NaCl the ions are fixed in position and cannot move. On melting, the ions become free to move and carry charge towards the electrodes.<br>(iv) Na (2,8,1) → Na<sup>+</sup> (2,8) + e<sup>−</sup>; Cl (2,8,7) + e<sup>−</sup> → Cl<sup>−</sup> (2,8,8); Na<sup>+</sup> + Cl<sup>−</sup> → NaCl. Draw the electron-dot diagram with the transfer arrow and the ions in brackets.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. Metals in the middle of the reactivity series, such as zinc, iron and lead, are found as sulphides or carbonates. Since it is easier to obtain a metal from its oxide, the ore is first converted to the oxide and then reduced with a suitable reducing agent. Metals at the top of the series cannot be reduced by carbon and are obtained by electrolysis.<br>(i) Name the processes used to convert a sulphide ore and a carbonate ore into the oxide.<br>(ii) Write the equation for the reduction of zinc oxide by carbon.<br>(iii) Why can carbon not be used to obtain sodium from sodium oxide? How is sodium obtained?<br>(iv) Name a reaction in which a metal, rather than carbon, is used as the reducing agent, and write its equation.",
+      "answer": "<p>(i) Roasting (sulphide ore, heated in excess air: 2ZnS + 3O<sub>2</sub> → 2ZnO + 2SO<sub>2</sub>) and calcination (carbonate ore, heated in limited air: ZnCO<sub>3</sub> → ZnO + CO<sub>2</sub>).<br>(ii) ZnO + C → Zn + CO (on heating).<br>(iii) Sodium has a greater affinity for oxygen than carbon, so carbon cannot remove oxygen from Na<sub>2</sub>O. Sodium is obtained by electrolytic reduction of molten NaCl: Na<sup>+</sup> + e<sup>−</sup> → Na at the cathode, 2Cl<sup>−</sup> → Cl<sub>2</sub> + 2e<sup>−</sup> at the anode.<br>(iv) The thermit reaction: Fe<sub>2</sub>O<sub>3</sub> + 2Al → 2Fe + Al<sub>2</sub>O<sub>3</sub> + heat, where aluminium is the reducing agent.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. Impure copper is refined by electrolysis. A thick block of impure copper and a thin strip of pure copper are dipped in acidified copper sulphate solution and connected to a battery. After some time the strip becomes thicker and a deposit called anode mud collects at the bottom.<br>(i) Which of the two is connected to the negative terminal of the battery, and what is it called?<br>(ii) Write the reaction taking place at the anode.<br>(iii) What does anode mud contain? Why do these impurities not dissolve?<br>(iv) Why does the concentration of copper sulphate in the electrolyte remain unchanged?",
+      "answer": "<p>(i) The thin strip of pure copper is connected to the negative terminal; it is the cathode. Pure copper is deposited on it: Cu<sup>2+</sup> + 2e<sup>−</sup> → Cu.<br>(ii) At the anode (impure copper): Cu → Cu<sup>2+</sup> + 2e<sup>−</sup>.<br>(iii) Anode mud contains the insoluble, less reactive impurities such as silver and gold. They are below copper in the reactivity series and are not oxidised at the anode, so they fall to the bottom instead of dissolving.<br>(iv) For every Cu<sup>2+</sup> ion deposited at the cathode, one Cu<sup>2+</sup> ion enters the solution from the anode, so the amount of copper sulphate in solution stays the same.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of the following metals can be cut with a knife?",
+      "options": [
+        "Iron",
+        "Copper",
+        "Sodium",
+        "Aluminium"
+      ],
+      "answer_index": 2,
+      "explanation": "Sodium, potassium and lithium are so soft that they can be cut with a knife."
+    },
+    {
+      "q": "The non-metal that is a good conductor of electricity is",
+      "options": [
+        "Sulphur",
+        "Graphite",
+        "Phosphorus",
+        "Iodine"
+      ],
+      "answer_index": 1,
+      "explanation": "Graphite, an allotrope of carbon, conducts electricity; other non-metals are poor conductors."
+    },
+    {
+      "q": "When copper is heated strongly in air, the black substance formed is",
+      "options": [
+        "Cu<sub>2</sub>O",
+        "CuO",
+        "CuCO<sub>3</sub>",
+        "CuS"
+      ],
+      "answer_index": 1,
+      "explanation": "2Cu + O<sub>2</sub> → 2CuO; copper(II) oxide is black."
+    },
+    {
+      "q": "Which metal reacts with water only when it is in the form of steam?",
+      "options": [
+        "Sodium",
+        "Calcium",
+        "Iron",
+        "Magnesium"
+      ],
+      "answer_index": 2,
+      "explanation": "Iron does not react with cold or hot water but reacts with steam: 3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>."
+    },
+    {
+      "q": "Which of the following metals will not give hydrogen with dilute sulphuric acid?",
+      "options": [
+        "Magnesium",
+        "Zinc",
+        "Iron",
+        "Copper"
+      ],
+      "answer_index": 3,
+      "explanation": "Copper lies below hydrogen in the reactivity series and cannot displace it from dilute acids."
+    },
+    {
+      "q": "Aqua regia is a mixture of concentrated HCl and concentrated HNO<sub>3</sub> in the ratio",
+      "options": [
+        "1 : 3",
+        "3 : 1",
+        "1 : 1",
+        "2 : 1"
+      ],
+      "answer_index": 1,
+      "explanation": "Three parts concentrated hydrochloric acid to one part concentrated nitric acid; it dissolves gold and platinum."
+    },
+    {
+      "q": "Zinc is added to a solution of copper sulphate. The colour change observed is",
+      "options": [
+        "Colourless to blue",
+        "Blue to green",
+        "Blue to colourless",
+        "Green to blue"
+      ],
+      "answer_index": 2,
+      "explanation": "Zn + CuSO<sub>4</sub> → ZnSO<sub>4</sub> + Cu; zinc sulphate solution is colourless and copper deposits."
+    },
+    {
+      "q": "A metal displaces iron from iron(II) sulphate solution but not aluminium from aluminium sulphate solution. The metal could be",
+      "options": [
+        "Magnesium",
+        "Zinc",
+        "Copper",
+        "Sodium"
+      ],
+      "answer_index": 1,
+      "explanation": "The metal lies between aluminium and iron in the reactivity series; zinc fits. Magnesium and sodium would displace aluminium too, and copper cannot displace iron."
+    },
+    {
+      "q": "The electronic configuration of the chloride ion in NaCl is",
+      "options": [
+        "2, 8, 7",
+        "2, 8, 8",
+        "2, 8",
+        "2, 8, 8, 1"
+      ],
+      "answer_index": 1,
+      "explanation": "Chlorine (2,8,7) gains one electron to become Cl<sup>−</sup> with the argon configuration 2,8,8."
+    },
+    {
+      "q": "Which of the following has the highest melting point?",
+      "options": [
+        "NaCl",
+        "KCl",
+        "MgCl<sub>2</sub>",
+        "MgO"
+      ],
+      "answer_index": 3,
+      "explanation": "MgO melts at 3073 K, far above NaCl (1074 K), because its ions are doubly charged and attract more strongly."
+    },
+    {
+      "q": "Which of the following metals is found in the free (native) state in nature?",
+      "options": [
+        "Sodium",
+        "Aluminium",
+        "Gold",
+        "Zinc"
+      ],
+      "answer_index": 2,
+      "explanation": "Gold is at the bottom of the reactivity series and is too unreactive to form compounds readily, so it occurs native."
+    },
+    {
+      "q": "Cinnabar is an ore of",
+      "options": [
+        "Zinc",
+        "Copper",
+        "Mercury",
+        "Iron"
+      ],
+      "answer_index": 2,
+      "explanation": "Cinnabar is HgS, from which mercury is obtained by heating in air followed by decomposition of HgO."
+    },
+    {
+      "q": "In the extraction of copper from copper glance, the second step is 2Cu<sub>2</sub>O + Cu<sub>2</sub>S → 6Cu + SO<sub>2</sub>. The reducing agent here is",
+      "options": [
+        "Cu<sub>2</sub>O",
+        "Cu<sub>2</sub>S",
+        "SO<sub>2</sub>",
+        "Carbon"
+      ],
+      "answer_index": 1,
+      "explanation": "Copper(I) sulphide removes oxygen from copper(I) oxide, so it acts as the reducing agent; no carbon is used."
+    },
+    {
+      "q": "During electrolytic refining of copper, gold and silver present as impurities are found",
+      "options": [
+        "Deposited on the cathode",
+        "Dissolved in the electrolyte",
+        "As anode mud",
+        "Deposited on the anode"
+      ],
+      "answer_index": 2,
+      "explanation": "Silver and gold are less reactive than copper, are not oxidised at the anode and settle below it as anode mud."
+    },
+    {
+      "q": "Which of the following is not required for the rusting of iron?",
+      "options": [
+        "Oxygen",
+        "Moisture",
+        "Carbon dioxide",
+        "None of the above"
+      ],
+      "answer_index": 2,
+      "explanation": "The three test-tube activity shows that air (oxygen) and moisture are both necessary; carbon dioxide is not a requirement."
+    },
+    {
+      "q": "Solder, used for welding electrical wires, is an alloy of",
+      "options": [
+        "Copper and zinc",
+        "Copper and tin",
+        "Lead and tin",
+        "Iron and chromium"
+      ],
+      "answer_index": 2,
+      "explanation": "Solder is lead and tin; it has a low melting point, which is why it is used to join wires."
+    },
+    {
+      "q": "22-carat gold contains 22 parts of gold and 2 parts of",
+      "options": [
+        "Zinc or tin",
+        "Copper or silver",
+        "Nickel or chromium",
+        "Lead or mercury"
+      ],
+      "answer_index": 1,
+      "explanation": "Pure gold is too soft, so it is alloyed with copper or silver to make it hard enough for ornaments."
+    },
+    {
+      "q": "Anodising is a process that protects",
+      "options": [
+        "Iron by coating it with zinc",
+        "Aluminium by thickening its oxide layer",
+        "Copper by coating it with tin",
+        "Silver by polishing"
+      ],
+      "answer_index": 1,
+      "explanation": "The aluminium article is made the anode in dilute H<sub>2</sub>SO<sub>4</sub>; the oxygen evolved thickens the protective Al<sub>2</sub>O<sub>3</sub> layer."
+    }
+  ],
+  "common_mistakes": [
+    "Writing Fe<sub>2</sub>O<sub>3</sub> or Fe(OH)<sub>3</sub> for the reaction of iron with steam. The product is Fe<sub>3</sub>O<sub>4</sub>, and the balanced equation is 3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>; a wrong product loses the whole equation mark.",
+    "Saying 'ionic compounds conduct electricity' without the condition. The examiner wants 'in the molten state or in aqueous solution, not in the solid state, because the ions are free to move only then'.",
+    "Confusing roasting and calcination. Roasting is for sulphide ores in excess air (gives SO<sub>2</sub>); calcination is for carbonate ores in limited air (gives CO<sub>2</sub>). Swapping them in a 5-mark question costs two marks.",
+    "Writing a displacement reaction that cannot happen, such as Cu + FeSO<sub>4</sub> or Ag + CuSO<sub>4</sub>. Always check the reactivity series first, and write 'no reaction' with the reason when the added metal is less reactive.",
+    "Leaving out 'heat' above the arrows in extraction equations and omitting the second equation in the extraction of copper from Cu<sub>2</sub>S or mercury from HgS.",
+    "Drawing electron-dot structures without showing the ions with their charges, or leaving chlorine with seven dots after transfer. The 'after' picture must show [Na]<sup>+</sup> and [Cl]<sup>−</sup> with eight dots.",
+    "Labelling the electrolytic refining diagram wrongly: the impure metal is the anode (positive), the pure strip is the cathode (negative), and the electrolyte is the acidified salt solution of the same metal. Reversing anode and cathode loses two marks.",
+    "Answering 'why does HNO<sub>3</sub> not give hydrogen' with 'because it is a strong acid'. The reason is that nitric acid is a strong oxidising agent that oxidises the hydrogen to water.",
+    "Writing 'aluminium is unreactive' to explain aluminium utensils. Aluminium is reactive; it is protected by the thin, tough layer of Al<sub>2</sub>O<sub>3</sub> that forms on its surface."
+  ],
+  "strategy": "<p>Treat this chapter as three blocks and give them one sitting each. Block one is reactions and the reactivity series: write out every equation for metals with oxygen, water, steam, dilute acids and salt solutions from memory, with the observation beside each, and rewrite the series with hydrogen in it until the order is automatic. Almost every 1-, 2- and 3-mark question, and the identification puzzles about metals A, B and C, come from this block.</p><p>Block two is ionic compounds: practise the electron-dot diagrams for NaCl, MgCl<sub>2</sub>, CaO and MgO on paper, showing configurations before and after transfer and the ions with charges, and learn the four properties with their reasons. This is a standing 5-mark question.</p><p>Block three is metallurgy and corrosion: draw the reactivity series with the three extraction methods marked beside it, learn the six equations (HgS, Cu<sub>2</sub>S, ZnS, ZnCO<sub>3</sub>, ZnO + C, thermit) with 'heat' on the arrows, and the electrolytic refining set-up with its diagram and half reactions. Finish with the rusting activity, the three corrosion products and the alloy table.</p><p>What to memorise: the series, the alloy compositions, the NCERT melting points for NaCl and MgO, and the give-reason answers (sodium in kerosene, aluminium utensils, gold jewellery, copper hot water tanks, tin-coated cans). What to understand: why the extraction method follows the series and why properties of ionic compounds follow from the bonding. In the exam, spend no more than a minute per mark; in 3- and 5-mark answers write equations first and reasons after, because equations carry the fixed marks. Do the NCERT exercise in full at least once; the board reuses those questions almost word for word.</p>",
+  "revision_checklist": [
+    "I can list five physical properties of metals and the exceptions: Hg, Br, graphite, iodine, Na/K, Ga/Cs.",
+    "I can write the oxygen reactions of Na, Mg, Al and Cu, and both equations for Al<sub>2</sub>O<sub>3</sub> and ZnO as amphoteric oxides.",
+    "I know the water ladder: K/Na/Ca (cold), Mg (hot), Al/Zn/Fe (steam), Pb/Cu/Ag/Au (none), with 3Fe + 4H<sub>2</sub>O → Fe<sub>3</sub>O<sub>4</sub> + 4H<sub>2</sub>.",
+    "I can explain why HNO<sub>3</sub> gives no hydrogen and what aqua regia is (3 : 1 conc. HCl : conc. HNO<sub>3</sub>).",
+    "I can write Fe/Zn + CuSO<sub>4</sub> and Cu + AgNO<sub>3</sub> with the colour changes observed.",
+    "I can write the reactivity series with [H] in place and state three uses of it.",
+    "I can draw electron-dot structures for NaCl, MgCl<sub>2</sub> and CaO with configurations and ion charges.",
+    "I can state four properties of ionic compounds, each with its reason, and quote NaCl 1074 K and MgO 3073 K.",
+    "I can define mineral, ore, gangue and give the three stages of metallurgy.",
+    "I can write both equations for Hg from HgS and both for Cu from Cu<sub>2</sub>S, with heat on the arrows.",
+    "I can define roasting and calcination with equations and write ZnO + C → Zn + CO.",
+    "I can write the thermit reaction, name the reducing agent and give its two uses.",
+    "I can write the electrode reactions for electrolysis of molten NaCl and explain why carbon is not used for Na, Mg, Ca, Al.",
+    "I can draw and label the electrolytic refining of copper and explain anode mud.",
+    "I can describe the three-test-tube rusting activity, name three corrosion products and five prevention methods.",
+    "I know the compositions of brass, bronze, solder, stainless steel, amalgam and 22-carat gold, and the effect of alloying on conductivity and melting point."
+  ],
+  "videos": [
+    {
+      "id": "HwtrvZOlfss",
+      "title": "Metals and Non-metals · full chapter"
+    }
+  ]
+}

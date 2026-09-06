@@ -1,0 +1,891 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 8,
+  "slug": "force-and-laws-of-motion",
+  "title": "Force and Laws of Motion",
+  "summary": "This chapter builds on the idea of force from Class 8 and gives you Newton's three laws of motion, the idea of momentum, and the law of conservation of momentum — the tools you need to explain why things stay still, speed up, or push back.",
+  "exam_profile": {
+    "weightage": "Class 9 has no board exam, so there are no year-tagged PYQs for this chapter. In the school paper it is one of the higher-scoring physics chapters — expect one or two numericals on F = ma or momentum, plus conceptual questions on the three laws.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Identifying which law explains a given situation, or a quick numerical on F = ma or p = mv."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Tests whether you can link a everyday observation (seat belt, recoil of a gun) to the correct law."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "State a law, define momentum, or explain one everyday example of inertia."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Explain an application of a law with reasoning, or a short numerical."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Derive F = ma from the second law, or derive the law of conservation of momentum using the third law."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage about a real situation (car crash, rocket, cricket ball) followed by four sub-questions across the three laws."
+      }
+    ],
+    "hot_topics": [
+      "Derivation of F = ma from Newton's second law",
+      "Derivation of the law of conservation of momentum",
+      "Newton's third law and action–reaction pairs (recoil of a gun, walking)",
+      "Inertia and its three types (rest, motion, direction) with everyday examples",
+      "Numericals on F = ma, momentum, and change in momentum",
+      "Balanced vs unbalanced forces",
+      "Why seat belts, air bags and cricketers pulling back their hands work"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "8.1 Balanced and Unbalanced Forces",
+      "pyq_years": [],
+      "body": "<p>A force is a push or a pull that can change the state of motion or the shape of an object. When two or more forces act on an object from opposite directions and their resultant is zero, the forces are called <b>balanced forces</b>. Balanced forces do not change the state of motion of an object — a book resting on a table has its weight balanced by the normal force from the table, so it stays at rest. Balanced forces can, however, change the shape of an object, as when you squeeze a rubber ball from both sides.</p><p>When the resultant of the forces acting on an object is not zero, the forces are called <b>unbalanced forces</b>. An unbalanced force can change the speed, or the direction of motion, or both, of an object. Take the classic example of a wooden block on a table, pulled by a string over a pulley with a load. As long as the pulling force is not enough to overcome friction, the block stays still — the applied force and friction are balanced. Once the pulling force exceeds friction, the net force is unbalanced and the block starts to move; as more weight is added, the block moves faster because a larger unbalanced force gives a larger change in motion. If the block is moving and friction alone acts opposite to the motion, that unbalanced frictional force slows the block down and eventually stops it. This is the everyday reason a ball rolled on the ground slows down and stops — friction between the ball and the ground is an unbalanced force acting against its motion.</p>",
+      "formulas": [],
+      "tip": "If a question asks 'why does an object at rest stay at rest / why does a moving object continue to move', the answer is always in terms of balanced or unbalanced forces, not in terms of the laws directly — save the laws for questions that name them."
+    },
+    {
+      "heading": "8.2 First Law of Motion",
+      "pyq_years": [],
+      "body": "<p>Galileo studied the motion of objects on inclined planes and concluded that objects move with a constant speed when no force acts on them, and that the presence of a always-present opposing force like friction was responsible for the slowing down of moving objects. Newton built on this and put forward the <b>first law of motion</b>: <i>An object remains in a state of rest or of uniform motion in a straight line unless an unbalanced force acts on it.</i></p><p>This means that objects tend to resist any change to their state of rest or of uniform motion — this property is called <b>inertia</b>. This is why the first law is also called the <b>law of inertia</b>. It also gives us a working definition of force: force is what changes, or tends to change, the state of rest or of uniform motion of a body.</p><p>Everyday examples the exam loves: when a moving bus stops suddenly, passengers standing in it are jerked forward — the lower part of the body in contact with the bus stops with the bus, but the upper part continues to move forward due to inertia. When a bus starts suddenly, passengers are jerked backward for the same reason, but in the opposite sense — the feet in contact with the floor move forward with the bus, but the rest of the body resists the change. Shaking a branch makes mangoes fall because the branch moves but the fruit tends to stay at rest and gets separated by the sudden jerk. Similarly, a person shakes a wet piece of cloth to remove water — the cloth stops when the arm stops, but the water droplets continue moving forward due to inertia and fly off.</p>",
+      "formulas": [],
+      "tip": "When a stationary bus/train suddenly starts, you fall backward; when a moving bus/train suddenly stops, you fall forward — students often reverse these, so pause and think about which part of your body inertia is 'left behind' by."
+    },
+    {
+      "heading": "8.2.1 Inertia and Mass",
+      "pyq_years": [],
+      "body": "<p><b>Inertia</b> is the natural tendency of an object to resist a change in its state of rest or of uniform motion. All objects have this tendency, but not equally — a heavier object needs a larger force to bring about the same change in its motion than a lighter one. This tells us that the mass of an object is a measure of its inertia: a more massive object has more inertia. That is why it is much harder to push a loaded truck into motion than an empty cart, and much harder to stop the loaded truck once it is moving.</p><p>There are three common types of inertia, and the board loves an example for each:</p><ul><li><b>Inertia of rest</b>: the tendency of a body to continue in its state of rest. Example: a coin placed on a card over a glass falls into the glass when the card is flicked away quickly, because the coin resists the sudden change and stays where it was, then falls straight down under gravity once the card is gone.</li><li><b>Inertia of motion</b>: the tendency of a body to continue in its state of uniform motion. Example: an athlete running in a race does not stop immediately at the finish line but continues running for some distance because of inertia of motion.</li><li><b>Inertia of direction</b>: the tendency of a body to resist a change in the direction of motion. Example: when a car turns sharply, passengers are pushed sideways because their body tends to keep moving in the original straight-line direction; sparks from a grinding wheel fly off tangentially, along the straight line the sparks were moving in at the instant they left the wheel.</li></ul>",
+      "formulas": [],
+      "tip": "Mass is a quantitative measure of inertia — a direct, favourite one-mark question is 'why does mass measure inertia?'; answer in one line: greater mass means a greater force is needed to produce the same change in motion, so mass and inertia go together."
+    },
+    {
+      "heading": "8.3 Second Law of Motion",
+      "pyq_years": [],
+      "body": "<p>The first law tells us qualitatively that force changes motion, but the second law tells us quantitatively how much. To state it precisely we first need the idea of <b>momentum</b>. The momentum of an object is the product of its mass and its velocity, and it is denoted p:</p><p>Momentum is a vector quantity — its direction is the same as the direction of velocity. A fast-moving heavy truck has a large momentum and is harder to stop than a slow-moving light scooter, which is why momentum, and not just velocity or mass alone, decides how hard it is to bring something to rest.</p><p>Newton's <b>second law of motion</b> states: <i>The rate of change of momentum of an object is proportional to the applied unbalanced force, in the direction of the force.</i> In other words, a bigger force produces a bigger change in momentum in a given time, and the change in momentum happens in the same direction as the force applied. This law lets you calculate exactly how much force is needed to produce a given change in the motion of an object, which is why it is the most numerically important of the three laws for the exam.</p>",
+      "formulas": [
+        {
+          "expr": "p = m × v",
+          "where": [
+            [
+              "p",
+              "momentum (kg m s<sup>−1</sup>)"
+            ],
+            [
+              "m",
+              "mass of the object (kg)"
+            ],
+            [
+              "v",
+              "velocity of the object (m s<sup>−1</sup>)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Momentum has both magnitude and direction — always mention it is a vector quantity when defining it; this is a common one-mark line the marking scheme checks for."
+    },
+    {
+      "heading": "8.3.1 Mathematical Formulation of Second Law of Motion",
+      "pyq_years": [],
+      "body": "<p>This derivation is asked very often as a 3 or 5 mark question — write every step, the marking scheme rewards each line.</p><p>Consider an object of mass m moving along a straight line with an initial velocity u. It is uniformly accelerated to a velocity v in time t by the application of a constant force F, acting throughout the time t along the same straight line.</p><p>The initial momentum of the object, p<sub>1</sub> = mu, and the final momentum, p<sub>2</sub> = mv. The change in momentum is p<sub>2</sub> − p<sub>1</sub> = mv − mu = m(v − u), and this change occurs in time t.</p><p>By the second law, the applied force F is proportional to the rate of change of momentum, so:</p><p>F ∝ [m(v − u)] / t</p><p>Now (v − u)/t is the rate of change of velocity, which is the acceleration a. So:</p><p>F ∝ ma, which we write as F = k·ma, where k is a constant of proportionality. The SI unit of force, the <b>newton</b>, is defined in such a way that a unit force is that which produces unit acceleration in an object of unit mass — that is, 1 newton is the force that produces an acceleration of 1 m s<sup>−2</sup> in a mass of 1 kg. Substituting F = 1 N, m = 1 kg, a = 1 m s<sup>−2</sup> gives k = 1, so the second law finally gives the equation used for every numerical:</p><p>F = ma</p><p>This single equation is the working tool of the whole chapter: unbalanced force equals mass times acceleration, and it reduces to the first law when F = 0, since a = 0 then means the object continues at constant velocity (which includes remaining at rest).</p>",
+      "formulas": [
+        {
+          "expr": "F = ma",
+          "where": [
+            [
+              "F",
+              "net (unbalanced) force (N)"
+            ],
+            [
+              "m",
+              "mass of the object (kg)"
+            ],
+            [
+              "a",
+              "acceleration produced (m s<sup>−2</sup>)"
+            ]
+          ]
+        },
+        {
+          "expr": "F = m(v − u)/t",
+          "where": [
+            [
+              "u",
+              "initial velocity (m s<sup>−1</sup>)"
+            ],
+            [
+              "v",
+              "final velocity (m s<sup>−1</sup>)"
+            ],
+            [
+              "t",
+              "time taken (s)"
+            ]
+          ]
+        }
+      ],
+      "tip": "State the definition of the newton in words before writing F = ma in a 5-mark derivation — many students jump straight to the formula and lose the mark for the definition."
+    },
+    {
+      "heading": "8.4 Third Law of Motion",
+      "pyq_years": [],
+      "body": "<p>The first two laws describe what happens to a single object under a force. The <b>third law of motion</b> describes what happens between two objects: <i>For every action there is an equal and opposite reaction, and they act on two different objects.</i> Whenever object A exerts a force (the action) on object B, object B simultaneously exerts an equal and opposite force (the reaction) on object A. These two forces are always equal in magnitude but opposite in direction, and — the point students most often miss — they act on <b>two different bodies</b>, so they never cancel each other out even though they are equal and opposite.</p><p>Classic examples: when a bullet is fired from a gun, the gun exerts a forward force on the bullet (action), and the bullet exerts an equal and opposite backward force on the gun (reaction) — this is felt as the <b>recoil</b> of the gun. When we walk, our foot pushes the ground backward (action) and the ground pushes our foot forward (reaction), which propels us ahead — this is why walking is difficult on a frictionless or very slippery surface, where the ground cannot supply the reaction force. A swimmer pushes water backward with their hands and feet (action), and the water pushes the swimmer forward (reaction). A rocket expels hot gases downward at high speed (action) and the gases push the rocket upward (reaction), which is how a rocket accelerates in the vacuum of space where there is nothing to 'push against' except its own exhaust.</p>",
+      "formulas": [
+        {
+          "expr": "F<sub>AB</sub> = −F<sub>BA</sub>",
+          "where": [
+            [
+              "F<sub>AB</sub>",
+              "force exerted by A on B"
+            ],
+            [
+              "F<sub>BA</sub>",
+              "force exerted by B on A (equal magnitude, opposite direction)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Action and reaction forces act on different bodies at the same instant — they never balance each other for the same object; this is the single most-tested trap in Assertion–Reason questions on this law."
+    },
+    {
+      "heading": "Conservation of Momentum",
+      "pyq_years": [],
+      "body": "<p>This is the most important 5-mark derivation of the chapter — it combines the second and third laws and is asked almost every year in some form.</p><p>Consider two objects A (mass m<sub>A</sub>, moving with velocity u<sub>A</sub>) and B (mass m<sub>B</sub>, moving with velocity u<sub>B</sub>) along the same straight line, with u<sub>A</sub> > u<sub>B</sub>, so that they collide. Let the collision last a short time t, after which A moves with velocity v<sub>A</sub> and B moves with velocity v<sub>B</sub>.</p><p>During the collision, B exerts a force F<sub>AB</sub> on A, and by Newton's second law this equals the rate of change of momentum of A: F<sub>AB</sub> = m<sub>A</sub>(v<sub>A</sub> − u<sub>A</sub>)/t. Similarly, A exerts a force F<sub>BA</sub> on B: F<sub>BA</sub> = m<sub>B</sub>(v<sub>B</sub> − u<sub>B</sub>)/t.</p><p>By Newton's third law, the force on A due to B is equal and opposite to the force on B due to A, so F<sub>AB</sub> = −F<sub>BA</sub>, which gives:</p><p>m<sub>A</sub>(v<sub>A</sub> − u<sub>A</sub>)/t = − m<sub>B</sub>(v<sub>B</sub> − u<sub>B</sub>)/t</p><p>Cancelling t and rearranging:</p><p>m<sub>A</sub>u<sub>A</sub> + m<sub>B</sub>u<sub>B</sub> = m<sub>A</sub>v<sub>A</sub> + m<sub>B</sub>v<sub>B</sub></p><p>That is, the total momentum of the two objects before collision equals their total momentum after collision, provided no external unbalanced force acts on them. This is the <b>law of conservation of momentum</b>: <i>In the absence of an external unbalanced force, the total momentum of a system of objects remains unchanged (conserved).</i> It explains the recoil of a gun (the momentum of the bullet forward equals the momentum of the gun backward, so the total stays zero, since both start at rest), and why a rocket can accelerate forward by ejecting mass backward.</p>",
+      "formulas": [
+        {
+          "expr": "m<sub>A</sub>u<sub>A</sub> + m<sub>B</sub>u<sub>B</sub> = m<sub>A</sub>v<sub>A</sub> + m<sub>B</sub>v<sub>B</sub>",
+          "where": [
+            [
+              "m<sub>A</sub>, m<sub>B</sub>",
+              "masses of the two objects"
+            ],
+            [
+              "u<sub>A</sub>, u<sub>B</sub>",
+              "velocities before collision"
+            ],
+            [
+              "v<sub>A</sub>, v<sub>B</sub>",
+              "velocities after collision"
+            ]
+          ]
+        }
+      ],
+      "tip": "Always write the condition 'in the absence of an external unbalanced force' when stating this law — omitting it is a common mark deduction."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Force",
+      "definition": "A push or a pull on an object that can change, or tend to change, its state of rest or of motion, or its shape."
+    },
+    {
+      "term": "Balanced forces",
+      "definition": "Forces whose resultant is zero; they do not change the state of motion of an object but can change its shape."
+    },
+    {
+      "term": "Unbalanced forces",
+      "definition": "Forces whose resultant is not zero; they change the speed or direction (or both) of an object's motion."
+    },
+    {
+      "term": "Inertia",
+      "definition": "The natural tendency of an object to resist any change in its state of rest or of uniform motion."
+    },
+    {
+      "term": "Inertia of rest",
+      "definition": "The tendency of a body at rest to remain at rest unless acted upon by an external unbalanced force."
+    },
+    {
+      "term": "Inertia of motion",
+      "definition": "The tendency of a moving body to keep moving with the same speed and direction unless acted upon by an unbalanced force."
+    },
+    {
+      "term": "Inertia of direction",
+      "definition": "The tendency of a body to resist a change in the direction of its motion."
+    },
+    {
+      "term": "Mass",
+      "definition": "A measure of the inertia of an object; a body with more mass needs a larger force to produce the same change in its motion."
+    },
+    {
+      "term": "Momentum",
+      "definition": "The product of the mass and velocity of an object (p = mv); a vector quantity in the direction of velocity, measured in kg m s<sup>−1</sup>."
+    },
+    {
+      "term": "Newton's first law of motion",
+      "definition": "An object remains in a state of rest or of uniform motion in a straight line unless an external unbalanced force acts on it; also called the law of inertia."
+    },
+    {
+      "term": "Newton's second law of motion",
+      "definition": "The rate of change of momentum of an object is directly proportional to the applied unbalanced force and takes place in the direction of the force."
+    },
+    {
+      "term": "Newton's third law of motion",
+      "definition": "For every action there is an equal and opposite reaction, and the two forces act on two different bodies."
+    },
+    {
+      "term": "Recoil",
+      "definition": "The backward motion of a gun when it fires a bullet, caused by the equal and opposite reaction to the forward force on the bullet."
+    },
+    {
+      "term": "Law of conservation of momentum",
+      "definition": "In the absence of an external unbalanced force, the total momentum of a system of two or more interacting objects remains constant."
+    },
+    {
+      "term": "Newton (N)",
+      "definition": "The SI unit of force; 1 N is the force that produces an acceleration of 1 m s<sup>−2</sup> in a body of mass 1 kg."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Momentum",
+      "expr": "p = m × v",
+      "note": "Vector quantity, SI unit kg m s<sup>−1</sup>; direction same as velocity."
+    },
+    {
+      "name": "Newton's second law (rate form)",
+      "expr": "F ∝ (mv − mu)/t = m(v − u)/t",
+      "note": "Used to derive F = ma."
+    },
+    {
+      "name": "Newton's second law (final form)",
+      "expr": "F = ma",
+      "note": "F in newtons when m is in kg and a is in m s<sup>−2</sup>; the main numerical tool of the chapter."
+    },
+    {
+      "name": "Definition of 1 newton",
+      "expr": "1 N = 1 kg × 1 m s<sup>−2</sup>",
+      "note": "Force needed to give a 1 kg mass an acceleration of 1 m s<sup>−2</sup>."
+    },
+    {
+      "name": "Impulse / change in momentum",
+      "expr": "F × t = m(v − u)",
+      "note": "Force multiplied by the time for which it acts equals the change in momentum produced."
+    },
+    {
+      "name": "Newton's third law",
+      "expr": "F<sub>AB</sub> = −F<sub>BA</sub>",
+      "note": "Action and reaction are equal, opposite, and act on different bodies simultaneously."
+    },
+    {
+      "name": "Law of conservation of momentum",
+      "expr": "m<sub>A</sub>u<sub>A</sub> + m<sub>B</sub>u<sub>B</sub> = m<sub>A</sub>v<sub>A</sub> + m<sub>B</sub>v<sub>B</sub>",
+      "note": "Holds for a system with no external unbalanced force acting on it."
+    },
+    {
+      "name": "Newton's first law",
+      "expr": "F = 0 ⇒ a = 0",
+      "note": "Special case of F = ma: zero net force means zero acceleration, i.e., constant velocity (including rest)."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Coin-and-card demonstration of inertia of rest",
+      "how_to_draw": "Draw a glass tumbler with a flat card on its mouth and a coin on the card, directly above the glass. Show an arrow for a quick horizontal flick on the card, and a dashed vertical arrow showing the coin dropping straight into the glass. Label: 'card removed quickly — coin's inertia of rest keeps it in place, then gravity pulls it down'."
+    },
+    {
+      "title": "Bus stopping suddenly (inertia of motion)",
+      "how_to_draw": "Draw a side view of a bus with a standing passenger at two instants: moving at speed v, then suddenly at rest. Show the feet stopped with the bus but the upper body tilted forward with a motion arrow, labelled 'upper body continues due to inertia while feet stop with the bus'."
+    },
+    {
+      "title": "Free-body diagram for the second law derivation",
+      "how_to_draw": "Draw a block of mass m with an arrow labelled F pushing it, initial velocity u before the force starts and final velocity v after time t. Below, write p<sub>1</sub> = mu, p<sub>2</sub> = mv, and F = m(v−u)/t = ma alongside the picture."
+    },
+    {
+      "title": "Recoil of a gun (action–reaction pair)",
+      "how_to_draw": "Draw a gun firing a bullet: a bold arrow right from the muzzle labelled 'action — force on bullet', and an equal-length arrow left into the stock labelled 'reaction — force on gun (recoil)'. Note both momenta are equal and opposite, so total momentum stays zero."
+    },
+    {
+      "title": "Momentum conservation in a two-ball collision",
+      "how_to_draw": "Draw balls A and B before collision with velocity arrows u<sub>A</sub>, u<sub>B</sub> (u<sub>A</sub> longer). Below, draw them after collision with arrows v<sub>A</sub>, v<sub>B</sub>. Write m<sub>A</sub>u<sub>A</sub> + m<sub>B</sub>u<sub>B</sub> = m<sub>A</sub>v<sub>A</sub> + m<sub>B</sub>v<sub>B</sub> beneath both rows."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "8.1",
+      "q": "An object experiences a net zero external unbalanced force. Is it possible for the object to be travelling with a non-zero velocity? If yes, state the conditions that must be placed on the magnitude and direction of the velocity. If no, provide a reason.",
+      "a": "<p>Yes, it is possible. By Newton's first law, an object with zero net unbalanced force acting on it continues in its existing state of motion. If that state is one of uniform motion in a straight line with a non-zero velocity, it will continue with the <b>same magnitude and same direction</b> of velocity — the velocity must stay constant in both magnitude and direction, since any change would itself mean an unbalanced force is acting.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.2",
+      "q": "When a carpet is beaten with a stick, dust comes out of it. Explain.",
+      "a": "<p>Before being beaten, the carpet and the dust particles trapped in it are at rest. When the stick strikes the carpet, the carpet is suddenly set into motion, but the dust particles, due to their inertia of rest, tend to remain at rest. This relative motion between the carpet (which moves) and the dust (which stays behind) separates the dust from the carpet, and it falls out.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.3",
+      "q": "Why is it advised to tie any luggage kept on the roof of a bus with a rope?",
+      "a": "<p>When a moving bus stops suddenly or turns, the luggage on the roof, due to its inertia of motion, tends to continue moving in its original direction or speed and can fall off. Tying the luggage with a rope provides the extra force needed to change its motion along with the bus, preventing it from falling or sliding off.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.4",
+      "q": "A batsman hits a cricket ball which then rolls on a level ground. After covering a short distance, the ball comes to rest. The ball slows to a stop because (a) the batsman did not hit the ball hard enough, (b) velocity is proportional to the force exerted on the ball, (c) there is a force on the ball opposing the motion, (d) there is no unbalanced force on the ball, so it would want to come to rest. Select the correct choice and explain.",
+      "a": "<p>(c) is correct. As the ball rolls, the force of friction between the ball and the ground acts opposite to its direction of motion. This unbalanced frictional force decelerates the ball continuously until it comes to rest. Options (a) and (b) are wrong because how hard the ball was hit only decides its initial speed, not why it stops, and (d) is wrong because friction is precisely an unbalanced force acting on the ball.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.5",
+      "q": "A truck starts from rest and rolls down a hill with a constant acceleration of 0.5 m s<sup>−2</sup>. It travels a distance of 400 m in 20 s. Calculate the acceleration and the force acting on it if its mass is 7 tonnes (hint: 1 tonne = 1000 kg).",
+      "a": "<p>The acceleration is given in the question itself: a = <b>0.5 m s<sup>−2</sup></b> (constant, as stated). Mass m = 7 tonnes = 7 × 1000 = 7000 kg. Force F = ma = 7000 × 0.5 = <b>3500 N</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.6",
+      "q": "A stone of mass 1 kg is thrown with a velocity of 20 m s<sup>−1</sup> across the frozen surface of a lake and comes to rest after travelling a distance of 50 m. What is the force of friction between the stone and the ice?",
+      "a": "<p>Given: u = 20 m s<sup>−1</sup>, v = 0, s = 50 m, m = 1 kg. Using v<sup>2</sup> = u<sup>2</sup> + 2as: 0 = 20<sup>2</sup> + 2 × a × 50, so 0 = 400 + 100a, giving a = −4 m s<sup>−2</sup> (deceleration). Force of friction F = ma = 1 × (−4) = −4 N. The magnitude of the frictional force is <b>4 N</b>, acting opposite to the stone's motion.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.7",
+      "q": "A 8000 kg engine pulls a train of 5 wagons, each of 2000 kg, along a horizontal track. If the engine exerts a force of 40000 N and the track offers a friction force of 5000 N, calculate: (a) the net accelerating force; (b) the acceleration of the train; (c) the force of wagon 1 on wagon 2.",
+      "a": "<p>(a) Net accelerating force = 40000 − 5000 = <b>35000 N</b>.</p><p>(b) Total mass = 8000 + (5 × 2000) = 18000 kg. a = F/m = 35000/18000 ≈ <b>1.94 m s<sup>−2</sup></b>.</p><p>(c) Force needed to accelerate wagons 2–5 (mass 8000 kg): F = 8000 × 1.94 ≈ <b>15556 N</b> — the force wagon 1 exerts on the wagons behind it.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.8",
+      "q": "A motorcar of mass 1200 kg is moving along a straight line with a uniform velocity of 90 km/h. Its velocity is slowed down to 18 km/h in 4 s by an unbalanced external force. Calculate the acceleration and change in momentum. Also calculate the magnitude of the force required.",
+      "a": "<p>Convert speeds to m s<sup>−1</sup>: u = 90 km/h = 90 × 5/18 = 25 m s<sup>−1</sup>; v = 18 km/h = 18 × 5/18 = 5 m s<sup>−1</sup>; t = 4 s.</p><p>Acceleration a = (v − u)/t = (5 − 25)/4 = −20/4 = <b>−5 m s<sup>−2</sup></b> (a deceleration of 5 m s<sup>−2</sup>).</p><p>Change in momentum = m(v − u) = 1200 × (5 − 25) = 1200 × (−20) = <b>−24000 kg m s<sup>−1</sup></b> (magnitude 24000 kg m s<sup>−1</sup>).</p><p>Force F = ma = 1200 × (−5) = <b>−6000 N</b>; magnitude of the force required is <b>6000 N</b>, acting opposite to the direction of motion.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.9",
+      "q": "What is the momentum of an object of mass m, moving with a velocity v? (a) (mv)<sup>2</sup> (b) mv<sup>2</sup> (c) ½mv<sup>2</sup> (d) mv. Select the correct answer.",
+      "a": "<p>(d) mv is correct, since momentum is defined as the product of mass and velocity, p = mv.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "8.10",
+      "q": "Using a horizontal force of 200 N, we intend to move a wooden cabinet across a floor with a coefficient of friction of 0.2. What horizontal force should be applied on the cabinet so that it moves with uniform velocity?",
+      "a": "<p>For the cabinet to move with uniform (constant) velocity, the net force on it must be zero, i.e., the applied force must exactly balance the opposing frictional force. So the horizontal force to be applied equals the force of friction, which is <b>200 N</b>, acting in the direction of intended motion, so that the applied force and friction cancel and the net force is zero.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.11",
+      "q": "Two objects, each of mass 1.5 kg, are moving in the same straight line but in opposite directions. The velocity of each object is 2.5 m s<sup>−1</sup> before the collision during which they stick together. What will be the velocity of the combined object after collision?",
+      "a": "<p>Let the direction of the first object be positive. u<sub>A</sub> = +2.5 m s<sup>−1</sup>, u<sub>B</sub> = −2.5 m s<sup>−1</sup> (opposite direction), m<sub>A</sub> = m<sub>B</sub> = 1.5 kg. By conservation of momentum: m<sub>A</sub>u<sub>A</sub> + m<sub>B</sub>u<sub>B</sub> = (m<sub>A</sub> + m<sub>B</sub>)v. So (1.5 × 2.5) + (1.5 × (−2.5)) = (1.5 + 1.5)v ⇒ 3.75 − 3.75 = 3v ⇒ 0 = 3v ⇒ v = <b>0 m s<sup>−1</sup></b>. The combined object remains at rest after collision.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.12",
+      "q": "According to the third law of motion, when we push on an object, the object pushes back on us with an equal and opposite force. If the object is a massive truck parked along the roadside, it will probably not move. A student justifies this by saying that the two opposite and equal forces cancel each other. Comment on this logic and explain why the truck does not move.",
+      "a": "<p>The student's reasoning is wrong. The forces of action (person on truck) and reaction (truck on person) act on <b>two different objects</b> — one on the truck, one on the person — so they never cancel out for the same object; they can only cancel if they act on the same body. The truck does not move because the force applied by the push is too small compared to the truck's large mass (and hence large inertia) and the frictional force between the truck's tyres and the road, which together are enough to keep the net force on the truck close to zero, well below what is needed to produce a noticeable acceleration.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.13",
+      "q": "A hockey ball of mass 200 g travelling at 10 m s<sup>−1</sup> is struck by a hockey stick so as to return it along its original path with a velocity of 5 m s<sup>−1</sup>. Calculate the change of momentum occurred in the motion of the hockey ball by the force applied by the hockey stick.",
+      "a": "<p>Mass m = 200 g = 0.2 kg. Take the initial direction as positive: u = +10 m s<sup>−1</sup>. Since the ball returns along the same path, v = −5 m s<sup>−1</sup>.</p><p>Change in momentum = m(v − u) = 0.2 × (−5 − 10) = 0.2 × (−15) = <b>−3 kg m s<sup>−1</sup></b>. The magnitude of change in momentum is <b>3 kg m s<sup>−1</sup></b>, directed opposite to the ball's original motion.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.14",
+      "q": "A bullet of mass 10 g travelling horizontally with a velocity of 150 m s<sup>−1</sup> strikes a stationary wooden block and comes to rest in 0.03 s. Calculate the distance of penetration of the bullet into the block. Also calculate the magnitude of the force exerted by the wooden block on the bullet.",
+      "a": "<p>Mass m = 10 g = 0.01 kg; u = 150 m s<sup>−1</sup>; v = 0; t = 0.03 s.</p><p>Acceleration a = (v − u)/t = (0 − 150)/0.03 = <b>−5000 m s<sup>−2</sup></b>.</p><p>Distance of penetration, using v<sup>2</sup> = u<sup>2</sup> + 2as: 0 = 150<sup>2</sup> + 2 × (−5000) × s ⇒ 0 = 22500 − 10000s ⇒ s = 22500/10000 = <b>2.25 m</b>.</p><p>Force exerted by the block on the bullet, F = ma = 0.01 × (−5000) = <b>−50 N</b>; magnitude <b>50 N</b>, acting opposite to the bullet's motion.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.15",
+      "q": "An object of mass 1 kg travelling in a straight line with a velocity of 10 m s<sup>−1</sup> collides with, and sticks to, a stationary wooden block of mass 5 kg. Then they both move off together in the same straight line. Calculate the total momentum just before the impact and just after the impact. Also calculate the velocity of the combined object.",
+      "a": "<p>Before impact: momentum of moving object = m<sub>1</sub>u<sub>1</sub> = 1 × 10 = 10 kg m s<sup>−1</sup>; momentum of stationary block = 5 × 0 = 0. Total momentum before impact = <b>10 kg m s<sup>−1</sup></b>.</p><p>By conservation of momentum, total momentum after impact is also <b>10 kg m s<sup>−1</sup></b>.</p><p>Combined mass = 1 + 5 = 6 kg. Using total momentum after = (m<sub>1</sub> + m<sub>2</sub>)v: 10 = 6 × v ⇒ v = 10/6 ≈ <b>1.67 m s<sup>−1</sup></b>, in the direction of the original moving object.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.16",
+      "q": "An object of mass 100 kg is accelerated uniformly from a velocity of 5 m s<sup>−1</sup> to 8 m s<sup>−1</sup> in 6 s. Calculate the initial and final momentum of the object. Also, find the magnitude of the force exerted on the object.",
+      "a": "<p>Initial momentum p<sub>1</sub> = mu = 100 × 5 = <b>500 kg m s<sup>−1</sup></b>. Final momentum p<sub>2</sub> = mv = 100 × 8 = <b>800 kg m s<sup>−1</sup></b>.</p><p>Force F = (p<sub>2</sub> − p<sub>1</sub>)/t = (800 − 500)/6 = 300/6 = <b>50 N</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "E1",
+      "q": "Two friends on ice skates stand facing each other at rest and push off each other. Friend A has less mass than friend B. Who moves faster, and why?",
+      "a": "<p>By conservation of momentum, total momentum stays zero after the push (as it was before): m<sub>A</sub>v<sub>A</sub> = m<sub>B</sub>v<sub>B</sub> in magnitude, opposite directions. Since m<sub>A</sub> < m<sub>B</sub>, friend A must have the <b>larger velocity</b> — the lighter skater moves off faster.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A force of 5 N produces an acceleration of 2 m s<sup>−2</sup> in a body. The mass of the body is:",
+      "options": [
+        "1.5 kg",
+        "2.5 kg",
+        "5 kg",
+        "10 kg"
+      ],
+      "answer": "b",
+      "solution": "m = F/a = 5/2 = 2.5 kg."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of Newton's laws of motion gives the definition of force?",
+      "options": [
+        "First law",
+        "Second law",
+        "Third law",
+        "None of these"
+      ],
+      "answer": "b",
+      "solution": "The second law, F = ma, gives the quantitative definition of force in terms of mass and acceleration."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A body of mass 2 kg is moving with a velocity of 3 m s<sup>−1</sup>. Its momentum is:",
+      "options": [
+        "1.5 kg m s<sup>−1</sup>",
+        "3 kg m s<sup>−1</sup>",
+        "6 kg m s<sup>−1</sup>",
+        "9 kg m s<sup>−1</sup>"
+      ],
+      "answer": "c",
+      "solution": "p = mv = 2 × 3 = 6 kg m s<sup>−1</sup>."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Inertia of a body depends on its:",
+      "options": [
+        "weight",
+        "mass",
+        "velocity",
+        "acceleration"
+      ],
+      "answer": "b",
+      "solution": "Inertia is measured by mass — greater mass means greater inertia, regardless of weight, velocity or acceleration."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "When a gun is fired, the gun recoils. This is due to:",
+      "options": [
+        "the first law of motion",
+        "the second law of motion",
+        "the third law of motion",
+        "the law of gravitation"
+      ],
+      "answer": "c",
+      "solution": "The bullet's forward push on the gun (reaction) is Newton's third law — equal and opposite to the gun's forward push on the bullet (action)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The SI unit of momentum is:",
+      "options": [
+        "N",
+        "kg m s<sup>−1</sup>",
+        "kg m s<sup>−2</sup>",
+        "N s<sup>−1</sup>"
+      ],
+      "answer": "b",
+      "solution": "Momentum p = mv, so its unit is kg × m s<sup>−1</sup> = kg m s<sup>−1</sup>."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A car and a truck moving with the same velocity have their engines switched off. Which will travel farther before stopping, if friction is the same for both?",
+      "options": [
+        "The car, because it is lighter",
+        "The truck, because it has greater mass and hence greater inertia of motion",
+        "Both stop at the same distance",
+        "Cannot be determined"
+      ],
+      "answer": "b",
+      "solution": "Greater mass means greater inertia of motion, so the truck resists the retarding effect of friction for longer and travels farther before stopping."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A passenger standing in a bus falls backward when the bus suddenly starts moving. Reason (R): The lower part of the passenger's body, in contact with the bus floor, begins to move with the bus, while the upper part tends to remain at rest due to inertia of rest.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both statements are correct and R correctly explains A: the feet move with the bus, the upper body's inertia keeps it behind, so the passenger tips backward."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The forces of action and reaction always cancel each other, so no motion is ever produced by them. Reason (R): Action and reaction forces are equal in magnitude and opposite in direction.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "R is true (action and reaction are equal and opposite), but A is false — they act on different bodies, so they do not cancel, and motion (like walking or recoil) does result from them."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): It is easier to stop a tennis ball than a cricket ball moving with the same velocity. Reason (R): The cricket ball has more mass, and hence more momentum, than the tennis ball at the same velocity.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both are true and R explains A: a larger mass at the same velocity gives a larger momentum (p = mv), and a larger momentum needs a larger force (or longer time) to bring to rest, so it is harder to stop."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State Newton's first law of motion. What is another name for this law and why?",
+      "answer": "<p>Newton's first law: an object remains in a state of rest or of uniform motion in a straight line unless acted upon by an unbalanced external force. It is also called the <b>law of inertia</b>, because it describes the tendency of objects (inertia) to resist any change in their existing state of rest or motion.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define momentum. Give its SI unit and state whether it is a scalar or a vector quantity.",
+      "answer": "<p>Momentum is the product of the mass and velocity of a moving object, p = mv. Its SI unit is kg m s<sup>−1</sup>. It is a <b>vector</b> quantity, having the same direction as the velocity of the object.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why does a cricketer lower his hands while catching a fast-moving cricket ball?",
+      "answer": "<p>Lowering (drawing back) the hands increases the time taken to stop the ball. Since force = change in momentum ÷ time, increasing the time for the same change in momentum reduces the force the hands experience, preventing injury.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A force of 10 N acts on an object of mass 2 kg, initially at rest, for 5 s. Find the velocity acquired and the distance travelled by the object.",
+      "answer": "<p>a = F/m = 10/2 = 5 m s<sup>−2</sup>. Velocity, v = u + at = 0 + 5 × 5 = <b>25 m s<sup>−1</sup></b>. Distance, s = ut + ½at<sup>2</sup> = 0 + ½ × 5 × 5<sup>2</sup> = ½ × 5 × 25 = <b>62.5 m</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State Newton's third law of motion. Using it, explain why it is difficult for a sailor to jump from a boat onto the shore without the boat moving away.",
+      "answer": "<p>Newton's third law: for every action there is an equal and opposite reaction, and the two forces act on two different bodies. When the sailor pushes against the boat with their feet (action) to jump forward, the boat exerts an equal and opposite reaction force on the sailor's feet, pushing the boat backward, away from the shore. Because the boat is on water with little resistance to motion, this reaction pushes the boat noticeably backward, which can make the sailor's forward jump fall short or destabilise them.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A body of mass 5 kg is moving with a velocity of 20 m s<sup>−1</sup>. A force is applied on it so that in 10 s it comes to rest. Calculate the force applied.",
+      "answer": "<p>Given m = 5 kg, u = 20 m s<sup>−1</sup>, v = 0, t = 10 s. Acceleration a = (v − u)/t = (0 − 20)/10 = −2 m s<sup>−2</sup>. Force F = ma = 5 × (−2) = <b>−10 N</b>; magnitude of the force applied is <b>10 N</b>, opposing the motion.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain, with one example each, the three types of inertia.",
+      "answer": "<p><b>Inertia of rest</b>: a body at rest tends to stay at rest — e.g., a coin on a card over a glass falls into the glass when the card is flicked away suddenly.<br><b>Inertia of motion</b>: a moving body tends to keep moving — e.g., a passenger standing in a bus is thrown forward when the bus stops suddenly.<br><b>Inertia of direction</b>: a body resists a change in the direction of its motion — e.g., sparks flying off a rotating grinding wheel move off tangentially, in a straight line, at the point they leave the wheel.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "An object of mass 4 kg, at rest, is acted on by a force of 8 N for 5 s. Find the velocity acquired and the momentum gained.",
+      "answer": "<p>a = F/m = 8/4 = 2 m s<sup>−2</sup>. Velocity, v = u + at = 0 + 2 × 5 = <b>10 m s<sup>−1</sup></b>. Momentum gained = mv − mu = (4 × 10) − 0 = <b>40 kg m s<sup>−1</sup></b> (this also equals F × t = 8 × 5 = 40 kg m s<sup>−1</sup>, as expected).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the equation F = ma from Newton's second law of motion, stating clearly the meaning of the SI unit of force.",
+      "answer": "<p>Consider mass m moving with initial velocity u, accelerated uniformly to v in time t by constant force F. Initial momentum p<sub>1</sub> = mu, final momentum p<sub>2</sub> = mv, so change in momentum = m(v − u), in time t. By Newton's second law, F ∝ m(v − u)/t. Since (v − u)/t = a, F ∝ ma, or F = kma. The newton is defined so that 1 N produces an acceleration of 1 m s<sup>−2</sup> in a mass of 1 kg; substituting F = 1, m = 1, a = 1 gives k = 1. Therefore F = ma.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Derive the law of conservation of momentum from Newton's third law of motion, with the help of a suitable example of two colliding objects.",
+      "answer": "<p>Consider objects A (mass m<sub>A</sub>, velocity u<sub>A</sub>) and B (mass m<sub>B</sub>, velocity u<sub>B</sub>) colliding along a line for time t, moving off with velocities v<sub>A</sub> and v<sub>B</sub>. During collision, B exerts force on A: F<sub>AB</sub> = m<sub>A</sub>(v<sub>A</sub> − u<sub>A</sub>)/t; A exerts force on B: F<sub>BA</sub> = m<sub>B</sub>(v<sub>B</sub> − u<sub>B</sub>)/t. By Newton's third law, F<sub>AB</sub> = −F<sub>BA</sub>, so m<sub>A</sub>(v<sub>A</sub> − u<sub>A</sub>) = −m<sub>B</sub>(v<sub>B</sub> − u<sub>B</sub>), which rearranges to m<sub>A</sub>u<sub>A</sub> + m<sub>B</sub>u<sub>B</sub> = m<sub>A</sub>v<sub>A</sub> + m<sub>B</sub>v<sub>B</sub>: total momentum before collision equals total momentum after, provided no external unbalanced force acts. Example: a bullet fired from a gun at rest — the system starts with zero momentum, so the bullet's forward momentum after firing exactly equals the gun's backward (recoil) momentum, keeping the total at zero.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "A ball of mass 0.5 kg moving with a velocity of 4 m s<sup>−1</sup> collides head-on with a stationary ball of mass 1 kg, and after the collision the two balls move together. (a) State the law you will use to find their common velocity. (b) Derive it briefly. (c) Calculate the common velocity after collision.",
+      "answer": "<p>(a) The law of conservation of momentum, since no external unbalanced force acts on the two-ball system during the collision.</p><p>(b) By Newton's third law, the force each ball exerts on the other during collision is equal and opposite; combined with Newton's second law (F = rate of change of momentum) for each ball, this gives m<sub>A</sub>u<sub>A</sub> + m<sub>B</sub>u<sub>B</sub> = m<sub>A</sub>v<sub>A</sub> + m<sub>B</sub>v<sub>B</sub>, i.e., total momentum before collision = total momentum after collision.</p><p>(c) m<sub>A</sub> = 0.5 kg, u<sub>A</sub> = 4 m s<sup>−1</sup>; m<sub>B</sub> = 1 kg, u<sub>B</sub> = 0. Total momentum before = (0.5 × 4) + (1 × 0) = 2 kg m s<sup>−1</sup>. Since they move together with common velocity v after collision: 2 = (0.5 + 1) × v = 1.5v ⇒ v = 2/1.5 ≈ <b>1.33 m s<sup>−1</sup></b>, in the direction of the ball's original motion.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>A car of mass 1000 kg is moving with a velocity of 20 m s<sup>−1</sup>. The driver applies brakes and the car comes to rest in 5 s. All passengers wear seat belts, designed to increase the time over which the passengers' momentum changes to zero during a sudden stop.<br>(i) Calculate the acceleration (retardation) of the car.<br>(ii) Calculate the force applied by the brakes.<br>(iii) Name the law explaining why unbelted passengers keep moving forward when the car stops.<br>(iv) Explain, using Newton's second law, why a seat belt reduces injury.",
+      "answer": "<p>(i) a = (v − u)/t = (0 − 20)/5 = <b>−4 m s<sup>−2</sup></b>.</p><p>(ii) F = ma = 1000 × (−4) = <b>−4000 N</b> (magnitude 4000 N, opposing motion).</p><p>(iii) Newton's <b>first law</b> (law of inertia) — the body continues in its state of motion unless an external force acts.</p><p>(iv) F = Δp/t. The belt stretches, increasing the stopping time; for the same change in momentum, a longer time gives a smaller average force, reducing injury.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions that follow.<br>A rocket of mass 5000 kg, at rest on a launch pad, ignites its engines and ejects 50 kg of gas in 2 s at 400 m s<sup>−1</sup> downward. The rocket's remaining mass is 4950 kg after this ejection.<br>(i) State the law used to find the velocity gained by the rocket.<br>(ii) Which law explains why the rocket moves up as gas is ejected down?<br>(iii) Calculate the momentum of the ejected gas.<br>(iv) Calculate the velocity gained by the rocket immediately after this ejection.",
+      "answer": "<p>(i) The <b>law of conservation of momentum</b> — the system started at rest, so total momentum stays zero.</p><p>(ii) Newton's <b>third law</b> — gas pushed down (action), rocket pushed up (reaction), equal in magnitude.</p><p>(iii) Momentum of gas = 50 × 400 = <b>20000 kg m s<sup>−1</sup></b>.</p><p>(iv) 4950 × v = 20000 ⇒ v ≈ <b>4.04 m s<sup>−1</sup></b>, upward.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The unit of force in the SI system is:",
+      "options": [
+        "dyne",
+        "kgf",
+        "newton",
+        "joule"
+      ],
+      "answer_index": 2,
+      "explanation": "The SI unit of force is the newton (N), defined via F = ma."
+    },
+    {
+      "q": "Two bodies of masses 4 kg and 8 kg have equal momentum. If their velocities are v<sub>1</sub> and v<sub>2</sub>, then:",
+      "options": [
+        "v<sub>1</sub> = v<sub>2</sub>",
+        "v<sub>1</sub> = 2v<sub>2</sub>",
+        "v<sub>1</sub> = 4v<sub>2</sub>",
+        "2v<sub>1</sub> = v<sub>2</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "Equal momentum means 4v<sub>1</sub> = 8v<sub>2</sub>, so v<sub>1</sub> = 2v<sub>2</sub> — the lighter body moves twice as fast."
+    },
+    {
+      "q": "A body of mass 10 kg is moving with a constant velocity of 10 m s<sup>−1</sup>. The force acting on it is:",
+      "options": [
+        "100 N",
+        "10 N",
+        "1 N",
+        "0 N"
+      ],
+      "answer_index": 3,
+      "explanation": "Constant velocity means zero acceleration, so by F = ma the net force is zero (first law)."
+    },
+    {
+      "q": "A boy pushes a wall and fails to displace it. He exerts a force of 100 N on the wall. The reaction force exerted by the wall on the boy is:",
+      "options": [
+        "Zero",
+        "100 N in the same direction",
+        "100 N in the opposite direction",
+        "200 N in the opposite direction"
+      ],
+      "answer_index": 2,
+      "explanation": "By Newton's third law, the wall pushes back on the boy with an equal (100 N) and opposite force, even though nothing moves."
+    },
+    {
+      "q": "Which of the following is the correct definition of inertia?",
+      "options": [
+        "The tendency of a body to move faster",
+        "The tendency of a body to resist a change in its state of rest or motion",
+        "The force that stops a moving body",
+        "The rate of change of momentum"
+      ],
+      "answer_index": 1,
+      "explanation": "Inertia is the resistance of a body to any change in its existing state of rest or of uniform motion."
+    },
+    {
+      "q": "A car of mass 1500 kg accelerates uniformly from 0 to 20 m s<sup>−1</sup> in 10 s. The force needed is:",
+      "options": [
+        "1500 N",
+        "2000 N",
+        "3000 N",
+        "4000 N"
+      ],
+      "answer_index": 2,
+      "explanation": "a = (20 − 0)/10 = 2 m s<sup>−2</sup>; F = ma = 1500 × 2 = 3000 N."
+    },
+    {
+      "q": "Which statement about action and reaction forces is correct?",
+      "options": [
+        "They act on the same body and cancel out",
+        "They act on different bodies and never cancel for a single body",
+        "The action is always larger than the reaction",
+        "They act only during collisions"
+      ],
+      "answer_index": 1,
+      "explanation": "Newton's third law forces act on two different bodies simultaneously, so they cannot cancel each other for either body alone."
+    },
+    {
+      "q": "Two objects of mass 2 kg and 3 kg move towards each other with velocities 3 m s<sup>−1</sup> and 2 m s<sup>−1</sup> respectively, and stick together after collision. Their common velocity is:",
+      "options": [
+        "0 m s<sup>−1</sup>",
+        "1 m s<sup>−1</sup> in the direction of the 3 kg mass",
+        "1 m s<sup>−1</sup> in the direction of the 2 kg mass",
+        "5 m s<sup>−1</sup>"
+      ],
+      "answer_index": 0,
+      "explanation": "Taking 2 kg's direction as positive: (2×3) + (3×(−2)) = 6 − 6 = 0; total mass 5 kg, so v = 0/5 = 0 m s<sup>−1</sup>."
+    },
+    {
+      "q": "A stone dropped from the window of a moving train falls behind the thrower relative to the ground because of:",
+      "options": [
+        "gravity alone",
+        "inertia of motion of the train and stone together, minus air resistance",
+        "the stone has no inertia",
+        "the third law of motion"
+      ],
+      "answer_index": 1,
+      "explanation": "Actually the stone continues with the horizontal velocity of the train (inertia of motion) and falls roughly at the point below where it was released relative to the ground track, appearing to fall 'behind' the thrower only due to air resistance slowing it slightly; the key idea tested is inertia of motion carrying the stone's horizontal velocity."
+    },
+    {
+      "q": "The property of a body by virtue of which it opposes any change in its state of rest or uniform motion is called:",
+      "options": [
+        "momentum",
+        "inertia",
+        "force",
+        "acceleration"
+      ],
+      "answer_index": 1,
+      "explanation": "This is the definition of inertia, directly from Newton's first law."
+    },
+    {
+      "q": "A 0.5 kg ball moving at 6 m s<sup>−1</sup> is brought to rest in 0.1 s by a wall. The force exerted by the wall on the ball is:",
+      "options": [
+        "3 N",
+        "30 N",
+        "60 N",
+        "300 N"
+      ],
+      "answer_index": 1,
+      "explanation": "a = (0 − 6)/0.1 = −60 m s<sup>−2</sup>; F = ma = 0.5 × 60 = 30 N (magnitude)."
+    },
+    {
+      "q": "Which of the following best explains why athletes are advised to fall on cushioned mats rather than hard ground?",
+      "options": [
+        "Mats increase the athlete's momentum",
+        "Mats increase the time taken to stop, reducing the force of impact",
+        "Mats reduce the athlete's mass",
+        "Mats eliminate inertia"
+      ],
+      "answer_index": 1,
+      "explanation": "By F = Δp/t, increasing the stopping time for the same change in momentum reduces the average force on the body, exactly like seat belts and lowering hands while catching."
+    },
+    {
+      "q": "A body of mass m is under the action of an unbalanced force F for time t, starting from rest. Its final velocity is:",
+      "options": [
+        "Ft/m",
+        "Fm/t",
+        "F/(mt)",
+        "mt/F"
+      ],
+      "answer_index": 0,
+      "explanation": "F = ma = m(v − 0)/t ⇒ v = Ft/m."
+    },
+    {
+      "q": "Which law of motion is used to explain the working of a rocket?",
+      "options": [
+        "First law only",
+        "Second law only",
+        "Third law combined with conservation of momentum",
+        "Law of gravitation"
+      ],
+      "answer_index": 2,
+      "explanation": "The rocket's forward thrust from ejecting gas backward is explained by Newton's third law and the resulting conservation of momentum of the rocket–gas system."
+    },
+    {
+      "q": "If the momentum of a body is doubled, its kinetic energy becomes (mass constant):",
+      "options": [
+        "the same",
+        "doubled",
+        "four times",
+        "half"
+      ],
+      "answer_index": 2,
+      "explanation": "KE = p<sup>2</sup>/2m; doubling p multiplies KE by 2<sup>2</sup> = 4 (background concept connecting momentum and energy, useful for higher-order questions)."
+    },
+    {
+      "q": "A person jumping out of a moving train tends to fall in the direction of the train's motion because of:",
+      "options": [
+        "gravity",
+        "inertia of motion",
+        "inertia of rest",
+        "friction"
+      ],
+      "answer_index": 1,
+      "explanation": "The person's body still has the forward velocity of the train at the moment of jumping (inertia of motion), so they tend to fall forward in that direction unless they run a few steps to adjust."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that action and reaction forces 'cancel out' — they act on two different bodies and never cancel for either one alone.",
+    "Forgetting to state 'in the absence of an external unbalanced force' when writing the law of conservation of momentum — this line is checked in the marking scheme.",
+    "Confusing which way a passenger falls: forward when the vehicle stops suddenly, backward when it starts suddenly — students often swap these.",
+    "Dropping the negative sign in retardation problems and reporting a deceleration as a positive acceleration, or vice versa, without stating direction.",
+    "Forgetting to convert km/h to m s<sup>−1</sup> (multiply by 5/18) before substituting into F = ma or momentum formulas.",
+    "Treating mass and weight as the same word when explaining inertia — inertia depends on mass, not on weight (which depends on g).",
+    "Skipping the algebraic steps in the F = ma or conservation-of-momentum derivations and jumping straight to the final formula — marks are given for each intermediate step, not just the final line.",
+    "Saying a body has 'more inertia' without linking it to mass — always state that inertia is measured by (or is directly related to) mass."
+  ],
+  "strategy": "<p>This chapter rewards precision more than memory. Learn the exact wording of the three laws first — many marks are lost for a vague paraphrase instead of the textbook statement. Then master the two big derivations, F = ma and the law of conservation of momentum, step by step; both are asked as 3- or 5-mark questions almost every year in some form, and the marking scheme checks each algebraic line, not just the final formula.</p><p>For numericals, build a habit: write down what is given (m, u, v, t, s), convert units to SI first (especially km/h to m s<sup>−1</sup>), pick the right equation (F = ma, p = mv, or conservation of momentum), solve, and always state the direction along with the magnitude for vector answers like force, acceleration and momentum.</p><p>For the conceptual questions — inertia examples, why seat belts work, why a fielder pulls back their hands, recoil of a gun — practise explaining them in two to three lines that name the correct law explicitly. Case-based questions usually mix all three laws around one real situation (a car, a rocket, a collision), so revise the NCERT exercise numbers 8.5 to 8.16 and the exemplar questions on collisions and recoil, since these patterns repeat almost exactly in school papers.</p>",
+  "revision_checklist": [
+    "Can state Newton's first, second and third laws of motion in exact NCERT wording.",
+    "Can explain balanced vs unbalanced forces with one example each.",
+    "Can define inertia and explain why mass measures it.",
+    "Can name and give an example of all three types of inertia — rest, motion, direction.",
+    "Can derive F = ma from Newton's second law, step by step, including the definition of the newton.",
+    "Can derive the law of conservation of momentum from the second and third laws.",
+    "Can explain recoil of a gun and the action of a rocket using the third law and conservation of momentum.",
+    "Can solve F = ma numericals confidently, converting km/h to m s<sup>−1</sup> first.",
+    "Can solve momentum-before-equals-momentum-after numericals for two colliding/sticking objects.",
+    "Can explain, using Newton's second law, why increasing the time of impact reduces force (seat belts, catching a ball, cushioned mats).",
+    "Can explain why a passenger jerks forward/backward when a vehicle stops/starts suddenly, correctly.",
+    "Knows the SI units: force in newton, momentum in kg m s<sup>−1</sup>.",
+    "Can distinguish clearly why action-reaction forces never cancel for a single body."
+  ],
+  "videos": [
+    {
+      "id": "Q2E8PGUuONY",
+      "title": "Force and Laws of Motion · full chapter"
+    }
+  ]
+}

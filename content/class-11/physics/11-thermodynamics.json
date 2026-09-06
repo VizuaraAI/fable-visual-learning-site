@@ -1,0 +1,1015 @@
+{
+  "class": 11,
+  "subject": "Physics",
+  "chapter_no": 11,
+  "slug": "thermodynamics",
+  "title": "Thermodynamics",
+  "summary": "This chapter sets up the language of heat, work and internal energy through the zeroth and first laws, then uses the second law and the Carnot engine to explain why some processes never reverse and why no engine can be 100% efficient.",
+  "exam_profile": {
+    "weightage": "No Class 11 board exam exists, so this chapter carries school-final marks only (commonly 6-10 marks). It is not weighted by CBSE at this stage, but it directly underlies the Class 12 board unit on thermodynamics and kinetic theory, and is a regular, high-yield chapter in JEE and NEET.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Sign of work done, nature of a force, units/dimensions, P-V graph reading."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Reversible vs irreversible, why Carnot efficiency < 1, why ΔU is path-independent."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "State the first/second law, define adiabatic/isothermal, define a state variable."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Derive work in isothermal/adiabatic process, small numericals with ΔU = Q − W."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Carnot cycle efficiency derivation, full labelled P-V diagram, C<sub>p</sub> − C<sub>v</sub> = R."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "Gas on a P-V diagram through a cyclic/multi-step process; work, heat, ΔU at each step."
+      }
+    ],
+    "hot_topics": [
+      "First law of thermodynamics and sign convention",
+      "Work done in isothermal and adiabatic processes (with derivation)",
+      "Carnot engine and its efficiency (derivation)",
+      "Reading work done from a P-V diagram (including cyclic processes)",
+      "Second law of thermodynamics — Kelvin-Planck and Clausius statements",
+      "Reversible and irreversible processes",
+      "Specific heat capacity of a gas at constant volume and constant pressure",
+      "Refrigerators and heat pumps, coefficient of performance"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "11.1 Introduction",
+      "pyq_years": [],
+      "body": "<p>Thermodynamics studies how heat and mechanical work convert into each other, and the direction in which processes are allowed to run. It deals only with macroscopic, bulk variables — pressure, volume, temperature — not with the motion of individual molecules.</p><p>A <b>thermodynamic system</b> is the part of the universe under study (e.g., a gas in a cylinder); everything else is the <b>surroundings</b>. A system is open (exchanges matter and energy), closed (only energy), or isolated (neither). The boundary may be adiabatic (blocks heat exchange) or diathermic (allows it).</p>",
+      "formulas": [],
+      "tip": "Examiners like one-mark questions that simply ask you to classify a given system as open, closed or isolated — read the scenario carefully for whether matter can cross the boundary."
+    },
+    {
+      "heading": "11.2 Thermal Equilibrium",
+      "pyq_years": [],
+      "body": "<p>Two systems in contact through a diathermic wall exchange heat until their macroscopic variables stop changing with time — they are then in <b>thermal equilibrium</b>. This is what lets us define temperature: the common value shared once two systems stop exchanging heat.</p><p>A system is in full thermodynamic equilibrium only when three equilibria hold together: <b>mechanical</b> (no unbalanced force or pressure difference), <b>chemical</b> (no net reaction or diffusion), and <b>thermal</b> (uniform temperature). Only then do P, V, T have single well-defined values.</p>",
+      "formulas": [],
+      "tip": "A question may describe a gas with a piston still moving, or two chambers of a divided box at different pressures — recognise this as NOT in equilibrium, since mechanical equilibrium fails."
+    },
+    {
+      "heading": "11.3 Zeroth Law of Thermodynamics",
+      "pyq_years": [],
+      "body": "<p>Let systems A and B each be in thermal contact with a third system C (through diathermic walls) but not with each other. Experiment shows A and B are then also in thermal equilibrium with each other. This is the <b>zeroth law</b>: 'Two systems in thermal equilibrium with a third system separately are in thermal equilibrium with each other.'</p><p>The zeroth law justifies <b>temperature</b> as a measurable quantity: thermal equilibrium is transitive, so a single number (temperature) can be assigned to every system such that two systems are in equilibrium if and only if they have the same temperature. This is exactly how a thermometer (system C) works — it need never touch A and B together.</p>",
+      "formulas": [],
+      "tip": "The zeroth law is asked almost every year as a 1 or 2 mark 'state the law' question. Memorise the exact wording: 'in thermal equilibrium with a third system separately are in thermal equilibrium with each other.'"
+    },
+    {
+      "heading": "11.4 Heat, Internal Energy and Work",
+      "pyq_years": [],
+      "body": "<p><b>Internal energy (U)</b> is the sum of the kinetic and potential energies of all a system's molecules. For an ideal gas, with no intermolecular forces, U is purely kinetic and depends only on temperature. U is a <b>state variable</b> — it depends only on the current state, not on how the system got there.</p><p>U changes in exactly two ways: by <b>heat</b> (energy transferred due to a temperature difference, flowing spontaneously hot→cold) or by <b>work</b> (energy transferred any other way — for a gas, usually by a volume change against external pressure).</p><p>Both heat and work are <b>path functions</b>: their value depends on the process, unlike the state function U. This state-vs-path distinction is the most tested idea in the chapter.</p>",
+      "formulas": [
+        {
+          "expr": "dW = P dV  (work done by the gas in a small expansion)",
+          "where": [
+            [
+              "P",
+              "pressure of the gas"
+            ],
+            [
+              "dV",
+              "small change in volume"
+            ]
+          ]
+        }
+      ],
+      "tip": "Learn this list by heart for a 1-mark 'identify' question: state functions — U, P, V, T, S, enthalpy; path functions — Q, W."
+    },
+    {
+      "heading": "11.5 First Law of Thermodynamics",
+      "pyq_years": [],
+      "body": "<p>The first law is energy conservation applied to a thermodynamic system. If heat ΔQ is supplied and the system does work ΔW on the surroundings, its internal energy changes by</p><p><b>ΔQ = ΔU + ΔW</b></p><p><b>Sign convention (NCERT):</b> ΔQ positive when heat is added; ΔW positive when the system does work (expansion), negative when work is done on it (compression); ΔU positive when internal energy rises.</p><p>The law is pure energy bookkeeping — it applies to every process, reversible or not, because ΔU depends only on initial and final states.</p><p><b>Special cases:</b> isochoric — ΔW = 0 so ΔQ = ΔU; cyclic — ΔU = 0 so ΔQ = ΔW; adiabatic — ΔQ = 0 so ΔU = −ΔW.</p>",
+      "formulas": [
+        {
+          "expr": "ΔQ = ΔU + ΔW",
+          "where": [
+            [
+              "ΔQ",
+              "heat supplied to the system (J)"
+            ],
+            [
+              "ΔU",
+              "change in internal energy (J)"
+            ],
+            [
+              "ΔW",
+              "work done by the system (J)"
+            ]
+          ]
+        }
+      ],
+      "tip": "A 3-mark numerical almost always gives ΔQ and ΔW (or a P-V graph to read ΔW from) and asks for ΔU, or vice-versa. Write the sign convention explicitly before substituting — it is a marking-scheme step."
+    },
+    {
+      "heading": "11.6 Specific Heat Capacity",
+      "pyq_years": [],
+      "body": "<p><b>Heat capacity</b> S = ΔQ/ΔT. <b>Specific heat capacity</b> s = S/m; <b>molar specific heat</b> C = S/μ. Water's high specific heat (4186 J kg<sup>−1</sup> K<sup>−1</sup>) is why it is used as a coolant and why coastal climates stay mild.</p><p>For a gas, the heat needed for a given ΔT depends on the process, since a gas can also do work by expanding. NCERT defines <b>C<sub>V</sub></b> (constant volume — all heat raises U) and <b>C<sub>P</sub></b> (constant pressure — some heat also does work). So C<sub>P</sub> is always greater than C<sub>V</sub>.</p><p>At constant volume, dQ = dU = C<sub>V</sub>dT. At constant pressure, dQ = dU + PdV = C<sub>V</sub>dT + RdT (using PV = RT for 1 mole, so PdV = RdT), and dQ = C<sub>P</sub>dT, giving <b>C<sub>P</sub> − C<sub>V</sub> = R</b> (Mayer's relation).</p><p><b>Calorimetry</b>, the measurement of heat exchanged, rests on: heat lost by a hot body = heat gained by a cold body, in an insulated calorimeter with no loss to the surroundings.</p>",
+      "formulas": [
+        {
+          "expr": "S = ΔQ/ΔT",
+          "where": [
+            [
+              "S",
+              "heat capacity (J K<sup>−1</sup>)"
+            ]
+          ]
+        },
+        {
+          "expr": "s = S/m,  C = S/μ",
+          "where": [
+            [
+              "s",
+              "specific heat capacity (J kg<sup>−1</sup> K<sup>−1</sup>)"
+            ],
+            [
+              "C",
+              "molar specific heat capacity (J mol<sup>−1</sup> K<sup>−1</sup>)"
+            ],
+            [
+              "μ",
+              "number of moles"
+            ]
+          ]
+        },
+        {
+          "expr": "C<sub>P</sub> − C<sub>V</sub> = R  (Mayer's relation, for 1 mole of an ideal gas)",
+          "where": [
+            [
+              "R",
+              "universal gas constant, 8.314 J mol<sup>−1</sup> K<sup>−1</sup>"
+            ]
+          ]
+        }
+      ],
+      "tip": "The derivation of C<sub>P</sub> − C<sub>V</sub> = R is a classic 3-mark 'derive' question — always start from dQ = dU + PdV and substitute PV = RT before differentiating."
+    },
+    {
+      "heading": "11.7 Thermodynamic State Variables and Equation of State",
+      "pyq_years": [],
+      "body": "<p>A system in equilibrium is described by <b>state variables</b> — P, V, T, and amount of matter. These split into <b>extensive</b> variables (mass, volume, internal energy — scale with system size) and <b>intensive</b> variables (pressure, temperature, density — independent of amount).</p><p>State variables are linked by an <b>equation of state</b>: for an ideal gas, PV = μRT. So only two of P, V, T are independent for a fixed amount of gas; the third follows. So a fixed quantity of gas is one point on a P-V diagram, and a process is a curve joining two such points.</p>",
+      "formulas": [
+        {
+          "expr": "PV = μRT",
+          "where": [
+            [
+              "μ",
+              "number of moles"
+            ],
+            [
+              "R",
+              "universal gas constant"
+            ],
+            [
+              "T",
+              "absolute temperature (K)"
+            ]
+          ]
+        }
+      ],
+      "tip": "A 1-mark question may ask you to classify a quantity as extensive or intensive — mass, volume, internal energy, entropy are extensive; pressure, temperature, density, specific heat are intensive."
+    },
+    {
+      "heading": "11.8 Thermodynamic Processes",
+      "pyq_years": [],
+      "body": "<p>A process is <b>quasi-static</b> if it proceeds so slowly that the system stays in equilibrium at every instant, so P, V, T are defined throughout. All processes below are assumed quasi-static.</p><p><b>Isothermal:</b> T constant, so PV = constant (Boyle's law) and ΔU = 0 for an ideal gas, giving ΔQ = ΔW. Work in expanding from V<sub>1</sub> to V<sub>2</sub>: W = ∫P dV = μRT ln(V<sub>2</sub>/V<sub>1</sub>).</p><p><b>Adiabatic:</b> ΔQ = 0 (insulated, or too fast to exchange heat), so ΔU = −ΔW — expansion cools the gas, compression heats it. Obeys PV<sup>γ</sup> = constant, γ = C<sub>P</sub>/C<sub>V</sub>. Steeper than an isothermal curve through the same point since γ &gt; 1.</p><p><b>Isochoric:</b> V constant, ΔW = 0, ΔQ = ΔU; vertical line on a P-V diagram.</p><p><b>Isobaric:</b> P constant, W = PΔV = μRΔT; horizontal line.</p><p><b>Cyclic:</b> system returns to its initial state, so ΔU = 0 and ΔQ = ΔW — net heat absorbed equals net work done, equal to the area enclosed on the P-V diagram.</p>",
+      "formulas": [
+        {
+          "expr": "Isothermal: W = μRT ln(V<sub>2</sub>/V<sub>1</sub>) = 2.303 μRT log<sub>10</sub>(V<sub>2</sub>/V<sub>1</sub>)",
+          "where": [
+            [
+              "W",
+              "work done by the gas"
+            ],
+            [
+              "V<sub>1</sub>, V<sub>2</sub>",
+              "initial and final volumes"
+            ]
+          ]
+        },
+        {
+          "expr": "Adiabatic: PV<sup>γ</sup> = constant,  γ = C<sub>P</sub>/C<sub>V</sub>",
+          "where": [
+            [
+              "γ",
+              "ratio of specific heats"
+            ]
+          ]
+        },
+        {
+          "expr": "Isobaric: W = PΔV = μRΔT",
+          "where": [
+            [
+              "ΔV",
+              "change in volume"
+            ]
+          ]
+        }
+      ],
+      "tip": "For a P-V diagram question, remember: area under the curve = work done; for a cyclic process, clockwise loop means net positive work done BY the gas (engine), anticlockwise means net work done ON the gas (refrigerator)."
+    },
+    {
+      "heading": "11.9 Heat Engines",
+      "pyq_years": [],
+      "body": "<p>A <b>heat engine</b> converts heat into work through a cyclic process, using a <b>source</b> (high-temperature reservoir T<sub>1</sub>, supplies Q<sub>1</sub>), a <b>working substance</b> taken through a cycle, and a <b>sink</b> (low-temperature reservoir T<sub>2</sub>, absorbs rejected heat Q<sub>2</sub>). Since ΔU = 0 over a cycle, the first law gives W = Q<sub>1</sub> − Q<sub>2</sub>.</p><p><b>Efficiency</b>: η = W/Q<sub>1</sub> = 1 − Q<sub>2</sub>/Q<sub>1</sub>. No engine can reach η = 1 — some heat must always be rejected (Kelvin-Planck statement, section 11.11).</p>",
+      "formulas": [
+        {
+          "expr": "η = W/Q<sub>1</sub> = 1 − Q<sub>2</sub>/Q<sub>1</sub>",
+          "where": [
+            [
+              "η",
+              "efficiency of the engine (no units, expressed as a fraction or %)"
+            ],
+            [
+              "Q<sub>1</sub>",
+              "heat absorbed from the source"
+            ],
+            [
+              "Q<sub>2</sub>",
+              "heat rejected to the sink"
+            ]
+          ]
+        }
+      ],
+      "tip": "Do not confuse Q<sub>1</sub>, Q<sub>2</sub> here (heat engine, both taken as positive magnitudes by convention) with the ΔQ sign convention of section 11.5 — NCERT deliberately switches notation for this section."
+    },
+    {
+      "heading": "11.10 Refrigerators and Heat Pumps",
+      "pyq_years": [],
+      "body": "<p>A <b>refrigerator/heat pump</b> is a heat engine run in reverse: external work W extracts heat Q<sub>2</sub> from a cold reservoir and rejects a larger Q<sub>1</sub> = W + Q<sub>2</sub> to a hot reservoir. Its <b>coefficient of performance</b>, α = Q<sub>2</sub>/W = Q<sub>2</sub>/(Q<sub>1</sub> − Q<sub>2</sub>), measures heat removed per unit work.</p><p>An ideal (Carnot) refrigerator between T<sub>1</sub> (hot) and T<sub>2</sub> (cold) has α = T<sub>2</sub>/(T<sub>1</sub> − T<sub>2</sub>). Unlike η, α can exceed 1 — a refrigerator can remove several units of heat per unit of work.</p>",
+      "formulas": [
+        {
+          "expr": "α = Q<sub>2</sub>/W = Q<sub>2</sub>/(Q<sub>1</sub> − Q<sub>2</sub>)",
+          "where": [
+            [
+              "α",
+              "coefficient of performance"
+            ],
+            [
+              "Q<sub>2</sub>",
+              "heat extracted from the cold reservoir"
+            ],
+            [
+              "W",
+              "work done on the refrigerator"
+            ]
+          ]
+        },
+        {
+          "expr": "α<sub>Carnot</sub> = T<sub>2</sub>/(T<sub>1</sub> − T<sub>2</sub>)",
+          "where": [
+            [
+              "T<sub>1</sub>, T<sub>2</sub>",
+              "absolute temperatures of hot and cold reservoirs (K)"
+            ]
+          ]
+        }
+      ],
+      "tip": "A common numerical gives α and Q<sub>2</sub> (or W) and asks for the other, or gives T<sub>1</sub>, T<sub>2</sub> and asks for the maximum possible α — remember α has no upper bound of 1, unlike η."
+    },
+    {
+      "heading": "11.11 Second Law of Thermodynamics",
+      "pyq_years": [],
+      "body": "<p>The first law tracks energy conservation but does not forbid processes that never actually happen, such as heat flowing spontaneously from cold to hot. The <b>second law</b> supplies this missing direction, with two equivalent NCERT statements:</p><p><b>Kelvin-Planck:</b> 'No process is possible whose sole result is the absorption of heat from a reservoir and the complete conversion of the heat into work.' This is why η = 1 is impossible.</p><p><b>Clausius:</b> 'No process is possible whose sole result is the transfer of heat from a colder object to a hotter object.' A refrigerator moves heat cold→hot, but only with external work, so this is not its sole result — the statement is not violated.</p><p>The two statements are logically equivalent: violating one lets you build a device that violates the other.</p>",
+      "formulas": [],
+      "tip": "Write both statements exactly as NCERT phrases them — 'sole result' is the key phrase examiners check for in a full-marks answer."
+    },
+    {
+      "heading": "11.12 Reversible and Irreversible Processes",
+      "pyq_years": [],
+      "body": "<p>A process is <b>reversible</b> if it can be exactly retraced so both system and surroundings return to their original states with no other change anywhere. This requires the process to be quasi-static and free of dissipative effects (friction, viscosity, unrestrained expansion). No real process is perfectly reversible; it is an idealisation setting the theoretical limit on efficiency.</p><p>All natural processes are <b>irreversible</b> — heat flow across a finite temperature difference, free expansion into vacuum, and anything with friction cannot be undone without a permanent change elsewhere. This irreversibility is why real engines are always less efficient than the reversible (Carnot) limit.</p>",
+      "formulas": [],
+      "tip": "A frequently asked VSA question: 'give two conditions for a process to be reversible' — quasi-static, and free of dissipative forces (friction, viscosity, inelasticity)."
+    },
+    {
+      "heading": "11.13 Carnot Engine",
+      "pyq_years": [],
+      "body": "<p>The <b>Carnot engine</b> is an idealised, reversible engine between two temperatures that gives the maximum possible efficiency for those temperatures, via the four-step <b>Carnot cycle</b>:</p><ul><li><b>A→B, isothermal expansion at T<sub>1</sub>:</b> absorbs Q<sub>1</sub>, does work W<sub>1</sub> = μRT<sub>1</sub> ln(V<sub>2</sub>/V<sub>1</sub>).</li><li><b>B→C, adiabatic expansion:</b> cools T<sub>1</sub>→T<sub>2</sub>, doing work at the cost of internal energy.</li><li><b>C→D, isothermal compression at T<sub>2</sub>:</b> rejects Q<sub>2</sub>; work done on gas W<sub>3</sub> = μRT<sub>2</sub> ln(V<sub>3</sub>/V<sub>4</sub>).</li><li><b>D→A, adiabatic compression:</b> heats T<sub>2</sub>→T<sub>1</sub> back to start.</li></ul><p>The two adiabatic legs contribute equal and opposite work and cancel, leaving net W = W<sub>1</sub> − W<sub>3</sub>. Using the adiabatic relations for B→C and D→A gives V<sub>2</sub>/V<sub>1</sub> = V<sub>3</sub>/V<sub>4</sub>, so the logarithms cancel and Q<sub>2</sub>/Q<sub>1</sub> = T<sub>2</sub>/T<sub>1</sub>. Substituting into η = 1 − Q<sub>2</sub>/Q<sub>1</sub>:</p><p><b>η<sub>Carnot</sub> = 1 − T<sub>2</sub>/T<sub>1</sub></b></p><p>This depends only on the reservoir temperatures, not the working substance, and equals 1 only if T<sub>2</sub> = 0 K (unattainable). Carnot's theorem: no engine between the same two temperatures beats a Carnot engine.</p>",
+      "formulas": [
+        {
+          "expr": "η<sub>Carnot</sub> = 1 − T<sub>2</sub>/T<sub>1</sub> = 1 − Q<sub>2</sub>/Q<sub>1</sub>",
+          "where": [
+            [
+              "T<sub>1</sub>",
+              "absolute temperature of the source/hot reservoir (K)"
+            ],
+            [
+              "T<sub>2</sub>",
+              "absolute temperature of the sink/cold reservoir (K)"
+            ]
+          ]
+        }
+      ],
+      "tip": "The 5-mark derivation is asked almost every session in some form — practise drawing the P-V diagram (two isothermal curves joined by two steeper adiabatic curves) and labelling A, B, C, D with T<sub>1</sub> and T<sub>2</sub> before you attempt the algebra."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Thermodynamic system",
+      "definition": "The part of the universe under study; everything else is the surroundings."
+    },
+    {
+      "term": "Thermal equilibrium",
+      "definition": "The state two systems reach, through a diathermic wall, when their macroscopic variables stop changing with time."
+    },
+    {
+      "term": "Zeroth law of thermodynamics",
+      "definition": "Two systems separately in thermal equilibrium with a third system are in thermal equilibrium with each other; it establishes temperature as a measurable quantity."
+    },
+    {
+      "term": "Internal energy (U)",
+      "definition": "The sum of the kinetic and potential energies of all the molecules of a system; a state variable that, for an ideal gas, depends only on temperature."
+    },
+    {
+      "term": "State variable",
+      "definition": "A quantity (like P, V, T, U) whose value depends only on the current state of the system, not on the path taken to reach it."
+    },
+    {
+      "term": "Path function",
+      "definition": "A quantity like heat or work whose value depends on the process, not just the end points."
+    },
+    {
+      "term": "First law of thermodynamics",
+      "definition": "Statement of energy conservation for a thermodynamic system: ΔQ = ΔU + ΔW, the heat supplied equals the rise in internal energy plus the work done by the system."
+    },
+    {
+      "term": "Isothermal process",
+      "definition": "A process carried out at constant temperature, so ΔU = 0 for an ideal gas and PV = constant."
+    },
+    {
+      "term": "Adiabatic process",
+      "definition": "A process in which no heat enters or leaves the system (ΔQ = 0), so ΔU = −ΔW and PV<sup>γ</sup> = constant."
+    },
+    {
+      "term": "Isochoric process",
+      "definition": "Constant-volume process; no work done (ΔW = 0), so all heat changes internal energy."
+    },
+    {
+      "term": "Isobaric process",
+      "definition": "Constant-pressure process; work done is W = PΔV."
+    },
+    {
+      "term": "Cyclic process",
+      "definition": "System returns to its initial state; ΔU = 0, so net heat absorbed equals net work done."
+    },
+    {
+      "term": "Heat engine",
+      "definition": "A device that converts heat into work in a cyclic process, using a source, a working substance and a sink."
+    },
+    {
+      "term": "Efficiency (η)",
+      "definition": "The fraction of heat absorbed by an engine that is converted into useful work, η = 1 − Q<sub>2</sub>/Q<sub>1</sub>."
+    },
+    {
+      "term": "Refrigerator / heat pump",
+      "definition": "A device that uses external work to move heat from a cold reservoir to a hot one, the reverse of a heat engine."
+    },
+    {
+      "term": "Coefficient of performance (α)",
+      "definition": "The ratio of heat extracted from the cold reservoir to the work supplied to a refrigerator, α = Q<sub>2</sub>/W."
+    },
+    {
+      "term": "Second law of thermodynamics",
+      "definition": "No process is possible whose sole result is the complete conversion of heat into work (Kelvin-Planck), or the spontaneous transfer of heat from a colder to a hotter body (Clausius)."
+    },
+    {
+      "term": "Reversible process",
+      "definition": "An idealised, quasi-static process free of dissipative effects that exactly retraces itself."
+    },
+    {
+      "term": "Irreversible process",
+      "definition": "A real process (friction, finite temperature gaps, free expansion) that leaves a permanent change behind."
+    },
+    {
+      "term": "Carnot engine",
+      "definition": "An idealised, reversible heat engine working in a cycle of two isothermal and two adiabatic steps that has the maximum possible efficiency between two given temperatures."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Heat capacity",
+      "expr": "S = ΔQ/ΔT",
+      "note": "amount of heat needed per unit temperature rise, in J K<sup>−1</sup>"
+    },
+    {
+      "name": "Molar specific heat relation (Mayer's relation)",
+      "expr": "C<sub>P</sub> − C<sub>V</sub> = R",
+      "note": "for one mole of an ideal gas"
+    },
+    {
+      "name": "First law of thermodynamics",
+      "expr": "ΔQ = ΔU + ΔW",
+      "note": "ΔQ, ΔW positive when heat is added to / work is done by the system"
+    },
+    {
+      "name": "Equation of state (ideal gas)",
+      "expr": "PV = μRT",
+      "note": "μ = number of moles, R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>"
+    },
+    {
+      "name": "Work in an isothermal process",
+      "expr": "W = μRT ln(V<sub>2</sub>/V<sub>1</sub>)",
+      "note": "T constant; equals 2.303 μRT log<sub>10</sub>(V<sub>2</sub>/V<sub>1</sub>)"
+    },
+    {
+      "name": "Adiabatic relation",
+      "expr": "PV<sup>γ</sup> = constant",
+      "note": "γ = C<sub>P</sub>/C<sub>V</sub>; no heat exchange, ΔQ = 0"
+    },
+    {
+      "name": "Work in an isobaric process",
+      "expr": "W = PΔV = μRΔT",
+      "note": "P constant"
+    },
+    {
+      "name": "Efficiency of a heat engine",
+      "expr": "η = W/Q<sub>1</sub> = 1 − Q<sub>2</sub>/Q<sub>1</sub>",
+      "note": "always less than 1 for a real engine"
+    },
+    {
+      "name": "Coefficient of performance",
+      "expr": "α = Q<sub>2</sub>/W = Q<sub>2</sub>/(Q<sub>1</sub> − Q<sub>2</sub>)",
+      "note": "for a refrigerator or heat pump; can exceed 1"
+    },
+    {
+      "name": "Carnot efficiency",
+      "expr": "η<sub>Carnot</sub> = 1 − T<sub>2</sub>/T<sub>1</sub>",
+      "note": "T<sub>1</sub>, T<sub>2</sub> in kelvin; maximum possible efficiency between these two temperatures"
+    },
+    {
+      "name": "Carnot coefficient of performance",
+      "expr": "α<sub>Carnot</sub> = T<sub>2</sub>/(T<sub>1</sub> − T<sub>2</sub>)",
+      "note": "maximum possible COP between temperatures T<sub>1</sub>, T<sub>2</sub>"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "P-V diagram comparing an isothermal and an adiabatic curve",
+      "how_to_draw": "Draw P on the y-axis, V on the x-axis. From a common start point, draw an isothermal curve (label T = constant) and an adiabatic curve (label PV<sup>γ</sup> = constant) falling more steeply, since γ > 1."
+    },
+    {
+      "title": "Carnot cycle on a P-V diagram",
+      "how_to_draw": "Draw A, B, C, D clockwise. A→B isothermal expansion at T1 (source, Q1 absorbed); B→C adiabatic expansion (no heat exchange); C→D isothermal compression at T2 (sink, Q2 rejected); D→A adiabatic compression to A. Note enclosed area = net work W = Q1 − Q2."
+    },
+    {
+      "title": "Schematic of a heat engine (energy-flow diagram)",
+      "how_to_draw": "Draw source T1 (top box) → Q1 → engine (circle) → W (work out, side arrow); engine → Q2 → sink T2 (bottom box). This is the standard sketch before writing η = W/Q1."
+    },
+    {
+      "title": "Schematic of a refrigerator (energy-flow diagram)",
+      "how_to_draw": "Same three boxes, arrows reversed: Q2 from cold reservoir into the device, W supplied in, Q1 = W + Q2 out to the hot reservoir. Label that Q1 exceeds Q2 by exactly W."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "11.1",
+      "q": "A geyser heats water flowing at a rate of 3.0 litres per minute from 27 °C to 77 °C. If the geyser operates on a gas burner, what is the rate of consumption of the fuel if its heat of combustion is 4.0 × 10<sup>4</sup> J g<sup>−1</sup>?",
+      "a": "<p>m = 3.0 kg, ΔT = 50°C, s = 4186 J kg<sup>−1</sup> K<sup>−1</sup>.</p><p>Q = msΔT = 3.0 × 4186 × 50 = 6.279 × 10<sup>5</sup> J per minute.</p><p>Fuel/min = Q/(4.0 × 10<sup>4</sup>) ≈ <b>15.7 g</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.2",
+      "q": "What amount of heat must be supplied to 2.0 × 10<sup>−2</sup> kg of nitrogen (at room temperature) to raise its temperature by 45 °C at constant pressure? Molecular mass of N<sub>2</sub> = 28; R = 8.3 J mol<sup>−1</sup> K<sup>−1</sup>.",
+      "a": "<p>μ = 20/28 = 0.714 mol. N<sub>2</sub> diatomic: C<sub>P</sub> = (7/2)R = 29.05 J mol<sup>−1</sup> K<sup>−1</sup>.</p><p>ΔQ = μC<sub>P</sub>ΔT = 0.714 × 29.05 × 45 ≈ <b>933 J</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.3",
+      "q": "Explain why (a) two bodies at different temperatures T<sub>1</sub> and T<sub>2</sub> if brought in thermal contact do not necessarily settle to the mean temperature (T<sub>1</sub>+T<sub>2</sub>)/2. (b) The coolant in a chemical or a nuclear plant (i.e., the liquid used to prevent the different parts of a plant from getting too hot) should have high specific heat.",
+      "a": "<p>(a) The final common temperature depends on the heat capacities (mass × specific heat) of the two bodies, not just their initial temperatures: m<sub>1</sub>s<sub>1</sub>(T<sub>1</sub> − T) = m<sub>2</sub>s<sub>2</sub>(T − T<sub>2</sub>). T equals the simple mean (T<sub>1</sub>+T<sub>2</sub>)/2 only when the two heat capacities are equal.</p><p>(b) A coolant with high specific heat absorbs a large quantity of heat for a small rise in its own temperature, so it removes heat efficiently from hot plant parts without itself overheating.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.4",
+      "q": "A cylinder with a movable piston contains 3 moles of hydrogen at standard temperature and pressure. The walls of the cylinder are made of a heat insulator, and the piston is insulated by having a pile of sand on it. By what factor does the pressure of the gas increase if the gas is compressed to half its original volume?",
+      "a": "<p>Insulated walls and piston ⟹ adiabatic. P<sub>1</sub>V<sub>1</sub><sup>γ</sup> = P<sub>2</sub>V<sub>2</sub><sup>γ</sup> ⟹ P<sub>2</sub>/P<sub>1</sub> = (V<sub>1</sub>/V<sub>2</sub>)<sup>γ</sup>.</p><p>H<sub>2</sub> diatomic, γ = 1.4; V<sub>1</sub>/V<sub>2</sub> = 2. P<sub>2</sub>/P<sub>1</sub> = 2<sup>1.4</sup> ≈ <b>2.64</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.5",
+      "q": "In changing the state of a gas adiabatically from an equilibrium state A to another equilibrium state B, an amount of work equal to 22.3 J is done on the system. If the gas is taken from state A to B via a process in which the net heat absorbed by the system is 9.35 cal, how much is the net work done by the system in the latter case? (Take 1 cal = 4.19 J)",
+      "a": "<p>Adiabatic A→B: ΔQ = 0, work done ON system = 22.3 J, so W (by system) = −22.3 J. ΔU = ΔQ − ΔW = 22.3 J (state function, same for any path A→B).</p><p>Second path: ΔQ = 9.35 cal = 39.2 J. ΔW = ΔQ − ΔU = 39.2 − 22.3 = <b>16.9 J</b>.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "11.6",
+      "q": "Two cylinders A and B of equal capacity are connected to each other via a stopcock. A contains a gas at standard temperature and pressure. B is completely evacuated. The entire system is thermally insulated. The stopcock is suddenly opened. Answer the following: (a) What is the final pressure of the gas in A and B? (b) What is the change in internal energy of the gas? (c) What is the change in the temperature of the gas? (d) Do the intermediate states of the system (before settling to the final equilibrium state) lie on its P-V-T surface?",
+      "a": "<p>(a) Free expansion doubles the volume at unchanged T, so by Boyle's law the final pressure is half the initial pressure.</p><p>(b) <b>Free expansion</b>: no external pressure opposes it (ΔW = 0), system insulated (ΔQ = 0), so ΔU = 0.</p><p>(c) Since ΔU = 0 and U depends only on T for an ideal gas, temperature is unchanged.</p><p>(d) No — free expansion is sudden and passes through non-equilibrium states (pressure/density not uniform), so intermediate states cannot be shown on the P-V-T surface; only the initial and final states can.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "11.9",
+      "q": "A steam engine delivers 5.4 × 10<sup>8</sup> J of work per minute and services 3.6 × 10<sup>9</sup> J of heat per minute from its boiler. What is the efficiency of the engine? How much heat is wasted per minute?",
+      "a": "<p>W = 5.4 × 10<sup>8</sup> J/min, Q<sub>1</sub> = 3.6 × 10<sup>9</sup> J/min.</p><p>η = W/Q<sub>1</sub> = 0.15 = <b>15%</b>. Heat wasted, Q<sub>2</sub> = Q<sub>1</sub> − W = <b>3.06 × 10<sup>9</sup> J/min</b>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.10",
+      "q": "An electric heater supplies heat to a system at a rate of 100 W. If the system performs work at a rate of 75 joules per second, at what rate is the internal energy increasing?",
+      "a": "<p>ΔU/Δt = ΔQ/Δt − ΔW/Δt = 100 − 75 = <b>25 W</b>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exemplar",
+      "number": "Exemplar 11.11",
+      "q": "Consider a Carnot's cycle operating between T<sub>1</sub> = 500 K and T<sub>2</sub> = 300 K producing 1 kJ of mechanical work per cycle. Find the heat transferred to the engine by the reservoirs.",
+      "a": "<p>η<sub>Carnot</sub> = 1 − 300/500 = 0.4. Q<sub>1</sub> = W/η = 1000/0.4 = <b>2.5 kJ</b> absorbed; Q<sub>2</sub> = Q<sub>1</sub> − W = <b>1.5 kJ</b> rejected.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "11.12",
+      "q": "A person of mass 60 kg wants to lose weight by burning fat by going up and down a 10 m high staircase. Assume he burns twice as much fat while going up than coming down. If 1 kg of fat is burnt on expending 7000 kcal, how many times must he go up and down to reduce his weight by 1 kg? Take g = 9.8 m/s<sup>2</sup>.",
+      "a": "<p>Energy up = mgh = 60 × 9.8 × 10 = 5880 J; down = half = 2940 J. One round trip = 8820 J.</p><p>Energy for 1 kg fat = 7000 kcal = 2.93 × 10<sup>7</sup> J. n = (2.93 × 10<sup>7</sup>)/8820 ≈ <b>3324 times</b>.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "conceptual",
+      "number": "C1",
+      "q": "State the zeroth law of thermodynamics and explain its significance.",
+      "a": "<p>'Two systems separately in thermal equilibrium with a third system are in thermal equilibrium with each other.' It makes temperature measurable — a thermometer (the third system) can compare two bodies without direct contact, since thermal equilibrium is transitive.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "conceptual",
+      "number": "C2",
+      "q": "Derive an expression for the work done in an isothermal expansion of an ideal gas.",
+      "a": "<p>For μ moles expanding isothermally from V<sub>1</sub> to V<sub>2</sub>, P = μRT/V.</p><p>W = ∫<sub>V1</sub><sup>V2</sup> P dV = μRT ln(V<sub>2</sub>/V<sub>1</sub>) = 2.303 μRT log<sub>10</sub>(V<sub>2</sub>/V<sub>1</sub>).</p><p>Since T is constant, ΔU = 0, so this is also the heat absorbed.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "conceptual",
+      "number": "C3",
+      "q": "Derive the expression for the efficiency of a Carnot engine.",
+      "a": "<p>See section 11.13 for the full derivation. Net work W = Q<sub>1</sub> − Q<sub>2</sub>; the adiabatic relations reduce the volume ratios so Q<sub>2</sub>/Q<sub>1</sub> = T<sub>2</sub>/T<sub>1</sub>; substituting into η = 1 − Q<sub>2</sub>/Q<sub>1</sub> gives <b>η = 1 − T<sub>2</sub>/T<sub>1</sub></b>.</p>",
+      "marks": 5
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In an isochoric process, the work done by the gas is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Cannot be determined"
+      ],
+      "answer": "c",
+      "solution": "In an isochoric (constant-volume) process, ΔV = 0, so W = PΔV = 0."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A gas is taken through a cyclic process on a P-V diagram. The net heat absorbed by the gas in one complete cycle is 500 J. The net work done by the gas in the cycle is:",
+      "options": [
+        "0 J",
+        "500 J",
+        "1000 J",
+        "Cannot be determined without more data"
+      ],
+      "answer": "b",
+      "solution": "For a cyclic process ΔU = 0, so ΔQ = ΔW; hence the net work done equals the net heat absorbed, 500 J."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is a state function?",
+      "options": [
+        "Heat",
+        "Work",
+        "Internal energy",
+        "Both heat and work"
+      ],
+      "answer": "c",
+      "solution": "U depends only on state; heat and work are path functions."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "For an ideal gas undergoing an adiabatic process, which relation is correct? (γ = C<sub>P</sub>/C<sub>V</sub>)",
+      "options": [
+        "PV = constant",
+        "PV<sup>γ</sup> = constant",
+        "PV<sup>2</sup> = constant",
+        "P/V = constant"
+      ],
+      "answer": "b",
+      "solution": "The adiabatic relation for an ideal gas is PV<sup>γ</sup> = constant."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A Carnot engine operates between a source at 600 K and a sink at 300 K. Its efficiency is:",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "100%"
+      ],
+      "answer": "b",
+      "solution": "η = 1 − 300/600 = 50%."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The coefficient of performance of a refrigerator is 5. If the refrigerator releases 6 J of heat to the surroundings per cycle, the work done on the working substance is:",
+      "options": [
+        "1 J",
+        "2 J",
+        "5 J",
+        "6 J"
+      ],
+      "answer": "a",
+      "solution": "Q1 = Q2 + W; α = Q2/W = 5 ⟹ 5W + W = 6 ⟹ W = 1 J."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "On a P-V diagram, an adiabatic curve through a point compared to an isothermal curve through the same point is:",
+      "options": [
+        "Less steep",
+        "Equally steep",
+        "More steep",
+        "Cannot be compared"
+      ],
+      "answer": "c",
+      "solution": "The adiabatic curve is steeper than the isothermal curve at the same point because γ > 1."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The internal energy of an ideal gas does not change in an isothermal process. Reason (R): Internal energy of an ideal gas depends only on its temperature.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Isothermal ⟹ T constant ⟹ ΔU = 0 for an ideal gas; R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): No heat engine can have an efficiency of 100%. Reason (R): Some heat must always be rejected to the sink, as required by the second law of thermodynamics.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Kelvin-Planck forbids fully converting absorbed heat into work — R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Free expansion of a gas into vacuum is an irreversible process. Reason (R): During free expansion, the gas does work against the vacuum it expands into.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true (irreversible, non-equilibrium states). R is false: free expansion into vacuum does zero work, no opposing pressure."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State the first law of thermodynamics. Write the sign convention used.",
+      "answer": "<p>The first law states that the heat supplied to a system (ΔQ) equals the sum of the change in its internal energy (ΔU) and the work done by the system (ΔW): ΔQ = ΔU + ΔW.</p><p>Sign convention: ΔQ is positive when heat is added to the system; ΔW is positive when work is done by the system (expansion); ΔU is positive when internal energy increases.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is C<sub>P</sub> greater than C<sub>V</sub> for a gas?",
+      "answer": "<p>At constant V, all heat raises internal energy. At constant P, the gas also expands and does work, needing extra heat for the same ΔT. So C<sub>P</sub> &gt; C<sub>V</sub>; C<sub>P</sub> − C<sub>V</sub> = R for one mole.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Give two conditions necessary for a thermodynamic process to be reversible.",
+      "answer": "<p>(i) Quasi-static — infinitely slow, always in equilibrium. (ii) Free of dissipative effects — no friction, viscosity or inelasticity.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State the Kelvin-Planck and Clausius statements of the second law of thermodynamics.",
+      "answer": "<p><b>Kelvin-Planck:</b> No process's sole result can be absorbing heat from a reservoir and fully converting it to work.</p><p><b>Clausius:</b> No process's sole result can be heat transfer from a colder to a hotter object.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A gas is compressed isothermally to half its volume. Would the same final pressure result from adiabatic compression to the same volume? Where is more work done on the gas?",
+      "answer": "<p>No. Isothermal: PV = constant ⟹ P<sub>2</sub> = 2P<sub>1</sub>. Adiabatic: PV<sup>γ</sup> = constant ⟹ P<sub>2</sub>′ = 2<sup>γ</sup>P<sub>1</sub> &gt; 2P<sub>1</sub> since γ &gt; 1.</p><p>More work is done on the gas adiabatically: isothermal compression can lose heat to keep T fixed, but adiabatic compression converts all the input work into internal energy (temperature rise), needing more work for the same final volume.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Derive the relation C<sub>P</sub> − C<sub>V</sub> = R for one mole of an ideal gas.",
+      "answer": "<p>Constant V: dQ = dU = C<sub>V</sub>dT. Constant P: dQ = dU + PdV = C<sub>V</sub>dT + PdV. From PV = RT (1 mole), at constant P, PdV = RdT. So dQ = C<sub>V</sub>dT + RdT = C<sub>P</sub>dT (definition), giving <b>C<sub>P</sub> − C<sub>V</sub> = R</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A refrigerator is to maintain eatables kept inside it at 9°C. If the room temperature is 36°C, calculate the coefficient of performance of the Carnot refrigerator.",
+      "answer": "<p>T<sub>2</sub> = 9°C = 282 K, T<sub>1</sub> = 36°C = 309 K.</p><p>α<sub>Carnot</sub> = T<sub>2</sub>/(T<sub>1</sub> − T<sub>2</sub>) = 282/27 ≈ <b>10.4</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "1 mole of an ideal gas at temperature T<sub>1</sub> expands according to the law PV<sup>3</sup> = constant. Explain qualitatively why the gas cools during this expansion.",
+      "answer": "<p>Expansion (V increases) means the gas does positive work. PV<sup>3</sup> = constant is steeper than a normal adiabat, so little or no heat is absorbed. With ΔQ ≈ 0 and ΔW &gt; 0, ΔU = ΔQ − ΔW &lt; 0, so temperature falls — the gas cools even more sharply than in ordinary adiabatic expansion.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the Carnot cycle with the help of a P-V diagram and derive the expression for its efficiency.",
+      "answer": "<p>Four reversible steps between source T<sub>1</sub> and sink T<sub>2</sub>: (1) isothermal expansion A→B at T<sub>1</sub>, absorbs Q<sub>1</sub>; (2) adiabatic expansion B→C, T<sub>1</sub>→T<sub>2</sub>; (3) isothermal compression C→D at T<sub>2</sub>, rejects Q<sub>2</sub>; (4) adiabatic compression D→A, T<sub>2</sub>→T<sub>1</sub>. [P-V diagram: two isothermals joined by two steeper adiabatics, closed loop ABCD.]</p><p>W<sub>1</sub> = μRT<sub>1</sub> ln(V<sub>2</sub>/V<sub>1</sub>); W<sub>3</sub> (on gas) = μRT<sub>2</sub> ln(V<sub>3</sub>/V<sub>4</sub>); adiabatic legs cancel in the net.</p><p>Adiabatic relations give V<sub>2</sub>/V<sub>1</sub> = V<sub>3</sub>/V<sub>4</sub>, so Q<sub>2</sub>/Q<sub>1</sub> = T<sub>2</sub>/T<sub>1</sub>.</p><p>η = 1 − Q<sub>2</sub>/Q<sub>1</sub> = <b>1 − T<sub>2</sub>/T<sub>1</sub></b>, the maximum efficiency between T<sub>1</sub> and T<sub>2</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) State the first law of thermodynamics and explain each term. (b) A gas absorbs 200 J of heat and does 50 J of work on the surroundings. Find the change in internal energy. (c) The same gas, taken along a different path from the same initial to the same final state, absorbs 120 J of heat. Find the work done by the gas along this path.",
+      "answer": "<p>(a) ΔQ = ΔU + ΔW: ΔQ is heat supplied, ΔU the change in internal energy, ΔW the work done by the system on the surroundings — conservation of energy for the system.</p><p>(b) ΔU = ΔQ − ΔW = 200 − 50 = <b>150 J</b>.</p><p>(c) U is a state function, so ΔU = 150 J on any path. ΔW = ΔQ − ΔU = 120 − 150 = <b>−30 J</b>, i.e. 30 J done ON the gas.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain, with a labelled diagram, the working of a heat engine and a refrigerator. Derive the relation between the efficiency of a heat engine and the coefficient of performance of a refrigerator working as its reverse, when both are Carnot devices operating between the same two temperatures.",
+      "answer": "<p>[Heat engine: source T<sub>1</sub> → Q<sub>1</sub> → engine → W out, Q<sub>2</sub> → sink T<sub>2</sub>. Refrigerator: arrows reversed, Q<sub>2</sub> in from cold body, W in, Q<sub>1</sub> = Q<sub>2</sub> + W out to hot body.]</p><p>Heat engine: absorbs Q<sub>1</sub>, converts part to W, rejects Q<sub>2</sub> = Q<sub>1</sub> − W; η = 1 − Q<sub>2</sub>/Q<sub>1</sub>.</p><p>Refrigerator: uses W to move Q<sub>2</sub> from cold to hot, rejecting Q<sub>1</sub> = Q<sub>2</sub> + W; α = Q<sub>2</sub>/W.</p><p>For Carnot devices, η = 1 − T<sub>2</sub>/T<sub>1</sub> and α = T<sub>2</sub>/(T<sub>1</sub>−T<sub>2</sub>). Since η = (T<sub>1</sub>−T<sub>2</sub>)/T<sub>1</sub>: <b>α = (1 − η)/η</b> — a highly efficient engine corresponds to a poor refrigerator, and vice versa.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "One mole of an ideal gas is taken through cyclic process ABCA: A→B isothermal expansion at T from V<sub>0</sub> to 2V<sub>0</sub>; B→C isochoric, pressure falls to the value at A; C→A isobaric compression back to V<sub>0</sub>.<br>(i) What is ΔU for the complete cycle ABCA?<br>(ii) What is the relation between the net heat absorbed and the net work done over the cycle?<br>(iii) Is the work done by the gas in step A→B positive or negative? Why?<br>(iv) In which step, B→C or C→A, is no work done by the gas? Why?",
+      "answer": "<p>(i) ΔU = 0 for the full cycle — U is a state function and the gas returns to A.</p><p>(ii) ΔU = 0 ⟹ ΔQ = ΔW: net heat absorbed = net work done = area enclosed by ABCA.</p><p>(iii) Positive — the gas expands (V<sub>0</sub>→2V<sub>0</sub>) in A→B, doing work as it pushes outward.</p><p>(iv) No work in B→C (isochoric, ΔV = 0, W = PΔV = 0). Work IS done in C→A (isobaric compression 2V<sub>0</sub>→V<sub>0</sub>), and it is negative since the gas is compressed.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "200 g water at 60°C is mixed with 100 g water at 20°C in an insulated calorimeter of negligible heat capacity.<br>(i) State the principle used to find the final temperature of the mixture.<br>(ii) Set up the equation for heat lost and heat gained.<br>(iii) Calculate the final equilibrium temperature. (Specific heat of water = 4186 J kg<sup>−1</sup> K<sup>−1</sup>, or equivalently 1 cal g<sup>−1</sup> °C<sup>−1</sup>)<br>(iv) Would the final temperature change if the calorimeter itself had a significant heat capacity? Explain briefly.",
+      "answer": "<p>(i) Calorimetry principle: heat lost by the hotter body = heat gained by the colder body in an insulated system.</p><p>(ii) m<sub>1</sub>s(T<sub>1</sub> − T) = m<sub>2</sub>s(T − T<sub>2</sub>), m<sub>1</sub> = 200 g at 60°C, m<sub>2</sub> = 100 g at 20°C, s cancels (same liquid).</p><p>(iii) 200(60−T) = 100(T−20) ⟹ 14000 = 300T ⟹ T ≈ <b>46.7°C</b>.</p><p>(iv) Yes — the calorimeter itself would absorb heat too, adding a term m<sub>c</sub>s<sub>c</sub>(T − T<sub>2</sub>) to the heat-gained side, giving a slightly lower final T.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of the following pairs of variables is an example of extensive-intensive pair respectively?",
+      "options": [
+        "Pressure, Volume",
+        "Volume, Pressure",
+        "Temperature, Mass",
+        "Density, Pressure"
+      ],
+      "answer_index": 1,
+      "explanation": "Volume scales with matter present (extensive); pressure does not (intensive)."
+    },
+    {
+      "q": "In an adiabatic expansion of an ideal gas, which of the following is true?",
+      "options": [
+        "ΔQ = 0, ΔU increases",
+        "ΔQ = 0, ΔU decreases",
+        "ΔU = 0, ΔQ decreases",
+        "ΔW = 0, ΔU increases"
+      ],
+      "answer_index": 1,
+      "explanation": "Adiabatic: ΔQ = 0. In expansion the gas does positive work, so from ΔU = −ΔW, internal energy decreases (gas cools)."
+    },
+    {
+      "q": "A gas is compressed at constant pressure of 1 × 10<sup>5</sup> Pa from a volume of 10 m<sup>3</sup> to 4 m<sup>3</sup>. The work done on the gas is:",
+      "options": [
+        "1 × 10<sup>5</sup> J",
+        "6 × 10<sup>5</sup> J",
+        "−6 × 10<sup>5</sup> J",
+        "4 × 10<sup>5</sup> J"
+      ],
+      "answer_index": 1,
+      "explanation": "Work by gas = PΔV = 1e5×(4−10) = −6e5 J; so work on gas = +6e5 J."
+    },
+    {
+      "q": "The efficiency of a Carnot engine operating between 400 K and 300 K is:",
+      "options": [
+        "0.20",
+        "0.25",
+        "0.33",
+        "0.75"
+      ],
+      "answer_index": 1,
+      "explanation": "η = 1 − T2/T1 = 1 − 300/400 = 0.25."
+    },
+    {
+      "q": "Which statement correctly describes an isobaric process?",
+      "options": [
+        "Volume is constant",
+        "Pressure is constant",
+        "Temperature is constant",
+        "No heat is exchanged"
+      ],
+      "answer_index": 1,
+      "explanation": "'Iso-baric' means constant pressure by definition."
+    },
+    {
+      "q": "For a monatomic ideal gas, the value of γ = C<sub>P</sub>/C<sub>V</sub> is:",
+      "options": [
+        "1.33",
+        "1.40",
+        "1.67",
+        "2.00"
+      ],
+      "answer_index": 2,
+      "explanation": "For a monatomic gas, C<sub>V</sub> = 3R/2 and C<sub>P</sub> = 5R/2, so γ = 5/3 ≈ 1.67."
+    },
+    {
+      "q": "A refrigerator has a coefficient of performance of 4. For every 1 J of work done on it, the heat rejected to the room is:",
+      "options": [
+        "1 J",
+        "4 J",
+        "5 J",
+        "3 J"
+      ],
+      "answer_index": 2,
+      "explanation": "α = Q2/W = 4 so Q2 = 4 J; Q1 = Q2 + W = 4 + 1 = 5 J rejected to the room."
+    },
+    {
+      "q": "Which of these processes is NOT reversible in practice?",
+      "options": [
+        "Very slow isothermal compression with no friction",
+        "A block sliding down a rough incline",
+        "An idealised frictionless piston moved infinitely slowly",
+        "A quasi-static isochoric heating with a heat reservoir"
+      ],
+      "answer_index": 1,
+      "explanation": "Friction dissipates energy irrecoverably, making the process irreversible; the other options describe idealised reversible processes."
+    },
+    {
+      "q": "The area enclosed by a cyclic process on a P-V diagram represents:",
+      "options": [
+        "The heat absorbed only",
+        "The change in internal energy",
+        "The net work done in the cycle",
+        "The change in temperature"
+      ],
+      "answer_index": 2,
+      "explanation": "For a cycle, ΔU = 0, so the enclosed area equals both the net work done and the net heat absorbed, but the area itself is a work quantity read directly from the P-V graph."
+    },
+    {
+      "q": "Which of the following best states the Clausius statement of the second law?",
+      "options": [
+        "Heat cannot be completely converted to work",
+        "Heat cannot spontaneously flow from a colder to a hotter body without external work",
+        "Entropy of an isolated system never decreases",
+        "No engine can be more efficient than a Carnot engine"
+      ],
+      "answer_index": 1,
+      "explanation": "This is the exact Clausius statement; the others are related but distinct formulations."
+    },
+    {
+      "q": "One mole of an ideal gas undergoes an isothermal expansion at 300 K from 1 L to 2 L. Work done by the gas is (R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup>):",
+      "options": [
+        "≈ 1728 J",
+        "≈ 3456 J",
+        "≈ 863 J",
+        "≈ 2494 J"
+      ],
+      "answer_index": 0,
+      "explanation": "W = RT ln(V2/V1) = 8.314 × 300 × ln(2) = 2494.2 × 0.693 ≈ 1728 J."
+    },
+    {
+      "q": "In free expansion of a gas into vacuum, the work done by the gas is:",
+      "options": [
+        "Positive and large",
+        "Negative",
+        "Zero",
+        "Equal to the heat absorbed"
+      ],
+      "answer_index": 2,
+      "explanation": "There is no opposing pressure during expansion into a vacuum, so the gas does zero work."
+    },
+    {
+      "q": "A Carnot engine works between 127°C and 27°C. Its efficiency is:",
+      "options": [
+        "25%",
+        "50%",
+        "75%",
+        "21%"
+      ],
+      "answer_index": 0,
+      "explanation": "T1 = 400 K, T2 = 300 K. η = 1 − 300/400 = 0.25 = 25%."
+    },
+    {
+      "q": "Which quantity remains unchanged when an ideal gas undergoes a purely isothermal process?",
+      "options": [
+        "Pressure",
+        "Volume",
+        "Internal energy",
+        "Work done"
+      ],
+      "answer_index": 2,
+      "explanation": "For an ideal gas, U depends only on T; since T is constant in an isothermal process, ΔU = 0."
+    },
+    {
+      "q": "The molar specific heat of a gas in a process where PV<sup>n</sup> = constant is C = C<sub>V</sub> + R/(1 − n). At what value of n does this reduce to an isothermal process?",
+      "options": [
+        "n = 0",
+        "n = 1",
+        "n = γ",
+        "n = ∞"
+      ],
+      "answer_index": 1,
+      "explanation": "PV<sup>1</sup> = constant, i.e., PV = constant, is Boyle's law, describing an isothermal process."
+    }
+  ],
+  "common_mistakes": [
+    "Confusing the sign convention: NCERT uses ΔQ = ΔU + ΔW with ΔW positive for work done BY the gas — apply it consistently.",
+    "Treating heat and work as state functions like internal energy — they are path functions, defined only for a process, not a state.",
+    "Forgetting ΔU = 0 in an isothermal process for an ideal gas even though ΔQ and ΔW are generally non-zero.",
+    "Mixing up adiabatic (ΔQ = 0) with isothermal (ΔT = 0) — different processes, different P-V curves and work formulas.",
+    "Using Celsius instead of kelvin in η = 1 − T2/T1 — Carnot formulas need absolute temperature.",
+    "Assuming a refrigerator's COP is bounded by 1 like efficiency — α often exceeds 1.",
+    "Stating the second law only as 'entropy increases' without the exact Kelvin-Planck/Clausius wording NCERT expects.",
+    "Ignoring that the direction of tracing a cycle (clockwise/anticlockwise) decides the sign of net work on a P-V diagram."
+  ],
+  "strategy": "<p>Nail definitions exactly as NCERT states them — the zeroth law and the two second-law statements are asked almost verbatim every year. Master the first law numerically: practise problems that give any two of ΔQ, ΔU, ΔW and ask for the third, using process shortcuts (ΔU = 0 isothermal, ΔW = 0 isochoric, ΔQ = 0 adiabatic).</p><p>The Carnot cycle derivation is the highest-value 5-mark proof — practise the P-V diagram and the algebra giving Q<sub>2</sub>/Q<sub>1</sub> = T<sub>2</sub>/T<sub>1</sub> by heart, since partial marks are step-wise. Derive C<sub>P</sub> − C<sub>V</sub> = R at least twice.</p><p>Keep R = 8.314 J mol<sup>−1</sup> K<sup>−1</sup> and water's specific heat memorised, always convert °C to K before using Carnot or gas-law formulas, and practise reading process type and work done (area under/enclosed) directly off a P-V diagram.</p>",
+  "revision_checklist": [
+    "Can state the zeroth law word for word",
+    "Knows the three conditions for thermodynamic equilibrium",
+    "Can distinguish a state function from a path function, with examples",
+    "Can write the first law with the correct NCERT sign convention",
+    "Can derive C<sub>P</sub> − C<sub>V</sub> = R",
+    "Can derive W = μRT ln(V2/V1) for isothermal expansion",
+    "Knows why an adiabatic curve is steeper than an isothermal one",
+    "Knows the ΔW/ΔQ/ΔU shortcut for each process type",
+    "Can draw the heat-engine and refrigerator energy-flow diagrams",
+    "Can state the Kelvin-Planck and Clausius statements",
+    "Knows the two conditions for a reversible process",
+    "Can derive η = 1 − T2/T1 with the full P-V diagram",
+    "Remembers α<sub>Carnot</sub> = T2/(T1 − T2), which can exceed 1",
+    "Always converts °C to K before Carnot or ideal-gas formulas",
+    "Can solve a calorimetry problem using heat lost = heat gained"
+  ],
+  "videos": []
+}

@@ -1,0 +1,979 @@
+{
+  "class": 12,
+  "subject": "Biology",
+  "chapter_no": 6,
+  "slug": "evolution",
+  "title": "Evolution",
+  "summary": "How life began on earth, the evidence that life forms have changed over time, and the mechanism (variation plus natural selection, measured through the Hardy–Weinberg principle) by which populations evolve, ending with the story of human evolution. It is a fact-dense chapter where precise NCERT names, dates and examples earn the marks.",
+  "exam_profile": {
+    "weightage": "Class 12 Biology is a 70-mark theory paper. Evolution belongs to Unit VII, Genetics and Evolution, which carries 20 marks shared with Principles of Inheritance and Variation and Molecular Basis of Inheritance. Evolution typically contributes about 5 to 7 marks: one or two 1-mark items (an MCQ or an Assertion–Reason), a 2-mark or 3-mark question, and in some years a 5-mark long answer or a case-based question built on a graph or a fossil chart.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Name the scientist (Pasteur, Oparin–Haldane, Miller, Haeckel, von Baer, de Vries, Wallace), Hardy–Weinberg calculations from a given recessive percentage, saltation, the correct evolutionary order of plants or animals, homologous versus analogous pairs, the primate that went back to water 200 mya (ichthyosaurs), and hominid brain sizes."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Fossils as direct evidence, industrial melanism in Biston betularia, analogous organs as convergent evolution, Hardy–Weinberg equilibrium being disturbed by natural selection, de Vries mutations being random and directionless while Darwinian variations are small and directional."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define adaptive radiation with one example; convergent versus divergent evolution with examples; founder effect; industrial melanism; what Miller's experiment showed; two features of Neanderthal man; a simple Hardy–Weinberg calculation; what the coelacanth tells us."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Hardy–Weinberg expression and the five factors that disturb it; the three types of natural selection with graphs; homologous versus analogous organs compared; the significance of Miller's experiment; antibiotic resistance explained by Darwinian selection; the Darwin versus de Vries contrast; adaptive radiation of Darwin's finches and Australian marsupials."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Natural selection explained with the three graphs plus industrial melanism and one anthropogenic example; the whole account of origin of life from Oparin–Haldane to Miller; evidences for evolution under paleontological, anatomical, embryological and molecular heads; human evolution as a timeline from Dryopithecus to Homo sapiens."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A distribution-curve figure of the three selection types, a fossil or geological chart of plant or animal evolution, a table of amino-acid differences in cytochrome c or haemoglobin, a Hardy–Weinberg data set, or a flow chart of hominid evolution with brain capacities to identify."
+      }
+    ],
+    "hot_topics": [
+      "Hardy–Weinberg principle: the equation, its meaning, calculations, and the five factors that disturb equilibrium",
+      "Natural selection: stabilising, directional and disruptive selection with their graphs",
+      "Evidences for evolution: fossils, homologous and analogous organs (divergent and convergent evolution), embryology, biochemical evidence",
+      "Industrial melanism in Biston betularia and anthropogenic evolution (antibiotic and pesticide resistance)",
+      "Adaptive radiation: Darwin's finches and Australian marsupials; convergent evolution of placental and marsupial mammals",
+      "Origin of life: Oparin–Haldane hypothesis and Miller's experiment",
+      "Human evolution: the sequence of hominids with brain capacities and time in years",
+      "Darwin versus Lamarck versus de Vries: the three views on how variation drives evolution"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "6.1 Origin of Life",
+      "pyq_years": [
+        2024
+      ],
+      "body": "<p>NCERT opens with the age of things. The universe is very old, almost <b>20 billion years</b>, and is made of huge clusters of galaxies. The <b>Big Bang theory</b> says it began with a singular huge explosion; the universe expanded, temperature fell, hydrogen and helium formed, and gases condensed under gravity into galaxies. The <b>earth formed about 4.5 billion years back</b>. There was no atmosphere at first. Water vapour, methane, carbon dioxide and ammonia released from the molten mass covered the surface. UV rays from the sun broke water into hydrogen and oxygen; the lighter hydrogen escaped, oxygen combined with ammonia and methane to form water, carbon dioxide and other compounds, and an ozone layer formed. As it cooled, water vapour fell as rain and filled the depressions to make oceans. <b>Life appeared 500 million years after the formation of earth, that is, almost four billion years back.</b></p><p>Three older ideas are listed so that you can reject them with reasons. Early Greek thinkers proposed that units of life called spores were transferred to earth from other planets; this is <b>panspermia</b>, still favoured by some astronomers. The <b>theory of spontaneous generation</b> held that life arose from decaying matter such as straw and mud. <b>Louis Pasteur</b> disproved it: in pre-sterilised flasks life did not arise from killed yeast, while in a flask open to air new organisms appeared from killed yeast. Life comes only from pre-existing life, but that leaves the first life unexplained.</p><p>The accepted answer is <b>chemical evolution</b>, proposed by <b>Oparin</b> of Russia and <b>Haldane</b> of England. The first form of life could have come from pre-existing non-living organic molecules such as RNA and protein, and the formation of life was preceded by chemical evolution of these molecules from inorganic constituents. Conditions on the early earth favoured this: high temperature, volcanic storms and a <b>reducing atmosphere</b> containing methane and ammonia. In <b>1953, S.L. Miller</b>, an American, created these conditions in a closed flask containing <b>CH<sub>4</sub>, H<sub>2</sub>, NH<sub>3</sub> and water vapour at slightly below 100 °C</b>, passed an electric discharge through it, and observed the formation of <b>amino acids</b>. Similar experiments by others produced sugars, nitrogen bases, pigments and fats, and analysis of meteorite content revealed similar compounds. This is experimental support for chemical evolution.</p><p>The last two dates matter: the <b>first non-cellular forms of life</b> (giant molecules such as RNA, protein and polysaccharides) could have originated about <b>3 billion years ago</b>, and the <b>first cellular forms</b> did not possibly originate till about <b>2000 million years ago</b>; they were single cells and all life arose in water. A 3-mark question in the 2024 paper asked for the significance of Miller's experiment, so learn the flask contents, the temperature and the product.</p>",
+      "formulas": [],
+      "tip": "Write the Miller conditions exactly as NCERT does (CH<sub>4</sub>, H<sub>2</sub>, NH<sub>3</sub>, water vapour, electric discharge, slightly below 100 °C, amino acids formed); students often write oxygen in the mixture, which is wrong because the early atmosphere was reducing."
+    },
+    {
+      "heading": "6.2 Evolution of Life Forms – A Theory",
+      "pyq_years": [
+        2025
+      ],
+      "body": "<p>Conventional religious literature holds the theory of special creation, with three ideas: all living organisms were created as they are, the diversity was always the same and will stay the same, and the earth is about 4000 years old. <b>Charles Darwin</b> challenged this after his sea voyage on <b>H.M.S. Beagle</b> round the world. He concluded that existing life forms share similarities to varying degrees among themselves and also with life forms that existed millions of years ago, many of which are extinct. Life forms have varied gradually over millions of years; NCERT uses the phrase <b>gradual evolution</b> for this.</p><p>Darwin's explanation was <b>natural selection</b>. Any population has built-in variation. Individuals with characters that give them a better chance to survive and reproduce in the prevailing environment leave more progeny; this is called <b>fitness</b>, and Darwin measured it as <b>reproductive fitness</b>, not strength or speed. Over time, the fitter types out-reproduce the others and the population changes. Another naturalist, <b>Alfred Wallace</b>, working in the <b>Malay Archipelago</b>, came to similar conclusions at about the same time, which is why the theory is sometimes called the Darwin–Wallace theory.</p><p>The two key concepts of the Darwinian theory that the examiner expects you to name are <b>branching descent</b> (all life forms are related through common ancestors from which lineages branch) and <b>natural selection</b>. Note the subtlety NCERT states: the adaptation of a species does not mean the environment changes the organism; the environment merely selects, from the variation already present, those individuals that fit it best.</p><p>The <b>Galapagos finches</b> (Darwin's finches) are the classic illustration. On each island Darwin found small black birds whose beaks differed, and he reasoned that they all evolved on the islands themselves from one ancestral seed-eating stock. That example returns in section 6.4 as adaptive radiation, and a 2025 MCQ turned on the point that all the finch varieties arose from one original ancestor. For a 2-mark question on this section write: variation exists, fitter individuals reproduce more, characters are heritable, so the population changes over generations.</p>",
+      "formulas": [],
+      "tip": "Fitness in Darwin's sense means reproductive fitness (leaving more offspring). Writing survival of the strongest loses the mark."
+    },
+    {
+      "heading": "6.3 What are the Evidences for Evolution?",
+      "pyq_years": [
+        2025,
+        2024
+      ],
+      "body": "<p>Learn this section under four heads, because 3-mark and 5-mark questions ask for evidences classified this way.</p><p><b>1. Paleontological evidence (fossils).</b> Fossils are remains of hard parts of life forms found in rocks. Rocks form sediments, and a cross-section of the earth's crust shows sediments laid one over the other through the history of earth. Different-aged sediments contain fossils of different life forms that probably died during the formation of that sediment. Some resemble modern organisms, some are extinct (dinosaurs). Study of fossils in different sedimentary layers thus shows the geological period in which they existed and that life forms varied over time. This is direct evidence of evolution.</p><p><b>2. Comparative anatomy and morphology.</b> <b>Homologous organs</b> have the same basic structure but different functions: the forelimbs of whale, bat, cheetah and human all have humerus, radius, ulna, carpals, metacarpals and phalanges, yet are used for swimming, flying, running and grasping. This is the same structure developing in different directions for different needs, so homology indicates common ancestry, and the pattern is <b>divergent evolution</b>. Other examples: vertebrate hearts and brains; in plants, the <b>thorn of Bougainvillea and the tendril of Cucurbita</b> (both modified axillary buds). <b>Analogous organs</b> are not anatomically similar but perform the same function: the <b>wings of butterfly and bird</b>, the <b>eye of octopus and mammals</b>, the <b>flippers of penguins and dolphins</b>, and <b>sweet potato (root modification) and potato (stem modification)</b>. Different structures evolving for the same function because of a similar habitat is <b>convergent evolution</b>.</p><p><b>3. Embryological evidence.</b> <b>Ernst Haeckel</b> proposed that embryos of all vertebrates pass through common stages absent in adults, for example a row of <b>vestigial gill slits</b> just behind the head, functional only in fish and non-functional in reptiles, birds and mammals. <b>Karl Ernst von Baer</b> disproved this on careful study: embryos never pass through the adult stages of other animals. Haeckel's proposal was a 1-mark item in 2024.</p><p><b>4. Biochemical (molecular) evidence.</b> Similarities in proteins and genes performing a given function across diverse organisms (cytochrome c, haemoglobin, DNA sequences) point to common ancestry; the fewer the differences, the closer the relationship. Case-based questions give a table of amino-acid differences and ask you to rank relatedness.</p><p><b>Natural selection seen directly: industrial melanism.</b> In England, moths (<i>Biston betularia</i>) collected in the <b>1850s</b>, before industrialisation, were mostly <b>white-winged</b>; collections from the same area in <b>1920</b> were mostly <b>dark-winged (melanised)</b>. Before industrialisation white lichens covered tree trunks and white moths were camouflaged from predators; soot from industries killed lichens and darkened trunks, so dark moths survived and white moths were eaten. Both forms existed all along; the environment selected. In rural unpolluted areas the white form still dominates. Lichens are therefore pollution indicators. Similarly, excess use of <b>herbicides and pesticides</b> selects resistant varieties in a much shorter time, and microbes become resistant to <b>antibiotics</b> within months or years, not centuries: evolution by <b>anthropogenic action</b>. NCERT concludes that evolution is not a directed, deterministic process; it is <b>stochastic</b>, based on chance events in nature and chance mutations in organisms.</p>",
+      "formulas": [],
+      "tip": "Pair each organ example with its evolution type: homologous → divergent → common ancestry; analogous → convergent → similar habitat. Mixing the pairs is the commonest error on this chapter."
+    },
+    {
+      "heading": "6.4 What is Adaptive Radiation?",
+      "pyq_years": [
+        2025,
+        2024
+      ],
+      "body": "<p>Darwin's finches give the definition. On the Galapagos Islands Darwin observed many varieties of finch and conjectured that all of them evolved on the islands themselves from one ancestral stock. From the original <b>seed-eating</b> features, other forms with altered beaks arose that became <b>insectivorous and vegetarian</b> finches. NCERT defines <b>adaptive radiation</b> as the process of evolution of different species in a given geographical area, starting from a point and literally radiating to other areas of geography (habitats). Write the definition and the finch example for 2 marks; a 2-mark question asking exactly this has appeared more than once.</p><p>The second NCERT example is <b>Australian marsupials</b>. A number of marsupials, each different from the other, evolved from an ancestral stock, but all within the Australian island continent: the marsupial mole, numbat (anteater), marsupial mouse, kangaroo, koala, wombat, bandicoot, Tasmanian tiger cat and Tasmanian wolf occupy different habitats and feeding roles, yet all carry their young in a pouch.</p><p>Now the connection the examiner tests. When more than one adaptive radiation appears to have occurred in an isolated geographical area representing different habitats, we can call it <b>convergent evolution</b>. <b>Placental mammals in Australia</b> also show adaptive radiation into varieties, each of which appears similar to a corresponding marsupial: the placental wolf and the Tasmanian wolf (marsupial), placental mole and marsupial mole, anteater and numbat, flying squirrel and flying phalanger, mouse and marsupial mouse, lemur and spotted cuscus, bobcat and Tasmanian tiger cat. Two unrelated stocks radiating in the same range of habitats produced look-alike pairs, which is convergence.</p><p>So the same section carries both terms: adaptive radiation is <b>divergent</b> (one ancestor, many descendants in different habitats), while the parallel radiations of placentals and marsupials filling matching niches are <b>convergent</b>. A 3-mark question in 2025 asked you to compare and contrast convergent and divergent evolution; give definitions, the mechanism (different structures → same function versus same structure → different functions), one organ example of each and one radiation example of each.</p>",
+      "formulas": [],
+      "tip": "Adaptive radiation is asked with the phrase give one example; write Darwin's finches on the Galapagos Islands or Australian marsupials, and name at least two of the radiating forms."
+    },
+    {
+      "heading": "6.5 Biological Evolution",
+      "pyq_years": [
+        2025
+      ],
+      "body": "<p>Evolution by natural selection in the true sense began when <b>cellular forms with differences in metabolic capability</b> arose. NCERT uses bacteria to show how fast it can happen. A colony of bacteria, say A, growing on a medium has built-in variation in its ability to use a feed component. If the medium composition changes, only that part of the population, say B, that can survive the new conditions grows; in time B outgrows the others and appears as a new species. Because bacteria divide in about 20 minutes, this happens within days; in a fish or fowl, whose life spans are in years, the same change takes millions of years. The rate of appearance of new forms is linked to the life cycle or life span. Here <b>fitness of B is better than that of A under the new conditions; nature selects for fitness</b>. Fitness is based on inherited characteristics, so there is a genetic basis for being selected. Another way to say it: some organisms are better <b>adapted</b> to survive in a hostile environment; adaptive ability is inherited; fitness is the end result of the ability to adapt and get selected.</p><p>Before Darwin, the French naturalist <b>Lamarck</b> said evolution occurred but was driven by <b>use and disuse of organs</b>. His example was the giraffe, which stretched its neck to forage leaves on tall trees and passed the acquired elongated neck to the next generation. NCERT says plainly that nobody believes this any more, because acquired characters are not inherited.</p><p>Darwin's theory rests on observations partly influenced by <b>Malthus</b>'s work on populations: natural resources are limited; populations are stable in size except for seasonal fluctuations; members of a population vary in characteristics (no two individuals are alike) though they look superficially similar; and most variations are inherited. Since a population would grow exponentially if everyone reproduced maximally, yet real populations stay limited, there must be <b>competition for resources</b>; only some survive and grow at the cost of others. Darwin's insight was this: variations that are <b>heritable</b> and make resource utilisation better for a few (the fitter) enable only those to reproduce and leave more progeny. Over many generations the survivors change the population's characteristics and new forms appear. Remember the two key concepts once more: <b>branching descent and natural selection</b>.</p>",
+      "formulas": [],
+      "tip": "When asked to explain antibiotic resistance in the light of Darwinian selection, the marking scheme wants: variation pre-existed in the bacterial population, the antibiotic selected resistant cells, they reproduced, and the resistant type became dominant. Do not write that bacteria developed resistance in response to the drug."
+    },
+    {
+      "heading": "6.6 Mechanism of Evolution",
+      "pyq_years": [
+        2024
+      ],
+      "body": "<p>This section asks what supplies the variation on which natural selection acts. Mendel had talked of inheritable factors influencing phenotype, but Darwin either ignored these observations or kept silent. In the first decade of the twentieth century <b>Hugo de Vries</b>, from his work on the <b>evening primrose</b>, brought forth the idea of <b>mutations</b>: large differences arising suddenly in a population. He believed that mutation, not the minor heritable variations Darwin spoke of, causes evolution.</p><p>Learn the contrast as a table because it is asked as a 2-mark or 3-mark question and as an Assertion–Reason. <b>Mutations are random and directionless; Darwinian variations are small and directional.</b> Evolution for Darwin was <b>gradual</b>; de Vries believed mutation caused <b>speciation</b> in a single step and called it <b>saltation</b> (single-step large mutation). The 2024 MCQ asked exactly this term, and another 2024 item asked who proposed the mutation theory in favour of organic evolution: de Vries.</p><p>Studies in <b>population genetics</b> later combined these ideas, which is the <b>modern synthetic theory</b> that the CBSE syllabus names: variation arises by mutation and by recombination during gametogenesis, gene flow and genetic drift change allele frequencies, and natural selection acting on heritable variation changes the population over generations. In exam terms, the mechanism of evolution has two parts: a <b>source of variation</b> (mutation, recombination) and a <b>sorting process</b> (natural selection, plus chance effects such as drift). The measure of whether any of this has happened is a change in allele frequencies, which is what the next section, the Hardy–Weinberg principle, provides.</p><p>NCERT also mentions that microbial experiments show that pre-existing advantageous mutations, when selected, produce new phenotypes, and over a few generations this results in speciation. Keep this sentence for antibiotic-resistance questions: the mutation existed before the antibiotic was applied; the antibiotic only selected it.</p>",
+      "formulas": [],
+      "tip": "Assertion–Reason trap: Darwin's variations are small and directional, de Vries's mutations are large, random and directionless. Students swap the adjectives."
+    },
+    {
+      "heading": "6.7 Hardy–Weinberg Principle",
+      "pyq_years": [
+        2025
+      ],
+      "body": "<p>In a population one can find the frequency of occurrence of the alleles of a gene. The <b>Hardy–Weinberg principle</b> states that <b>allele frequencies in a population are stable and remain constant from generation to generation</b>; the <b>gene pool</b> (the total genes and their alleles in a population) remains constant. This is <b>genetic equilibrium</b>. The sum total of all allelic frequencies is 1.</p><p><b>Derivation asked for 3 marks.</b> Let a gene have two alleles, A and a, with frequencies p and q, so p + q = 1. In a diploid, the probability that allele A appears on both chromosomes of an individual is the product of the probabilities, p × p = p<sup>2</sup>; this is the frequency of AA individuals. Similarly the frequency of aa is q<sup>2</sup>, and of Aa is 2pq (Aa or aA). Since these three genotypes make up the whole population, <b>p<sup>2</sup> + 2pq + q<sup>2</sup> = 1</b>, which is the binomial expansion of (p + q)<sup>2</sup>. When the measured frequency differs from the expected value, the difference and its direction indicate the extent of evolutionary change. <b>Disturbance in Hardy–Weinberg equilibrium, that is, a change in allele frequency in a population, is interpreted as evolution.</b></p><p><b>Five factors</b> disturb the equilibrium: <b>gene migration (gene flow)</b>, <b>genetic drift</b>, <b>mutation</b>, <b>genetic recombination</b> and <b>natural selection</b>. When a section of a population migrates to another place and population, gene frequencies change in both the original and the new population: alleles are added to the new one and lost from the old. If this migration happens repeatedly there is gene flow. If the same change occurs by <b>chance</b>, it is genetic drift. Sometimes the allele frequency in the new, drifted sample is so different that it becomes a different species; the original drifted population becomes <b>founders</b> and the effect is the <b>founder effect</b>. Natural selection is a process in which heritable variations that enable better survival are enabled to reproduce and leave a greater number of progeny.</p><p><b>Three ways natural selection operates</b> (the distribution-curve figure in NCERT): <b>stabilisation</b>, in which more individuals acquire the mean character value and the curve becomes narrower and taller; <b>directional change</b>, in which more individuals acquire a value other than the mean, and the peak shifts to one side; and <b>disruption</b>, in which more individuals acquire the peripheral values at both ends of the distribution and the curve becomes two-peaked. Practise the three graphs; they are asked with the phrase explain with graphs.</p><p><b>Worked calculation.</b> If 16% of a population shows a recessive trait, q<sup>2</sup> = 0.16, so q = 0.4 and p = 0.6; heterozygotes 2pq = 2 × 0.6 × 0.4 = 0.48 (48%) and homozygous dominant p<sup>2</sup> = 0.36 (36%). Check: 0.36 + 0.48 + 0.16 = 1.</p>",
+      "formulas": [
+        {
+          "expr": "p + q = 1",
+          "where": [
+            [
+              "p",
+              "frequency of the dominant allele A in the gene pool"
+            ],
+            [
+              "q",
+              "frequency of the recessive allele a"
+            ]
+          ]
+        },
+        {
+          "expr": "p<sup>2</sup> + 2pq + q<sup>2</sup> = 1",
+          "where": [
+            [
+              "p<sup>2</sup>",
+              "frequency of AA (homozygous dominant) individuals"
+            ],
+            [
+              "2pq",
+              "frequency of Aa (heterozygous) individuals"
+            ],
+            [
+              "q<sup>2</sup>",
+              "frequency of aa (homozygous recessive) individuals"
+            ]
+          ]
+        }
+      ],
+      "tip": "Always start a Hardy–Weinberg calculation from q<sup>2</sup> (the recessive phenotype percentage is the only genotype you can read directly), take the square root to get q, then p = 1 − q. Students who start from the dominant phenotype percentage get a wrong p."
+    },
+    {
+      "heading": "6.8 A Brief Account of Evolution",
+      "pyq_years": [
+        2025
+      ],
+      "body": "<p>This is a timeline, and MCQs ask you to arrange events in order or to pick the group at a given date, so learn the sequence with its numbers. About <b>2000 million years ago (mya)</b> the first cellular forms of life appeared. Some of these cells could release oxygen (photosynthesis), and slowly single-celled organisms became multicellular. By <b>500 mya</b> invertebrates were formed and active. <b>Jawless fish</b> probably evolved around <b>350 mya</b>. Sea weeds and a few plants existed probably around <b>320 mya</b>. NCERT makes the point that the first organisms to invade land were plants, which then made animal life on land possible.</p><p>Fish with stout and strong fins could move on land and go back to water; some of these were <b>lobefins</b>, which evolved into the first <b>amphibians</b> that lived on both land and water. Their descendants today are the <b>coelacanth</b>, once thought extinct, one of which was caught in <b>South Africa in 1938</b>. Amphibians evolved into <b>reptiles</b>, which lay <b>thick-shelled eggs</b> that do not dry up in the sun like amphibian eggs; their modern descendants are turtles, tortoises and crocodiles. In the next 200 million years reptiles of different shapes and sizes dominated the earth. Some <b>land reptiles went back into water about 200 mya</b> to evolve into fish-like reptiles, the <b>ichthyosaurs</b> (a 2025 MCQ). The land reptiles were the <b>dinosaurs</b>; the biggest, <b>Tyrannosaurus rex</b>, was about 20 feet high with huge fearsome dagger-like teeth. About <b>65 mya</b> the dinosaurs suddenly disappeared; whether by climatic change or because most evolved into birds is not known. Giant ferns (pteridophytes) of the same age fell and were slowly buried to form <b>coal deposits</b>.</p><p><b>Mammals</b>. The first mammals were small, shrew-like, and their fossils are rare. Mammals are <b>viviparous</b> and protect their unborn young inside the mother's body; they are more intelligent in sensing and avoiding danger. When reptiles came down, mammals took over. Some mammals later went back to water: whales, dolphins, seals and sea cows. In <b>South America</b> there were mammals resembling horse, hippopotamus, bear and rabbit; when <b>continental drift</b> joined South America to North America, these were overridden by North American fauna. Because of the same continental drift the <b>pouched mammals of Australia</b> survived, since they faced no competition from any other mammal.</p><p><b>Plant order (from the NCERT evolutionary chart)</b>: marine algae and sea weeds → mosses and early land plants → ferns and horsetails (pteridophytes) → gymnosperms (conifers, cycads) → angiosperms (flowering plants), the last to appear. <b>Animal order</b>: invertebrates → jawless fish → jawed fish (lobefins) → amphibians → reptiles → birds and mammals. A 2025 MCQ asked for the correct evolutionary order of plants. Sequence questions on animals are set from the dates above, so quote them: invertebrates (500 mya) before jawless fish (350 mya) before amphibians, reptiles and mammals.</p>",
+      "formulas": [],
+      "tip": "Learn the six dates: 2000 mya cellular life, 500 mya invertebrates, 350 mya jawless fish, 320 mya sea weeds and few plants, 200 mya reptiles back to water (ichthyosaurs), 65 mya dinosaurs disappeared."
+    },
+    {
+      "heading": "6.9 Origin and Evolution of Man",
+      "pyq_years": [
+        2025,
+        2024
+      ],
+      "body": "<p>Write human evolution as a dated sequence with brain capacity, posture, diet and tool use at each stage; that is what the 4-mark flow chart and the 5-mark timeline reward.</p><p>About <b>15 mya</b> primates called <b>Dryopithecus</b> and <b>Ramapithecus</b> existed. They were hairy and walked like gorillas and chimpanzees; Ramapithecus was more man-like, Dryopithecus more ape-like. Few fossils of man-like bones have been found in <b>Ethiopia and Tanzania</b>. These revealed that <b>3 to 4 mya</b> man-like primates walked in eastern Africa; they were probably not taller than 4 feet but walked <b>upright</b>. Two mya <b>Australopithecines</b> probably lived in East African grasslands; evidence shows they <b>hunted with stone weapons but essentially ate fruit</b>. Some of the bones among these were different, and this creature was called the first human-like being, the <b>hominid</b>, <b>Homo habilis</b>: brain capacity <b>650 to 800 cc</b>, and they probably <b>did not eat meat</b>. Fossils discovered in Java in 1891 revealed the next stage, <b>Homo erectus</b>, about <b>1.5 mya</b>, with a large brain of around <b>900 cc</b>, which probably <b>ate meat</b>. The <b>Neanderthal man</b>, brain size <b>1400 cc</b>, lived in near east and central Asia between <b>1,00,000 and 40,000 years back</b>; they used <b>hides to protect their bodies</b> and <b>buried their dead</b>. <b>Homo sapiens</b> arose in Africa and moved across continents and developed into distinct races. During the <b>ice age between 75,000 and 10,000 years ago</b> modern <i>Homo sapiens</i> arose. <b>Pre-historic cave art</b> developed about <b>18,000 years ago</b>; one such site is the Bhimbetka rock shelter in Raisen district of Madhya Pradesh. <b>Agriculture came around 10,000 years back</b> and human settlements started. The rest, as NCERT says, is part of human history.</p><p>Two exam angles. First, the 2025 paper asked which primates walked like gorillas 15 mya (Dryopithecus and Ramapithecus), which primates lived in East African grasslands 2 mya (Australopithecines) and which was the first human-like hominid (Homo habilis). Second, the NCERT exercise asks whether human evolution can be called adaptive radiation. The expected answer is no: adaptive radiation means one ancestral species diverging into many species occupying different habitats in a geographical area, whereas human evolution is a <b>linear, successive replacement</b> of one hominid form by the next (Australopithecines → Homo habilis → Homo erectus → Neanderthal → Homo sapiens) with a single living species at the end, a case of anagenesis rather than radiation.</p><p>When asked to trace the components of human evolution, organise by brain size (650–800 → 900 → 1400 cc), skeletal structure (upright walking, bipedal posture, reduced jaw), dietary preference (fruit → meat) and culture (stone weapons → hides and burial → cave art → agriculture).</p>",
+      "formulas": [],
+      "tip": "Keep the brain sizes attached to the right hominid: Homo habilis 650–800 cc, Homo erectus 900 cc, Neanderthal 1400 cc. Examiners give a description of brain size and ask you to identify the hominid."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Big Bang theory",
+      "definition": "The idea that the universe began about 20 billion years ago with a singular huge explosion, after which it expanded, cooled, and formed hydrogen, helium and eventually galaxies."
+    },
+    {
+      "term": "Panspermia",
+      "definition": "The early Greek idea that units of life called spores were transferred to earth from other planets; still favoured by some astronomers."
+    },
+    {
+      "term": "Theory of spontaneous generation",
+      "definition": "The belief that life arose from decaying and rotting matter such as straw and mud; disproved by Louis Pasteur, who showed that life comes only from pre-existing life."
+    },
+    {
+      "term": "Chemical evolution (Oparin–Haldane hypothesis)",
+      "definition": "The proposal that the first form of life came from pre-existing non-living organic molecules such as RNA and protein, whose formation from inorganic constituents was itself preceded by chemical evolution in a reducing atmosphere."
+    },
+    {
+      "term": "Miller's experiment",
+      "definition": "S.L. Miller (1953) passed an electric discharge through a closed flask containing CH<sub>4</sub>, H<sub>2</sub>, NH<sub>3</sub> and water vapour at slightly below 100 °C and observed the formation of amino acids, giving experimental support to chemical evolution."
+    },
+    {
+      "term": "Natural selection",
+      "definition": "The process by which heritable variations enabling better survival and reproduction are selected by nature, so that their carriers leave a greater number of progeny and the population changes over generations."
+    },
+    {
+      "term": "Fitness",
+      "definition": "In Darwin's sense, reproductive fitness: the ability of an individual with a particular heritable character to survive and leave more progeny in the prevailing environment."
+    },
+    {
+      "term": "Branching descent",
+      "definition": "The Darwinian concept that all life forms are related through common ancestors from which lineages have branched over time; with natural selection it is one of the two key concepts of Darwinism."
+    },
+    {
+      "term": "Homologous organs",
+      "definition": "Organs with the same basic anatomical structure and origin but different functions, such as the forelimbs of whale, bat, cheetah and human; they indicate common ancestry and divergent evolution."
+    },
+    {
+      "term": "Analogous organs",
+      "definition": "Organs that are anatomically different but perform the same function, such as the wings of butterfly and bird or the eye of octopus and mammals; they indicate convergent evolution."
+    },
+    {
+      "term": "Divergent evolution",
+      "definition": "The same structure developing along different directions in related organisms owing to adaptation to different needs, as seen in homologous organs."
+    },
+    {
+      "term": "Convergent evolution",
+      "definition": "Different structures evolving for the same function in unrelated organisms because they live in similar habitats, as seen in analogous organs and in the placental–marsupial look-alike pairs of Australia."
+    },
+    {
+      "term": "Industrial melanism",
+      "definition": "The increase in dark-winged (melanised) forms of the peppered moth Biston betularia in industrial areas of England after the 1850s, because soot darkened tree trunks and predators picked off the now-visible white moths."
+    },
+    {
+      "term": "Adaptive radiation",
+      "definition": "The process of evolution of different species in a given geographical area, starting from a point and radiating to other areas or habitats; examples are Darwin's finches and Australian marsupials."
+    },
+    {
+      "term": "Saltation",
+      "definition": "Hugo de Vries's term for a single-step large mutation that, in his view, causes speciation suddenly rather than gradually."
+    },
+    {
+      "term": "Gene pool",
+      "definition": "The total genes and their alleles present in a population; it remains constant under Hardy–Weinberg equilibrium."
+    },
+    {
+      "term": "Genetic equilibrium (Hardy–Weinberg equilibrium)",
+      "definition": "The state in which allele frequencies in a population are stable and constant from generation to generation, expressed as p<sup>2</sup> + 2pq + q<sup>2</sup> = 1."
+    },
+    {
+      "term": "Gene flow (gene migration)",
+      "definition": "The change in allele frequencies in both the original and the new population when a section of a population migrates and interbreeds, repeatedly, with another population."
+    },
+    {
+      "term": "Genetic drift",
+      "definition": "A change in allele frequency in a population that occurs purely by chance, especially in small populations."
+    },
+    {
+      "term": "Founder effect",
+      "definition": "When the allele frequencies of a small drifted population differ so much from the original that it becomes a different species; the original drifted individuals are the founders."
+    },
+    {
+      "term": "Stabilising, directional and disruptive selection",
+      "definition": "The three ways natural selection acts on a character: more individuals acquire the mean value (stabilising), a value other than the mean (directional), or the peripheral values at both ends of the curve (disruptive)."
+    },
+    {
+      "term": "Hominid",
+      "definition": "The first human-like being; Homo habilis, with a brain capacity of 650–800 cc, is regarded as the first hominid."
+    },
+    {
+      "term": "Coelacanth",
+      "definition": "A living lobefin fish, once thought extinct, caught in South Africa in 1938; lobefins evolved into the first amphibians."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Hardy–Weinberg equation",
+      "expr": "p + q = 1 and p<sup>2</sup> + 2pq + q<sup>2</sup> = 1",
+      "note": "p<sup>2</sup> = AA, 2pq = Aa, q<sup>2</sup> = aa; start every calculation from the recessive phenotype q<sup>2</sup>"
+    },
+    {
+      "name": "Five factors disturbing Hardy–Weinberg equilibrium",
+      "expr": "gene migration (gene flow), genetic drift, mutation, genetic recombination, natural selection",
+      "note": "A change in allele frequency = evolution"
+    },
+    {
+      "name": "Ages",
+      "expr": "universe ≈ 20 billion years; earth ≈ 4.5 billion years; life ≈ 4 billion years ago (500 million years after earth formed)",
+      "note": "Non-cellular life ≈ 3 billion years ago; first cells ≈ 2000 mya"
+    },
+    {
+      "name": "Miller's experiment (1953)",
+      "expr": "CH<sub>4</sub> + H<sub>2</sub> + NH<sub>3</sub> + water vapour, electric discharge, slightly below 100 °C → amino acids",
+      "note": "Supports Oparin–Haldane chemical evolution; others later got sugars, nitrogen bases, pigments, fats"
+    },
+    {
+      "name": "Homologous organs (divergent evolution)",
+      "expr": "forelimbs of whale, bat, cheetah, human; vertebrate hearts and brains; thorn of Bougainvillea and tendril of Cucurbita",
+      "note": "Same structure, different function, common ancestry"
+    },
+    {
+      "name": "Analogous organs (convergent evolution)",
+      "expr": "wings of butterfly and bird; eye of octopus and mammals; flippers of penguins and dolphins; sweet potato (root) and potato (stem)",
+      "note": "Different structure, same function, similar habitat"
+    },
+    {
+      "name": "Industrial melanism dates",
+      "expr": "1850s: more white-winged Biston betularia; 1920: more dark-winged",
+      "note": "Lichens on tree trunks killed by soot; lichens are pollution indicators"
+    },
+    {
+      "name": "Darwin vs de Vries",
+      "expr": "Darwin: small, directional variations, gradual evolution · de Vries: large, random, directionless mutations, saltation (single-step speciation)",
+      "note": "de Vries worked on evening primrose"
+    },
+    {
+      "name": "Three types of natural selection",
+      "expr": "stabilising (mean favoured, curve narrows) · directional (peak shifts) · disruptive (both extremes favoured, two peaks)",
+      "note": "Draw the before and after curves"
+    },
+    {
+      "name": "Evolution timeline",
+      "expr": "2000 mya cellular life · 500 mya invertebrates · 350 mya jawless fish · 320 mya sea weeds and few plants · 200 mya land reptiles back to water (ichthyosaurs) · 65 mya dinosaurs disappeared",
+      "note": "Coelacanth caught in South Africa, 1938; T. rex ≈ 20 feet tall"
+    },
+    {
+      "name": "Plant evolutionary order",
+      "expr": "algae and sea weeds → mosses → ferns (pteridophytes) → gymnosperms → angiosperms",
+      "note": "Giant ferns of the dinosaur age formed coal"
+    },
+    {
+      "name": "Animal evolutionary order",
+      "expr": "invertebrates → jawless fish → lobefin fish → amphibians → reptiles → birds and mammals",
+      "note": "Reptiles: thick-shelled eggs; mammals: viviparous"
+    },
+    {
+      "name": "Human evolution timeline",
+      "expr": "15 mya Dryopithecus and Ramapithecus · 3–4 mya upright man-like primates in East Africa · 2 mya Australopithecines · Homo habilis 650–800 cc · 1.5 mya Homo erectus 900 cc · 1,00,000–40,000 years Neanderthal 1400 cc · 75,000–10,000 years modern Homo sapiens",
+      "note": "Cave art 18,000 years ago; agriculture 10,000 years ago"
+    },
+    {
+      "name": "Hominid diets and habits",
+      "expr": "Australopithecines: stone weapons, ate fruit · H. habilis: no meat · H. erectus: ate meat · Neanderthal: hides, buried dead",
+      "note": "Homo erectus fossils from Java, 1891"
+    },
+    {
+      "name": "Scientists to name",
+      "expr": "Pasteur (disproved spontaneous generation) · Oparin and Haldane (chemical evolution) · Miller (experiment) · Darwin and Wallace (natural selection) · Lamarck (use and disuse) · Haeckel (embryological recapitulation) · von Baer (disproved it) · de Vries (mutation theory) · Hardy and Weinberg (genetic equilibrium)",
+      "note": "Malthus's work on population influenced Darwin"
+    },
+    {
+      "name": "Adaptive radiation examples",
+      "expr": "Darwin's finches (seed-eating → insectivorous and vegetarian) · Australian marsupials · Australian placentals converging on marsupials (placental wolf and Tasmanian wolf)",
+      "note": "More than one radiation in the same isolated area = convergent evolution"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Miller's experiment (NCERT Figure 6.1)",
+      "how_to_draw": "Draw a closed loop of glass tubing. At the top a large spark chamber with two electrodes labelled electric discharge (spark); mark the gas mixture inside as CH<sub>4</sub>, NH<sub>3</sub>, H<sub>2</sub> and water vapour. Below, a flask of boiling water over a heat source labelled water vapour going up, and a condenser on the return arm bringing cooled products down to a trap labelled amino acids and other organic compounds collected. Add a vacuum pump outlet and the label slightly below 100 °C. Caption: simulation of early earth conditions; amino acids formed."
+    },
+    {
+      "title": "Homologous forelimbs of whale, bat, cheetah and human (NCERT figure)",
+      "how_to_draw": "Draw the four forelimbs side by side, each showing the same bone pattern from shoulder to digits, and label the humerus, radius, ulna, carpals, metacarpals and phalanges in at least one limb, shading corresponding bones the same way in all four. Write the function under each: swimming (whale flipper), flying (bat wing), running (cheetah leg), grasping (human arm). Caption: same structure, different functions, divergent evolution, common ancestry."
+    },
+    {
+      "title": "Homology in plants: thorn of Bougainvillea and tendril of Cucurbita (NCERT figure)",
+      "how_to_draw": "Draw two stem pieces. On the Bougainvillea stem show a stiff pointed thorn arising in the axil of a leaf; on the Cucurbita stem show a thin coiled tendril arising at the same axillary position. Label leaf, axillary position, thorn, tendril, and write that both are modifications of the axillary bud with different functions (protection versus climbing support)."
+    },
+    {
+      "title": "Analogous organs: wings of butterfly and bird, eye of octopus and mammal (NCERT figure)",
+      "how_to_draw": "Draw a butterfly wing (membranous, supported by veins, no bones) beside a bird wing (feathers over a bony forelimb) and label the structural difference and the common function of flight. Below, draw a sectioned octopus eye and a mammalian eye, both with lens, retina and cornea labelled, noting that the octopus retina is not inverted while the mammalian retina is. Caption: different structures, same function, convergent evolution."
+    },
+    {
+      "title": "Industrial melanism: peppered moths on lichen-covered and soot-covered trunks (NCERT figure)",
+      "how_to_draw": "Draw two tree-trunk panels. Left: trunk covered with pale lichens, one white-winged moth barely visible and one dark-winged moth standing out; label before industrialisation (1850s), white form camouflaged. Right: soot-blackened trunk with no lichen, a dark moth camouflaged and a white moth conspicuous; label after industrialisation (1920), dark form camouflaged. Write Biston betularia and note that predatory birds remove the visible form."
+    },
+    {
+      "title": "Adaptive radiation of Darwin's finches (NCERT figure)",
+      "how_to_draw": "Draw a central ancestral seed-eating finch with a stout beak and arrows radiating outward to five or six finch heads with different beaks: large seed-eater (thick, heavy beak), cactus feeder (long pointed beak), insect-eater (slender beak), tool-using woodpecker finch, vegetarian finch (parrot-like beak), warbler finch (thin beak). Label the food of each and the caption: Galapagos Islands, one ancestor, different habitats and foods, adaptive radiation."
+    },
+    {
+      "title": "Convergent evolution of Australian marsupials and placental mammals (NCERT figure)",
+      "how_to_draw": "Draw two columns of small sketches with a pair in each row and the pairs facing each other: placental mole and marsupial mole; anteater and numbat; mouse and marsupial mouse; lemur and spotted cuscus; flying squirrel and flying phalanger; bobcat and Tasmanian tiger cat; wolf and Tasmanian wolf. Head the columns placental mammals and Australian marsupials. Caption: two separate adaptive radiations in the same range of habitats produced look-alike pairs, convergent evolution."
+    },
+    {
+      "title": "The three types of natural selection on a distribution curve (NCERT figure)",
+      "how_to_draw": "Draw three panels, each with a bell-shaped curve of a character (x-axis: character value, y-axis: number of individuals) shown before selection as a dotted line and after selection as a solid line. Panel 1 stabilising: the solid curve is taller and narrower around the same mean, with arrows pressing in from both extremes. Panel 2 directional: the solid peak shifts to one side of the original mean, with an arrow pushing from one extreme. Panel 3 disruptive: the solid curve has two peaks at the extremes and a dip at the mean, with an arrow pushing outward from the middle. Label the mean, the direction of selection pressure, and name each type."
+    },
+    {
+      "title": "Human evolution flow chart with brain capacities",
+      "how_to_draw": "Draw a vertical timeline with a skull sketch or box at each stage and the date on the left: 15 mya Dryopithecus and Ramapithecus (walked like gorillas); 3–4 mya upright man-like primates, East Africa, under 4 feet; 2 mya Australopithecines (stone weapons, ate fruit); Homo habilis 650–800 cc (no meat); 1.5 mya Homo erectus 900 cc (ate meat); 1,00,000–40,000 years Neanderthal 1400 cc (hides, buried dead); 75,000–10,000 years modern Homo sapiens; 18,000 years cave art; 10,000 years agriculture. Show skull sketches with a growing cranium and receding jaw to earn the drawing mark."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "6.1",
+      "q": "Explain antibiotic resistance observed in bacteria in the light of Darwinian selection theory.",
+      "a": "<p>According to Darwin, populations contain heritable variations, and nature selects the variants that are fitter under the prevailing conditions; these leave more progeny and, over generations, become the dominant form.</p><p>A bacterial population contains built-in variation. By chance mutation, a few bacteria already carry a gene that makes them resistant to a particular antibiotic. When the antibiotic is applied, the sensitive bacteria are killed, but the resistant ones survive, multiply and pass the resistance on to their progeny. Within a short time the resistant type outnumbers the sensitive type and the antibiotic becomes ineffective. Since bacteria divide in about 20 minutes, this selection is seen within months or years rather than centuries.</p><p>Two points the examiner looks for: the resistant variants were present before the antibiotic was used (the drug did not create them, it selected them), and this is an example of evolution by anthropogenic action.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6.2",
+      "q": "Find out from newspapers and popular science articles any new fossil discoveries or controversies about evolution.",
+      "a": "<p>This is an activity question; in an exam a related question is asked as what fossils tell us. Model points: fossils are remains of hard parts of life forms found in sedimentary rocks; sediments are laid one over the other, so deeper layers are older; the fossils in different-aged sediments differ, which shows that life forms varied over time and that some, like dinosaurs, are extinct. Fossils therefore give direct (paleontological) evidence of evolution and let us assign a geological period to each life form. A commonly quoted discovery you may cite is the coelacanth, a living lobefin fish caught off South Africa in 1938, which showed that a group thought extinct was still alive and confirmed that lobefins were the ancestors of the first amphibians.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "6.3",
+      "q": "Attempt giving a clear definition of the term species.",
+      "a": "<p>A species is a group of individuals that resemble one another in morphological and physiological characters, share a common gene pool, and are capable of interbreeding under natural conditions to produce fertile offspring; they are reproductively isolated from other such groups. In evolutionary terms a species is the basic unit of classification and of evolution, since it is the allele frequencies of a species' populations that change when evolution occurs.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "6.4",
+      "q": "Try to trace the various components of human evolution (hint: brain size and function, skeletal structure, dietary preference, etc.).",
+      "a": "<p><b>Brain size:</b> Homo habilis 650–800 cc → Homo erectus about 900 cc → Neanderthal man 1400 cc → modern Homo sapiens, with a corresponding increase in intelligence, tool use and, later, language and art.</p><p><b>Skeletal structure and posture:</b> Dryopithecus and Ramapithecus (15 mya) were hairy and walked like gorillas and chimpanzees; the man-like primates of 3 to 4 mya in East Africa walked upright though under 4 feet tall; later hominids show fully bipedal posture, a larger cranium, a flatter face and a receding jaw.</p><p><b>Dietary preference:</b> Australopithecines hunted with stone weapons but essentially ate fruit; Homo habilis probably did not eat meat; Homo erectus probably ate meat.</p><p><b>Culture and society:</b> Australopithecines used stone weapons; Neanderthals (1,00,000 to 40,000 years back, near east and central Asia) used hides to protect the body and buried their dead; modern Homo sapiens arose during the ice age between 75,000 and 10,000 years ago, made cave art about 18,000 years ago and began agriculture and settlements about 10,000 years ago.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "6.5",
+      "q": "Find out through internet and popular science articles whether animals other than man has self-consciousness.",
+      "a": "<p>An activity question. The point worth writing: self-consciousness (self-awareness) is the ability of an animal to recognise itself as an individual distinct from others. Evidence usually cited is the mirror test, which has been passed by chimpanzees and other great apes, dolphins, elephants and some birds such as magpies; dogs, cats and most other animals do not appear to recognise their reflection. So a degree of self-consciousness exists in some animals with large, complex brains, though it is most developed in humans.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "6.6",
+      "q": "List 10 modern-day animals and using the internet resources link it to a corresponding ancient fossil. Name both.",
+      "a": "<p>Any ten correct pairs are accepted; a safe list is: horse – Eohippus (dawn horse); elephant – Moeritherium; whale – Pakicetus (a land-dwelling ancestor); birds – Archaeopteryx (a reptile–bird connecting link); crocodile – Deinosuchus; lobefin fishes (coelacanth) – Osteolepis; man – Homo erectus (Java man); bat – Icaronycteris; dog – Leptocyon; tortoise – Proganochelys; camel – Protylopus; giraffe – Palaeotragus. In the exam pair the modern animal with the fossil clearly and add one line saying such pairs show gradual change over time, which is paleontological evidence of evolution.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6.7",
+      "q": "Practise drawing various animals and plants.",
+      "a": "<p>A drawing activity. For this chapter the drawings that actually carry marks are: the homologous forelimbs of whale, bat, cheetah and human with the bones labelled; the thorn of Bougainvillea and tendril of Cucurbita; the peppered moths on lichen-covered and soot-covered trunks; the radiating beaks of Darwin's finches; the placental–marsupial look-alike pairs; and the three natural-selection curves. Practise each until you can draw it in under three minutes with every label from the diagrams list.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "6.8",
+      "q": "Describe one example of adaptive radiation.",
+      "a": "<p>Adaptive radiation is the evolution of different species in a given geographical area, starting from a point and radiating to other habitats.</p><p><b>Darwin's finches:</b> on the Galapagos Islands Darwin observed many varieties of small black finches and reasoned that all of them evolved on the islands from one ancestral seed-eating stock. Different islands and food sources selected different beak shapes, so from the original seed-eating finch arose insectivorous finches with slender beaks, cactus-feeding finches with long pointed beaks, vegetarian finches with parrot-like beaks and even a tool-using woodpecker finch. One ancestor radiated into many species, each adapted to a different habitat and diet.</p><p>(Alternative: Australian marsupials, where from one ancestral marsupial stock the kangaroo, koala, wombat, marsupial mole, numbat, bandicoot, Tasmanian wolf and others evolved within the Australian continent.)</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6.9",
+      "q": "Can we call human evolution as adaptive radiation?",
+      "a": "<p>No. Adaptive radiation means one ancestral species diverging into several species that occupy different habitats within a geographical area, as with Darwin's finches. Human evolution did not branch out into several coexisting human species adapted to different habitats; it proceeded as a linear sequence in which each form was replaced by the next (Australopithecines → Homo habilis → Homo erectus → Neanderthal man → Homo sapiens), driven by increasing brain size, upright posture and changing diet, and ended in a single surviving species that spread across all continents. That is anagenesis (gradual change along one line), not adaptive radiation.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "important",
+      "number": "In-text (6.3)",
+      "q": "Differentiate between homologous and analogous organs with two examples each. What type of evolution does each indicate?",
+      "a": "<p><b>Homologous organs:</b> same basic structure and origin, different functions; indicate common ancestry and <b>divergent evolution</b>. Examples: forelimbs of whale, bat, cheetah and human (same bones: humerus, radius, ulna, carpals, metacarpals, phalanges; functions: swimming, flying, running, grasping); thorn of Bougainvillea and tendril of Cucurbita (both axillary-bud modifications); vertebrate hearts and brains.</p><p><b>Analogous organs:</b> different structure and origin, same function; indicate <b>convergent evolution</b> in a similar habitat. Examples: wings of butterfly and bird; eye of octopus and mammals; flippers of penguins and dolphins; sweet potato (root) and potato (stem), both food storage.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "important",
+      "number": "In-text (6.7)",
+      "q": "State the Hardy–Weinberg principle. Write its algebraic expression and list the factors that affect genetic equilibrium.",
+      "a": "<p><b>Principle:</b> allele frequencies in a population are stable and remain constant from generation to generation; the gene pool remains constant. This is genetic equilibrium.</p><p><b>Expression:</b> if p and q are the frequencies of alleles A and a, then p + q = 1 and the genotype frequencies are AA = p<sup>2</sup>, Aa = 2pq, aa = q<sup>2</sup>, so p<sup>2</sup> + 2pq + q<sup>2</sup> = 1, the binomial expansion of (p + q)<sup>2</sup>. A measured departure from these values indicates evolutionary change.</p><p><b>Five factors that disturb it:</b> gene migration or gene flow, genetic drift, mutation, genetic recombination and natural selection.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "important",
+      "number": "In-text (6.1)",
+      "q": "Describe Miller's experiment and state what it established.",
+      "a": "<p>In 1953 S.L. Miller simulated the conditions of the primitive earth in the laboratory. He passed a continuous electric discharge (to mimic lightning) through a closed flask containing a reducing mixture of methane (CH<sub>4</sub>), hydrogen (H<sub>2</sub>), ammonia (NH<sub>3</sub>) and water vapour at slightly below 100 °C, circulated the gases through a condenser, and after a week analysed the products. He observed the formation of amino acids. In similar experiments others obtained sugars, nitrogen bases, pigments and fats, and meteorites were found to contain similar compounds.</p><p><b>Significance:</b> it gave experimental support to the Oparin–Haldane theory that simple organic molecules, the building blocks of life, could form abiotically from inorganic gases under the conditions of the early earth, that is, that chemical evolution preceded the origin of life.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A single-step large mutation leading to speciation is also called",
+      "options": [
+        "saltation",
+        "gene flow",
+        "genetic drift",
+        "founder effect"
+      ],
+      "answer": "a",
+      "solution": "Hugo de Vries believed mutation caused speciation in a single step and called it saltation."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The scientist who proposed that embryos of all vertebrates develop a row of vestigial gill slits behind the head was",
+      "options": [
+        "Karl Ernst von Baer",
+        "Ernst Haeckel",
+        "Alfred Wallace",
+        "Hugo de Vries"
+      ],
+      "answer": "b",
+      "solution": "Haeckel proposed the embryological (recapitulation) idea; von Baer disproved it by showing embryos never pass through the adult stages of other animals."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Land reptiles that went back into water about 200 million years ago evolved into",
+      "options": [
+        "coelacanths",
+        "ichthyosaurs",
+        "lobefins",
+        "Tyrannosaurus"
+      ],
+      "answer": "b",
+      "solution": "NCERT states that some land reptiles went back into water about 200 mya to evolve into fish-like reptiles, the ichthyosaurs."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "About 15 million years ago, the primates that were hairy and walked like gorillas and chimpanzees were",
+      "options": [
+        "Australopithecus and Homo habilis",
+        "Dryopithecus and Ramapithecus",
+        "Homo erectus and Neanderthal man",
+        "Ramapithecus and Australopithecus"
+      ],
+      "answer": "b",
+      "solution": "Dryopithecus (ape-like) and Ramapithecus (man-like) existed about 15 mya and walked like gorillas and chimpanzees."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following shows the correct evolutionary order of plants?",
+      "options": [
+        "Ferns → mosses → gymnosperms → angiosperms",
+        "Mosses → ferns → gymnosperms → angiosperms",
+        "Gymnosperms → ferns → mosses → angiosperms",
+        "Mosses → gymnosperms → ferns → angiosperms"
+      ],
+      "answer": "b",
+      "solution": "Non-vascular mosses came first, then seedless vascular ferns, then seeded gymnosperms, and flowering plants (angiosperms) last."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which one of the following pairs of organs is analogous?",
+      "options": [
+        "Forelimbs of whale and bat",
+        "Thorn of Bougainvillea and tendril of Cucurbita",
+        "Flippers of penguins and dolphins",
+        "Hearts of a frog and a human"
+      ],
+      "answer": "c",
+      "solution": "Penguin (bird) and dolphin (mammal) flippers have different structures but the same function of swimming, so they are analogous; the other three pairs are homologous."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In a population in Hardy–Weinberg equilibrium, 9% of individuals show the recessive phenotype. The frequency of heterozygous individuals is",
+      "options": [
+        "0.09",
+        "0.30",
+        "0.42",
+        "0.49"
+      ],
+      "answer": "c",
+      "solution": "q<sup>2</sup> = 0.09 gives q = 0.3, p = 0.7, so 2pq = 2 × 0.7 × 0.3 = 0.42."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following evidences does not support Darwin's theory of natural selection?",
+      "options": [
+        "Branching descent",
+        "Small and directional variations",
+        "Appearance of new traits by single-step large mutations",
+        "Survival of the fittest"
+      ],
+      "answer": "c",
+      "solution": "Single-step large mutations (saltation) belong to de Vries's mutation theory; Darwin's theory rests on small directional variations, branching descent and survival of the fittest."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Fossils provide direct evidence of evolution. Reason (R): Fossils found in different-aged sedimentary rocks represent different life forms that existed in different geological periods.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The differing fossils in successively aged sediments show directly that life forms changed over time, which is why fossils are direct (paleontological) evidence."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): After industrialisation in England, the dark-winged form of Biston betularia became more common than the white-winged form. Reason (R): Soot from industries darkened the tree trunks and the industrial pollution created the dark-winged mutation in the moths.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "The assertion is correct, but the dark form already existed; pollution did not create the mutation, it only changed which form was camouflaged and therefore selected."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The wings of a butterfly and the wings of a bird are analogous organs. Reason (R): Analogous organs have a similar anatomical structure but perform different functions.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "The wings are indeed analogous, but analogous organs are anatomically different and perform the same function; the reason describes homologous organs backwards."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Natural selection disturbs the Hardy–Weinberg equilibrium. Reason (R): Natural selection allows individuals with certain heritable variations to leave more progeny, changing the allele frequencies in the next generation.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Hardy–Weinberg equilibrium requires constant allele frequencies; selection changes them by differential reproduction, which is exactly why it is one of the five disturbing factors."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define convergent evolution. Give one example.",
+      "answer": "<p>Convergent evolution is the evolution of similar structures or adaptations for the same function in unrelated organisms because they live in similar habitats; the organs so produced are analogous. (1 mark)</p><p>Example: the wings of a butterfly and of a bird, or the eye of an octopus and of a mammal, or Australian marsupials and placental mammals evolving look-alike pairs such as the Tasmanian wolf and the placental wolf. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define divergent evolution. Give one example.",
+      "answer": "<p>Divergent evolution is the process in which the same ancestral structure develops along different directions in related organisms owing to adaptation to different needs, giving homologous organs and indicating common ancestry. (1 mark)</p><p>Example: the forelimbs of whale, bat, cheetah and human share the same bones (humerus, radius, ulna, carpals, metacarpals, phalanges) but are used for swimming, flying, running and grasping; in plants, the thorn of Bougainvillea and the tendril of Cucurbita. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is adaptive radiation? Give one example.",
+      "answer": "<p>Adaptive radiation is the process of evolution of different species in a given geographical area, starting from a point (one ancestral species) and literally radiating to other areas of geography or habitats. (1 mark)</p><p>Example: Darwin's finches on the Galapagos Islands, where from an original seed-eating stock arose insectivorous and vegetarian finches with altered beaks; or the Australian marsupials (kangaroo, koala, marsupial mole, numbat, Tasmanian wolf) that evolved from one ancestral stock within Australia. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Mention any two characteristics of Neanderthal man. When and where did they live?",
+      "answer": "<p>Characteristics: brain size of 1400 cc; they used hides to protect their bodies and buried their dead. (1 mark for any two)</p><p>They lived in near east and central Asia between 1,00,000 and 40,000 years back. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is the founder effect? How is it related to genetic drift?",
+      "answer": "<p>When a small section of a population migrates or is separated and, by chance, its allele frequencies differ so much from the original population that it becomes a different species, the original drifted individuals are called founders and the phenomenon is the founder effect. (1 mark)</p><p>It is a consequence of genetic drift: the change in allele frequency happens purely by chance in the small separated group, not by selection. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the significance of S.L. Miller's experiment in the context of the origin of life.",
+      "answer": "<p><b>The experiment:</b> in 1953 Miller created the conditions of the early earth in a closed flask containing CH<sub>4</sub>, H<sub>2</sub>, NH<sub>3</sub> and water vapour at slightly below 100 °C and passed an electric discharge through it (to simulate lightning). After circulating the mixture he observed the formation of amino acids. (1½ marks)</p><p><b>Significance:</b> it showed that organic molecules, the building blocks of proteins, can form abiotically from inorganic gases under a reducing atmosphere with an energy source, and so provided experimental evidence for the Oparin–Haldane hypothesis of chemical evolution, that the first form of life arose from pre-existing non-living organic molecules. Others later obtained sugars, nitrogen bases, pigments and fats in similar experiments, and analysis of meteorites revealed similar compounds, which strengthened the conclusion. (1½ marks)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain the three different ways in which natural selection can affect the frequency of a heritable trait in a population. Support your answer with graphs.",
+      "answer": "<p>Natural selection acts on a character whose values are distributed as a bell-shaped curve, and it can change the curve in three ways (draw a dotted before curve and a solid after curve in each case):</p><p><b>(i) Stabilising selection:</b> more individuals acquire the mean character value; individuals at both extremes are selected against, so the curve becomes narrower and taller around the same mean. (1 mark)</p><p><b>(ii) Directional selection:</b> more individuals acquire a value other than the mean; one extreme is favoured, so the peak of the curve shifts in that direction, as in industrial melanism. (1 mark)</p><p><b>(iii) Disruptive selection:</b> more individuals acquire the peripheral values at both ends of the distribution; the mean is selected against, so the curve becomes two-peaked. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Write the Hardy–Weinberg expression for a diploid population with two alleles and explain how it is derived. List the factors that disturb genetic equilibrium.",
+      "answer": "<p>Let the frequency of allele A be p and of allele a be q, so p + q = 1. The probability that an individual receives A on both chromosomes is p × p = p<sup>2</sup> (frequency of AA); likewise aa = q<sup>2</sup>; and Aa, which can arise as Aa or aA, = 2pq. Since these are the only genotypes, p<sup>2</sup> + 2pq + q<sup>2</sup> = 1, the binomial expansion of (p + q)<sup>2</sup>. (2 marks)</p><p>Factors disturbing Hardy–Weinberg equilibrium: gene migration or gene flow, genetic drift, mutation, genetic recombination and natural selection. A change in allele frequency from the expected value is taken as evolution. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Compare the views of Darwin and Hugo de Vries on the origin of variation and the pace of evolution.",
+      "answer": "<p><b>Nature of variation:</b> Darwin spoke of minor heritable variations that are small and directional; de Vries, from his work on the evening primrose, proposed mutations, which are large differences arising suddenly, random and directionless. (1 mark)</p><p><b>Pace of evolution:</b> for Darwin evolution was gradual, through the accumulation of small variations over many generations under natural selection; de Vries believed a single-step large mutation could produce a new species at once, which he called saltation. (1 mark)</p><p><b>Mechanism:</b> Darwin held that natural selection acting on variation drives evolution; de Vries held that mutation itself causes evolution. Population genetics later combined both: mutation and recombination supply variation, and selection, drift and gene flow change allele frequencies. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain how the industrial melanism observed in peppered moths in England provides evidence for natural selection.",
+      "answer": "<p>Moths collected in the 1850s, before industrialisation, were mostly white-winged, while collections from the same area in 1920 were mostly dark-winged (melanised). (1 mark)</p><p>Before industrialisation, white lichens covered tree trunks, so white moths were camouflaged and dark moths were picked off by predatory birds. After industrialisation, soot killed the lichens and darkened the trunks; now the dark moths were camouflaged and the white ones were eaten. (1 mark)</p><p>Both forms existed all along; the environment selected the better-camouflaged form, which survived and reproduced more, so the population's colour frequency changed. This is natural selection observed directly; in rural, unpolluted areas the white form still predominates. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Explain, with the help of graphs, the three ways in which natural selection can operate on a trait. (b) How did industrialisation in England provide evidence of natural selection? (c) Give one example of evolution by anthropogenic action.",
+      "answer": "<p><b>(a)</b> Draw three bell curves with before (dotted) and after (solid) distributions. <b>Stabilising selection:</b> more individuals acquire the mean value, extremes are eliminated, the curve narrows around the same mean. <b>Directional selection:</b> more individuals acquire a value other than the mean, one extreme is favoured, the peak shifts. <b>Disruptive selection:</b> more individuals acquire the peripheral values at both ends, the mean is selected against, the curve becomes two-peaked. (3 marks with graphs)</p><p><b>(b)</b> In the 1850s, before industrialisation, white-winged Biston betularia outnumbered dark-winged moths because white lichens on tree trunks camouflaged them from predators. After industrialisation (collections of 1920), soot killed the lichens and darkened the trunks, so dark moths were camouflaged and white moths were eaten; dark moths became more common. The pre-existing dark form was selected by the changed environment, a directional selection observed within decades. (1 mark)</p><p><b>(c)</b> Excessive use of herbicides and pesticides selects resistant varieties of weeds and pests within a few years; similarly, use of antibiotics selects antibiotic-resistant bacteria within months or years. These are examples of evolution by anthropogenic action, and they show that evolution is a stochastic process based on chance mutations and chance events, not a directed one. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the different types of evidence in favour of evolution, giving one example of each.",
+      "answer": "<p><b>1. Paleontological evidence (fossils):</b> fossils are remains of hard parts of organisms in sedimentary rocks; different-aged sediments contain different life forms, and deeper layers hold older, simpler forms, showing that life forms varied over geological time. Example: dinosaur fossils of extinct reptiles; the coelacanth linking lobefins to amphibians. (1 mark)</p><p><b>2. Comparative anatomy, homologous organs:</b> same structure, different functions, indicating common ancestry and divergent evolution. Example: forelimbs of whale, bat, cheetah and human with the same bones; thorn of Bougainvillea and tendril of Cucurbita. (1 mark)</p><p><b>3. Comparative anatomy, analogous organs:</b> different structure, same function, indicating convergent evolution in similar habitats. Example: wings of butterfly and bird; eye of octopus and mammals; sweet potato (root) and potato (stem). (1 mark)</p><p><b>4. Embryological evidence:</b> Haeckel proposed that vertebrate embryos share features such as a row of vestigial gill slits behind the head, functional only in fish; von Baer later showed embryos do not pass through the adult stages of other animals, so this evidence is treated with caution. (1 mark)</p><p><b>5. Biochemical (molecular) evidence:</b> similarities in proteins and genes performing a given function across diverse organisms point to common ancestry; the fewer the differences in a protein such as cytochrome c or haemoglobin, the closer the relationship. <b>Direct observation of selection:</b> industrial melanism in Biston betularia and antibiotic resistance in bacteria show natural selection operating within a human lifetime. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Trace the evolution of man from the ape-like primates of 15 million years ago to modern Homo sapiens, mentioning the brain capacity, food habits and other characteristic features of each stage.",
+      "answer": "<p><b>15 mya:</b> Dryopithecus (ape-like) and Ramapithecus (man-like) existed; hairy and walked like gorillas and chimpanzees. (½)</p><p><b>3 to 4 mya:</b> fossils from Ethiopia and Tanzania show man-like primates in eastern Africa, not taller than 4 feet, that walked upright. (½)</p><p><b>2 mya:</b> Australopithecines lived in East African grasslands, hunted with stone weapons but essentially ate fruit. (1)</p><p><b>Homo habilis:</b> the first human-like being (hominid); brain capacity 650 to 800 cc; probably did not eat meat. (1)</p><p><b>Homo erectus (1.5 mya):</b> fossils found in Java in 1891; brain around 900 cc; probably ate meat. (1)</p><p><b>Neanderthal man (1,00,000 to 40,000 years back):</b> brain 1400 cc; lived in near east and central Asia; used hides to protect the body and buried their dead. (½)</p><p><b>Homo sapiens:</b> arose in Africa and moved across continents, developing into distinct races; modern Homo sapiens arose during the ice age between 75,000 and 10,000 years ago; pre-historic cave art about 18,000 years ago; agriculture and human settlements about 10,000 years ago. (½)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. In a village population of 10,000 people, 3,600 individuals cannot roll their tongue, a trait controlled by the recessive allele r of a single gene; tongue rolling is dominant (R). Assume the population is in Hardy–Weinberg equilibrium.<br>(i) What is the frequency of the recessive allele r?<br>(ii) What is the frequency of the dominant allele R?<br>(iii) How many individuals in the population are expected to be heterozygous (Rr)?<br>(iv) Name any two factors that, if operating, would make the population depart from this equilibrium.",
+      "answer": "<p>(i) Non-rollers are rr, so q<sup>2</sup> = 3600/10000 = 0.36; q = √0.36 = 0.6. (1)</p><p>(ii) p = 1 − q = 1 − 0.6 = 0.4. (1)</p><p>(iii) Heterozygotes = 2pq = 2 × 0.4 × 0.6 = 0.48; 0.48 × 10,000 = 4,800 individuals. Check: RR = p<sup>2</sup> = 0.16 (1,600), Rr = 4,800, rr = 3,600; total 10,000. (1)</p><p>(iv) Any two of: gene migration (gene flow), genetic drift, mutation, genetic recombination, natural selection. (1)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "The table gives the number of amino-acid differences in the protein cytochrome c between humans and four organisms: chimpanzee 0, rhesus monkey 1, dog 11, tuna fish 21, yeast 44.<br>(i) Which organism is most closely related to humans, and which is most distantly related? Give a reason.<br>(ii) What kind of evidence for evolution does this data represent?<br>(iii) Would you expect the number of differences between humans and a frog to be closer to 11 or to 44? Justify.<br>(iv) Name one other molecule that could be compared in the same way.",
+      "answer": "<p>(i) Chimpanzee (0 differences) is most closely related; yeast (44 differences) is most distantly related. The fewer the amino-acid differences in a protein of common function, the more recently the two organisms shared a common ancestor. (1)</p><p>(ii) Biochemical or molecular evidence for evolution: similarities in proteins and genes performing a given function among diverse organisms give clues to common ancestry. (1)</p><p>(iii) Closer to 11 (in fact between the dog and the tuna values): a frog is a vertebrate and shares a more recent common ancestor with humans than a fish does, but a more distant one than a mammal such as a dog does; it is far closer to humans than yeast, a unicellular fungus. (1)</p><p>(iv) Haemoglobin (or DNA base sequences of a common gene). (1)</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The first cellular forms of life on earth appeared about",
+      "options": [
+        "4.5 billion years ago",
+        "3 billion years ago",
+        "2000 million years ago",
+        "500 million years ago"
+      ],
+      "answer_index": 2,
+      "explanation": "Non-cellular giant molecules could have formed about 3 billion years ago, but cellular life did not possibly originate till about 2000 million years ago."
+    },
+    {
+      "q": "Who disproved the theory of spontaneous generation?",
+      "options": [
+        "Oparin",
+        "Louis Pasteur",
+        "S.L. Miller",
+        "Haldane"
+      ],
+      "answer_index": 1,
+      "explanation": "Pasteur showed that in pre-sterilised flasks life did not arise from killed yeast, so life comes only from pre-existing life."
+    },
+    {
+      "q": "The gases used by Miller in his experiment were",
+      "options": [
+        "CH<sub>4</sub>, O<sub>2</sub>, NH<sub>3</sub> and water vapour",
+        "CH<sub>4</sub>, H<sub>2</sub>, NH<sub>3</sub> and water vapour",
+        "CO<sub>2</sub>, N<sub>2</sub>, O<sub>2</sub> and water vapour",
+        "CH<sub>4</sub>, H<sub>2</sub>, CO<sub>2</sub> and NH<sub>3</sub>"
+      ],
+      "answer_index": 1,
+      "explanation": "The early atmosphere was reducing; Miller used methane, hydrogen, ammonia and water vapour at slightly below 100 °C with an electric discharge and obtained amino acids."
+    },
+    {
+      "q": "Alfred Wallace, who reached conclusions similar to Darwin's, worked in",
+      "options": [
+        "the Galapagos Islands",
+        "the Malay Archipelago",
+        "Australia",
+        "South America"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT states that Wallace, a naturalist who worked in the Malay Archipelago, came to similar conclusions at about the same time."
+    },
+    {
+      "q": "The thorn of Bougainvillea and the tendril of Cucurbita are",
+      "options": [
+        "analogous organs showing convergent evolution",
+        "homologous organs showing divergent evolution",
+        "vestigial organs",
+        "analogous organs showing divergent evolution"
+      ],
+      "answer_index": 1,
+      "explanation": "Both arise as modifications of the axillary bud (same origin) but serve different functions, so they are homologous and illustrate divergent evolution."
+    },
+    {
+      "q": "Sweet potato and potato are an example of",
+      "options": [
+        "homologous organs, both being root modifications",
+        "homologous organs, both being stem modifications",
+        "analogous organs, sweet potato being a root and potato a stem",
+        "analogous organs, sweet potato being a stem and potato a root"
+      ],
+      "answer_index": 2,
+      "explanation": "Both store food, but sweet potato is a modified root and potato a modified stem: different structure, same function, hence analogous."
+    },
+    {
+      "q": "In the collection of Biston betularia made in 1920 from an industrial area of England, the moths were predominantly",
+      "options": [
+        "white-winged, because lichens covered the trunks",
+        "dark-winged, because soot had darkened the trunks",
+        "equally white and dark",
+        "white-winged, because pollution killed the dark form"
+      ],
+      "answer_index": 1,
+      "explanation": "After industrialisation soot killed the lichens and darkened the trunks, so dark moths were camouflaged and predominated by 1920."
+    },
+    {
+      "q": "Lichens are described as indicators of pollution because",
+      "options": [
+        "they grow only on polluted tree trunks",
+        "they do not grow in areas polluted by industrial soot",
+        "they turn dark in polluted air",
+        "they are eaten by peppered moths"
+      ],
+      "answer_index": 1,
+      "explanation": "Lichens are sensitive to sulphur dioxide and soot, so their absence marks a polluted area; that is why the industrial trunks lost their white lichen cover."
+    },
+    {
+      "q": "Which statement about de Vries's mutation theory is correct?",
+      "options": [
+        "Mutations are small and directional",
+        "Evolution proceeds gradually by accumulation of mutations",
+        "Mutations are random and directionless and can cause speciation in a single step",
+        "It was based on work on Drosophila"
+      ],
+      "answer_index": 2,
+      "explanation": "de Vries, working on evening primrose, proposed large, random, directionless mutations causing single-step speciation (saltation), in contrast to Darwin's small directional variations."
+    },
+    {
+      "q": "If the frequency of the dominant allele in a population is 0.7, the frequency of heterozygotes under Hardy–Weinberg equilibrium is",
+      "options": [
+        "0.21",
+        "0.42",
+        "0.49",
+        "0.09"
+      ],
+      "answer_index": 1,
+      "explanation": "p = 0.7, q = 0.3, so 2pq = 2 × 0.7 × 0.3 = 0.42."
+    },
+    {
+      "q": "The sum of the allelic frequencies of all alleles at a locus in a population in genetic equilibrium is",
+      "options": [
+        "0",
+        "0.5",
+        "1",
+        "variable from generation to generation"
+      ],
+      "answer_index": 2,
+      "explanation": "By definition the total of all allelic frequencies is 1 (p + q = 1), and under Hardy–Weinberg equilibrium these frequencies stay constant."
+    },
+    {
+      "q": "A change in allele frequency that occurs purely by chance in a small population is called",
+      "options": [
+        "gene flow",
+        "natural selection",
+        "genetic drift",
+        "recombination"
+      ],
+      "answer_index": 2,
+      "explanation": "Genetic drift is a chance change in allele frequency; when the drifted population becomes a new species the effect is the founder effect."
+    },
+    {
+      "q": "In stabilising selection",
+      "options": [
+        "more individuals acquire the peripheral character values",
+        "the peak of the distribution curve shifts to one side",
+        "more individuals acquire the mean character value",
+        "two peaks appear in the distribution curve"
+      ],
+      "answer_index": 2,
+      "explanation": "Stabilising selection favours the mean and eliminates both extremes, so the curve becomes narrower around the same mean."
+    },
+    {
+      "q": "The coelacanth, caught in South Africa in 1938, is significant because it is a living",
+      "options": [
+        "jawless fish",
+        "lobefin fish, a link to the first amphibians",
+        "ichthyosaur",
+        "amphibian that returned to water"
+      ],
+      "answer_index": 1,
+      "explanation": "Lobefin fishes with stout fins evolved into the first amphibians; the coelacanth is a surviving lobefin that had been thought extinct."
+    },
+    {
+      "q": "Dinosaurs disappeared from the earth about",
+      "options": [
+        "200 million years ago",
+        "65 million years ago",
+        "20 million years ago",
+        "2 million years ago"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT states that about 65 mya the dinosaurs suddenly disappeared, either from climatic changes or because most evolved into birds."
+    },
+    {
+      "q": "The hominid with a brain capacity of about 900 cc that probably ate meat was",
+      "options": [
+        "Homo habilis",
+        "Homo erectus",
+        "Neanderthal man",
+        "Australopithecus"
+      ],
+      "answer_index": 1,
+      "explanation": "Homo erectus (about 1.5 mya, fossils from Java) had a brain of around 900 cc and probably ate meat; Homo habilis had 650–800 cc and did not."
+    },
+    {
+      "q": "Modern Homo sapiens arose during the ice age between",
+      "options": [
+        "1,00,000 and 40,000 years ago",
+        "75,000 and 10,000 years ago",
+        "18,000 and 10,000 years ago",
+        "2 million and 1.5 million years ago"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT: during the ice age between 75,000 and 10,000 years ago modern Homo sapiens arose; 1,00,000 to 40,000 years is the Neanderthal period."
+    }
+  ],
+  "common_mistakes": [
+    "Swapping homologous and analogous: students write that analogous organs show common ancestry. Homologous → same structure, different function → divergent evolution → common ancestry; analogous → different structure, same function → convergent evolution. Each wrong pairing costs the full mark for that point.",
+    "Starting a Hardy–Weinberg calculation from the dominant phenotype percentage. Only the recessive phenotype equals a single genotype (q<sup>2</sup>); the dominant phenotype is p<sup>2</sup> + 2pq. Take the square root of the recessive fraction first.",
+    "Writing that the environment or the antibiotic produced the resistant variant. The examiner wants the Darwinian sequence: variation pre-existed by chance mutation, the drug selected it, resistant cells reproduced and became dominant.",
+    "Listing only three or four factors that disturb Hardy–Weinberg equilibrium. All five carry marks: gene flow, genetic drift, mutation, genetic recombination and natural selection.",
+    "Mixing up the adjectives for variation: Darwin's variations are small and directional; de Vries's mutations are large, random and directionless. Also, saltation belongs to de Vries, not to Darwin.",
+    "Attaching the wrong brain size or diet to a hominid, for example giving Homo habilis 900 cc or saying Neanderthals lived 1.5 mya. Learn habilis 650–800 cc (no meat), erectus 900 cc (meat, 1.5 mya), Neanderthal 1400 cc (1,00,000–40,000 years, hides, burial).",
+    "Drawing the three selection curves without a before curve and a labelled mean, or drawing disruptive selection with one shifted peak. The marking scheme gives the graph mark only when stabilising, directional and disruptive are visibly different and named.",
+    "Putting oxygen in Miller's flask, or giving the year or temperature wrongly. It is 1953, CH<sub>4</sub>, H<sub>2</sub>, NH<sub>3</sub> and water vapour, electric discharge, slightly below 100 °C, amino acids formed.",
+    "Calling human evolution adaptive radiation. Adaptive radiation is one ancestor diverging into many coexisting species in different habitats; human evolution is a linear sequence of successive forms ending in one species."
+  ],
+  "strategy": "<p>Evolution is a memory chapter with one calculation. Spend the first sitting on the two long lists that every paper draws from: the evidences (fossils, homologous and analogous organs with all NCERT example pairs, Haeckel and von Baer, biochemical similarity, industrial melanism, anthropogenic examples) and the human-evolution timeline with dates, brain sizes and diets. Write each list out from memory twice; the names and numbers are what the 1-mark and 2-mark questions test, and there is no partial credit for a vaguely right hominid.</p><p>In the second sitting master the Hardy–Weinberg section fully: state the principle in NCERT words, derive p<sup>2</sup> + 2pq + q<sup>2</sup> = 1 in four lines, list the five disturbing factors, and solve five numerical problems starting from a given recessive percentage. Then draw the three natural-selection curves until you can do them in a minute with before and after lines and the mean marked. This block alone is worth a 3-mark or 5-mark question in most years.</p><p>The third sitting is origin of life (Oparin–Haldane, Miller with exact conditions, Pasteur, panspermia, the dates for the universe, earth and first life) and the geological timeline (2000, 500, 350, 320, 200, 65 mya; the plant and animal orders). Finish with adaptive radiation and convergent evolution, keeping the finch and marsupial examples ready in two forms: a 2-mark definition-plus-example and a 3-mark compare-and-contrast.</p><p>In the exam, give definitions in NCERT wording, always attach an example, and label every diagram. For a 5-mark answer on natural selection, allocate three marks of effort to the graphs and one each to industrial melanism and an anthropogenic example. Do not spend more than 12 to 15 minutes on this chapter's questions in total; it rewards precision, not length.</p>",
+  "revision_checklist": [
+    "Universe about 20 billion years, earth 4.5 billion years, first life about 4 billion years ago (500 million years after earth formed), first cells about 2000 mya",
+    "Panspermia, spontaneous generation (disproved by Pasteur), Oparin–Haldane chemical evolution, and Miller 1953 (CH<sub>4</sub>, H<sub>2</sub>, NH<sub>3</sub>, water vapour, electric discharge, slightly below 100 °C, amino acids)",
+    "Darwin (HMS Beagle, Galapagos finches), Wallace (Malay Archipelago), the two key concepts: branching descent and natural selection; fitness = reproductive fitness",
+    "Lamarck's use and disuse with the giraffe example, and why it is rejected",
+    "Four evidences: fossils, comparative anatomy (homologous and analogous organs with every NCERT example), embryology (Haeckel proposed, von Baer disproved), biochemical similarity",
+    "Industrial melanism: 1850s white-winged, 1920 dark-winged, lichens, predators; anthropogenic evolution through pesticides and antibiotics; evolution is stochastic, not directed",
+    "Adaptive radiation defined with Darwin's finches and Australian marsupials; placental–marsupial pairs as convergent evolution",
+    "Darwin's observations (Malthus, limited resources, stable populations, heritable variation, competition) and the bacterial-colony argument for fitness",
+    "de Vries: evening primrose, mutations large, random, directionless; saltation; contrast with Darwin's small directional variations",
+    "Hardy–Weinberg: statement, p + q = 1, p<sup>2</sup> + 2pq + q<sup>2</sup> = 1 derived, one worked calculation, five disturbing factors, founder effect",
+    "Three types of natural selection drawn and named: stabilising, directional, disruptive",
+    "Geological timeline: 500 mya invertebrates, 350 mya jawless fish, 320 mya sea weeds, lobefins → amphibians (coelacanth 1938), reptiles with thick-shelled eggs, 200 mya ichthyosaurs, 65 mya dinosaurs gone, first mammals shrew-like, continental drift and Australian marsupials",
+    "Plant order (algae → mosses → ferns → gymnosperms → angiosperms) and animal order (invertebrates → jawless fish → fish → amphibians → reptiles → birds and mammals)",
+    "Human evolution: Dryopithecus and Ramapithecus 15 mya, Australopithecines 2 mya, Homo habilis 650–800 cc, Homo erectus 900 cc at 1.5 mya, Neanderthal 1400 cc, modern Homo sapiens 75,000–10,000 years, cave art 18,000, agriculture 10,000",
+    "Why human evolution is not adaptive radiation, and the components of human evolution (brain, skeleton, diet, culture)"
+  ],
+  "videos": []
+}

@@ -1,0 +1,37 @@
+{
+ "voice": "Anika - Engaging Teacher (ElevenLabs, eleven_multilingual_v2)",
+ "en": [
+  10.7,
+  16.28,
+  15.25,
+  8.46,
+  13.13,
+  5.12
+ ],
+ "hi": [
+  13.52,
+  16.04,
+  16.19,
+  10.15,
+  16.21,
+  5.65
+ ],
+ "text": {
+  "en": [
+   "This is a rectangular coil ABCD. It sits between the north and south poles of a magnet, so a magnetic field runs across it from N to S.",
+   "The two ends of the coil are joined to a split ring. Two brushes, X and Y, press on the ring and connect it to a battery. Current comes in at X and flows through A, B, C and D.",
+   "Arm AB carries current one way and arm CD the other way. In the same field, AB is pushed up and CD is pushed down. Fleming’s left-hand rule gives the directions.",
+   "Two equal forces in opposite directions make a couple, and the coil starts to turn about its axle.",
+   "After half a turn the split ring swaps brushes. The current in the coil reverses, so the arm on the left is always pushed up, and the coil keeps turning the same way.",
+   "That is an electric motor: electrical energy in, rotation out."
+  ],
+  "hi": [
+   "यह एक रेक्टैंगुलर कॉइल ABCD है। यह मैग्नेट के नॉर्थ और साउथ पोल के बीच रखी है, इसलिए मैग्नेटिक फ़ील्ड इसके आर-पार N से S की तरफ़ चलती है।",
+   "कॉइल के दोनों सिरे एक स्प्लिट रिंग से जुड़े हैं। दो ब्रश, X और Y, रिंग पर दबते हैं और उसे बैटरी से जोड़ते हैं। करंट X से अंदर आता है और A, B, C, D से होकर बहता है।",
+   "आर्म AB में करंट एक तरफ़ है और आर्म CD में दूसरी तरफ़। एक ही फ़ील्ड में AB ऊपर धकेला जाता है और CD नीचे। दिशा फ्लेमिंग के लेफ्ट-हैंड रूल से मिलती है।",
+   "दो बराबर और उल्टी दिशा की फ़ोर्स मिलकर एक कपल बनाती हैं, और कॉइल अपने एक्सल के चारों ओर घूमने लगती है।",
+   "आधे चक्कर के बाद स्प्लिट रिंग ब्रश बदल लेती है। कॉइल का करंट उल्टा हो जाता है, इसलिए बाईं तरफ़ वाला आर्म हमेशा ऊपर धकेला जाता है, और कॉइल उसी दिशा में घूमती रहती है।",
+   "यही इलेक्ट्रिक मोटर है: इलेक्ट्रिकल एनर्जी अंदर, रोटेशन बाहर।"
+  ]
+ }
+}

@@ -1,0 +1,918 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 11,
+  "slug": "sound",
+  "title": "Sound",
+  "summary": "Sound is a form of energy produced by a vibrating body and carried by a medium as a longitudinal wave. This chapter covers how sound is produced and travels, its wave properties, the speed of sound in different media, reflection of sound (echo and reverberation), the human range of hearing, applications of ultrasound including SONAR, and the structure of the human ear.",
+  "exam_profile": {
+    "weightage": "Class 9 Science is one 80-mark paper covering physics, chemistry and biology. Sound belongs to the physics portion and typically carries about 4 to 6 marks: usually an MCQ or assertion-reason item, a short numerical or definition-based VSA/SA question, and sometimes a 5-mark question combining a diagram with a short derivation-style explanation, or a case-based passage on SONAR or the human ear.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Which property decides pitch or loudness; unit of frequency; order of speed in solids/liquids/gases; minimum distance for an echo; range of human hearing; reading a displacement–time graph."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Sound cannot travel in vacuum; sound is faster in solids than gases; bats use ultrasound to navigate; thunder is heard after the flash; reverberation is reduced by soft furnishings."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define wavelength, frequency, time period or amplitude; state the audible range; define echo; name the middle-ear bones; state one use of ultrasound."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "A numerical using v = λν or d = v×t/2; explain compressions/rarefactions with a diagram; describe the medium experiment; compare speed of sound in solids, liquids and gases."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Structure and working of the human ear with a diagram; SONAR's working and applications; reflection, echo and reverberation together with a numerical."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on SONAR, bats, or the human ear, with four sub-questions including one calculation."
+      }
+    ],
+    "hot_topics": [
+      "Production and propagation of sound: vibration, compressions and rarefactions, why sound needs a medium",
+      "Sound as a longitudinal wave and its characteristics: wavelength, frequency, time period, amplitude, and v = λν",
+      "Speed of sound in solids, liquids and gases, and why it is fastest in solids",
+      "Reflection of sound: laws of reflection, echo, minimum distance for a distinct echo",
+      "Reverberation and how it is controlled in halls",
+      "Range of hearing: audible, infrasonic and ultrasonic ranges, with examples of animals",
+      "Applications of ultrasound: cleaning, detecting flaws in metals, SONAR, medical use",
+      "Structure and working of the human ear with the three regions labelled"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "11.1 Production of Sound",
+      "pyq_years": [],
+      "body": "<p>Sound is a form of energy that produces a sensation of hearing in our ears. Every sound we hear, from a plucked guitar string to a clapping hand, is produced by a vibrating object. Vibration means a rapid to-and-fro (back and forth) motion of an object about its mean position.</p><p>You can feel this directly. Touch your throat gently while speaking and you will feel your vocal cords vibrating. Stretch a rubber band between two fingers and pluck it — you both hear a sound and see it vibrate. Strike a tuning fork on a rubber pad and touch it to the surface of water in a beaker; the water splashes because the vibrating prongs disturb it. If the same tuning fork, still vibrating, is touched to a suspended table-tennis ball hung by a thread, the ball is repeatedly pushed away, showing that the fork's prongs are moving rapidly.</p><p>When a body vibrates, it sets the particles of the medium around it (usually air) into vibration too, and this disturbance travels outward as sound. So the source of every sound is a vibrating object, and the amount of vibration is what eventually decides how loud or soft the sound is.</p>",
+      "formulas": [],
+      "tip": "If asked 'how is sound produced', always answer in terms of vibration of an object, and give one everyday example with a simple test (tuning fork on water, or feeling the throat)."
+    },
+    {
+      "heading": "11.2 Propagation of Sound — Sound Needs a Medium to Travel",
+      "pyq_years": [],
+      "body": "<p>A vibrating object creates a disturbance in the medium around it, and it is this disturbance, not the matter of the medium itself, that travels as sound. The particles of the medium do not move all the way from the source to your ear; each particle vibrates about its own mean position and passes the disturbance on to its neighbour, like a row of collapsing dominoes.</p><p>Sound therefore needs a material medium to travel — solid, liquid or gas. It cannot travel through vacuum, because there are no particles there to vibrate and carry the disturbance forward. This is shown by the classic bell-in-a-jar experiment: an electric bell is suspended inside an airtight bell jar connected to a vacuum pump. As the bell rings, its sound is heard clearly. As air is pumped out of the jar, the sound becomes fainter and fainter, and once nearly all the air is removed the sound becomes inaudible, even though the hammer of the bell can still be seen striking the gong. This proves that air (a medium) is essential for sound to travel; it also proves sound cannot travel through vacuum, which is why astronauts on the Moon, which has no atmosphere, cannot talk to each other directly through the air and instead use radio waves.</p><p>Sound generally travels fastest in solids, slower in liquids and slowest in gases, because particles are packed most tightly in solids, allowing the disturbance to be passed on to the next particle more quickly.</p>",
+      "formulas": [],
+      "tip": "The bell-jar experiment is a favourite 3-mark 'describe an experiment' question. Mention: airtight jar, vacuum pump, bell rings continuously, sound fades as air is removed, sound stops (though the hammer is still seen striking) when air is nearly all removed."
+    },
+    {
+      "heading": "11.2.1 Sound Waves Are Longitudinal Waves",
+      "pyq_years": [],
+      "body": "<p>When a tuning fork or any vibrating source moves forward into the air, it pushes the air particles close to it, crowding them together into a region of higher density and pressure. This region is called a <b>compression (C)</b>. When the source then moves backward, it creates a region where the particles are spread further apart, of lower density and pressure, called a <b>rarefaction (R)</b>. As the source keeps vibrating, it produces a continuous series of alternating compressions and rarefactions that move outward through the medium, and this moving pattern is the sound wave.</p><p>In this wave, the particles of the medium vibrate back and forth along the same direction in which the wave itself travels (parallel to it), not perpendicular to it. A wave in which the particles of the medium vibrate parallel to the direction of propagation of the wave is called a <b>longitudinal wave</b>. Sound is always a longitudinal wave when it travels through air or any fluid. (Contrast this with a transverse wave, such as a ripple on water or the wave on a plucked string, where particles vibrate perpendicular to the direction the wave travels — sound in a stretched string or the surface of a solid can show transverse components, but sound in air and other fluids is purely longitudinal.)</p><p>A sound wave can be represented on a graph as pressure or density plotted against distance: compressions appear as crests (regions of high pressure) and rarefactions as troughs (regions of low pressure) even though no actual up-down motion occurs in the medium.</p>",
+      "formulas": [],
+      "tip": "Do not say sound particles 'travel' from source to listener — only the disturbance (energy) travels; each particle just oscillates about its mean position. Examiners specifically reward this distinction."
+    },
+    {
+      "heading": "11.2.3 Characteristics of a Sound Wave",
+      "pyq_years": [],
+      "body": "<p>A sound wave, like any wave, is described by four quantities.</p><p><b>Wavelength (λ):</b> the distance between two consecutive compressions or two consecutive rarefactions, measured in metres (m). It equals the distance covered by the wave during one complete vibration of a particle of the medium.</p><p><b>Frequency (ν or f):</b> the number of complete oscillations (compressions and rarefactions) produced per unit time. Its SI unit is the hertz (Hz); 1 Hz means one vibration per second. Frequency is a fixed property of the source and does not change as the wave moves into a new medium.</p><p><b>Time period (T):</b> the time taken by one complete oscillation of density (or pressure) of the medium, measured in seconds. It is the reciprocal of frequency, T = 1/ν.</p><p><b>Amplitude (A):</b> the magnitude of the maximum disturbance of the particles of the medium from their mean (undisturbed) position, on either side, when the wave passes. It is measured in the same unit as displacement of the medium particles.</p><p>These combine to give the speed of the wave: distance travelled by the wave in one time period is one wavelength, so speed = wavelength ÷ time period, i.e. v = λ/T = λν, since ν = 1/T. This is the general wave equation and applies to every kind of wave, not only sound.</p><p><b>Loudness</b> of a sound depends on the amplitude of the wave — larger amplitude means louder sound; it is measured in decibel (dB). <b>Pitch</b> (how shrill or how flat a sound is) depends on frequency — higher frequency means a higher pitch (shriller sound). The quality or <b>timbre</b> of sound helps us distinguish two sounds of the same pitch and loudness, e.g. a violin and a flute playing the same note — richer sound is said to have better quality.</p>",
+      "formulas": [
+        {
+          "expr": "v = λ/T = λν",
+          "where": [
+            [
+              "v",
+              "speed of the wave (m s<sup>−1</sup>)"
+            ],
+            [
+              "λ",
+              "wavelength (m)"
+            ],
+            [
+              "T",
+              "time period (s)"
+            ],
+            [
+              "ν",
+              "frequency (Hz), = 1/T"
+            ]
+          ]
+        }
+      ],
+      "tip": "Loudness → amplitude. Pitch → frequency. This pairing is asked almost every year in some form (MCQ or VSA) — do not mix them up."
+    },
+    {
+      "heading": "11.3 Speed of Sound in Different Media",
+      "pyq_years": [],
+      "body": "<p>The speed of sound is the distance travelled by a sound wave in the medium per unit time. It depends on the nature and the temperature of the medium the wave is passing through, and, unlike frequency, it changes when the wave moves from one medium to another.</p><p>In general, the speed of sound is <b>greatest in solids, less in liquids, and least in gases</b>. This is because the particles of a solid are the most closely packed and most strongly bound to their neighbours, so a disturbance is transferred from particle to particle very quickly; particles in gases are the most loosely packed and farthest apart, so the transfer is slowest. For example, the approximate speed of sound at 25 °C is about 346 m/s in air, about 1,498 m/s in water, and about 5,960 m/s in steel — roughly seventeen times faster in steel than in air.</p><p>The speed of sound also increases as the temperature of the medium rises, because warmer particles vibrate faster and pass the disturbance on more quickly. This is why thunder from a distant cloud takes a measurable time to reach us, and also why divers or people with an ear to a railway track can hear an approaching train through the rail (a solid) before they hear it through the air.</p>",
+      "formulas": [
+        {
+          "expr": "v<sub>solid</sub> > v<sub>liquid</sub> > v<sub>gas</sub>",
+          "where": [
+            [
+              "v",
+              "speed of sound"
+            ]
+          ]
+        }
+      ],
+      "tip": "If a question mentions 'two sounds heard, one through a rod/rail and one through air, which is heard first', the answer is always the one through the solid, because sound travels fastest in solids."
+    },
+    {
+      "heading": "11.4 Reflection of Sound",
+      "pyq_years": [],
+      "body": "<p>Sound, like light, gets reflected from a surface. When sound waves strike a large, hard, and smooth surface — a wall, a hill, or a cliff — they bounce back. This obeys the same laws of reflection that apply to light: the angle of incidence equals the angle of reflection, and the incident sound wave, the reflected sound wave, and the normal at the point of incidence all lie in the same plane.</p><p>Sound requires a surface, solid or liquid, for reflection; large smooth surfaces of big buildings, cliffs, or mountains work well because they are much larger than the wavelength of sound.</p>",
+      "formulas": [],
+      "tip": "State the two laws of reflection exactly as for light — this earns marks even in a sound question."
+    },
+    {
+      "heading": "11.4.1 Echo",
+      "pyq_years": [],
+      "body": "<p>If we hear our own sound after it has been reflected off a large, distant surface, we call it an <b>echo</b>. For an echo to be heard as a separate, distinct sound from the original one, the reflected sound must reach our ear at least 0.1 second after the original sound is heard — this is because a sound sensation persists in our brain for about 0.1 s (this is called the persistence of hearing); if the gap is smaller than this, the original sound and its echo blend into one another and no separate echo is perceived.</p><p>Using the speed of sound in air as 344 m/s, the sound must travel out to the reflecting surface and back within at least 0.1 s to be perceived as an echo, so the minimum distance of the reflecting surface from the source (and listener) works out as follows: distance travelled by sound in 0.1 s = v × t = 344 × 0.1 = 34.4 m; since sound covers this distance going out and coming back, the reflecting obstacle must be at least half of this away, i.e. 34.4/2 = 17.2 m. So for an echo to be heard, the minimum distance between the source of sound (and the listener) and the reflecting surface must be about 17.2 m, and this distance would change if the temperature of the air (and hence the speed of sound) changes.</p><p>Echoes can be reinforced multiple times if there are several reflecting surfaces at suitable distances, producing multiple, progressively fainter echoes — this is what happens in the rolling sound of thunder, which is due to the successive reflection of sound from a number of clouds.</p>",
+      "formulas": [
+        {
+          "expr": "d<sub>min</sub> = v × t<sub>min</sub> / 2",
+          "where": [
+            [
+              "d<sub>min</sub>",
+              "minimum distance of the reflecting surface (m)"
+            ],
+            [
+              "v",
+              "speed of sound in the medium (m s<sup>−1</sup>)"
+            ],
+            [
+              "t<sub>min</sub>",
+              "minimum time gap for persistence of hearing, 0.1 s"
+            ]
+          ]
+        }
+      ],
+      "tip": "Any 'echo' numerical is really an SI-units question: distance = speed × time, and the total path is there-and-back, so divide by 2 to get the distance to the obstacle. Show both steps in the working."
+    },
+    {
+      "heading": "11.4.2 Reverberation",
+      "pyq_years": [],
+      "body": "<p>In a large hall or auditorium, sound reflects repeatedly off the walls, ceiling and floor before it dies out. This persistence of sound, caused by multiple reflections, is called <b>reverberation</b>. A certain amount of reverberation is desirable to make a sound rich, but if it is excessive, successive sounds (or syllables of speech) overlap and blend into one another, making the sound distorted and hard to follow — this is a problem in large empty halls with hard, bare walls.</p><p>To reduce excessive reverberation, the roof and walls of the hall are generally covered with sound-absorbent materials, such as compressed fibreboard, rough plaster, or draperies (heavy curtains); the seat materials are also selected on the basis of their sound-absorbing properties. This is why an auditorium looks and feels 'soft' — carpets, cushioned seats, and fabric-covered walls all serve an acoustic purpose, not just a decorative one.</p>",
+      "formulas": [],
+      "tip": "Reverberation and echo are often confused. Echo is one clear, separated repeated sound from a single distant surface; reverberation is the blurred persistence of sound from many nearby overlapping reflections in an enclosed space."
+    },
+    {
+      "heading": "11.4.3 Uses of Multiple Reflection of Sound",
+      "pyq_years": [],
+      "body": "<p>Multiple reflection of sound is deliberately put to use in several devices and structures.</p><p><b>Megaphones and horns (loudhailers), musical instruments such as trumpets and shehnais</b>, and even the human ear's own external structure, are all designed with a shape that guides sound in a particular direction using multiple reflections, so that sound does not spread out in all directions and can be heard clearly over a longer range.</p><p><b>Stethoscopes</b>, used by doctors to listen to sounds produced inside the body (chiefly the heart and lungs), work on the principle of multiple reflection of sound: the sound of the patient's heartbeat reaches the doctor's ears by multiple reflections along the tube of the instrument.</p><p><b>Soundboards</b> — curved, concave surfaces placed behind the stage in concert halls and conference halls — are used to reflect sound evenly towards the audience across the hall, so that people sitting even at the back can hear clearly. The ceilings of large halls and auditoriums are often designed in a curved shape for the same reason, so that sound, after reflection, reaches all corners of the hall.</p>",
+      "formulas": [],
+      "tip": "For 'name any two devices based on multiple reflection of sound', the safest pair to write is megaphone and stethoscope, each with one line on how the shape guides the sound."
+    },
+    {
+      "heading": "11.5 Range of Hearing",
+      "pyq_years": [],
+      "body": "<p>The human ear is sensitive to only a limited range of frequencies. An average healthy young human ear can detect sound waves with frequencies from about <b>20 Hz to 20,000 Hz (20 kHz)</b>; this is called the <b>audible range</b>. Sensitivity to the upper limit generally decreases with age, so older people may be less able to hear very high-frequency sounds.</p><p>Sounds with frequencies below 20 Hz are called <b>infrasonic sound</b> or infrasound. Rhinoceroses can produce and detect infrasound at frequencies as low as approximately 5 Hz; whales, elephants and giraffes also communicate using infrasound over long distances; and infrasound waves are generated during events such as earthquakes even before the shocks arrive, which some animals appear to sense in advance.</p><p>Sounds with frequencies above 20,000 Hz are called <b>ultrasonic sound</b> or ultrasound. Bats, dolphins and porpoises can produce and detect ultrasonic waves; bats use it to hunt for prey and navigate in the dark by emitting ultrasonic squeaks and listening for the echo bouncing off obstacles or insects, a technique called echolocation. Dogs can hear ultrasound to a somewhat higher frequency than humans, which is why 'silent' dog whistles work.</p>",
+      "formulas": [
+        {
+          "expr": "Audible range (humans): 20 Hz ≤ ν ≤ 20,000 Hz",
+          "where": [
+            [
+              "Infrasonic",
+              "ν < 20 Hz"
+            ],
+            [
+              "Ultrasonic",
+              "ν > 20,000 Hz"
+            ]
+          ]
+        }
+      ],
+      "tip": "Do not confuse infrasonic (below 20 Hz, e.g. earthquakes, whales) with ultrasonic (above 20 kHz, e.g. bats, SONAR, medical scanning) — this pairing is a very common one-mark trap."
+    },
+    {
+      "heading": "11.6 Applications of Ultrasound",
+      "pyq_years": [],
+      "body": "<p>Because ultrasonic waves have a high frequency (short wavelength), they can be produced as a narrow, directed beam carrying a lot of energy without spreading out, and are widely used in industry and medicine.</p><p><b>Cleaning:</b> objects with hard-to-reach parts — spiral tubes, odd-shaped machine parts, intricate jewellery — are placed in a cleaning solution and ultrasonic waves are passed through it. The high-frequency vibrations loosen and detach dust, grease and dirt clinging to the object, giving a thorough clean without dismantling it.</p><p><b>Detecting flaws in metal components:</b> ultrasonic waves are passed through a metal casting or machine part. A small internal defect reflects the waves back, revealing its presence and location — a crack that would otherwise remain hidden and could later weaken the structure.</p><p><b>Medical use:</b> ultrasound generates images of internal organs (ultrasonography) to detect abnormalities such as kidney or gallbladder stones, and to observe a foetus during pregnancy; the waves reflect differently off tissues of different densities, and the echoes build an image on screen. High-intensity ultrasound also breaks kidney stones into fine grains that are flushed out in urine, without surgery.</p><p><b>SONAR</b> (covered next) is another major application, used to detect underwater objects and measure sea depth.</p>",
+      "formulas": [],
+      "tip": "For a 5-mark 'applications of ultrasound' answer, give at least three distinct uses (cleaning, flaw detection, medical scanning/kidney stones) with one line of mechanism each, not just a list of names."
+    },
+    {
+      "heading": "11.6.1 SONAR",
+      "pyq_years": [],
+      "body": "<p><b>SONAR</b> stands for <b>SO</b>und <b>NA</b>vigation <b>R</b>anging — a device using ultrasonic waves to find the distance, direction and speed of underwater objects such as submarines, shipwrecks and icebergs, and to measure the depth of the sea.</p><p>A SONAR system has a <b>transmitter</b> and a <b>detector</b>, installed on a boat or ship. The transmitter sends out ultrasonic waves; these travel through water, strike an object, and reflect back; the detector receives this echo and converts it into an electrical signal, which is interpreted to give the distance and location of the object.</p><p>The time between transmitting and receiving the pulse is recorded, and knowing the speed of sound in water, the distance is calculated: the wave covers the source-to-object-and-back path twice, so the one-way distance is half of speed × total time.</p><p><b>Worked example:</b> a SONAR sends a signal and receives its echo from an object 5 s later, the object being 3625 m away. Total distance travelled = 2 × 3625 = 7250 m. Speed = 7250/5 = <b>1450 m/s.</b></p>",
+      "formulas": [
+        {
+          "expr": "d = v × t / 2",
+          "where": [
+            [
+              "d",
+              "distance of the object from the SONAR (m)"
+            ],
+            [
+              "v",
+              "speed of sound in water (m s<sup>−1</sup>)"
+            ],
+            [
+              "t",
+              "total time between sending and receiving the pulse (s)"
+            ]
+          ]
+        }
+      ],
+      "tip": "In every SONAR numerical, first decide whether the time given is the total round-trip time (divide the v×t product by 2) or already the one-way time (don't divide). Read the question twice before plugging in."
+    },
+    {
+      "heading": "11.7 Structure of Human Ear",
+      "pyq_years": [],
+      "body": "<p>The human ear converts pressure variations (sound waves) in air into electrical signals the brain interprets as sound. It has three parts: the outer ear, the middle ear and the inner ear.</p><p>The <b>outer ear</b> is the <b>pinna</b>, which collects sound and funnels it down the <b>auditory canal</b> to a thin, elastic membrane, the <b>eardrum (tympanic membrane)</b>. A compression pushes the eardrum inward; a rarefaction pushes it outward — so the eardrum vibrates in tune with the incoming wave.</p><p>The <b>middle ear</b> has three small bones — the <b>malleus (hammer), incus (anvil) and stapes (stirrup)</b> — connected to each other and to the eardrum, which amplify its vibrations before passing them on. The <b>Eustachian tube</b> connects the middle ear to the throat, equalising air pressure on both sides of the eardrum so it can vibrate freely.</p><p>The amplified vibrations reach the fluid-filled <b>inner ear</b> through the coiled <b>cochlea</b>, where receptor cells convert the pressure variations into electrical signals, carried to the brain by the <b>auditory nerve</b>, which interprets them as sound.</p>",
+      "formulas": [],
+      "tip": "For the 5-mark diagram-based question, label all four in order and mention their function in one phrase each: pinna (collects sound) → eardrum (vibrates) → hammer-anvil-stirrup (amplify) → cochlea (converts to electrical signal, sent to brain by the auditory nerve)."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Vibration",
+      "definition": "A rapid to-and-fro (back and forth) motion of an object about its mean position; every sound is produced by a vibrating body."
+    },
+    {
+      "term": "Compression",
+      "definition": "A region in a sound wave where the particles of the medium are crowded together, giving higher density and higher pressure than normal."
+    },
+    {
+      "term": "Rarefaction",
+      "definition": "A region in a sound wave where the particles of the medium are spread apart, giving lower density and lower pressure than normal."
+    },
+    {
+      "term": "Longitudinal wave",
+      "definition": "A wave in which the particles of the medium vibrate parallel to (along) the direction in which the wave travels; sound in air is always a longitudinal wave."
+    },
+    {
+      "term": "Wavelength (λ)",
+      "definition": "The distance between two consecutive compressions or two consecutive rarefactions; SI unit metre (m)."
+    },
+    {
+      "term": "Frequency (ν)",
+      "definition": "Number of complete oscillations produced per unit time; SI unit hertz (Hz). Decides the pitch."
+    },
+    {
+      "term": "Time period (T)",
+      "definition": "The time taken for one complete oscillation of density/pressure at a point in the medium; T = 1/ν, measured in seconds."
+    },
+    {
+      "term": "Amplitude",
+      "definition": "Maximum displacement of medium particles from their mean position as the wave passes; decides loudness."
+    },
+    {
+      "term": "Pitch",
+      "definition": "The characteristic of sound that lets us judge how shrill or how flat (low) it is; it depends on the frequency of the sound — higher frequency gives a higher pitch."
+    },
+    {
+      "term": "Loudness",
+      "definition": "The characteristic of sound related to how loud or soft it is perceived; it depends on the amplitude of the sound wave and is measured in decibel (dB)."
+    },
+    {
+      "term": "Quality (timbre)",
+      "definition": "The characteristic that allows us to distinguish between two sounds of the same pitch and loudness, produced by different sources or instruments."
+    },
+    {
+      "term": "Echo",
+      "definition": "The sound heard after reflection from a large, distant surface, perceived as distinct from the original sound because of the persistence of hearing (about 0.1 s)."
+    },
+    {
+      "term": "Reverberation",
+      "definition": "The persistence of sound in a large enclosed space caused by multiple, closely spaced reflections off the walls, ceiling and floor."
+    },
+    {
+      "term": "Infrasonic sound",
+      "definition": "Sound with frequency below 20 Hz, inaudible to humans; produced/detected by rhinoceroses, whales, elephants and during earthquakes."
+    },
+    {
+      "term": "Ultrasonic sound",
+      "definition": "Sound with frequency above 20,000 Hz, inaudible to humans; produced/detected by bats and dolphins, and used in SONAR and medical imaging."
+    },
+    {
+      "term": "SONAR",
+      "definition": "Sound Navigation and Ranging — a device using ultrasonic waves to find the distance/direction of underwater objects and sea depth."
+    },
+    {
+      "term": "Eardrum (tympanic membrane)",
+      "definition": "A thin elastic membrane at the end of the auditory canal in the outer ear that vibrates when sound waves (compressions and rarefactions) strike it."
+    },
+    {
+      "term": "Cochlea",
+      "definition": "A coiled, fluid-filled tube in the inner ear that converts sound's pressure variations into electrical signals for the auditory nerve."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Wave equation",
+      "expr": "v = λ/T = λν",
+      "note": "v = speed of the wave, λ = wavelength, T = time period, ν = frequency = 1/T; applies to any wave, including sound."
+    },
+    {
+      "name": "Frequency–time period relation",
+      "expr": "ν = 1/T",
+      "note": "Frequency in hertz (Hz); time period in seconds (s)."
+    },
+    {
+      "name": "Minimum distance for a distinct echo",
+      "expr": "d<sub>min</sub> = v × 0.1 / 2",
+      "note": "Persistence of hearing is about 0.1 s; with v = 344 m/s in air, d<sub>min</sub> ≈ 17.2 m."
+    },
+    {
+      "name": "SONAR / echo distance",
+      "expr": "d = v × t / 2",
+      "note": "t is the total time for the pulse to go to the object and return as an echo; v is the speed of sound in that medium."
+    },
+    {
+      "name": "Speed of sound (typical values, ~25 °C)",
+      "expr": "v<sub>air</sub> ≈ 346 m/s, v<sub>water</sub> ≈ 1,498 m/s, v<sub>steel</sub> ≈ 5,960 m/s",
+      "note": "Order: solids > liquids > gases; speed rises with temperature."
+    },
+    {
+      "name": "Order of speed in media",
+      "expr": "v<sub>solid</sub> > v<sub>liquid</sub> > v<sub>gas</sub>",
+      "note": "Because particles are most closely packed in solids and farthest apart in gases."
+    },
+    {
+      "name": "Audible range of humans",
+      "expr": "20 Hz ≤ ν ≤ 20,000 Hz",
+      "note": "Below 20 Hz: infrasonic. Above 20,000 Hz: ultrasonic."
+    },
+    {
+      "name": "Loudness vs amplitude",
+      "expr": "Loudness ∝ (amplitude)<sup>2</sup> (qualitatively: larger amplitude ⇒ louder sound)",
+      "note": "Loudness in decibel (dB); amplitude in the unit of displacement."
+    },
+    {
+      "name": "Laws of reflection of sound",
+      "expr": "∠i = ∠r; incident ray, reflected ray and normal lie in the same plane",
+      "note": "Same laws as for light, applied at the point where sound strikes a surface."
+    },
+    {
+      "name": "Wavelength–frequency inverse relation",
+      "expr": "λ = v/ν",
+      "note": "For a fixed speed v (fixed medium), a higher frequency always gives a shorter wavelength, and vice versa."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Compressions and rarefactions from a vibrating tuning fork",
+      "how_to_draw": "Draw a tuning fork with its two prongs, and to its right draw a series of vertical lines of varying spacing representing air particles: closely-spaced lines labelled 'C' (compression) alternating with widely-spaced lines labelled 'R' (rarefaction), moving outward from the fork. Add an arrow showing the direction of wave propagation, and label one full C-to-C (or R-to-R) span as one wavelength λ."
+    },
+    {
+      "title": "Displacement/pressure–distance graph of a sound wave",
+      "how_to_draw": "Draw x-axis as distance and y-axis as pressure/density variation, plotting a smooth sine-like curve. Mark the crests (peaks) as compressions and troughs as rarefactions. Label the distance between two consecutive crests as the wavelength λ, and the height of a crest from the mean line as the amplitude A."
+    },
+    {
+      "title": "Working of SONAR",
+      "how_to_draw": "Draw a ship on the water surface with a transmitter and a detector/receiver mounted below it. Draw an arrow from the transmitter going down and hitting a submarine or the sea bed, then a second arrow (the echo) bouncing back up to the detector. Label the one-way distance as d, and note that the total path travelled by the wave is 2d."
+    },
+    {
+      "title": "Structure of the human ear",
+      "how_to_draw": "Draw three regions left to right: outer ear (pinna → auditory canal), middle ear (eardrum, then hammer-anvil-stirrup, with the Eustachian tube to the throat), and inner ear (coiled cochlea → auditory nerve → brain). Label all parts."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "11.1",
+      "q": "What is sound and how is it produced?",
+      "a": "<p>Sound is a form of energy that produces a sensation of hearing in our ears. It is produced by a vibrating object — for example, a stretched rubber band vibrates when plucked and produces sound, and a tuning fork vibrates and produces sound when struck. The vibrating object sets the particles of the surrounding medium (usually air) into vibration, and this disturbance travels outward as sound.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.2",
+      "q": "Describe, with the help of a diagram, how compressions and rarefactions are produced in air near a source of sound.",
+      "a": "<p>When a source such as a vibrating tuning fork moves forward, it pushes nearby air particles together, creating a region of higher density and pressure called a <b>compression (C)</b>. When it moves backward, the particles spread out, creating a region of lower density and pressure called a <b>rarefaction (R)</b>. Continuous vibration produces alternating C and R regions, one wavelength apart, moving outward as the sound wave. (Diagram: tuning fork with alternating closely-spaced lines marked C and widely-spaced lines marked R radiating outward.)</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.3",
+      "q": "Cite an experiment to show that sound needs a material medium for its propagation.",
+      "a": "<p>An electric bell is suspended inside an airtight glass bell jar connected to a vacuum pump and rung continuously. With air present, the ringing is heard clearly. As air is pumped out, the sound grows fainter, and once almost all air is removed, no sound is heard at all, though the hammer is still seen striking the bell. This shows sound needs a material medium and cannot travel through vacuum.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.4",
+      "q": "Why is sound wave called a longitudinal wave?",
+      "a": "<p>A sound wave is called a longitudinal wave because the particles of the medium through which it travels vibrate back and forth parallel to (along) the direction in which the wave itself travels, producing alternating compressions and rarefactions — unlike a transverse wave, where particles vibrate perpendicular to the direction of propagation.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.5",
+      "q": "Which characteristic of the sound helps you to identify your friend by his voice while sitting with him in the dark?",
+      "a": "<p>The <b>quality (or timbre)</b> of the sound. Even when two voices have the same pitch and loudness, their quality differs because of the different mix of frequencies each voice box produces, and this quality is what lets us recognise a particular speaker by voice alone.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.6",
+      "q": "Flash and thunder are produced simultaneously during a lightning storm, but thunder is heard a few seconds after the flash is seen. Why?",
+      "a": "<p>Light travels at about 3 × 10<sup>8</sup> m/s, which is enormously faster than sound, which travels at only about 344 m/s in air. So although the lightning flash and the thunder are produced at the same instant, the light from the flash reaches our eyes almost instantly, while the much slower sound of the thunder takes several seconds to cover the same distance and reach our ears.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.7",
+      "q": "A person is at a distance of 340 m from a hill and fires a gun. After what time will he hear the echo? (Speed of sound in air = 340 m/s.)",
+      "a": "<p>The sound has to travel from the person to the hill and back, a total distance of 2 × 340 m = 680 m.</p><p>Time = distance/speed = 680/340 = <b>2 seconds.</b></p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.8",
+      "q": "Explain how bats use ultrasound to catch prey.",
+      "a": "<p>Bats emit high-frequency ultrasonic squeaks (above 20,000 Hz) while flying. These ultrasonic waves travel out, strike a nearby obstacle or a flying insect, and are reflected back as an echo. The bat detects this echo with its sensitive ears and, from the time delay and direction of the echo, judges the exact distance, direction, nature and size of the obstacle or prey, allowing it to navigate and hunt precisely even in complete darkness. This technique is called echolocation.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.9",
+      "q": "How is ultrasound used for cleaning?",
+      "a": "<p>Objects with hard-to-reach parts, such as spiral tubes, odd-shaped machine components or electronic parts, are placed in a cleaning solution, and ultrasonic waves are passed through the solution. The high-frequency vibrations dislodge dust, grease and dirt particles sticking to the object, and these particles fall off, leaving the object thoroughly clean without needing to dismantle it.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11.10",
+      "q": "Explain the working and application of a SONAR.",
+      "a": "<p>SONAR has a transmitter and detector on a boat or ship. The transmitter sends ultrasonic waves into the water; these strike an underwater object and reflect back. The detector receives this echo and converts it to an electrical signal, from whose timing the object's distance is found using d = v × t/2. SONAR is used to find the depth of the sea and to locate underwater obstacles such as icebergs, sunken ships and submarines.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.11",
+      "q": "A sonar device on a submarine sends out a signal and receives an echo 5 s later. Calculate the speed of sound in water if the distance of the object from the submarine is 3625 m.",
+      "a": "<p>Total distance travelled by the wave (to the object and back) = 2 × 3625 = 7250 m.</p><p>Time taken = 5 s.</p><p>Speed = total distance/time = 7250/5 = <b>1450 m/s.</b></p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.12",
+      "q": "Explain how defects in a metal block can be detected using ultrasound.",
+      "a": "<p>Ultrasonic waves are passed through the metal block and detectors are placed to record the waves that pass through or reflect back. If the metal block has no defects, the ultrasonic waves pass through it without any obstruction. But if there is even a small defect, such as a crack or a cavity, inside the block, the ultrasonic waves get reflected back from the surface of the defect. These reflected waves are detected and displayed on a screen (in a device called a detector), revealing the presence and location of the defect, which would otherwise remain hidden inside the metal.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "11.13",
+      "q": "Explain how the human ear works.",
+      "a": "<p>Sound entering the pinna travels down the auditory canal and strikes the eardrum, making it vibrate. The three tiny bones of the middle ear — hammer, anvil and stirrup — amplify these vibrations and pass them to the fluid-filled cochlea of the inner ear, where receptor cells convert them into electrical signals. These travel to the brain via the auditory nerve, and the brain interprets them as sound.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "intext",
+      "number": "11.14",
+      "q": "A person has a hearing range from 20 Hz to 20,000 Hz. What are the typical wavelengths of sound waves in air corresponding to these two frequencies? Take the speed of sound in air as 344 m/s.",
+      "a": "<p>Using λ = v/ν:</p><p>For ν = 20 Hz: λ = 344/20 = <b>17.2 m</b> (the longest wavelength the ear can detect).</p><p>For ν = 20,000 Hz: λ = 344/20000 = 0.0172 m = <b>1.72 cm</b> (the shortest wavelength).</p><p>So the wavelengths of audible sound in air range from about 1.72 cm to 17.2 m.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "intext",
+      "number": "11.15",
+      "q": "Two children are at opposite ends of an aluminium rod. One strikes the end of the rod with a stone. Find the ratio of times taken by the sound wave in the air and in aluminium to reach the second child.",
+      "a": "<p>Sound travels much faster through the solid aluminium rod (about 6420 m/s) than through air (about 344 m/s). So the sound travelling through the rod will reach the second child first, well before the sound travelling through air. The ratio of time taken in air to time taken in aluminium is roughly the inverse ratio of their speeds, i.e. t<sub>air</sub> : t<sub>aluminium</sub> ≈ 6420 : 344 ≈ 18.7 : 1, so the child hears two separate sounds — the one through the metal rod first, and the one through air noticeably later.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Sound waves in air are:",
+      "options": [
+        "transverse waves",
+        "longitudinal waves",
+        "electromagnetic waves",
+        "neither transverse nor longitudinal"
+      ],
+      "answer": "b",
+      "solution": "In air, the particles vibrate parallel to the direction the wave travels, forming compressions and rarefactions — this makes sound a longitudinal wave."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The loudness of a sound is determined mainly by its:",
+      "options": [
+        "frequency",
+        "amplitude",
+        "wavelength",
+        "time period"
+      ],
+      "answer": "b",
+      "solution": "Loudness depends on the amplitude of the sound wave; a larger amplitude gives a louder sound."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The speed of sound is generally greatest in:",
+      "options": [
+        "air",
+        "water",
+        "steel",
+        "vacuum"
+      ],
+      "answer": "c",
+      "solution": "Sound travels fastest in solids because their particles are most closely packed, so steel (a solid) gives the greatest speed among the options; sound cannot travel in vacuum at all."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The audible range of frequencies for an average healthy human ear is:",
+      "options": [
+        "2 Hz to 2,000 Hz",
+        "20 Hz to 20,000 Hz",
+        "200 Hz to 200,000 Hz",
+        "20,000 Hz to 200,000 Hz"
+      ],
+      "answer": "b",
+      "solution": "The normal human audible range is 20 Hz to 20,000 Hz (20 kHz); below this is infrasonic and above it is ultrasonic."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "SONAR is used to:",
+      "options": [
+        "measure the temperature of the sea",
+        "detect the depth of the sea and locate underwater objects",
+        "purify sea water",
+        "generate electricity from waves"
+      ],
+      "answer": "b",
+      "solution": "SONAR (Sound Navigation and Ranging) sends out ultrasonic pulses and times their echo to find the depth of the sea and the distance/location of underwater objects."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The minimum time gap required between a sound and its reflection for the human ear to perceive them as separate (an echo) is about:",
+      "options": [
+        "1 s",
+        "0.1 s",
+        "0.01 s",
+        "1 min"
+      ],
+      "answer": "b",
+      "solution": "The human brain retains a sound sensation for about 0.1 s (persistence of hearing); a reflected sound reaching the ear before this gap merges with the original and is not perceived as a separate echo."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Astronauts on the Moon cannot talk to each other directly through the air even when standing close by. Reason (R): Sound cannot travel through vacuum because there is no medium to carry the vibrations.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The Moon has no atmosphere, so it is essentially a vacuum around the astronauts; since sound needs particles of a medium to vibrate and pass the disturbance on, it cannot travel through vacuum, so R correctly explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Sound travels faster in solids than in gases. Reason (R): The particles of a solid are more closely packed than those of a gas, so a disturbance is passed from particle to particle more quickly.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both statements are correct, and the close packing of particles in a solid, which lets each particle hand on the disturbance to its neighbour faster, is exactly why sound speed is highest in solids."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Bats can navigate and hunt for prey in complete darkness. Reason (R): Bats emit ultrasonic waves and use the echo reflected from obstacles or prey to judge distance and direction.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Bats use echolocation: they send out ultrasonic squeaks, and the echo reflected from objects tells them the object's distance and direction, letting them hunt and fly accurately even without light."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Define wavelength and frequency of a sound wave, and state their SI units.",
+      "answer": "<p>Wavelength (λ) is the distance between two consecutive compressions or rarefactions; SI unit metre (m). Frequency (ν) is the number of complete oscillations per unit time; SI unit hertz (Hz).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is meant by reverberation? State one way of reducing it in a large hall.",
+      "answer": "<p>Reverberation is the persistence of sound in an enclosed space from multiple, repeated reflections off the walls, ceiling and floor after the original sound has stopped. It is reduced by covering surfaces with sound-absorbent materials (fibreboard, rough plaster, thick curtains) and cushioned seating.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the three bones present in the middle ear of a human being, and state their function.",
+      "answer": "<p>The malleus (hammer), incus (anvil) and stapes (stirrup); together they amplify vibrations from the eardrum before passing them to the inner ear (cochlea).</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is an echo? State the condition needed for an echo to be heard distinctly.",
+      "answer": "<p>An echo is sound heard again after reflection from a large, distant surface. It is heard distinctly only if the reflected sound reaches the ear at least 0.1 s after the original, since sound sensation persists in the brain for about 0.1 s.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A sound wave has a frequency of 500 Hz and a wavelength of 0.66 m in a given medium. Find (i) the speed of sound in that medium, and (ii) its time period.",
+      "answer": "<p>(i) v = λν = 0.66 × 500 = <b>330 m/s</b>.</p><p>(ii) T = 1/ν = 1/500 = <b>0.002 s</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "State the laws of reflection of sound. A boy standing at a distance of 172 m from a tall building fires a gun. Calculate the time after which he hears an echo, if the speed of sound in air is 344 m/s.",
+      "answer": "<p>Laws: (1) angle of incidence = angle of reflection; (2) incident ray, reflected ray and normal lie in the same plane.</p><p>Total path = 2 × 172 = 344 m. Time = 344/344 = <b>1 s.</b></p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain, with reasons, why the speed of sound is greater in solids than in liquids, and greater in liquids than in gases.",
+      "answer": "<p>Sound travels by particles passing on a disturbance to their neighbours. In solids, particles are packed closely and bound by strong forces, so the disturbance transfers almost instantly. In liquids the packing is looser, so transfer is slower. In gases particles are far apart and must travel further before colliding, making transfer slowest. Hence v<sub>solid</sub> > v<sub>liquid</sub> > v<sub>gas</sub>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Distinguish between infrasonic and ultrasonic sound, giving one example of each.",
+      "answer": "<p>Infrasonic sound (below 20 Hz) is below human hearing; used by whales and elephants to communicate, and produced during earthquakes. Ultrasonic sound (above 20,000 Hz) is above human hearing; bats and dolphins use it for echolocation, and it is used in SONAR and medical scanning.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "With the help of a labelled diagram, describe the structure of the human ear and explain how it enables us to hear sound.",
+      "answer": "<p>The human ear has three parts. <b>Outer ear:</b> the pinna collects sound and channels it through the auditory canal to the eardrum (tympanic membrane), which vibrates when compressions and rarefactions strike it. <b>Middle ear:</b> three bones — malleus (hammer), incus (anvil) and stapes (stirrup) — amplify these vibrations before passing them on; the Eustachian tube connects to the throat and equalises pressure on both sides of the eardrum. <b>Inner ear:</b> the amplified vibrations enter the fluid-filled, coiled cochlea, where receptor cells convert them into electrical signals, carried to the brain by the auditory nerve, which interprets them as sound. (Diagram: pinna → auditory canal → eardrum → hammer-anvil-stirrup with Eustachian tube to the throat → cochlea → auditory nerve to the brain, all labelled.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "What is SONAR? Explain its working with a labelled diagram, and give two of its applications. A submarine sends a SONAR pulse that returns after 1.02 s from an underwater cliff. If the speed of sound in salt water is 1531 m/s, find the distance of the cliff from the submarine.",
+      "answer": "<p>SONAR (Sound Navigation and Ranging) uses ultrasonic waves to find the distance, direction and speed of underwater objects and the depth of the sea. A transmitter sends ultrasonic waves that travel through water, strike an object, and reflect back as an echo; a detector picks up this echo and converts it to an electrical signal, and the time between transmission and reception, with the known speed of sound in water, gives the distance: d = v × t/2. Applications: measuring sea depth, and locating icebergs, shipwrecks and submarines. (Diagram: ship with transmitter and detector, downward arrow to the object, upward arrow of the reflected echo.)</p><p><b>Numerical:</b> one-way time = 1.02/2 = 0.51 s. Distance = 1531 × 0.51 = <b>780.81 m</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Explain the terms echo and reverberation. Describe how reverberation is minimised in large halls, and how multiple reflection of sound is put to constructive use in any two devices.",
+      "answer": "<p>An <b>echo</b> is a distinctly heard, separate repetition of sound from a single distant surface, heard only if the reflected sound arrives at least 0.1 s after the original (persistence of hearing). <b>Reverberation</b> is the continued persistence of sound in an enclosed space from many overlapping reflections; too much of it blurs speech and music. It is reduced by covering walls and ceiling with sound-absorbent materials (fibreboard, rough plaster, heavy curtains) and using cushioned seating.</p><p>Multiple reflection is also used constructively: in a <b>megaphone</b>, the horn-shaped structure reflects sound repeatedly to direct it forward in a narrow beam that carries further; in a <b>stethoscope</b>, a patient's heartbeat reaches the doctor's ears by multiple reflections along the tube, without spreading out and weakening.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A ship on the surface of the ocean sends an ultrasonic pulse straight down to survey the sea bed. The pulse strikes the sea bed and returns to the detector on the ship 2 s later. The speed of sound in sea water is 1500 m/s.<br>(i) Name the device on the ship that is being used for this survey, and expand its abbreviation.<br>(ii) Why is ultrasound, and not ordinary audible sound, used for this purpose?<br>(iii) Calculate the depth of the sea at that point.<br>(iv) State one other application of this device besides finding the depth of the sea.",
+      "answer": "<p>(i) The device is <b>SONAR</b> — SOund Navigation And Ranging.</p><p>(ii) Ultrasound has a high frequency (short wavelength), so it can be sent as a narrow, directed, high-energy beam that travels far underwater without spreading out, unlike ordinary audible sound.</p><p>(iii) One-way time = 2/2 = 1 s. Depth = speed × time = 1500 × 1 = <b>1500 m.</b></p><p>(iv) It also locates underwater objects such as submarines, sunken ships and icebergs.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A bat flying in a completely dark cave is able to catch flying insects and avoid crashing into the cave walls without any light at all.<br>(i) What technique does the bat use to do this, and what type of sound waves does it emit?<br>(ii) Is the frequency of these waves above or below 20,000 Hz?<br>(iii) Briefly explain how this technique lets the bat judge the position of an obstacle or an insect.<br>(iv) Name one other animal that can produce or detect sound waves of this type.",
+      "answer": "<p>(i) The bat uses <b>echolocation</b>, emitting ultrasonic squeaks.</p><p>(ii) The frequency is <b>above 20,000 Hz</b>.</p><p>(iii) The waves strike an obstacle or insect and reflect back as an echo; the bat's ears detect it, and the delay and direction tell it the object's distance, direction and size.</p><p>(iv) Dolphins (or porpoises) also produce and detect ultrasonic waves.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Sound is produced by:",
+      "options": [
+        "a stationary object",
+        "a vibrating object",
+        "a heated object",
+        "a magnetised object"
+      ],
+      "answer_index": 1,
+      "explanation": "Every sound originates from an object vibrating (moving rapidly to and fro about its mean position)."
+    },
+    {
+      "q": "In a sound wave, a compression is a region of:",
+      "options": [
+        "low pressure and low density",
+        "high pressure and high density",
+        "zero pressure",
+        "high pressure and low density"
+      ],
+      "answer_index": 1,
+      "explanation": "A compression is where the medium's particles are crowded together, giving higher density and higher pressure than normal."
+    },
+    {
+      "q": "The pitch of a sound depends on its:",
+      "options": [
+        "amplitude",
+        "wavelength",
+        "frequency",
+        "speed"
+      ],
+      "answer_index": 2,
+      "explanation": "A higher frequency gives a higher (shriller) pitch; pitch is not decided by amplitude, which instead governs loudness."
+    },
+    {
+      "q": "Which of these correctly relates the speed, wavelength and frequency of a wave?",
+      "options": [
+        "v = λ + ν",
+        "v = λ/ν",
+        "v = λν",
+        "v = ν/λ"
+      ],
+      "answer_index": 2,
+      "explanation": "The wave equation is v = λν, since speed equals wavelength divided by time period, and frequency is the reciprocal of time period."
+    },
+    {
+      "q": "Sound cannot travel through:",
+      "options": [
+        "air",
+        "water",
+        "steel",
+        "vacuum"
+      ],
+      "answer_index": 3,
+      "explanation": "Sound needs a material medium with particles to vibrate; vacuum has no particles, so sound cannot travel through it, as shown by the bell-jar experiment."
+    },
+    {
+      "q": "A tuning fork of frequency 320 Hz produces sound waves of wavelength 1 m in air. The speed of sound in air is:",
+      "options": [
+        "32 m/s",
+        "320 m/s",
+        "160 m/s",
+        "640 m/s"
+      ],
+      "answer_index": 1,
+      "explanation": "v = λν = 1 × 320 = 320 m/s."
+    },
+    {
+      "q": "The time period of a sound wave of frequency 250 Hz is:",
+      "options": [
+        "250 s",
+        "0.4 s",
+        "0.004 s",
+        "4 s"
+      ],
+      "answer_index": 2,
+      "explanation": "T = 1/ν = 1/250 = 0.004 s."
+    },
+    {
+      "q": "The minimum distance of a reflecting surface from a source for a distinct echo to be heard in air (v = 344 m/s) is about:",
+      "options": [
+        "3.44 m",
+        "17.2 m",
+        "34.4 m",
+        "172 m"
+      ],
+      "answer_index": 1,
+      "explanation": "d = v × t/2 = 344 × 0.1/2 = 17.2 m, using the persistence of hearing time of 0.1 s."
+    },
+    {
+      "q": "Reverberation in a hall can be reduced by:",
+      "options": [
+        "making the walls smooth and hard",
+        "covering walls and ceiling with sound-absorbing materials",
+        "removing the roof",
+        "increasing the size of the hall"
+      ],
+      "answer_index": 1,
+      "explanation": "Sound-absorbent materials such as fibreboard, rough plaster or curtains absorb excess sound energy instead of reflecting it repeatedly, cutting down reverberation."
+    },
+    {
+      "q": "The frequency range of infrasonic sound is:",
+      "options": [
+        "above 20,000 Hz",
+        "20 Hz to 20,000 Hz",
+        "below 20 Hz",
+        "below 2 Hz only"
+      ],
+      "answer_index": 2,
+      "explanation": "Infrasonic sound has frequency below 20 Hz, below the human audible range; whales and elephants use it to communicate."
+    },
+    {
+      "q": "SONAR works on the principle of:",
+      "options": [
+        "refraction of light",
+        "reflection of ultrasonic waves",
+        "diffraction of sound",
+        "polarisation of sound"
+      ],
+      "answer_index": 1,
+      "explanation": "SONAR sends out ultrasonic waves and detects their echo (reflection) from an underwater object to determine its distance."
+    },
+    {
+      "q": "A device on a ship sends an ultrasonic pulse that returns after 4 s; if the speed of sound in water is 1500 m/s, the depth of the sea is:",
+      "options": [
+        "1500 m",
+        "3000 m",
+        "6000 m",
+        "750 m"
+      ],
+      "answer_index": 1,
+      "explanation": "One-way time = 4/2 = 2 s; depth = v × t = 1500 × 2 = 3000 m."
+    },
+    {
+      "q": "The three bones of the middle ear, in order from the eardrum inward, are:",
+      "options": [
+        "stirrup, anvil, hammer",
+        "hammer, anvil, stirrup",
+        "anvil, hammer, stirrup",
+        "cochlea, hammer, anvil"
+      ],
+      "answer_index": 1,
+      "explanation": "In order from the eardrum, the bones are the malleus (hammer), incus (anvil), and stapes (stirrup)."
+    },
+    {
+      "q": "The part of the human ear that converts pressure variations of sound into electrical signals is the:",
+      "options": [
+        "pinna",
+        "eardrum",
+        "cochlea",
+        "Eustachian tube"
+      ],
+      "answer_index": 2,
+      "explanation": "The cochlea in the inner ear contains receptor cells that convert the pressure (sound) variations into electrical signals sent to the brain."
+    },
+    {
+      "q": "Ultrasound used to clean spiral tubes and odd-shaped components works mainly by:",
+      "options": [
+        "dissolving the dirt chemically",
+        "vibrating and detaching dirt particles from the surface",
+        "heating the object",
+        "magnetising the dirt away"
+      ],
+      "answer_index": 1,
+      "explanation": "The high-frequency ultrasonic vibrations in the cleaning solution shake loose and detach the dust and grease particles clinging to the object."
+    },
+    {
+      "q": "Which statement about the speed of sound is correct?",
+      "options": [
+        "It is the same in all media",
+        "It is greatest in gases",
+        "It is greatest in solids and least in gases",
+        "It does not depend on temperature"
+      ],
+      "answer_index": 2,
+      "explanation": "Speed of sound is greatest in solids (particles most closely packed) and least in gases; it also increases with the temperature of the medium."
+    }
+  ],
+  "common_mistakes": [
+    "Saying particles of the medium 'travel' from the source to the listener — only the disturbance (energy) travels; each particle merely vibrates about its own mean position, and marks are lost for the opposite claim.",
+    "Mixing up loudness and pitch — loudness depends on amplitude, pitch depends on frequency. Writing 'high amplitude gives a high pitch' is a very common and heavily penalised error.",
+    "Forgetting to divide by 2 in echo/SONAR numericals — the time given is usually for the round trip (source to object and back), so distance = v × t/2, not v × t.",
+    "Not converting units before calculating — forgetting to change minutes to seconds, or cm to m, before applying v = λν or d = v × t/2.",
+    "Confusing echo with reverberation — echo is one clear, separate repeated sound from a single distant surface; reverberation is the blurred persistence of sound from many nearby overlapping reflections.",
+    "Confusing infrasonic and ultrasonic — infrasonic is below 20 Hz (earthquakes, whales), ultrasonic is above 20,000 Hz (bats, SONAR); many students swap these two definitions under exam pressure.",
+    "Naming only one bone, or the wrong order, for the middle ear — all three (hammer, anvil, stirrup) must be named, and questions asking for 'in order from the eardrum' expect that exact sequence.",
+    "Stating that frequency changes when sound passes from one medium into another — frequency stays fixed (it is a property of the source); it is the speed and the wavelength that change with the medium."
+  ],
+  "strategy": "<p>Sound is a short, high-return chapter — nearly every mark in it comes from one of three things: a clean definition, a labelled diagram, or a two-step numerical using v = λν or d = v × t/2. Start by learning the four wave properties (wavelength, frequency, time period, amplitude) cold, along with which one decides pitch and which one decides loudness — this single pairing shows up as an MCQ, an assertion-reason, or a VSA almost every year.</p><p>Next, practise the bell-jar experiment and the echo/SONAR numericals until the working is automatic: always identify whether the given time is a one-way or a round-trip time before using the formula, and always convert units first. Learn the ear diagram by drawing it three or four times from memory, labelling all five parts (pinna, auditory canal, eardrum, the three middle-ear bones, cochlea, auditory nerve) and writing one line on the function of each — this is the surest 5-mark question in the chapter.</p><p>For the range-of-hearing and ultrasound sections, memorise the two numbers (20 Hz and 20,000 Hz) and be ready with one clear example each for infrasonic and ultrasonic sound, plus at least three applications of ultrasound (cleaning, flaw detection, medical scanning, SONAR). Finally, do not skip reverberation and the uses of multiple reflection (megaphone, stethoscope, soundboard) — these are quick two- or three-mark questions that are easy to lose only because students under-revise them, not because they are hard.</p>",
+  "revision_checklist": [
+    "I can state that sound is produced by a vibrating object, with one example.",
+    "I can explain, with the bell-jar experiment, why sound needs a material medium and cannot travel in vacuum.",
+    "I can explain why sound is a longitudinal wave, using the terms compression and rarefaction correctly.",
+    "I can define wavelength, frequency, time period and amplitude, with their SI units.",
+    "I can state and use the wave equation v = λν, converting units correctly first.",
+    "I know loudness depends on amplitude, and pitch depends on frequency, and can identify quality/timbre as the third characteristic of sound.",
+    "I know the order v(solid) > v(liquid) > v(gas) and can explain why in terms of particle spacing.",
+    "I can state the two laws of reflection of sound.",
+    "I can define echo, state the 0.1 s persistence-of-hearing condition, and calculate the minimum distance for a distinct echo.",
+    "I can define reverberation, distinguish it from echo, and name two ways to reduce it in a hall.",
+    "I can name two devices based on multiple reflection of sound (megaphone, stethoscope) and explain how each works.",
+    "I know the human audible range (20 Hz–20,000 Hz) and can define infrasonic and ultrasonic sound with one example of each.",
+    "I can list at least three applications of ultrasound: cleaning, detecting flaws in metals, and medical use (scanning/kidney stones).",
+    "I can explain SONAR's working with a labelled diagram and solve a SONAR distance numerical using d = v × t/2.",
+    "I can draw and label the human ear (pinna, auditory canal, eardrum, hammer-anvil-stirrup, cochlea, auditory nerve) and explain how it converts sound to an electrical signal."
+  ],
+  "videos": []
+}

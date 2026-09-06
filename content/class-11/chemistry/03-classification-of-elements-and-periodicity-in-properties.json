@@ -1,0 +1,805 @@
+{
+  "class": 11,
+  "subject": "Chemistry",
+  "chapter_no": 3,
+  "slug": "classification-of-elements-and-periodicity-in-properties",
+  "title": "Classification of Elements and Periodicity in Properties",
+  "summary": "How the periodic table grew from Döbereiner's triads to the modern periodic law, how block, period and group follow from electronic configuration, and how radius, ionization enthalpy, electron gain enthalpy, electronegativity, valence and reactivity vary across periods and down groups.",
+  "exam_profile": {
+    "weightage": "Class 11 has no board exam. In the school final this chapter sits in the first unit with Chapters 1 and 2 and carries 1-, 2-, 3- and 5-mark questions; it is reused throughout Class 12 and is high-return for JEE and NEET.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Period, group or block from a configuration; the correctly ordered trend; IUPAC name for Z > 100."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "The exceptions: Be > B, N > O, Cl more negative than F, positive values for noble gases."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "State a law or define a term; compare two species with one reason."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Explain a trend with its cause for three related species; place an element from its configuration."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "History from Döbereiner to Moseley, or a full trend across a period and down a group with exceptions."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A small table of ionization enthalpies or radii with four sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Ionization enthalpy trend and the Be > B, N > O exceptions",
+      "Group, period and block from electronic configuration",
+      "Electron gain enthalpy: halogens, noble gases, F vs Cl",
+      "Atomic and ionic radius; isoelectronic species",
+      "Diagonal relationship and period-2 anomalies",
+      "Mendeleev's law versus the modern periodic law",
+      "IUPAC names for Z > 100",
+      "Valence and the acid–base nature of oxides"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "3.1 Why Do We Need to Classify Elements?",
+      "pyq_years": [],
+      "body": "<p>In 1800 only 31 elements were known; by 1865 there were 63, and today there are 118. Studying each one on its own is unworkable, so chemists looked for a way to group elements that behave alike. Once similar elements sit together, the chemistry of one member of a family tells you about the others.</p><p>The periodic table is chemistry's most successful classification, and it is a tool for prediction rather than a chart to memorise. From an element's position you can predict its valence, the formulas of its oxide and hydride, whether it is a metal or a non-metal, and how its size and reactivity compare with its neighbours. Every earlier attempt was a search for the property whose repetition is truly periodic; it turned out to be electronic configuration.</p>",
+      "formulas": [],
+      "tip": "Open a 5-mark history answer with why classification is needed: systematic study and prediction."
+    },
+    {
+      "heading": "3.2 Genesis of Periodic Classification",
+      "pyq_years": [],
+      "body": "<p><b>Döbereiner's triads:</b> by 1829 Johann Döbereiner had noticed groups of three similar elements in which the atomic mass of the middle one is roughly the mean of the other two: Li 7, Na 23, K 39; also Ca–Sr–Ba and Cl–Br–I. Limitation: only a few such triads could be found.</p><p><b>Newlands' law of octaves (1865):</b> arranged by increasing atomic mass, every eighth element resembled the first. Limitation: it held only for the lighter elements, up to calcium.</p><p><b>Mendeleev's periodic table (1869):</b> Mendeleev (and independently Lothar Meyer) arranged the 63 known elements by increasing atomic mass, grouping those with similar properties, judged by the formulas of their hydrides and oxides. His <b>periodic law</b>: <i>the properties of the elements are a periodic function of their atomic weights</i>. He left gaps for undiscovered elements and predicted their properties, naming them eka-aluminium (gallium, found 1875) and eka-silicon (germanium, 1886). Where properties demanded it he ignored mass order, placing iodine after the heavier tellurium to keep it with the halogens.</p><p><b>Limitations:</b> such reversed pairs (Te–I, Co–Ni, later Ar–K) had no explanation in a mass-based law, isotopes had no clear place, and hydrogen's position was uncertain.</p>",
+      "formulas": [],
+      "tip": "For each attempt keep one example and one limitation ready."
+    },
+    {
+      "heading": "3.3 Modern Periodic Law and the Present Form of the Periodic Table",
+      "pyq_years": [],
+      "body": "<p>In 1913 Henry Moseley found that the square root of the frequency of the characteristic X-rays of an element rises linearly with its atomic number, not its atomic mass. Atomic number, the number of protons, is therefore the fundamental property, giving the <b>modern periodic law</b>: <i>the physical and chemical properties of the elements are periodic functions of their atomic numbers</i>. Properties repeat because electronic configuration repeats, and Ar (Z = 18) simply precedes K (Z = 19).</p><p>The <b>long form of the periodic table</b> has 7 horizontal <b>periods</b> and 18 vertical <b>groups</b>, numbered 1 to 18 by IUPAC. Each period begins when electrons start entering a new principal shell and ends with a noble gas. Elements in a group have the same number of valence electrons and similar chemistry; elements in a period have the same number of shells but a nuclear charge that rises by one at each step, so their properties change steadily from left to right.</p><p>Period lengths are 2, 8, 8, 18, 18, 32 and 32: twice the number of orbitals filled in the period. Period 6 fills 6s, 4f, 5d, 6p (16 orbitals, 32 elements).</p>",
+      "formulas": [],
+      "tip": "Why does Ar come before K? Atomic number 18 < 19, never mass."
+    },
+    {
+      "heading": "3.4 Nomenclature of Elements with Atomic Numbers Greater than 100",
+      "pyq_years": [],
+      "body": "<p>New heavy elements are made in a few laboratories, and disputes over priority made naming slow. IUPAC therefore gives each new element a temporary systematic name and three-letter symbol built from the digits of its atomic number, used until a permanent name is approved. The digit roots are 0 nil, 1 un, 2 bi, 3 tri, 4 quad, 5 pent, 6 hex, 7 sept, 8 oct, 9 enn. Write the roots for the digits of Z in order, add -ium, and take the first letter of each root as the symbol.</p><p>Examples: Z = 104 is un-nil-quad-ium, <b>Unnilquadium (Unq)</b>, now rutherfordium (Rf). Z = 106 is <b>Unnilhexium (Unh)</b>, now seaborgium (Sg). Z = 118 is <b>Ununoctium (Uuo)</b>, now oganesson (Og). NCERT's worked example is Z = 120: un-bi-nil-ium, <b>Unbinilium (Ubn)</b>. A double letter is dropped where roots meet, so Z = 109 is Unnilennium (Une) and Z = 102 is Unnilbium (Unb).</p>",
+      "formulas": [],
+      "tip": "Practise Z = 101 to 120 once; the middle-0 names (Unnil-) are the ones asked."
+    },
+    {
+      "heading": "3.5 Electronic Configurations of Elements and the Periodic Table",
+      "pyq_years": [],
+      "body": "<p>The shape of the periodic table is a picture of the order in which orbitals fill: 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d, 5p, 6s, 4f, 5d, 6p, 7s, 5f, 6d, 7p. A new period starts every time electrons begin to enter a new principal shell. Periods 1, 2 and 3 fill 1s, then 2s and 2p, then 3s and 3p; 3d waits because 4s is lower in energy. Period 4 starts with 4s (K, Ca), then the ten 3d elements Sc to Zn (the first transition series), then 4p (Ga to Kr). Period 6 fills 6s, 4f (the lanthanoids), 5d and 6p; period 7 fills 7s, 5f (the actinoids), 6d and 7p and ends at Og (Z = 118).</p><p>Two rules follow. The <b>period number equals the principal quantum number n of the outermost shell</b>: sodium, 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>3s<sup>1</sup>, has highest n = 3, so period 3. The <b>group is fixed by the number and type of valence electrons</b>, the same for every member: all alkali metals are ns<sup>1</sup>, all halogens ns<sup>2</sup>np<sup>5</sup>, which is why a group behaves alike.</p>",
+      "formulas": [],
+      "tip": "Cr (3d<sup>5</sup>4s<sup>1</sup>), Cu (3d<sup>10</sup>4s<sup>1</sup>) and Pd (4d<sup>10</sup>5s<sup>0</sup>) break smooth filling, not their group numbers."
+    },
+    {
+      "heading": "3.6 Electronic Configurations and Types of Elements: s-, p-, d-, f-Blocks; Metals, Non-metals and Metalloids",
+      "pyq_years": [],
+      "body": "<p>Elements are sorted into four blocks by the subshell that receives the last electron.</p><p><b>s-block (groups 1, 2):</b> ns<sup>1</sup> alkali metals, ns<sup>2</sup> alkaline earth metals: reactive metals with low ionization enthalpy. <b>Group = number of valence electrons.</b></p><p><b>p-block (groups 13 to 18):</b> ns<sup>2</sup>np<sup>1</sup> to ns<sup>2</sup>np<sup>6</sup>. With the s-block these are the <b>representative (main-group) elements</b>. It ends with the noble gases, whose complete ns<sup>2</sup>np<sup>6</sup> shell (1s<sup>2</sup> for He) makes them very unreactive. <b>Group = 10 + valence electrons.</b></p><p><b>d-block, the transition elements (groups 3 to 12):</b> (n−1)d<sup>1–10</sup>ns<sup>0–2</sup>. Metals with variable oxidation states and coloured ions; the series are 3d (Sc–Zn), 4d (Y–Cd), 5d (La, Hf–Hg). Zn, Cd and Hg (full d<sup>10</sup>) lack most transition properties. <b>Group = (n−1)d electrons + ns electrons.</b></p><p><b>f-block, the inner transition elements:</b> (n−2)f<sup>1–14</sup>(n−1)d<sup>0–1</sup>ns<sup>2</sup>. The lanthanoids (Ce–Lu, 4f) and actinoids (Th–Lr, 5f) all belong to group 3 and are chemically very uniform because the differentiating electron enters a deep f subshell.</p><p><b>Metals</b> (over 78% of all elements) lie on the left and centre, <b>non-metals</b> at the top right, and a zig-zag line separates them; elements on the line such as Si, Ge, As, Sb and Te are <b>metalloids</b>. Hydrogen (1s<sup>1</sup>) fits group 1 or 17 and is shown separately.</p>",
+      "formulas": [
+        {
+          "expr": "Group (s-block) = valence ns electrons",
+          "where": [
+            [
+              "Ca",
+              "[Ar]4s<sup>2</sup> → 2"
+            ]
+          ]
+        },
+        {
+          "expr": "Group (p-block) = 10 + valence electrons",
+          "where": [
+            [
+              "Cl",
+              "10 + 7 = 17"
+            ]
+          ]
+        },
+        {
+          "expr": "Group (d-block) = (n−1)d + ns electrons",
+          "where": [
+            [
+              "Fe",
+              "6 + 2 = 8"
+            ]
+          ]
+        }
+      ],
+      "tip": "Decide the block first, then apply its group rule."
+    },
+    {
+      "heading": "3.7.1 (a, b) Trends in Physical Properties: Atomic Radius and Ionic Radius",
+      "pyq_years": [],
+      "body": "<p>An atom has no sharp edge, so radius is defined operationally. <b>Covalent radius</b> is half the internuclear distance between two like atoms joined by a single bond. <b>Metallic radius</b> is half the distance between adjacent atoms in a metal crystal. <b>Van der Waals radius</b>, half the distance between nuclei of two non-bonded neighbouring atoms, is used for noble gases and is larger than the covalent radius.</p><p><b>Across a period</b> atomic radius decreases (Li 152 pm to F 64 pm): the shells stay the same while the nuclear charge rises by one proton at each step, so the outer electrons are pulled in more strongly. (Neon looks larger only because its van der Waals radius is quoted.) <b>Down a group</b> it increases (Li 152 pm to Cs 262 pm): a new shell is added, and the extra shielding by inner electrons outweighs the rise in nuclear charge.</p><p><b>Ionic radius.</b> A <b>cation is smaller than its parent atom</b>: removing electrons often empties the outer shell, and the same nuclear charge acts on fewer electrons (Na 186 pm, Na<sup>+</sup> 95 pm). An <b>anion is larger</b>: the added electron raises electron–electron repulsion while the nuclear charge is unchanged. For <b>isoelectronic species</b>, which have the same number of electrons, radius decreases as nuclear charge increases: N<sup>3−</sup> > O<sup>2−</sup> > F<sup>−</sup> > Na<sup>+</sup> > Mg<sup>2+</sup> > Al<sup>3+</sup>, all with 10 electrons.</p>",
+      "formulas": [
+        {
+          "expr": "Isoelectronic species: radius falls as Z rises",
+          "where": [
+            [
+              "example",
+              "O<sup>2−</sup> > F<sup>−</sup> > Na<sup>+</sup> > Mg<sup>2+</sup>"
+            ]
+          ]
+        }
+      ],
+      "tip": "For an isoelectronic list, rank by atomic number: highest Z is smallest."
+    },
+    {
+      "heading": "3.7.1 (c) Ionization Enthalpy",
+      "pyq_years": [],
+      "body": "<p><b>Ionization enthalpy (Δ<sub>i</sub>H)</b> is the energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state: X(g) → X<sup>+</sup>(g) + e<sup>−</sup>. It is always positive, and each successive value is larger because the electron leaves a more positive ion.</p><p>The value is set by the <b>effective nuclear charge</b>: the nuclear attraction less the <b>shielding</b> by inner electrons. Within a shell s electrons penetrate most, so shielding effectiveness is s > p > d > f.</p><p><b>Across a period</b> Δ<sub>i</sub>H increases (Li 520, Ne 2080 kJ mol<sup>−1</sup>): nuclear charge rises while shielding hardly changes. <b>Down a group</b> it decreases (Li 520, Cs 374): the outer electron is farther away and shielded by more shells.</p><p><b>Exceptions in period 2</b> (actual order Li < B < Be < C < O < N < F < Ne): Be (2s<sup>2</sup>, 899) is higher than B (2s<sup>2</sup>2p<sup>1</sup>, 801) because B's electron leaves a 2p orbital, higher in energy, less penetrating and shielded by the 2s pair. N (2p<sup>3</sup>, 1402) is higher than O (2p<sup>4</sup>, 1314) because N's 2p electrons occupy separate orbitals with parallel spins, a stable half-filled subshell, while O's fourth electron is paired and its repulsion makes it easier to remove.</p>",
+      "formulas": [
+        {
+          "expr": "Δ<sub>i</sub>H<sub>1</sub> < Δ<sub>i</sub>H<sub>2</sub> < Δ<sub>i</sub>H<sub>3</sub>",
+          "where": [
+            [
+              "large jump",
+              "after the last valence electron"
+            ]
+          ]
+        }
+      ],
+      "tip": "In a successive-ionization table, the values before the abnormal jump count the valence electrons."
+    },
+    {
+      "heading": "3.7.1 (d) Electron Gain Enthalpy",
+      "pyq_years": [],
+      "body": "<p><b>Electron gain enthalpy (Δ<sub>eg</sub>H)</b> is the enthalpy change when an electron is added to a neutral gaseous atom to form a negative ion: X(g) + e<sup>−</sup> → X<sup>−</sup>(g). It is negative when energy is released, positive when energy must be supplied. A <b>second</b> electron gain enthalpy is always positive because the electron is forced onto a negative ion: O<sup>−</sup>(g) + e<sup>−</sup> → O<sup>2−</sup>(g) is about +780 kJ mol<sup>−1</sup>.</p><p><b>Across a period</b> Δ<sub>eg</sub>H becomes more negative as the atom shrinks and its effective nuclear charge grows. The <b>halogens</b> have the most negative values of all, since one electron completes a stable ns<sup>2</sup>np<sup>6</sup> shell. <b>Noble gases</b> have positive values: the added electron would have to enter the next higher shell. <b>Down a group</b> the value becomes less negative as the atom grows.</p><p><b>The F–Cl exception:</b> fluorine (−328 kJ mol<sup>−1</sup>) is less negative than chlorine (−349), and oxygen (−141) less negative than sulphur (−200). The 2p subshell of a period-2 atom is so small that the added electron is strongly repelled by the electrons already there, which partly cancels the nuclear attraction; the larger 3p subshell of Cl or S has more room.</p>",
+      "formulas": [
+        {
+          "expr": "Δ<sub>eg</sub>H (kJ mol<sup>−1</sup>): F −328, Cl −349, Br −325, I −295; O −141, S −200; Ne +116",
+          "where": [
+            [
+              "Cl",
+              "most negative of all elements"
+            ]
+          ]
+        }
+      ],
+      "tip": "F does not have the most negative electron gain enthalpy; Cl does."
+    },
+    {
+      "heading": "3.7.1 (e) Electronegativity",
+      "pyq_years": [],
+      "body": "<p><b>Electronegativity</b> is the ability of an atom in a chemical compound to attract the shared electrons of a bond towards itself. Unlike ionization enthalpy or electron gain enthalpy, which are measurable energies of an isolated atom, it is a relative number assigned to a bonded atom, and it varies a little with oxidation state and bonding partner. The usual scale is Pauling's, which fixes fluorine at 4.0, the highest value; O is 3.5, N and Cl 3.0, C 2.5, and the alkali metals lie below 1.0.</p><p><b>Across a period</b> electronegativity increases (Li 1.0 to F 4.0) as the atom becomes smaller and its effective nuclear charge larger. <b>Down a group</b> it decreases (F 4.0, Cl 3.0, Br 2.8, I 2.5) as the atom grows.</p><p>It also fixes oxidation states: in OF<sub>2</sub> the more electronegative fluorine takes the electrons and oxygen is +2, while in Na<sub>2</sub>O oxygen is −2.</p>",
+      "formulas": [],
+      "tip": "Electron gain enthalpy: measurable, isolated atom. Electronegativity: relative, bonded atom."
+    },
+    {
+      "heading": "3.7.2 (a) Periodic Trends in Chemical Properties: Periodicity of Valence or Oxidation States",
+      "pyq_years": [],
+      "body": "<p>The <b>valence</b> of a representative element is usually the number of valence electrons, or eight minus that number. Across period 3 the valence electrons run 1 to 8 for Na to Ar, so the valence towards oxygen runs 1 to 7 and the oxides are Na<sub>2</sub>O, MgO, Al<sub>2</sub>O<sub>3</sub>, SiO<sub>2</sub>, P<sub>2</sub>O<sub>5</sub>, SO<sub>3</sub>, Cl<sub>2</sub>O<sub>7</sub>. The valence towards hydrogen rises to 4 and then falls: NaH, MgH<sub>2</sub>, AlH<sub>3</sub>, SiH<sub>4</sub>, PH<sub>3</sub>, H<sub>2</sub>S, HCl. The same valence repeats down a group, so all group 14 hydrides are XH<sub>4</sub>.</p><p>Chemists now prefer <b>oxidation state</b>, which is fixed by electronegativity. In OF<sub>2</sub> fluorine is the more electronegative atom, so each F is −1 and O is +2; in Na<sub>2</sub>O oxygen is −2 and Na is +1. Transition elements show variable oxidation states because their (n−1)d and ns electrons are close in energy, and heavier p-block elements show two states differing by two, such as Pb(II) and Pb(IV).</p>",
+      "formulas": [],
+      "tip": "NCERT 3.32 is set almost every year: Li<sub>2</sub>O, Mg<sub>3</sub>N<sub>2</sub>, AlI<sub>3</sub>, SiO<sub>2</sub>, PF<sub>5</sub>, LuF<sub>3</sub>."
+    },
+    {
+      "heading": "3.7.2 (b) Anomalous Properties of Second Period Elements",
+      "pyq_years": [],
+      "body": "<p>The first element of each group (Li, Be, B, C, N, O, F) differs in several ways from the rest of its group. NCERT gives four causes: small size, large charge-to-radius ratio, high electronegativity, and the absence of d orbitals in the valence shell.</p><p><b>Maximum covalency of four.</b> A period-2 atom has only four valence orbitals (one 2s, three 2p), so it forms at most four covalent bonds: boron forms only [BF<sub>4</sub>]<sup>−</sup>, while aluminium, with empty 3d orbitals, forms [AlF<sub>6</sub>]<sup>3−</sup>. <b>Multiple bonding.</b> Small period-2 atoms readily form pπ–pπ multiple bonds (C=C, C≡C, N≡N, C=O), which larger period-3 atoms rarely do; N<sub>2</sub> is a triple-bonded gas while phosphorus is single-bonded P<sub>4</sub>.</p><p><b>Diagonal relationship.</b> Because it is unusually small, a period-2 element often resembles the period-3 element diagonally below and to its right more than its own group, since their charge-to-radius ratios are comparable. The pairs are <b>Li–Mg</b>, <b>Be–Al</b> and <b>B–Si</b>. Like Mg, lithium burns to a normal oxide rather than a peroxide and its carbonate decomposes on heating; like Al, beryllium has an amphoteric oxide and covalent chlorides.</p>",
+      "formulas": [],
+      "tip": "Give the pair, one shared property and the reason (similar size and charge density)."
+    },
+    {
+      "heading": "3.7.3 Periodic Trends and Chemical Reactivity",
+      "pyq_years": [],
+      "body": "<p>Chemical reactivity is <b>highest at the two ends of a period and lowest in the middle</b>. On the left, low ionization enthalpy lets the metal lose electrons: it is a good reducing agent. On the right, a very negative electron gain enthalpy lets the non-metal gain electrons: it is a good oxidising agent. <b>Metallic character</b> decreases across a period and increases down a group; non-metallic character does the opposite. In group 1 reactivity increases downward (Li < Na < K < Rb < Cs) as ionization enthalpy falls; in group 17 it decreases downward (F > Cl > Br > I) as electronegativity falls.</p><p>The <b>nature of oxides</b> shows this directly. Across period 3, Na<sub>2</sub>O and MgO are basic (Na<sub>2</sub>O + H<sub>2</sub>O → 2NaOH), Al<sub>2</sub>O<sub>3</sub> is amphoteric, and SiO<sub>2</sub>, P<sub>4</sub>O<sub>10</sub>, SO<sub>3</sub> and Cl<sub>2</sub>O<sub>7</sub> are increasingly acidic (Cl<sub>2</sub>O<sub>7</sub> + H<sub>2</sub>O → 2HClO<sub>4</sub>). Metal oxides are basic, non-metal oxides acidic, oxides of elements near the dividing line amphoteric. Down a group oxides become more basic: BeO is amphoteric, BaO strongly basic.</p>",
+      "formulas": [],
+      "tip": "NCERT 3.38–3.40: K > Mg > Al > B (metallic); F > N > C > B > Si (non-metallic); F > O > Cl > N (oxidising)."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Mendeleev's periodic law",
+      "definition": "The properties of the elements are a periodic function of their atomic weights."
+    },
+    {
+      "term": "Modern periodic law",
+      "definition": "The physical and chemical properties of the elements are periodic functions of their atomic numbers."
+    },
+    {
+      "term": "Covalent radius",
+      "definition": "Half the internuclear distance between two atoms of the same element joined by a single covalent bond."
+    },
+    {
+      "term": "Van der Waals radius",
+      "definition": "Half the distance between the nuclei of two non-bonded neighbouring atoms; used for noble gases."
+    },
+    {
+      "term": "Isoelectronic species",
+      "definition": "Atoms and ions with the same number of electrons, e.g. O<sup>2−</sup>, F<sup>−</sup>, Na<sup>+</sup>, Mg<sup>2+</sup>; radius falls as nuclear charge rises."
+    },
+    {
+      "term": "Ionization enthalpy (Δ<sub>i</sub>H)",
+      "definition": "The energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state; always positive."
+    },
+    {
+      "term": "Electron gain enthalpy (Δ<sub>eg</sub>H)",
+      "definition": "The enthalpy change when an electron is added to a neutral gaseous atom to form a negative ion; negative when energy is released."
+    },
+    {
+      "term": "Electronegativity",
+      "definition": "The ability of an atom in a compound to attract the shared electrons of a bond towards itself; relative, F = 4.0 on the Pauling scale."
+    },
+    {
+      "term": "Shielding (screening) effect",
+      "definition": "The reduction in nuclear attraction felt by an outer electron because of repulsion by inner electrons."
+    },
+    {
+      "term": "Diagonal relationship",
+      "definition": "The resemblance of a period-2 element to the period-3 element diagonally below-right, due to similar size and charge-to-radius ratio: Li–Mg, Be–Al, B–Si."
+    },
+    {
+      "term": "Transition elements",
+      "definition": "d-block elements (groups 3 to 12), (n−1)d<sup>1–10</sup>ns<sup>0–2</sup>."
+    },
+    {
+      "term": "Inner transition elements",
+      "definition": "f-block elements, the lanthanoids (4f) and actinoids (5f), all placed in group 3."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Period number",
+      "expr": "Period = highest principal quantum number n occupied",
+      "note": "read from the configuration"
+    },
+    {
+      "name": "Group number, s-block",
+      "expr": "Group = valence (ns) electrons",
+      "note": "groups 1 and 2"
+    },
+    {
+      "name": "Group number, p-block",
+      "expr": "Group = 10 + valence (ns + np) electrons",
+      "note": "groups 13 to 18"
+    },
+    {
+      "name": "Group number, d-block",
+      "expr": "Group = (n−1)d + ns electrons",
+      "note": "groups 3 to 12; f-block elements are all group 3"
+    },
+    {
+      "name": "IUPAC roots for Z > 100",
+      "expr": "0 nil, 1 un, 2 bi, 3 tri, 4 quad, 5 pent, 6 hex, 7 sept, 8 oct, 9 enn; + ium",
+      "note": "Z = 120 → Unbinilium, Ubn"
+    },
+    {
+      "name": "Isoelectronic radius rule",
+      "expr": "Same electron count: radius decreases as Z increases",
+      "note": "N<sup>3−</sup> > O<sup>2−</sup> > F<sup>−</sup> > Na<sup>+</sup> > Mg<sup>2+</sup> > Al<sup>3+</sup>"
+    },
+    {
+      "name": "Successive ionization enthalpies",
+      "expr": "Δ<sub>i</sub>H<sub>1</sub> < Δ<sub>i</sub>H<sub>2</sub> < Δ<sub>i</sub>H<sub>3</sub> < …",
+      "note": "sharp jump after the last valence electron"
+    },
+    {
+      "name": "Electron gain enthalpies to remember",
+      "expr": "F −328, Cl −349, Br −325, I −295, O −141, S −200 kJ mol<sup>−1</sup>",
+      "note": "noble gases positive; Cl is the most negative of all"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Long form of the periodic table showing the four blocks",
+      "how_to_draw": "Draw a grid of 7 periods and 18 groups. Shade groups 1–2 as the s-block, 13–18 as the p-block and 3–12 as the d-block; add two 14-element rows below for the lanthanoids and actinoids, breaking out after group 3 in periods 6 and 7. Label each block with its general configuration and draw the zig-zag metalloid line from B to At."
+    },
+    {
+      "title": "Atomic radius across period 2 and down group 1 (NCERT Fig. 3.4)",
+      "how_to_draw": "Two graphs of atomic radius (pm) against atomic number. (a) Period 2: Li 152, Be 111, B 88, C 77, N 74, O 66, F 64, falling. (b) Group 1: Li 152, Na 186, K 231, Rb 244, Cs 262, rising. Label the axes and write the reason under each: 'same shells, rising nuclear charge' and 'new shell added'."
+    },
+    {
+      "title": "First ionization enthalpy across period 2 (NCERT Fig. 3.5b)",
+      "how_to_draw": "Plot Δ<sub>i</sub>H (kJ mol<sup>−1</sup>) against atomic number for Li 520, Be 899, B 801, C 1086, N 1402, O 1314, F 1681, Ne 2080. Join the points to show the rising trend with dips at B and O; circle the dips and label them 'Be: filled 2s<sup>2</sup>' and 'N: half-filled 2p<sup>3</sup>'."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "3.4",
+      "q": "On the basis of quantum numbers, justify that the sixth period of the periodic table should have 32 elements.",
+      "a": "<p>In the sixth period n = 6 and the orbitals filled, in order of energy, are 6s, 4f, 5d and 6p: 1 + 7 + 5 + 3 = 16 orbitals. Each holds 2 electrons, so 16 × 2 = 32 electrons are added, which means 32 elements (Cs, Z = 55, to Rn, Z = 86).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.5",
+      "q": "In terms of period and group, where would you locate the element with Z = 114?",
+      "a": "<p>After Rn (Z = 86) the remaining 28 electrons fill 7s<sup>2</sup>5f<sup>14</sup>6d<sup>10</sup>7p<sup>2</sup> (2 + 14 + 10 + 2 = 28). Highest n = 7: period 7. The last electron enters 7p: p-block; group = 10 + 4 valence electrons (7s<sup>2</sup>7p<sup>2</sup>) = 14. The element (flerovium) is in period 7, group 14, below lead.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.12",
+      "q": "Consider the species N<sup>3−</sup>, O<sup>2−</sup>, F<sup>−</sup>, Na<sup>+</sup>, Mg<sup>2+</sup> and Al<sup>3+</sup>. (a) What is common in them? (b) Arrange them in order of increasing ionic radii.",
+      "a": "<p>(a) All have 10 electrons (N 7 + 3, O 8 + 2, F 9 + 1, Na 11 − 1, Mg 12 − 2, Al 13 − 3): they are isoelectronic, 1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>.</p><p>(b) With the same electrons, radius falls as nuclear charge rises (7, 8, 9, 11, 12, 13), so increasing radius: Al<sup>3+</sup> < Mg<sup>2+</sup> < Na<sup>+</sup> < F<sup>−</sup> < O<sup>2−</sup> < N<sup>3−</sup>.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.15",
+      "q": "The energy of an electron in the ground state of the hydrogen atom is −2.18 × 10<sup>−18</sup> J. Calculate the ionization enthalpy of atomic hydrogen in J mol<sup>−1</sup>.",
+      "a": "<p>Ionization takes the electron from E = −2.18 × 10<sup>−18</sup> J to E = 0, so 2.18 × 10<sup>−18</sup> J is needed per atom.</p><p>Per mole: 2.18 × 10<sup>−18</sup> J × 6.022 × 10<sup>23</sup> mol<sup>−1</sup> = 13.13 × 10<sup>5</sup> = 1.312 × 10<sup>6</sup> J mol<sup>−1</sup> (1312 kJ mol<sup>−1</sup>).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.16",
+      "q": "Among the second period elements the actual ionization enthalpies are in the order Li < B < Be < C < O < N < F < Ne. Explain why (i) Be has a higher Δ<sub>i</sub>H than B, and (ii) O has a lower Δ<sub>i</sub>H than N and F.",
+      "a": "<p>(i) Be (2s<sup>2</sup>) loses an electron from the 2s orbital, which penetrates close to the nucleus and belongs to a filled subshell. B (2s<sup>2</sup>2p<sup>1</sup>) loses a 2p electron, higher in energy, less penetrating and shielded by the 2s pair, so it goes more easily despite B's larger nuclear charge.</p><p>(ii) N (2p<sup>3</sup>) has one electron in each 2p orbital with parallel spins, a stable half-filled subshell. In O (2p<sup>4</sup>) the fourth electron must pair, and the repulsion in the doubly occupied orbital makes it easier to remove, so Δ<sub>i</sub>H(O) < Δ<sub>i</sub>H(N). F has one more proton and is smaller, so the normal rise gives Δ<sub>i</sub>H(F) > Δ<sub>i</sub>H(O).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.17",
+      "q": "How would you explain the fact that the first ionization enthalpy of sodium is lower than that of magnesium but its second ionization enthalpy is higher than that of magnesium?",
+      "a": "<p>First ionization: Na is [Ne]3s<sup>1</sup>, Mg is [Ne]3s<sup>2</sup>. Mg has the larger nuclear charge, the smaller atom and a filled 3s<sup>2</sup> subshell, so its electron is harder to remove: 496 < 737 kJ mol<sup>−1</sup>.</p><p>Second ionization: Na<sup>+</sup> is [Ne], a stable noble-gas core, so the next electron must come from the filled inner 2p<sup>6</sup> shell, which needs 4562 kJ mol<sup>−1</sup>. Mg<sup>+</sup> is [Ne]3s<sup>1</sup> and still has a valence electron, removed with 1451 kJ mol<sup>−1</sup>. So Δ<sub>i</sub>H<sub>2</sub>(Na) > Δ<sub>i</sub>H<sub>2</sub>(Mg).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.19",
+      "q": "The first ionization enthalpy values (kJ mol<sup>−1</sup>) of group 13 elements are B 801, Al 577, Ga 579, In 558, Tl 589. How would you explain this deviation from the general trend?",
+      "a": "<p>Down a group Δ<sub>i</sub>H should fall steadily, and the drop from B to Al is normal. Ga is slightly higher than Al because the ten 3d electrons between its nucleus and the 4p electron shield poorly, so the effective nuclear charge on the outer electron is higher than expected. In falls again as the trend resumes. Tl is higher than In because its fourteen 4f electrons shield very poorly, raising the effective nuclear charge on the 6p electron.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.20",
+      "q": "Which of the following pairs of elements would have a more negative electron gain enthalpy? (i) O or F (ii) F or Cl",
+      "a": "<p>(i) F. It is smaller than O, has a higher nuclear charge, and one electron gives it the neon configuration: F −328, O −141 kJ mol<sup>−1</sup>.</p><p>(ii) Cl. F is smaller, but its compact 2p subshell repels the incoming electron strongly; in the roomier 3p subshell of Cl the repulsion is weaker and more energy is released: Cl −349, F −328 kJ mol<sup>−1</sup>.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3.30",
+      "q": "Assign the position of the element having the outer electronic configuration (i) ns<sup>2</sup>np<sup>4</sup> for n = 3, (ii) (n−1)d<sup>2</sup>ns<sup>2</sup> for n = 4, (iii) (n−2)f<sup>7</sup>(n−1)d<sup>1</sup>ns<sup>2</sup> for n = 6.",
+      "a": "<p>(i) 3s<sup>2</sup>3p<sup>4</sup>: period 3, p-block, group 10 + 6 = 16; sulphur (Z = 16).</p><p>(ii) 3d<sup>2</sup>4s<sup>2</sup>: period 4, d-block, group 2 + 2 = 4; titanium (Z = 22).</p><p>(iii) 4f<sup>7</sup>5d<sup>1</sup>6s<sup>2</sup>: period 6, f-block (lanthanoid), group 3; gadolinium (Z = 64).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "3.32",
+      "q": "Predict the formulas of the stable binary compounds formed by (a) lithium and oxygen (b) magnesium and nitrogen (c) aluminium and iodine (d) silicon and oxygen (e) phosphorus and fluorine (f) element 71 and fluorine.",
+      "a": "<p>Group valences: Li 1, Mg 2, Al 3, Si 4, P 3 or 5, O 2, N 3, I 1, F 1; element 71 is lutetium, a lanthanoid with valence 3.</p><p>(a) Li<sub>2</sub>O (b) Mg<sub>3</sub>N<sub>2</sub> (c) AlI<sub>3</sub> (d) SiO<sub>2</sub> (e) PF<sub>3</sub> or PF<sub>5</sub> (f) LuF<sub>3</sub>.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The atomic number of an element is 20. Its position in the modern periodic table is:",
+      "options": [
+        "Period 3, group 2",
+        "Period 4, group 2",
+        "Period 4, group 20",
+        "Period 2, group 4"
+      ],
+      "answer": "b",
+      "solution": "Z = 20 is Ca, [Ar]4s<sup>2</sup>: highest n = 4 gives period 4; two valence s electrons give group 2."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "In the modern periodic table, the period indicates the value of:",
+      "options": [
+        "atomic number",
+        "atomic mass",
+        "principal quantum number",
+        "azimuthal quantum number"
+      ],
+      "answer": "c",
+      "solution": "NCERT 3.33. The period number is the principal quantum number n of the outermost shell being filled."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Considering the elements B, Al, Mg and K, the correct order of their metallic character is:",
+      "options": [
+        "B > Al > Mg > K",
+        "Al > Mg > B > K",
+        "Mg > Al > K > B",
+        "K > Mg > Al > B"
+      ],
+      "answer": "d",
+      "solution": "NCERT 3.38. Metallic character increases down a group and to the left: K > Mg > Al across to B, a metalloid."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which element has the most negative electron gain enthalpy?",
+      "options": [
+        "F",
+        "Cl",
+        "Br",
+        "O"
+      ],
+      "answer": "b",
+      "solution": "Cl, −349 kJ mol<sup>−1</sup>. F (−328) is less negative because its small 2p subshell repels the incoming electron."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The IUPAC name and symbol of the element with atomic number 105 are:",
+      "options": [
+        "Unnilquadium, Unq",
+        "Unnilpentium, Unp",
+        "Ununpentium, Uup",
+        "Unpentnilium, Upn"
+      ],
+      "answer": "b",
+      "solution": "Digits 1-0-5 give un-nil-pent + ium: Unnilpentium, Unp."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which set of isoelectronic species is in decreasing order of ionic radius?",
+      "options": [
+        "Na<sup>+</sup> > Mg<sup>2+</sup> > F<sup>−</sup> > O<sup>2−</sup>",
+        "O<sup>2−</sup> > F<sup>−</sup> > Na<sup>+</sup> > Mg<sup>2+</sup>",
+        "F<sup>−</sup> > O<sup>2−</sup> > Na<sup>+</sup> > Mg<sup>2+</sup>",
+        "Mg<sup>2+</sup> > Na<sup>+</sup> > F<sup>−</sup> > O<sup>2−</sup>"
+      ],
+      "answer": "b",
+      "solution": "All have 10 electrons; radius falls as nuclear charge rises: O (8) > F (9) > Na (11) > Mg (12)."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The first ionization enthalpy of nitrogen is greater than that of oxygen. Reason (R): Nitrogen has a stable half-filled 2p<sup>3</sup> configuration, whereas in oxygen the electron is removed from a doubly occupied 2p orbital.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "N 1402 > O 1314, and the half-filled stability with pairing repulsion in O is exactly the reason."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Noble gases have positive electron gain enthalpies. Reason (R): Noble gases have completely filled ns<sup>2</sup>np<sup>6</sup> shells, so an added electron must enter the next higher shell.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both true and R explains A: energy must be supplied to put the electron in a new, well-shielded shell (Ne +116)."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): The electron gain enthalpy of fluorine is less negative than that of chlorine. Reason (R): The atomic size of fluorine is larger than that of chlorine.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true (F −328, Cl −349) but R is false: F is smaller. The real reason is electron–electron repulsion in F's compact 2p subshell."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State the modern periodic law. How does it differ from Mendeleev's periodic law?",
+      "answer": "The physical and chemical properties of the elements are periodic functions of their atomic numbers. Mendeleev's law used atomic mass as the basis; replacing it by atomic number (Moseley, 1913) removed anomalies such as Te before I and Ar before K, and gave isotopes a single position.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Write the general outer electronic configuration of s-, p-, d- and f-block elements.",
+      "answer": "s-block: ns<sup>1–2</sup>. p-block: ns<sup>2</sup>np<sup>1–6</sup>. d-block: (n−1)d<sup>1–10</sup>ns<sup>0–2</sup>. f-block: (n−2)f<sup>1–14</sup>(n−1)d<sup>0–1</sup>ns<sup>2</sup>. (NCERT 3.29.)",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why is the radius of Cl<sup>−</sup> greater than that of Cl, while the radius of Na<sup>+</sup> is smaller than that of Na?",
+      "answer": "Cl<sup>−</sup> forms by adding an electron: the nuclear charge is unchanged but electron–electron repulsion rises, so the cloud expands and Cl<sup>−</sup> > Cl. Na<sup>+</sup> forms by removing the single 3s electron, which empties the third shell; 11 protons now hold only 10 electrons, so Na<sup>+</sup> < Na.",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is the basic difference between electron gain enthalpy and electronegativity?",
+      "answer": "Electron gain enthalpy is the enthalpy change when an isolated gaseous atom gains an electron: an absolute, measurable quantity in kJ mol<sup>−1</sup>. Electronegativity is the tendency of an atom in a compound to attract the shared electrons of a bond: a relative number on a scale, not a measured energy. (NCERT 3.22.)",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "How does atomic radius vary (i) across a period and (ii) down a group? Give reasons.",
+      "answer": "(i) Across a period atomic radius decreases (Li 152 pm to F 64 pm): electrons enter the same shell while nuclear charge rises by one each step, so the effective nuclear charge increases and pulls the outer electrons closer. (ii) Down a group it increases (Li 152 pm to Cs 262 pm): a new shell is added and the outer electron is shielded by more inner shells, which outweighs the rise in nuclear charge.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Arrange Mg, Al and Si in increasing order of first ionization enthalpy and justify the order.",
+      "answer": "Al < Mg < Si (577 < 737 < 786 kJ mol<sup>−1</sup>). Across period 3 ionization enthalpy rises with effective nuclear charge, so Si is highest. Al is below Mg because Mg (3s<sup>2</sup>) loses an electron from a filled, penetrating 3s subshell, while Al (3s<sup>2</sup>3p<sup>1</sup>) loses a 3p electron that is higher in energy and shielded by the 3s pair. Si (3s<sup>2</sup>3p<sup>2</sup>) resumes the rising trend.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "What is a diagonal relationship? Name the three classic pairs and give one property in which Be resembles Al.",
+      "answer": "A diagonal relationship is the resemblance of a period-2 element to the period-3 element diagonally below and to its right, because their sizes and charge-to-radius ratios are similar. Pairs: Li–Mg, Be–Al, B–Si. Be resembles Al in having an amphoteric oxide (BeO and Al<sub>2</sub>O<sub>3</sub> react with both acids and bases), unlike the other group 2 metals whose oxides are basic.",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "How is the group number of a d-block element found from its electronic configuration? Illustrate with manganese (Z = 25).",
+      "answer": "Group number = (n−1)d electrons + ns electrons. Mn: [Ar]3d<sup>5</sup>4s<sup>2</sup>, group = 5 + 2 = 7; highest n = 4, so period 4. Mn lies in group 7, period 4, d-block.",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the development of the periodic table from Döbereiner's triads to the modern periodic law, giving one limitation of each attempt.",
+      "answer": "<b>Döbereiner's triads (by 1829):</b> groups of three similar elements in which the atomic mass of the middle one is about the mean of the other two, e.g. Li 7, Na 23, K 39. Limitation: only a few triads could be found.<br><b>Newlands' law of octaves (1865):</b> arranged by increasing atomic mass, every eighth element repeats the properties of the first. Limitation: it held only up to calcium.<br><b>Mendeleev's periodic table (1869):</b> 63 elements arranged by increasing atomic mass in groups of similar properties; properties are a periodic function of atomic weight. He left gaps and predicted eka-aluminium (gallium) and eka-silicon (germanium), later confirmed. Limitation: pairs such as Te–I and Co–Ni had to be placed out of mass order, and isotopes had no place.<br><b>Modern periodic law (Moseley, 1913):</b> X-ray spectra showed that atomic number, not mass, is the fundamental property, so properties are periodic functions of atomic numbers. This explained the reversed pairs (Ar 18 before K 19) and gives the present long form with 7 periods and 18 groups.",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Define ionization enthalpy. Explain its variation across period 2 (Li to Ne), accounting for the exceptions.",
+      "answer": "Ionization enthalpy is the energy required to remove the most loosely bound electron from an isolated gaseous atom in its ground state, X(g) → X<sup>+</sup>(g) + e<sup>−</sup>; always positive, in kJ mol<sup>−1</sup>.<br>Period 2 values: Li 520, Be 899, B 801, C 1086, N 1402, O 1314, F 1681, Ne 2080, so the order is Li < B < Be < C < O < N < F < Ne. The general rise occurs because nuclear charge increases by one at each step while electrons enter the same shell, so the effective nuclear charge rises and the outer electron is held more tightly; Ne is highest because its shell is complete.<br><b>Be > B:</b> Be (2s<sup>2</sup>) loses an electron from a filled, penetrating 2s subshell; B loses a 2p electron that is higher in energy, penetrates less and is shielded by the 2s pair.<br><b>N > O:</b> N (2p<sup>3</sup>) has a stable half-filled subshell; in O (2p<sup>4</sup>) the fourth electron is paired, and the repulsion makes it easier to remove.",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Define electron gain enthalpy. Discuss its variation across a period and down a group, and explain why fluorine's value is less negative than chlorine's and why noble gases have positive values.",
+      "answer": "Electron gain enthalpy is the enthalpy change when an electron is added to a neutral isolated gaseous atom in its ground state, X(g) + e<sup>−</sup> → X<sup>−</sup>(g); negative when energy is released, positive when it must be supplied.<br><b>Across a period</b> it becomes more negative as the atom shrinks and the effective nuclear charge rises; halogens have the most negative values (Cl −349 kJ mol<sup>−1</sup>) because one electron completes the ns<sup>2</sup>np<sup>6</sup> shell.<br><b>Down a group</b> it becomes less negative as the atom grows: Cl −349, Br −325, I −295.<br><b>F versus Cl:</b> F (−328) is less negative than Cl (−349) although smaller, because the added electron enters the very small 2p subshell where it is strongly repelled by the electrons already present; the larger 3p subshell of Cl has more room. Likewise O (−141) is less negative than S (−200).<br><b>Noble gases:</b> the shell is complete, so an added electron must enter the next higher shell, far out and well shielded; energy has to be supplied, so Δ<sub>eg</sub>H is positive (Ne +116).",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions.<br>The first ionization enthalpies (kJ mol<sup>−1</sup>) of four consecutive period-3 elements are Na 496, Mg 737, Al 577 and Si 786. Ionization enthalpy generally increases across a period, yet Al has a lower value than Mg.<br>(i) State the general trend across a period and its reason.<br>(ii) Explain why Al has a lower first ionization enthalpy than Mg.<br>(iii) Predict, with reason, whether the second ionization enthalpy of Na is higher or lower than that of Mg.<br>(iv) To which blocks do Mg and Al belong?",
+      "answer": "(i) Ionization enthalpy increases from left to right because nuclear charge rises while electrons enter the same shell, so the effective nuclear charge increases and the outer electron is held more tightly.<br>(ii) Mg ([Ne]3s<sup>2</sup>) loses an electron from a filled, penetrating 3s subshell; Al ([Ne]3s<sup>2</sup>3p<sup>1</sup>) loses a 3p electron that is higher in energy and shielded by 3s<sup>2</sup>, so 577 < 737.<br>(iii) Higher. Na<sup>+</sup> has the neon configuration, so its second electron must come from the inner 2p<sup>6</sup> shell (4562 kJ mol<sup>−1</sup>), while Mg<sup>+</sup> still has a 3s electron (1451 kJ mol<sup>−1</sup>).<br>(iv) Mg is s-block (group 2); Al is p-block (group 13).",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions.<br>An element X has the electronic configuration [Ar]3d<sup>10</sup>4s<sup>2</sup>4p<sup>3</sup>. A species Y is isoelectronic with argon and carries a charge of −3.<br>(i) Give the period, group and block of X.<br>(ii) Identify Y with justification.<br>(iii) Would the oxide of X be acidic, basic or amphoteric? Why?<br>(iv) Arrange X and the element directly above it in its group in increasing order of atomic radius.",
+      "answer": "(i) Valence shell 4s<sup>2</sup>4p<sup>3</sup>, highest n = 4: period 4; last electron in 4p: p-block; group = 10 + 5 = 15. X is arsenic (Z = 33).<br>(ii) Argon has 18 electrons, so Y has 18 electrons and a −3 charge, hence 15 protons: Z = 15, phosphorus; Y is P<sup>3−</sup>.<br>(iii) Arsenic is a metalloid, so As<sub>2</sub>O<sub>3</sub> is amphoteric, reacting with both acids and bases.<br>(iv) Above As in group 15 is phosphorus; radius increases down a group, so P < As.",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Döbereiner's triads could not become a general classification because:",
+      "options": [
+        "atomic masses were unknown at the time",
+        "only a few sets of elements obeyed the mean-mass rule",
+        "the triads mixed metals with non-metals",
+        "they were based on atomic number"
+      ],
+      "answer_index": 1,
+      "explanation": "Only a handful of triads (Li–Na–K, Ca–Sr–Ba, Cl–Br–I) fitted the rule."
+    },
+    {
+      "q": "Newlands' law of octaves was found to hold only:",
+      "options": [
+        "for the noble gases",
+        "for elements up to calcium",
+        "for the transition metals",
+        "for elements heavier than iron"
+      ],
+      "answer_index": 1,
+      "explanation": "The repetition at every eighth element works for the lighter elements up to Ca."
+    },
+    {
+      "q": "Mendeleev's 'eka-silicon' was later discovered and named:",
+      "options": [
+        "gallium",
+        "germanium",
+        "scandium",
+        "selenium"
+      ],
+      "answer_index": 1,
+      "explanation": "Eka-silicon is germanium (1886); eka-aluminium is gallium (1875)."
+    },
+    {
+      "q": "An element with configuration [Ne]3s<sup>2</sup>3p<sup>4</sup> lies in:",
+      "options": [
+        "period 3, group 14",
+        "period 3, group 16",
+        "period 2, group 16",
+        "period 3, group 6"
+      ],
+      "answer_index": 1,
+      "explanation": "Highest n = 3 gives period 3; six valence electrons in the p-block give group 10 + 6 = 16 (sulphur)."
+    },
+    {
+      "q": "The group number of a d-block element equals:",
+      "options": [
+        "the number of ns electrons",
+        "the number of (n−1)d electrons",
+        "(n−1)d electrons + ns electrons",
+        "10 + (n−1)d electrons"
+      ],
+      "answer_index": 2,
+      "explanation": "Fe, 3d<sup>6</sup>4s<sup>2</sup>, is in group 6 + 2 = 8."
+    },
+    {
+      "q": "The systematic IUPAC symbol of the element with atomic number 106 is:",
+      "options": [
+        "Unq",
+        "Unp",
+        "Unh",
+        "Uns"
+      ],
+      "answer_index": 2,
+      "explanation": "1-0-6 gives un-nil-hex-ium, Unnilhexium, Unh (now seaborgium, Sg)."
+    },
+    {
+      "q": "Which species is NOT isoelectronic with Ne?",
+      "options": [
+        "Na<sup>+</sup>",
+        "Al<sup>3+</sup>",
+        "Cl<sup>−</sup>",
+        "O<sup>2−</sup>"
+      ],
+      "answer_index": 2,
+      "explanation": "Ne, Na<sup>+</sup>, Al<sup>3+</sup> and O<sup>2−</sup> have 10 electrons each; Cl<sup>−</sup> has 18, like Ar."
+    },
+    {
+      "q": "Among Li, Be, B and C the element with the highest first ionization enthalpy is:",
+      "options": [
+        "Li",
+        "Be",
+        "B",
+        "C"
+      ],
+      "answer_index": 3,
+      "explanation": "Li 520, Be 899, B 801, C 1086 kJ mol<sup>−1</sup>; C is highest even though Be > B breaks the smooth rise."
+    },
+    {
+      "q": "Which statement about electron gain enthalpy is correct?",
+      "options": [
+        "It is negative for every element",
+        "Noble gases have the most negative values",
+        "It generally becomes more negative across a period and less negative down a group",
+        "It does not depend on atomic size"
+      ],
+      "answer_index": 2,
+      "explanation": "Noble gases have positive values and size matters; the stated trend is the general rule."
+    },
+    {
+      "q": "The element showing a diagonal relationship with aluminium is:",
+      "options": [
+        "lithium",
+        "beryllium",
+        "boron",
+        "magnesium"
+      ],
+      "answer_index": 1,
+      "explanation": "The classic pairs are Li–Mg, Be–Al and B–Si."
+    },
+    {
+      "q": "Which of the following oxides is amphoteric?",
+      "options": [
+        "Na<sub>2</sub>O",
+        "MgO",
+        "Al<sub>2</sub>O<sub>3</sub>",
+        "SO<sub>3</sub>"
+      ],
+      "answer_index": 2,
+      "explanation": "Na<sub>2</sub>O and MgO are basic, SO<sub>3</sub> acidic; Al<sub>2</sub>O<sub>3</sub> reacts with both acids and bases."
+    },
+    {
+      "q": "The size of the isoelectronic species F<sup>−</sup>, Ne and Na<sup>+</sup> is decided by:",
+      "options": [
+        "nuclear charge",
+        "valence principal quantum number",
+        "electron–electron interaction in the outer orbitals",
+        "none of these"
+      ],
+      "answer_index": 0,
+      "explanation": "NCERT 3.36. Same electrons and shells, so only nuclear charge differs: Na<sup>+</sup> < Ne < F<sup>−</sup>."
+    },
+    {
+      "q": "Which element has the highest electronegativity on the Pauling scale?",
+      "options": [
+        "oxygen",
+        "chlorine",
+        "fluorine",
+        "nitrogen"
+      ],
+      "answer_index": 2,
+      "explanation": "F is 4.0; O 3.5; N and Cl 3.0."
+    },
+    {
+      "q": "The successive ionization enthalpies of an element are 590, 1145 and 4912 kJ mol<sup>−1</sup>. The element belongs to:",
+      "options": [
+        "group 1",
+        "group 2",
+        "group 13",
+        "group 17"
+      ],
+      "answer_index": 1,
+      "explanation": "The jump comes after the second value, so two valence electrons precede a stable core: group 2 (these are calcium's values)."
+    },
+    {
+      "q": "Considering F, Cl, O and N, the correct order of oxidising power is:",
+      "options": [
+        "F > Cl > O > N",
+        "F > O > Cl > N",
+        "Cl > F > O > N",
+        "O > F > N > Cl"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT 3.40. Oxidising power follows electronegativity and size: F > O > Cl > N."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that atomic radius increases across a period. It decreases across a period and increases down a group; the mark goes even if the reason is right.",
+    "Drawing the period-2 ionization enthalpy graph as a smooth rise. The examiner looks for the dips at B and O with the labels 'filled 2s<sup>2</sup>' and 'half-filled 2p<sup>3</sup>'.",
+    "Claiming fluorine has the most negative electron gain enthalpy. It is chlorine (−349 versus −328 kJ mol<sup>−1</sup>).",
+    "Treating electronegativity and electron gain enthalpy as the same thing. One is a relative property of a bonded atom; the other is a measured enthalpy of an isolated gaseous atom.",
+    "Treating electronegativity and electron gain enthalpy as the same thing: one is a relative property of a bonded atom, the other a measured enthalpy of an isolated atom.",
+    "Ranking isoelectronic ions by the size of their charge instead of by nuclear charge. More protons always means a smaller radius when the electron count is the same."
+  ],
+  "strategy": "<p>This chapter is about reasons, not lists. For each of the four physical trends (atomic radius, ionization enthalpy, electron gain enthalpy, electronegativity) be able to write the direction across a period, the direction down a group, and the one-sentence cause in terms of nuclear charge, shielding and size. That sentence earns the reasoning mark.</p><p>Learn the exceptions as fixed facts with one-line reasons: Be > B and N > O, Cl more negative than F (and S than O), positive values for noble gases, and the Ga and Tl bumps in group 13. Keep the NCERT numbers for periods 2 and 3 in your head.</p><p>Practise atomic number to configuration, block, period and group until it takes under a minute, and write out NCERT exercises 3.5, 3.12, 3.16, 3.17, 3.19, 3.20, 3.30 and 3.32, since school papers lift from them directly. Learn the history as an ordered list with one example and one limitation each, and sketch the two NCERT graphs from memory once.</p>",
+  "revision_checklist": [
+    "Can state Döbereiner's triads, Newlands' octaves and Mendeleev's law, each with an example and a limitation",
+    "Can state the modern periodic law and explain Ar–K and Te–I by atomic number",
+    "Can write the IUPAC name and symbol for any Z from 101 to 120",
+    "Can go from atomic number to configuration, block, period and group",
+    "Can define covalent, metallic and van der Waals radius and state the radius trends with reasons",
+    "Can explain why cations are smaller and anions larger, and rank isoelectronic species",
+    "Can define ionization enthalpy and explain Be > B, N > O, and Na versus Mg (first and second values)",
+    "Can define electron gain enthalpy, quote the F/Cl and O/S values, and explain positive values for noble gases",
+    "Can distinguish electronegativity from electron gain enthalpy and quote Pauling values for F, O, N, Cl",
+    "Can write the period-3 oxides and hydrides and predict binary formulas from group valences",
+    "Can name the three diagonal pairs with one shared property and the reason",
+    "Can classify period-3 oxides as basic, amphoteric or acidic and order metallic character and oxidising power"
+  ],
+  "videos": []
+}

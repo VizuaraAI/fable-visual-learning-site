@@ -1,0 +1,1090 @@
+{
+  "class": 10,
+  "subject": "Science",
+  "chapter_no": 10,
+  "slug": "the-human-eye-and-the-colourful-world",
+  "title": "The Human Eye and the Colourful World",
+  "summary": "How the eye works as an optical instrument, why it fails (myopia, hypermetropia, presbyopia) and which lens fixes each fault, then what light does when it meets a prism, the atmosphere and tiny particles: dispersion, rainbows, twinkling stars, the early sunrise, the Tyndall effect and the blue sky. It is short, diagram-heavy and one of the most predictable chapters in the paper, so it rewards careful preparation.",
+  "exam_profile": {
+    "weightage": "Class 10 Science is one 80-mark paper. This chapter belongs to the unit Natural Phenomena, which it shares with Chapter 9 (Light: Reflection and Refraction); the unit carries about 12 marks. From this chapter you can typically expect 4 to 7 marks: one or two 1-mark items, a 2- or 3-mark question with a ray diagram on a defect of vision or on dispersion, and often a reasoning question on scattering or atmospheric refraction.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Which part of the eye does what (retina, iris, pupil, ciliary muscles), near point and far point values, which lens corrects which defect, which colour bends most or least in a prism, which colour is scattered most, why the sky is dark to an astronaut. A ray diagram of a prism with a colour to identify is common."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Myopia and the concave lens; red for danger signals; the blue sky; rainbow formation; presbyopia and bifocals. The trap is usually a Reason that is true in general but does not explain the Assertion, or a Reason that swaps most and least scattered."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Define power of accommodation and state the near and far point; two causes of myopia or hypermetropia; why stars twinkle but planets do not; why the sky is blue; what the Tyndall effect is with two examples; a small power-of-lens numerical (f = 1/P)."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "A defect of vision with its causes, the lens that corrects it and the two ray diagrams; dispersion through a prism with a labelled diagram and the reason for it; rainbow formation with the two conditions needed; atmospheric refraction with two phenomena it explains; a hypermetropia numerical using the lens formula."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Usually a combined question: the human eye with a labelled diagram and the function of four parts plus accommodation, or myopia and hypermetropia together with all four ray diagrams, or dispersion, Newton's recombination experiment and the rainbow in one question. Sometimes one part is a numerical on lens power."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on a person who needs spectacles for reading and for distance, on an eye-donation drive, on the Tyndall effect in a foggy morning, or on the colours of the sky at different altitudes, followed by four sub-parts that mix recall with a small calculation."
+      }
+    ],
+    "hot_topics": [
+      "Myopia and hypermetropia: causes, image position, corrective lens, the four ray diagrams and the power numericals",
+      "Power of accommodation, near point (25 cm) and far point (infinity), role of the ciliary muscles",
+      "Dispersion of white light by a prism, order of colours, why violet bends most, Newton's two-prism recombination",
+      "Formation of a rainbow: dispersion, internal reflection and refraction in water droplets, conditions for seeing one",
+      "Scattering of light and the Tyndall effect: blue sky, dark sky at high altitude and in space, red danger signals",
+      "Atmospheric refraction: twinkling of stars, why planets do not twinkle, stars appearing higher, sunrise two minutes early",
+      "Presbyopia, bifocal lenses and cataract",
+      "Refraction through a prism: angle of prism, angle of deviation, the ray diagram with labels"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "10.1 The Human Eye",
+      "pyq_years": [
+        2025,
+        2024,
+        2018,
+        2016
+      ],
+      "body": "<p>The eye is a roughly spherical ball about 2.3 cm in diameter, and it works like a camera: a lens system forms a real, inverted image on a light-sensitive screen at the back. Learn each part with its job, because the examiner often asks for the function of three or four parts in one question.</p><ul><li><b>Cornea</b>: the thin transparent bulge at the front. Most of the refraction of light entering the eye happens at its outer surface, not at the eye lens. This surprises students, and it has been asked as a 1-mark item.</li><li><b>Iris</b>: the dark muscular diaphragm behind the cornea. It controls the size of the pupil.</li><li><b>Pupil</b>: the opening in the centre of the iris. It regulates and controls the amount of light entering the eye: it becomes small in bright light and large in dim light. This is why you see poorly for a while when you walk from sunlight into a dark room; the pupil takes time to open out.</li><li><b>Eye lens</b>: a fibrous, jelly-like, transparent convex lens. It provides the finer adjustment of focal length needed to focus objects at different distances on the retina.</li><li><b>Ciliary muscles</b>: hold the lens and change its curvature, and hence its focal length.</li><li><b>Retina</b>: the delicate membrane at the back with an enormous number of light-sensitive cells (rods for dim light, cones for colour and bright light). On illumination these cells generate electrical signals.</li><li><b>Optic nerve</b>: carries those signals to the brain, which interprets them so that we see the object erect even though the image on the retina is inverted.</li></ul><p>The image formed on the retina is real, inverted and diminished. The distance between the lens and the retina is fixed, so the eye can only bring objects at different distances into focus by changing the focal length of the lens. That is the subject of the next section.</p><p>Two eyes give a wider field of view (about 180° with both, about 150° with one) and let us judge distance, since each eye sees a slightly different picture. In the box on eye donation NCERT notes that the cornea can be donated within 4 to 6 hours of death, that one pair of eyes gives sight to two corneal-blind people, and that donors with AIDS, hepatitis B or C, rabies, acute leukaemia, tetanus, cholera, meningitis or encephalitis are not accepted. A case-based passage on an eye-donation camp is a favourite.</p>",
+      "formulas": [
+        {
+          "expr": "Diameter of the eyeball ≈ 2.3 cm",
+          "where": [
+            [
+              "cornea",
+              "does most of the refraction of incoming light"
+            ],
+            [
+              "retina",
+              "light-sensitive screen; image is real, inverted and diminished"
+            ]
+          ]
+        }
+      ],
+      "tip": "If asked where the image forms, say 'on the retina'; if asked where most refraction happens, say 'at the outer surface of the cornea'. Do not give the eye lens for either."
+    },
+    {
+      "heading": "10.1.1 Power of Accommodation",
+      "pyq_years": [
+        2024,
+        2019,
+        2017
+      ],
+      "body": "<p>A camera focuses by moving its lens. The eye cannot move its lens, so it changes the lens's shape instead. The ability of the eye lens to adjust its focal length is called <b>accommodation</b>, and the range over which it can do so is the eye's <b>power of accommodation</b>.</p><p>The mechanism is what the marking scheme wants, so state it in this order:</p><ol><li>When the ciliary muscles are <b>relaxed</b>, the lens becomes <b>thin</b>, its focal length <b>increases</b>, and we see <b>distant</b> objects clearly.</li><li>When we look at a <b>nearby</b> object, the ciliary muscles <b>contract</b>, the curvature of the lens increases, the lens becomes <b>thicker</b> and its focal length <b>decreases</b>, so the image again falls on the retina.</li></ol><p>The image distance in the eye therefore stays constant (the lens-to-retina distance) whatever the object distance; only the focal length changes. When you increase the distance of an object from the eye, the image distance does not change; the focal length of the lens increases so that the image still forms on the retina. This exact question appears in the NCERT exercise and has been asked in the board.</p><p>There is a limit to how much the lens can be squeezed. The minimum distance at which an object can be seen most distinctly without strain is the <b>least distance of distinct vision</b>, also called the <b>near point</b>. For a young adult with normal vision it is about <b>25 cm</b>. Closer than that, the ciliary muscles cannot make the lens curved enough (its focal length cannot be reduced further), so the image forms behind the retina and looks blurred; this also strains the eye. The farthest point up to which the eye can see clearly is the <b>far point</b>, which for the normal eye is <b>infinity</b>. So a normal eye sees clearly from 25 cm to infinity.</p><p>Sometimes, usually in old age, the crystalline lens becomes milky and cloudy. This is a <b>cataract</b>; it causes partial or complete loss of vision and is corrected by cataract surgery (the lens is replaced). Do not confuse cataract with presbyopia, which is a weakening of the muscles and lens flexibility, not a clouding.</p>",
+      "formulas": [
+        {
+          "expr": "Near point of normal eye = 25 cm; far point = ∞",
+          "where": [
+            [
+              "near point",
+              "least distance of distinct vision, closest clear vision without strain"
+            ],
+            [
+              "far point",
+              "farthest point of clear vision"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write the chain 'ciliary muscles contract → lens thicker → focal length decreases → nearby object focused'. Reversing contract and relax is the most common error in this section."
+    },
+    {
+      "heading": "10.2 Defects of Vision and their Correction",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2019,
+        2018,
+        2017
+      ],
+      "body": "<p>When the eye loses its power of accommodation, or the eyeball is the wrong length, images stop forming on the retina. Three refractive defects are on the syllabus. For each one the examiner wants four things: what the person cannot see, the position of the image, the causes, and the corrective lens with ray diagrams.</p><p><b>Myopia (near-sightedness).</b> The person sees nearby objects clearly but cannot see distant objects distinctly; the far point has moved from infinity to a finite distance. The image of a distant object forms <b>in front of</b> the retina. Causes: (i) excessive curvature of the eye lens, which makes its focal length too short, or (ii) elongation of the eyeball. Correction: a <b>concave (diverging) lens</b> of suitable power. The concave lens forms the image of a distant object at the person's own far point; the eye can then focus that image onto the retina. The focal length of the lens equals the distance of the far point: f = −(far point).</p><p><b>Hypermetropia (far-sightedness).</b> The person sees distant objects clearly but cannot see nearby objects distinctly; the near point has moved beyond 25 cm. Rays from a nearby object are focused <b>behind</b> the retina. Causes: (i) the focal length of the eye lens is too long, or (ii) the eyeball has become too small. Correction: a <b>convex (converging) lens</b> of suitable power. The convex lens forms a virtual image of an object placed at 25 cm at the person's near point, from where the eye can focus it. Use the lens formula with u = −25 cm and v = −(near point).</p><p><b>Presbyopia.</b> With age the ciliary muscles weaken and the lens loses flexibility, so the power of accommodation falls and the near point recedes. Older people therefore find it hard to read without spectacles. Sometimes the same person has both myopia and hypermetropia; the remedy is a <b>bifocal lens</b>: the upper part is concave for distant vision, the lower part is convex for reading. Nowadays contact lenses and surgery are also used.</p><p>The <b>ray diagrams</b> earn most of the marks. For myopia draw (a) parallel rays from a distant object converging in front of the retina, (b) the eye's far point with rays from it focused on the retina, (c) a concave lens in front of the eye diverging parallel rays so that they appear to come from the far point and then focus on the retina. For hypermetropia draw (a) rays from an object at 25 cm converging behind the retina, (b) rays from the near point N focused on the retina, (c) a convex lens making rays from 25 cm appear to come from N so they focus on the retina. Label the eye, the lens, N or the far point, and the retina.</p>",
+      "formulas": [
+        {
+          "expr": "P = 1/f (f in metres); unit dioptre (D)",
+          "where": [
+            [
+              "P",
+              "power of the lens, negative for concave, positive for convex"
+            ],
+            [
+              "f",
+              "focal length in metres"
+            ]
+          ]
+        },
+        {
+          "expr": "Myopia: f = −(distance of far point)",
+          "where": [
+            [
+              "far point",
+              "the finite distance beyond which the myopic eye cannot see clearly"
+            ]
+          ]
+        },
+        {
+          "expr": "Hypermetropia: 1/f = 1/v − 1/u with u = −25 cm, v = −(near point)",
+          "where": [
+            [
+              "u",
+              "object at the normal near point, 25 cm"
+            ],
+            [
+              "v",
+              "virtual image at the person's own near point"
+            ]
+          ]
+        }
+      ],
+      "tip": "Never write 'convex lens for myopia'. A quick check: a myopic eye converges too much, so it needs a diverging (concave) lens; a hypermetropic eye converges too little, so it needs a converging (convex) lens."
+    },
+    {
+      "heading": "10.3 Refraction of Light through a Prism",
+      "pyq_years": [
+        2016
+      ],
+      "body": "<p>A glass prism has two triangular bases and three rectangular lateral surfaces. Unlike a rectangular glass slab, whose faces are parallel, the refracting surfaces of a prism are <b>inclined</b> to each other. The angle between its two lateral faces is the <b>angle of the prism</b>, A.</p><p>NCERT Activity 10.1 traces a ray through a prism on a sheet of paper. Fix the prism, mark its outline ABC, draw a line PE meeting face AB at E, fix pins P and Q on it, then look through the other face AC and fix pins R and S in line with the images of P and Q. Remove everything and join the marks. PE is the <b>incident ray</b>, EF is the <b>refracted ray</b> inside the prism, and FS is the <b>emergent ray</b>. Draw normals at E and F and mark the angle of incidence ∠i, the angle of refraction ∠r and the angle of emergence ∠e.</p><p>Two things to notice. First, at the first surface light goes from air to glass, so it bends <b>towards the normal</b>; at the second surface it goes from glass to air, so it bends <b>away from the normal</b>. Because the faces are inclined, both bends are in the same direction, and the net effect is that the ray bends <b>towards the base</b> of the prism. Second, the emergent ray is not parallel to the incident ray (in a glass slab it is). The angle between the direction of the incident ray produced forward and the emergent ray is the <b>angle of deviation</b>, ∠D. Mark it on the diagram; it is the label most often missed.</p><p>In the exam the prism diagram is asked on its own as a 2-mark item ('draw the path of a ray of light through a glass prism and mark the angle of deviation') and also as the first half of a dispersion question. Practise it until you can draw it from memory in under a minute with all six labels: i, r, e, A, D and the three rays.</p>",
+      "formulas": [
+        {
+          "expr": "Angle of deviation D = angle between the incident ray (produced) and the emergent ray",
+          "where": [
+            [
+              "A",
+              "angle of the prism, between the two refracting faces"
+            ],
+            [
+              "i, r, e",
+              "angles of incidence, refraction and emergence"
+            ]
+          ]
+        }
+      ],
+      "tip": "The ray always bends towards the base of the prism. Draw the emergent ray sloping down towards the base; a ray drawn parallel to the incident ray loses the mark."
+    },
+    {
+      "heading": "10.4 Dispersion of White Light by a Glass Prism",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2017
+      ],
+      "body": "<p>When a narrow beam of white light passes through a glass prism it splits into a band of seven colours: <b>violet, indigo, blue, green, yellow, orange, red</b> (VIBGYOR). The band of coloured components of a light beam is called a <b>spectrum</b>, and the splitting of light into its component colours is called <b>dispersion</b>. Red appears at the top of the band (closest to the original direction) and violet at the bottom (nearest the base of the prism) when the prism stands on its base.</p><p><b>Why does it happen?</b> Different colours of light bend through different angles with respect to the incident ray as they pass through the prism, because they travel at different speeds in glass. Red light bends the <b>least</b> and violet the <b>most</b>, so the colours emerge along different paths and become distinct. White light is therefore not a single colour but a mixture; the prism only separates what was already there. Say 'different colours have different speeds in glass, so they refract by different amounts'. The board answer does not need wavelengths, but it does no harm to add that violet has the shortest wavelength and red the longest.</p><p><b>Newton's experiment.</b> Isaac Newton was the first to use a glass prism to obtain the spectrum of sunlight. He then tried to split the colours further with a second prism and could not. Placing a second identical prism <b>inverted</b> with respect to the first, so that all the colours of the spectrum pass through it, gave a beam of white light emerging from the second prism. This recombination proved that white light is composed of the seven colours and that the prism does not itself add colour. The diagram of the two prisms (one upright, one inverted, white in, spectrum between, white out) is a frequent 3-mark item.</p><p><b>Rainbow.</b> A rainbow is a natural spectrum that appears in the sky after a rain shower. It is caused by dispersion of sunlight by tiny water droplets in the atmosphere. Each droplet acts as a small prism: sunlight entering the drop is <b>refracted and dispersed</b>, then <b>internally reflected</b> from the back of the drop, and finally <b>refracted again</b> as it comes out. The three steps together spread the colours in the sky. Two conditions are needed to see one: the Sun must be <b>behind</b> the observer and water droplets must be in front. In the diagram of a single drop, mark the point of dispersion, the internal reflection and the final refraction, with red on the outside and violet on the inside of the bow.</p>",
+      "formulas": [
+        {
+          "expr": "Order of deviation in a prism: δ<sub>violet</sub> > δ<sub>indigo</sub> > … > δ<sub>red</sub>",
+          "where": [
+            [
+              "δ",
+              "angle of deviation of that colour; violet bends most, red least"
+            ]
+          ]
+        },
+        {
+          "expr": "λ<sub>red</sub> > λ<sub>orange</sub> > … > λ<sub>violet</sub>; in glass v<sub>red</sub> > v<sub>violet</sub>",
+          "where": [
+            [
+              "λ",
+              "wavelength of the colour"
+            ],
+            [
+              "v",
+              "speed of that colour inside glass (all colours have the same speed in vacuum)"
+            ]
+          ]
+        }
+      ],
+      "tip": "In the rainbow answer the examiner is looking for three words: dispersion, internal reflection, refraction, in that order. Write all three even in a 2-mark answer."
+    },
+    {
+      "heading": "10.5 Atmospheric Refraction",
+      "pyq_years": [
+        2019,
+        2012
+      ],
+      "body": "<p>The air above us is not uniform. Its density, and so its refractive index, changes with height and with temperature, and it keeps changing from moment to moment. Light passing through it therefore does not travel in a straight line; the refraction of light by the earth's atmosphere is called <b>atmospheric refraction</b>. NCERT introduces it with the shimmering seen above a fire or a hot road: hot air above the fire is lighter (less dense) and has a slightly smaller refractive index than the cooler air above it, and because the hot air keeps rising, the apparent position of objects seen through it wavers. The same thing on the scale of the atmosphere explains four phenomena, and the board asks any two.</p><p><b>1. Twinkling of stars.</b> Starlight, on entering the atmosphere, undergoes continuous refraction as it passes through layers of gradually changing refractive index, bending towards the normal each time it enters a denser layer. The apparent position of the star is thus slightly different from its actual position, and because the atmosphere is not stationary the apparent position keeps changing slightly and the amount of light entering the eye flickers. The star sometimes appears brighter and sometimes fainter: this is twinkling.</p><p><b>2. Stars appear higher than they are.</b> Since the light bends towards the normal as it enters denser and denser air, and we see the star along the direction from which the light finally reaches us, the star appears slightly <b>above</b> its actual position. Draw the curved ray from the actual star, the straight line of sight to the apparent star, and the layers of atmosphere with increasing density towards the ground.</p><p><b>3. Planets do not twinkle.</b> Planets are much closer to the earth, so they are seen as extended sources, a collection of a large number of point-sized sources. The variations in the light from all these points average out to zero, so there is no net twinkling. Stars are so far away that they are effectively point sources.</p><p><b>4. Advance sunrise and delayed sunset.</b> The Sun is visible about <b>two minutes before</b> actual sunrise and about <b>two minutes after</b> actual sunset because of atmospheric refraction. Light from the Sun below the horizon bends as it enters the atmosphere, so the Sun appears above the horizon while it is actually below. The <b>apparent flattening</b> of the Sun's disc at sunrise and sunset is also due to the same effect.</p>",
+      "formulas": [
+        {
+          "expr": "Time gained by atmospheric refraction: about 2 min at sunrise + 2 min at sunset",
+          "where": [
+            [
+              "actual sunrise",
+              "the moment the Sun really crosses the horizon"
+            ],
+            [
+              "apparent sunrise",
+              "about 2 minutes earlier"
+            ]
+          ]
+        }
+      ],
+      "tip": "In the sunrise answer, say the Sun is seen 'about 2 minutes before actual sunrise', and note that the day is lengthened by about 4 minutes in total. Do not attribute the red colour of the sunrise to atmospheric refraction; that is scattering."
+    },
+    {
+      "heading": "10.6 Scattering of Light and 10.6.1 Tyndall Effect",
+      "pyq_years": [
+        2024,
+        2023,
+        2020,
+        2017
+      ],
+      "body": "<p>When light falls on very small particles it is thrown off in all directions; this is <b>scattering</b>. The interplay of light with objects around us gives rise to several spectacular phenomena in nature: the blue colour of the sky, the colour of water in the deep sea, and the reddening of the Sun at sunrise and sunset.</p><p><b>Tyndall effect.</b> The earth's atmosphere is a heterogeneous mixture of minute particles: smoke, tiny water droplets, suspended particles of dust and molecules of air. When a beam of light strikes such fine particles, its path becomes visible because the particles scatter the light, and the scattered light reaches us. The scattering of light by colloidal particles is the Tyndall effect. Two examples come straight from NCERT: a fine beam of sunlight entering a smoke-filled room through a small hole, and sunlight passing through the canopy of a dense forest, where tiny water droplets in the mist scatter the light. Other examples the board has accepted: fog or mist lit by headlights, a laser beam passing through diluted milk or a colloidal solution. A true solution shows no Tyndall effect because its particles are too small to scatter light.</p><p><b>Colour of scattered light depends on particle size.</b> This one sentence is worth a mark on its own. Very fine particles scatter mainly <b>blue</b> light (shorter wavelengths). Particles of larger size scatter light of longer wavelengths; and if the scattering particles are large enough, the scattered light may appear <b>white</b>. That is why clouds and fog look white: their water droplets are large compared with the wavelength of light and scatter all colours nearly equally.</p><p>How to distinguish scattering from reflection when asked: reflection happens at a smooth surface and sends light in one definite direction; scattering happens at tiny particles and sends light in all directions, which is why it makes the beam's path visible from the side.</p>",
+      "formulas": [
+        {
+          "expr": "Fine particles (size ≪ λ) scatter blue most; large particles scatter all colours and look white",
+          "where": [
+            [
+              "λ",
+              "wavelength of visible light, roughly 400 nm (violet) to 700 nm (red)"
+            ]
+          ]
+        }
+      ],
+      "tip": "For a 3-mark Tyndall question give the definition, the reason (scattering by colloidal-sized particles) and at least two examples with the source of the particles named (smoke, mist)."
+    },
+    {
+      "heading": "10.6.2 Why is the colour of the clear Sky Blue?",
+      "pyq_years": [
+        2025,
+        2024,
+        2023,
+        2021,
+        2016
+      ],
+      "body": "<p>The molecules of air and other fine particles in the atmosphere have sizes smaller than the wavelength of visible light. Such particles are more effective in scattering light of shorter wavelengths at the blue end of the spectrum than light of longer wavelengths at the red end. (Red light has a wavelength about 1.8 times that of blue light.) When sunlight passes through the atmosphere, the fine particles scatter blue light much more strongly than red. This scattered blue light enters our eyes from every direction of the sky, so the clear sky looks blue.</p><p>The same idea answers a cluster of standard questions:</p><ul><li><b>Why is 'danger' signalled with red?</b> Red is scattered the least by fog or smoke because it has the longest wavelength, so a red signal is visible from far away and in poor weather.</li><li><b>Why does the sky look dark to an astronaut, or from a very high altitude, or on the Moon?</b> There is no, or hardly any, atmosphere and hence no particles to scatter sunlight. With no scattered light reaching the eye, the sky appears dark (black) instead of blue.</li><li><b>Why is the sky blue but the Sun white or yellow?</b> Most of the direct sunlight still reaches us unscattered; only the blue component is spread across the sky.</li></ul><p>The rationalised NCERT has dropped the separate sub-section on the reddish Sun at sunrise and sunset, but the explanation is one line and older papers ask it, so keep it: near the horizon sunlight travels through a much thicker layer of air, most of the blue is scattered away before the light reaches us, and the light that survives is rich in red, so the Sun and the sky near it look reddish. At noon the path is shortest and the Sun looks nearly white.</p><p>In an Assertion-Reason item watch the Reason carefully. 'The sky appears blue because blue light is scattered the most by fine particles' is correct. 'Because blue has the longest wavelength' is wrong; 'because red is scattered the most' is wrong. And the CBSE 2021 item had both statements true but the Reason (a general statement about scattering) not explaining the Assertion, so read whether the Reason actually causes the Assertion before ticking option (a).</p>",
+      "formulas": [
+        {
+          "expr": "Scattering by fine particles ∝ 1/λ<sup>4</sup> (Rayleigh; not required by NCERT, useful for reasoning)",
+          "where": [
+            [
+              "λ",
+              "wavelength; blue is scattered far more than red since it is shorter"
+            ]
+          ]
+        }
+      ],
+      "tip": "'No atmosphere → no scattering → dark sky' is the whole answer for the astronaut question. Do not say 'no light in space'."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Cornea",
+      "definition": "The transparent bulge on the front surface of the eyeball through which light enters; most of the refraction of light entering the eye takes place at its outer surface."
+    },
+    {
+      "term": "Iris",
+      "definition": "The dark muscular diaphragm behind the cornea that controls the size of the pupil."
+    },
+    {
+      "term": "Pupil",
+      "definition": "The opening at the centre of the iris; it regulates and controls the amount of light entering the eye."
+    },
+    {
+      "term": "Retina",
+      "definition": "The light-sensitive screen at the back of the eye, made of rods and cones, on which a real inverted image is formed; its cells generate electrical signals sent to the brain by the optic nerve."
+    },
+    {
+      "term": "Ciliary muscles",
+      "definition": "Muscles that hold the eye lens and change its curvature, and hence its focal length, to focus objects at different distances."
+    },
+    {
+      "term": "Accommodation",
+      "definition": "The ability of the eye lens to adjust its focal length so that objects at different distances are focused on the retina; the range over which it can do so is the power of accommodation."
+    },
+    {
+      "term": "Near point (least distance of distinct vision)",
+      "definition": "The minimum distance at which an object can be seen clearly without strain; about 25 cm for a young adult with normal vision."
+    },
+    {
+      "term": "Far point",
+      "definition": "The farthest point up to which the eye can see objects clearly; infinity for a normal eye."
+    },
+    {
+      "term": "Myopia",
+      "definition": "Near-sightedness: distant objects are not seen clearly because their image forms in front of the retina; corrected by a concave lens."
+    },
+    {
+      "term": "Hypermetropia",
+      "definition": "Far-sightedness: nearby objects are not seen clearly because their image forms behind the retina; corrected by a convex lens."
+    },
+    {
+      "term": "Presbyopia",
+      "definition": "The age-related loss of the power of accommodation due to weakening of the ciliary muscles and reduced flexibility of the lens; the near point recedes, and bifocal lenses are often used."
+    },
+    {
+      "term": "Cataract",
+      "definition": "Clouding of the crystalline lens, usually in old age, causing partial or complete loss of vision; treated by surgery."
+    },
+    {
+      "term": "Bifocal lens",
+      "definition": "A spectacle lens with a concave upper part for distant vision and a convex lower part for reading, used when a person has both myopia and hypermetropia."
+    },
+    {
+      "term": "Angle of deviation",
+      "definition": "The angle between the direction of the incident ray produced forward and the emergent ray after refraction through a prism."
+    },
+    {
+      "term": "Dispersion",
+      "definition": "The splitting of white light into its component colours (VIBGYOR) on passing through a prism, because different colours bend by different amounts."
+    },
+    {
+      "term": "Spectrum",
+      "definition": "The band of coloured components of a light beam obtained on dispersion; violet, indigo, blue, green, yellow, orange and red."
+    },
+    {
+      "term": "Rainbow",
+      "definition": "A natural spectrum in the sky formed by dispersion, internal reflection and refraction of sunlight in tiny water droplets, seen with the Sun behind the observer."
+    },
+    {
+      "term": "Atmospheric refraction",
+      "definition": "The refraction of light by the earth's atmosphere, whose refractive index changes with height and time; it causes twinkling of stars, the raised apparent position of stars and the advance sunrise."
+    },
+    {
+      "term": "Scattering of light",
+      "definition": "The throwing of light in all directions by very small particles; the amount of scattering depends on the particle size and the wavelength of light."
+    },
+    {
+      "term": "Tyndall effect",
+      "definition": "The scattering of light by colloidal particles (smoke, mist, dust) that makes the path of a beam of light visible."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Power of a lens",
+      "expr": "P = 1/f",
+      "note": "f in metres; P in dioptre (D). Concave lens: P negative; convex lens: P positive."
+    },
+    {
+      "name": "Lens formula",
+      "expr": "1/v − 1/u = 1/f",
+      "note": "Sign convention: distances measured from the optical centre, against the incident light negative. Needed for hypermetropia numericals."
+    },
+    {
+      "name": "Corrective lens for myopia",
+      "expr": "f = −(far point), P = −1/(far point in m)",
+      "note": "A concave lens that forms the image of a distant object (u = ∞) at the person's far point."
+    },
+    {
+      "name": "Corrective lens for hypermetropia",
+      "expr": "1/f = 1/v − 1/u, u = −25 cm, v = −(near point)",
+      "note": "A convex lens that forms a virtual image of an object at 25 cm at the person's near point."
+    },
+    {
+      "name": "Near and far point of the normal eye",
+      "expr": "Near point ≈ 25 cm; far point = ∞",
+      "note": "Near point is the least distance of distinct vision for a young adult."
+    },
+    {
+      "name": "Accommodation chain",
+      "expr": "Ciliary muscles contract → lens thicker → f decreases → near object focused; muscles relax → lens thin → f increases → distant object focused",
+      "note": "Image distance (lens to retina) stays fixed."
+    },
+    {
+      "name": "Size of the eyeball",
+      "expr": "Diameter ≈ 2.3 cm",
+      "note": "Approximately spherical."
+    },
+    {
+      "name": "Order of colours and bending",
+      "expr": "VIBGYOR; deviation: violet most, red least; wavelength: red longest, violet shortest",
+      "note": "In glass the colours travel at different speeds; in vacuum all travel at c."
+    },
+    {
+      "name": "Sunrise and sunset shift",
+      "expr": "Sun visible ≈ 2 min before actual sunrise and ≈ 2 min after actual sunset",
+      "note": "Due to atmospheric refraction; day lengthened by about 4 minutes."
+    },
+    {
+      "name": "Scattering and particle size",
+      "expr": "Fine particles scatter blue (short λ) most; large particles scatter all colours → white",
+      "note": "Explains the blue sky, white clouds and red danger signals."
+    },
+    {
+      "name": "Wavelength ratio",
+      "expr": "λ<sub>red</sub> ≈ 1.8 × λ<sub>blue</sub>",
+      "note": "Stated in NCERT while explaining the blue sky."
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Structure of the human eye",
+      "how_to_draw": "Draw a circle for the eyeball with a bulge at the front for the cornea. Behind the cornea draw the iris as two short bars with the pupil as the gap between them, then the convex eye lens held by the ciliary muscles above and below. Shade the inner back surface as the retina and draw the optic nerve leaving the back. Label cornea, iris, pupil, eye lens, ciliary muscles, retina, optic nerve, and mark aqueous humour (in front of the lens) and vitreous humour (behind it). Seven correct labels is the usual full-marks requirement."
+    },
+    {
+      "title": "Myopia and its correction",
+      "how_to_draw": "Draw three eye diagrams. (a) Myopic eye: parallel rays from a distant object converge to a point in front of the retina; label the retina and the image point. (b) Rays from the far point F converge on the retina. (c) A concave lens placed in front of the eye diverges the parallel rays so that they appear to come from F and then focus on the retina. Label the concave lens, the far point and the retina, and show the ray directions with arrows."
+    },
+    {
+      "title": "Hypermetropia and its correction",
+      "how_to_draw": "Draw three eye diagrams. (a) Hypermetropic eye: rays from an object at 25 cm converge to a point behind the retina. (b) Rays from the near point N converge on the retina. (c) A convex lens in front of the eye bends the rays from the object at 25 cm so that they appear to come from N and focus on the retina. Label the convex lens, N, the object at 25 cm and the retina."
+    },
+    {
+      "title": "Refraction of light through a triangular glass prism",
+      "how_to_draw": "Draw triangle ABC with A at the top. Draw the incident ray PE meeting side AB at E, the refracted ray EF bending towards the base BC, and the emergent ray FS leaving side AC bending away from the normal. Draw dotted normals at E and F, mark angle of incidence i, angle of refraction r, angle of emergence e, the angle of the prism A, and extend the incident ray forward with a dotted line to mark the angle of deviation D between it and the emergent ray."
+    },
+    {
+      "title": "Dispersion of white light by a prism, and Newton's recombination",
+      "how_to_draw": "Draw a prism on its base with a narrow beam of white light entering one face. From the second face draw a fan of rays, red at the top (least deviated) and violet at the bottom (most deviated), landing on a screen labelled with the spectrum VIBGYOR. For recombination add a second identical prism placed inverted next to the first, with all the colours entering it and a single beam of white light emerging; label 'white light', 'spectrum' and 'white light' in that order."
+    },
+    {
+      "title": "Rainbow formation in a water droplet",
+      "how_to_draw": "Draw a large circle for a raindrop and the Sun's ray entering it from the upper left. At the entry point show refraction and dispersion into colours, at the back inner surface show internal reflection, and at the exit show refraction again with the colours spreading out towards the observer, red on the outside and violet inside. Mark the Sun behind the observer and label 'refraction and dispersion', 'internal reflection' and 'refraction'."
+    },
+    {
+      "title": "Apparent position of a star due to atmospheric refraction",
+      "how_to_draw": "Draw curved horizontal layers of the atmosphere getting denser towards the ground. Draw a star above them and a ray from it bending gradually towards the normal (curving downwards) as it passes into denser layers and reaches an observer on the ground. From the observer draw a straight dotted line back along the final direction of the ray to a point marked 'apparent position', above the actual star. The same diagram with the Sun below the horizon illustrates the advance sunrise."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "in-text",
+      "number": "p.190 Q1",
+      "q": "What is meant by power of accommodation of the eye?",
+      "a": "<p>The ability of the eye lens to adjust its focal length, by the action of the ciliary muscles, so that objects at different distances can be focused on the retina is called accommodation. The range over which the eye can do this is the power of accommodation. A normal eye can see clearly objects from the near point (25 cm) to the far point (infinity).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "in-text",
+      "number": "p.190 Q2",
+      "q": "A person with a myopic eye cannot see objects beyond 1.2 m distinctly. What should be the type of the corrective lens used to restore proper vision?",
+      "a": "<p>The person is myopic, with far point 1.2 m. He needs a concave (diverging) lens that forms the image of a distant object at 1.2 m, so f = −1.2 m.</p><p>P = 1/f = 1/(−1.2) = −0.83 D.</p><p>A concave lens of power about −0.83 D (focal length −1.2 m).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "in-text",
+      "number": "p.190 Q3",
+      "q": "What is the far point and near point of the human eye with normal vision?",
+      "a": "<p>For a normal human eye the far point is at infinity and the near point (least distance of distinct vision) is about 25 cm in front of the eye.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "in-text",
+      "number": "p.190 Q4",
+      "q": "A student has difficulty reading the blackboard while sitting in the last row. What could be the defect the child is suffering from? How can it be corrected?",
+      "a": "<p>The student can see nearby objects but not distant ones, so the defect is myopia (near-sightedness). Its far point has come closer than infinity, and the image of the blackboard forms in front of the retina. It is corrected with spectacles having a concave (diverging) lens of suitable power, which forms the image of the distant blackboard at the student's far point, from where the eye focuses it on the retina.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.1",
+      "q": "The human eye can focus on objects at different distances by adjusting the focal length of the eye lens. This is due to (a) presbyopia (b) accommodation (c) near-sightedness (d) far-sightedness.",
+      "a": "<p>(b) accommodation. The ciliary muscles change the curvature of the lens and hence its focal length.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "10.2",
+      "q": "The human eye forms the image of an object at its (a) cornea (b) iris (c) pupil (d) retina.",
+      "a": "<p>(d) retina. The image is real, inverted and diminished.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "10.3",
+      "q": "The least distance of distinct vision for a young adult with normal vision is about (a) 25 m (b) 2.5 cm (c) 25 cm (d) 2.5 m.",
+      "a": "<p>(c) 25 cm.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "10.4",
+      "q": "The change in focal length of an eye lens is caused by the action of the (a) pupil (b) retina (c) ciliary muscles (d) iris.",
+      "a": "<p>(c) ciliary muscles. They change the curvature of the lens; the pupil and iris only control the amount of light.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "10.5",
+      "q": "A person needs a lens of power −5.5 dioptres for correcting his distant vision. For correcting his near vision he needs a lens of power +1.5 dioptre. What is the focal length of the lens required for correcting (i) distant vision, and (ii) near vision?",
+      "a": "<p>f = 1/P, with f in metres.</p><p>(i) Distant vision: P = −5.5 D, so f = 1/(−5.5) = −0.182 m = −18.2 cm. A concave lens of focal length 18.2 cm.</p><p>(ii) Near vision: P = +1.5 D, so f = 1/1.5 = +0.667 m = +66.7 cm. A convex lens of focal length 66.7 cm.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10.6",
+      "q": "The far point of a myopic person is 80 cm in front of the eye. What is the nature and power of the lens required to correct the problem?",
+      "a": "<p>The lens must form the image of a distant object (u = ∞) at the far point, 80 cm in front of the eye, on the same side as the object. So v = −80 cm.</p><p>1/f = 1/v − 1/u = 1/(−80) − 0 = −1/80, so f = −80 cm = −0.8 m.</p><p>P = 1/f = 1/(−0.8) = −1.25 D.</p><p>A concave lens of power −1.25 D.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10.7",
+      "q": "Make a diagram to show how hypermetropia is corrected. The near point of a hypermetropic eye is 1 m. What is the power of the lens required to correct this defect? Assume that the near point of the normal eye is 25 cm.",
+      "a": "<p>Diagram: a convex lens in front of the eye; rays from an object at 25 cm are bent by the lens so that they appear to come from the near point N (1 m) and are then focused on the retina (see the hypermetropia diagram above).</p><p>The convex lens must form a virtual image of an object placed at 25 cm at the person's near point, 1 m = 100 cm, on the same side. So u = −25 cm, v = −100 cm.</p><p>1/f = 1/v − 1/u = 1/(−100) − 1/(−25) = −1/100 + 4/100 = 3/100, so f = 100/3 cm = 33.3 cm = 0.333 m.</p><p>P = 1/f = 1/0.333 = +3.0 D.</p><p>A convex lens of power +3 D.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10.8",
+      "q": "Why is a normal eye not able to see clearly the objects placed closer than 25 cm?",
+      "a": "<p>To focus a nearer object the ciliary muscles must contract and make the lens more curved, reducing its focal length. There is a limit to how much they can do this; the focal length cannot be decreased below a certain minimum. For objects closer than about 25 cm the required focal length is smaller than this minimum, so the image forms behind the retina and the object appears blurred, and the effort strains the eye.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.9",
+      "q": "What happens to the image distance in the eye when we increase the distance of an object from the eye?",
+      "a": "<p>The image distance does not change. The distance between the eye lens and the retina is fixed, so the image must always form on the retina. When the object moves farther away, the ciliary muscles relax, the lens becomes thinner and its focal length increases just enough to keep the image on the retina.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.10",
+      "q": "Why do stars twinkle?",
+      "a": "<p>Stars are very far away and act as point sources of light. Starlight entering the atmosphere is refracted continuously as it passes through layers of air of gradually changing refractive index, bending towards the normal in denser layers. Because the physical conditions of the atmosphere are not stationary, the apparent position of the star keeps changing slightly and the amount of starlight entering the eye keeps fluctuating. The star therefore appears sometimes brighter and sometimes fainter, which is twinkling.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10.11",
+      "q": "Explain why the planets do not twinkle.",
+      "a": "<p>Planets are much closer to the earth than stars, so they appear as extended sources, that is, as a collection of a large number of point-sized sources of light. The variations in the amount of light from each point due to atmospheric refraction are random and average out to zero, so the total light received hardly changes and the planet does not twinkle.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "10.12",
+      "q": "Why does the sky appear dark instead of blue to an astronaut?",
+      "a": "<p>The sky looks blue from the earth because fine particles and molecules in the atmosphere scatter blue light towards us. An astronaut in space is above the atmosphere; there are no particles to scatter sunlight, so no scattered light reaches his eyes and the sky appears dark (black).</p>",
+      "marks": 2
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "The light-sensitive screen inside the eye on which the image is formed is the",
+      "options": [
+        "cornea",
+        "iris",
+        "retina",
+        "pupil"
+      ],
+      "answer": "c",
+      "solution": "The retina has light-sensitive cells (rods and cones) that generate electrical signals when illuminated; the image formed on it is real and inverted."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "When you look at an object very close to your eyes, the",
+      "options": [
+        "ciliary muscles relax and the eye lens becomes thin",
+        "ciliary muscles contract and the eye lens becomes thick",
+        "ciliary muscles relax and the eye lens becomes thick",
+        "pupil closes completely"
+      ],
+      "answer": "b",
+      "solution": "For a nearby object the ciliary muscles contract, increasing the curvature of the lens; the lens thickens and its focal length decreases."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "A person whose eyeball has become elongated will have the image of a distant object formed in front of the retina. The defect is corrected by using a",
+      "options": [
+        "convex lens",
+        "concave lens",
+        "cylindrical lens",
+        "bifocal lens with convex upper part"
+      ],
+      "answer": "b",
+      "solution": "Elongation of the eyeball causes myopia; a concave (diverging) lens of suitable power shifts the image back onto the retina."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A thin beam of white light falls on one face of a glass prism and a spectrum is seen on a screen placed beyond the other face. The colour that appears nearest the base of the prism and the colour that deviates the least are respectively",
+      "options": [
+        "red, violet",
+        "violet, red",
+        "violet, green",
+        "red, red"
+      ],
+      "answer": "b",
+      "solution": "Violet is deviated the most and so lies closest to the base; red is deviated the least and appears at the top of the spectrum."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "The part of the eye at which most of the refraction of light entering the eye takes place is",
+      "options": [
+        "the eye lens",
+        "the outer surface of the cornea",
+        "the pupil",
+        "the vitreous humour"
+      ],
+      "answer": "b",
+      "solution": "NCERT states that most of the refraction for the light rays entering the eye occurs at the outer surface of the cornea; the lens provides only the finer adjustment."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "Dust particles and air molecules in the atmosphere scatter which colour of sunlight the most?",
+      "options": [
+        "Red",
+        "Yellow",
+        "Blue",
+        "Green"
+      ],
+      "answer": "c",
+      "solution": "Fine particles smaller than the wavelength of light scatter shorter wavelengths (blue) far more strongly than longer wavelengths (red)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The vision defect that arises due to the gradual weakening of the ciliary muscles and the loss of flexibility of the eye lens with age is",
+      "options": [
+        "myopia",
+        "hypermetropia",
+        "presbyopia",
+        "cataract"
+      ],
+      "answer": "c",
+      "solution": "Presbyopia is the age-related loss of the power of accommodation; cataract is a clouding of the lens, not a muscle defect."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "A person cannot see objects clearly beyond 2 m. The power of the lens needed to correct the defect is",
+      "options": [
+        "+0.5 D",
+        "−0.5 D",
+        "+2 D",
+        "−2 D"
+      ],
+      "answer": "b",
+      "solution": "The far point is 2 m, so a concave lens with f = −2 m is needed; P = 1/f = 1/(−2) = −0.5 D."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "Assertion (A): A person suffering from myopia can see nearby objects clearly but not distant ones. Reason (R): Myopia is corrected by using a convex lens of suitable power.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "The Assertion correctly describes myopia. The Reason is false: myopia is corrected with a concave lens, not a convex one."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "Assertion (A): Red colour is used for danger signals. Reason (R): Red light is scattered the most by fog and smoke particles.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "Red is indeed used for danger signals, but because it has the longest wavelength it is scattered the least, so it travels farthest through fog. The Reason is false."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "Assertion (A): When white light passes through a glass prism, red light bends the least and violet light bends the most. Reason (R): Different colours of light travel with different speeds in glass.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The deviation of a colour depends on its speed in glass; red travels fastest and bends least, violet slowest and bends most. R is the correct explanation."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A rainbow is seen only when the Sun is behind the observer. Reason (R): A rainbow is formed by dispersion of sunlight followed by internal reflection and refraction in water droplets, which send the light back towards the side of the Sun.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The internal reflection in the drop turns the light back roughly towards the direction it came from, so the observer must stand with the Sun behind and the droplets in front."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2019",
+      "marks": 2,
+      "q": "What is meant by the power of accommodation of the eye? State its limits for a normal eye.",
+      "answer": "<p>The ability of the eye lens to adjust its focal length (by the action of the ciliary muscles) so that objects at different distances are focused on the retina is called accommodation; the range of this adjustment is the power of accommodation. (1 mark)</p><p>For a normal eye the limits are the near point, about 25 cm, and the far point, infinity; objects between these distances can be seen clearly. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2023",
+      "marks": 2,
+      "q": "Why does the sky appear blue from the earth but dark to an astronaut in space?",
+      "answer": "<p>From the earth: the molecules of air and fine particles in the atmosphere are smaller than the wavelength of visible light and scatter blue light (shorter wavelength) much more than red; this scattered blue light reaches our eyes from all directions, so the sky looks blue. (1 mark)</p><p>In space there is no atmosphere and so no particles to scatter sunlight; no scattered light reaches the astronaut's eye, and the sky appears dark. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2019",
+      "marks": 2,
+      "q": "Why do stars appear to be slightly higher in the sky than their actual positions?",
+      "answer": "<p>Because of atmospheric refraction. The refractive index of air increases towards the ground, so starlight entering the atmosphere is bent gradually towards the normal as it passes through denser and denser layers. (1 mark)</p><p>We see the star along the final direction in which the light reaches us, and extending this direction backwards places the star slightly above its actual position. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "A person is unable to see the blackboard clearly from the last bench. Name the defect and state its two causes.",
+      "answer": "<p>The defect is myopia (near-sightedness); the image of the distant blackboard forms in front of the retina. (1 mark)</p><p>Causes: (i) excessive curvature of the eye lens, so its focal length is too short; (ii) elongation of the eyeball. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State two phenomena that can be explained by atmospheric refraction.",
+      "answer": "<p>(i) Twinkling of stars: starlight refracted continuously by layers of air of changing refractive index makes the apparent position and brightness of the star fluctuate. (1 mark)</p><p>(ii) Advance sunrise and delayed sunset: light from the Sun below the horizon bends as it enters the atmosphere, so the Sun is visible about 2 minutes before actual sunrise and 2 minutes after actual sunset. (Also acceptable: stars appearing higher than they are; apparent flattening of the Sun's disc.) (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2017",
+      "marks": 3,
+      "q": "A person uses spectacles of power +0.5 D. Name the defect of vision he is suffering from and give two causes of the defect. Find the focal length of the lens used.",
+      "answer": "<p>A positive power means a convex lens, so the person suffers from hypermetropia (far-sightedness): he cannot see nearby objects clearly because their image forms behind the retina. (1 mark)</p><p>Causes: (i) the focal length of the eye lens is too long; (ii) the eyeball has become too small. (1 mark)</p><p>f = 1/P = 1/0.5 = 2 m = 200 cm. A convex lens of focal length 200 cm. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2020",
+      "marks": 3,
+      "q": "What is the Tyndall effect? What causes it? Give four situations in which it can be observed.",
+      "answer": "<p>The Tyndall effect is the scattering of light by colloidal particles, which makes the path of a beam of light visible. (1 mark)</p><p>Cause: the atmosphere (or a colloid) contains minute particles such as smoke, tiny water droplets and dust, comparable in size to the wavelength of light. When light strikes them it is scattered in all directions, and the scattered light reaches the observer's eye, so the path of the beam becomes visible. (1 mark)</p><p>Situations: (i) sunlight passing through the canopy of a dense forest, scattered by tiny water droplets of mist; (ii) a fine beam of sunlight entering a smoke-filled room through a small hole; (iii) headlights of a vehicle in fog; (iv) a laser or torch beam passing through diluted milk or a colloidal solution. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2023",
+      "marks": 3,
+      "q": "What is dispersion of white light? Which colour bends the most and which the least on passing through a prism? Draw a diagram to show dispersion of white light by a glass prism, and state why it happens.",
+      "answer": "<p>Dispersion is the splitting of white light into its seven component colours (violet, indigo, blue, green, yellow, orange, red) when it passes through a glass prism. (1 mark)</p><p>Violet bends the most and red the least. (½ mark)</p><p>Diagram: a prism with a narrow beam of white light entering one face and a fan of colours leaving the other, red at the top and violet nearest the base, falling on a screen labelled VIBGYOR. (1 mark)</p><p>Reason: different colours travel at different speeds in glass and hence are refracted through different angles; since the two faces of the prism are inclined, the colours emerge along different directions and become separated. (½ mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2019",
+      "marks": 3,
+      "q": "What is a rainbow? Draw a labelled diagram to show the formation of a rainbow and state the conditions needed to observe one.",
+      "answer": "<p>A rainbow is a natural spectrum of sunlight appearing in the sky after a rain shower; it is caused by dispersion of sunlight by tiny water droplets in the atmosphere. (1 mark)</p><p>Diagram: a water droplet with a ray of sunlight entering it; label refraction and dispersion at entry, internal reflection at the back surface, and refraction again at exit, with red emerging above violet towards the observer, and the Sun shown behind the observer. (1 mark)</p><p>Conditions: (i) the Sun must be behind the observer, low in the sky; (ii) there must be water droplets (rain or spray) in the air in front of the observer. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "The near point of a hypermetropic person is 50 cm from the eye. What is the nature and power of the lens required to enable him to read a book held at 25 cm? Draw the ray diagram for the correction.",
+      "answer": "<p>He needs a convex lens that forms a virtual image of the book (at 25 cm) at his near point, 50 cm, on the same side. So u = −25 cm, v = −50 cm. (½ mark)</p><p>1/f = 1/v − 1/u = 1/(−50) − 1/(−25) = −1/50 + 2/50 = 1/50, so f = +50 cm = 0.5 m. (1 mark)</p><p>P = 1/f = 1/0.5 = +2 D. A convex lens of power +2 D. (½ mark)</p><p>Diagram: convex lens in front of the eye; rays from the object at 25 cm are made to appear to come from N at 50 cm and then converge on the retina. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Draw a labelled diagram of the human eye and write the function of the cornea, iris, eye lens and ciliary muscles. (b) A student sitting on the last bench can read the letters written on the blackboard but is not able to read the letters written in his textbook. Name the defect, give its cause, and draw the ray diagram for its correction.",
+      "answer": "<p>(a) Diagram with cornea, iris, pupil, eye lens, ciliary muscles, retina and optic nerve labelled. (1 mark)</p><p>Cornea: transparent front bulge through which light enters; most refraction of light occurs at its outer surface. Iris: dark muscular diaphragm that controls the size of the pupil and hence the amount of light entering the eye. Eye lens: fibrous jelly-like convex lens that provides the finer adjustment of focal length to focus objects at different distances on the retina. Ciliary muscles: change the curvature of the lens and thus its focal length (accommodation). (2 marks)</p><p>(b) The student sees distant objects but not nearby ones, so the defect is hypermetropia (far-sightedness); the image of a near object forms behind the retina. Cause: the focal length of the eye lens is too long, or the eyeball has become too small. (1 mark)</p><p>Correction: a convex lens of suitable power. Diagram: rays from an object at 25 cm are converged by the convex lens so that they appear to come from the near point N and then focus on the retina. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) What is atmospheric refraction? State two phenomena caused by it and explain any one with a diagram. (b) Draw a diagram to show how a beam of white light is dispersed by a prism and recombined by a second prism, and state what this experiment proves.",
+      "answer": "<p>(a) The refraction of light by the earth's atmosphere, whose refractive index changes gradually with height (and with time) because the density of air varies, is called atmospheric refraction. (1 mark)</p><p>Phenomena: twinkling of stars; advance sunrise and delayed sunset (also: stars appearing higher; flattening of the Sun's disc). (1 mark)</p><p>Explanation of twinkling: starlight passing through layers of air of changing refractive index is refracted continuously towards the normal; because the atmosphere is not stationary, the apparent position of the star and the amount of light entering the eye keep fluctuating, so the star appears to flicker. Diagram: layers of atmosphere, curved ray from the star, apparent position above the actual. (1 mark)</p><p>(b) Diagram: first prism upright splits white light into VIBGYOR; second identical prism placed inverted receives all the colours and a beam of white light emerges. (1 mark)</p><p>It proves that white light is made up of seven colours, that the prism only separates them (it does not add colour), and that the colours can be recombined to give white light. (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) A person cannot see objects clearly beyond 1 m, and another person cannot see objects clearly closer than 1 m. Name the defect in each case, state one cause of each, and find the power of the corrective lens in each case (take the normal near point as 25 cm). (b) Draw ray diagrams showing the two defects and their correction.",
+      "answer": "<p>(a) First person: far point is 1 m, so the defect is myopia; cause: excessive curvature of the eye lens or elongation of the eyeball. Corrective lens: concave, forming the image of a distant object at 1 m, so f = −1 m and P = 1/f = −1 D. (1½ marks)</p><p>Second person: near point is 1 m, so the defect is hypermetropia; cause: focal length of the eye lens too long or eyeball too small. Corrective lens: convex, with u = −25 cm and v = −100 cm: 1/f = −1/100 + 1/25 = 3/100, f = 33.3 cm = 0.333 m, P = +3 D. (1½ marks)</p><p>(b) Myopia: parallel rays converging in front of the retina; with a concave lens the rays diverge, appear to come from the far point and focus on the retina. Hypermetropia: rays from 25 cm converging behind the retina; with a convex lens the rays appear to come from N and focus on the retina. Four diagrams with lens, retina and far point or near point labelled. (2 marks)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. Ravi, aged 55, went to an eye specialist. He complained that he could no longer read the newspaper without holding it far from his eyes, and that road signs at a distance also looked blurred. The doctor examined him and found that his near point had shifted to 75 cm and his far point to 2 m. She prescribed bifocal spectacles.<br>(i) Name the two defects Ravi is suffering from and the reason his near point has moved away with age.<br>(ii) What is a bifocal lens? Which part of it will help Ravi read?<br>(iii) Calculate the power of the lens needed for his distant vision.<br>(iv) Calculate the power of the lens needed for reading at 25 cm.",
+      "answer": "<p>(i) Myopia (far point at 2 m instead of infinity) and hypermetropia; because he is 55, the receding near point is presbyopia, caused by weakening of the ciliary muscles and loss of flexibility of the eye lens with age. (1 mark)</p><p>(ii) A bifocal lens has two parts: the upper part is a concave lens for distant vision and the lower part is a convex lens for near vision. The lower convex part will help Ravi read. (1 mark)</p><p>(iii) Distant vision: concave lens with f = −2 m; P = 1/(−2) = −0.5 D. (1 mark)</p><p>(iv) Reading: u = −25 cm, v = −75 cm; 1/f = 1/(−75) − 1/(−25) = (−1 + 3)/75 = 2/75, so f = 37.5 cm = 0.375 m and P = 1/0.375 ≈ +2.67 D (convex lens). (1 mark)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. On a misty winter morning, Meera noticed that the headlight beams of cars on the highway were clearly visible as bright cones in the air, though on a clear evening the same beams cannot be seen from the side. Later, from an aeroplane window at cruising altitude, she saw that the sky above looked much darker blue, almost black, while the clouds below looked brilliantly white. She also remembered reading that traffic lights use red for 'stop'.<br>(i) Name the phenomenon that made the headlight beams visible, and state what causes it.<br>(ii) Why does the sky look nearly black from a high altitude?<br>(iii) Why do the clouds look white?<br>(iv) Why is red used for the 'stop' signal?",
+      "answer": "<p>(i) The Tyndall effect: scattering of light by colloidal-sized particles (tiny water droplets of mist). The droplets scatter the light in all directions, and the scattered light reaching the eye makes the path of the beam visible. (1 mark)</p><p>(ii) At high altitude there are very few air molecules and particles above the observer to scatter sunlight, so little scattered blue light reaches the eye and the sky looks dark. (1 mark)</p><p>(iii) Cloud droplets are large compared with the wavelength of light and scatter all colours nearly equally; the mixture of all colours appears white. (1 mark)</p><p>(iv) Red has the longest wavelength in the visible spectrum and is scattered the least by fog, smoke and dust, so a red signal remains visible from the greatest distance. (1 mark)</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The part of the eye that controls the amount of light entering it is the",
+      "options": [
+        "retina",
+        "pupil",
+        "cornea",
+        "ciliary muscle"
+      ],
+      "answer_index": 1,
+      "explanation": "The pupil, whose size is set by the iris, regulates the amount of light entering the eye."
+    },
+    {
+      "q": "The image formed on the retina of the human eye is",
+      "options": [
+        "real and erect",
+        "virtual and erect",
+        "real and inverted",
+        "virtual and inverted"
+      ],
+      "answer_index": 2,
+      "explanation": "The eye lens is a convex lens forming a real, inverted, diminished image; the brain interprets it as erect."
+    },
+    {
+      "q": "When the ciliary muscles relax, the eye lens",
+      "options": [
+        "becomes thicker and its focal length decreases",
+        "becomes thinner and its focal length increases",
+        "becomes thicker and its focal length increases",
+        "does not change"
+      ],
+      "answer_index": 1,
+      "explanation": "Relaxed muscles let the lens flatten; a thinner lens has a longer focal length and focuses distant objects."
+    },
+    {
+      "q": "The far point of a normal human eye is",
+      "options": [
+        "25 cm",
+        "2.5 m",
+        "infinity",
+        "1 m"
+      ],
+      "answer_index": 2,
+      "explanation": "A normal eye can see clearly from 25 cm (near point) up to infinity (far point)."
+    },
+    {
+      "q": "A person needs a lens of power −2.5 D. His far point is at",
+      "options": [
+        "25 cm",
+        "40 cm",
+        "250 cm",
+        "2.5 m"
+      ],
+      "answer_index": 1,
+      "explanation": "f = 1/P = 1/(−2.5) = −0.4 m = −40 cm, and for myopia the focal length of the corrective lens equals the far point distance."
+    },
+    {
+      "q": "Which of the following is NOT a cause of hypermetropia?",
+      "options": [
+        "Eyeball too small",
+        "Focal length of the eye lens too long",
+        "Elongation of the eyeball",
+        "Weak converging power of the eye lens"
+      ],
+      "answer_index": 2,
+      "explanation": "Elongation of the eyeball causes myopia. The other three all make the image fall behind the retina."
+    },
+    {
+      "q": "Bifocal lenses are prescribed for a person suffering from",
+      "options": [
+        "myopia only",
+        "hypermetropia only",
+        "both myopia and hypermetropia",
+        "cataract"
+      ],
+      "answer_index": 2,
+      "explanation": "A bifocal has a concave upper part for distant vision and a convex lower part for reading, so it treats both defects."
+    },
+    {
+      "q": "The clouding of the crystalline lens of the eye in old age is called",
+      "options": [
+        "presbyopia",
+        "cataract",
+        "astigmatism",
+        "myopia"
+      ],
+      "answer_index": 1,
+      "explanation": "Cataract is the lens becoming milky and cloudy; it is treated by surgery."
+    },
+    {
+      "q": "On passing through a glass prism, a ray of light bends",
+      "options": [
+        "towards the apex of the prism",
+        "towards the base of the prism",
+        "parallel to the incident ray",
+        "along the normal"
+      ],
+      "answer_index": 1,
+      "explanation": "Both refractions deviate the ray in the same sense, towards the base, because the faces of the prism are inclined."
+    },
+    {
+      "q": "The angle between the incident ray produced forward and the emergent ray from a prism is the",
+      "options": [
+        "angle of prism",
+        "angle of refraction",
+        "angle of deviation",
+        "angle of emergence"
+      ],
+      "answer_index": 2,
+      "explanation": "By definition the angle of deviation D measures how much the prism turns the ray from its original direction."
+    },
+    {
+      "q": "Which colour of white light travels fastest inside glass?",
+      "options": [
+        "Violet",
+        "Blue",
+        "Green",
+        "Red"
+      ],
+      "answer_index": 3,
+      "explanation": "Red has the longest wavelength, the highest speed in glass and the smallest deviation."
+    },
+    {
+      "q": "In the recombination experiment, the second prism is placed",
+      "options": [
+        "in the same orientation as the first",
+        "inverted with respect to the first",
+        "at right angles to the first",
+        "far away from the first"
+      ],
+      "answer_index": 1,
+      "explanation": "Newton placed an identical prism inverted so that the deviations cancel and the colours merge back into white light."
+    },
+    {
+      "q": "A rainbow is formed by which sequence of processes in a water droplet?",
+      "options": [
+        "Reflection, dispersion, scattering",
+        "Refraction and dispersion, internal reflection, refraction",
+        "Scattering, reflection, refraction",
+        "Diffraction, reflection, refraction"
+      ],
+      "answer_index": 1,
+      "explanation": "Sunlight is refracted and dispersed on entering the drop, internally reflected at the back, and refracted again on leaving."
+    },
+    {
+      "q": "The Sun is visible for about two minutes before actual sunrise because of",
+      "options": [
+        "scattering of light",
+        "dispersion of light",
+        "atmospheric refraction",
+        "reflection from clouds"
+      ],
+      "answer_index": 2,
+      "explanation": "Light from the Sun below the horizon bends on entering the atmosphere, so the Sun appears above the horizon early."
+    },
+    {
+      "q": "Planets do not twinkle because",
+      "options": [
+        "they emit their own light",
+        "they are extended sources whose point-source fluctuations average out",
+        "they are outside the atmosphere",
+        "they are much farther than stars"
+      ],
+      "answer_index": 1,
+      "explanation": "Being close, a planet is a collection of many point sources; their individual brightness variations cancel."
+    },
+    {
+      "q": "Which of these will NOT show the Tyndall effect?",
+      "options": [
+        "Sunlight through a smoke-filled room",
+        "A beam of light through a colloidal solution",
+        "A beam of light through a true solution of salt in water",
+        "Sunlight through mist in a forest"
+      ],
+      "answer_index": 2,
+      "explanation": "Particles in a true solution are too small to scatter light, so the beam's path is not visible."
+    },
+    {
+      "q": "The colour of scattered light depends mainly on",
+      "options": [
+        "the speed of light",
+        "the size of the scattering particles",
+        "the temperature of the air",
+        "the distance of the observer"
+      ],
+      "answer_index": 1,
+      "explanation": "Very fine particles scatter blue most; larger particles scatter longer wavelengths and may appear white."
+    },
+    {
+      "q": "If the earth had no atmosphere, the sky during the day would appear",
+      "options": [
+        "blue",
+        "red",
+        "white",
+        "dark"
+      ],
+      "answer_index": 3,
+      "explanation": "Without particles there is no scattering; no scattered light reaches the eye, so the sky is dark, as an astronaut sees it."
+    }
+  ],
+  "common_mistakes": [
+    "Swapping the lenses: writing convex for myopia or concave for hypermetropia. The examiner gives zero for the correction part and usually for the diagram too. Remember: myopic eye converges too much, so diverge it with a concave lens.",
+    "Reversing the accommodation chain: saying the ciliary muscles relax to see a near object. Near object → muscles contract → lens thicker → focal length decreases.",
+    "In hypermetropia numericals, using f = near point directly. The lens forms a virtual image of an object at 25 cm at the near point, so you must use the lens formula with u = −25 cm and v = −(near point).",
+    "Forgetting to convert focal length to metres before finding power, so P = 1/50 = 0.02 D instead of 1/0.5 = +2 D. Also dropping the sign: a concave corrective lens has negative power.",
+    "Drawing the prism diagram with the emergent ray parallel to the incident ray, or not marking the angle of deviation. The ray must bend towards the base and D must be labelled.",
+    "Saying the sky is blue because blue is scattered least, or that red is used for danger because it is scattered most. Fine particles scatter short wavelengths (blue) most and red least.",
+    "Attributing the red colour of the rising Sun, or the blue sky, to atmospheric refraction. Refraction explains twinkling, raised star positions and the early sunrise; colours are explained by scattering.",
+    "Listing only 'dispersion' for the rainbow. Full marks need dispersion, internal reflection and refraction, plus the condition that the Sun is behind the observer."
+  ],
+  "strategy": "<p>This chapter is small, and almost every question in it has been asked before in some form, so it repays a focused two-day plan. Spend the first day on the eye: learn the seven parts with one-line functions, the accommodation chain in the exact order (muscles contract, lens thickens, focal length decreases, near object focused), the near and far point values, and the three defects as a table with four columns: what the person cannot see, where the image forms, two causes, corrective lens. Then draw the six defect diagrams (three for myopia, three for hypermetropia) from memory until each takes under a minute. Finish the day with the four NCERT numericals; they cover every calculation the board sets, and the only new skill is remembering to use the lens formula for hypermetropia.</p><p>The second day is the colourful world. Draw the prism diagram with all its labels, then the dispersion diagram, then Newton's two-prism recombination, then the raindrop with its three labelled steps. Write out the four atmospheric-refraction phenomena as two-sentence answers each, and the scattering cluster (Tyndall effect with two examples, blue sky, dark sky in space, red danger signals, white clouds) the same way. These reasoning answers are where marks are lost through vague wording, so practise the exact phrases: 'particles smaller than the wavelength of light scatter blue more', 'no atmosphere, no scattering', 'refractive index of air changes with height and time'.</p><p>In the exam, expect 4 to 7 marks. Diagrams should be in pencil with labels in pen, neat but not artistic. For a 3-mark defect question, one mark each for naming and causes, correction with lens type, and the diagram. Do the numericals last within the question, and check the sign and the unit of power every time.</p>",
+  "revision_checklist": [
+    "Seven parts of the eye with one function each; where most refraction happens (cornea) and where the image forms (retina)",
+    "Definition of accommodation and power of accommodation; the ciliary-muscle chain for near and far objects",
+    "Near point 25 cm, far point infinity; why objects closer than 25 cm are blurred",
+    "Myopia: symptom, image in front of retina, two causes, concave lens, f = −(far point)",
+    "Hypermetropia: symptom, image behind retina, two causes, convex lens, lens formula with u = −25 cm",
+    "Presbyopia and bifocal lenses; cataract and its treatment",
+    "All six defect ray diagrams drawn from memory with labels",
+    "NCERT numericals 10.5, 10.6, 10.7 and the in-text 1.2 m question, with signs and units",
+    "Prism diagram with i, r, e, A, D and the three rays; ray bends towards the base",
+    "Dispersion: definition, VIBGYOR order, violet bends most, cause (different speeds in glass)",
+    "Newton's two-prism recombination and what it proves",
+    "Rainbow: dispersion, internal reflection, refraction; Sun behind the observer",
+    "Atmospheric refraction: twinkling, planets not twinkling, stars appear higher, sunrise 2 min early",
+    "Tyndall effect: definition, cause, two NCERT examples; scattered colour depends on particle size",
+    "Blue sky, dark sky to an astronaut, red danger signals, white clouds, reddish Sun at the horizon"
+  ],
+  "videos": [
+    {
+      "id": "U8KipTkeH9Q",
+      "title": "The Human Eye and the Colourful World · full chapter"
+    }
+  ]
+}

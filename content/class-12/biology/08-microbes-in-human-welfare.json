@@ -1,0 +1,1075 @@
+{
+  "class": 12,
+  "subject": "Biology",
+  "chapter_no": 8,
+  "slug": "microbes-in-human-welfare",
+  "title": "Microbes in Human Welfare",
+  "summary": "The chapter is a tour of the useful side of microbes: curd, bread and cheese in the kitchen; alcohol, antibiotics, organic acids, enzymes and bioactive drugs in industry; the two-stage treatment of sewage; biogas from methanogens; and the microbes that replace chemical pesticides and fertilisers. It is a fact-dense chapter that rewards exact names of organisms and products, and it supplies a steady stream of 1-, 2- and 3-mark questions every year.",
+  "exam_profile": {
+    "weightage": "Class 12 Biology is a 70-mark theory paper. This chapter belongs to Unit VIII, Biology and Human Welfare, which carries 14 marks shared with Human Health and Disease. Microbes in Human Welfare typically contributes 4 to 6 marks: one or two 1-mark items (an MCQ or an Assertion–Reason), a 2-mark, and a 3-mark question, with the sewage treatment or biogas plant occasionally appearing as a case-based question.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Match the microbe to its product (Aspergillus niger and citric acid, Monascus purpureus and statins, Trichoderma polysporum and cyclosporin A, Clostridium butylicum and butyric acid), the genus of baculoviruses, the bacterium behind the holes in Swiss cheese, the discoverer of penicillin, the gases in biogas, the enzymes that clarify bottled juices."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Flocs and their fungal filaments, activated sludge as inoculum, Trichoderma as a free-living root-ecosystem fungus, biogas plants suiting rural areas, the reason Swiss cheese has holes, Fleming's observation on the Staphylococcus plate, methanogens in the rumen of cattle."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Why a starter is added to milk; what LAB do beyond curdling; what flocs are; events that reduce BOD; the benefit a plant gets from Glomus; why Rhizobium is called symbiotic; two places where methanogens live; why bottled juices are clearer than home-made ones; what a bioactive molecule is."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Primary versus secondary sewage treatment; roles of flocs and the anaerobic sludge digester; steps of biogas production and the working of a biogas plant; how methanogens help; a table of six microbes and their products or bioactive molecules; how Bt, Trichoderma and NPV act as biocontrol agents; three biofertilisers and how each enriches the soil."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "The complete sewage treatment process from filtration to the release of the effluent, with BOD explained; a labelled biogas plant with the sequence of events; biofertilisers with the types of organisms and why they are preferred over chemicals; biocontrol agents with the role of bacteria, fungi and viruses and the meaning of integrated pest management."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A flow chart of the sewage treatment plant with blanks to fill and questions on BOD; a biogas plant diagram with parts A, B, C; the three-water-sample BOD problem from the NCERT exercise; a flow chart of the three groups of biofertilisers with examples."
+      }
+    ],
+    "hot_topics": [
+      "Sewage treatment: primary versus secondary, flocs, activated sludge, anaerobic sludge digester, BOD and what it tells you",
+      "Biogas: methanogens (Methanobacterium), where they occur, the gases produced, the labelled biogas plant, IARI and KVIC",
+      "Microbe to product tables: LAB, Saccharomyces cerevisiae, Propionibacterium sharmanii, Aspergillus niger, Acetobacter aceti, Clostridium butylicum, Streptococcus, Trichoderma polysporum, Monascus purpureus",
+      "Biocontrol agents: Bacillus thuringiensis and how it kills caterpillars, Trichoderma, Nucleopolyhedrovirus and why it suits IPM and ecologically sensitive areas",
+      "Biofertilisers: Rhizobium, Azospirillum, Azotobacter, Glomus (mycorrhiza), Anabaena, Nostoc, Oscillatoria, and what each adds to the soil",
+      "Antibiotics: Fleming, Penicillium notatum, Chain and Florey, the 1945 Nobel Prize, diseases now treatable",
+      "Bioactive molecules: streptokinase as a clot buster, cyclosporin A as an immunosuppressant, statins as cholesterol-lowering agents",
+      "Household products: why curd sets from a starter, vitamin B<sub>12</sub>, CO<sub>2</sub> puffing dosa and bread dough, toddy, cheese ripening"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Introduction: what microbes are and where they live",
+      "pyq_years": [],
+      "body": "<p>NCERT opens this chapter by reminding you that microbes are the most diverse and the most widely spread living things on Earth. The list of microbes includes <b>bacteria, fungi, protozoa and viruses</b>, and also the <b>viroids</b> (naked RNA without a protein coat) and <b>prions</b> (infectious proteins) that you met in Class 11. Bacteria and many fungi can be grown on nutritive media in the laboratory; a single cell multiplies into a visible mass called a <b>colony</b>, and it is these colonies on a plate that let us count and identify microbes we cannot otherwise see.</p><p>Microbes occupy places where no other life survives. NCERT gives four examples that turn up as 1-mark questions: they live <b>inside thermal vents</b> (springs) where the temperature may exceed 100 °C, <b>deep inside the soil</b>, <b>under layers of snow several metres thick</b>, and in <b>highly acidic environments</b>. Many of them are on or inside our own bodies as well, mostly without harming us.</p><p>The chapter is not about disease. It takes the opposite view: we use microbes every day, and the uses are grouped into six areas that form the sections of the chapter, in this order: household products (8.1), industrial products (8.2, covering fermented beverages, antibiotics, and chemicals, enzymes and bioactive molecules), sewage treatment (8.3), biogas (8.4), biocontrol (8.5) and biofertilisers (8.6). The examiner tests this chapter almost entirely on names and mechanisms, so as you read each section keep a running table with three columns: the microbe (with its correct genus and species spelling), what it makes or does, and where that is used. That table is most of your revision for this chapter.</p>",
+      "formulas": [],
+      "tip": "When a question asks you to write the scientific name of a microbe, write the genus with a capital letter and the species in lower case, underlined if handwritten (Lactobacillus, Saccharomyces cerevisiae). Marking schemes accept only the NCERT name, so learn the spelling."
+    },
+    {
+      "heading": "8.1 Microbes in Household Products",
+      "pyq_years": [
+        2019,
+        2016,
+        2015,
+        2014,
+        2013
+      ],
+      "body": "<p>The most familiar example is <b>curd</b>. Micro-organisms called <b>lactic acid bacteria (LAB)</b>, such as <i>Lactobacillus</i>, grow in milk and convert it into curd. A small amount of curd, the <b>starter or inoculum</b>, is added to fresh milk; it contains millions of LAB. At a suitable temperature these multiply, produce acids that <b>coagulate and partially digest the milk proteins</b>, and the milk sets. Two extra points earn marks whenever curd is asked. First, curd <b>improves the nutritional quality of milk by increasing vitamin B<sub>12</sub></b>. Second, in our stomach the LAB play a very useful role in <b>checking disease-causing microbes</b>.</p><p>The batter of <b>dosa and idli</b> is also fermented by bacteria; the <b>puffed-up appearance</b> of the dough comes from the <b>CO<sub>2</sub></b> they release. <b>Bread</b> dough is fermented by <b>baker's yeast, <i>Saccharomyces cerevisiae</i></b>, and again CO<sub>2</sub> from fermentation makes the dough rise. A number of other traditional foods depend on microbes too: <b>toddy</b>, a drink of some parts of southern India, is made by fermenting the <b>sap of palms</b>; and microbes are used to ferment <b>fish, soybean and bamboo shoots</b> into foods.</p><p><b>Cheese</b> is one of the oldest microbial foods. Different cheeses are known by their texture, flavour and taste, and each is produced by a specific microbe. The large <b>holes in Swiss cheese</b> are caused by a large amount of <b>CO<sub>2</sub></b> produced by the bacterium <b><i>Propionibacterium sharmanii</i></b> (NCERT spelling). <b>Roquefort cheese</b> is ripened by growing a specific fungus on it (commonly given as <i>Penicillium roqueforti</i>), which gives the cheese its particular flavour.</p><p>NCERT exercise 2 asks you to prove that microbes release gases during metabolism, and this section is the answer: the CO<sub>2</sub> that puffs dosa and idli batter, the CO<sub>2</sub> that raises bread dough, and the CO<sub>2</sub> that makes holes in Swiss cheese are all visible evidence of gas released by microbes. Exercise 1, which sample you would carry to demonstrate microbes under a microscope, is answered by curd: a drop of curd shows rod-shaped <i>Lactobacillus</i> cells and is safe, cheap and easy to obtain.</p>",
+      "formulas": [],
+      "tip": "The 2-mark question 'why is a starter added to milk' has two marking points: the starter contains millions of LAB that multiply at a suitable temperature, and their acid coagulates and partially digests the milk protein. Add the vitamin B<sub>12</sub> line if the question mentions nutrition."
+    },
+    {
+      "heading": "8.2 Microbes in Industrial Products and 8.2.1 Fermented Beverages",
+      "pyq_years": [
+        2011
+      ],
+      "body": "<p>The same processes that work in a kitchen are scaled up in industry. On an industrial scale microbes are grown in very large vessels called <b>fermentors</b>, and the products recovered include beverages, antibiotics, organic acids, enzymes and other bioactive molecules. Producing them in bulk needs the right microbe, a suitable medium and controlled conditions inside the fermentor.</p><p><b>Fermented beverages.</b> The microbe is once again the yeast <b><i>Saccharomyces cerevisiae</i></b>, here called <b>brewer's yeast</b>. It is used to ferment <b>malted cereals and fruit juices</b> and produce <b>ethanol</b>. The type of raw material used and the type of processing decide which beverage results. <b>Wine and beer are produced without distillation</b>; <b>whisky, brandy and rum are produced by distillation</b> of the fermented broth. This one distinction is the entire examinable content of section 8.2.1 and is a favourite 1-mark question.</p><p>Notice that the same organism has two names depending on use: baker's yeast when it raises bread and brewer's yeast when it makes alcohol, but the scientific name <i>Saccharomyces cerevisiae</i> is the same, and it also appears later as the producer of ethanol among the industrial chemicals. Write the scientific name, not 'yeast', whenever a question asks for the microbe.</p><p>Remember that the fermentor itself is a large tank and not a magic device: the microbe still does the chemistry, and the engineering only keeps temperature, oxygen, pH and nutrients where the microbe grows and secretes best. Questions here are direct: name the microbe used for fermenting malted cereals and fruit juices; name two beverages made without distillation; name two made with distillation.</p>",
+      "formulas": [],
+      "tip": "Distillation separates alcohol from the fermented liquid to raise its concentration; it does not create alcohol. Say 'produced by distillation of the fermented broth' rather than 'produced by distillation' alone."
+    },
+    {
+      "heading": "8.2.2 Antibiotics",
+      "pyq_years": [
+        2024,
+        2014
+      ],
+      "body": "<p>The word antibiotic comes from the Greek <i>anti</i>, against, and <i>bios</i>, life. NCERT defines antibiotics as <b>chemical substances produced by some microbes that can kill or retard the growth of other, disease-causing, microbes</b>. Both parts of the definition matter: they are made by microbes, and they act against other microbes.</p><p><b>Penicillin</b> was the first antibiotic to be discovered, and it was a chance discovery. <b>Alexander Fleming</b> was working on <i>Staphylococci</i> bacteria when he noticed that a mould growing on one of his unwashed culture plates had stopped the bacteria from growing around it. He found that the mould was <b><i>Penicillium notatum</i></b> and that it produced a chemical he named penicillin. The full potential of penicillin as an effective antibiotic was established later by <b>Ernest Chain and Howard Florey</b>. It was used extensively to treat <b>American soldiers wounded in World War II</b>. Fleming, Chain and Florey were awarded the <b>Nobel Prize in 1945</b> for the discovery.</p><p>Antibiotics have greatly improved our capacity to treat deadly diseases. NCERT names four: <b>plague, whooping cough (pertussis), diphtheria</b> (gal ghotu) and <b>leprosy</b> (kusht rog). In the CBSE syllabus the phrase attached to this topic is 'antibiotics: production and judicious use', so be ready to write a line on why antibiotics must not be misused: unnecessary or incomplete courses select for resistant bacteria, and the drug then fails against the very infection it was meant for.</p><p>NCERT exercise 6 asks for two species of fungus used to produce antibiotics. Give <i>Penicillium notatum</i> (penicillin) and <i>Penicillium chrysogenum</i> (the high-yielding industrial strain), or name <i>Cephalosporium acremonium</i> for cephalosporins; either pair is accepted. Note that many antibiotics, such as streptomycin, come from the bacterium <i>Streptomyces</i>, not from a fungus, so read the question for the word 'fungus'.</p>",
+      "formulas": [],
+      "tip": "Three names, one plate: Fleming saw the effect on a Staphylococcus plate, Penicillium notatum was the mould, and Chain and Florey established its use. A common 1-mark slip is writing 'Penicillium' as the discoverer or 'Staphylococcus' as the source of penicillin."
+    },
+    {
+      "heading": "8.2.3 Chemicals, Enzymes and other Bioactive Molecules",
+      "pyq_years": [
+        2025,
+        2024,
+        2015,
+        2012,
+        2011
+      ],
+      "body": "<p>This section is a list, and the examiner tests the list as a table. Learn each pair and whether the microbe is a bacterium or a fungus.</p><p><b>Organic acids and alcohol.</b> <b><i>Aspergillus niger</i></b>, a fungus, produces <b>citric acid</b>. <b><i>Acetobacter aceti</i></b>, a bacterium, produces <b>acetic acid</b>. <b><i>Clostridium butylicum</i></b>, a bacterium, produces <b>butyric acid</b>. <b><i>Lactobacillus</i></b>, a bacterium, produces <b>lactic acid</b>. The yeast <b><i>Saccharomyces cerevisiae</i></b> is used for the commercial production of <b>ethanol</b>.</p><p><b>Enzymes.</b> <b>Lipases</b> are used in <b>detergent formulations</b>, where they help remove oily stains from laundry. <b>Pectinases and proteases</b> are used to clarify <b>bottled fruit juices</b>, which is why bottled juices are clearer than home-made ones: the enzymes break down the pectin and protein that make fresh juice cloudy. <b>Streptokinase</b>, produced by the bacterium <b><i>Streptococcus</i></b> and <b>modified by genetic engineering</b>, is used as a <b>'clot buster'</b> to remove clots from the blood vessels of patients who have undergone <b>myocardial infarction</b> (a heart attack).</p><p><b>Bioactive molecules.</b> A bioactive molecule is a microbial product that has a specific biological effect on the body when used as a drug. NCERT gives two. <b>Cyclosporin A</b>, produced by the fungus <b><i>Trichoderma polysporum</i></b>, is an <b>immunosuppressive agent</b> used in <b>organ-transplant patients</b>, where it suppresses the immune rejection of the graft. <b>Statins</b>, produced by the yeast <b><i>Monascus purpureus</i></b>, are commercialised as <b>blood-cholesterol lowering agents</b>; they act by <b>competitively inhibiting the enzyme responsible for the synthesis of cholesterol</b>.</p><p>When a table question gives you six organisms and asks for the product and its use, write both columns: the product alone is usually half the mark. For example, <i>Trichoderma polysporum</i>: cyclosporin A, immunosuppressant for transplant patients; <i>Monascus purpureus</i>: statins, lower blood cholesterol; <i>Streptococcus</i>: streptokinase, dissolves blood clots after a heart attack; <i>Aspergillus niger</i>: citric acid; <i>Acetobacter aceti</i>: acetic acid; <i>Clostridium butylicum</i>: butyric acid.</p>",
+      "formulas": [],
+      "tip": "Two organisms with 'Tricho' in them appear in this chapter and they do different jobs: Trichoderma polysporum makes cyclosporin A (8.2.3), while free-living Trichoderma species are biocontrol agents of plant pathogens (8.5). Keep them apart."
+    },
+    {
+      "heading": "8.3 Microbes in Sewage Treatment",
+      "pyq_years": [
+        2025,
+        2024,
+        2019,
+        2016,
+        2015,
+        2014,
+        2010
+      ],
+      "body": "<p>Cities and towns generate huge amounts of municipal waste-water, called <b>sewage</b>. It contains <b>large amounts of organic matter and microbes, many of them pathogenic</b>, so it cannot be discharged into rivers and streams directly. It is treated in <b>sewage treatment plants (STPs)</b>, and the treatment is carried out by the <b>heterotrophic microbes naturally present in the sewage</b>. The treatment has two stages.</p><p><b>Primary treatment</b> is <b>physical</b>. Particles, large and small, are removed from the sewage by <b>filtration and sedimentation</b>, in stages. First, <b>floating debris</b> is removed by <b>sequential filtration</b> (screens). Then the <b>grit</b> (soil and small pebbles) is removed by <b>sedimentation</b>. All the solids that settle form the <b>primary sludge</b>, and the supernatant is the <b>primary effluent</b>, which goes for secondary treatment.</p><p><b>Secondary or biological treatment</b> uses microbes. The primary effluent is passed into large <b>aeration tanks</b>, where it is <b>constantly agitated mechanically and air is pumped in</b>. This allows vigorous growth of useful <b>aerobic</b> microbes into <b>flocs</b>: masses of bacteria associated with fungal filaments to form mesh-like structures. While growing, these microbes <b>consume the major part of the organic matter</b> in the effluent, which brings down its <b>BOD</b>.</p><p><b>Biochemical oxygen demand (BOD)</b> is the amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria. The BOD test measures the rate of uptake of oxygen by micro-organisms in a sample of water, so BOD is an indirect measure of the organic matter present: <b>the greater the BOD of waste water, the greater its polluting potential</b>. Sewage is treated until its BOD is reduced.</p><p>Once the BOD has fallen significantly, the effluent is passed into a <b>settling tank</b>, where the bacterial flocs are allowed to sediment. This sediment is called <b>activated sludge</b>. A <b>small part of the activated sludge is pumped back into the aeration tank as inoculum</b>, so that the next batch starts with a ready population of flocs. The <b>remaining major part</b> is pumped into large tanks called <b>anaerobic sludge digesters</b>. Here <b>anaerobic bacteria digest the bacteria and fungi</b> of the sludge and, during this digestion, produce a mixture of gases, <b>methane, hydrogen sulphide and carbon dioxide</b>. This mixture is <b>biogas</b> and can be used as a source of energy. The effluent from secondary treatment is then released into natural water bodies such as rivers and streams.</p><p>NCERT closes the section with the river clean-up: because untreated sewage is the main polluter of Indian rivers, the <b>Ministry of Environment and Forests</b> initiated the <b>Ganga Action Plan</b> and the <b>Yamuna Action Plan</b> to save these rivers by building a large number of sewage treatment plants.</p>",
+      "formulas": [
+        {
+          "expr": "BOD = oxygen consumed if all the organic matter in 1 litre of water were oxidised by bacteria (mg L<sup>−1</sup>)",
+          "where": [
+            [
+              "BOD",
+              "biochemical oxygen demand; higher BOD means more organic matter and greater polluting potential"
+            ],
+            [
+              "typical values",
+              "clean river water below about 10 mg L<sup>−1</sup>; treated secondary effluent a few tens of mg L<sup>−1</sup>; untreated sewage in the hundreds of mg L<sup>−1</sup>"
+            ]
+          ]
+        }
+      ],
+      "tip": "The 3-mark 'distinguish between the roles of flocs and anaerobic sludge digesters' is answered in two clean halves: flocs are aerobic, work in the aeration tank, eat organic matter and reduce BOD; the digester is anaerobic, receives the surplus activated sludge, digests the microbes of the sludge and gives biogas."
+    },
+    {
+      "heading": "8.4 Microbes in Production of Biogas",
+      "pyq_years": [
+        2024,
+        2019,
+        2015,
+        2014,
+        2012,
+        2011
+      ],
+      "body": "<p><b>Biogas</b> is a mixture of gases, predominantly <b>methane</b>, produced by microbial activity and used as a fuel. Which gases a microbe produces during growth depends on the microbe and on the organic substrate it uses. Certain bacteria that grow <b>anaerobically on cellulosic material</b> produce a large amount of <b>methane along with CO<sub>2</sub> and H<sub>2</sub></b>. These bacteria are collectively called <b>methanogens</b>, and the common example NCERT names is <b><i>Methanobacterium</i></b>.</p><p>Methanogens occur in two places you must be able to name. They are found in the <b>anaerobic sludge during sewage treatment</b>, which is why the sludge digester produces biogas. They are also present in the <b>rumen</b> (a part of the stomach) of <b>cattle</b>, where they help break down the <b>cellulose</b> of the fodder and so play an important part in the nutrition of cattle. Because of this, the <b>excreta (dung) of cattle, called gobar</b>, is rich in methanogens, and dung is the ideal feed for a biogas plant; biogas from dung is therefore called <b>gobar gas</b>.</p><p><b>The biogas plant.</b> A typical plant is a <b>concrete tank, 10 to 15 feet deep</b>, in which bio-wastes are collected and a <b>slurry of dung and water</b> is fed through an inlet. A <b>floating cover</b> (gas holder) is placed over the slurry; it <b>rises as gas is produced</b> in the tank by microbial activity. The plant has an <b>outlet connected to a pipe</b> that carries the biogas to nearby houses for cooking and lighting. The <b>spent slurry</b> is removed through another outlet and used as <b>fertiliser</b>, so nothing is wasted.</p><p>Biogas plants are common in rural areas because cattle dung is available in large quantities there and the plant is simple and cheap to run. The technology of biogas production was developed in India mainly through the efforts of the <b>Indian Agricultural Research Institute (IARI)</b> and the <b>Khadi and Village Industries Commission (KVIC)</b>.</p><p>The sequence of events inside the digester is the answer to the 3-mark question: organic waste and dung slurry are fed in; anaerobic conditions develop; the methanogens (and other anaerobic bacteria) act on the cellulosic material; methane, CO<sub>2</sub> and H<sub>2</sub> are released and collect under the floating cover; the gas is piped out; the spent slurry leaves as fertiliser. Note that an inoculum of methanogens is not added separately because dung already carries them.</p>",
+      "formulas": [
+        {
+          "expr": "Biogas ≈ methane (predominant) + CO<sub>2</sub> + H<sub>2</sub>; from sewage sludge digesters NCERT lists methane, H<sub>2</sub>S and CO<sub>2</sub>",
+          "where": [
+            [
+              "methanogens",
+              "anaerobic bacteria that grow on cellulosic material, e.g. Methanobacterium"
+            ],
+            [
+              "sources",
+              "anaerobic sludge of sewage treatment; rumen of cattle; hence cattle dung (gobar)"
+            ]
+          ]
+        }
+      ],
+      "tip": "When you draw the biogas plant, four labels are compulsory: the dung and water inlet, the digester (concrete tank), the floating gas holder with the gas outlet pipe, and the sludge or spent-slurry outlet. Also write 'anaerobic' somewhere on the digester."
+    },
+    {
+      "heading": "8.5 Microbes as Biocontrol Agents",
+      "pyq_years": [
+        2025,
+        2018,
+        2016,
+        2014,
+        2013,
+        2011,
+        2010
+      ],
+      "body": "<p><b>Biocontrol</b> is the use of biological methods for controlling plant diseases and pests. Chemical insecticides and pesticides are toxic, they harm non-target organisms, and they pollute soil and water and reach our food. The biological approach is the one that <b>organic farming</b> relies on. It starts from an ecological view: a field is a web of predators and prey, and the farmer's job is to keep pests below damaging levels, not to eradicate them. Complete eradication would also remove the food of the useful predators and parasites that depend on the pest.</p><p>NCERT gives two non-microbial examples first: the <b>ladybird</b> (a beetle with red and black markings) is used to get rid of <b>aphids</b>, and <b>dragonflies</b> are used against <b>mosquitoes</b>. The rest of the section is about microbes.</p><p><b>Bacteria: <i>Bacillus thuringiensis</i> (Bt).</b> This is the microbial biocontrol agent used against <b>butterfly caterpillars</b>. It is sold in <b>sachets as dried spores</b>, which are <b>mixed with water and sprayed onto vulnerable plants such as brassicas and fruit trees</b>. The <b>insect larvae eat</b> the sprayed leaves, and <b>in the gut of the larva the toxin is released and the larva is killed</b>. Because the toxin acts only when eaten by the larva, other insects are unaffected. By the methods of genetic engineering, the <b>Bt toxin genes have been introduced into plants</b>, giving crops such as <b>Bt cotton</b> that are resistant to insect pests; this is taken up in the biotechnology chapters.</p><p><b>Fungi: <i>Trichoderma</i>.</b> <i>Trichoderma</i> species are <b>free-living fungi that are very common in the root ecosystems</b>. They are effective biocontrol agents of <b>several plant pathogens</b>, protecting the roots from soil-borne fungal diseases.</p><p><b>Viruses: baculoviruses.</b> Baculoviruses are pathogens that attack <b>insects and other arthropods</b>. The majority of baculoviruses used as biological control agents belong to the genus <b><i>Nucleopolyhedrovirus</i></b>. They are excellent candidates for <b>species-specific, narrow-spectrum insecticidal applications</b>: they have <b>no negative impact on plants, mammals, birds, fish or even non-target insects</b>. This makes them especially desirable when beneficial insects must be conserved as part of an <b>integrated pest management (IPM)</b> programme, and when an <b>ecologically sensitive area</b> is being treated.</p>",
+      "formulas": [],
+      "tip": "The 3-mark biocontrol answer needs one example from each of bacteria, fungi and viruses with the mechanism: Bt (spores sprayed, eaten by caterpillar, toxin released in gut), Trichoderma (free-living root fungus against plant pathogens), Nucleopolyhedrovirus (species-specific, safe for non-targets, IPM). Naming only Bt loses two of the three marks."
+    },
+    {
+      "heading": "8.6 Microbes as Biofertilisers",
+      "pyq_years": [
+        2025,
+        2024,
+        2019,
+        2018,
+        2017,
+        2014,
+        2012,
+        2011,
+        2010
+      ],
+      "body": "<p>Chemical fertilisers raise yields but they are a major source of pollution of soil and water, and the Green Revolution made farmers depend on them. <b>Biofertilisers</b> are the alternative. NCERT's definition is short and should be quoted as it is: <b>biofertilisers are organisms that enrich the nutrient quality of the soil</b>. The main sources are <b>bacteria, fungi and cyanobacteria</b>.</p><p><b>Bacteria.</b> <b><i>Rhizobium</i></b> lives in a <b>symbiotic</b> association in the <b>root nodules of leguminous plants</b>, where it <b>fixes atmospheric nitrogen</b> into organic forms that the plant uses as nutrient. It is called symbiotic because both partners gain: the plant gets fixed nitrogen and the bacterium gets food and shelter in the nodule. Other bacteria fix nitrogen while living <b>free in the soil</b>: <b><i>Azospirillum</i></b> and <b><i>Azotobacter</i></b>. These are the two names to give when a question asks for free-living nitrogen-fixing biofertilisers, and they are the ones you recommend to a farmer growing a non-leguminous crop who cannot use <i>Rhizobium</i>.</p><p><b>Fungi.</b> Many fungi form symbiotic associations with plants called <b>mycorrhiza</b>. Members of the genus <b><i>Glomus</i></b> form mycorrhiza. The fungal symbiont <b>absorbs phosphorus from the soil and passes it to the plant</b>. Plants with mycorrhiza show three further benefits that NCERT lists and the examiner expects: <b>resistance to root-borne pathogens</b>, <b>tolerance to salinity and drought</b>, and an <b>overall increase in plant growth and development</b>.</p><p><b>Cyanobacteria.</b> These are <b>autotrophic microbes</b> widely distributed in aquatic and terrestrial environments, and many of them <b>fix atmospheric nitrogen</b>: <b><i>Anabaena, Nostoc, Oscillatoria</i></b>. In <b>paddy fields</b> cyanobacteria serve as an important biofertiliser. Blue-green algae also <b>add organic matter to the soil and increase its fertility</b>, which is the second reason for adding them to agricultural soil.</p><p>A number of biofertilisers are now sold commercially in India, and farmers use them to replenish soil nutrients and reduce dependence on chemical fertilisers. When asked why farmers prefer biofertilisers, give three reasons: they are cheap and renewable, they do not pollute soil or water, and they improve soil structure and fertility over time instead of degrading it.</p><p>NCERT exercise 13 also asks about the role of microbes in <b>single cell protein (SCP)</b>: microbes such as <i>Spirulina</i>, yeast and <i>Methylophilus methylotrophus</i> are grown in bulk and their biomass is used as a protein-rich food or feed; and in soil, where microbes decompose organic matter, cycle nutrients and fix nitrogen.</p>",
+      "formulas": [],
+      "tip": "Three groups, three things they supply: bacteria fix nitrogen (Rhizobium symbiotic; Azospirillum, Azotobacter free-living), fungi supply phosphorus (Glomus mycorrhiza), cyanobacteria fix nitrogen and add organic matter (Anabaena, Nostoc, Oscillatoria). A flow-chart question with blanks A, B, C is built on exactly this."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Lactic acid bacteria (LAB)",
+      "definition": "Bacteria such as Lactobacillus that convert milk to curd by producing acids that coagulate and partially digest milk proteins; they raise vitamin B<sub>12</sub> and check pathogens in the stomach."
+    },
+    {
+      "term": "Inoculum (starter)",
+      "definition": "A small amount of curd, containing millions of LAB, added to milk so that the bacteria multiply and set the curd; in an STP a part of the activated sludge returned to the aeration tank is also called the inoculum."
+    },
+    {
+      "term": "Fermentor",
+      "definition": "A very large vessel in which microbes are grown on an industrial scale under controlled conditions to make beverages, antibiotics, acids, enzymes and bioactive molecules."
+    },
+    {
+      "term": "Brewer's yeast",
+      "definition": "Saccharomyces cerevisiae used to ferment malted cereals and fruit juices to produce ethanol; the same organism is baker's yeast when it raises bread dough."
+    },
+    {
+      "term": "Antibiotic",
+      "definition": "A chemical substance produced by some microbes that can kill or retard the growth of other, disease-causing, microbes; penicillin from Penicillium notatum was the first."
+    },
+    {
+      "term": "Bioactive molecule",
+      "definition": "A microbial product with a specific biological action on the body used as a drug, e.g. cyclosporin A (immunosuppressant) from Trichoderma polysporum and statins (cholesterol-lowering) from Monascus purpureus."
+    },
+    {
+      "term": "Streptokinase",
+      "definition": "An enzyme produced by Streptococcus and modified by genetic engineering; used as a clot buster to dissolve blood clots in patients who have had a myocardial infarction."
+    },
+    {
+      "term": "Sewage",
+      "definition": "Municipal waste-water containing large amounts of organic matter and microbes, many of them pathogenic; it must be treated in a sewage treatment plant before release into water bodies."
+    },
+    {
+      "term": "Primary treatment",
+      "definition": "The physical stage of sewage treatment: floating debris removed by sequential filtration, grit removed by sedimentation; settled solids form the primary sludge and the supernatant is the primary effluent."
+    },
+    {
+      "term": "Secondary (biological) treatment",
+      "definition": "The stage in which the primary effluent is aerated and agitated in aeration tanks so that aerobic microbes grow as flocs and consume the organic matter, reducing the BOD."
+    },
+    {
+      "term": "Flocs",
+      "definition": "Masses of bacteria associated with fungal filaments forming mesh-like structures in the aeration tank; they consume organic matter and lower BOD."
+    },
+    {
+      "term": "Biochemical oxygen demand (BOD)",
+      "definition": "The amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria; an indirect measure of organic matter, so a higher BOD means greater polluting potential."
+    },
+    {
+      "term": "Activated sludge",
+      "definition": "The sediment of bacterial flocs collected in the settling tank after secondary treatment; a small part is returned to the aeration tank as inoculum and the rest goes to the anaerobic sludge digester."
+    },
+    {
+      "term": "Anaerobic sludge digester",
+      "definition": "A large tank in which anaerobic bacteria digest the bacteria and fungi of the activated sludge, releasing methane, hydrogen sulphide and carbon dioxide (biogas)."
+    },
+    {
+      "term": "Methanogens",
+      "definition": "Bacteria such as Methanobacterium that grow anaerobically on cellulosic material and produce methane with CO<sub>2</sub> and H<sub>2</sub>; found in sewage sludge and in the rumen of cattle."
+    },
+    {
+      "term": "Biogas (gobar gas)",
+      "definition": "A mixture of gases, predominantly methane, produced by microbial activity on organic waste and used as fuel; when produced from cattle dung it is called gobar gas."
+    },
+    {
+      "term": "Biocontrol",
+      "definition": "The use of biological methods (predators, parasites, microbial pathogens) to control plant diseases and pests instead of chemical pesticides, e.g. Bacillus thuringiensis, Trichoderma, Nucleopolyhedrovirus."
+    },
+    {
+      "term": "Integrated pest management (IPM)",
+      "definition": "A programme that keeps pests below damaging levels by combining methods and conserving beneficial insects; species-specific agents such as baculoviruses suit it because they spare non-target organisms."
+    },
+    {
+      "term": "Biofertiliser",
+      "definition": "An organism that enriches the nutrient quality of the soil; the main sources are bacteria (Rhizobium, Azospirillum, Azotobacter), fungi (Glomus mycorrhiza) and cyanobacteria (Anabaena, Nostoc, Oscillatoria)."
+    },
+    {
+      "term": "Mycorrhiza",
+      "definition": "A symbiotic association between a fungus (e.g. Glomus) and plant roots in which the fungus absorbs phosphorus from the soil and passes it to the plant, also giving resistance to root pathogens and tolerance to salinity and drought."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Household microbes",
+      "expr": "Curd: Lactobacillus (LAB), raises vitamin B<sub>12</sub> · Dosa/idli: bacterial fermentation, CO<sub>2</sub> puffs the batter · Bread: Saccharomyces cerevisiae (baker's yeast), CO<sub>2</sub> · Toddy: fermented palm sap · Swiss cheese holes: CO<sub>2</sub> from Propionibacterium sharmanii · Roquefort: ripened by a fungus",
+      "note": "1-mark and 2-mark staples"
+    },
+    {
+      "name": "Fermented beverages",
+      "expr": "Saccharomyces cerevisiae (brewer's yeast) + malted cereals or fruit juice → ethanol; wine and beer without distillation; whisky, brandy and rum by distillation",
+      "note": "Section 8.2.1 in one line"
+    },
+    {
+      "name": "Penicillin story",
+      "expr": "Alexander Fleming, Staphylococci plate, mould Penicillium notatum → penicillin; potential established by Ernest Chain and Howard Florey; used on wounded soldiers in World War II; Nobel Prize 1945 to all three",
+      "note": "Diseases now treated: plague, whooping cough (pertussis), diphtheria, leprosy"
+    },
+    {
+      "name": "Organic acids and alcohol",
+      "expr": "Citric acid: Aspergillus niger (fungus) · Acetic acid: Acetobacter aceti (bacterium) · Butyric acid: Clostridium butylicum (bacterium) · Lactic acid: Lactobacillus · Ethanol: Saccharomyces cerevisiae (yeast)",
+      "note": "Know fungus vs bacterium for each"
+    },
+    {
+      "name": "Enzymes from microbes",
+      "expr": "Lipases → detergents (oily stains) · Pectinases and proteases → clarify bottled fruit juices · Streptokinase (Streptococcus, genetically modified) → clot buster after myocardial infarction",
+      "note": "'Why are bottled juices clearer' = pectinase and protease"
+    },
+    {
+      "name": "Bioactive molecules",
+      "expr": "Cyclosporin A: Trichoderma polysporum (fungus), immunosuppressant for organ-transplant patients · Statins: Monascus purpureus (yeast), lower blood cholesterol by competitively inhibiting the cholesterol-synthesising enzyme",
+      "note": "Both source and action are asked"
+    },
+    {
+      "name": "Sewage treatment sequence",
+      "expr": "Sewage → sequential filtration (floating debris) → sedimentation (grit) → primary sludge + primary effluent → aeration tank (air + agitation, aerobic flocs, BOD falls) → settling tank → activated sludge (part back as inoculum) → anaerobic sludge digester → biogas (CH<sub>4</sub>, H<sub>2</sub>S, CO<sub>2</sub>); effluent released to river",
+      "note": "Primary = physical; secondary = biological"
+    },
+    {
+      "name": "BOD",
+      "expr": "Oxygen consumed if all organic matter in 1 L of water were oxidised by bacteria; measured as rate of O<sub>2</sub> uptake by microbes; higher BOD = more organic matter = greater polluting potential",
+      "note": "NCERT exercise: 400 mg/L untreated sewage, 20 mg/L secondary effluent, 8 mg/L river water"
+    },
+    {
+      "name": "Biogas facts",
+      "expr": "Methanogens (Methanobacterium) grow anaerobically on cellulose → CH<sub>4</sub> (predominant) + CO<sub>2</sub> + H<sub>2</sub>; found in sewage sludge and cattle rumen; dung (gobar) rich in them; plant = concrete tank 10–15 ft deep, floating gas holder, gas outlet pipe, spent slurry = fertiliser; developed by IARI and KVIC",
+      "note": "Diagram + sequence of events = 3 or 5 marks"
+    },
+    {
+      "name": "Biocontrol agents",
+      "expr": "Ladybird → aphids · Dragonfly → mosquitoes · Bacillus thuringiensis (dried spores in sachets, sprayed on brassicas and fruit trees, toxin released in caterpillar gut) · Trichoderma (free-living root fungus vs plant pathogens) · Baculovirus genus Nucleopolyhedrovirus (species-specific, safe for non-targets, IPM, ecologically sensitive areas)",
+      "note": "One example each from bacteria, fungi, viruses"
+    },
+    {
+      "name": "Biofertilisers",
+      "expr": "Bacteria: Rhizobium (symbiotic, legume root nodules, N<sub>2</sub> fixation); Azospirillum, Azotobacter (free-living, N<sub>2</sub> fixation) · Fungi: Glomus (mycorrhiza, phosphorus uptake, resistance to root pathogens, salinity and drought tolerance, growth) · Cyanobacteria: Anabaena, Nostoc, Oscillatoria (N<sub>2</sub> fixation in paddy fields, add organic matter)",
+      "note": "Definition: organisms that enrich the nutrient quality of the soil"
+    },
+    {
+      "name": "Where microbes live",
+      "expr": "Thermal vents above 100 °C, deep soil, under metres of snow, highly acidic environments; groups: bacteria, fungi, protozoa, viruses, viroids, prions",
+      "note": "Introduction; occasional 1-mark"
+    },
+    {
+      "name": "River clean-up",
+      "expr": "Ganga Action Plan and Yamuna Action Plan, Ministry of Environment and Forests, to build sewage treatment plants",
+      "note": "1-mark fill-up"
+    },
+    {
+      "name": "Bt cotton link",
+      "expr": "Bt toxin gene from Bacillus thuringiensis introduced into cotton by genetic engineering → plant resistant to bollworm; crosses over to the biotechnology chapters",
+      "note": "Mention when asked how Bt cotton is protected"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "A typical biogas plant (NCERT Fig. 8.6 style)",
+      "how_to_draw": "Draw a deep rectangular or rounded concrete tank sunk into the ground; label it 'digester (anaerobic)'. On the left draw a sloping inlet pipe from a small mixing tank at ground level, labelled 'dung + water slurry (inlet)'. Over the slurry surface draw a dome-shaped floating cover labelled 'gas holder (floating cover)' with a pipe leading out of its top labelled 'gas outlet to houses'. On the right draw an outlet channel labelled 'spent slurry / sludge outlet (used as fertiliser)'. Shade the lower part as slurry and the space under the dome as 'biogas (CH<sub>4</sub>, CO<sub>2</sub>, H<sub>2</sub>)'. Four labels (inlet, digester, gas holder with outlet, sludge outlet) earn full marks."
+    },
+    {
+      "title": "Flow chart of a sewage treatment plant",
+      "how_to_draw": "Draw boxes joined by arrows in this order: Sewage → Sequential filtration (removes floating debris) → Sedimentation (removes grit); from this box draw a side arrow 'primary sludge' and a main arrow 'primary effluent'. Then: Aeration tank (air pumped in, mechanical agitation, aerobic flocs, BOD reduced) → Settling tank → Activated sludge. From activated sludge draw a return arrow back to the aeration tank labelled 'small part as inoculum' and a forward arrow to 'Anaerobic sludge digester' with an output 'biogas (CH<sub>4</sub>, H<sub>2</sub>S, CO<sub>2</sub>)'. From the settling tank draw the effluent arrow to 'river or stream'. Bracket the first half as PRIMARY (physical) and the second as SECONDARY (biological)."
+    },
+    {
+      "title": "Flocs in the aeration tank",
+      "how_to_draw": "Draw an irregular mesh-like cluster: many small rod-shaped and round bacterial cells clumped together, with long thin fungal hyphae threading through and around them to form a net. Label 'bacteria', 'fungal filaments (hyphae)' and 'mesh-like floc'. Around the floc draw small arrows with 'O<sub>2</sub> (air pumped)' entering and 'organic matter consumed, BOD falls'. Two or three flocs of different sizes in a rectangle labelled 'aeration tank' completes it."
+    },
+    {
+      "title": "Root nodules of a legume with Rhizobium",
+      "how_to_draw": "Draw the tap root of a leguminous plant (e.g. pea or gram) with several lateral roots, and along the roots draw rounded swellings of different sizes. Label 'root nodules', 'lateral root' and 'tap root'. Draw an enlarged cut section of one nodule as an inset showing pink-shaded central tissue packed with tiny rod-shaped bacteria, labelled 'Rhizobium (symbiotic nitrogen-fixing bacteria)' and 'nodule cortex'. Add a note 'atmospheric N<sub>2</sub> → fixed nitrogen for the plant'."
+    },
+    {
+      "title": "Mycorrhiza (Glomus) on a plant root",
+      "how_to_draw": "Draw a length of root in longitudinal view with a mass of fine fungal hyphae spreading outward from its surface into the soil, some hyphae penetrating between and into the cortical cells of the root. Label 'root cortex', 'fungal hyphae (Glomus)', 'soil', and draw arrows along the hyphae toward the root labelled 'phosphorus from soil to plant'. Add a second arrow from root to fungus labelled 'sugars from plant', to show the symbiosis. Note the benefits beside it: resistance to root-borne pathogens, tolerance to salinity and drought."
+    },
+    {
+      "title": "Anabaena or Nostoc filament with heterocyst",
+      "how_to_draw": "Draw a chain of 10 to 12 bead-like round cells in a single row to make a filament (trichome). Make one cell in the middle noticeably larger, thick-walled and paler; label it 'heterocyst (site of nitrogen fixation)'. Label the ordinary cells 'vegetative (photosynthetic) cells' and, if drawing Nostoc, enclose several filaments in a common jelly-like sheath labelled 'mucilaginous sheath'. Write 'cyanobacterium, biofertiliser in paddy fields' beneath."
+    },
+    {
+      "title": "Penicillium notatum conidiophore",
+      "how_to_draw": "Draw a vertical stalk (conidiophore) rising from a horizontal branching hypha; at its top draw two or three levels of short branches ending in flask-shaped cells (phialides), each bearing a chain of small round spores, so that the whole head looks like a brush or broom. Label 'conidiophore', 'branches (metulae)', 'phialides', 'chains of conidia', 'septate hyphae (mycelium)'. Caption it 'Penicillium notatum, source of penicillin (Fleming, 1928)'."
+    },
+    {
+      "title": "Saccharomyces cerevisiae budding and Lactobacillus rods",
+      "how_to_draw": "On one side draw three or four oval yeast cells, one with a small bud emerging from its side and one with a chain of two buds; label 'mother cell', 'bud', 'nucleus', 'budding' and 'vacuole', with the caption 'Saccharomyces cerevisiae: baker's and brewer's yeast, releases CO<sub>2</sub> and ethanol'. On the other side draw a few short rod-shaped cells, singly and in short chains, labelled 'Lactobacillus (lactic acid bacteria) in curd, rod-shaped, no nucleus'. This pair is what a sample of dough or curd shows under a microscope."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "8.1",
+      "q": "Bacteria cannot be seen with the naked eyes, but these can be seen with the help of a microscope. If you have to carry a sample from your home to your biology laboratory to demonstrate the presence of microbes under a microscope, which sample would you carry and why?",
+      "a": "<p>I would carry a small sample of <b>curd</b> (or of fermented dosa/idli batter). Curd is produced by <b>lactic acid bacteria such as <i>Lactobacillus</i></b>, and a drop of curd diluted with water and placed on a slide shows very large numbers of <b>rod-shaped bacterial cells</b> under the microscope, singly and in short chains.</p><p>The reasons for choosing curd are that it is safe to handle (the LAB are non-pathogenic), it is available in every home, the bacteria are present in millions per drop, and no culturing or staining is needed to see them. Fermenting batter would also work, and in it you could see gas bubbles, evidence of CO<sub>2</sub> released by the microbes. A drop of water from a pond or from soaked straw would show protozoa and algae as well, but curd is the simplest demonstration.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.2",
+      "q": "Give examples to prove that microbes release gases during metabolism.",
+      "a": "<p>Four everyday examples show gas released by microbes:</p><ul><li>The <b>puffed-up appearance of dosa and idli batter</b> is due to CO<sub>2</sub> released by the bacteria fermenting it.</li><li><b>Bread dough rises</b> because baker's yeast, <i>Saccharomyces cerevisiae</i>, releases CO<sub>2</sub> during fermentation.</li><li>The <b>large holes in Swiss cheese</b> are made by the CO<sub>2</sub> produced by the bacterium <i>Propionibacterium sharmanii</i>.</li><li><b>Biogas</b> (methane, CO<sub>2</sub>, H<sub>2</sub>) is produced by methanogens growing anaerobically on cellulosic material in a biogas plant, and the anaerobic sludge digester of a sewage plant gives off methane, H<sub>2</sub>S and CO<sub>2</sub>.</li></ul>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.3",
+      "q": "In which food would you find lactic acid bacteria? Mention some of their useful applications.",
+      "a": "<p>Lactic acid bacteria (LAB), such as <i>Lactobacillus</i>, are found in <b>curd</b> (and other fermented milk products such as yoghurt and cheese).</p><p>Useful applications:</p><ul><li>They convert milk into curd by producing acids that coagulate and partially digest the milk proteins.</li><li>They improve the nutritional quality of milk by <b>increasing vitamin B<sub>12</sub></b>.</li><li>In our stomach they <b>check the growth of disease-causing microbes</b>.</li><li><i>Lactobacillus</i> is used for the industrial production of <b>lactic acid</b>.</li></ul>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.4",
+      "q": "Name some traditional Indian foods made of wheat, rice and Bengal gram (or their products) which involve use of microbes.",
+      "a": "<p><b>Wheat:</b> bread, naan, bhatura and jalebi, whose dough or batter is fermented by yeast (<i>Saccharomyces cerevisiae</i>) or bacteria.</p><p><b>Rice:</b> idli and dosa (rice with black gram), whose batter is fermented by bacteria; the CO<sub>2</sub> released puffs the batter.</p><p><b>Bengal gram:</b> dhokla and khandvi, made from fermented Bengal gram (besan) batter.</p><p>In every case the microbes ferment the carbohydrate, release CO<sub>2</sub> that makes the food light and porous, and add flavour and some vitamins.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.5",
+      "q": "In which way have microbes played a major role in controlling diseases caused by harmful bacteria?",
+      "a": "<p>Microbes produce <b>antibiotics</b>: chemical substances that can kill or retard the growth of other, disease-causing, microbes. The first antibiotic, <b>penicillin</b>, was discovered by Alexander Fleming from the fungus <i>Penicillium notatum</i>; its potential was established by Chain and Florey, and it saved the lives of wounded soldiers in World War II. Since then many antibiotics (e.g. streptomycin, tetracycline, cephalosporins) have been obtained from bacteria and fungi and produced on a large scale in fermentors.</p><p>Antibiotics have greatly improved our capacity to treat deadly bacterial diseases such as <b>plague, whooping cough (pertussis), diphtheria and leprosy</b>. In addition, the lactic acid bacteria in curd check the growth of harmful microbes in the stomach.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.6",
+      "q": "Name any two species of fungus, which are used in the production of the antibiotics.",
+      "a": "<p><b><i>Penicillium notatum</i></b> (and the high-yielding strain <i>Penicillium chrysogenum</i>), which produces <b>penicillin</b>.</p><p><b><i>Cephalosporium acremonium</i></b>, which produces the <b>cephalosporin</b> group of antibiotics.</p><p>Note that many other antibiotics such as streptomycin, erythromycin and tetracycline come from bacteria of the genus <i>Streptomyces</i>, so name a fungus when the question says fungus.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "8.7",
+      "q": "What is sewage? In which way can sewage be harmful to us?",
+      "a": "<p><b>Sewage</b> is the municipal waste-water generated by cities and towns, carrying human excreta and the waste-water of households and industries.</p><p>It is harmful because it contains <b>large amounts of organic matter and microbes, many of which are pathogenic</b>. If sewage is released untreated into rivers and streams, the pathogens cause water-borne diseases such as typhoid, cholera and dysentery; the organic matter raises the <b>BOD</b> of the water, so the dissolved oxygen is used up and aquatic life dies; and the water becomes unfit for drinking, bathing and irrigation. This is why sewage is treated in sewage treatment plants before disposal.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.8",
+      "q": "What is the key difference between primary and secondary sewage treatment?",
+      "a": "<p><b>Primary treatment is physical; secondary treatment is biological.</b></p><ul><li><b>Primary treatment</b> removes particles from the sewage by <b>filtration and sedimentation</b>: floating debris by sequential filtration, then grit by sedimentation. The settled solids form the primary sludge and the supernatant is the primary effluent. No microbes are involved.</li><li><b>Secondary treatment</b> uses the <b>aerobic heterotrophic microbes</b> naturally present in the sewage. The primary effluent is aerated and agitated in aeration tanks, the microbes grow as flocs and consume the organic matter, and the <b>BOD falls</b>. The flocs are then settled as activated sludge, part of which is returned as inoculum and the rest digested anaerobically to give biogas.</li></ul>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.9",
+      "q": "Do you think microbes can also be used as source of energy? If yes, how?",
+      "a": "<p>Yes. Microbes produce <b>biogas</b>, a mixture of gases (predominantly methane with CO<sub>2</sub> and H<sub>2</sub>) that is used as fuel for cooking and lighting.</p><p><b>Methanogens</b>, such as <i>Methanobacterium</i>, grow anaerobically on cellulosic material (cattle dung, plant waste) and release methane. In a <b>biogas plant</b> a slurry of dung and water is fed into a deep concrete tank; the methanogens present in the dung act on it under anaerobic conditions, the gas collects under a floating gas holder and is piped to houses, and the spent slurry is used as fertiliser. The <b>anaerobic sludge digesters</b> of sewage treatment plants also produce biogas (methane, H<sub>2</sub>S, CO<sub>2</sub>) while digesting the activated sludge. Microbes such as <i>Saccharomyces cerevisiae</i> also produce ethanol, which can be used as a fuel.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.10",
+      "q": "Microbes can be used to decrease the use of chemical fertilisers and pesticides. Explain how this can be accomplished.",
+      "a": "<p><b>Reducing chemical fertilisers with biofertilisers.</b> Biofertilisers are organisms that enrich the nutrient quality of the soil. <i>Rhizobium</i> in the root nodules of legumes, and free-living <i>Azospirillum</i> and <i>Azotobacter</i>, fix atmospheric nitrogen. Cyanobacteria such as <i>Anabaena</i>, <i>Nostoc</i> and <i>Oscillatoria</i> fix nitrogen in paddy fields and add organic matter to the soil. Mycorrhizal fungi (<i>Glomus</i>) absorb phosphorus from the soil and pass it to the plant, and give resistance to root pathogens and tolerance to salinity and drought. With these, the farmer needs far less nitrogen and phosphate fertiliser.</p><p><b>Reducing chemical pesticides with biocontrol agents.</b> <i>Bacillus thuringiensis</i> spores sprayed on plants kill butterfly caterpillars when the toxin is released in the larval gut; its toxin gene has been put into crops such as Bt cotton. <i>Trichoderma</i>, a free-living root fungus, controls several plant pathogens. Baculoviruses of the genus <i>Nucleopolyhedrovirus</i> kill specific insects without harming plants, mammals, birds, fish or non-target insects. Predators such as ladybirds (against aphids) and dragonflies (against mosquitoes) add to this. Together these methods form integrated pest management and keep pests below damaging levels without polluting soil, water and food.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "8.11",
+      "q": "Three water samples namely river water, untreated sewage water and secondary effluent discharged from a sewage treatment plant were subjected to BOD test. The samples were labelled A, B and C; but the laboratory attendant did not note which was which. The BOD values of the three samples A, B and C were recorded as 20 mg/L, 8 mg/L and 400 mg/L, respectively. Which sample of the water is most polluted? Can you assign the correct label to each assuming the river water is relatively clean?",
+      "a": "<p>BOD is an indirect measure of the organic matter in water: the higher the BOD, the greater the polluting potential.</p><ul><li><b>Sample C (400 mg/L)</b> has the highest BOD, so it is the <b>most polluted</b>: it is the <b>untreated sewage</b>.</li><li><b>Sample B (8 mg/L)</b> has the lowest BOD, so it is the relatively clean <b>river water</b>.</li><li><b>Sample A (20 mg/L)</b> has an intermediate BOD: it is the <b>secondary effluent</b> from the sewage treatment plant, which has had most of its organic matter removed by the flocs but is not as clean as river water.</li></ul><p>Order of pollution: C (400) > A (20) > B (8).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.12",
+      "q": "Find out the name of the microbes from which Cyclosporin A (an immunosuppressive drug) and Statins (blood cholesterol lowering agents) are obtained.",
+      "a": "<p><b>Cyclosporin A</b> is obtained from the fungus <b><i>Trichoderma polysporum</i></b>. It is an immunosuppressive agent used in organ-transplant patients to prevent rejection of the graft.</p><p><b>Statins</b> are obtained from the yeast <b><i>Monascus purpureus</i></b>. They lower blood cholesterol by competitively inhibiting the enzyme responsible for the synthesis of cholesterol.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "8.13",
+      "q": "Find out the role of microbes in the following: (a) Single cell protein (SCP) (b) Soil",
+      "a": "<p><b>(a) Single cell protein:</b> SCP is the dried microbial biomass used as a protein-rich food or feed. Microbes such as the cyanobacterium <i>Spirulina</i>, yeasts, and the bacterium <i>Methylophilus methylotrophus</i> multiply very fast on cheap substrates (waste, methanol, molasses) and their cells, rich in protein, vitamins and minerals, are harvested. SCP is a way to meet the protein needs of a growing population without using farmland.</p><p><b>(b) Soil:</b> Soil microbes decompose dead organic matter and release nutrients (mineralisation); nitrogen-fixing bacteria (<i>Rhizobium</i>, <i>Azotobacter</i>, <i>Azospirillum</i>) and cyanobacteria add nitrogen; mycorrhizal fungi improve phosphorus uptake; microbes build humus, which improves soil structure and water-holding; and some (e.g. <i>Trichoderma</i>) suppress soil-borne plant pathogens. In these ways soil microbes act as natural biofertilisers and biocontrol agents.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.14",
+      "q": "Arrange the following in the decreasing order (most important first) of their importance, for the welfare of human society. Give reasons for your answer. Biogas, Citric Acid, Penicillin and Curd.",
+      "a": "<p>A defensible order is: <b>Penicillin > Biogas > Curd > Citric acid</b>.</p><ul><li><b>Penicillin</b>: the first antibiotic; it made deadly bacterial diseases (plague, whooping cough, diphtheria, leprosy, infected wounds) treatable and has saved millions of lives. Life-saving comes first.</li><li><b>Biogas</b>: a cheap, renewable, non-polluting fuel for cooking and lighting in rural areas, made from dung and waste; it reduces dependence on firewood and fossil fuel and returns the slurry to the field as fertiliser.</li><li><b>Curd</b>: a nutritious everyday food, richer in vitamin B<sub>12</sub> than milk, whose LAB also check harmful microbes in the stomach; important, but there are other foods.</li><li><b>Citric acid</b>: useful as a food preservative and flavouring and in pharmaceuticals, but not essential to health or energy.</li></ul><p>The examiner accepts any order that is justified with sound reasons; the reasoning earns the marks.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "8.15",
+      "q": "How do biofertilisers enrich the fertility of the soil?",
+      "a": "<p>Biofertilisers are organisms that enrich the nutrient quality of the soil. They do so in three ways:</p><ul><li><b>Nitrogen fixation by bacteria:</b> <i>Rhizobium</i>, living symbiotically in the root nodules of legumes, and free-living <i>Azospirillum</i> and <i>Azotobacter</i> convert atmospheric N<sub>2</sub> into forms plants can use.</li><li><b>Phosphorus supply by fungi:</b> mycorrhizal fungi of the genus <i>Glomus</i> absorb phosphorus from the soil and pass it to the plant, and also give resistance to root-borne pathogens, tolerance to salinity and drought, and better growth.</li><li><b>Nitrogen fixation and organic matter by cyanobacteria:</b> <i>Anabaena</i>, <i>Nostoc</i> and <i>Oscillatoria</i> fix nitrogen, especially in paddy fields, and blue-green algae add organic matter that improves soil fertility.</li></ul><p>Because the microbes keep multiplying and recycling nutrients, the improvement is renewable and does not pollute the soil or water the way chemical fertilisers do.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Monascus purpureus is a yeast used commercially in the production of",
+      "options": [
+        "Citric acid",
+        "Blood-cholesterol lowering statins",
+        "Streptokinase for removing clots from blood vessels",
+        "Ethanol"
+      ],
+      "answer": "b",
+      "solution": "Statins from the yeast Monascus purpureus are commercialised as blood-cholesterol lowering agents; they competitively inhibit the enzyme that synthesises cholesterol."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "The bacterium used for the large-scale production of butyric acid is",
+      "options": [
+        "Acetobacter aceti",
+        "Aspergillus niger",
+        "Clostridium butylicum",
+        "Lactobacillus"
+      ],
+      "answer": "c",
+      "solution": "Clostridium butylicum produces butyric acid. Acetobacter aceti gives acetic acid, Lactobacillus gives lactic acid, and Aspergillus niger is a fungus that gives citric acid."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "The majority of baculoviruses used as biological control agents belong to the genus",
+      "options": [
+        "Nucleopolyhedrovirus",
+        "Trichoderma",
+        "Bacillus",
+        "Methanobacterium"
+      ],
+      "answer": "a",
+      "solution": "NCERT states that most baculoviruses used in biocontrol are in the genus Nucleopolyhedrovirus; they are species-specific and harmless to non-target organisms."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2024",
+      "marks": 1,
+      "q": "The first antibiotic was discovered by Alexander Fleming from a mould that was contaminating a culture plate of",
+      "options": [
+        "Streptococcus",
+        "Staphylococci",
+        "Lactobacillus",
+        "Clostridium"
+      ],
+      "answer": "b",
+      "solution": "Fleming was working on Staphylococci when he found the mould Penicillium notatum inhibiting their growth on an unwashed plate; the chemical was penicillin."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "Bottled fruit juices are clearer than home-made juices because they are treated with",
+      "options": [
+        "Lipases",
+        "Pectinases and proteases",
+        "Streptokinase",
+        "Amylases"
+      ],
+      "answer": "b",
+      "solution": "Pectinases and proteases break down the pectin and proteins that keep fresh juice cloudy; lipases are used in detergents and streptokinase is a clot buster."
+    },
+    {
+      "type": "MCQ",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "Bacteria that grow anaerobically on cellulosic material produce a large amount of",
+      "options": [
+        "Oxygen and nitrogen",
+        "Methane along with CO<sub>2</sub> and H<sub>2</sub>",
+        "Ethanol and CO<sub>2</sub>",
+        "Sulphur dioxide and ammonia"
+      ],
+      "answer": "b",
+      "solution": "These are the methanogens (e.g. Methanobacterium); their product is biogas, predominantly methane with CO<sub>2</sub> and H<sub>2</sub>."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The large holes in Swiss cheese are due to the production of a large amount of CO<sub>2</sub> by",
+      "options": [
+        "Saccharomyces cerevisiae",
+        "Propionibacterium sharmanii",
+        "Penicillium roqueforti",
+        "Lactobacillus"
+      ],
+      "answer": "b",
+      "solution": "Propionibacterium sharmanii (NCERT spelling) releases large amounts of CO<sub>2</sub> that form the holes; Penicillium roqueforti ripens Roquefort cheese."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which one of the following is a free-living nitrogen-fixing bacterium used as a biofertiliser?",
+      "options": [
+        "Rhizobium",
+        "Glomus",
+        "Azotobacter",
+        "Trichoderma"
+      ],
+      "answer": "c",
+      "solution": "Azotobacter and Azospirillum fix nitrogen while living free in the soil. Rhizobium is symbiotic in legume nodules, Glomus is a mycorrhizal fungus, and Trichoderma is a biocontrol fungus."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following alcoholic beverages is produced by distillation of the fermented broth?",
+      "options": [
+        "Wine",
+        "Beer",
+        "Whisky",
+        "Toddy"
+      ],
+      "answer": "c",
+      "solution": "Wine and beer are produced without distillation; whisky, brandy and rum are produced by distillation. Toddy is fermented palm sap."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Flocs are masses of bacteria associated with fungal filaments formed during the secondary treatment of sewage. Reason (R): Flocs are formed in the aeration tank where air is pumped in and the effluent is agitated, allowing vigorous growth of aerobic microbes.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both statements are NCERT facts, and the aeration that encourages aerobic microbial growth is exactly what produces the mesh-like flocs."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Trichoderma species are free-living fungi that are very common in the root ecosystems. Reason (R): Trichoderma species are used as biocontrol agents against butterfly caterpillars.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true. R is false: Trichoderma controls plant pathogens; the agent against butterfly caterpillars is Bacillus thuringiensis."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": "CBSE 2025",
+      "marks": 1,
+      "q": "Assertion (A): Swiss cheese has large holes in it. Reason (R): The holes are due to a large amount of CO<sub>2</sub> produced by the bacterium Propionibacterium sharmanii.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Both are true and the CO<sub>2</sub> released by the bacterium is the direct cause of the holes."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): A small part of the activated sludge is pumped back into the aeration tank. Reason (R): The activated sludge serves as an inoculum of flocs for the incoming primary effluent.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The returned sludge seeds the aeration tank with ready-made flocs so that BOD reduction starts quickly; that is precisely why it is returned."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Methanogens are found in the rumen of cattle. Reason (R): Methanogens are aerobic bacteria that oxidise glucose completely to CO<sub>2</sub> and water.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "c",
+      "solution": "A is true; methanogens in the rumen help break down cellulose. R is false: methanogens are anaerobic and produce methane, CO<sub>2</sub> and H<sub>2</sub> from cellulosic material."
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2019",
+      "marks": 2,
+      "q": "What are 'flocs', formed during the secondary treatment of sewage? Mention their role.",
+      "answer": "<p><b>Flocs</b> are masses of <b>bacteria associated with fungal filaments</b> that form <b>mesh-like structures</b>. They develop in the aeration tank when the primary effluent is agitated and air is pumped in, allowing vigorous growth of aerobic microbes.</p><p><b>Role:</b> while growing, the microbes of the flocs <b>consume the major part of the organic matter</b> in the effluent and thereby <b>reduce its BOD</b>. Later they settle in the settling tank as activated sludge.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2015",
+      "marks": 2,
+      "q": "Why is an inoculum of curd added to milk for curdling it? Name the nutrient whose amount is enhanced during curdling.",
+      "answer": "<p>The inoculum (starter) of curd contains <b>millions of lactic acid bacteria (LAB)</b> such as <i>Lactobacillus</i>. At a suitable temperature these <b>multiply and produce acids</b> that <b>coagulate and partially digest the milk proteins</b>, converting milk into curd. Without the inoculum there are too few LAB in milk to set it.</p><p>Curdling increases the amount of <b>vitamin B<sub>12</sub></b>, improving the nutritional quality of milk.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2024",
+      "marks": 2,
+      "q": "How does a plant benefit from its association with the fungus Glomus?",
+      "answer": "<p><i>Glomus</i> forms a <b>mycorrhiza</b>, a symbiotic association with the roots of the plant.</p><ul><li>The fungal symbiont <b>absorbs phosphorus from the soil and passes it to the plant</b>.</li><li>The plant also gains <b>resistance to root-borne pathogens</b>, <b>tolerance to salinity and drought</b>, and an <b>overall increase in growth and development</b>.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2024",
+      "marks": 2,
+      "q": "List the events that reduce the biochemical oxygen demand (BOD) of the primary effluent during sewage treatment.",
+      "answer": "<ul><li>The primary effluent is passed into <b>aeration tanks</b>, where it is <b>mechanically agitated and air is pumped in</b>.</li><li>This allows vigorous growth of useful <b>aerobic microbes into flocs</b> (bacteria with fungal filaments).</li><li>While growing, these microbes <b>consume the major part of the organic matter</b> in the effluent.</li><li>As the organic matter falls, the oxygen needed to oxidise it falls, i.e. the <b>BOD is reduced</b>; the effluent is then passed to the settling tank.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2019",
+      "marks": 2,
+      "q": "What are methanogens? Write any two places where they can be found.",
+      "answer": "<p><b>Methanogens</b> are bacteria (e.g. <i>Methanobacterium</i>) that grow <b>anaerobically on cellulosic material</b> and produce a large amount of <b>methane along with CO<sub>2</sub> and H<sub>2</sub></b>.</p><p>They are found in (i) the <b>anaerobic sludge</b> of sewage treatment plants and biogas digesters, and (ii) the <b>rumen of cattle</b>, where they help break down cellulose; hence cattle dung (gobar) is rich in them.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": "CBSE 2012",
+      "marks": 2,
+      "q": "Name the source of streptokinase. How does this bioactive molecule function in our body?",
+      "answer": "<p>Streptokinase is produced by the bacterium <b><i>Streptococcus</i></b> and is <b>modified by genetic engineering</b>.</p><p>It works as a <b>'clot buster'</b>: it dissolves and removes <b>blood clots from the blood vessels</b> of patients who have undergone <b>myocardial infarction</b> (heart attack), restoring blood flow to the heart muscle.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2024",
+      "marks": 3,
+      "q": "Distinguish between the roles of flocs and anaerobic sludge digesters in sewage treatment.",
+      "answer": "<p><b>Flocs</b></p><ul><li>Masses of <b>aerobic</b> bacteria with fungal filaments in mesh-like structures.</li><li>Grow in the <b>aeration tank</b> during secondary treatment, where air is pumped and the effluent is agitated.</li><li><b>Consume the organic matter</b> of the primary effluent and <b>reduce its BOD</b>; they then settle as activated sludge.</li></ul><p><b>Anaerobic sludge digesters</b></p><ul><li>Large tanks that receive the <b>major part of the activated sludge</b> (the rest goes back as inoculum).</li><li><b>Anaerobic</b> bacteria here <b>digest the bacteria and fungi</b> of the sludge.</li><li>Produce <b>biogas</b> (methane, hydrogen sulphide, CO<sub>2</sub>), which can be used as a source of energy.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Name the products obtained from each of the following microbes and mention one use of each: (i) Saccharomyces cerevisiae (ii) Propionibacterium sharmanii (iii) Aspergillus niger (iv) Trichoderma polysporum (v) Acetobacter aceti (vi) Streptococcus.",
+      "answer": "<ul><li><b><i>Saccharomyces cerevisiae</i></b>: ethanol and CO<sub>2</sub>; raises bread dough (baker's yeast) and ferments malted cereals and fruit juices into beer and wine (brewer's yeast).</li><li><b><i>Propionibacterium sharmanii</i></b>: large amounts of CO<sub>2</sub>; produces the large holes and flavour of Swiss cheese.</li><li><b><i>Aspergillus niger</i></b>: citric acid; used as a food preservative and flavouring agent.</li><li><b><i>Trichoderma polysporum</i></b>: cyclosporin A; immunosuppressive agent in organ-transplant patients.</li><li><b><i>Acetobacter aceti</i></b>: acetic acid; used in vinegar and as an industrial chemical.</li><li><b><i>Streptococcus</i></b>: streptokinase; clot buster for removing clots in patients who have had a myocardial infarction.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2025",
+      "marks": 3,
+      "q": "Explain how the primary effluent is treated biologically in the aeration tanks of a sewage treatment plant.",
+      "answer": "<ul><li>The <b>primary effluent</b> (supernatant from the primary settling tank) is passed into large <b>aeration tanks</b>, where it is <b>constantly agitated mechanically and air is pumped in</b>.</li><li>This allows vigorous growth of useful <b>aerobic heterotrophic microbes</b>, naturally present in the sewage, into <b>flocs</b>: masses of bacteria associated with fungal filaments forming mesh-like structures.</li><li>While growing, the flocs <b>consume the major part of the organic matter</b> of the effluent, so its <b>BOD is significantly reduced</b>.</li><li>The effluent is then passed into a <b>settling tank</b> where the flocs sediment as <b>activated sludge</b>; a small part is returned to the aeration tank as inoculum and the rest is sent to anaerobic sludge digesters.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2015",
+      "marks": 3,
+      "q": "What are methanogens? How do they help in generating biogas? Explain with reference to a biogas plant.",
+      "answer": "<p><b>Methanogens</b> are bacteria (e.g. <i>Methanobacterium</i>) that grow <b>anaerobically on cellulosic material</b> and produce large amounts of <b>methane along with CO<sub>2</sub> and H<sub>2</sub></b>. They occur in the rumen of cattle, so cattle dung is rich in them.</p><p><b>In a biogas plant:</b> a slurry of dung and water (with other bio-wastes) is fed into a concrete tank 10 to 15 feet deep. Under the <b>anaerobic conditions</b> inside, the methanogens present in the dung act on the cellulosic material and release <b>biogas</b>, which collects under a <b>floating cover</b> that rises as gas accumulates. The gas is carried by an <b>outlet pipe</b> to nearby houses for cooking and lighting, and the <b>spent slurry</b> is removed and used as fertiliser. No separate inoculum is needed because the dung itself carries the methanogens.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2024",
+      "marks": 3,
+      "q": "How do mycorrhiza, Anabaena and Rhizobium act as biofertilisers? Explain.",
+      "answer": "<ul><li><b>Mycorrhiza</b>: a symbiotic association between fungi of the genus <i>Glomus</i> and plant roots. The fungal symbiont <b>absorbs phosphorus from the soil and passes it to the plant</b>; the plant also gains resistance to root-borne pathogens, tolerance to salinity and drought, and better growth.</li><li><b><i>Anabaena</i></b>: an autotrophic <b>cyanobacterium</b> that <b>fixes atmospheric nitrogen</b>, especially in <b>paddy fields</b>; blue-green algae also add organic matter to the soil and increase its fertility.</li><li><b><i>Rhizobium</i></b>: a <b>symbiotic bacterium</b> living in the <b>root nodules of leguminous plants</b>, where it <b>fixes atmospheric nitrogen</b> into organic forms used by the plant as nutrient.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": "CBSE 2018",
+      "marks": 3,
+      "q": "A farmer is advised to improve the nitrogen content of his soil before sowing a non-leguminous crop. (i) Recommend two microbes he could use as biofertilisers. (ii) Why do leguminous crops not need such enrichment?",
+      "answer": "<p><b>(i)</b> He can use free-living nitrogen-fixing bacteria such as <b><i>Azotobacter</i></b> and <b><i>Azospirillum</i></b>, or nitrogen-fixing cyanobacteria such as <b><i>Anabaena</i></b> or <b><i>Nostoc</i></b> (important in paddy fields). These fix atmospheric N<sub>2</sub> in the soil without needing a legume host.</p><p><b>(ii)</b> Leguminous crops carry the symbiotic bacterium <b><i>Rhizobium</i></b> in their <b>root nodules</b>. <i>Rhizobium</i> fixes atmospheric nitrogen into organic forms that the plant uses directly, so the crop enriches the soil with nitrogen itself instead of depending on it.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) What are bio-fertilisers? Name the three types of micro-organisms used as bio-fertilisers, giving one example of each. (b) Explain how each of them enriches the soil. (c) Why are bio-fertilisers preferred to chemical fertilisers?",
+      "answer": "<p><b>(a)</b> Biofertilisers are <b>organisms that enrich the nutrient quality of the soil</b>. The three main sources are <b>bacteria</b> (e.g. <i>Rhizobium</i>, <i>Azotobacter</i>, <i>Azospirillum</i>), <b>fungi</b> (e.g. <i>Glomus</i>, a mycorrhizal fungus) and <b>cyanobacteria</b> (e.g. <i>Anabaena</i>, <i>Nostoc</i>, <i>Oscillatoria</i>).</p><p><b>(b)</b></p><ul><li><b>Bacteria:</b> <i>Rhizobium</i> lives symbiotically in the root nodules of legumes and fixes atmospheric nitrogen into organic forms the plant uses. <i>Azospirillum</i> and <i>Azotobacter</i> are free-living in the soil and also fix nitrogen, enriching the soil's nitrogen content.</li><li><b>Fungi:</b> <i>Glomus</i> forms mycorrhiza with plant roots. The fungal symbiont absorbs phosphorus from the soil and passes it to the plant, and gives resistance to root-borne pathogens, tolerance to salinity and drought, and an overall increase in growth.</li><li><b>Cyanobacteria:</b> autotrophic <i>Anabaena</i>, <i>Nostoc</i> and <i>Oscillatoria</i> fix atmospheric nitrogen, serving as an important biofertiliser in paddy fields, and blue-green algae add organic matter to the soil and increase its fertility.</li></ul><p><b>(c)</b> Biofertilisers are preferred because they are cheap and renewable, they do not pollute the soil and water the way chemical fertilisers do, they improve soil structure and fertility over time by adding organic matter and living microbes, and they reduce the farmer's dependence on costly chemical inputs while giving sustained yields.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the different steps in the treatment of sewage in a sewage treatment plant before the water is released into natural water bodies. Explain the meaning and importance of BOD in this process.",
+      "answer": "<p>Sewage (municipal waste-water) contains large amounts of organic matter and microbes, many pathogenic, and is treated in two stages by the heterotrophic microbes naturally present in it.</p><p><b>Primary treatment (physical):</b></p><ul><li><b>Floating debris</b> is removed by <b>sequential filtration</b> through screens.</li><li><b>Grit</b> (soil and small pebbles) is removed by <b>sedimentation</b>.</li><li>All solids that settle form the <b>primary sludge</b>; the supernatant is the <b>primary effluent</b>, which goes for secondary treatment.</li></ul><p><b>Secondary treatment (biological):</b></p><ul><li>The primary effluent is passed into <b>aeration tanks</b>, agitated mechanically with air pumped in, so that aerobic microbes grow vigorously into <b>flocs</b> (bacteria with fungal filaments in mesh-like structures).</li><li>The flocs <b>consume the major part of the organic matter</b>, reducing the <b>BOD</b>.</li><li>The effluent then goes to a <b>settling tank</b> where the flocs sediment as <b>activated sludge</b>. A small part of it is pumped back to the aeration tank as <b>inoculum</b>; the major part goes to <b>anaerobic sludge digesters</b>, where anaerobic bacteria digest the bacteria and fungi and release <b>biogas</b> (methane, H<sub>2</sub>S, CO<sub>2</sub>).</li><li>The treated effluent is released into rivers and streams.</li></ul><p><b>BOD (biochemical oxygen demand)</b> is the amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria. It is measured as the rate of oxygen uptake by microbes in the sample, so it is an indirect measure of the organic matter present: the greater the BOD, the greater the polluting potential. Sewage is treated until its BOD falls to a safe level; releasing high-BOD water would strip a river of dissolved oxygen and kill aquatic life. The Ganga Action Plan and Yamuna Action Plan were launched by the Ministry of Environment and Forests to build STPs for this purpose.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "(a) Why are biocontrol agents considered an effective means of controlling pests and plant diseases? (b) Explain the role of a bacterium, a fungus and a virus, one each, as biocontrol agents.",
+      "answer": "<p><b>(a)</b> Biocontrol uses biological methods instead of chemical pesticides. Chemicals are toxic, harm non-target organisms, pollute soil and water and enter our food. Biocontrol agents are specific to the pest, safe for the crop, for humans and for beneficial organisms, self-propagating and non-polluting. They do not aim to eradicate the pest but to keep it below damaging levels while conserving the natural predators and parasites, which is the basis of organic farming and of integrated pest management (IPM).</p><p><b>(b)</b></p><ul><li><b>Bacterium, <i>Bacillus thuringiensis</i> (Bt):</b> sold in sachets as <b>dried spores</b>, mixed with water and <b>sprayed on vulnerable plants such as brassicas and fruit trees</b>. The <b>butterfly caterpillars</b> eat the sprayed leaves; in the <b>gut of the larva the toxin is released and the larva is killed</b>. Other insects are unharmed. The Bt toxin gene has also been put into crops such as Bt cotton.</li><li><b>Fungus, <i>Trichoderma</i>:</b> <b>free-living fungi very common in root ecosystems</b>; they are effective biocontrol agents of <b>several plant pathogens</b>, protecting roots from soil-borne fungal diseases.</li><li><b>Virus, baculovirus (genus <i>Nucleopolyhedrovirus</i>):</b> attacks <b>insects and other arthropods</b>. It is <b>species-specific</b> with a narrow spectrum, and has <b>no negative impact on plants, mammals, birds, fish or non-target insects</b>, so it is ideal in IPM programmes and in ecologically sensitive areas where beneficial insects must be conserved.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. In a sewage treatment plant, municipal waste-water first passes through screens and a grit chamber. The clarified liquid then enters a large tank where paddles keep it in constant motion while compressed air is bubbled through it. After several hours, the liquid is led to a second tank where a brown sediment settles. Part of this sediment is returned to the first tank and the rest is sent to a closed tank from which a gas mixture is collected and burnt as fuel.<br>(i) Name the two stages of treatment described and state which of them is physical and which is biological.<br>(ii) What is the brown sediment called, and why is a part of it returned to the first tank?<br>(iii) Name the structures that form in the aerated tank and explain what happens to the BOD of the liquid there.<br>(iv) Name the closed tank and the gases collected from it.",
+      "answer": "<p><b>(i)</b> Screens and grit chamber = <b>primary treatment</b>, which is <b>physical</b> (filtration and sedimentation). The aerated tank and settling tank = <b>secondary treatment</b>, which is <b>biological</b> (microbial).</p><p><b>(ii)</b> The sediment is <b>activated sludge</b>, the settled bacterial flocs. A small part is returned to the aeration tank as an <b>inoculum</b>, so that the next batch of effluent is seeded with active flocs and BOD reduction starts at once.</p><p><b>(iii)</b> <b>Flocs</b> form: masses of aerobic bacteria associated with fungal filaments in mesh-like structures. They consume the major part of the organic matter, so the <b>BOD of the effluent falls</b> significantly.</p><p><b>(iv)</b> The closed tank is the <b>anaerobic sludge digester</b>. Anaerobic bacteria digest the bacteria and fungi of the sludge and release <b>methane, hydrogen sulphide and carbon dioxide</b>, i.e. biogas.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Study the passage and answer the questions. A village installs a plant consisting of a deep concrete tank fed each morning with a slurry of cattle dung and water. A dome floats over the slurry and slowly rises during the day; a pipe from its top leads to the kitchens of nearby houses, and a channel on the far side carries away a dark liquid that the villagers spread on their fields.<br>(i) Name the plant and the gas mixture it produces; state its main component.<br>(ii) Which group of bacteria is responsible, and name one genus. Why is cattle dung the preferred feed?<br>(iii) Why does the dome rise during the day?<br>(iv) What is the dark liquid used for, and name the two Indian institutions credited with developing this technology.",
+      "answer": "<p><b>(i)</b> It is a <b>biogas (gobar gas) plant</b>. It produces <b>biogas</b>, a mixture of gases that is predominantly <b>methane</b>, along with CO<sub>2</sub> and H<sub>2</sub>.</p><p><b>(ii)</b> <b>Methanogens</b>, e.g. <b><i>Methanobacterium</i></b>, which grow anaerobically on cellulosic material. Cattle dung is preferred because the methanogens live in the <b>rumen of cattle</b>, so their dung is <b>rich in these bacteria</b> and supplies both the substrate and the inoculum.</p><p><b>(iii)</b> The dome is the <b>floating gas holder</b>. As the methanogens produce gas under anaerobic conditions, the gas collects beneath the cover and its pressure <b>lifts the dome</b>; the gas is then piped out to the houses.</p><p><b>(iv)</b> The dark liquid is the <b>spent slurry</b>, used as <b>fertiliser</b> on the fields. The technology was developed mainly by the <b>Indian Agricultural Research Institute (IARI)</b> and the <b>Khadi and Village Industries Commission (KVIC)</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. An organic farmer growing cabbage finds that caterpillars are eating the leaves. Instead of a chemical insecticide, she buys sachets of a dried bacterial preparation, mixes the powder with water and sprays it on the plants. In her orchard, where she wants to protect the bees that pollinate her trees, an extension officer instead recommends a virus-based preparation. In the wheat field she adds a soil fungus to keep root diseases down.<br>(i) Name the bacterium in the sachet and explain how it kills the caterpillars.<br>(ii) Name the genus of the virus recommended for the orchard and give two reasons it suits a field where bees must be conserved.<br>(iii) Name the fungus added to the wheat field and state what it controls.<br>(iv) Why does the organic farmer aim to reduce the pest rather than eradicate it completely?",
+      "answer": "<p><b>(i)</b> <b><i>Bacillus thuringiensis</i> (Bt)</b>. The sachet contains dried spores; when sprayed on brassicas such as cabbage the leaves are eaten by the caterpillars, and <b>in the gut of the larva the toxin is released and the larva is killed</b>.</p><p><b>(ii)</b> <b><i>Nucleopolyhedrovirus</i></b> (a baculovirus). It is <b>species-specific</b> with a narrow spectrum, and it has <b>no negative impact on plants, mammals, birds, fish or non-target insects</b> such as bees, so it fits an integrated pest management programme where beneficial insects must be conserved.</p><p><b>(iii)</b> <b><i>Trichoderma</i></b>, a free-living fungus common in root ecosystems; it is an effective biocontrol agent of <b>several plant pathogens</b>, including soil-borne root diseases.</p><p><b>(iv)</b> The field is a web of predators and prey. Complete eradication of the pest would also remove the food of its natural predators and parasites, which would then disappear; keeping the pest at a low, manageable level preserves these beneficial organisms and the balance of the ecosystem, which is the holistic approach of organic farming.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The nutrient whose quantity increases when milk is converted into curd by LAB is",
+      "options": [
+        "Vitamin C",
+        "Vitamin B<sub>12</sub>",
+        "Vitamin D",
+        "Iron"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT states that curd improves the nutritional quality of milk by increasing vitamin B<sub>12</sub>."
+    },
+    {
+      "q": "Toddy, the traditional drink of parts of southern India, is made by fermenting",
+      "options": [
+        "Malted barley",
+        "Rice water",
+        "Sap of palms",
+        "Grape juice"
+      ],
+      "answer_index": 2,
+      "explanation": "Toddy is made by fermenting the sap of palms."
+    },
+    {
+      "q": "The mould found by Alexander Fleming growing on his Staphylococcus culture plate was",
+      "options": [
+        "Aspergillus niger",
+        "Penicillium notatum",
+        "Trichoderma polysporum",
+        "Monascus purpureus"
+      ],
+      "answer_index": 1,
+      "explanation": "Fleming identified the mould as Penicillium notatum and the substance it produced as penicillin."
+    },
+    {
+      "q": "The full potential of penicillin as an antibiotic was established by",
+      "options": [
+        "Fleming alone",
+        "Ernest Chain and Howard Florey",
+        "Watson and Crick",
+        "Louis Pasteur"
+      ],
+      "answer_index": 1,
+      "explanation": "Chain and Florey established its use; they shared the 1945 Nobel Prize with Fleming."
+    },
+    {
+      "q": "Which organism produces citric acid on an industrial scale?",
+      "options": [
+        "Acetobacter aceti",
+        "Clostridium butylicum",
+        "Aspergillus niger",
+        "Lactobacillus"
+      ],
+      "answer_index": 2,
+      "explanation": "Aspergillus niger, a fungus, is used for citric acid; the others give acetic, butyric and lactic acids respectively."
+    },
+    {
+      "q": "Lipases obtained from microbes are used in",
+      "options": [
+        "Clarifying fruit juices",
+        "Detergent formulations",
+        "Dissolving blood clots",
+        "Making curd"
+      ],
+      "answer_index": 1,
+      "explanation": "Lipases in detergents help remove oily stains; pectinases and proteases clarify juices; streptokinase dissolves clots."
+    },
+    {
+      "q": "Cyclosporin A, an immunosuppressive agent used in organ-transplant patients, is obtained from",
+      "options": [
+        "Streptococcus",
+        "Monascus purpureus",
+        "Trichoderma polysporum",
+        "Bacillus thuringiensis"
+      ],
+      "answer_index": 2,
+      "explanation": "Cyclosporin A is produced by the fungus Trichoderma polysporum."
+    },
+    {
+      "q": "Statins act by",
+      "options": [
+        "Dissolving blood clots",
+        "Competitively inhibiting the enzyme that synthesises cholesterol",
+        "Suppressing the immune response",
+        "Killing bacteria in the gut"
+      ],
+      "answer_index": 1,
+      "explanation": "Statins lower blood cholesterol by competitive inhibition of the cholesterol-synthesising enzyme."
+    },
+    {
+      "q": "In primary treatment of sewage, grit (soil and small pebbles) is removed by",
+      "options": [
+        "Aeration",
+        "Sequential filtration",
+        "Sedimentation",
+        "Anaerobic digestion"
+      ],
+      "answer_index": 2,
+      "explanation": "Floating debris is removed by sequential filtration and then grit is removed by sedimentation; both are physical steps."
+    },
+    {
+      "q": "The gases released by the anaerobic sludge digester of a sewage treatment plant are",
+      "options": [
+        "Oxygen, nitrogen, argon",
+        "Methane, hydrogen sulphide, carbon dioxide",
+        "Ammonia, chlorine, oxygen",
+        "Ethylene, ethane, methane"
+      ],
+      "answer_index": 1,
+      "explanation": "Anaerobic digestion of the sludge gives a mixture of methane, H<sub>2</sub>S and CO<sub>2</sub>, i.e. biogas."
+    },
+    {
+      "q": "A water sample with the highest BOD among the following is",
+      "options": [
+        "Secondary effluent from an STP, 20 mg/L",
+        "Clean river water, 8 mg/L",
+        "Untreated sewage, 400 mg/L",
+        "Drinking water, 2 mg/L"
+      ],
+      "answer_index": 2,
+      "explanation": "The greater the BOD, the more organic matter and the greater the polluting potential; untreated sewage is highest."
+    },
+    {
+      "q": "Methanogens help cattle by",
+      "options": [
+        "Fixing nitrogen in the rumen",
+        "Breaking down cellulose in the rumen",
+        "Producing vitamin B<sub>12</sub> in milk",
+        "Killing pathogens in the intestine"
+      ],
+      "answer_index": 1,
+      "explanation": "Methanogens in the rumen break down cellulose and play an important role in the nutrition of cattle."
+    },
+    {
+      "q": "The technology of biogas production in India was developed mainly by",
+      "options": [
+        "ICAR and ISRO",
+        "IARI and KVIC",
+        "CSIR and DRDO",
+        "NDRI and IIT"
+      ],
+      "answer_index": 1,
+      "explanation": "NCERT credits the Indian Agricultural Research Institute (IARI) and the Khadi and Village Industries Commission (KVIC)."
+    },
+    {
+      "q": "Bacillus thuringiensis is sprayed on brassicas and fruit trees as",
+      "options": [
+        "A live culture in broth",
+        "Dried spores mixed with water",
+        "A purified toxin solution",
+        "A viral suspension"
+      ],
+      "answer_index": 1,
+      "explanation": "Bt is available in sachets as dried spores, which are mixed with water and sprayed on vulnerable plants."
+    },
+    {
+      "q": "The ladybird beetle is used as a biocontrol agent to get rid of",
+      "options": [
+        "Mosquitoes",
+        "Aphids",
+        "Caterpillars",
+        "Nematodes"
+      ],
+      "answer_index": 1,
+      "explanation": "Ladybirds control aphids; dragonflies control mosquitoes."
+    },
+    {
+      "q": "Which of the following is a symbiotic nitrogen-fixing bacterium found in the root nodules of legumes?",
+      "options": [
+        "Azotobacter",
+        "Azospirillum",
+        "Rhizobium",
+        "Nostoc"
+      ],
+      "answer_index": 2,
+      "explanation": "Rhizobium lives symbiotically in legume root nodules; Azotobacter and Azospirillum are free-living, and Nostoc is a cyanobacterium."
+    },
+    {
+      "q": "The fungal symbiont in a mycorrhiza mainly supplies the plant with",
+      "options": [
+        "Nitrogen",
+        "Phosphorus",
+        "Potassium",
+        "Carbon dioxide"
+      ],
+      "answer_index": 1,
+      "explanation": "The fungus (e.g. Glomus) absorbs phosphorus from the soil and passes it to the plant."
+    },
+    {
+      "q": "Which of the following is NOT a cyanobacterium used as a biofertiliser in paddy fields?",
+      "options": [
+        "Anabaena",
+        "Nostoc",
+        "Oscillatoria",
+        "Glomus"
+      ],
+      "answer_index": 3,
+      "explanation": "Glomus is a mycorrhizal fungus; Anabaena, Nostoc and Oscillatoria are the nitrogen-fixing cyanobacteria NCERT names."
+    },
+    {
+      "q": "Which pair of beverages is produced without distillation?",
+      "options": [
+        "Whisky and brandy",
+        "Wine and beer",
+        "Rum and whisky",
+        "Brandy and rum"
+      ],
+      "answer_index": 1,
+      "explanation": "Wine and beer are not distilled; whisky, brandy and rum are produced by distillation of the fermented broth."
+    }
+  ],
+  "common_mistakes": [
+    "Mixing up the two Trichoderma entries: Trichoderma polysporum is the source of cyclosporin A, while free-living Trichoderma species are biocontrol agents of plant pathogens. Writing 'Trichoderma controls caterpillars' loses the mark because that is Bacillus thuringiensis.",
+    "Calling the microbes by their common names only. 'Yeast' for Saccharomyces cerevisiae, 'bacteria' for Lactobacillus or 'mould' for Penicillium notatum earns nothing when the question asks for the scientific name; write genus and species with correct spelling.",
+    "Confusing primary and secondary treatment. Primary is physical (filtration, sedimentation, primary sludge); secondary is biological (aeration tank, flocs, activated sludge, digester). Students often write 'flocs' under primary treatment or forget that a part of the activated sludge is returned as inoculum.",
+    "Defining BOD loosely as 'the amount of pollution'. The examiner wants the NCERT wording: the amount of oxygen that would be consumed if all the organic matter in one litre of water were oxidised by bacteria, and the direction of the relationship: higher BOD means more organic matter and greater polluting potential.",
+    "Listing biogas as only methane, or giving the wrong company of gases. Biogas from a digester is predominantly methane with CO<sub>2</sub> and H<sub>2</sub>; the sewage sludge digester is described with methane, H<sub>2</sub>S and CO<sub>2</sub>. Also, methanogens are anaerobic, never 'aerobic'.",
+    "Attributing penicillin's discovery wrongly: Fleming discovered it (from Penicillium notatum on a Staphylococcus plate), Chain and Florey established its potential, and all three shared the 1945 Nobel Prize. Writing Staphylococcus as the source of penicillin is a common error.",
+    "Naming Rhizobium as a free-living nitrogen fixer or recommending it for a non-leguminous crop. Rhizobium is symbiotic in legume nodules; the free-living fixers are Azotobacter and Azospirillum, and cyanobacteria (Anabaena, Nostoc, Oscillatoria) fix nitrogen in paddy fields.",
+    "Drawing the biogas plant without the floating gas holder or the gas outlet pipe, or forgetting the spent-slurry outlet. Diagrams are marked on labels: inlet for dung slurry, digester, gas holder, gas outlet, sludge outlet.",
+    "Giving only the product and not its use in a 'name the product and mention its use' table. Each row is usually half a mark for the product and half for the use; 'statins' without 'lower blood cholesterol' is half credit."
+  ],
+  "strategy": "<p>This chapter is short in the textbook and generous in the paper: 4 to 6 easy marks for anyone who knows the names. Prepare it in three passes over two evenings.</p><p><b>Pass one, the table.</b> Build a single table with every microbe in the chapter: name (correct spelling), whether it is a bacterium, fungus, yeast, cyanobacterium or virus, what it produces or does, and where that is used. It should have about 25 rows, from <i>Lactobacillus</i> to <i>Oscillatoria</i>. Read it aloud once a day until the exam. Most 1-mark and 3-mark questions are rows of this table.</p><p><b>Pass two, the processes.</b> Three processes are asked as 3- or 5-mark questions and as case studies: sewage treatment (primary versus secondary, flocs, BOD, activated sludge, anaerobic digester), the biogas plant (methanogens, sequence of events, the labelled diagram) and biocontrol (one bacterium, one fungus, one virus with mechanism). Write each out from memory as a numbered sequence, check it against the section above, and repeat until nothing is missing. Draw the biogas plant and the STP flow chart at least twice each with all labels.</p><p><b>Pass three, the questions.</b> Solve all fifteen NCERT exercises, especially the BOD sample problem, and the PYQs here. Write full answers for the 2-mark ones: two marking points each, no more. In the exam, allot about 8 to 10 minutes to this chapter in total; do not over-write, because the marks are for the correct name and the mechanism, not for length.</p><p>Finally, pair this chapter with Human Health and Disease (same unit) and with Biotechnology (Bt cotton, genetically engineered streptokinase) so that cross-chapter questions do not surprise you.</p>",
+  "revision_checklist": [
+    "Four extreme habitats of microbes and the six groups (bacteria, fungi, protozoa, viruses, viroids, prions)",
+    "Curd: LAB (Lactobacillus), why the starter is added, vitamin B<sub>12</sub>, LAB check pathogens in the stomach",
+    "CO<sub>2</sub> evidence: dosa/idli batter, bread dough (Saccharomyces cerevisiae), Swiss cheese holes (Propionibacterium sharmanii); toddy from palm sap; Roquefort ripened by a fungus",
+    "Brewer's yeast: malted cereals and fruit juices to ethanol; wine and beer without distillation; whisky, brandy, rum with distillation",
+    "Antibiotic definition; Fleming, Staphylococci plate, Penicillium notatum; Chain and Florey; WWII; Nobel 1945; plague, pertussis, diphtheria, leprosy",
+    "Acids: citric (Aspergillus niger), acetic (Acetobacter aceti), butyric (Clostridium butylicum), lactic (Lactobacillus); ethanol (S. cerevisiae)",
+    "Enzymes: lipases in detergents; pectinases and proteases clarify juices; streptokinase (Streptococcus, genetically modified) clot buster after myocardial infarction",
+    "Bioactive molecules: cyclosporin A (Trichoderma polysporum, immunosuppressant); statins (Monascus purpureus, competitive inhibition of cholesterol synthesis)",
+    "Primary treatment: sequential filtration (debris), sedimentation (grit), primary sludge and primary effluent; physical",
+    "Secondary treatment: aeration tank, flocs, BOD reduction, settling tank, activated sludge (part returned as inoculum), anaerobic sludge digester, biogas (CH<sub>4</sub>, H<sub>2</sub>S, CO<sub>2</sub>)",
+    "BOD definition in NCERT words; higher BOD = greater polluting potential; NCERT sample problem (400 > 20 > 8 mg/L)",
+    "Ganga Action Plan and Yamuna Action Plan, Ministry of Environment and Forests",
+    "Methanogens (Methanobacterium): anaerobic on cellulose, CH<sub>4</sub> + CO<sub>2</sub> + H<sub>2</sub>; sewage sludge and cattle rumen; gobar gas",
+    "Biogas plant diagram: inlet slurry, digester 10–15 ft deep, floating gas holder, gas outlet, spent slurry as fertiliser; IARI and KVIC",
+    "Biocontrol: ladybird (aphids), dragonfly (mosquitoes), Bt (spores, brassicas, toxin in larval gut), Trichoderma (root pathogens), Nucleopolyhedrovirus (species-specific, IPM, ecologically sensitive areas)",
+    "Biofertilisers: Rhizobium (symbiotic, legume nodules), Azospirillum and Azotobacter (free-living), Glomus (mycorrhiza, phosphorus, pathogen resistance, salinity and drought tolerance), Anabaena, Nostoc, Oscillatoria (paddy fields, organic matter)"
+  ],
+  "videos": []
+}

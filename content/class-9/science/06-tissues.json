@@ -1,0 +1,794 @@
+{
+  "class": 9,
+  "subject": "Science",
+  "chapter_no": 6,
+  "slug": "tissues",
+  "title": "Tissues",
+  "summary": "This chapter looks at how the cells of plants and animals are organised into tissues, why plant and animal tissues are built so differently, and how each tissue type's structure fits its job — from the water-carrying pipes of xylem to the impulse-carrying neuron.",
+  "exam_profile": {
+    "weightage": "Tissues is one of the biology chapters in the Class 9 Science paper; expect roughly 5–7 marks across MCQ, VSA/SA and one diagram-based or case-based question, spread across a mix of question types rather than one big question.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Identifying a tissue from its description or picture, matching tissue to function, or naming the correct type of a cell (e.g. sieve tube, tracheid, neuron)."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Pairs a structural fact (e.g. xylem cells are dead) with its functional reason (e.g. lets water move through easily); tests whether the reason truly explains the assertion."
+      },
+      {
+        "type": "VSA",
+        "marks": 2,
+        "note": "Define a tissue type, give two differences between two tissues, or state the function of a named tissue."
+      },
+      {
+        "type": "SA",
+        "marks": 3,
+        "note": "Compare three related tissues (e.g. parenchyma/collenchyma/sclerenchyma, or the three muscle types), or explain why a tissue is suited to its location."
+      },
+      {
+        "type": "LA",
+        "marks": 5,
+        "note": "Describe plant tissue types with a labelled diagram, or describe all four animal tissue types with one example each and a diagram of a neuron."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A short passage about a plant or animal structure (a growing shoot tip, a running athlete, a wound healing) followed by 3–4 questions naming the tissue involved and its role."
+      }
+    ],
+    "hot_topics": [
+      "Differences between meristematic and permanent tissue",
+      "Parenchyma, collenchyma and sclerenchyma — structure and function",
+      "Xylem and phloem — components and direction of transport",
+      "Structure and labelled diagram of a neuron",
+      "The three types of muscle tissue and where each is found",
+      "Types and locations of epithelial tissue",
+      "Why xylem cells are dead but phloem sieve tubes are living",
+      "Connective tissue types — areolar, adipose, bone, blood, cartilage"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "6.1 Are Plants and Animals Same at the Tissue Level?",
+      "pyq_years": [],
+      "body": "<p>A tissue is a group of cells that are similar in structure and work together to do a specific job. Multicellular organisms use the division of labour: instead of every cell doing every job (as a single-celled <i>Amoeba</i> must), different groups of cells specialise — some form a covering, some conduct materials, some contract to cause movement. This specialisation is efficient, but it means cells lose some of their flexibility; a muscle cell cannot suddenly start photosynthesising.</p><p>Plants and animals both use tissues, but their tissues are organised quite differently, and the reason comes down to how each group of organisms lives. Most animals move about looking for food, a mate or safety, so they need energy quickly and repeatedly — this calls for tissues capable of fast, repeated contraction and repair, and animal organs mostly use fully-grown, mature cells throughout their body. Plants, in contrast, are fixed in one place. They don't need tissues for locomotion, but they do need to keep growing for as long as they live, in specific regions — at the tips of roots and shoots, and in girth. So plants keep a permanently young, dividing tissue at these growing points, while the rest of the plant body is made of mature, non-dividing tissue. This single difference in lifestyle explains why plant tissues are classified first by whether they can still divide (meristematic vs permanent), while animal tissues are classified by the specific job they do (epithelial, connective, muscular, nervous).</p>",
+      "formulas": [],
+      "tip": "If a question asks 'why do plant and animal tissues differ', anchor the answer on movement vs fixed growth — that one sentence carries most of the marks."
+    },
+    {
+      "heading": "6.2.1 Meristematic Tissue",
+      "pyq_years": [],
+      "body": "<p>Meristematic tissue is the actively dividing tissue found only at specific growing regions of a plant. Its cells are small, densely packed with no intercellular spaces, have a large nucleus, and are typically isodiametric (roughly equal in all dimensions) with thin cellulose walls and dense cytoplasm — there is very little or no vacuole, because the cell's energy goes into division, not storage.</p><p>Based on location, meristematic tissue is of three kinds. <b>Apical meristem</b> is present at the growing tips of stems and roots and increases the length of the plant (this is why roots and shoots grow longer). <b>Lateral meristem</b> (also called the cambium) is present along the sides of stems and roots — for example the vascular cambium and cork cambium — and increases the girth (thickness) of the plant, which is how tree trunks widen with age. <b>Intercalary meristem</b> is found at the base of leaves or internodes (for example in grasses) and helps the leaf or internode elongate; it eventually gets converted into permanent tissue.</p><p>Cells produced by meristematic tissue divide and grow for a while, then take up a specific role, losing their ability to divide — this is how meristematic tissue gives rise to all the permanent tissues of the plant.</p>",
+      "formulas": [],
+      "tip": "Location is the exam hook: apical → length, lateral/cambium → girth, intercalary → base of leaf/internode, elongation. Learn this triad exactly."
+    },
+    {
+      "heading": "6.2.2 Permanent Tissue — Simple: Parenchyma, Collenchyma, Sclerenchyma",
+      "pyq_years": [],
+      "body": "<p>When a meristematic cell stops dividing and takes up a fixed shape, size and function, it becomes permanent (or differentiated) tissue. Simple permanent tissue is made of only one type of cell.</p><p><b>Parenchyma</b> is the most basic, unspecialised permanent tissue — living cells, usually loosely packed with large intercellular spaces, thin cellulose walls, and a large central vacuole. It forms the bulk of leaves, fruits, seeds and the soft parts of the plant, and its main job is storage of food and water. Where parenchyma contains chlorophyll and carries out photosynthesis, it is specially called <b>chlorenchyma</b> (found in the leaf mesophyll); where it stores air, mostly in aquatic plants, it is called <b>aerenchyma</b>, whose large air spaces give buoyancy.</p><p><b>Collenchyma</b> gives flexible mechanical support — think of how a young stem or leaf stalk can bend without snapping. Its cells are living, elongated, and irregularly thickened at the corners with cellulose and pectin; they have little or no intercellular space. Collenchyma occurs in the stem below the epidermis, in leaf stalks, and allows bending in stems and leaves without breaking, while permitting some growth as the organ elongates.</p><p><b>Sclerenchyma</b> gives rigid, permanent strength. Its cells are dead at maturity — long and narrow, with thick walls hardened by lignin, leaving no internal space (no protoplasm) at all. Sclerenchyma makes tissue hard and stiff, and is found in the husk of a coconut, the covering of seeds and nuts, and around the vascular bundles of stems.</p><p>A protective tissue also belongs here: the <b>epidermis</b> is the outermost single layer of cells covering the whole plant body, secreting a waxy, waterproof <b>cuticle</b> on aerial parts to check water loss, and containing <b>stomata</b> (with guard cells) on leaves for gas exchange. In older, woody stems and roots, the epidermis is replaced by several layers of dead, compactly arranged <b>cork</b> cells, made impervious to gases and water by a chemical called <b>suberin</b> in their walls — this is how cork acts as a protective tissue against infection and water loss.</p>",
+      "formulas": [],
+      "tip": "A very common table-completion question asks you to fill in living/dead, wall material and function for these three — practise the table, not just the paragraph."
+    },
+    {
+      "heading": "6.2.3 Permanent Tissue — Complex: Xylem and Phloem",
+      "pyq_years": [],
+      "body": "<p>Complex permanent tissues are made of more than one type of cell, all working together as a single conducting unit. Plants have two complex tissues, together called <b>vascular tissue</b>, arranged in strands called vascular bundles.</p><p><b>Xylem</b> conducts water and dissolved minerals from the roots upward to the rest of the plant, and also gives mechanical strength. It is made of four elements: <b>tracheids</b> and <b>vessels</b> are both long, tube-like, dead cells (vessels have their end walls dissolved, forming a continuous pipe; tracheids retain tapering end walls with pits) — these two carry water and provide support; <b>xylem parenchyma</b> is living, stores food and helps sideways conduction; <b>xylem fibres</b> are dead, thick-walled cells that mainly support the tissue. Because tracheids and vessels are dead with no cytoplasm blocking the lumen, water and minerals move through them very efficiently in one direction, from roots to leaves.</p><p><b>Phloem</b> transports the food made by photosynthesis, mainly from the leaves to the storage organs and to every growing part of the plant — this is why phloem transport is called translocation and can move material in more than one direction depending on need. Phloem also has four elements: <b>sieve tubes</b> are living, tube-like cells with perforated end walls (sieve plates) but no nucleus at maturity; <b>companion cells</b> are living, nucleated cells attached to sieve tubes that control their activity; <b>phloem parenchyma</b> stores food; <b>phloem fibres</b> are dead, and give mechanical support. Except for phloem fibres, all phloem elements are living, which fits their job of actively moving food rather than merely acting as passive pipes.</p>",
+      "formulas": [],
+      "tip": "A one-line difference examiners love: xylem cells (except xylem parenchyma) are dead and move water one way (up); phloem cells (except phloem fibres) are living and can move food in more than one direction."
+    },
+    {
+      "heading": "6.3.1 Epithelial Tissue",
+      "pyq_years": [],
+      "body": "<p>Epithelial tissue is the covering or lining tissue of the animal body — it covers the outer surface of the body and lines internal cavities and organs. Its cells are tightly packed in one or more layers with very little intercellular material, sitting on a thin basement membrane that separates them from the tissue below, so it forms a protective, selectively permeable barrier that also allows exchange of materials.</p><p>Types are named by cell shape and arrangement. <b>Squamous epithelium</b> has flat, thin, tile-like cells fitted together like tiles on a floor; it lines the mouth, oesophagus, blood vessels and alveoli of the lungs, where a thin barrier helps diffusion. <b>Cuboidal epithelium</b> has cube-shaped cells and lines kidney tubules and the ducts of glands, often helping absorption and secretion. <b>Columnar epithelium</b> has tall, pillar-like cells and lines the gut, where its height helps absorption and secretion. Where columnar (or cuboidal) cells bear hair-like cilia, it is called <b>ciliated epithelium</b>; it lines the respiratory tract, where the beating cilia sweep out dust and mucus. Where an epithelial layer's cells are specialised to secrete substances, groups of them fold inward to form <b>glandular epithelium</b>, making up glands such as the salivary glands (secreting saliva) — glands can be unicellular (single secretory cells) or multicellular.</p>",
+      "formulas": [],
+      "tip": "Match location to type: gut lining → columnar, kidney tubule/gland duct → cuboidal, blood vessel/alveoli → squamous, windpipe → ciliated columnar."
+    },
+    {
+      "heading": "6.3.2 Connective Tissue",
+      "pyq_years": [],
+      "body": "<p>Connective tissue is the most abundant and widely distributed tissue in the body — it binds, supports and connects other tissues and organs. Unlike epithelium, its cells are loosely spaced and embedded in an intercellular matrix, which can be jelly-like, fibrous, or solid, and it is this matrix that gives each type of connective tissue its particular property.</p><p><b>Areolar connective tissue</b> fills the space inside organs, supports internal organs, and helps repair tissue damage; it lies between the skin and muscles, and around blood vessels and nerves. <b>Adipose tissue</b> stores fat in large cells, and is found below the skin and between internal organs, acting as an insulator against temperature change and as a store of energy. Skeletal connective tissues give the body its framework: <b>bone</b> has a hard matrix of calcium and phosphorus compounds, forms the framework supporting the body, and works with muscles to bring about movement; <b>cartilage</b> has a matrix that is solid but flexible (smoothens bone surfaces at joints), found in the nose, ear, trachea and between vertebrae. <b>Ligaments</b> (which connect bone to bone) and <b>tendons</b> (which connect muscle to bone) are dense, fibrous connective tissues — ligaments are elastic and have great strength for flexibility at joints, tendons are strong but not so elastic.</p><p><b>Blood</b> is also a connective tissue: it has a fluid matrix called plasma, in which red blood cells, white blood cells and platelets are suspended; it transports gases, digested food, hormones and waste to different parts of the body, connecting every organ to every other.</p>",
+      "formulas": [],
+      "tip": "Blood being counted as a connective tissue surprises students — the reason is the fluid matrix (plasma) with cells suspended in it, exactly the pattern that defines connective tissue."
+    },
+    {
+      "heading": "6.3.3 Muscular Tissue",
+      "pyq_years": [],
+      "body": "<p>Muscular tissue is made of elongated cells, called muscle fibres, which contain special contractile proteins that shorten and relax to produce movement. There are three types.</p><p><b>Striated (skeletal) muscle</b> is attached to bones and helps in voluntary body movement — the cells are long, cylindrical, unbranched, and multinucleate, showing alternate light and dark bands (hence 'striated'); it is under voluntary control and tires quickly. <b>Unstriated (smooth) muscle</b> is found in the walls of internal organs such as the alimentary canal, iris of the eye, ureters, bronchi and blood vessels; its cells are long, spindle-shaped (tapering at both ends) and uninucleate, with no striation, and it works involuntarily — you cannot consciously start or stop your gut moving food along, and it does not fatigue quickly. <b>Cardiac muscle</b> is the tissue of the heart wall; its cells are cylindrical, branched, and uninucleate, joined end to end at junctions called intercalated discs, and it contracts rhythmically and involuntarily throughout life without ever fatiguing.</p>",
+      "formulas": [],
+      "tip": "Three quick tags to remember shape/nucleus/control: striated = unbranched, many nuclei, voluntary; smooth = spindle-shaped, one nucleus, involuntary; cardiac = branched, one nucleus, involuntary and untiring."
+    },
+    {
+      "heading": "6.3.4 Nervous Tissue",
+      "pyq_years": [],
+      "body": "<p>Nervous tissue is made to receive stimuli and conduct impulses rapidly from one part of the body to another, coordinating the body's responses. Its basic unit is the <b>neuron (nerve cell)</b>, which has three main parts: the <b>cell body (cyton)</b>, containing the nucleus and most of the cytoplasm; short, branched <b>dendrites</b> that receive impulses and carry them toward the cell body; and one long <b>axon</b> that carries the impulse away from the cell body to another neuron, a muscle, or a gland, ending in fine branches. The junction between the axon tip of one neuron and the dendrite of the next is called a <b>synapse</b>, where the impulse is passed on chemically.</p><p>Many nerve fibres bundled together with connective tissue make up a nerve. Neurons, together with the brain and spinal cord (the central nervous system), give animals a fast, coordinated way to sense and respond to their surroundings — far faster than the chemical (hormonal) coordination used by the rest of the body, though the two systems work together.</p>",
+      "formulas": [],
+      "tip": "The neuron diagram is asked almost every year — practise drawing and labelling cell body, nucleus, dendrites, axon and axon terminal/synapse from memory."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Tissue",
+      "definition": "A group of cells similar in structure that work together to perform a specific function."
+    },
+    {
+      "term": "Meristematic tissue",
+      "definition": "Actively dividing tissue found at the growing regions of a plant; its cells are small, thin-walled and densely packed with no intercellular spaces."
+    },
+    {
+      "term": "Permanent tissue",
+      "definition": "Tissue formed from meristematic tissue whose cells have lost the ability to divide and have taken up a specific shape and function."
+    },
+    {
+      "term": "Parenchyma",
+      "definition": "Simple permanent tissue of living, loosely-packed cells with large intercellular spaces; stores food and water and forms the bulk of soft plant parts."
+    },
+    {
+      "term": "Collenchyma",
+      "definition": "Simple permanent tissue of living cells thickened at the corners; gives flexible mechanical support, allowing bending without breaking."
+    },
+    {
+      "term": "Sclerenchyma",
+      "definition": "Simple permanent tissue of dead, thick-walled (lignified) cells; gives rigid mechanical strength, found in husks and seed coats."
+    },
+    {
+      "term": "Xylem",
+      "definition": "Complex permanent tissue (tracheids, vessels, xylem parenchyma, xylem fibres) that conducts water and minerals upward from roots and gives mechanical support."
+    },
+    {
+      "term": "Phloem",
+      "definition": "Complex permanent tissue (sieve tubes, companion cells, phloem parenchyma, phloem fibres) that transports food made in leaves to other parts of the plant."
+    },
+    {
+      "term": "Epithelial tissue",
+      "definition": "Covering and lining tissue made of tightly packed cells on a basement membrane, forming the outer skin and lining of internal organs."
+    },
+    {
+      "term": "Connective tissue",
+      "definition": "Tissue with cells scattered in an intercellular matrix; connects, binds and supports other tissues and organs (e.g. bone, blood, cartilage, tendon, ligament)."
+    },
+    {
+      "term": "Muscular tissue",
+      "definition": "Tissue of elongated fibres with contractile proteins that shorten and relax to bring about movement; striated, unstriated and cardiac types."
+    },
+    {
+      "term": "Nervous tissue",
+      "definition": "Tissue made of neurons that receives stimuli and conducts electrical impulses rapidly across the body."
+    },
+    {
+      "term": "Neuron",
+      "definition": "The structural and functional unit of nervous tissue, with a cell body, dendrites and a long axon."
+    },
+    {
+      "term": "Cuticle",
+      "definition": "A waxy, waterproof layer secreted by the epidermis on the aerial parts of a plant to check water loss."
+    },
+    {
+      "term": "Cork (cork cambium product)",
+      "definition": "Layers of dead, compactly arranged cells with suberin in their walls that replace the epidermis in old stems/roots and prevent water loss and gas exchange."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Three types of meristematic tissue by location",
+      "expr": "Apical (tip — increases length) · Lateral/cambium (sides — increases girth) · Intercalary (base of leaf/internode — elongation)",
+      "note": "learn the location–function pairing exactly, it is the most-asked one-liner"
+    },
+    {
+      "name": "Three simple permanent tissues",
+      "expr": "Parenchyma (living, storage) · Collenchyma (living, flexible support) · Sclerenchyma (dead, rigid support)",
+      "note": "compare living/dead, wall thickening and function"
+    },
+    {
+      "name": "Four elements of xylem",
+      "expr": "Tracheids · Vessels · Xylem parenchyma (living) · Xylem fibres",
+      "note": "all dead except xylem parenchyma; conduct water and minerals upward"
+    },
+    {
+      "name": "Four elements of phloem",
+      "expr": "Sieve tubes · Companion cells · Phloem parenchyma · Phloem fibres (dead)",
+      "note": "all living except phloem fibres; conduct food, can move in more than one direction"
+    },
+    {
+      "name": "Five types of epithelial tissue",
+      "expr": "Squamous · Cuboidal · Columnar · Ciliated · Glandular",
+      "note": "named by cell shape/arrangement; match each to where it lines the body"
+    },
+    {
+      "name": "Connective tissue types",
+      "expr": "Areolar · Adipose · Bone · Cartilage · Tendon · Ligament · Blood",
+      "note": "all have cells embedded in an intercellular matrix, which differs in each"
+    },
+    {
+      "name": "Three types of muscular tissue",
+      "expr": "Striated/skeletal (voluntary, unbranched, multinucleate) · Unstriated/smooth (involuntary, spindle-shaped, uninucleate) · Cardiac (involuntary, branched, uninucleate)",
+      "note": "learn shape + nucleus number + voluntary/involuntary for each"
+    },
+    {
+      "name": "Parts of a neuron",
+      "expr": "Dendrites (receive impulse) → Cell body/cyton (nucleus) → Axon (carries impulse away) → Synapse (junction to next neuron)",
+      "note": "impulse always travels dendrite → cell body → axon → next neuron"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Types of simple plant tissue — parenchyma, collenchyma, sclerenchyma",
+      "how_to_draw": "Draw three small cell groups side by side. Parenchyma: rounded/oval cells with visible gaps between them (intercellular spaces) and a thin wall. Collenchyma: elongated cells touching each other with extra thickening drawn as dark corners. Sclerenchyma: narrow, spindle-shaped cells with a uniformly thick dark wall and no visible lumen (to show they are dead). Label wall thickening, living/dead, and one function under each."
+    },
+    {
+      "title": "T.S. of a vascular bundle showing xylem and phloem",
+      "how_to_draw": "Draw an oval vascular bundle. On the inner side, draw xylem as a cluster of large circles/polygons (vessels) with a few smaller cells (xylem parenchyma) and pointed xylem fibres; label 'xylem — conducts water, faces centre'. On the outer side, draw phloem as smaller tube-like cells with perforated end-walls (sieve plates) next to smaller companion cells; label 'phloem — conducts food, faces periphery'. Mark the cambium layer between the two if drawing a dicot stem bundle."
+    },
+    {
+      "title": "Structure of a neuron",
+      "how_to_draw": "Draw a cell body (cyton) with a large central nucleus and short, branched dendrites coming off one side. From the opposite side draw one long axon (often shown broken/shortened with a wavy line to indicate real length), ending in a few fine branched axon terminals. Label: dendrite, cell body/nucleus, axon, axon terminal, and (if asked) the myelin sheath around the axon and the synapse at the tip."
+    },
+    {
+      "title": "The three types of muscle fibre",
+      "how_to_draw": "Draw three cells in a row. Striated: a long rectangle with alternating light/dark cross-bands and several nuclei along its length. Unstriated (smooth): a spindle shape tapering to points at both ends with one central nucleus, no bands. Cardiac: a branched, cylindrical cell with one nucleus and a dark line (intercalated disc) where it joins the next cell. Label voluntary/involuntary and location under each."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "1",
+      "q": "What is a tissue?",
+      "a": "<p>A tissue is a group of cells that are similar in structure and origin, and that work together to perform a specific function. Cells are organised into tissues so that multicellular organisms can divide labour between groups of specialised cells instead of every cell doing every job.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "2",
+      "q": "What is the utility of tissues in multicellular organisms?",
+      "a": "<p>Tissues allow division of labour: different groups of cells specialise for different jobs (covering, support, conduction, movement, coordination), which makes the organism more efficient than if every cell tried to perform every function. Specialised tissues also make it possible for the organism to grow larger, live longer, and repair damage in one part without disturbing the whole body.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "3",
+      "q": "Name the different types of simple permanent tissue.",
+      "a": "<p>There are three types of simple permanent tissue in plants: <b>parenchyma</b> (living, thin-walled, storage), <b>collenchyma</b> (living, corners thickened, flexible support) and <b>sclerenchyma</b> (dead, thick lignified walls, rigid support).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "4",
+      "q": "How does the cork act as a protective tissue?",
+      "a": "<p>Cork is formed by the cork cambium in older stems and roots, replacing the epidermis. Cork cells are dead, compactly arranged with no intercellular spaces, and their walls contain a chemical called suberin, which makes them impervious to water and gases. This impermeable, dead outer layer protects the plant from water loss, mechanical injury and infection by parasites.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "5",
+      "q": "Complete the table: differences between parenchyma, collenchyma and sclerenchyma (living/dead cells, cell wall, function).",
+      "a": "<p><b>Parenchyma</b> — living cells, thin cellulose wall, function: storage of food/water and forms the ground/packing tissue.<br><b>Collenchyma</b> — living cells, unevenly thickened (cellulose + pectin) wall, function: gives flexible mechanical support to young stems and leaves.<br><b>Sclerenchyma</b> — dead cells, uniformly thick lignified wall, function: gives rigid mechanical strength (e.g. husk of coconut, seed coats).</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "6",
+      "q": "What are the constituents of phloem?",
+      "a": "<p>Phloem is made of four elements: sieve tubes, companion cells, phloem parenchyma and phloem fibres. All are living cells except the phloem fibres, which are dead. Sieve tubes conduct food; companion cells assist and regulate the sieve tubes; phloem parenchyma stores food; phloem fibres give mechanical support.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "7",
+      "q": "Name the tissue responsible for movement in our body.",
+      "a": "<p>Muscular tissue is responsible for movement in the human body. Its elongated cells (muscle fibres) contain contractile proteins that shorten (contract) and lengthen (relax) to produce movement of body parts and internal organs.</p>",
+      "marks": 1
+    },
+    {
+      "kind": "exercise",
+      "number": "8",
+      "q": "What does a neuron look like? (Describe with a labelled diagram.)",
+      "a": "<p>A neuron has a cell body (cyton) containing the nucleus, several short branched dendrites projecting from the cell body that receive impulses, and one long axon that carries the impulse away from the cell body toward the next neuron, muscle or gland, ending in fine terminal branches. See the neuron diagram in this guide's Diagrams section for the labelled structure expected in the exam.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "9",
+      "q": "Give three features of cardiac muscles.",
+      "a": "<p>1. Cardiac muscle cells are cylindrical, branched and uninucleate.<br>2. They are joined end to end by intercalated discs, allowing coordinated contraction.<br>3. They contract rhythmically, involuntarily and continuously throughout life without fatiguing.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "10",
+      "q": "What are the functions of areolar tissue?",
+      "a": "<p>Areolar connective tissue fills the space inside organs, supports internal organs by binding them to the skin and muscles, and helps in the repair of tissues after an injury. It also surrounds and supports blood vessels and nerves running through the body.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "11",
+      "q": "Name the regions in which parenchyma tissue is located.",
+      "a": "<p>Parenchyma is found in the soft parts of the plant: the cortex and pith of stems and roots, the mesophyll of leaves, and in fruits and seeds. Where it contains chlorophyll and photosynthesises (as in leaf mesophyll) it is called chlorenchyma; where it stores air (as in aquatic plants) it is called aerenchyma.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "12",
+      "q": "How many types of elements together make up the xylem tissue? Name them.",
+      "a": "<p>Xylem is made up of four types of elements: tracheids, vessels, xylem parenchyma and xylem fibres. Tracheids and vessels are dead, tube-like cells that conduct water and minerals; xylem parenchyma is living and stores food; xylem fibres are dead and provide mechanical support.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exemplar",
+      "number": "E1",
+      "q": "Why are xylem vessels and tracheids dead, while phloem sieve tubes are living, even though both are conducting tissues?",
+      "a": "<p>Xylem mainly conducts water and minerals, a purely physical, one-way, upward movement; the cells being dead (with no cytoplasm or cross-walls blocking the lumen) actually makes this flow more efficient, and the thick lignified walls also give the plant mechanical strength. Phloem conducts food (organic solutes) which needs active, regulated, sometimes two-way transport (translocation) — this requires living cytoplasm and the associated companion cells to control loading and unloading of the sieve tubes, so sieve tubes stay living, even though they lose their nucleus at maturity.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "E2",
+      "q": "A gardener bends a young plant stem to train it along a support without it snapping, but an old woody branch snaps if bent the same way. Which tissue explains this difference?",
+      "a": "<p>Young stems have abundant collenchyma just below the epidermis — living cells with cellulose-and-pectin thickening only at the corners, which lets the stem bend and flex without breaking. Older, woody stems have replaced much of this flexible tissue with sclerenchyma and secondary wood, whose cells are dead with rigid, uniformly thick lignified walls; this tissue gives strength for standing upright but has no flexibility, so it cracks rather than bends.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which meristematic tissue is responsible for an increase in the girth (thickness) of a stem?",
+      "options": [
+        "Apical meristem",
+        "Lateral meristem",
+        "Intercalary meristem",
+        "Ground meristem"
+      ],
+      "answer": "b",
+      "solution": "Lateral meristem (cambium) lies along the sides of stems/roots and adds tissue that increases girth; apical meristem increases length."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of these plant tissues is made entirely of dead cells with lignified walls?",
+      "options": [
+        "Parenchyma",
+        "Collenchyma",
+        "Sclerenchyma",
+        "Epidermis"
+      ],
+      "answer": "c",
+      "solution": "Sclerenchyma cells are dead at maturity with thick, uniformly lignified walls, giving rigid mechanical strength."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The tissue that lines the inner walls of blood vessels and alveoli, allowing easy diffusion, is:",
+      "options": [
+        "Columnar epithelium",
+        "Cuboidal epithelium",
+        "Squamous epithelium",
+        "Ciliated epithelium"
+      ],
+      "answer": "c",
+      "solution": "Squamous epithelium is a single layer of flat, thin cells, ideal for diffusion, and lines blood vessels and the alveoli."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which connective tissue has a fluid matrix (plasma)?",
+      "options": [
+        "Cartilage",
+        "Bone",
+        "Blood",
+        "Areolar tissue"
+      ],
+      "answer": "c",
+      "solution": "Blood is a connective tissue whose matrix is the fluid plasma, in which RBCs, WBCs and platelets are suspended."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Muscle fibres that are spindle-shaped, uninucleate and involuntary are found in the:",
+      "options": [
+        "Biceps of the arm",
+        "Wall of the small intestine",
+        "Heart",
+        "Tongue"
+      ],
+      "answer": "b",
+      "solution": "These are unstriated (smooth) muscle fibres, found in the walls of internal organs such as the alimentary canal (intestine)."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which part of a neuron carries the nerve impulse away from the cell body?",
+      "options": [
+        "Dendrite",
+        "Cell body (cyton)",
+        "Axon",
+        "Nucleus"
+      ],
+      "answer": "c",
+      "solution": "The axon is the long process that carries the impulse away from the cell body toward the next neuron, muscle or gland."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following is NOT a component of xylem?",
+      "options": [
+        "Tracheids",
+        "Vessels",
+        "Sieve tubes",
+        "Xylem fibres"
+      ],
+      "answer": "c",
+      "solution": "Sieve tubes are a component of phloem, not xylem; xylem is made of tracheids, vessels, xylem parenchyma and xylem fibres."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Meristematic cells have a very large nucleus and dense cytoplasm but almost no vacuole. Reason (R): Meristematic cells are actively dividing, and a large permanent vacuole would interfere with rapid cell division.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Meristematic cells stay small and undifferentiated to keep dividing quickly; storing energy in a large vacuole is a job of mature, non-dividing cells, so a small/absent vacuole suits rapid division."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Cardiac muscle never fatigues even though it contracts continuously throughout life. Reason (R): Cardiac muscle fibres are branched and joined by intercalated discs that allow the whole tissue to contract as a coordinated unit.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "b",
+      "solution": "Both statements are true, but tirelessness comes mainly from cardiac muscle's continuous supply of oxygen/nutrients and its rhythmic, involuntary control, not directly from the intercalated discs — the discs explain coordinated contraction, not fatigue resistance, so R does not correctly explain A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Blood is classified as a connective tissue. Reason (R): Blood cells are suspended in a fluid intercellular matrix called plasma.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Connective tissue is defined by cells embedded in an intercellular matrix; blood fits this exactly, with plasma as its fluid matrix, so R correctly explains A."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Differentiate between tracheids and companion cells.",
+      "answer": "<p>Tracheids are dead, tube-like xylem cells with tapering, pitted end walls that conduct water and minerals and give mechanical support. Companion cells are living, nucleated phloem cells that lie alongside sieve tubes and regulate/assist their transport of food.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is the role of the epidermis in plants? Give one adaptation each in a desert plant and an aquatic plant.",
+      "answer": "<p>The epidermis is the outermost protective layer of the plant body. In desert plants, it is often thick and covered by a heavy waxy cuticle to check water loss by transpiration. In aquatic (submerged) plants, the cuticle is thin or absent, since water loss is not a problem and gas exchange can occur directly through the epidermis.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the tissue that repairs a cut on the skin and briefly explain how it helps.",
+      "answer": "<p>Areolar connective tissue helps repair tissue damage. It fills the space inside and around organs and, at a wound, supports the area and helps bridge and bind the healing tissue back together as new cells and fibres are formed.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State two differences between striated and unstriated muscle.",
+      "answer": "<p>1. Striated muscle cells are cylindrical, unbranched and multinucleate; unstriated muscle cells are spindle-shaped and uninucleate.<br>2. Striated muscle shows alternate light and dark bands and is voluntary; unstriated muscle shows no bands and is involuntary.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is a synapse?",
+      "answer": "<p>A synapse is the junction between the axon terminal of one neuron and the dendrite of the next neuron (or a muscle/gland), across which the nerve impulse is passed on chemically from one cell to the next.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Explain why plants need meristematic tissue but animals do not have an equivalent tissue.",
+      "answer": "<p>Plants are fixed in one place and keep growing throughout their life, so they need a permanent, actively dividing tissue at specific growing points (root tip, shoot tip, cambium) to keep adding new cells for length and girth. Animals move about to find food and mates, so most of their growth happens early in life and then stops; their organs are built mainly of mature, specialised cells suited to fast, repeated action (contraction, conduction) rather than continued division, so they don't need a permanently dividing meristem-like tissue spread through the body.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Describe the structure and function of sclerenchyma tissue with one example of where it is found.",
+      "answer": "<p>Sclerenchyma cells are dead at maturity, long and narrow, with thick walls hardened by lignin and no internal cell space. Because there is no living protoplasm to maintain, the walls can be packed very hard, giving the tissue great mechanical strength and rigidity without needing nourishment. It is found in the husk of a coconut and in the hard covering of seeds and nuts, where it protects the softer tissue inside.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "List the four elements of phloem and state which are living and which are dead.",
+      "answer": "<p>Phloem has four elements: sieve tubes (living, but without a nucleus at maturity), companion cells (living, nucleated, regulate the sieve tubes), phloem parenchyma (living, stores food), and phloem fibres (dead, give mechanical support). So all elements are living except the phloem fibres.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Why is blood considered a connective tissue and not a separate category on its own?",
+      "answer": "<p>The defining feature of connective tissue is a group of cells scattered within an intercellular matrix, rather than cells packed tightly together. In blood, the red blood cells, white blood cells and platelets are suspended in a fluid intercellular matrix called plasma — the same basic pattern as bone (solid matrix) or cartilage (flexible matrix), only the matrix here is liquid. Because it fits this structural definition, and because its function (connecting and transporting between organs) matches connective tissue's role of binding and supporting the body, blood is classified as a connective tissue.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "A plant's leaf stalk can bend in the wind without snapping. Name the tissue responsible and explain how its structure allows this.",
+      "answer": "<p>Collenchyma tissue, present just below the epidermis of leaf stalks and young stems, is responsible. Its cells are living and elongated, with cellulose-and-pectin thickening only at the corners, leaving the rest of the wall thin. This uneven thickening gives the tissue mechanical support while still allowing the cells (and hence the organ) to stretch and bend, so the stalk flexes in the wind instead of breaking, and can also keep growing a little as the leaf matures.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the different types of simple and complex permanent tissue in plants, with their structure and functions.",
+      "answer": "<p><b>Simple permanent tissue</b> (one cell type): Parenchyma — living, thin-walled, loosely packed with intercellular spaces; stores food/water and forms the ground tissue (chlorenchyma when it has chlorophyll, aerenchyma when it stores air). Collenchyma — living, elongated cells thickened at the corners; gives flexible mechanical support to young stems and petioles. Sclerenchyma — dead cells with thick lignified walls and no lumen; gives rigid mechanical strength, e.g. coconut husk, seed coats.</p><p><b>Complex permanent tissue</b> (more than one cell type, forming vascular tissue): Xylem — made of tracheids and vessels (dead, tube-like, conduct water and minerals upward), xylem parenchyma (living, stores food) and xylem fibres (dead, support); overall function is upward conduction of water/minerals and mechanical support. Phloem — made of sieve tubes (living, no nucleus, conduct food), companion cells (living, regulate sieve tubes), phloem parenchyma (living, stores food) and phloem fibres (dead, support); overall function is translocation of food from leaves to the rest of the plant, which can happen in more than one direction.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe the four types of animal tissue, giving one example of where each is found and its main function.",
+      "answer": "<p><b>Epithelial tissue</b>: tightly packed cells on a basement membrane, covering and lining surfaces; e.g. squamous epithelium lines blood vessels, allowing diffusion. <b>Connective tissue</b>: cells embedded in an intercellular matrix, connecting and supporting organs; e.g. bone has a hard calcium-phosphate matrix and forms the body's framework. <b>Muscular tissue</b>: elongated fibres with contractile proteins that shorten and relax; e.g. striated muscle is attached to bones (biceps) and produces voluntary movement. <b>Nervous tissue</b>: made of neurons with a cell body, dendrites and an axon, which receive stimuli and conduct impulses rapidly; e.g. neurons in the brain and spinal cord coordinate the body's responses.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "With the help of a labelled diagram, describe the structure of a neuron and explain how a nerve impulse travels through it.",
+      "answer": "<p>A neuron has three main parts. The <b>cell body (cyton)</b> contains the nucleus and most of the cytoplasm and cell organelles. Short, branched <b>dendrites</b> project from the cell body and receive stimuli/impulses from receptors or other neurons. A single long <b>axon</b> extends from the cell body and carries the impulse away, ending in fine branched axon terminals; many axons are covered by an insulating myelin sheath that speeds up conduction.</p><p>A nerve impulse enters through the dendrites, passes through the cell body, and travels down the length of the axon to its terminal branches. At the axon terminal, the impulse reaches a <b>synapse</b> — the junction with the dendrite of the next neuron (or with a muscle/gland) — where it is transmitted onward, usually by the release of a chemical messenger, so that the impulse can travel from receptor to brain and from brain to muscle very quickly across a chain of neurons. (See the neuron diagram in this guide's Diagrams section: label dendrite, cell body, nucleus, axon and axon terminal/synapse.)</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "A gardener cuts the tip of a hedge plant's shoot regularly to make it bushier, while the same plant's stem keeps getting thicker year after year without any cutting.<br>(i) Which meristematic tissue's activity is stopped when the shoot tip is cut, and what growth does it normally cause?<br>(ii) Which meristematic tissue is responsible for the stem getting thicker every year?<br>(iii) What happens to the plant's growth in length immediately after the tip is cut, and why?<br>(iv) Name the permanent tissue that eventually replaces meristematic tissue once a region stops dividing.",
+      "answer": "<p>(i) The apical meristem at the shoot tip is removed/stopped; it normally causes an increase in the length of the shoot.<br>(ii) The lateral meristem (vascular cambium) is responsible for the yearly increase in girth (thickness) of the stem.<br>(iii) Growth in length stops at that point, because the actively dividing apical meristem has been removed; the plant then often sends out side branches from lateral buds, which is exactly why cutting the tip makes the hedge bushier.<br>(iv) Permanent (differentiated) tissue — such as parenchyma, collenchyma, sclerenchyma, xylem or phloem, depending on the region — replaces meristematic tissue once its cells stop dividing.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "During a 5 km run, an athlete's leg muscles contract repeatedly and get tired, while her heart keeps beating steadily throughout without ever fatiguing, and her small intestine keeps digesting breakfast without her having to think about it.<br>(i) Name the type of muscle in the athlete's legs and state whether it is voluntary or involuntary.<br>(ii) Name the type of muscle in the heart and give one structural feature that helps it contract as a coordinated unit.<br>(iii) Name the type of muscle in the wall of the small intestine and state whether it is voluntary or involuntary.<br>(iv) Give one reason why the leg muscle tires quickly but the heart muscle does not.",
+      "answer": "<p>(i) Striated (skeletal) muscle; it is voluntary.<br>(ii) Cardiac muscle; its branched fibres are joined end to end by intercalated discs, which let the electrical signal for contraction spread quickly through the whole tissue so it beats as one coordinated unit.<br>(iii) Unstriated (smooth) muscle; it is involuntary.<br>(iv) Striated muscle contracts strongly and quickly under voluntary control and builds up fatigue with repeated intense use, whereas cardiac muscle contracts rhythmically and involuntarily at a steady, sustainable rate with a continuous, reliable blood supply, which is why it does not fatigue the way skeletal muscle does.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "Which of these is a feature of meristematic tissue?",
+      "options": [
+        "Large intercellular spaces",
+        "Thick lignified walls",
+        "Dense cytoplasm and no vacuole",
+        "Presence of chlorophyll only"
+      ],
+      "answer_index": 2,
+      "explanation": "Meristematic cells are packed with dense cytoplasm, a large nucleus and almost no vacuole, with no intercellular spaces — all traits suited to rapid division."
+    },
+    {
+      "q": "Intercalary meristem is typically found at the:",
+      "options": [
+        "Root tip only",
+        "Base of the leaf or internode",
+        "Vascular cambium",
+        "Cork cambium"
+      ],
+      "answer_index": 1,
+      "explanation": "Intercalary meristem occurs at the base of leaves or internodes (common in grasses) and causes elongation there."
+    },
+    {
+      "q": "Aerenchyma is a modification of which tissue, found in aquatic plants?",
+      "options": [
+        "Collenchyma",
+        "Sclerenchyma",
+        "Parenchyma",
+        "Xylem"
+      ],
+      "answer_index": 2,
+      "explanation": "Aerenchyma is parenchyma with large air spaces that gives buoyancy to aquatic plants."
+    },
+    {
+      "q": "Which tissue gives the coconut husk its toughness?",
+      "options": [
+        "Parenchyma",
+        "Collenchyma",
+        "Sclerenchyma",
+        "Epidermis"
+      ],
+      "answer_index": 2,
+      "explanation": "Sclerenchyma's dead, thick lignified-walled cells make the coconut husk tough and rigid."
+    },
+    {
+      "q": "What makes cork impermeable to water and gases?",
+      "options": [
+        "Chlorophyll in its cells",
+        "Suberin in the cell walls",
+        "A thick cuticle",
+        "Lignin in the cell walls"
+      ],
+      "answer_index": 1,
+      "explanation": "Cork cells are dead and their walls contain suberin, which makes them impervious to water and gases."
+    },
+    {
+      "q": "In xylem, which element is living?",
+      "options": [
+        "Vessels",
+        "Tracheids",
+        "Xylem parenchyma",
+        "Xylem fibres"
+      ],
+      "answer_index": 2,
+      "explanation": "Xylem parenchyma is the only living element of xylem; it stores food. Vessels, tracheids and xylem fibres are dead."
+    },
+    {
+      "q": "Sieve tubes lose which structure at maturity even though they remain living?",
+      "options": [
+        "Cell wall",
+        "Nucleus",
+        "Cytoplasm",
+        "Plasma membrane"
+      ],
+      "answer_index": 1,
+      "explanation": "Mature sieve tube cells are living but lack a nucleus; companion cells alongside them regulate their activity."
+    },
+    {
+      "q": "Which epithelial tissue lines the respiratory tract and helps sweep out dust and mucus?",
+      "options": [
+        "Squamous epithelium",
+        "Cuboidal epithelium",
+        "Ciliated epithelium",
+        "Glandular epithelium"
+      ],
+      "answer_index": 2,
+      "explanation": "Ciliated epithelium bears hair-like cilia whose beating movement sweeps dust and mucus out of the respiratory tract."
+    },
+    {
+      "q": "Salivary glands are an example of which epithelial tissue?",
+      "options": [
+        "Squamous epithelium",
+        "Glandular epithelium",
+        "Cuboidal epithelium",
+        "Columnar epithelium"
+      ],
+      "answer_index": 1,
+      "explanation": "Glandular epithelium is specialised for secretion; salivary glands are made of this tissue."
+    },
+    {
+      "q": "Which connective tissue stores fat and insulates the body?",
+      "options": [
+        "Areolar tissue",
+        "Adipose tissue",
+        "Cartilage",
+        "Tendon"
+      ],
+      "answer_index": 1,
+      "explanation": "Adipose tissue cells store fat and this tissue, found below the skin and between organs, insulates against temperature change."
+    },
+    {
+      "q": "What connects muscle to bone?",
+      "options": [
+        "Ligament",
+        "Tendon",
+        "Cartilage",
+        "Areolar tissue"
+      ],
+      "answer_index": 1,
+      "explanation": "Tendons are strong, fibrous connective tissue that connect muscle to bone; ligaments connect bone to bone."
+    },
+    {
+      "q": "Cartilage's matrix is best described as:",
+      "options": [
+        "Hard and mineralised",
+        "Fluid",
+        "Solid but flexible",
+        "Made only of collagen fibres with no matrix"
+      ],
+      "answer_index": 2,
+      "explanation": "Cartilage has a solid yet flexible matrix, which smoothens bone surfaces at joints and supports structures like the nose and ear."
+    },
+    {
+      "q": "Which of these muscle types shows alternate light and dark bands under a microscope?",
+      "options": [
+        "Smooth muscle",
+        "Cardiac muscle",
+        "Striated muscle",
+        "None of these"
+      ],
+      "answer_index": 2,
+      "explanation": "Striated (skeletal) muscle shows characteristic alternating light and dark bands; smooth and cardiac muscle do not show this striped pattern in the same way."
+    },
+    {
+      "q": "Intercalated discs are a special feature of which tissue?",
+      "options": [
+        "Skeletal muscle",
+        "Smooth muscle",
+        "Cardiac muscle",
+        "Nervous tissue"
+      ],
+      "answer_index": 2,
+      "explanation": "Cardiac muscle fibres join end to end at intercalated discs, allowing coordinated, wave-like contraction of the heart."
+    },
+    {
+      "q": "Which part of a neuron receives an impulse and carries it toward the cell body?",
+      "options": [
+        "Axon",
+        "Dendrite",
+        "Synapse",
+        "Axon terminal"
+      ],
+      "answer_index": 1,
+      "explanation": "Dendrites are the short, branched processes that receive stimuli and carry the impulse toward the cell body."
+    }
+  ],
+  "common_mistakes": [
+    "Calling all plant cells 'meristematic' or all permanent cells 'dead' — only sclerenchyma and the conducting elements of xylem (except xylem parenchyma) are dead; parenchyma, collenchyma and most of phloem are living.",
+    "Mixing up which meristem does what — students often say lateral meristem increases length instead of girth; remember apical = length, lateral/cambium = girth, intercalary = elongation at the base.",
+    "Writing that xylem 'carries food' or phloem 'carries water' — xylem carries water and minerals (one direction, upward); phloem carries food (translocation, can be in more than one direction).",
+    "Forgetting that blood is a connective tissue — students often list it separately or with muscular tissue because it moves; classify it by structure (cells in a fluid matrix, plasma), not by the fact that it flows.",
+    "Confusing tendon and ligament — tendon connects muscle to bone, ligament connects bone to bone; swapping these is a very common one-mark loss.",
+    "Drawing a neuron without labelling the dendrite, cell body/nucleus, axon and axon terminal/synapse separately — partial diagrams lose marks even if the overall shape is right.",
+    "Saying cardiac muscle is voluntary because 'the heart is important' — all muscle attached to bone and under conscious control is voluntary (striated); cardiac and smooth muscle are both involuntary."
+  ],
+  "strategy": "<p>This chapter rewards a clean two-part structure in your head: plant tissues (classified by whether they can still divide) and animal tissues (classified by job). For plants, first fix the growth logic — meristematic tissue divides at specific points (apical/lateral/intercalary), and every permanent tissue (parenchyma, collenchyma, sclerenchyma, xylem, phloem) is something a meristematic cell became once it stopped dividing. Learn the living/dead status and one function for each of these five by heart; that single table answers a large share of the MCQ, VSA and SA questions.</p><p>For animals, learn the four tissue types (epithelial, connective, muscular, nervous) with one example location and one function each — this is exactly the shape of the most common 5-mark question. Within muscular tissue, memorise shape + nucleus number + voluntary/involuntary for the three types side by side, since they are almost always asked as a comparison. Practise drawing the neuron and the vascular bundle (xylem/phloem) diagrams from memory until you can label every part without hesitation — diagram-based and case-based questions lean on exactly these two figures. Finally, revise the handful of 'why' questions (why is blood connective tissue, why are xylem cells dead but phloem cells living, why do plants need meristem but animals don't) — these test understanding, not memory, and are exactly what the 3-mark and case-based questions probe.</p>",
+  "revision_checklist": [
+    "Can define 'tissue' and explain why multicellular organisms need division of labour.",
+    "Can state why plant tissues are classified by dividing ability and animal tissues by function.",
+    "Know the three meristematic tissue types by location and what each does (length/girth/elongation).",
+    "Can list the three simple permanent tissues and their living/dead status, wall type and function.",
+    "Can explain how cork protects the plant, naming suberin.",
+    "Know the four elements of xylem and which one is living.",
+    "Know the four elements of phloem and which one is dead.",
+    "Can explain the direction and purpose of xylem transport vs phloem translocation.",
+    "Can name and locate all five types of epithelial tissue.",
+    "Can list at least five connective tissue types with one example function each, and explain why blood counts as connective tissue.",
+    "Can compare striated, unstriated and cardiac muscle by shape, nucleus and voluntary/involuntary control.",
+    "Can draw and label a neuron (dendrite, cell body/nucleus, axon, axon terminal/synapse) from memory.",
+    "Can draw a simple vascular bundle diagram with xylem and phloem labelled and positioned correctly.",
+    "Have practised at least one case-based question connecting a real-life scenario to the correct tissue."
+  ],
+  "videos": [
+    {
+      "id": "LPjttsaZm5g",
+      "title": "Tissues · full chapter"
+    }
+  ]
+}

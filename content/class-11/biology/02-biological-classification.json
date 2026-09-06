@@ -1,0 +1,1283 @@
+{
+  "class": 11,
+  "subject": "Biology",
+  "chapter_no": 2,
+  "slug": "biological-classification",
+  "title": "Biological Classification",
+  "summary": "The chapter traces how living things have been sorted into groups, from Aristotle's simple divisions and Linnaeus's two kingdoms to Whittaker's five-kingdom system, and then walks through each kingdom: Monera (bacteria, archaebacteria, cyanobacteria, mycoplasma), Protista (chrysophytes, dinoflagellates, euglenoids, slime moulds, protozoans), Fungi (its four classes), Plantae and Animalia, and finally the odd ones out: viruses, viroids, prions and lichens. It is a fact-dense chapter that rewards exact names, examples and comparison tables, and it is the base for Class 12 Microbes in Human Welfare, Human Health and Disease, and a large slice of NEET Botany.",
+  "exam_profile": {
+    "weightage": "Class 11 Biology has no board exam; the school final follows the CBSE pattern (70-mark theory paper: 16 MCQs of 1 mark, 5 questions of 2 marks, 7 of 3 marks, 2 case-based of 4 marks, 3 of 5 marks). This chapter sits in Unit I, Diversity of Living Organisms (Chapters 1 to 4), which carries about 15 marks in the CBSE Class 11 syllabus. Biological Classification alone typically contributes 5 to 7 marks: two or three 1-mark items, a 2-mark, a 3-mark, and often a part of a 5-mark comparison question. For NEET it is one of the most heavily tested Class 11 chapters, usually 3 to 4 questions.",
+    "question_types": [
+      {
+        "type": "MCQ",
+        "marks": 1,
+        "note": "Name-to-feature matching: which class of fungi a named genus belongs to (Rhizopus, Neurospora, Ustilago, Trichoderma), which protistan group has a pellicle or silica walls, the shape names of bacteria, who coined the word virus or discovered viroids, which kingdom has a cell wall without cellulose, the genetic material of bacteriophages, the algal or fungal partner of a lichen."
+      },
+      {
+        "type": "Assertion–Reason",
+        "marks": 1,
+        "note": "Mycoplasma lacking a cell wall, diatomaceous earth being gritty, viruses left out of the five-kingdom system, lichens as pollution indicators, deuteromycetes being called imperfect, methanogens living in the rumen, dinoflagellate red tides."
+      },
+      {
+        "type": "Very short answer",
+        "marks": 2,
+        "note": "Two drawbacks of the two-kingdom system; the four shapes of bacteria; what heterocysts are and two organisms that have them; phycobiont versus mycobiont; plasmogamy versus karyogamy; why viruses have no place in Whittaker's system; two uses of archaebacteria or heterotrophic bacteria; the nature of the diatom cell wall."
+      },
+      {
+        "type": "Short answer",
+        "marks": 3,
+        "note": "Three groups of archaebacteria with habitats; features of euglenoids or chrysophytes or slime moulds; the four groups of protozoans with an example each; the three steps of the sexual cycle in fungi; structure and genetic material of viruses; viroids versus viruses; lichen as a symbiosis."
+      },
+      {
+        "type": "Long answer",
+        "marks": 5,
+        "note": "Whittaker's five criteria plus the comparison table of the five kingdoms; a comparative account of the four classes of fungi (mycelium, asexual spores, sexual spores, fruiting body, examples); the five groups of Protista; a full account of viruses, viroids, prions and lichens."
+      },
+      {
+        "type": "Case-based",
+        "marks": 4,
+        "note": "A passage on lichens and pollution, on the discovery of viruses (Ivanowsky, Beijerinek, Stanley), on a red tide or algal bloom, or on a mushroom life cycle, followed by four short sub-questions."
+      }
+    ],
+    "hot_topics": [
+      "Whittaker's five criteria and the five-kingdom comparison table (Table 2.1)",
+      "Four classes of Fungi: mycelium, spores, fruiting bodies and named examples",
+      "Kingdom Monera: bacterial shapes, archaebacteria groups, cyanobacteria and heterocysts, Mycoplasma",
+      "Kingdom Protista: chrysophytes, dinoflagellates, euglenoids, slime moulds, four groups of protozoans",
+      "Viruses: discovery names and years, structure, genetic material, diseases",
+      "Viroids, prions and lichens (phycobiont and mycobiont)",
+      "Sexual cycle of fungi: plasmogamy, karyogamy, meiosis, dikaryophase",
+      "Drawbacks of the two-kingdom system"
+    ]
+  },
+  "sections": [
+    {
+      "heading": "Introduction: why classification systems kept changing, and Whittaker's five kingdoms",
+      "pyq_years": [],
+      "body": "<p>Start with the history, because the first NCERT exercise question asks for it. <b>Aristotle</b> made the earliest attempt at a scientific basis for classification. He used simple morphological characters: plants were sorted into <b>trees, shrubs and herbs</b>, and animals into those <b>with red blood</b> and those <b>without</b>.</p><p>Much later <b>Linnaeus</b> gave the <b>two-kingdom system</b>, with Kingdom <b>Plantae</b> and Kingdom <b>Animalia</b>. It was used for a long time, but it has clear drawbacks, and the examiner likes you to list them. It did not distinguish (i) <b>eukaryotes from prokaryotes</b>, (ii) <b>unicellular from multicellular</b> organisms, and (iii) <b>photosynthetic organisms (green algae) from non-photosynthetic ones (fungi)</b>. Because every organism with a cell wall was called a plant, bacteria, blue-green algae, fungi, mosses, ferns, gymnosperms and angiosperms all sat together under Plants. That lumped together groups that differ in cell wall composition, in nuclear organisation and in the way they obtain food; the fungi, for example, are heterotrophs and have chitin walls, nothing like a green plant.</p><p>As more characters were studied, the basis of classification shifted from habitat and simple morphology to cell structure, nutrition and evolutionary relationship. In <b>1969 R.H. Whittaker</b> proposed the <b>five-kingdom classification</b>: <b>Monera, Protista, Fungi, Plantae and Animalia</b>. His criteria were five, and you should be able to write them from memory: <b>cell structure</b> (prokaryotic or eukaryotic), <b>body organisation</b> (cellular, tissue, organ, organ system), <b>mode of nutrition</b> (autotrophic or heterotrophic), <b>reproduction</b> and <b>phylogenetic relationships</b>.</p><p>NCERT's Table 2.1 is the comparison the 5-mark question is built on. In brief: only Monera is <b>prokaryotic</b> and lacks a nuclear membrane. The cell wall is <b>non-cellulosic (polysaccharide plus amino acid)</b> in Monera, present in some Protista, present <b>without cellulose</b> in Fungi, made of <b>cellulose</b> in Plantae, and <b>absent</b> in Animalia. Body organisation is <b>cellular</b> in Monera and Protista, <b>multicellular with loose tissue</b> in Fungi, <b>tissue and organ</b> in Plantae, and <b>tissue, organ and organ system</b> in Animalia. Nutrition is autotrophic (chemosynthetic and photosynthetic) and heterotrophic (saprophytic or parasitic) in Monera; autotrophic (photosynthetic) and heterotrophic in Protista; heterotrophic (saprophytic or parasitic) in Fungi; autotrophic (photosynthetic) in Plantae; heterotrophic (holozoic or saprophytic) in Animalia.</p><p>One more line the examiner rewards: a <b>three-domain system</b> has also been proposed. It splits Kingdom Monera into <b>two domains</b> and places the remaining eukaryotic kingdoms in a <b>third domain</b>, so it becomes a <b>six-kingdom</b> classification. NCERT only mentions it and says it is taught in higher classes.</p>",
+      "formulas": [
+        {
+          "expr": "Whittaker (1969): Monera · Protista · Fungi · Plantae · Animalia",
+          "where": [
+            [
+              "Criteria",
+              "cell structure, body organisation, mode of nutrition, reproduction, phylogenetic relationships"
+            ]
+          ]
+        },
+        {
+          "expr": "Two-kingdom (Linnaeus): Plantae · Animalia",
+          "where": [
+            [
+              "Drawbacks",
+              "no prokaryote/eukaryote, unicellular/multicellular or photosynthetic/non-photosynthetic distinction"
+            ]
+          ]
+        }
+      ],
+      "tip": "When asked for the five criteria, write all five as separate points; students often stop at three and lose marks. In the table question, draw the table with kingdoms as columns and the five characters as rows."
+    },
+    {
+      "heading": "2.1 Kingdom Monera: bacteria, their shapes and their metabolic diversity",
+      "pyq_years": [],
+      "body": "<p><b>Bacteria are the sole members of Kingdom Monera.</b> They are the most abundant micro-organisms. They live in soil, in hot springs, deserts, snow and deep oceans, in short almost everywhere, and many live as <b>parasites</b> in or on other organisms.</p><p>Bacteria are grouped by shape into four types, and the names with their plurals are a standard 1-mark or 2-mark item (NCERT Fig. 2.1): <b>Coccus</b> (plural cocci), spherical; <b>Bacillus</b> (plural bacilli), rod-shaped; <b>Vibrium</b> (plural vibrio), comma-shaped; and <b>Spirillum</b> (plural spirilla), spiral. Draw all four when the question says 'with diagrams'.</p><p>The paradox NCERT points out is worth a sentence in any answer: bacteria have a very <b>simple structure</b> but show <b>complex behaviour</b>, and as a group they have more <b>metabolic diversity</b> than any other. Some are <b>autotrophic</b>, making their own food either by <b>photosynthesis</b> (using light) or by <b>chemosynthesis</b> (oxidising inorganic substances). The <b>vast majority</b>, however, are <b>heterotrophs</b> that depend on other organisms or on dead organic matter.</p><p>The kingdom is discussed under two headings. <b>Archaebacteria</b> are the ones that live in the harshest habitats and have a distinctive cell wall. <b>Eubacteria</b>, the 'true bacteria', have a rigid cell wall and, when motile, a flagellum; they include the cyanobacteria, the chemosynthetic autotrophs and the huge number of heterotrophic bacteria. <b>Mycoplasma</b>, which lack a wall altogether, are also placed here. Each of these is taken up in the next two sections.</p><p>A point of precision for the table question: Monera is the <b>only prokaryotic kingdom</b>. The cells have no true nucleus (no nuclear membrane) and no membrane-bound organelles, the cell wall is non-cellulosic, and the body organisation is cellular. Everything from Protista onwards is eukaryotic.</p>",
+      "formulas": [
+        {
+          "expr": "Shapes: Coccus (spherical) · Bacillus (rod) · Vibrium (comma) · Spirillum (spiral)",
+          "where": [
+            [
+              "Plurals",
+              "cocci, bacilli, vibrio, spirilla"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write 'Vibrium' for the singular and 'vibrio' for the plural exactly as NCERT does; and never write that most bacteria are autotrophs. The majority are heterotrophs."
+    },
+    {
+      "heading": "2.1.1 Archaebacteria",
+      "pyq_years": [],
+      "body": "<p>Archaebacteria are special because they live in some of the <b>most harsh habitats</b> on Earth. NCERT names three groups, each defined by its habitat, and the 3-mark question is simply these three with their habitats:</p><ul><li><b>Halophiles</b>, in extremely <b>salty</b> areas (salt pans, salt lakes).</li><li><b>Thermoacidophiles</b>, in <b>hot springs</b> (hot and acidic water).</li><li><b>Methanogens</b>, in <b>marshy</b> areas.</li></ul><p>What lets them survive where other cells die? They <b>differ from other bacteria in having a different cell wall structure</b>, and NCERT attributes their survival in extreme conditions to this feature. That single sentence is the most common 1-mark and Assertion–Reason item from this section, so state it exactly.</p><p>The methanogens have a direct economic link that you already know from the Class 12 chapter on biogas. They are present in the <b>gut of several ruminant animals such as cows and buffaloes</b> and are <b>responsible for the production of methane (biogas) from the dung</b> of these animals. When exercise question 2 asks for two economically important uses of archaebacteria, the safe answers are: (i) methanogens produce methane, the main component of biogas, from cattle dung and other organic waste; and (ii) methanogens in the rumen help ruminants digest cellulose-rich food (and, from wider reading, halophiles and thermoacidophiles are used in bioleaching and in industrial enzyme work; NCERT itself only mentions biogas).</p><p>Do not confuse the three groups with the shapes of bacteria; the groups are ecological, the shapes are morphological. And note that the three-domain system mentioned in the introduction separates the archaebacteria from the eubacteria as two distinct domains, which is exactly why NCERT stresses that their cell wall is different.</p>",
+      "formulas": [
+        {
+          "expr": "Halophiles → salty areas · Thermoacidophiles → hot springs · Methanogens → marshy areas and rumen of cattle",
+          "where": [
+            [
+              "Distinctive feature",
+              "different cell wall structure, hence survival in extreme conditions"
+            ]
+          ]
+        }
+      ],
+      "tip": "Three groups, three habitats, one reason (cell wall). That is the complete 3-mark answer; adding methane from dung earns the extra line if the question mentions economic importance."
+    },
+    {
+      "heading": "2.1.2 Eubacteria: cyanobacteria, chemosynthetic autotrophs, heterotrophs and Mycoplasma",
+      "pyq_years": [],
+      "body": "<p>Eubacteria, the <b>'true bacteria'</b>, are characterised by a <b>rigid cell wall</b> and, if motile, a <b>flagellum</b>. NCERT describes four sets of organisms under this heading.</p><p><b>Cyanobacteria (blue-green algae).</b> They have <b>chlorophyll a</b> similar to green plants and are <b>photosynthetic autotrophs</b>. They may be <b>unicellular, colonial or filamentous</b>, living in fresh water, in the sea or on land. Colonies are generally surrounded by a <b>gelatinous sheath</b>. They often form <b>blooms in polluted water bodies</b>. Some of them, such as <b>Nostoc and Anabaena</b>, can <b>fix atmospheric nitrogen</b> in specialised cells called <b>heterocysts</b>. The filament of Nostoc with a heterocyst is NCERT Fig. 2.2 and is a favourite diagram question. Note that they are called algae only by an old habit; they are prokaryotes and belong in Monera, not Plantae.</p><p><b>Chemosynthetic autotrophic bacteria.</b> These <b>oxidise various inorganic substances such as nitrates, nitrites and ammonia</b> and use the released energy for their <b>ATP production</b>. They play a great role in <b>recycling nutrients like nitrogen, phosphorus, iron and sulphur</b>.</p><p><b>Heterotrophic bacteria.</b> These are the <b>most abundant</b> in nature. The majority are important <b>decomposers</b>. Many have a significant impact on human affairs: they help in <b>making curd from milk</b>, in the <b>production of antibiotics</b>, and in <b>fixing nitrogen in legume roots</b>. Some are <b>pathogens</b>, causing damage to humans, crops, farm animals and pets: <b>cholera, typhoid, tetanus and citrus canker</b> are the NCERT examples.</p><p><b>Reproduction.</b> Bacteria reproduce mainly by <b>fission</b>. Under unfavourable conditions they produce <b>spores</b>. They also reproduce by a sort of <b>sexual reproduction</b>, adopting a <b>primitive type of DNA transfer</b> from one bacterium to another.</p><p><b>Mycoplasma.</b> These organisms <b>completely lack a cell wall</b>. They are the <b>smallest living cells</b> known and can <b>survive without oxygen</b>. Many are <b>pathogenic</b> in animals and plants. Three facts, three possible 1-mark questions.</p>",
+      "formulas": [
+        {
+          "expr": "Nostoc, Anabaena: heterocysts → N<sub>2</sub> fixation",
+          "where": [
+            [
+              "Heterocyst",
+              "specialised cell in a filamentous cyanobacterium that fixes atmospheric nitrogen"
+            ]
+          ]
+        },
+        {
+          "expr": "Chemosynthetic bacteria: NH<sub>3</sub>, NO<sub>2</sub><sup>−</sup>, NO<sub>3</sub><sup>−</sup> oxidised → energy → ATP",
+          "where": [
+            [
+              "Role",
+              "recycling of N, P, Fe and S"
+            ]
+          ]
+        }
+      ],
+      "tip": "For 'two economically important uses of heterotrophic bacteria' write two of: curd from milk, antibiotic production, nitrogen fixation in legume roots, decomposition of organic matter. Do not write 'photosynthesis'; that is cyanobacteria."
+    },
+    {
+      "heading": "2.2 Kingdom Protista: general features, and 2.2.1 Chrysophytes",
+      "pyq_years": [],
+      "body": "<p><b>All single-celled eukaryotes are placed under Protista</b>, but NCERT is honest that the <b>boundaries of this kingdom are not well defined</b>; what one biologist calls a photosynthetic protist another may treat as a plant. Members are <b>primarily aquatic</b>. Because it contains photosynthetic, fungus-like and animal-like forms, Protista forms a <b>link</b> with the kingdoms of plants, animals and fungi. Being eukaryotic, protistan cells have a <b>well-defined nucleus and membrane-bound organelles</b>. Some have <b>flagella or cilia</b>. They reproduce <b>asexually</b> and also <b>sexually</b>, by a process involving <b>cell fusion and zygote formation</b>.</p><p>The kingdom is discussed in five groups: chrysophytes, dinoflagellates, euglenoids, slime moulds and protozoans. Each group has three or four signature facts and an example; learn them as a table.</p><p><b>2.2.1 Chrysophytes.</b> This group includes the <b>diatoms</b> and the <b>golden algae (desmids)</b>. They are found in <b>fresh water as well as marine</b> environments. They are <b>microscopic</b> and <b>float passively in water currents (plankton)</b>. Most of them are <b>photosynthetic</b>.</p><p>The diatoms carry the exam facts. In diatoms the <b>cell walls form two thin overlapping shells which fit together as in a soap box</b>. The walls are <b>embedded with silica</b>, and so the walls are <b>indestructible</b>. Because of this, diatoms have left behind a large amount of cell wall deposits in their habitat, and this accumulation over <b>billions of years</b> is called <b>diatomaceous earth</b>. Being <b>gritty</b>, this soil is used in <b>polishing</b> and in the <b>filtration of oils and syrups</b>. Diatoms are the <b>chief 'producers' in the oceans</b>, which is why they matter beyond this chapter.</p><p>Exercise question 3 asks for the nature of the diatom cell wall; the two marking points are the two overlapping halves (like a soap box) and the silica impregnation that makes them indestructible.</p>",
+      "formulas": [
+        {
+          "expr": "Diatom wall: two overlapping shells (soap box) + silica → indestructible → diatomaceous earth",
+          "where": [
+            [
+              "Uses",
+              "polishing, filtration of oils and syrups"
+            ],
+            [
+              "Ecological role",
+              "chief producers in the oceans"
+            ]
+          ]
+        }
+      ],
+      "tip": "Diatoms are not the same as dinoflagellates. Diatoms: silica walls, diatomaceous earth. Dinoflagellates: cellulose plates, two flagella, red tides."
+    },
+    {
+      "heading": "2.2.2 Dinoflagellates and 2.2.3 Euglenoids",
+      "pyq_years": [],
+      "body": "<p><b>Dinoflagellates</b> are <b>mostly marine and photosynthetic</b>. They appear <b>yellow, green, brown, blue or red</b> depending on the main pigments present in their cells. The cell wall has <b>stiff cellulose plates</b> on the outer surface. Most of them have <b>two flagella</b>: <b>one lies longitudinally and the other transversely in a furrow between the wall plates</b>. This arrangement (NCERT Fig. 2.3) is what gives them their spinning motion and is a diagram worth practising.</p><p>The application fact: very often, <b>red dinoflagellates</b> (for example <b>Gonyaulax</b>) undergo such <b>rapid multiplication</b> that they make the sea appear red, the so-called <b>red tides</b>. The <b>toxins released</b> by such large numbers may even <b>kill other marine animals such as fishes</b>. Exercise question 4 asks what 'algal bloom' and 'red tide' signify: an algal bloom is the rapid, excessive growth of algae (often cyanobacteria) in a water body rich in nutrients, which discolours the water, depletes oxygen and may release toxins; a red tide is a bloom of red dinoflagellates such as Gonyaulax in the sea.</p><p><b>Euglenoids.</b> The majority are <b>fresh water organisms found in stagnant water</b>. <b>Instead of a cell wall they have a protein-rich layer called the pellicle</b>, which makes their body <b>flexible</b>. They have <b>two flagella, a short and a long one</b>. They are <b>photosynthetic in the presence of sunlight</b>, but when <b>deprived of sunlight they behave like heterotrophs by predating on other smaller organisms</b>; this dual mode is why exam papers call them a connecting link between plants and animals (that phrase is not in NCERT, but the two modes of nutrition are). Interestingly, the <b>pigments of euglenoids are identical to those present in higher plants</b>. Example: <b>Euglena</b> (NCERT Fig. 2.4, showing the pellicle, the two flagella, the eye spot, chloroplasts and the nucleus).</p><p>Exercise question 10 is the euglenoid list; write habitat, pellicle, two unequal flagella, mixotrophic nutrition, plant-like pigments, and the example, and you have full marks.</p>",
+      "formulas": [
+        {
+          "expr": "Dinoflagellates: cellulose plates · 2 flagella (longitudinal + transverse in furrow) · Gonyaulax → red tides",
+          "where": [
+            [
+              "Red tide",
+              "rapid multiplication of red dinoflagellates; toxins may kill fishes"
+            ]
+          ]
+        },
+        {
+          "expr": "Euglenoids: pellicle (protein) · 2 unequal flagella · photosynthetic in light, heterotrophic in dark · Euglena",
+          "where": [
+            [
+              "Pigments",
+              "identical to those of higher plants"
+            ]
+          ]
+        }
+      ],
+      "tip": "The word for the euglenoid covering is 'pellicle', and it is protein-rich; if you write 'cell wall' the examiner deducts, because the whole point is that they have no cell wall."
+    },
+    {
+      "heading": "2.2.4 Slime Moulds and 2.2.5 Protozoans",
+      "pyq_years": [],
+      "body": "<p><b>Slime moulds are saprophytic protists.</b> The body <b>moves along decaying twigs and leaves, engulfing organic material</b>. Under suitable conditions they form an <b>aggregation called plasmodium</b> which may grow and spread over <b>several feet</b>. During unfavourable conditions the plasmodium differentiates and forms <b>fruiting bodies bearing spores at their tips</b>. The <b>spores possess true walls</b>, are <b>extremely resistant</b> and <b>survive for many years</b>, even under adverse conditions. The spores are <b>dispersed by air currents</b>. Four facts (saprophytic, plasmodium, fruiting bodies, resistant walled spores dispersed by air) make the 3-mark answer.</p><p><b>Protozoans.</b> All protozoans are <b>heterotrophs</b> and live as <b>predators or parasites</b>. They are believed to be <b>primitive relatives of animals</b>. NCERT gives four major groups, and exercise question 6 asks for exactly these:</p><ol><li><b>Amoeboid protozoans.</b> Live in fresh water, sea water or moist soil. They <b>move and capture prey by putting out pseudopodia (false feet)</b>, as in <b>Amoeba</b>. <b>Marine forms have silica shells</b> on their surface. Some are parasites: <b>Entamoeba</b>.</li><li><b>Flagellated protozoans.</b> Either <b>free-living or parasitic</b>. They have <b>flagella</b>. The parasitic forms cause diseases such as <b>sleeping sickness</b>. Example: <b>Trypanosoma</b>.</li><li><b>Ciliated protozoans.</b> <b>Aquatic, actively moving</b> organisms because of the presence of <b>thousands of cilia</b>. They have a cavity (<b>gullet</b>) that opens to the outside of the cell surface. The <b>coordinated movement of rows of cilia</b> causes the water laden with food to be steered into the gullet. Example: <b>Paramoecium</b>.</li><li><b>Sporozoans.</b> A diverse group that has an <b>infectious spore-like stage</b> in the life cycle. The most notorious is <b>Plasmodium (malarial parasite)</b>, which causes malaria, a disease with a staggering effect on the human population.</li></ol><p>Match the locomotory organ to the group and the example, because that is how the MCQ is set: pseudopodia to Amoeba, flagella to Trypanosoma, cilia to Paramoecium, and no locomotory organ but a spore stage to Plasmodium.</p>",
+      "formulas": [
+        {
+          "expr": "Amoeboid → pseudopodia (Amoeba, Entamoeba) · Flagellated → flagella (Trypanosoma) · Ciliated → cilia, gullet (Paramoecium) · Sporozoans → spore-like stage (Plasmodium)",
+          "where": [
+            [
+              "Common feature",
+              "all heterotrophs; predators or parasites; primitive relatives of animals"
+            ]
+          ]
+        }
+      ],
+      "tip": "Spell Paramoecium the NCERT way (with 'oe'). Also, Plasmodium the sporozoan and the plasmodium of slime moulds are different things; the first is a genus, the second an aggregation."
+    },
+    {
+      "heading": "2.3 Kingdom Fungi: body, nutrition and the sexual cycle",
+      "pyq_years": [],
+      "body": "<p>Fungi are a <b>unique kingdom of heterotrophic organisms</b> with great diversity in morphology and habitat. NCERT's opening examples are the ones the examiner recognises: the <b>mushroom</b>; the <b>white spots on mustard leaves</b> caused by a parasitic fungus (Albugo); the unicellular <b>yeast</b> used to make bread and beer; <b>Puccinia</b>, which causes wheat rust; and <b>Penicillium</b>, a source of antibiotics. Fungi are <b>cosmopolitan</b>, occurring in air, water, soil and on animals and plants, and they <b>prefer warm and humid places</b> (which is why bread and pickles get mouldy in the rainy season).</p><p><b>Body.</b> With the exception of yeast, which is unicellular, fungi are <b>filamentous</b>. The body consists of long, slender thread-like structures called <b>hyphae</b>; the network of hyphae is the <b>mycelium</b>. Some hyphae are continuous tubes filled with multinucleated cytoplasm; these are <b>coenocytic hyphae</b>. Others have <b>septae</b> (cross walls). The cell wall is composed of <b>chitin and polysaccharides</b>. This is the feature that separates Fungi from Plantae in the five-kingdom table.</p><p><b>Nutrition.</b> Most fungi are heterotrophic and <b>absorb soluble organic matter from dead substrates</b>; such fungi are <b>saprophytes</b>. Those that depend on living plants and animals are <b>parasites</b>. Fungi also live as <b>symbionts</b>: in association with algae as <b>lichens</b>, and with the roots of higher plants as <b>mycorrhiza</b>.</p><p><b>Reproduction.</b> Vegetative reproduction is by <b>fragmentation, fission and budding</b>. Asexual reproduction is by spores called <b>conidia</b>, <b>sporangiospores</b> or <b>zoospores</b>. Sexual reproduction is by <b>oospores, ascospores and basidiospores</b>. The various spores are produced in distinct structures called <b>fruiting bodies</b>. The sexual cycle involves <b>three steps</b>, and this is a guaranteed 3-mark question:</p><ol><li><b>Plasmogamy</b>: fusion of the protoplasms between two motile or non-motile gametes.</li><li><b>Karyogamy</b>: fusion of the two nuclei.</li><li><b>Meiosis</b> in the zygote, resulting in <b>haploid spores</b>.</li></ol><p>When a fungus reproduces sexually, two haploid hyphae of compatible mating types come together and fuse. In some fungi the fusion of two haploid cells immediately gives <b>diploid cells (2n)</b>. In others (<b>ascomycetes and basidiomycetes</b>) an intervening <b>dikaryotic stage (n + n, two nuclei per cell)</b> occurs; the condition is called a <b>dikaryon</b> and the phase the <b>dikaryophase</b>. Later the parental nuclei fuse and the cell becomes diploid. The fungi then form fruiting bodies in which reduction division occurs, leading to haploid spores.</p><p>The <b>morphology of the mycelium, the mode of spore formation and the fruiting bodies</b> are the basis on which the kingdom is divided into its classes.</p>",
+      "formulas": [
+        {
+          "expr": "Sexual cycle: Plasmogamy (protoplasm fusion) → Karyogamy (nuclear fusion) → Meiosis (haploid spores)",
+          "where": [
+            [
+              "Dikaryophase",
+              "n + n stage between plasmogamy and karyogamy in Ascomycetes and Basidiomycetes"
+            ]
+          ]
+        },
+        {
+          "expr": "Fungal wall = chitin + polysaccharides; hyphae → mycelium; coenocytic (aseptate, multinucleate) or septate",
+          "where": [
+            [
+              "Saprophyte",
+              "absorbs soluble organic matter from dead substrates"
+            ],
+            [
+              "Symbiont",
+              "lichen (with algae), mycorrhiza (with roots)"
+            ]
+          ]
+        }
+      ],
+      "tip": "Karyogamy is delayed in Ascomycetes and Basidiomycetes, which is why they show a dikaryophase; Phycomycetes fuse nuclei immediately. This distinction is a classic Assertion–Reason."
+    },
+    {
+      "heading": "2.3.1 Phycomycetes and 2.3.2 Ascomycetes",
+      "pyq_years": [],
+      "body": "<p><b>Phycomycetes.</b> Members are found in <b>aquatic habitats</b>, on <b>decaying wood in moist and damp places</b>, or as <b>obligate parasites on plants</b>. The mycelium is <b>aseptate and coenocytic</b>. Asexual reproduction takes place by <b>zoospores (motile)</b> or by <b>aplanospores (non-motile)</b>; these spores are <b>endogenously produced in a sporangium</b>. A <b>zygospore</b> is formed by the fusion of two gametes, and the gametes may be similar in morphology (<b>isogamous</b>) or dissimilar (<b>anisogamous or oogamous</b>). Examples: <b>Mucor</b>, <b>Rhizopus (the bread mould)</b> and <b>Albugo (the parasitic fungus on mustard)</b>. Fig. 2.5(a) is Mucor, with sporangia on sporangiophores rising from the mycelium.</p><p><b>Ascomycetes.</b> Commonly known as <b>sac-fungi</b>. Mostly <b>multicellular</b> (for example <b>Penicillium</b>) or rarely <b>unicellular</b> (yeast, <b>Saccharomyces</b>). They are <b>saprophytic, decomposers, parasitic or coprophilous</b> (growing on dung). The mycelium is <b>branched and septate</b>. The asexual spores are <b>conidia</b>, produced <b>exogenously</b> on special mycelium called <b>conidiophores</b>; conidia on germination produce mycelium. The sexual spores are <b>ascospores</b>, produced <b>endogenously in sac-like asci</b> (singular ascus). The asci are arranged in fruiting bodies called <b>ascocarps</b>. Examples: <b>Aspergillus</b> (Fig. 2.5(b), with its conidiophore, vesicle and chains of conidia), <b>Claviceps</b> and <b>Neurospora</b>. <b>Neurospora</b> is used extensively in <b>biochemical and genetic work</b>, and many members such as <b>morels and truffles</b> are edible and considered delicacies.</p><p>Keep the two classes apart by three contrasts: Phycomycetes have aseptate coenocytic hyphae, Ascomycetes have septate hyphae; Phycomycetes form asexual spores inside a sporangium (endogenous), Ascomycetes form conidia on conidiophores (exogenous); Phycomycetes end sexual reproduction in a zygospore, Ascomycetes in ascospores inside asci packed in ascocarps.</p>",
+      "formulas": [
+        {
+          "expr": "Phycomycetes: aseptate coenocytic · zoospores/aplanospores in sporangium (endogenous) · zygospore · Mucor, Rhizopus, Albugo",
+          "where": [
+            [
+              "Gametes",
+              "isogamous, anisogamous or oogamous"
+            ]
+          ]
+        },
+        {
+          "expr": "Ascomycetes: septate branched · conidia on conidiophores (exogenous) · ascospores in asci (endogenous) · ascocarp · Aspergillus, Claviceps, Neurospora, Penicillium, Saccharomyces",
+          "where": [
+            [
+              "Coprophilous",
+              "growing on dung"
+            ],
+            [
+              "Edible",
+              "morels, truffles"
+            ]
+          ]
+        }
+      ],
+      "tip": "Endogenous versus exogenous is the trap: sporangiospores and ascospores form inside (sporangium, ascus); conidia and basidiospores form outside (on conidiophore, on basidium)."
+    },
+    {
+      "heading": "2.3.3 Basidiomycetes and 2.3.4 Deuteromycetes",
+      "pyq_years": [],
+      "body": "<p><b>Basidiomycetes.</b> The commonly known forms are <b>mushrooms, bracket fungi and puffballs</b>. They grow in <b>soil, on logs and tree stumps</b>, and in living plant bodies as <b>parasites</b>, for example the <b>rusts and smuts</b>. The mycelium is <b>branched and septate</b>. <b>Asexual spores are generally not found</b>, but <b>vegetative reproduction by fragmentation</b> is common. <b>Sex organs are absent</b>; plasmogamy is brought about by the <b>fusion of two vegetative or somatic cells of different strains or genotypes</b>. The resultant structure is <b>dikaryotic</b> and ultimately gives rise to the <b>basidium</b>. <b>Karyogamy and meiosis take place in the basidium</b>, producing <b>four basidiospores</b>. The basidiospores are <b>exogenously</b> produced on the basidium. The basidia are arranged in fruiting bodies called <b>basidiocarps</b>. Examples: <b>Agaricus (mushroom)</b>, <b>Ustilago (smut)</b> and <b>Puccinia (rust fungus)</b>. Fig. 2.5(c) is Agaricus: the basidiocarp with cap (pileus), gills and stalk (stipe), and the underground mycelium.</p><p><b>Deuteromycetes.</b> Commonly called <b>imperfect fungi</b> because <b>only the asexual or vegetative phases of these fungi are known</b>. When the sexual forms of these fungi were discovered, they were <b>moved into the classes they rightly belong to</b>. It is also true that the deuteromycetes reproduce <b>only by asexual spores known as conidia</b>. The mycelium is <b>septate and branched</b>. Some are saprophytes or parasites, while a large number are <b>decomposers of litter</b> and help in <b>mineral cycling</b>. Examples: <b>Alternaria</b>, <b>Colletotrichum</b> and <b>Trichoderma</b>.</p><p>The 5-mark 'comparative account of the classes of Kingdom Fungi' (exercise question 9) is best written as a table with rows for habitat, mycelium, asexual spores, sexual spores, fruiting body and examples. The model answer in the NCERT-questions section below gives that table.</p>",
+      "formulas": [
+        {
+          "expr": "Basidiomycetes: septate · no asexual spores, fragmentation · no sex organs, somatic cell fusion → dikaryon → basidium · 4 basidiospores exogenous · basidiocarp · Agaricus, Ustilago, Puccinia",
+          "where": [
+            [
+              "In the basidium",
+              "karyogamy and meiosis"
+            ]
+          ]
+        },
+        {
+          "expr": "Deuteromycetes (imperfect fungi): septate · conidia only · Alternaria, Colletotrichum, Trichoderma",
+          "where": [
+            [
+              "Why imperfect",
+              "only asexual/vegetative phase known"
+            ]
+          ]
+        }
+      ],
+      "tip": "Class 12 links: Trichoderma is a biocontrol agent and Trichoderma polysporum gives cyclosporin A; Penicillium gives penicillin; Puccinia causes wheat rust. Cross-chapter questions use these."
+    },
+    {
+      "heading": "2.4 Kingdom Plantae",
+      "pyq_years": [],
+      "body": "<p>Kingdom Plantae includes all <b>eukaryotic, chlorophyll-containing organisms</b> commonly called plants. A few members are <b>partially heterotrophic</b>, such as the <b>insectivorous plants</b> or the <b>parasites</b>. NCERT's examples, and the answer to exercise question 7, are the <b>bladderwort</b> and the <b>Venus fly trap</b> (insectivorous) and <b>Cuscuta</b> (a parasite). Insectivorous plants remain photosynthetic; they trap insects mainly to supplement nitrogen in poor soils, so they are 'partially' heterotrophic. Cuscuta, the dodder, has no chlorophyll worth the name and draws food from its host.</p><p>Plant cells have a <b>eukaryotic structure with prominent chloroplasts</b> and a <b>cell wall mainly made of cellulose</b>. This is the cell wall entry for Plantae in the five-kingdom table, in contrast with chitin in Fungi and the non-cellulosic wall of Monera.</p><p>The kingdom includes <b>algae, bryophytes, pteridophytes, gymnosperms and angiosperms</b>, each of which is a section of the next chapter (Plant Kingdom).</p><p><b>Life cycle.</b> The life cycle of plants has <b>two distinct phases</b>: the <b>diploid sporophytic</b> phase and the <b>haploid gametophytic</b> phase, and these <b>alternate with each other</b>. The lengths of the haploid and diploid phases, and whether these phases are <b>free-living or dependent</b> on others, vary among the different groups. This phenomenon is called <b>alternation of generations</b>. Chapter 3 builds the haplontic, diplontic and haplo-diplontic patterns on this one paragraph, so learn the definition exactly: the alternation of a diploid spore-producing generation with a haploid gamete-producing generation.</p><p>A short-answer question on this section is usually 'Why are some plants called partially heterotrophic? Give examples' or 'Define alternation of generations'. Both are answered from the lines above; nothing more is needed at this stage.</p>",
+      "formulas": [
+        {
+          "expr": "Plantae: eukaryotic · chlorophyll · cellulose wall · algae, bryophytes, pteridophytes, gymnosperms, angiosperms",
+          "where": [
+            [
+              "Partially heterotrophic",
+              "bladderwort, Venus fly trap (insectivorous); Cuscuta (parasite)"
+            ]
+          ]
+        },
+        {
+          "expr": "Alternation of generations: diploid sporophyte (2n) ⇌ haploid gametophyte (n)",
+          "where": [
+            [
+              "Varies",
+              "length of each phase; free-living or dependent"
+            ]
+          ]
+        }
+      ],
+      "tip": "Cuscuta is a parasite, not an insectivorous plant. Students routinely list it with the Venus fly trap."
+    },
+    {
+      "heading": "2.5 Kingdom Animalia",
+      "pyq_years": [],
+      "body": "<p>Kingdom Animalia is characterised by <b>heterotrophic eukaryotic organisms</b> that are <b>multicellular</b> and whose cells <b>lack cell walls</b>. Animals depend <b>directly or indirectly on plants for food</b>. They <b>digest their food in an internal cavity</b> and <b>store food reserves as glycogen or fat</b>. Their mode of nutrition is <b>holozoic</b>, that is, by <b>ingestion of food</b>. This is the nutrition entry for Animalia in Table 2.1.</p><p>Animals follow a <b>definite growth pattern</b> and grow into <b>adults that have a definite shape and size</b>, unlike plants, which keep growing from meristems throughout life. Higher forms show an <b>elaborate sensory and neuromotor mechanism</b>. <b>Most of them are capable of locomotion.</b> <b>Sexual reproduction</b> is by <b>copulation of male and female</b> followed by <b>embryological development</b>.</p><p>For the five-kingdom table, Animalia is the kingdom with cell wall absent, nuclear membrane present, body organisation reaching tissue, organ and organ system level, and heterotrophic (holozoic or saprophytic) nutrition. In exam answers on 'Distinguish between Plantae and Animalia', the reliable points are: cell wall (cellulose versus absent), chloroplasts (present versus absent), mode of nutrition (autotrophic versus holozoic), food reserve (starch versus glycogen or fat), growth (indefinite versus definite shape and size), and locomotion (absent versus present in most).</p><p>NCERT keeps this section short because the whole of Chapter 4 (Animal Kingdom) expands it. What the examiner wants from this chapter is the set of defining features, stated in NCERT's words, and the contrast with plants.</p>",
+      "formulas": [
+        {
+          "expr": "Animalia: multicellular · heterotrophic (holozoic) · no cell wall · food stored as glycogen or fat · definite growth · locomotion · sexual reproduction with embryonic development",
+          "where": [
+            [
+              "Holozoic",
+              "nutrition by ingestion of food, digested in an internal cavity"
+            ]
+          ]
+        }
+      ],
+      "tip": "Write 'glycogen or fat' for the animal food reserve; 'starch' belongs to plants. And the word for animal nutrition is holozoic, not merely heterotrophic."
+    },
+    {
+      "heading": "2.6 Viruses: discovery, structure, genetic material and diseases",
+      "pyq_years": [],
+      "body": "<p>Viruses, viroids, prions and lichens are <b>not mentioned in the five-kingdom classification</b>. Viruses did not find a place because they are <b>not truly 'living'</b>, if living means having a cell structure: they are <b>non-cellular</b>. Outside their specific host cell they are <b>inert</b>, and NCERT even says they are inert crystalline structures outside the host. Once they infect a cell they <b>take over the machinery of the host cell to replicate themselves, killing the host</b>. So viruses are <b>obligate parasites</b>.</p><p><b>Discovery.</b> The name <b>virus</b>, meaning <b>venom or poisonous fluid</b>, was given by <b>Pasteur</b>. <b>D.J. Ivanowsky (1892)</b> recognised certain microbes as the causal organism of the <b>mosaic disease of tobacco</b>; they were found to be <b>smaller than bacteria because they passed through bacteria-proof filters</b>. <b>M.W. Beijerinek (1898)</b> demonstrated that the <b>extract of infected tobacco plants could cause infection in healthy plants</b> and called the fluid <b>Contagium vivum fluidum</b> (infectious living fluid). <b>W.M. Stanley (1935)</b> showed that <b>viruses could be crystallised</b> and that the crystals consist largely of <b>proteins</b>. Four names, three years: they appear as MCQ, fill-in-the-blank and case-based questions.</p><p><b>Structure and genetic material.</b> Viruses are <b>nucleoproteins</b>, and the <b>genetic material is infectious</b>. A virus contains <b>either RNA or DNA, never both</b>. In general, <b>viruses that infect plants have single-stranded RNA</b>; <b>viruses that infect animals have either single- or double-stranded RNA or double-stranded DNA</b>; <b>bacteriophages</b> (bacterial viruses) are usually <b>double-stranded DNA</b> viruses. The protein coat, the <b>capsid</b>, is made of small subunits called <b>capsomeres</b> and protects the nucleic acid. Capsomeres are arranged in <b>helical or polyhedral</b> geometric forms. NCERT Fig. 2.6 shows the two standard diagrams: the <b>Tobacco Mosaic Virus (TMV)</b>, a rod with a helical capsid around a coiled RNA, and the <b>bacteriophage</b>, with a polyhedral head containing DNA, a collar, a sheath (tail) and tail fibres.</p><p><b>Diseases.</b> Viruses cause <b>mumps, small pox, herpes and influenza</b>. <b>AIDS</b> in humans is also caused by a virus. In plants the symptoms are <b>mosaic formation, leaf rolling and curling, yellowing and vein clearing, dwarfing and stunted growth</b>. Exercise question 11 asks for four common viral diseases; any four of the list above are accepted.</p><p><b>Living or non-living?</b> (exercise question 12). Living features: they have genetic material (DNA or RNA), they multiply inside a host, they mutate and evolve, they are host-specific. Non-living features: no cellular structure, no metabolism of their own, inert outside the host, and they can be crystallised and stored like chemicals. The balanced conclusion is that viruses lie at the boundary between living and non-living.</p>",
+      "formulas": [
+        {
+          "expr": "Pasteur (name, 'venom') · Ivanowsky 1892 (TMV, passes bacteria-proof filters) · Beijerinek 1898 (Contagium vivum fluidum) · Stanley 1935 (crystallised, protein)",
+          "where": [
+            [
+              "Obligate parasite",
+              "inert outside host; uses host machinery to replicate"
+            ]
+          ]
+        },
+        {
+          "expr": "Plant viruses: ssRNA · Animal viruses: ssRNA, dsRNA or dsDNA · Bacteriophage: dsDNA · Capsid = capsomeres (helical or polyhedral)",
+          "where": [
+            [
+              "Nucleoprotein",
+              "nucleic acid + protein coat; never both DNA and RNA"
+            ]
+          ]
+        }
+      ],
+      "tip": "TMV has single-stranded RNA; bacteriophage has double-stranded DNA. Swapping these is the most common error in the viruses MCQ."
+    },
+    {
+      "heading": "2.6 (continued) Viroids, Prions and Lichens",
+      "pyq_years": [],
+      "body": "<p><b>Viroids.</b> In <b>1971 T.O. Diener</b> discovered a new infectious agent that was <b>smaller than viruses</b> and caused <b>potato spindle tuber disease</b>. It was found to be a <b>free RNA</b>; it <b>lacked the protein coat</b> that is found in viruses, hence the name viroid. The <b>RNA of the viroid was of low molecular weight</b>. Exercise question 5 asks how viroids differ from viruses, and the answer is a three-row table: size (viroid smaller), protein coat (absent in viroids, present as capsid in viruses), genetic material (only low-molecular-weight RNA in viroids; DNA or RNA in viruses). Viroids are known to infect only plants.</p><p><b>Prions.</b> In modern medicine certain <b>infectious neurological diseases</b> were found to be transmitted by an agent consisting of <b>abnormally folded protein</b>. The agent was similar in size to viruses. These agents are called prions. The most notable diseases are <b>bovine spongiform encephalopathy (BSE)</b>, commonly called <b>mad cow disease</b>, in cattle, and its analogous variant <b>Creutzfeldt–Jacob disease (CJD)</b> in humans. Three words to remember: protein, abnormally folded, neurological.</p><p><b>Lichens.</b> Lichens are <b>symbiotic associations</b>, that is, <b>mutually useful associations between algae and fungi</b>. The <b>algal component is the phycobiont</b> and the <b>fungal component the mycobiont</b>; the alga is <b>autotrophic</b> and the fungus <b>heterotrophic</b>. The <b>algae prepare food for the fungi</b>, and the <b>fungi provide shelter and absorb mineral nutrients and water</b> for their partner. The association is so close that if one saw a lichen on a tree, one would never imagine that it is made of two different organisms. Lichens are <b>very good pollution indicators</b>: they <b>do not grow in polluted areas</b>, especially where sulphur dioxide is high. Exercise question 8 (phycobiont and mycobiont) and the lichen case study both come from this paragraph.</p><p>Do not mix lichen and mycorrhiza. Both are fungal symbioses, but the lichen partner is an alga (or cyanobacterium) and the mycorrhiza partner is the root of a higher plant. A 2-mark 'distinguish' question on this pair is common.</p>",
+      "formulas": [
+        {
+          "expr": "Viroid (Diener 1971): free low-molecular-weight RNA, no protein coat, potato spindle tuber disease",
+          "where": [
+            [
+              "Prion",
+              "abnormally folded protein; BSE (mad cow) in cattle, CJD in humans"
+            ]
+          ]
+        },
+        {
+          "expr": "Lichen = phycobiont (alga, autotroph) + mycobiont (fungus, heterotroph); pollution indicator",
+          "where": [
+            [
+              "Alga gives",
+              "food"
+            ],
+            [
+              "Fungus gives",
+              "shelter, minerals, water"
+            ]
+          ]
+        }
+      ],
+      "tip": "Viroid = RNA without protein; prion = protein without nucleic acid; virus = nucleic acid wrapped in protein. Hold the three side by side and the MCQs sort themselves out."
+    }
+  ],
+  "key_terms": [
+    {
+      "term": "Five-kingdom classification",
+      "definition": "R.H. Whittaker's 1969 system placing all organisms in Monera, Protista, Fungi, Plantae and Animalia on the basis of cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships."
+    },
+    {
+      "term": "Prokaryote",
+      "definition": "An organism whose cell lacks a nuclear membrane and membrane-bound organelles; bacteria (Kingdom Monera) are the only prokaryotes in the five-kingdom system."
+    },
+    {
+      "term": "Archaebacteria",
+      "definition": "Bacteria of extreme habitats (halophiles in salt, thermoacidophiles in hot springs, methanogens in marshes and the rumen) that differ from other bacteria in their cell wall structure."
+    },
+    {
+      "term": "Methanogens",
+      "definition": "Archaebacteria of marshy areas and the gut of ruminants such as cows and buffaloes; they produce methane (biogas) from dung."
+    },
+    {
+      "term": "Heterocyst",
+      "definition": "A specialised cell in filamentous cyanobacteria such as Nostoc and Anabaena in which atmospheric nitrogen is fixed."
+    },
+    {
+      "term": "Chemosynthetic autotroph",
+      "definition": "A bacterium that oxidises inorganic substances such as nitrates, nitrites and ammonia and uses the released energy to make ATP; important in recycling N, P, Fe and S."
+    },
+    {
+      "term": "Mycoplasma",
+      "definition": "Organisms that completely lack a cell wall, are the smallest living cells known, can survive without oxygen, and are often pathogenic to animals and plants."
+    },
+    {
+      "term": "Diatomaceous earth",
+      "definition": "The accumulated silica cell-wall deposits of diatoms built up over billions of years; gritty, hence used in polishing and in the filtration of oils and syrups."
+    },
+    {
+      "term": "Red tide",
+      "definition": "Reddening of the sea caused by the rapid multiplication of red dinoflagellates such as Gonyaulax; the toxins they release may kill fishes and other marine animals."
+    },
+    {
+      "term": "Pellicle",
+      "definition": "The protein-rich layer that replaces a cell wall in euglenoids and makes the body flexible."
+    },
+    {
+      "term": "Plasmodium (of slime moulds)",
+      "definition": "The large aggregation formed by slime moulds under suitable conditions, which may spread over several feet and later forms spore-bearing fruiting bodies."
+    },
+    {
+      "term": "Pseudopodia",
+      "definition": "False feet: temporary protoplasmic projections used by amoeboid protozoans such as Amoeba to move and to capture prey."
+    },
+    {
+      "term": "Hypha and mycelium",
+      "definition": "A hypha is one of the long, slender thread-like filaments that make up a fungal body; the network of hyphae is the mycelium."
+    },
+    {
+      "term": "Coenocytic hypha",
+      "definition": "A hypha that is a continuous tube filled with multinucleated cytoplasm, without septa; typical of Phycomycetes."
+    },
+    {
+      "term": "Plasmogamy",
+      "definition": "The first step of the fungal sexual cycle: fusion of the protoplasms of two motile or non-motile gametes (or of two somatic cells in Basidiomycetes)."
+    },
+    {
+      "term": "Karyogamy",
+      "definition": "Fusion of the two nuclei that follows plasmogamy; in Ascomycetes and Basidiomycetes it is delayed, producing a dikaryotic (n + n) phase."
+    },
+    {
+      "term": "Dikaryophase",
+      "definition": "The stage in Ascomycetes and Basidiomycetes in which each cell carries two haploid nuclei (n + n), between plasmogamy and karyogamy."
+    },
+    {
+      "term": "Conidia",
+      "definition": "Asexual, non-motile spores produced exogenously on conidiophores in Ascomycetes and Deuteromycetes."
+    },
+    {
+      "term": "Ascus and ascocarp",
+      "definition": "The ascus is the sac in which ascospores are produced endogenously in Ascomycetes; asci are arranged in fruiting bodies called ascocarps."
+    },
+    {
+      "term": "Basidium and basidiocarp",
+      "definition": "The club-shaped cell of Basidiomycetes in which karyogamy and meiosis occur to give four exogenous basidiospores; basidia are arranged in fruiting bodies called basidiocarps."
+    },
+    {
+      "term": "Imperfect fungi",
+      "definition": "Deuteromycetes: fungi in which only the asexual or vegetative phase is known; they reproduce only by conidia (Alternaria, Colletotrichum, Trichoderma)."
+    },
+    {
+      "term": "Alternation of generations",
+      "definition": "The alternation of a diploid sporophytic phase and a haploid gametophytic phase in the life cycle of plants."
+    },
+    {
+      "term": "Holozoic nutrition",
+      "definition": "The animal mode of nutrition: ingestion of solid food, which is then digested in an internal cavity."
+    },
+    {
+      "term": "Capsid and capsomeres",
+      "definition": "The capsid is the protein coat of a virus that protects its nucleic acid; it is built of small subunits called capsomeres arranged in helical or polyhedral forms."
+    },
+    {
+      "term": "Viroid",
+      "definition": "An infectious agent smaller than a virus consisting of free, low-molecular-weight RNA without a protein coat; discovered by T.O. Diener in 1971 as the cause of potato spindle tuber disease."
+    },
+    {
+      "term": "Prion",
+      "definition": "An infectious agent made of abnormally folded protein, similar in size to a virus, that causes neurological diseases such as BSE (mad cow disease) in cattle and CJD in humans."
+    },
+    {
+      "term": "Lichen",
+      "definition": "A symbiotic association of an alga (phycobiont, autotrophic) and a fungus (mycobiont, heterotrophic) in which the alga makes food and the fungus provides shelter, minerals and water; a pollution indicator."
+    }
+  ],
+  "formula_sheet": [
+    {
+      "name": "Whittaker's five criteria (1969)",
+      "expr": "Cell structure · Body organisation · Mode of nutrition · Reproduction · Phylogenetic relationships → Monera, Protista, Fungi, Plantae, Animalia",
+      "note": "Two-kingdom (Linnaeus) failed to separate prokaryote/eukaryote, unicellular/multicellular, photosynthetic/non-photosynthetic. Three-domain system splits Monera into two domains, giving six kingdoms."
+    },
+    {
+      "name": "Table 2.1 in one line each",
+      "expr": "Cell type: prokaryotic only in Monera · Cell wall: non-cellulosic (Monera), present in some (Protista), without cellulose (Fungi), cellulose (Plantae), absent (Animalia) · Nuclear membrane: absent only in Monera · Body: cellular (Monera, Protista), multicellular/loose tissue (Fungi), tissue/organ (Plantae), tissue/organ/organ system (Animalia) · Nutrition: auto- and heterotrophic (Monera, Protista), heterotrophic saprophytic/parasitic (Fungi), autotrophic (Plantae), heterotrophic holozoic/saprophytic (Animalia)",
+      "note": "The 5-mark table; draw kingdoms as columns"
+    },
+    {
+      "name": "Bacterial shapes",
+      "expr": "Coccus (spherical, pl. cocci) · Bacillus (rod, pl. bacilli) · Vibrium (comma, pl. vibrio) · Spirillum (spiral, pl. spirilla)",
+      "note": "NCERT Fig. 2.1; draw all four when asked"
+    },
+    {
+      "name": "Archaebacteria",
+      "expr": "Halophiles → salty areas · Thermoacidophiles → hot springs · Methanogens → marshy areas, rumen of cows and buffaloes → methane (biogas) from dung",
+      "note": "Survive extreme conditions because of a different cell wall structure"
+    },
+    {
+      "name": "Eubacteria facts",
+      "expr": "Cyanobacteria: chlorophyll a, gelatinous sheath, blooms, heterocysts fix N<sub>2</sub> (Nostoc, Anabaena) · Chemosynthetic: oxidise NH<sub>3</sub>/NO<sub>2</sub><sup>−</sup>/NO<sub>3</sub><sup>−</sup> → ATP, recycle N, P, Fe, S · Heterotrophs: most abundant, decomposers, curd, antibiotics, legume N-fixation; pathogens: cholera, typhoid, tetanus, citrus canker · Reproduction: fission, spores, primitive DNA transfer · Mycoplasma: no cell wall, smallest living cells, survive without O<sub>2</sub>",
+      "note": "Every clause is a possible 1-mark question"
+    },
+    {
+      "name": "Kingdom Protista groups",
+      "expr": "Chrysophytes: diatoms + golden algae (desmids), silica soap-box walls, diatomaceous earth, chief producers of oceans · Dinoflagellates: marine, cellulose plates, two flagella (longitudinal + transverse in furrow), Gonyaulax red tides · Euglenoids: stagnant fresh water, pellicle, two unequal flagella, photosynthetic in light and heterotrophic in dark, plant pigments, Euglena · Slime moulds: saprophytic, plasmodium, fruiting bodies, resistant walled spores dispersed by air · Protozoans: heterotrophs, predators or parasites",
+      "note": "Learn as a 5-row table with one example each"
+    },
+    {
+      "name": "Four groups of protozoans",
+      "expr": "Amoeboid: pseudopodia, Amoeba, Entamoeba (parasite), marine forms with silica shells · Flagellated: flagella, Trypanosoma (sleeping sickness) · Ciliated: thousands of cilia, gullet, Paramoecium · Sporozoans: infectious spore-like stage, Plasmodium (malaria)",
+      "note": "NCERT exercise Q6; 3 marks"
+    },
+    {
+      "name": "Fungi: body and nutrition",
+      "expr": "Hyphae → mycelium; coenocytic (aseptate, multinucleate) or septate · Wall: chitin + polysaccharides · Saprophytes (dead substrates), parasites (living hosts), symbionts (lichen with algae, mycorrhiza with roots) · Prefer warm humid places · Unicellular exception: yeast",
+      "note": "Chitin wall is the table entry that separates Fungi from Plantae"
+    },
+    {
+      "name": "Fungi: reproduction",
+      "expr": "Vegetative: fragmentation, fission, budding · Asexual spores: conidia, sporangiospores, zoospores · Sexual spores: oospores, ascospores, basidiospores · Sexual cycle: plasmogamy → karyogamy → meiosis; dikaryophase (n + n) in Ascomycetes and Basidiomycetes",
+      "note": "Three steps, in order, with one-line definitions"
+    },
+    {
+      "name": "Four classes of Fungi",
+      "expr": "Phycomycetes: aseptate coenocytic, zoospores/aplanospores endogenous in sporangium, zygospore, Mucor, Rhizopus, Albugo · Ascomycetes (sac fungi): septate, conidia exogenous on conidiophores, ascospores endogenous in asci, ascocarp, Aspergillus, Claviceps, Neurospora, Penicillium, Saccharomyces · Basidiomycetes: septate, no asexual spores, no sex organs, basidium with 4 exogenous basidiospores, basidiocarp, Agaricus, Ustilago, Puccinia · Deuteromycetes (imperfect): septate, conidia only, Alternaria, Colletotrichum, Trichoderma",
+      "note": "NCERT exercise Q9; the most-asked 5-mark question of the chapter"
+    },
+    {
+      "name": "Plantae and Animalia",
+      "expr": "Plantae: eukaryotic, chlorophyll, cellulose wall, algae to angiosperms, alternation of generations (diploid sporophyte ⇌ haploid gametophyte); partial heterotrophs: bladderwort, Venus fly trap, Cuscuta (parasite) · Animalia: multicellular, no cell wall, holozoic, glycogen or fat reserve, definite shape and size, locomotion, sexual reproduction with embryological development",
+      "note": "Contrast points for a 'distinguish' question"
+    },
+    {
+      "name": "Viruses: discovery timeline",
+      "expr": "Pasteur: name 'virus' (venom) · Ivanowsky 1892: tobacco mosaic agent passes bacteria-proof filters · Beijerinek 1898: Contagium vivum fluidum · Stanley 1935: crystallised, mostly protein",
+      "note": "Names and years are examined as fill-in-the-blanks and case-based items"
+    },
+    {
+      "name": "Viruses: structure and genetic material",
+      "expr": "Nucleoprotein; DNA or RNA, never both · Plant viruses ssRNA · Animal viruses ss/ds RNA or dsDNA · Bacteriophage dsDNA · Capsid of capsomeres, helical (TMV) or polyhedral (bacteriophage head)",
+      "note": "Diseases: mumps, small pox, herpes, influenza, AIDS; plant symptoms: mosaic, leaf rolling and curling, yellowing and vein clearing, dwarfing and stunted growth"
+    },
+    {
+      "name": "Viroids, prions, lichens",
+      "expr": "Viroid: Diener 1971, free low-MW RNA, no protein coat, potato spindle tuber disease · Prion: abnormally folded protein, BSE (mad cow) and CJD · Lichen: phycobiont (alga) + mycobiont (fungus), symbiosis, pollution indicator",
+      "note": "None of the four (viruses included) has a place in the five-kingdom system"
+    }
+  ],
+  "diagrams": [
+    {
+      "title": "Bacteria of different shapes (NCERT Fig. 2.1)",
+      "how_to_draw": "Draw four small sketches in a row, each with its name and plural underneath: a single sphere or a chain of spheres labelled 'Coccus (cocci): spherical'; a rod with rounded ends labelled 'Bacillus (bacilli): rod-shaped'; a short curved comma labelled 'Vibrium (vibrio): comma-shaped'; and a corkscrew or wavy rod labelled 'Spirillum (spirilla): spiral'. Add a single flagellum to the bacillus and the spirillum if you like; the four names with shapes are what earn the marks."
+    },
+    {
+      "title": "A filamentous blue-green alga, Nostoc, with a heterocyst (NCERT Fig. 2.2)",
+      "how_to_draw": "Draw a curved chain of bead-like rounded cells (the trichome) and enclose the whole filament in a wavy outline labelled 'mucilaginous (gelatinous) sheath'. Make one cell in the chain noticeably larger, paler and thick-walled and label it 'heterocyst (nitrogen fixation)'. Label an ordinary cell 'vegetative cell'. The three labels (sheath, heterocyst, vegetative cell) plus the name Nostoc make the complete diagram; the same sketch serves for Anabaena if the question asks for it."
+    },
+    {
+      "title": "Euglena (NCERT Fig. 2.4)",
+      "how_to_draw": "Draw a spindle-shaped cell with a blunt anterior and a pointed posterior end. At the anterior end draw a flask-shaped reservoir with two flagella emerging, one long and one short, and label 'long flagellum' and 'short flagellum'. Beside the reservoir draw a small red dot labelled 'eye spot (stigma)' and a contractile vacuole. Fill the body with several oval 'chloroplasts' and a central 'nucleus'. Draw the outline as a striated boundary and label it 'pellicle (protein-rich, no cell wall)'. Six labels: pellicle, long flagellum, short flagellum, eye spot, chloroplast, nucleus."
+    },
+    {
+      "title": "A dinoflagellate, Gonyaulax-type (NCERT Fig. 2.3)",
+      "how_to_draw": "Draw a roughly rounded cell whose surface is divided into plates like the panels of a football; label the surface 'cellulose plates (theca)'. Draw a horizontal groove running round the middle of the cell and label it 'transverse furrow (girdle)' with a flagellum lying inside it labelled 'transverse flagellum'. Draw a second groove running from the girdle down the length of the cell, labelled 'longitudinal furrow', with a trailing flagellum labelled 'longitudinal flagellum'. Add a nucleus. Four labels: plates, transverse flagellum in furrow, longitudinal flagellum, nucleus."
+    },
+    {
+      "title": "Mucor or Rhizopus, a phycomycete (NCERT Fig. 2.5a)",
+      "how_to_draw": "Draw a horizontal branching mass of threads labelled 'mycelium (aseptate, coenocytic hyphae)'. From it raise two or three vertical unbranched stalks labelled 'sporangiophore', each ending in a round black ball labelled 'sporangium' filled with dots labelled 'sporangiospores (aplanospores)'. For Rhizopus add root-like tufts below the stalks labelled 'rhizoids' and a horizontal runner labelled 'stolon'. Show a small enlargement of a hypha with many nuclei and no cross wall, labelled 'coenocytic hypha'. Labels that count: mycelium, sporangiophore, sporangium, spores, (rhizoids, stolon)."
+    },
+    {
+      "title": "Aspergillus, an ascomycete conidiophore (NCERT Fig. 2.5b)",
+      "how_to_draw": "Draw a septate hypha on the ground labelled 'septate mycelium', with a cross wall shown. Raise a single erect stalk labelled 'conidiophore' from a swollen foot cell. End the stalk in a round swelling labelled 'vesicle'. On the vesicle draw a layer of small bottle-shaped cells labelled 'sterigmata (phialides)', and from each draw a chain of beads radiating outwards labelled 'conidia (exogenous asexual spores)'. Five labels: septate hypha, conidiophore, vesicle, sterigmata, chains of conidia."
+    },
+    {
+      "title": "Agaricus, the mushroom basidiocarp (NCERT Fig. 2.5c)",
+      "how_to_draw": "Draw an umbrella-shaped fruiting body: an upright stalk labelled 'stipe (stalk)' carrying a domed cap labelled 'pileus (cap)'. Under the cap draw closely spaced radiating plates labelled 'gills (lamellae), bear basidia'. A ring on the stalk below the cap is the 'annulus'. Below ground draw a spreading network of threads labelled 'mycelium (septate, dikaryotic)'. In a small inset draw a club-shaped cell with four tiny spores on short stalks at its top, labelled 'basidium' and 'four basidiospores (exogenous)'. Labels: pileus, gills, stipe, annulus, mycelium, basidium with basidiospores; write 'basidiocarp' as the title of the whole structure."
+    },
+    {
+      "title": "Tobacco Mosaic Virus, TMV (NCERT Fig. 2.6a)",
+      "how_to_draw": "Draw a long rod (a cylinder seen slightly from above) and cover its surface with a spiral of small identical bricks; label the bricks 'capsomeres (protein subunits)' and the whole coat 'capsid (helical)'. Inside, draw a single coiled thread running the length of the rod, following the spiral, and label it 'single-stranded RNA'. Label the ends to show the hollow core. Three labels (capsomere, capsid, ssRNA) plus the title earn full marks; mention the length of about 300 nm only if you are confident."
+    },
+    {
+      "title": "Bacteriophage (NCERT Fig. 2.6b)",
+      "how_to_draw": "Draw a hexagonal (polyhedral) head labelled 'head (polyhedral capsid)' with a coiled thread inside labelled 'double-stranded DNA'. Below the head draw a short neck labelled 'collar', then a cylindrical tail with horizontal striations labelled 'sheath (contractile tail)'. At the base draw a flat hexagonal plate labelled 'base plate' and six bent legs radiating from it labelled 'tail fibres'. Five labels: head, dsDNA, collar, sheath, base plate with tail fibres. State in the caption that bacteriophages are viruses that infect bacteria."
+    }
+  ],
+  "ncert_questions": [
+    {
+      "kind": "exercise",
+      "number": "2.1",
+      "q": "Discuss how classification systems have undergone several changes over a period of time?",
+      "a": "<p>The basis of classification changed as more characters became known.</p><ul><li><b>Aristotle</b> made the earliest scientific attempt. He used simple morphological characters: plants were classified into trees, shrubs and herbs; animals into those with red blood and those without.</li><li><b>Linnaeus</b> proposed the <b>two-kingdom system</b>, Plantae and Animalia. It was used for a long time but it did not distinguish eukaryotes from prokaryotes, unicellular from multicellular organisms, or photosynthetic organisms (green algae) from non-photosynthetic ones (fungi). Every organism with a cell wall, from bacteria and blue-green algae to fungi, mosses, ferns, gymnosperms and angiosperms, was placed under Plants, although they differ in cell wall composition, nuclear organisation and mode of nutrition.</li><li>These drawbacks led to a shift from habitat and gross morphology to characters such as cell structure, cell wall nature, mode of nutrition, reproduction and evolutionary relationship.</li><li><b>R.H. Whittaker (1969)</b> proposed the <b>five-kingdom classification</b>: Monera, Protista, Fungi, Plantae and Animalia, on the criteria of cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships. Prokaryotes got their own kingdom (Monera), unicellular eukaryotes were separated as Protista, and fungi were removed from plants.</li><li>More recently a <b>three-domain system</b> has been proposed which divides Kingdom Monera into two domains and keeps the eukaryotic kingdoms in a third domain, giving a six-kingdom classification.</li></ul><p>Thus plant and animal kingdoms have remained constant, but what is placed in them and the number and nature of the other kingdoms have kept changing.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "2.2",
+      "q": "State two economically important uses of: (a) heterotrophic bacteria (b) archaebacteria",
+      "a": "<p><b>(a) Heterotrophic bacteria:</b> (i) They are the major <b>decomposers</b> of dead organic matter and so recycle nutrients. (ii) They help in <b>making curd from milk</b> (Lactobacillus), in the <b>production of antibiotics</b>, and in <b>fixing nitrogen in the root nodules of legumes</b> (Rhizobium). Any two.</p><p><b>(b) Archaebacteria:</b> (i) <b>Methanogens</b> living in marshy areas and in the gut of ruminants such as cows and buffaloes produce <b>methane (biogas)</b> from dung and organic waste, so they are used in gobar-gas plants. (ii) Methanogens in the rumen help cattle digest cellulose-rich fodder; halophiles and thermoacidophiles are also used in industry (for example in bioleaching of metals and as sources of heat-stable enzymes).</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.3",
+      "q": "What is the nature of cell walls in diatoms?",
+      "a": "<p>In diatoms the cell wall forms <b>two thin overlapping shells (halves) that fit together as in a soap box</b>. The walls are <b>embedded with silica</b> and are therefore <b>indestructible</b>. Because they do not decay, the walls of dead diatoms accumulate on the sea floor over billions of years as <b>diatomaceous earth</b>, a gritty deposit used in polishing and in the filtration of oils and syrups.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.4",
+      "q": "Find out what do the terms 'algal bloom' and 'red tides' signify.",
+      "a": "<p><b>Algal bloom:</b> a rapid and excessive growth of algae, most often cyanobacteria (blue-green algae), in a water body that has become rich in nutrients (nitrates and phosphates from sewage or fertiliser run-off). The water turns green or blue-green, light is cut off from deeper layers, oxygen is depleted when the bloom decays, and some species release toxins, so aquatic animals die. NCERT notes that cyanobacteria often form blooms in polluted water bodies.</p><p><b>Red tides:</b> the reddening of sea water caused by the very rapid multiplication of <b>red dinoflagellates</b>, for example <b>Gonyaulax</b>. The toxins released by such large numbers of dinoflagellates may kill other marine animals such as fishes. A red tide is thus a marine bloom of red-pigmented dinoflagellates.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.5",
+      "q": "How are viroids different from viruses?",
+      "a": "<ul><li><b>Size:</b> viroids are smaller than viruses.</li><li><b>Protein coat:</b> a virus has a protein coat (capsid) made of capsomeres; a viroid has <b>no protein coat</b>; it is a free nucleic acid.</li><li><b>Genetic material:</b> viruses contain either DNA or RNA (single- or double-stranded); a viroid consists only of a <b>free RNA of low molecular weight</b>.</li><li><b>Hosts:</b> viruses infect plants, animals and bacteria; viroids are known to infect only plants (for example potato spindle tuber disease).</li><li><b>Discovery:</b> viruses were first recognised by Ivanowsky (1892); viroids were discovered by T.O. Diener in 1971.</li></ul>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.6",
+      "q": "Describe briefly the four major groups of Protozoa.",
+      "a": "<p>All protozoans are heterotrophs living as predators or parasites, and are believed to be primitive relatives of animals. The four groups are:</p><ol><li><b>Amoeboid protozoans:</b> live in fresh water, sea water or moist soil; move and capture prey by putting out <b>pseudopodia</b> (false feet), as in <b>Amoeba</b>; marine forms have silica shells; some are parasites, for example <b>Entamoeba</b>.</li><li><b>Flagellated protozoans:</b> free-living or parasitic; move by <b>flagella</b>; the parasitic forms cause diseases such as sleeping sickness; example <b>Trypanosoma</b>.</li><li><b>Ciliated protozoans:</b> aquatic, actively moving because of thousands of <b>cilia</b>; have a cavity, the <b>gullet</b>, opening to the outside; coordinated movement of rows of cilia steers water laden with food into the gullet; example <b>Paramoecium</b>.</li><li><b>Sporozoans:</b> diverse organisms with an <b>infectious spore-like stage</b> in their life cycle; the most notorious is <b>Plasmodium</b>, the malarial parasite.</li></ol>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.7",
+      "q": "Plants are autotrophic. Can you think of some plants that are partially heterotrophic?",
+      "a": "<p>Yes. Some plants have chlorophyll and photosynthesise but also take part of their nutrition from other organisms; they are partially heterotrophic.</p><ul><li><b>Insectivorous plants</b> such as the <b>bladderwort (Utricularia)</b>, the <b>Venus fly trap (Dionaea)</b> and the pitcher plant (Nepenthes) trap and digest insects to obtain nitrogen, because they grow in nitrogen-poor soils, while still making their own carbohydrate by photosynthesis.</li><li><b>Parasitic plants</b> such as <b>Cuscuta</b> (dodder) have lost most of their chlorophyll and draw water and food from the host plant through haustoria.</li></ul>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.8",
+      "q": "What do the terms phycobiont and mycobiont signify?",
+      "a": "<p>The two terms name the two partners of a <b>lichen</b>, which is a symbiotic (mutually useful) association of an alga and a fungus.</p><ul><li><b>Phycobiont</b> is the <b>algal component</b>. It is <b>autotrophic</b> and prepares food for the fungus by photosynthesis.</li><li><b>Mycobiont</b> is the <b>fungal component</b>. It is <b>heterotrophic</b>; it provides shelter to the alga and absorbs mineral nutrients and water for it.</li></ul><p>The association is so close that a lichen on a tree looks like a single organism. Lichens do not grow in polluted areas and are good pollution indicators.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exercise",
+      "number": "2.9",
+      "q": "Give a comparative account of the classes of Kingdom Fungi under the following: (i) mode of nutrition (ii) mode of reproduction.",
+      "a": "<p>Present it as a table with the four classes as columns.</p><p><b>Phycomycetes.</b> Nutrition: saprophytic on decaying wood in moist damp places, aquatic, or obligate parasites on plants. Mycelium: aseptate, coenocytic. Asexual reproduction: motile zoospores or non-motile aplanospores produced endogenously in a sporangium. Sexual reproduction: fusion of two gametes (isogamous, anisogamous or oogamous) forming a zygospore. Examples: Mucor, Rhizopus, Albugo.</p><p><b>Ascomycetes (sac fungi).</b> Nutrition: saprophytic, decomposers, parasitic or coprophilous (on dung). Mycelium: branched, septate (unicellular in yeast). Asexual reproduction: conidia produced exogenously on conidiophores. Sexual reproduction: ascospores produced endogenously in sac-like asci, arranged in fruiting bodies called ascocarps; a dikaryophase precedes karyogamy. Examples: Aspergillus, Claviceps, Neurospora, Penicillium, Saccharomyces.</p><p><b>Basidiomycetes.</b> Nutrition: saprophytic in soil, on logs and tree stumps, or parasitic in living plants (rusts, smuts). Mycelium: branched, septate. Asexual spores generally absent; vegetative reproduction by fragmentation. Sexual reproduction: sex organs absent; plasmogamy by fusion of two somatic cells of different strains gives a dikaryotic mycelium; karyogamy and meiosis occur in the basidium, which bears four exogenous basidiospores; basidia are arranged in basidiocarps. Examples: Agaricus, Ustilago, Puccinia.</p><p><b>Deuteromycetes (imperfect fungi).</b> Nutrition: saprophytes or parasites; many are decomposers of litter that help in mineral cycling. Mycelium: septate, branched. Reproduction: only asexual, by conidia; the sexual stage is not known (when discovered, the fungus is moved to its proper class). Examples: Alternaria, Colletotrichum, Trichoderma.</p>",
+      "marks": 5
+    },
+    {
+      "kind": "exercise",
+      "number": "2.10",
+      "q": "What are the characteristic features of Euglenoids?",
+      "a": "<ul><li>Most are <b>fresh water organisms found in stagnant water</b>.</li><li>They have <b>no cell wall</b>; instead a <b>protein-rich layer, the pellicle</b>, covers the body and makes it flexible.</li><li>They bear <b>two flagella, one short and one long</b>.</li><li>They are <b>photosynthetic in the presence of sunlight</b>; when deprived of sunlight they <b>behave as heterotrophs</b>, preying on smaller organisms. Their pigments are <b>identical to those of higher plants</b>.</li><li>They possess an eye spot and reproduce asexually by longitudinal binary fission.</li><li>Example: <b>Euglena</b>.</li></ul>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.11",
+      "q": "Give a brief account of viruses with respect to their structure and nature of genetic material. Also name four common viral diseases.",
+      "a": "<p><b>Structure:</b> Viruses are non-cellular, <b>obligate parasites</b>. A virus is a <b>nucleoprotein</b>: a core of nucleic acid surrounded by a protein coat, the <b>capsid</b>, made of small subunits called <b>capsomeres</b>. The capsomeres are arranged in <b>helical</b> forms (as in the rod-shaped tobacco mosaic virus) or <b>polyhedral</b> forms (as in the head of a bacteriophage). Outside the host cell the virus is an inert crystalline structure; inside, it takes over the host's machinery to replicate.</p><p><b>Genetic material:</b> A virus contains <b>either DNA or RNA, never both</b>, and the nucleic acid is infectious. In general, <b>plant viruses have single-stranded RNA</b>; <b>animal viruses have single- or double-stranded RNA or double-stranded DNA</b>; <b>bacteriophages are usually double-stranded DNA</b> viruses.</p><p><b>Four viral diseases:</b> mumps, small pox, herpes, influenza (also AIDS). In plants viruses cause mosaic formation, leaf rolling and curling, yellowing and vein clearing, dwarfing and stunted growth.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exercise",
+      "number": "2.12",
+      "q": "Organise a discussion in your class on the topic: Are viruses living or non-living?",
+      "a": "<p><b>Points for viruses being living:</b> (i) they possess genetic material, DNA or RNA, which is infectious; (ii) they multiply (replicate) inside a host cell; (iii) they undergo mutation and evolve, and show host specificity; (iv) they respond to the host environment.</p><p><b>Points for viruses being non-living:</b> (i) they have no cellular organisation, no cytoplasm, membranes or organelles; (ii) they have no metabolism or respiration of their own and cannot grow or multiply outside a host; (iii) outside the host they are inert and can be crystallised and stored like a chemical (Stanley, 1935); (iv) they do not respond to stimuli in the way living cells do.</p><p><b>Conclusion:</b> viruses lie on the boundary between living and non-living. They behave as living organisms only within a host cell and as inert chemicals outside it, which is why Whittaker did not include them in the five kingdoms.</p>",
+      "marks": 3
+    },
+    {
+      "kind": "exemplar",
+      "number": "Ex. SA",
+      "q": "Why are cyanobacteria called blue-green algae, and why are they placed in Kingdom Monera and not Plantae?",
+      "a": "<p>Cyanobacteria contain <b>chlorophyll a</b> similar to green plants and are <b>photosynthetic autotrophs</b>; they are often filamentous or colonial and live in water, so earlier workers grouped them with algae and called them blue-green algae (the blue colour comes from the pigment phycocyanin). However, they are <b>prokaryotes</b>: they have no nuclear membrane, no membrane-bound organelles and a non-cellulosic cell wall. Since Whittaker's first criterion is cell structure, all prokaryotes go into Monera, so cyanobacteria are placed with bacteria, not with plants.</p>",
+      "marks": 2
+    },
+    {
+      "kind": "exemplar",
+      "number": "Ex. SA",
+      "q": "Distinguish between a lichen and a mycorrhiza.",
+      "a": "<ul><li><b>Partners:</b> a lichen is a symbiotic association of a <b>fungus with an alga</b> (or cyanobacterium); a mycorrhiza is a symbiotic association of a <b>fungus with the roots of a higher plant</b>.</li><li><b>Exchange:</b> in a lichen the alga (phycobiont) supplies food and the fungus (mycobiont) supplies shelter, water and minerals; in a mycorrhiza the plant supplies food and the fungus absorbs water and phosphorus from the soil for the root.</li><li><b>Appearance and site:</b> a lichen is a distinct body growing on rocks, bark and soil and is a pollution indicator; a mycorrhiza is not a separate body but a fungal sheath or network around and inside the root.</li></ul>",
+      "marks": 2
+    },
+    {
+      "kind": "exemplar",
+      "number": "Ex. SA",
+      "q": "Describe the three steps of sexual reproduction in fungi. In which classes does a dikaryophase occur?",
+      "a": "<ol><li><b>Plasmogamy:</b> fusion of the protoplasms of two motile or non-motile gametes (or, in Basidiomycetes, of two somatic cells of different strains).</li><li><b>Karyogamy:</b> fusion of the two nuclei to form a diploid nucleus.</li><li><b>Meiosis:</b> reduction division in the zygote (in the fruiting body) producing haploid spores.</li></ol><p>In some fungi karyogamy follows plasmogamy immediately, giving diploid cells at once. In <b>Ascomycetes and Basidiomycetes</b> there is an intervening <b>dikaryotic (n + n) stage</b>, the <b>dikaryophase</b>, in which each cell carries two haploid nuclei; the nuclei fuse later, and the fruiting bodies (ascocarp, basidiocarp) are where meiosis produces ascospores and basidiospores.</p>",
+      "marks": 3
+    }
+  ],
+  "pyq": [
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which one of the following kingdoms consists of eukaryotic organisms whose cell wall is made of chitin and whose mode of nutrition is heterotrophic (saprophytic or parasitic)?",
+      "options": [
+        "Monera",
+        "Protista",
+        "Fungi",
+        "Plantae"
+      ],
+      "answer": "c",
+      "solution": "Fungi are eukaryotic, have a cell wall of chitin and polysaccharides (no cellulose) and are heterotrophic saprophytes or parasites. Monera is prokaryotic, Plantae has cellulose walls and is autotrophic, and Protista has no chitin wall."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Heterocysts of Nostoc and Anabaena are specialised for",
+      "options": [
+        "Photosynthesis",
+        "Nitrogen fixation",
+        "Spore formation",
+        "Locomotion"
+      ],
+      "answer": "b",
+      "solution": "Some cyanobacteria such as Nostoc and Anabaena fix atmospheric nitrogen in specialised cells called heterocysts."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The chief 'producers' in the oceans are",
+      "options": [
+        "Dinoflagellates",
+        "Euglenoids",
+        "Diatoms",
+        "Slime moulds"
+      ],
+      "answer": "c",
+      "solution": "NCERT states that diatoms (chrysophytes) are the chief producers in the oceans; they are photosynthetic plankton with silica walls."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Which of the following protozoans has an infectious spore-like stage in its life cycle?",
+      "options": [
+        "Paramoecium",
+        "Trypanosoma",
+        "Plasmodium",
+        "Entamoeba"
+      ],
+      "answer": "c",
+      "solution": "Sporozoans have an infectious spore-like stage; Plasmodium, the malarial parasite, is the notorious example. Paramoecium is ciliated, Trypanosoma flagellated and Entamoeba amoeboid."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Basidiospores are produced",
+      "options": [
+        "Endogenously inside an ascus",
+        "Exogenously on a basidium",
+        "Endogenously inside a sporangium",
+        "Exogenously on a conidiophore"
+      ],
+      "answer": "b",
+      "solution": "In Basidiomycetes karyogamy and meiosis occur in the basidium, which bears four basidiospores exogenously. Ascospores are endogenous in asci, sporangiospores endogenous in sporangia and conidia exogenous on conidiophores."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "The scientist who demonstrated that the extract of infected tobacco plants could cause infection in healthy plants and called the fluid Contagium vivum fluidum was",
+      "options": [
+        "D.J. Ivanowsky",
+        "M.W. Beijerinek",
+        "W.M. Stanley",
+        "Louis Pasteur"
+      ],
+      "answer": "b",
+      "solution": "Beijerinek (1898) gave the name Contagium vivum fluidum. Ivanowsky (1892) found the agent passed bacteria-proof filters, Stanley (1935) crystallised viruses, and Pasteur gave the name virus."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Bovine spongiform encephalopathy (mad cow disease) is caused by",
+      "options": [
+        "A double-stranded DNA virus",
+        "A viroid",
+        "An abnormally folded protein (prion)",
+        "A mycoplasma"
+      ],
+      "answer": "c",
+      "solution": "Prions are infectious agents made of abnormally folded protein; they cause BSE in cattle and Creutzfeldt–Jacob disease in humans."
+    },
+    {
+      "type": "MCQ",
+      "year": null,
+      "marks": 1,
+      "q": "Archaebacteria are able to survive in extreme habitats because",
+      "options": [
+        "They lack a cell wall",
+        "They have a different cell wall structure from other bacteria",
+        "They are photosynthetic",
+        "They have a nuclear membrane"
+      ],
+      "answer": "b",
+      "solution": "NCERT attributes the survival of archaebacteria in harsh conditions to their different cell wall structure. Lacking a cell wall is the feature of Mycoplasma, and no bacterium has a nuclear membrane."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Mycoplasma can survive without oxygen. Reason (R): Mycoplasma completely lack a cell wall.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "b",
+      "solution": "Both statements are NCERT facts about Mycoplasma, but the absence of a cell wall has nothing to do with the ability to live without oxygen, so R does not explain A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Diatomaceous earth is used in polishing and in the filtration of oils and syrups. Reason (R): The silica-embedded cell walls of diatoms are indestructible and their accumulated deposits are gritty.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The gritty, indestructible silica deposits are exactly why diatomaceous earth is useful for polishing and filtration; R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Viruses are placed in Kingdom Monera along with bacteria. Reason (R): Viruses are non-cellular obligate parasites that are inert outside their host cell.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "d",
+      "solution": "Viruses are not placed in any kingdom precisely because they are non-cellular and not truly living; A is false, R is true."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Deuteromycetes are called imperfect fungi. Reason (R): Only the asexual or vegetative phase of these fungi is known.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "The name imperfect refers to the missing (unknown) sexual stage; when the sexual form is discovered the fungus is moved to its proper class. R explains A."
+    },
+    {
+      "type": "Assertion–Reason",
+      "year": null,
+      "marks": 1,
+      "q": "Assertion (A): Lichens are good indicators of air pollution. Reason (R): Lichens do not grow in polluted areas.",
+      "options": [
+        "Both A and R are true and R is the correct explanation of A",
+        "Both A and R are true but R is not the correct explanation of A",
+        "A is true but R is false",
+        "A is false but R is true"
+      ],
+      "answer": "a",
+      "solution": "Because lichens are absent from polluted areas, their presence or absence indicates the level of pollution; R explains A."
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "State two drawbacks of the two-kingdom system of classification.",
+      "answer": "<p>The two-kingdom system of Linnaeus (Plantae and Animalia) did not distinguish: (i) <b>prokaryotes from eukaryotes</b>, so bacteria and blue-green algae were placed with plants; (ii) <b>unicellular from multicellular</b> organisms; and (iii) <b>photosynthetic organisms (green algae) from non-photosynthetic ones (fungi)</b>, so fungi with chitin walls and heterotrophic nutrition sat with green plants. Any two, each for one mark.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Name the four shapes of bacteria with their plural forms.",
+      "answer": "<p>(i) <b>Coccus</b> (pl. cocci): spherical. (ii) <b>Bacillus</b> (pl. bacilli): rod-shaped. (iii) <b>Vibrium</b> (pl. vibrio): comma-shaped. (iv) <b>Spirillum</b> (pl. spirilla): spiral. Half a mark each; a small sketch of each earns full credit when diagrams are asked.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What is a heterocyst? Name two organisms that possess heterocysts.",
+      "answer": "<p>A heterocyst is a <b>specialised, thick-walled cell</b> in the filament of certain <b>cyanobacteria (blue-green algae)</b> in which <b>atmospheric nitrogen is fixed</b>. Organisms: <b>Nostoc</b> and <b>Anabaena</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Why do viruses not find a place in Whittaker's five-kingdom classification?",
+      "answer": "<p>Whittaker's system classifies <b>living organisms with a cellular structure</b>. Viruses are <b>non-cellular</b>: they have no cytoplasm, membranes or organelles, and no metabolism of their own. They are <b>inert crystalline structures outside the host cell</b> and multiply only by taking over the machinery of a host cell (obligate parasites). Since they are not truly living by the cell criterion, they, along with viroids, prions and lichens, are not placed in any of the five kingdoms.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "Differentiate between plasmogamy and karyogamy.",
+      "answer": "<p><b>Plasmogamy</b> is the <b>fusion of the protoplasms</b> of two motile or non-motile gametes (or two somatic cells) without fusion of nuclei; it is the first step of the fungal sexual cycle and, in Ascomycetes and Basidiomycetes, produces a dikaryotic (n + n) cell. <b>Karyogamy</b> is the <b>fusion of the two nuclei</b> that follows, giving a diploid (2n) nucleus which then undergoes meiosis to produce haploid spores.</p>",
+      "solution": ""
+    },
+    {
+      "type": "VSA",
+      "year": null,
+      "marks": 2,
+      "q": "What are Mycoplasma? Mention two of their features.",
+      "answer": "<p>Mycoplasma are organisms of Kingdom Monera that <b>completely lack a cell wall</b>. Features: (i) they are the <b>smallest living cells</b> known; (ii) they can <b>survive without oxygen</b>; (iii) many are <b>pathogenic</b> in animals and plants. Any two.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Name the three groups of archaebacteria with the habitat of each. Why are they able to live in such habitats?",
+      "answer": "<p>Archaebacteria live in the most harsh habitats:</p><ul><li><b>Halophiles</b>: extremely <b>salty</b> areas.</li><li><b>Thermoacidophiles</b>: <b>hot springs</b> (hot, acidic water).</li><li><b>Methanogens</b>: <b>marshy areas</b>, and also the <b>gut of ruminants</b> such as cows and buffaloes, where they produce methane (biogas) from dung.</li></ul><p>They survive extreme conditions because they <b>differ from other bacteria in having a different cell wall structure</b>, which is responsible for their tolerance of heat, acid and salt.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Give three characteristic features each of dinoflagellates and chrysophytes.",
+      "answer": "<p><b>Dinoflagellates:</b> (i) mostly <b>marine and photosynthetic</b>, appearing yellow, green, brown, blue or red depending on the main pigments; (ii) cell wall with <b>stiff cellulose plates</b> on the outer surface; (iii) most have <b>two flagella</b>, one lying longitudinally and the other transversely in a furrow between the wall plates; red dinoflagellates such as Gonyaulax multiply rapidly to cause <b>red tides</b> whose toxins may kill fishes.</p><p><b>Chrysophytes:</b> (i) include <b>diatoms and golden algae (desmids)</b>, found in fresh water and the sea; (ii) <b>microscopic plankton</b> that float passively, most of them <b>photosynthetic</b> and the chief producers of the oceans; (iii) diatom cell walls form <b>two overlapping shells like a soap box</b>, <b>embedded with silica</b> and hence indestructible, their deposits forming diatomaceous earth used in polishing and filtration.</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Write the characteristic features of slime moulds.",
+      "answer": "<ul><li>Slime moulds are <b>saprophytic protists</b>; the body moves along decaying twigs and leaves, <b>engulfing organic material</b>.</li><li>Under suitable conditions they form an <b>aggregation called plasmodium</b>, which may grow and spread over several feet.</li><li>During unfavourable conditions the plasmodium differentiates into <b>fruiting bodies bearing spores at their tips</b>.</li><li>The spores possess <b>true walls</b>, are <b>extremely resistant</b> and survive for many years even under adverse conditions.</li><li>The spores are <b>dispersed by air currents</b>.</li></ul>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Compare Phycomycetes and Ascomycetes on the basis of mycelium, asexual spores and sexual spores.",
+      "answer": "<p><b>Mycelium:</b> Phycomycetes have an <b>aseptate, coenocytic</b> mycelium; Ascomycetes have a <b>branched, septate</b> mycelium (yeast is unicellular).</p><p><b>Asexual spores:</b> Phycomycetes produce <b>zoospores (motile) or aplanospores (non-motile) endogenously inside a sporangium</b>; Ascomycetes produce <b>conidia exogenously on conidiophores</b>.</p><p><b>Sexual spores:</b> Phycomycetes form a <b>zygospore</b> by fusion of two gametes (isogamous, anisogamous or oogamous); Ascomycetes form <b>ascospores endogenously in sac-like asci</b>, which are arranged in fruiting bodies called <b>ascocarps</b>, after a dikaryophase.</p><p>Examples: Mucor, Rhizopus, Albugo (Phycomycetes); Aspergillus, Claviceps, Neurospora (Ascomycetes).</p>",
+      "solution": ""
+    },
+    {
+      "type": "SA",
+      "year": null,
+      "marks": 3,
+      "q": "Describe the structure of a virus. What kind of genetic material is found in plant viruses, animal viruses and bacteriophages?",
+      "answer": "<p>A virus is a <b>nucleoprotein</b>: a core of nucleic acid enclosed in a protein coat called the <b>capsid</b>. The capsid is built of small subunits, the <b>capsomeres</b>, arranged in <b>helical</b> (rod-shaped TMV) or <b>polyhedral</b> (bacteriophage head) forms; it protects the nucleic acid. A virus contains <b>either DNA or RNA, never both</b>, and the genetic material is infectious. <b>Plant viruses</b> generally have <b>single-stranded RNA</b>; <b>animal viruses</b> have <b>single- or double-stranded RNA or double-stranded DNA</b>; <b>bacteriophages</b> are usually <b>double-stranded DNA</b> viruses.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "State the criteria used by R.H. Whittaker for the five-kingdom classification and compare the five kingdoms on the basis of cell type, cell wall, body organisation and mode of nutrition.",
+      "answer": "<p><b>Criteria (1969):</b> (i) cell structure (prokaryotic or eukaryotic); (ii) body organisation; (iii) mode of nutrition; (iv) reproduction; (v) phylogenetic relationships.</p><p><b>Comparison (write as a table, kingdoms as columns):</b></p><ul><li><b>Cell type:</b> Monera prokaryotic; Protista, Fungi, Plantae, Animalia eukaryotic.</li><li><b>Cell wall:</b> Monera non-cellulosic (polysaccharide + amino acid); Protista present in some; Fungi present, without cellulose (chitin); Plantae present, cellulose; Animalia absent.</li><li><b>Nuclear membrane:</b> absent in Monera; present in the other four.</li><li><b>Body organisation:</b> Monera cellular; Protista cellular; Fungi multicellular or loose tissue; Plantae tissue or organ; Animalia tissue, organ and organ system.</li><li><b>Mode of nutrition:</b> Monera autotrophic (chemosynthetic and photosynthetic) and heterotrophic (saprophytic or parasitic); Protista autotrophic (photosynthetic) and heterotrophic; Fungi heterotrophic (saprophytic or parasitic); Plantae autotrophic (photosynthetic); Animalia heterotrophic (holozoic or saprophytic).</li></ul><p>Thus prokaryotes, unicellular eukaryotes, chitin-walled heterotrophs, cellulose-walled autotrophs and wall-less holozoic organisms each get a kingdom, removing the drawbacks of the two-kingdom system.</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Describe Kingdom Fungi with respect to habitat, body structure, mode of nutrition and reproduction.",
+      "answer": "<p><b>Habitat:</b> Fungi are cosmopolitan, occurring in air, water, soil and on animals and plants; they prefer warm and humid places.</p><p><b>Body structure:</b> Except the unicellular yeast, fungi are filamentous. The body is made of long, slender thread-like <b>hyphae</b>; the network of hyphae is the <b>mycelium</b>. Hyphae may be <b>coenocytic</b> (continuous tubes with multinucleated cytoplasm) or <b>septate</b> (with cross walls). The cell wall is of <b>chitin and polysaccharides</b>.</p><p><b>Nutrition:</b> heterotrophic. <b>Saprophytes</b> absorb soluble organic matter from dead substrates; <b>parasites</b> depend on living plants and animals (Puccinia causes wheat rust, Albugo the white spots on mustard); <b>symbionts</b> live with algae as lichens and with plant roots as mycorrhiza.</p><p><b>Reproduction:</b> <b>Vegetative</b> by fragmentation, fission and budding. <b>Asexual</b> by spores: conidia, sporangiospores or zoospores. <b>Sexual</b> by oospores, ascospores and basidiospores, formed in fruiting bodies. The sexual cycle has three steps: <b>plasmogamy</b> (fusion of protoplasms), <b>karyogamy</b> (fusion of nuclei) and <b>meiosis</b> in the zygote giving haploid spores. In Ascomycetes and Basidiomycetes a <b>dikaryophase (n + n)</b> intervenes between plasmogamy and karyogamy.</p><p><b>Classes</b> (based on mycelium, spore formation and fruiting body): Phycomycetes (Mucor, Rhizopus, Albugo), Ascomycetes (Aspergillus, Neurospora, Penicillium), Basidiomycetes (Agaricus, Ustilago, Puccinia), Deuteromycetes (Alternaria, Colletotrichum, Trichoderma).</p>",
+      "solution": ""
+    },
+    {
+      "type": "LA",
+      "year": null,
+      "marks": 5,
+      "q": "Give an account of the five groups of Kingdom Protista, mentioning one distinguishing feature and one example of each.",
+      "answer": "<p>Protista includes all single-celled eukaryotes, mostly aquatic, with a well-defined nucleus and membrane-bound organelles; some have flagella or cilia; they reproduce asexually and sexually by cell fusion and zygote formation.</p><ol><li><b>Chrysophytes</b> (diatoms and golden algae/desmids): microscopic photosynthetic plankton; diatoms have silica-embedded walls in two overlapping halves like a soap box, leaving diatomaceous earth; chief producers of the oceans. Example: diatoms.</li><li><b>Dinoflagellates:</b> mostly marine, photosynthetic, with stiff cellulose plates and two flagella (one longitudinal, one transverse in a furrow); red forms cause red tides. Example: Gonyaulax.</li><li><b>Euglenoids:</b> fresh water, stagnant; no cell wall but a protein-rich pellicle; two unequal flagella; photosynthetic in light, heterotrophic in the dark; pigments like higher plants. Example: Euglena.</li><li><b>Slime moulds:</b> saprophytic; form a plasmodium that spreads over several feet and, in unfavourable conditions, fruiting bodies with resistant walled spores dispersed by air. Example: Physarum (slime mould).</li><li><b>Protozoans:</b> heterotrophic predators or parasites, primitive relatives of animals; four groups: amoeboid (Amoeba, pseudopodia), flagellated (Trypanosoma), ciliated (Paramoecium, gullet) and sporozoans (Plasmodium, spore-like stage).</li></ol>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. A group of students on a field trip noticed grey-green crusty patches on the bark of old trees and on rocks in a village, but found almost none on trees along the main road of a nearby industrial town. Their teacher explained that the patches are not a single organism but a partnership of two, one making food and the other providing shelter and minerals, and that the patches disappear where the air is polluted.<br>(i) Name the organism the students saw and the two partners in it.<br>(ii) What is the phycobiont and what does it contribute?<br>(iii) What does the mycobiont contribute?<br>(iv) Why were the patches absent in the industrial town? What term describes this use of the organism?",
+      "answer": "<p>(i) The patches are <b>lichens</b>, a symbiotic association of an <b>alga</b> (or cyanobacterium) and a <b>fungus</b>.</p><p>(ii) The <b>phycobiont</b> is the <b>algal partner</b>; it is autotrophic and <b>prepares food by photosynthesis</b> for the fungus.</p><p>(iii) The <b>mycobiont</b> is the <b>fungal partner</b>; it is heterotrophic and provides <b>shelter</b> to the alga and <b>absorbs mineral nutrients and water</b> for it.</p><p>(iv) Lichens <b>do not grow in polluted areas</b>, particularly where sulphur dioxide from vehicles and industry is high, so their absence along the main road shows the air is polluted. Lichens are therefore called <b>pollution indicators</b>.</p>",
+      "solution": ""
+    },
+    {
+      "type": "Case",
+      "year": null,
+      "marks": 4,
+      "q": "Read the passage and answer the questions. In 1892 a Russian scientist studying a disease that mottled tobacco leaves found that the sap of a diseased plant remained infectious even after it was passed through filters fine enough to hold back bacteria. In 1898 a Dutch scientist showed that the filtered sap could infect healthy plants and called it an infectious living fluid. In 1935 an American scientist crystallised the agent and found the crystals to be largely protein.<br>(i) Name the three scientists in order.<br>(ii) What is the disease, and what is the nature of the genetic material of the virus that causes it?<br>(iii) What Latin name did the second scientist give to the infectious fluid?<br>(iv) Which observation among the three supports the view that viruses are non-living? Give one reason why they are nevertheless treated as living.",
+      "answer": "<p>(i) <b>D.J. Ivanowsky</b> (1892), <b>M.W. Beijerinek</b> (1898) and <b>W.M. Stanley</b> (1935).</p><p>(ii) The disease is the <b>mosaic disease of tobacco</b>, caused by the Tobacco Mosaic Virus (TMV), whose genetic material is <b>single-stranded RNA</b> (like plant viruses in general), enclosed in a helical capsid of capsomeres.</p><p>(iii) <b>Contagium vivum fluidum</b> (infectious living fluid).</p><p>(iv) <b>Stanley's crystallisation</b> of the virus supports the non-living view: living cells cannot be crystallised and stored like a chemical, and the virus is inert outside the host. Viruses are still treated as living because they carry <b>infectious genetic material (RNA or DNA)</b> and <b>replicate</b> inside a host cell, taking over its machinery, and they mutate.</p>",
+      "solution": ""
+    }
+  ],
+  "practice_mcq": [
+    {
+      "q": "The five-kingdom classification was proposed by",
+      "options": [
+        "Carl Linnaeus",
+        "Aristotle",
+        "R.H. Whittaker",
+        "Ernst Haeckel"
+      ],
+      "answer_index": 2,
+      "explanation": "Whittaker proposed the five kingdoms Monera, Protista, Fungi, Plantae and Animalia in 1969. Linnaeus gave the two-kingdom system."
+    },
+    {
+      "q": "Which of the following was NOT a criterion used by Whittaker for his classification?",
+      "options": [
+        "Cell structure",
+        "Mode of nutrition",
+        "Habitat",
+        "Phylogenetic relationships"
+      ],
+      "answer_index": 2,
+      "explanation": "The five criteria are cell structure, body organisation, mode of nutrition, reproduction and phylogenetic relationships. Habitat was Aristotle's kind of criterion, not Whittaker's."
+    },
+    {
+      "q": "Comma-shaped bacteria are called",
+      "options": [
+        "Cocci",
+        "Bacilli",
+        "Vibrio",
+        "Spirilla"
+      ],
+      "answer_index": 2,
+      "explanation": "Vibrium (plural vibrio) is comma-shaped; cocci are spherical, bacilli rod-shaped, spirilla spiral."
+    },
+    {
+      "q": "Methanogens are found in",
+      "options": [
+        "Hot springs",
+        "Extremely salty areas",
+        "The gut of ruminants and marshy areas",
+        "The cell walls of diatoms"
+      ],
+      "answer_index": 2,
+      "explanation": "Methanogens live in marshy areas and in the gut of ruminants such as cows and buffaloes, producing methane from dung. Halophiles live in salt, thermoacidophiles in hot springs."
+    },
+    {
+      "q": "The smallest living cells known, which completely lack a cell wall, are",
+      "options": [
+        "Cyanobacteria",
+        "Mycoplasma",
+        "Archaebacteria",
+        "Viroids"
+      ],
+      "answer_index": 1,
+      "explanation": "Mycoplasma lack a cell wall entirely, are the smallest living cells known and can survive without oxygen. Viroids are not cells at all."
+    },
+    {
+      "q": "The cell walls of diatoms are indestructible because they are embedded with",
+      "options": [
+        "Chitin",
+        "Cellulose",
+        "Silica",
+        "Protein (pellicle)"
+      ],
+      "answer_index": 2,
+      "explanation": "Silica impregnation makes diatom walls indestructible; their deposits form diatomaceous earth."
+    },
+    {
+      "q": "Red tides in the sea are caused by the rapid multiplication of",
+      "options": [
+        "Gonyaulax",
+        "Euglena",
+        "Nostoc",
+        "Paramoecium"
+      ],
+      "answer_index": 0,
+      "explanation": "Red dinoflagellates such as Gonyaulax multiply so rapidly that the sea appears red; their toxins may kill fishes."
+    },
+    {
+      "q": "A protein-rich pellicle instead of a cell wall is a feature of",
+      "options": [
+        "Dinoflagellates",
+        "Euglenoids",
+        "Chrysophytes",
+        "Slime moulds"
+      ],
+      "answer_index": 1,
+      "explanation": "Euglenoids such as Euglena have a flexible protein-rich pellicle in place of a cell wall."
+    },
+    {
+      "q": "Sleeping sickness is caused by a",
+      "options": [
+        "Ciliated protozoan",
+        "Sporozoan",
+        "Flagellated protozoan",
+        "Amoeboid protozoan"
+      ],
+      "answer_index": 2,
+      "explanation": "Parasitic flagellated protozoans such as Trypanosoma cause sleeping sickness."
+    },
+    {
+      "q": "The fungal cell wall is composed of",
+      "options": [
+        "Cellulose",
+        "Chitin and polysaccharides",
+        "Peptidoglycan",
+        "Silica"
+      ],
+      "answer_index": 1,
+      "explanation": "Fungi have walls of chitin and polysaccharides, which is why the five-kingdom table lists their wall as present but without cellulose."
+    },
+    {
+      "q": "A fungus with aseptate, coenocytic mycelium that forms zygospores belongs to",
+      "options": [
+        "Ascomycetes",
+        "Basidiomycetes",
+        "Deuteromycetes",
+        "Phycomycetes"
+      ],
+      "answer_index": 3,
+      "explanation": "Phycomycetes (Mucor, Rhizopus, Albugo) have aseptate coenocytic hyphae, endogenous sporangiospores and a zygospore from gamete fusion."
+    },
+    {
+      "q": "Neurospora, used extensively in biochemical and genetic work, belongs to",
+      "options": [
+        "Phycomycetes",
+        "Ascomycetes",
+        "Basidiomycetes",
+        "Deuteromycetes"
+      ],
+      "answer_index": 1,
+      "explanation": "Neurospora is an ascomycete along with Aspergillus, Claviceps, Penicillium and yeast."
+    },
+    {
+      "q": "Ustilago (smut) and Puccinia (rust) are examples of",
+      "options": [
+        "Basidiomycetes",
+        "Ascomycetes",
+        "Deuteromycetes",
+        "Phycomycetes"
+      ],
+      "answer_index": 0,
+      "explanation": "Rusts and smuts, together with Agaricus, are Basidiomycetes; they produce four exogenous basidiospores on a basidium."
+    },
+    {
+      "q": "Fungi in which only the asexual or vegetative phase is known are placed in",
+      "options": [
+        "Ascomycetes",
+        "Deuteromycetes",
+        "Phycomycetes",
+        "Basidiomycetes"
+      ],
+      "answer_index": 1,
+      "explanation": "Deuteromycetes are the imperfect fungi (Alternaria, Colletotrichum, Trichoderma); they reproduce only by conidia."
+    },
+    {
+      "q": "Which of the following is a parasitic plant?",
+      "options": [
+        "Venus fly trap",
+        "Bladderwort",
+        "Cuscuta",
+        "Nepenthes"
+      ],
+      "answer_index": 2,
+      "explanation": "Cuscuta (dodder) is a parasite; Venus fly trap, bladderwort and Nepenthes are insectivorous, partially heterotrophic plants."
+    },
+    {
+      "q": "Animals store their food reserves as",
+      "options": [
+        "Starch",
+        "Cellulose",
+        "Glycogen or fat",
+        "Chitin"
+      ],
+      "answer_index": 2,
+      "explanation": "NCERT: animals digest food in an internal cavity and store food reserves as glycogen or fat; starch is the plant reserve."
+    },
+    {
+      "q": "The genetic material of a bacteriophage is usually",
+      "options": [
+        "Single-stranded RNA",
+        "Double-stranded RNA",
+        "Single-stranded DNA",
+        "Double-stranded DNA"
+      ],
+      "answer_index": 3,
+      "explanation": "Bacteriophages are usually double-stranded DNA viruses; plant viruses are generally single-stranded RNA."
+    },
+    {
+      "q": "Viroids were discovered by",
+      "options": [
+        "W.M. Stanley",
+        "T.O. Diener",
+        "M.W. Beijerinek",
+        "D.J. Ivanowsky"
+      ],
+      "answer_index": 1,
+      "explanation": "Diener (1971) discovered the viroid causing potato spindle tuber disease, a free RNA without a protein coat."
+    },
+    {
+      "q": "In a lichen, the fungal partner is called the",
+      "options": [
+        "Phycobiont",
+        "Mycobiont",
+        "Symbiont",
+        "Mycorrhiza"
+      ],
+      "answer_index": 1,
+      "explanation": "The mycobiont is the fungal (heterotrophic) partner; the phycobiont is the algal (autotrophic) partner."
+    },
+    {
+      "q": "Which of the following statements about Kingdom Protista is correct?",
+      "options": [
+        "All members are prokaryotic",
+        "All members are multicellular",
+        "All members are single-celled eukaryotes",
+        "All members are autotrophic"
+      ],
+      "answer_index": 2,
+      "explanation": "Protista includes all single-celled eukaryotes; it has both autotrophic (diatoms) and heterotrophic (protozoans) members."
+    }
+  ],
+  "common_mistakes": [
+    "Writing that most bacteria are autotrophs. NCERT says the vast majority are heterotrophs; only some are photosynthetic or chemosynthetic autotrophs. The MCQ on this is set to catch the reverse.",
+    "Placing cyanobacteria (blue-green algae) in Kingdom Plantae or Protista because of the word algae. They are prokaryotes and belong in Monera; the examiner takes off the mark for the kingdom.",
+    "Giving 'they lack a cell wall' as the reason archaebacteria survive extreme conditions. Wall-less cells are Mycoplasma; archaebacteria have a different cell wall structure.",
+    "Swapping the genetic material of viruses: plant viruses are single-stranded RNA and bacteriophages double-stranded DNA, not the other way round. TMV, the plant virus in the diagram, has RNA.",
+    "Mixing endogenous and exogenous spores. Sporangiospores (in sporangia) and ascospores (in asci) are endogenous; conidia (on conidiophores) and basidiospores (on basidia) are exogenous. A comparison table with these reversed loses two of five marks.",
+    "Listing only three of Whittaker's five criteria. Reproduction and phylogenetic relationships are the two most often left out; write all five as separate points.",
+    "Calling Cuscuta an insectivorous plant. Cuscuta is a parasite; bladderwort and Venus fly trap are the insectivorous, partially heterotrophic plants.",
+    "Confusing viroid, prion and virus. A viroid is free RNA without a protein coat; a prion is abnormally folded protein with no nucleic acid; a virus is nucleic acid inside a protein capsid. Each has its own discoverer and disease, so keep the three in one table.",
+    "Writing 'algae and bacteria' as the partners of a lichen. NCERT says alga (phycobiont) and fungus (mycobiont); the word bacteria costs the mark unless you say cyanobacterium as the algal partner.",
+    "Labelling the euglenoid covering as a cell wall, or forgetting that the two flagella are unequal. The pellicle is protein-rich, and the flagella are one short and one long."
+  ],
+  "strategy": "<p>This chapter is a memory chapter, so plan for recall, not derivation. Spend the first sitting on the five-kingdom table (Table 2.1) and the five criteria; write the table from memory three times until the cell wall and nutrition rows come without thinking, because that table is the 5-mark question and also the source of half the MCQs.</p><p>Second sitting: Kingdom Monera and Protista. Make one page for each with the groups as rows and three columns: defining feature, extra fact, example. For Monera the rows are archaebacteria (three groups), cyanobacteria, chemosynthetic bacteria, heterotrophic bacteria and Mycoplasma. For Protista the rows are chrysophytes, dinoflagellates, euglenoids, slime moulds and the four protozoan groups. Every VSA and SA question from these sections is a row of that page.</p><p>Third sitting: Fungi. Learn the three-step sexual cycle and the dikaryophase first, then the four-class comparison table (mycelium, asexual spores, sexual spores, fruiting body, three examples each). Say the examples aloud with their class; Rhizopus-Phycomycetes, Neurospora-Ascomycetes, Ustilago-Basidiomycetes, Trichoderma-Deuteromycetes. This table is the second 5-mark question of the chapter.</p><p>Fourth sitting: viruses, viroids, prions and lichens. Four names with years for the discovery of viruses, the genetic-material rule (plant ssRNA, animal ss/dsRNA or dsDNA, phage dsDNA), the capsid and capsomere words, and the two lichen partners. Practise the TMV and bacteriophage diagrams with labels.</p><p>Diagrams matter in biology: practise the nine in the diagram list until each takes under two minutes with labels. In the paper, answer the table and comparison questions in tabular form, underline the NCERT terms, and never leave a 1-mark name question blank; a guess from the right kingdom often scores.</p>",
+  "revision_checklist": [
+    "I can state Whittaker's five criteria and the year (1969), and list three drawbacks of the two-kingdom system.",
+    "I can write Table 2.1 from memory: cell type, cell wall, nuclear membrane, body organisation and mode of nutrition for all five kingdoms.",
+    "I can name and draw the four bacterial shapes with their plurals.",
+    "I know the three groups of archaebacteria with their habitats and why they survive there (different cell wall).",
+    "I can explain heterocysts, name Nostoc and Anabaena, and state what chemosynthetic bacteria oxidise and recycle.",
+    "I can give three facts about Mycoplasma and the four NCERT bacterial diseases.",
+    "I know the five groups of Protista with one distinguishing feature and one example each, including diatomaceous earth, red tides (Gonyaulax) and the pellicle.",
+    "I can describe the four groups of protozoans with locomotory organ, example and disease.",
+    "I can define hypha, mycelium, coenocytic, septate and state that the fungal wall is chitin.",
+    "I can write the sexual cycle of fungi (plasmogamy, karyogamy, meiosis) and explain the dikaryophase.",
+    "I can fill the four-class fungal table: mycelium, asexual spores, sexual spores, fruiting body and three examples for each class.",
+    "I know the defining features of Plantae (cellulose wall, alternation of generations, partial heterotrophs) and Animalia (no wall, holozoic, glycogen or fat).",
+    "I can name Pasteur, Ivanowsky (1892), Beijerinek (1898) and Stanley (1935) with what each did.",
+    "I can describe virus structure (capsid, capsomeres, helical or polyhedral) and the genetic-material rule for plant, animal and bacterial viruses.",
+    "I can distinguish viroid (Diener 1971, free RNA), prion (abnormal protein, BSE, CJD) and virus, and name the phycobiont and mycobiont of a lichen.",
+    "I can draw and label Nostoc, Euglena, a dinoflagellate, Mucor, Aspergillus, Agaricus, TMV and a bacteriophage."
+  ],
+  "videos": []
+}
